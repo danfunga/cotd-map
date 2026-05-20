@@ -14,20 +14,8 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 314.6624260215278,
-          "y": 671.0408419569756,
-          "lat": 671,
-          "lng": 315
-        },
-        {
-          "no": 2,
-          "x": 188,
-          "y": 840,
-          "lat": 840,
-          "lng": 188
-        }
+        { "no": 1, "x": 314.6624260215278, "y": 671.0408419569756 },
+        { "no": 2, "x": 188, "y": 840 }
       ],
       "notes": "",
       "latin": "",
@@ -61,20 +49,8 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 411.99980567329794,
-          "y": 1021.0032935987897,
-          "lat": 1021,
-          "lng": 412
-        },
-        {
-          "no": 2,
-          "x": 219.99997408977305,
-          "y": 926.4979415007565,
-          "lat": 926,
-          "lng": 220
-        }
+        { "no": 1, "x": 411.99980567329794, "y": 1021.0032935987897 },
+        { "no": 2, "x": 219.99997408977305, "y": 926.4979415007565 }
       ],
       "notes": "",
       "latin": "Monopterus albus",
@@ -108,20 +84,8 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 602.4549409283442,
-          "y": 827.3091116731638,
-          "lat": 827,
-          "lng": 602
-        },
-        {
-          "no": 2,
-          "x": 395.2727273258744,
-          "y": 441.9650275019792,
-          "lat": 442,
-          "lng": 395
-        }
+        { "no": 1, "x": 602.4549409283442, "y": 827.3091116731638 },
+        { "no": 2, "x": 395.2727273258744, "y": 441.9650275019792 }
       ],
       "notes": "",
       "latin": "Hypophthalmichthys nobilis",
@@ -160,13 +124,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 456.7899888965118,
-          "y": 295.57063453597686,
-          "lat": 296,
-          "lng": 457
-        }
+        { "no": 1, "x": 456.7899888965118, "y": 295.57063453597686 }
       ],
       "notes": "",
       "latin": "Atractosteus spatula",
@@ -206,20 +164,8 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 305.46510302390686,
-          "y": 87.68949925246856,
-          "lat": 88,
-          "lng": 305
-        },
-        {
-          "no": 2,
-          "x": 712.6999154986727,
-          "y": 346.48232278140824,
-          "lat": 346,
-          "lng": 713
-        }
+        { "no": 1, "x": 305.46510302390686, "y": 87.68949925246856 },
+        { "no": 2, "x": 712.6999154986727, "y": 346.48232278140824 }
       ],
       "notes": "",
       "latin": "Pseudoplatystoma corruscans",
@@ -259,13 +205,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 297,
-          "y": 751,
-          "lat": 751,
-          "lng": 297
-        }
+        { "no": 1, "x": 297, "y": 751 }
       ],
       "notes": "",
       "latin": "Oxyeleotris marmorata",
@@ -304,20 +244,8 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 795.9998963590922,
-          "y": 111.00411699848712,
-          "lat": 111,
-          "lng": 796
-        },
-        {
-          "no": 2,
-          "x": 190,
-          "y": 885,
-          "lat": 885,
-          "lng": 190
-        }
+        { "no": 1, "x": 795.9998963590922, "y": 111.00411699848712 },
+        { "no": 2, "x": 190, "y": 885 }
       ],
       "notes": "",
       "latin": "Wallago leerii",
@@ -357,20 +285,8 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "day",
       "locations": [
-        {
-          "no": 1,
-          "x": 623.6680069542117,
-          "y": 135.05739520663056,
-          "lat": 135,
-          "lng": 624
-        },
-        {
-          "no": 2,
-          "x": 222.38500939798053,
-          "y": 283.90628380394725,
-          "lat": 284,
-          "lng": 222
-        }
+        { "no": 1, "x": 623.6680069542117, "y": 135.05739520663056 },
+        { "no": 2, "x": 222.38500939798053, "y": 283.90628380394725 }
       ],
       "notes": "",
       "latin": "Hemibagrus wyckioides",
@@ -410,20 +326,8 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 211,
-          "y": 175,
-          "lat": 175,
-          "lng": 211
-        },
-        {
-          "no": 2,
-          "x": 596.0907142388561,
-          "y": 104.65762593070578,
-          "lat": 105,
-          "lng": 596
-        }
+        { "no": 1, "x": 211, "y": 175 },
+        { "no": 2, "x": 596.0907142388561, "y": 104.65762593070578 }
       ],
       "notes": "",
       "latin": "Bagarius yarrelli",
@@ -462,13 +366,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 459.6193986106072,
-          "y": 619.4179713097898,
-          "lat": 619,
-          "lng": 460
-        }
+        { "no": 1, "x": 459.6193986106072, "y": 619.4179713097898 }
       ],
       "notes": "",
       "latin": "",
@@ -507,13 +405,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 987.11635572393,
-          "y": 852.7707781109763,
-          "lat": 853,
-          "lng": 987
-        }
+        { "no": 1, "x": 987.11635572393, "y": 852.7707781109763 }
       ],
       "notes": "",
       "latin": "Channa marulius",
@@ -552,27 +444,9 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 439,
-          "y": 338,
-          "lat": 338,
-          "lng": 439
-        },
-        {
-          "no": 2,
-          "x": 942,
-          "y": 839,
-          "lat": 839,
-          "lng": 942
-        },
-        {
-          "no": 3,
-          "x": 511,
-          "y": 839,
-          "lat": 839,
-          "lng": 511
-        }
+        { "no": 1, "x": 439, "y": 338 },
+        { "no": 2, "x": 942, "y": 839 },
+        { "no": 3, "x": 511, "y": 839 }
       ],
       "notes": "",
       "latin": "Hemibagrus filamentus",
@@ -606,34 +480,10 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 289.5602268958912,
-          "y": 926.3098833543773,
-          "lat": 926,
-          "lng": 290
-        },
-        {
-          "no": 2,
-          "x": 668,
-          "y": 145,
-          "lat": 145,
-          "lng": 668
-        },
-        {
-          "no": 3,
-          "x": 605.2834046956847,
-          "y": 975.8073580374355,
-          "lat": 976,
-          "lng": 605
-        },
-        {
-          "no": 4,
-          "x": 258,
-          "y": 741,
-          "lat": 741,
-          "lng": 258
-        }
+        { "no": 1, "x": 289.5602268958912, "y": 926.3098833543773 },
+        { "no": 2, "x": 668, "y": 145 },
+        { "no": 3, "x": 605.2834046956847, "y": 975.8073580374355 },
+        { "no": 4, "x": 258, "y": 741 }
       ],
       "notes": "",
       "latin": "Wallago attu",
@@ -673,34 +523,10 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 815.9624818865402,
-          "y": 476,
-          "lat": 476,
-          "lng": 816
-        },
-        {
-          "no": 2,
-          "x": 195.9999611346596,
-          "y": 927.5065871975794,
-          "lat": 928,
-          "lng": 196
-        },
-        {
-          "no": 3,
-          "x": 305.4691377225906,
-          "y": 661.8519471906085,
-          "lat": 662,
-          "lng": 305
-        },
-        {
-          "no": 4,
-          "x": 339.40874174520195,
-          "y": 130.11095109245943,
-          "lat": 130,
-          "lng": 339
-        }
+        { "no": 1, "x": 815.9624818865402, "y": 476 },
+        { "no": 2, "x": 195.9999611346596, "y": 927.5065871975794 },
+        { "no": 3, "x": 305.4691377225906, "y": 661.8519471906085 },
+        { "no": 4, "x": 339.40874174520195, "y": 130.11095109245943 }
       ],
       "notes": "",
       "latin": "Ictalurus punctatus",
@@ -738,34 +564,10 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 246.7810452892349,
-          "y": 927.0356215438734,
-          "lat": 927,
-          "lng": 247
-        },
-        {
-          "no": 2,
-          "x": 399,
-          "y": 419,
-          "lat": 419,
-          "lng": 399
-        },
-        {
-          "no": 3,
-          "x": 293,
-          "y": 712,
-          "lat": 712,
-          "lng": 293
-        },
-        {
-          "no": 4,
-          "x": 528,
-          "y": 873,
-          "lat": 873,
-          "lng": 528
-        }
+        { "no": 1, "x": 246.7810452892349, "y": 927.0356215438734 },
+        { "no": 2, "x": 399, "y": 419 },
+        { "no": 3, "x": 293, "y": 712 },
+        { "no": 4, "x": 528, "y": 873 }
       ],
       "notes": "",
       "latin": "Labeo rohita",
@@ -805,20 +607,8 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 704,
-          "y": 100,
-          "lat": 100,
-          "lng": 704
-        },
-        {
-          "no": 2,
-          "x": 189.150665479188,
-          "y": 260.92473118387477,
-          "lat": 261,
-          "lng": 189
-        }
+        { "no": 1, "x": 704, "y": 100 },
+        { "no": 2, "x": 189.150665479188, "y": 260.92473118387477 }
       ],
       "notes": "",
       "latin": "Oxydoras niger",
@@ -856,34 +646,10 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 328,
-          "y": 715,
-          "lat": 715,
-          "lng": 328
-        },
-        {
-          "no": 2,
-          "x": 841,
-          "y": 929,
-          "lat": 929,
-          "lng": 841
-        },
-        {
-          "no": 3,
-          "x": 1026,
-          "y": 838,
-          "lat": 838,
-          "lng": 1026
-        },
-        {
-          "no": 4,
-          "x": 567,
-          "y": 505,
-          "lat": 505,
-          "lng": 567
-        }
+        { "no": 1, "x": 328, "y": 715 },
+        { "no": 2, "x": 841, "y": 929 },
+        { "no": 3, "x": 1026, "y": 838 },
+        { "no": 4, "x": 567, "y": 505 }
       ],
       "notes": "",
       "latin": "Pristolepis fasciata",
@@ -917,27 +683,9 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 651,
-          "y": 356,
-          "lat": 356,
-          "lng": 651
-        },
-        {
-          "no": 2,
-          "x": 367.69559950219343,
-          "y": 442.6558318008948,
-          "lat": 443,
-          "lng": 368
-        },
-        {
-          "no": 3,
-          "x": 355,
-          "y": 258,
-          "lat": 258,
-          "lng": 355
-        }
+        { "no": 1, "x": 651, "y": 356 },
+        { "no": 2, "x": 367.69559950219343, "y": 442.6558318008948 },
+        { "no": 3, "x": 355, "y": 258 }
       ],
       "notes": "",
       "latin": "Elopichthys bambusa",
@@ -976,13 +724,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 377.9998704488653,
-          "y": 1022.9967064012103,
-          "lat": 1023,
-          "lng": 378
-        }
+        { "no": 1, "x": 377.9998704488653, "y": 1022.9967064012103 }
       ],
       "notes": "",
       "latin": "Mastacembelus erythrotaenia",
@@ -1021,20 +763,8 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "day",
       "locations": [
-        {
-          "no": 1,
-          "x": 477,
-          "y": 354,
-          "lat": 354,
-          "lng": 477
-        },
-        {
-          "no": 2,
-          "x": 693.0000388653405,
-          "y": 329.9967064012103,
-          "lat": 330,
-          "lng": 693
-        }
+        { "no": 1, "x": 477, "y": 354 },
+        { "no": 2, "x": 693.0000388653405, "y": 329.9967064012103 }
       ],
       "notes": "",
       "latin": "Urogymnus polylepis",
@@ -1068,13 +798,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 226.2751617296931,
-          "y": 137.17871555019022,
-          "lat": 137,
-          "lng": 226
-        }
+        { "no": 1, "x": 226.2751617296931, "y": 137.17871555019022 }
       ],
       "notes": "",
       "latin": "Pangasianodon hypophthalmus",
@@ -1112,27 +836,9 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 657,
-          "y": 84,
-          "lat": 84,
-          "lng": 657
-        },
-        {
-          "no": 2,
-          "x": 274,
-          "y": 166,
-          "lat": 166,
-          "lng": 274
-        },
-        {
-          "no": 3,
-          "x": 986,
-          "y": 105,
-          "lat": 105,
-          "lng": 986
-        }
+        { "no": 1, "x": 657, "y": 84 },
+        { "no": 2, "x": 274, "y": 166 },
+        { "no": 3, "x": 986, "y": 105 }
       ],
       "notes": "",
       "latin": "Pangasius sanitwongsei",
@@ -1170,13 +876,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 621.5463934698973,
-          "y": 104.65529700466708,
-          "lat": 105,
-          "lng": 622
-        }
+        { "no": 1, "x": 621.5463934698973, "y": 104.65529700466708 }
       ],
       "notes": "",
       "latin": "Pangasianodon gigas",
@@ -1214,13 +914,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "day",
       "locations": [
-        {
-          "no": 1,
-          "x": 558,
-          "y": 827,
-          "lat": 827,
-          "lng": 558
-        }
+        { "no": 1, "x": 558, "y": 827 }
       ],
       "notes": "",
       "latin": "Gnathanodon speciosus",
@@ -1259,13 +953,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 362.038745252701,
-          "y": 417.9088411538947,
-          "lat": 418,
-          "lng": 362
-        }
+        { "no": 1, "x": 362.038745252701, "y": 417.9088411538947 }
       ],
       "notes": "",
       "latin": "Catlocarpio siamensis",
@@ -1303,13 +991,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1027.0000064775568,
-          "y": 777.9781799080183,
-          "lat": 778,
-          "lng": 1027
-        }
+        { "no": 1, "x": 1027.0000064775568, "y": 777.9781799080183 }
       ],
       "notes": "",
       "latin": "Enhydris enhydris",
@@ -1345,13 +1027,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 205.9998315835249,
-          "y": 904.9967064012103,
-          "lat": 905,
-          "lng": 206
-        }
+        { "no": 1, "x": 205.9998315835249, "y": 904.9967064012103 }
       ],
       "notes": "",
       "latin": "Hylarana erythraea",
@@ -1385,13 +1061,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 249.02743468986728,
-          "y": 905.4091740848172,
-          "lat": 905,
-          "lng": 249
-        }
+        { "no": 1, "x": 249.02743468986728, "y": 905.4091740848172 }
       ],
       "notes": "",
       "latin": "Limnonectes blythii",
@@ -1427,13 +1097,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 282.52788811883875,
-          "y": 671.3585350034257,
-          "lat": 671,
-          "lng": 283
-        }
+        { "no": 1, "x": 282.52788811883875, "y": 671.3585350034257 }
       ],
       "notes": "",
       "latin": "Physignathus cocincinus",
@@ -1469,13 +1133,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 931.5277780003743,
-          "y": 429.3692391994922,
-          "lat": 429,
-          "lng": 932
-        }
+        { "no": 1, "x": 931.5277780003743, "y": 429.3692391994922 }
       ],
       "notes": "",
       "latin": "Lethocerus indicus",
@@ -1509,13 +1167,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 477.00001943267023,
-          "y": 795.9962947013616,
-          "lat": 796,
-          "lng": 477
-        }
+        { "no": 1, "x": 477.00001943267023, "y": 795.9962947013616 }
       ],
       "notes": "",
       "latin": "Cardisoma carnifex",
@@ -1549,13 +1201,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 227.99985749375182,
-          "y": 905.4897075037823,
-          "lat": 905,
-          "lng": 228
-        }
+        { "no": 1, "x": 227.99985749375182, "y": 905.4897075037823 }
       ],
       "notes": "",
       "latin": "Pomacea canaliculata",
@@ -1589,34 +1235,10 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "day",
       "locations": [
-        {
-          "no": 1,
-          "x": 921.3599160305054,
-          "y": 881.7767119273665,
-          "lat": 882,
-          "lng": 921
-        },
-        {
-          "no": 2,
-          "x": 853,
-          "y": 82,
-          "lat": 82,
-          "lng": 853
-        },
-        {
-          "no": 3,
-          "x": 898,
-          "y": 435,
-          "lat": 435,
-          "lng": 898
-        },
-        {
-          "no": 4,
-          "x": 518,
-          "y": 356,
-          "lat": 356,
-          "lng": 518
-        }
+        { "no": 1, "x": 921.3599160305054, "y": 881.7767119273665 },
+        { "no": 2, "x": 853, "y": 82 },
+        { "no": 3, "x": 898, "y": 435 },
+        { "no": 4, "x": 518, "y": 356 }
       ],
       "notes": "",
       "latin": "Heosemys grandis",
@@ -1652,13 +1274,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "day",
       "locations": [
-        {
-          "no": 1,
-          "x": 862.668289547592,
-          "y": 963.0794359760777,
-          "lat": 963,
-          "lng": 863
-        }
+        { "no": 1, "x": 862.668289547592, "y": 963.0794359760777 }
       ],
       "notes": "",
       "latin": "Aonyx cinereus",
@@ -1726,13 +1342,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 825.0272079753815,
-          "y": 97.38858909238161,
-          "lat": 97,
-          "lng": 825
-        }
+        { "no": 1, "x": 825.0272079753815, "y": 97.38858909238161 }
       ],
       "notes": "",
       "latin": "",
@@ -1753,13 +1363,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 790.0270849018036,
-          "y": 140.40958578466586,
-          "lat": 140,
-          "lng": 790
-        }
+        { "no": 1, "x": 790.0270849018036, "y": 140.40958578466586 }
       ],
       "notes": "bamboo rod",
       "latin": "",
@@ -1780,13 +1384,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 823.779386341355,
-          "y": 488.25897910384015,
-          "lat": 488,
-          "lng": 824
-        }
+        { "no": 1, "x": 823.779386341355, "y": 488.25897910384015 }
       ],
       "notes": "",
       "latin": "",
@@ -1807,13 +1405,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 89.09539946561348,
-          "y": 395.98503754805364,
-          "lat": 396,
-          "lng": 89
-        }
+        { "no": 1, "x": 89.09539946561348, "y": 395.98503754805364 }
       ],
       "notes": "",
       "latin": "",
@@ -1834,13 +1426,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 96.8735740586655,
-          "y": 369.11789102051324,
-          "lat": 369,
-          "lng": 97
-        }
+        { "no": 1, "x": 96.8735740586655, "y": 369.11789102051324 }
       ],
       "notes": "",
       "latin": "",
@@ -1861,13 +1447,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1030.3046921002929,
-          "y": 152.27532776622292,
-          "lat": 152,
-          "lng": 1030
-        }
+        { "no": 1, "x": 1030.3046921002929, "y": 152.27532776622292 }
       ],
       "notes": "",
       "latin": "",
@@ -1888,13 +1468,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 695.1235643719012,
-          "y": 848.1042210789439,
-          "lat": 848,
-          "lng": 695
-        }
+        { "no": 1, "x": 695.1235643719012, "y": 848.1042210789439 }
       ],
       "notes": "",
       "latin": "",
@@ -1934,13 +1508,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 118.08676833361332,
-          "y": 147.79405074063357,
-          "lat": 148,
-          "lng": 118
-        }
+        { "no": 1, "x": 118.08676833361332, "y": 147.79405074063357 }
       ],
       "notes": "",
       "latin": "",
@@ -1961,13 +1529,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 156.9775313710904,
-          "y": 548.0054264935355,
-          "lat": 548,
-          "lng": 157
-        }
+        { "no": 1, "x": 156.9775313710904, "y": 548.0054264935355 }
       ],
       "notes": "",
       "latin": "",
@@ -1988,13 +1550,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 143.581804874708,
-          "y": 123.91827758005167,
-          "lat": 124,
-          "lng": 144
-        }
+        { "no": 1, "x": 143.581804874708, "y": 123.91827758005167 }
       ],
       "notes": "",
       "latin": "",
@@ -2015,13 +1571,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1015.4023625338883,
-          "y": 541.6437943888953,
-          "lat": 542,
-          "lng": 1015
-        }
+        { "no": 1, "x": 1015.4023625338883, "y": 541.6437943888953 }
       ],
       "notes": "",
       "latin": "",
@@ -2042,13 +1592,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 202.26886455472422,
-          "y": 573.7942284592888,
-          "lat": 574,
-          "lng": 202
-        }
+        { "no": 1, "x": 202.26886455472422, "y": 573.7942284592888 }
       ],
       "notes": "",
       "latin": "",
@@ -2069,13 +1613,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 309.7081027430748,
-          "y": 120.21420895095989,
-          "lat": 120,
-          "lng": 310
-        }
+        { "no": 1, "x": 309.7081027430748, "y": 120.21420895095989 }
       ],
       "notes": "Repair Kit",
       "latin": "",
@@ -2096,13 +1634,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 480,
-          "y": 323,
-          "lat": 323,
-          "lng": 480
-        }
+        { "no": 1, "x": 480, "y": 323 }
       ],
       "notes": "Collect 4 different chests",
       "latin": "",
@@ -2123,20 +1655,8 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 637,
-          "y": 171,
-          "lat": 171,
-          "lng": 637
-        },
-        {
-          "no": 2,
-          "x": 523,
-          "y": 314,
-          "lat": 314,
-          "lng": 523
-        }
+        { "no": 1, "x": 637, "y": 171 },
+        { "no": 2, "x": 523, "y": 314 }
       ],
       "notes": "",
       "latin": "",
@@ -2176,20 +1696,8 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 823.113217082103,
-          "y": 965.6656029869291,
-          "lat": 966,
-          "lng": 823
-        },
-        {
-          "no": 2,
-          "x": 555.1551750233758,
-          "y": 135.48046844065826,
-          "lat": 135,
-          "lng": 555
-        }
+        { "no": 1, "x": 823.113217082103, "y": 965.6656029869291 },
+        { "no": 2, "x": 555.1551750233758, "y": 135.48046844065826 }
       ],
       "notes": "",
       "latin": "",
@@ -2210,13 +1718,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 212.8724982223806,
-          "y": 1001.0025883663885,
-          "lat": 1001,
-          "lng": 213
-        }
+        { "no": 1, "x": 212.8724982223806, "y": 1001.0025883663885 }
       ],
       "notes": "",
       "latin": "",
@@ -2237,13 +1739,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 907.2600599637268,
-          "y": 667.437995118492,
-          "lat": 667,
-          "lng": 907
-        }
+        { "no": 1, "x": 907.2600599637268, "y": 667.437995118492 }
       ],
       "notes": "",
       "latin": "",
@@ -2264,13 +1760,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 103.02710433447379,
-          "y": 209.1777987698414,
-          "lat": 209,
-          "lng": 103
-        }
+        { "no": 1, "x": 103.02710433447379, "y": 209.1777987698414 }
       ],
       "notes": "",
       "latin": "",
@@ -2291,13 +1781,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 952.0373647843421,
-          "y": 414.9647535643932,
-          "lat": 415,
-          "lng": 952
-        }
+        { "no": 1, "x": 952.0373647843421, "y": 414.9647535643932 }
       ],
       "notes": "",
       "latin": "",
@@ -2318,13 +1802,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 309.7127701597078,
-          "y": 352.13917703090067,
-          "lat": 352,
-          "lng": 310
-        }
+        { "no": 1, "x": 309.7127701597078, "y": 352.13917703090067 }
       ],
       "notes": "",
       "latin": "",
@@ -2345,13 +1823,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 495,
-          "y": 294,
-          "lat": 294,
-          "lng": 495
-        }
+        { "no": 1, "x": 495, "y": 294 }
       ],
       "notes": "",
       "latin": "",
@@ -2372,13 +1844,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 350.72101411599203,
-          "y": 104.65070249756418,
-          "lat": 105,
-          "lng": 351
-        }
+        { "no": 1, "x": 350.72101411599203, "y": 104.65070249756418 }
       ],
       "notes": "",
       "latin": "",
@@ -2399,34 +1865,10 @@ export const thailandMap = {
       "isMonster": true,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 917.5296111489303,
-          "y": 409.2906045283883,
-          "lat": 409,
-          "lng": 918
-        },
-        {
-          "no": 2,
-          "x": 806.102226427663,
-          "y": 86.2670273047588,
-          "lat": 86,
-          "lng": 806
-        },
-        {
-          "no": 3,
-          "x": 766.4987920562278,
-          "y": 330.92597359530424,
-          "lat": 331,
-          "lng": 766
-        },
-        {
-          "no": 4,
-          "x": 644.5268646648747,
-          "y": 118.6181022917782,
-          "lat": 119,
-          "lng": 645
-        }
+        { "no": 1, "x": 917.5296111489303, "y": 409.2906045283883 },
+        { "no": 2, "x": 806.102226427663, "y": 86.2670273047588 },
+        { "no": 3, "x": 766.4987920562278, "y": 330.92597359530424 },
+        { "no": 4, "x": 644.5268646648747, "y": 118.6181022917782 }
       ],
       "notes": "Map monster.",
       "latin": "",

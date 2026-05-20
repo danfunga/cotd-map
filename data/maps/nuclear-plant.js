@@ -14,13 +14,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 362.0386719675123,
-          "y": 2319.239192925038,
-          "lat": 2319,
-          "lng": 362
-        }
+        { "no": 1, "x": 362.0386719675123, "y": 2319.239192925038 }
       ],
       "notes": "",
       "latin": "Pomifex pisciculus",
@@ -54,13 +48,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 916.4103884177655,
-          "y": 2047.7046495072432,
-          "lat": 2048,
-          "lng": 916
-        }
+        { "no": 1, "x": 916.4103884177655, "y": 2047.7046495072432 }
       ],
       "notes": "",
       "latin": "Chiropteroanguilla nocturna",
@@ -99,13 +87,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1832.820776835531,
-          "y": 1301.0280674756732,
-          "lat": 1301,
-          "lng": 1833
-        }
+        { "no": 1, "x": 1832.820776835531, "y": 1301.0280674756732 }
       ],
       "notes": "",
       "latin": "Amphorichthys vitreius",
@@ -144,13 +126,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 2716,
-          "y": 1371.965854177754,
-          "lat": 1372,
-          "lng": 2716
-        }
+        { "no": 1, "x": 2716, "y": 1371.965854177754 }
       ],
       "notes": "",
       "latin": "Panisbutyra piscis domesticus",
@@ -188,13 +164,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 2300,
-          "y": 2271.9802448110695,
-          "lat": 2272,
-          "lng": 2300
-        }
+        { "no": 1, "x": 2300, "y": 2271.9802448110695 }
       ],
       "notes": "",
       "latin": "Bulbus aquatilis",
@@ -228,13 +198,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1452,
-          "y": 1163.9666205428418,
-          "lat": 1164,
-          "lng": 1452
-        }
+        { "no": 1, "x": 1452, "y": 1163.9666205428418 }
       ],
       "notes": "",
       "latin": "Daucicarpa piscinus",
@@ -273,13 +237,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1220,
-          "y": 687.9564874933476,
-          "lat": 688,
-          "lng": 1220
-        }
+        { "no": 1, "x": 1220, "y": 687.9564874933476 }
       ],
       "notes": "",
       "latin": "Duplicatrotus absurdus",
@@ -317,13 +275,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1800,
-          "y": 819.9592974986695,
-          "lat": 820,
-          "lng": 1800
-        }
+        { "no": 1, "x": 1800, "y": 819.9592974986695 }
       ],
       "notes": "",
       "latin": "Tridentinasus forcipatus",
@@ -361,13 +313,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1227.5373721398464,
-          "y": 1600.847725099519,
-          "lat": 1601,
-          "lng": 1228
-        }
+        { "no": 1, "x": 1227.5373721398464, "y": 1600.847725099519 }
       ],
       "notes": "",
       "latin": "Radiometrus piscis",
@@ -405,13 +351,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 2670.035205760403,
-          "y": 248.83077845613798,
-          "lat": 249,
-          "lng": 2670
-        }
+        { "no": 1, "x": 2670.035205760403, "y": 248.83077845613798 }
       ],
       "notes": "",
       "latin": "Xenoradiatus sectilis",
@@ -449,13 +389,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1544.3212101114198,
-          "y": 1125.661852639084,
-          "lat": 1126,
-          "lng": 1544
-        }
+        { "no": 1, "x": 1544.3212101114198, "y": 1125.661852639084 }
       ],
       "notes": "",
       "latin": "Cultercauda acuta",
@@ -493,20 +427,8 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1555.6349186104044,
-          "y": 2189.1730910029146,
-          "lat": 2189,
-          "lng": 1556
-        },
-        {
-          "no": 2,
-          "x": 486.48946545634465,
-          "y": 2562.5334193646854,
-          "lat": 2563,
-          "lng": 486
-        }
+        { "no": 1, "x": 1555.6349186104044, "y": 2189.1730910029146 },
+        { "no": 2, "x": 486.48946545634465, "y": 2562.5334193646854 }
       ],
       "notes": "",
       "latin": "Cepa marina lacrimosa",
@@ -540,20 +462,8 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 582.6559876977151,
-          "y": 2443.7369512495766,
-          "lat": 2444,
-          "lng": 583
-        },
-        {
-          "no": 2,
-          "x": 514.7737367038065,
-          "y": 1702.6732691981838,
-          "lat": 1703,
-          "lng": 515
-        }
+        { "no": 1, "x": 582.6559876977151, "y": 2443.7369512495766 },
+        { "no": 2, "x": 514.7737367038065, "y": 1702.6732691981838 }
       ],
       "notes": "",
       "latin": "Tuberosus aquatiliformis",
@@ -591,13 +501,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 537.4011537017761,
-          "y": 282.77262648902666,
-          "lat": 283,
-          "lng": 537
-        }
+        { "no": 1, "x": 537.4011537017761, "y": 282.77262648902666 }
       ],
       "notes": "",
       "latin": "Roccus regnans rollifer",
@@ -636,13 +540,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 429.92092296142084,
-          "y": 1103.0339539504919,
-          "lat": 1103,
-          "lng": 430
-        }
+        { "no": 1, "x": 429.92092296142084, "y": 1103.0339539504919 }
       ],
       "notes": "",
       "latin": "Tapetobolus piscis domesticus",
@@ -680,13 +578,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1351.9881656286789,
-          "y": 1968.5510787891412,
-          "lat": 1969,
-          "lng": 1352
-        }
+        { "no": 1, "x": 1351.9881656286789, "y": 1968.5510787891412 }
       ],
       "notes": "",
       "latin": "Embuticthys longiformis",
@@ -724,13 +616,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1431.1841251215722,
-          "y": 2573.8473687089813,
-          "lat": 2574,
-          "lng": 1431
-        }
+        { "no": 1, "x": 1431.1841251215722, "y": 2573.8473687089813 }
       ],
       "notes": "",
       "latin": "Triangulichthys absurdiformis",
@@ -768,13 +654,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 2302.3396795433987,
-          "y": 854.1270683759783,
-          "lat": 854,
-          "lng": 2302
-        }
+        { "no": 1, "x": 2302.3396795433987, "y": 854.1270683759783 }
       ],
       "notes": "",
       "latin": "Pedosalmo ungulatus",
@@ -813,13 +693,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 2455.074744279693,
-          "y": 1606.504699771667,
-          "lat": 1607,
-          "lng": 2455
-        }
+        { "no": 1, "x": 2455.074744279693, "y": 1606.504699771667 }
       ],
       "notes": "",
       "latin": "Magnetopterus ferratus",
@@ -853,13 +727,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1238.8510806388313,
-          "y": 294.0865758333225,
-          "lat": 294,
-          "lng": 1239
-        }
+        { "no": 1, "x": 1238.8510806388313, "y": 294.0865758333225 }
       ],
       "notes": "",
       "latin": "Submarinus flavomorpha",
@@ -893,13 +761,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 1849.7913395840083,
-          "y": 2296.6556097737275,
-          "lat": 2297,
-          "lng": 1850
-        }
+        { "no": 1, "x": 1849.7913395840083, "y": 2296.6556097737275 }
       ],
       "notes": "",
       "latin": "Devil mutanoid",
@@ -933,13 +795,7 @@ export const nuclearPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 786.3027406794408,
-          "y": 1052.1211819011594,
-          "lat": 1052,
-          "lng": 786
-        }
+        { "no": 1, "x": 786.3027406794408, "y": 1052.1211819011594 }
       ],
       "notes": "",
       "latin": "Omnibassus gigantarus",

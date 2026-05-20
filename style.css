@@ -74,8 +74,35 @@ header p { margin: 4px 0 0; opacity: 0.75; font-size: 12px; }
   font-weight: 800;
   padding: 0;
 }
+/* 버튼들을 항상 한 줄로 배치 */
+.filter-row {
+  display: flex;
+  flex-wrap: nowrap;   /* 줄바꿈 금지 (핵심) */
+  gap: 7px;
+}
 
-.filter-row { display: flex; flex-wrap: wrap; gap: 7px; }
+/* 버튼이 공간을 균등하게 나눠 가지도록 설정 */
+.filter-btn {
+  flex: 1 1 auto;         /* 각 버튼이 같은 비율로 너비 차지 */
+  min-width: 0;        /* 내용 때문에 줄어들지 않는 문제 방지 */
+
+  border: 1px solid #0d729c;
+  background: #01344a;
+  color: #d8f2ff;
+  border-radius: 9px;
+  padding: 6px 10px;
+
+  /* 텍스트를 항상 한 줄로 유지 */
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: clip;
+
+  /* 화면이 좁아질수록 글자 크기 자동 축소 */
+    font-size: clamp(8px, 2.2vw, 12px);
+  font-weight: 700;
+}
+
+/* .filter-row { display: flex; flex-wrap: wrap; gap: 7px; }
 
 .filter-btn {
   border: 1px solid #0d729c;
@@ -85,7 +112,7 @@ header p { margin: 4px 0 0; opacity: 0.75; font-size: 12px; }
   padding: 6px 10px;
   font-size: 12px;
   font-weight: 700;
-}
+} */
 .filter-btn.active { border-color: #34c7ff; color: #ffd24f; }
 
 main { padding: 0 10px 0 0; }
@@ -125,9 +152,10 @@ main { padding: 0 10px 0 0; }
   gap: 6px;
 }
 .entity-list {
-  overflow: auto;
+  overflow-y: auto;
   display: grid;
   gap: 5px;
+  scrollbar-gutter: stable;
 }
 .entity-row {
   border: 1px solid #0d729c;

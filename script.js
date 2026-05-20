@@ -50,6 +50,13 @@ function markerIcon(entity) {
   });
 }
 
+function availabilityTimeLabel(values) {
+    if (!values || values.length === 0) return "종일";
+  const map = { "day": "낮", "night": "밤", "both" : "종일" };
+  const labels = values.map((v) => map[v]).filter(Boolean);
+  return labels.length ? labels.join(", ") : "종일";
+}
+
 function shadowSizeLabel(values) {
   if (!values || values.length === 0) return "없음";
   const map = { 1: "소", 2: "중", 3: "대" };
@@ -59,7 +66,7 @@ function shadowSizeLabel(values) {
 
 function shadowSpeedLabel(values) {
   if (!values || values.length === 0) return "없음";
-  const map = { 0: "느림", 1: "보통", 2: "빠름" };
+  const map = { 0: "정지", 1: "보통", 2: "빠름" };
   const labels = values.map((v) => map[v]).filter(Boolean);
   return labels.length ? labels.join(", ") : "없음";
 }
@@ -80,10 +87,6 @@ function isTimeAvailable(entity) {
   if (entity.timeBand === "day") return dayNow;
   if (entity.timeBand === "night") return !dayNow;
   return true;
-}
-
-function isCurrentlyAvailable(entity) {
-  return isSeasonAvailable(entity) && isTimeAvailable(entity);
 }
 
 function seasonBar(entity) {
@@ -150,10 +153,11 @@ function createMapIfNeeded() {
   if (mapInstance) return;
   mapInstance = L.map("map", {
     crs: L.CRS.Simple,
-    minZoom: -2,
+    minZoom: -3,
     maxZoom: 2,
     zoomSnap: 0.25,
-    zoomControl: true
+    zoomControl: false,
+    doubleClickZoom: false // (선택) 커스텀 할 거면 끔
   });
   markerLayer = L.layerGroup().addTo(mapInstance);
 }
@@ -171,7 +175,7 @@ function renderMarkers() {
       if (!filters.rarity.has(entity.rarity)) return false;
     }
 
-    const availableNow = isCurrentlyAvailable(entity);
+    const availableNow = isSeasonAvailable(entity);
     const availabilityKey = availableNow ? "available" : "unavailable";
     if (!filters.availability.has(availabilityKey)) return false;
 
@@ -195,9 +199,8 @@ function renderMarkers() {
       <div class="fish-popup">
         <h3>${label(entity)}</h3>
         <p><strong>영문명:</strong> ${entity.name}</p>
-        <p><strong>분류:</strong> ${entity.isMonster ? "Monster" : entity.category}</p>
-        <p><strong>활성 시간:</strong> ${entity.timeBand}</p>
-        <p><strong>현재 가능:</strong> ${isCurrentlyAvailable(entity) ? "가능" : "안됨"}</p>
+        <p><strong>분류:</strong> ${entity.isMonster ? "보스" : entity.category}</p>
+        <p><strong>활성 시간:</strong> ${availabilityTimeLabel([entity.timeBand])}</p>        
         <p><strong>희귀도:</strong> <span class="rarity-pill rarity-${entity.rarity}">${entity.rarity}</span></p>
         <p><strong>그림자 크기:</strong> ${shadowSizeLabel(entity.shadowSizes)}</p>
         <p><strong>그림자 속도:</strong> ${shadowSpeedLabel(entity.shadowSpeeds)}</p>
@@ -208,7 +211,7 @@ function renderMarkers() {
       </div>`;
 
     locs.forEach((l) => {
-      L.marker([l.lat, l.lng], { icon: markerIcon(entity) })
+      L.marker([l.y, l.x], { icon: markerIcon(entity) })
         .on("click", () => openDetail(detailHtml))
         .addTo(markerLayer);
     });

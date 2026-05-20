@@ -14,34 +14,10 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 151,
-          "y": 111.5,
-          "lat": 112,
-          "lng": 151
-        },
-        {
-          "no": 2,
-          "x": 182.5,
-          "y": 281,
-          "lat": 281,
-          "lng": 183
-        },
-        {
-          "no": 3,
-          "x": 532.5,
-          "y": 238,
-          "lat": 238,
-          "lng": 533
-        },
-        {
-          "no": 4,
-          "x": 47.5,
-          "y": 682.5,
-          "lat": 683,
-          "lng": 48
-        }
+        { "no": 1, "x": 151, "y": 111.5 },
+        { "no": 2, "x": 182.5, "y": 281 },
+        { "no": 3, "x": 532.5, "y": 238 },
+        { "no": 4, "x": 47.5, "y": 682.5 }
       ],
       "notes": "",
       "latin": "Engraulis encrasicolus",
@@ -79,76 +55,16 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 522,
-          "y": 384.5,
-          "lat": 385,
-          "lng": 522
-        },
-        {
-          "no": 2,
-          "x": 549.5,
-          "y": 218,
-          "lat": 218,
-          "lng": 550
-        },
-        {
-          "no": 3,
-          "x": 654,
-          "y": 562,
-          "lat": 562,
-          "lng": 654
-        },
-        {
-          "no": 4,
-          "x": 452,
-          "y": 544.5,
-          "lat": 545,
-          "lng": 452
-        },
-        {
-          "no": 5,
-          "x": 185.969083452062,
-          "y": 523.2590180780452,
-          "lat": 523,
-          "lng": 186
-        },
-        {
-          "no": 6,
-          "x": 180,
-          "y": 306,
-          "lat": 306,
-          "lng": 180
-        },
-        {
-          "no": 7,
-          "x": 522.5,
-          "y": 159,
-          "lat": 159,
-          "lng": 523
-        },
-        {
-          "no": 8,
-          "x": 620,
-          "y": 299.5,
-          "lat": 300,
-          "lng": 620
-        },
-        {
-          "no": 9,
-          "x": 297.5,
-          "y": 432.5,
-          "lat": 433,
-          "lng": 298
-        },
-        {
-          "no": 10,
-          "x": 334,
-          "y": 58,
-          "lat": 58,
-          "lng": 334
-        }
+        { "no": 1, "x": 522, "y": 384.5 },
+        { "no": 2, "x": 549.5, "y": 218 },
+        { "no": 3, "x": 654, "y": 562 },
+        { "no": 4, "x": 452, "y": 544.5 },
+        { "no": 5, "x": 185.969083452062, "y": 523.2590180780452 },
+        { "no": 6, "x": 180, "y": 306 },
+        { "no": 7, "x": 522.5, "y": 159 },
+        { "no": 8, "x": 620, "y": 299.5 },
+        { "no": 9, "x": 297.5, "y": 432.5 },
+        { "no": 10, "x": 334, "y": 58 }
       ],
       "notes": "",
       "latin": "Sardina pilchardus",
@@ -186,13 +102,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 338,
-          "y": 436.5,
-          "lat": 437,
-          "lng": 338
-        }
+        { "no": 1, "x": 338, "y": 436.5 }
       ],
       "notes": "",
       "latin": "Sprattus sprattus",
@@ -230,13 +140,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 371.5,
-          "y": 439,
-          "lat": 439,
-          "lng": 372
-        }
+        { "no": 1, "x": 371.5, "y": 439 }
       ],
       "notes": "",
       "latin": "Sparus aurata",
@@ -274,34 +178,10 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "day",
       "locations": [
-        {
-          "no": 1,
-          "x": 548.5,
-          "y": 347.5,
-          "lat": 348,
-          "lng": 549
-        },
-        {
-          "no": 2,
-          "x": 622,
-          "y": 320,
-          "lat": 320,
-          "lng": 622
-        },
-        {
-          "no": 3,
-          "x": 175.5,
-          "y": 122.5,
-          "lat": 123,
-          "lng": 176
-        },
-        {
-          "no": 4,
-          "x": 181,
-          "y": 258.5,
-          "lat": 259,
-          "lng": 181
-        }
+        { "no": 1, "x": 548.5, "y": 347.5 },
+        { "no": 2, "x": 622, "y": 320 },
+        { "no": 3, "x": 175.5, "y": 122.5 },
+        { "no": 4, "x": 181, "y": 258.5 }
       ],
       "notes": "",
       "latin": "Mullus surmuletus",
@@ -339,20 +219,8 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "day",
       "locations": [
-        {
-          "no": 1,
-          "x": 363,
-          "y": 62,
-          "lat": 62,
-          "lng": 363
-        },
-        {
-          "no": 2,
-          "x": 166.52364696943192,
-          "y": 521.1376977344855,
-          "lat": 521,
-          "lng": 167
-        }
+        { "no": 1, "x": 363, "y": 62 },
+        { "no": 2, "x": 166.52364696943192, "y": 521.1376977344855 }
       ],
       "notes": "",
       "latin": "Oxudercinae",
@@ -390,20 +258,8 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 567,
-          "y": 206,
-          "lat": 206,
-          "lng": 567
-        },
-        {
-          "no": 2,
-          "x": 122.5,
-          "y": 110,
-          "lat": 110,
-          "lng": 123
-        }
+        { "no": 1, "x": 567, "y": 206 },
+        { "no": 2, "x": 122.5, "y": 110 }
       ],
       "notes": "",
       "latin": "Atherinomorus lacunosus",
@@ -441,22 +297,10 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 634.5,
-          "y": 529,
-          "lat": 529,
-          "lng": 635
-        },
-        {
-          "no": 2,
-          "x": 487.5,
-          "y": 511.5,
-          "lat": 512,
-          "lng": 488
-        }
+        { "no": 1, "x": 634.5, "y": 529 },
+        { "no": 2, "x": 487.5, "y": 511.5 }
       ],
-      "notes": "",
+      "notes": "블롭피시는 플레이어마다 난이도가 크게 다른 독특한 어종입니다. 어떤 플레이어는 금방 잡는 반면, 어떤 플레이어는 꾸준히 낚는 데 어려움을 겪습니다. 분홍색 미끼를 사용하면 확률이 높아지는 듯하지만, 여전히 결과는 일정하지 않을 수 있습니다. 이러한 예측 불가능성 덕분에 블롭피시는 단순한 맵의 마리나에서 가장 기억에 남는 어종 중 하나입니다. 종종 초반에 플레이어에게 도전 과제가 되기도 하며, 정해진 낚시 패턴에 의존하기보다는 미끼 선택과 타이밍에 더욱 신중을 기하도록 유도합니다.",
       "latin": "Psychrolutes marcidus",
       "difficulty": 2,
       "seasons": [
@@ -490,13 +334,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "day",
       "locations": [
-        {
-          "no": 1,
-          "x": 555,
-          "y": 385,
-          "lat": 385,
-          "lng": 555
-        }
+        { "no": 1, "x": 555, "y": 385 }
       ],
       "notes": "",
       "latin": "Roboastra leonis",
@@ -532,13 +370,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 538,
-          "y": 365.5,
-          "lat": 366,
-          "lng": 538
-        }
+        { "no": 1, "x": 538, "y": 365.5 }
       ],
       "notes": "",
       "latin": "Asthenosoma varium",
@@ -574,34 +406,10 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "day",
       "locations": [
-        {
-          "no": 1,
-          "x": 569.5,
-          "y": 372.5,
-          "lat": 373,
-          "lng": 570
-        },
-        {
-          "no": 2,
-          "x": 610,
-          "y": 545,
-          "lat": 545,
-          "lng": 610
-        },
-        {
-          "no": 3,
-          "x": 476,
-          "y": 553,
-          "lat": 553,
-          "lng": 476
-        },
-        {
-          "no": 4,
-          "x": 38.5,
-          "y": 666,
-          "lat": 666,
-          "lng": 39
-        }
+        { "no": 1, "x": 569.5, "y": 372.5 },
+        { "no": 2, "x": 610, "y": 545 },
+        { "no": 3, "x": 476, "y": 553 },
+        { "no": 4, "x": 38.5, "y": 666 }
       ],
       "notes": "",
       "latin": "Thylacodes squamigerus",
@@ -637,13 +445,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 202.93964620053913,
-          "y": 537.7547070923694,
-          "lat": 538,
-          "lng": 203
-        }
+        { "no": 1, "x": 202.93964620053913, "y": 537.7547070923694 }
       ],
       "notes": "",
       "latin": "Asterias rubens",
@@ -679,13 +481,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 170.7662876565512,
-          "y": 541.6437943888953,
-          "lat": 542,
-          "lng": 171
-        }
+        { "no": 1, "x": 170.7662876565512, "y": 541.6437943888953 }
       ],
       "notes": "",
       "latin": "Dardanus calidus",
@@ -721,13 +517,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 151,
-          "y": 262.5,
-          "lat": 263,
-          "lng": 151
-        }
+        { "no": 1, "x": 151, "y": 262.5 }
       ],
       "notes": "",
       "latin": "Astropyga Radiata",
@@ -763,20 +553,8 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 630.5,
-          "y": 553.5,
-          "lat": 554,
-          "lng": 631
-        },
-        {
-          "no": 2,
-          "x": 331,
-          "y": 416,
-          "lat": 416,
-          "lng": 331
-        }
+        { "no": 1, "x": 630.5, "y": 553.5 },
+        { "no": 2, "x": 331, "y": 416 }
       ],
       "notes": "",
       "latin": "Coenobita clypeatus",
@@ -812,13 +590,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 170.7662876565512,
-          "y": 541.6437943888953,
-          "lat": 542,
-          "lng": 171
-        }
+        { "no": 1, "x": 170.7662876565512, "y": 541.6437943888953 }
       ],
       "notes": "",
       "latin": "Dardanus calidus",
@@ -854,13 +626,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 209.65716062181133,
-          "y": 562.5034444338985,
-          "lat": 563,
-          "lng": 210
-        }
+        { "no": 1, "x": 209.65716062181133, "y": 562.5034444338985 }
       ],
       "notes": "",
       "latin": "",
@@ -881,27 +647,9 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 181.37288937434943,
-          "y": 561.0892308715254,
-          "lat": 561,
-          "lng": 181
-        },
-        {
-          "no": 2,
-          "x": 488.5,
-          "y": 128,
-          "lat": 128,
-          "lng": 489
-        },
-        {
-          "no": 3,
-          "x": 535.5,
-          "y": 255,
-          "lat": 255,
-          "lng": 536
-        }
+        { "no": 1, "x": 181.37288937434943, "y": 561.0892308715254 },
+        { "no": 2, "x": 488.5, "y": 128 },
+        { "no": 3, "x": 535.5, "y": 255 }
       ],
       "notes": "",
       "latin": "",
@@ -922,20 +670,8 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 358,
-          "y": 422,
-          "lat": 422,
-          "lng": 358
-        },
-        {
-          "no": 2,
-          "x": 171,
-          "y": 148.5,
-          "lat": 149,
-          "lng": 171
-        }
+        { "no": 1, "x": 358, "y": 422 },
+        { "no": 2, "x": 171, "y": 148.5 }
       ],
       "notes": "Repair Kit",
       "latin": "",
@@ -956,27 +692,9 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 648.5,
-          "y": 296,
-          "lat": 296,
-          "lng": 649
-        },
-        {
-          "no": 2,
-          "x": 613.5,
-          "y": 517.5,
-          "lat": 518,
-          "lng": 614
-        },
-        {
-          "no": 3,
-          "x": 471.5,
-          "y": 532.5,
-          "lat": 533,
-          "lng": 472
-        }
+        { "no": 1, "x": 648.5, "y": 296 },
+        { "no": 2, "x": 613.5, "y": 517.5 },
+        { "no": 3, "x": 471.5, "y": 532.5 }
       ],
       "notes": "Repair Kit",
       "latin": "",
@@ -997,27 +715,9 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 500,
-          "y": 158,
-          "lat": 158,
-          "lng": 500
-        },
-        {
-          "no": 2,
-          "x": 295.5,
-          "y": 64.5,
-          "lat": 65,
-          "lng": 296
-        },
-        {
-          "no": 3,
-          "x": 152.5,
-          "y": 171.5,
-          "lat": 172,
-          "lng": 153
-        }
+        { "no": 1, "x": 500, "y": 158 },
+        { "no": 2, "x": 295.5, "y": 64.5 },
+        { "no": 3, "x": 152.5, "y": 171.5 }
       ],
       "notes": "",
       "latin": "",
@@ -1038,27 +738,9 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 558.5,
-          "y": 251.5,
-          "lat": 252,
-          "lng": 559
-        },
-        {
-          "no": 2,
-          "x": 156,
-          "y": 293,
-          "lat": 293,
-          "lng": 156
-        },
-        {
-          "no": 3,
-          "x": 635.5,
-          "y": 274.5,
-          "lat": 275,
-          "lng": 636
-        }
+        { "no": 1, "x": 558.5, "y": 251.5 },
+        { "no": 2, "x": 156, "y": 293 },
+        { "no": 3, "x": 635.5, "y": 274.5 }
       ],
       "notes": "",
       "latin": "",
@@ -1098,20 +780,8 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 657.5,
-          "y": 512,
-          "lat": 512,
-          "lng": 658
-        },
-        {
-          "no": 2,
-          "x": 445.5,
-          "y": 528.5,
-          "lat": 529,
-          "lng": 446
-        }
+        { "no": 1, "x": 657.5, "y": 512 },
+        { "no": 2, "x": 445.5, "y": 528.5 }
       ],
       "notes": "suspended bridge in the waste museum",
       "latin": "",
@@ -1132,34 +802,10 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 639,
-          "y": 497,
-          "lat": 497,
-          "lng": 639
-        },
-        {
-          "no": 2,
-          "x": 494,
-          "y": 538.5,
-          "lat": 539,
-          "lng": 494
-        },
-        {
-          "no": 3,
-          "x": 296,
-          "y": 413.5,
-          "lat": 414,
-          "lng": 296
-        },
-        {
-          "no": 4,
-          "x": 663,
-          "y": 272,
-          "lat": 272,
-          "lng": 663
-        }
+        { "no": 1, "x": 639, "y": 497 },
+        { "no": 2, "x": 494, "y": 538.5 },
+        { "no": 3, "x": 296, "y": 413.5 },
+        { "no": 4, "x": 663, "y": 272 }
       ],
       "notes": "Decoration in the central part of the aquarium",
       "latin": "",
@@ -1180,34 +826,10 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 366.5,
-          "y": 400,
-          "lat": 400,
-          "lng": 367
-        },
-        {
-          "no": 2,
-          "x": 580,
-          "y": 392,
-          "lat": 392,
-          "lng": 580
-        },
-        {
-          "no": 3,
-          "x": 512,
-          "y": 247,
-          "lat": 247,
-          "lng": 512
-        },
-        {
-          "no": 4,
-          "x": 482,
-          "y": 147,
-          "lat": 147,
-          "lng": 482
-        }
+        { "no": 1, "x": 366.5, "y": 400 },
+        { "no": 2, "x": 580, "y": 392 },
+        { "no": 3, "x": 512, "y": 247 },
+        { "no": 4, "x": 482, "y": 147 }
       ],
       "notes": "",
       "latin": "",
@@ -1228,13 +850,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 395.5,
-          "y": 401,
-          "lat": 401,
-          "lng": 396
-        }
+        { "no": 1, "x": 395.5, "y": 401 }
       ],
       "notes": "",
       "latin": "",
@@ -1255,13 +871,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 200.46477246638622,
-          "y": 578.7669004011891,
-          "lat": 579,
-          "lng": 200
-        }
+        { "no": 1, "x": 200.46477246638622, "y": 578.7669004011891 }
       ],
       "notes": "",
       "latin": "",
@@ -1282,13 +892,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 578.5,
-          "y": 356.5,
-          "lat": 357,
-          "lng": 579
-        }
+        { "no": 1, "x": 578.5, "y": 356.5 }
       ],
       "notes": "",
       "latin": "",
@@ -1328,13 +932,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 319.5,
-          "y": 86.5,
-          "lat": 87,
-          "lng": 320
-        }
+        { "no": 1, "x": 319.5, "y": 86.5 }
       ],
       "notes": "",
       "latin": "",
@@ -1355,13 +953,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 555,
-          "y": 235,
-          "lat": 235,
-          "lng": 555
-        }
+        { "no": 1, "x": 555, "y": 235 }
       ],
       "notes": "",
       "latin": "",
@@ -1382,13 +974,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 133.5,
-          "y": 290.5,
-          "lat": 291,
-          "lng": 134
-        }
+        { "no": 1, "x": 133.5, "y": 290.5 }
       ],
       "notes": "",
       "latin": "",
@@ -1428,13 +1014,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 538.5,
-          "y": 399.5,
-          "lat": 400,
-          "lng": 539
-        }
+        { "no": 1, "x": 538.5, "y": 399.5 }
       ],
       "notes": "",
       "latin": "",
@@ -1455,13 +1035,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 672,
-          "y": 296.5,
-          "lat": 297,
-          "lng": 672
-        }
+        { "no": 1, "x": 672, "y": 296.5 }
       ],
       "notes": "",
       "latin": "",
@@ -1482,13 +1056,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 658,
-          "y": 540,
-          "lat": 540,
-          "lng": 658
-        }
+        { "no": 1, "x": 658, "y": 540 }
       ],
       "notes": "",
       "latin": "",
@@ -1509,13 +1077,7 @@ export const marinaMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        {
-          "no": 1,
-          "x": 142,
-          "y": 140,
-          "lat": 140,
-          "lng": 142
-        }
+        { "no": 1, "x": 142, "y": 140 }
       ],
       "notes": "",
       "latin": "",
