@@ -1,0 +1,498 @@
+[
+  {
+    "id": "T2-1",
+    "name": "baseball hat",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 42,
+        "y": 59
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-2",
+    "name": "al'capone cap",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 89,
+        "y": 88
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-3",
+    "name": "beaver hat",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 16,
+        "y": 83
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-4",
+    "name": "colorful headdress",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 88,
+        "y": 37
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-5",
+    "name": "arrow",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 88,
+        "y": 41
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-6",
+    "name": "boom floppy disk",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-7",
+    "name": "basketball",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 15,
+        "y": 83
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-8",
+    "name": "beverage can",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 32,
+        "y": 57
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-9",
+    "name": "can soup",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 12,
+        "y": 83
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-10",
+    "name": "chip bag",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 78,
+        "y": 14
+      }
+    ],
+    "snippet": "standards bait",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-11",
+    "name": "cobra sunglass",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 89,
+        "y": 71
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-12",
+    "name": "concrete shoe",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 91,
+        "y": 86
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-13",
+    "name": "duct tape",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 85,
+        "y": 70
+      }
+    ],
+    "snippet": "repair kit",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-14",
+    "name": "fish can",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 86,
+        "y": 22
+      }
+    ],
+    "snippet": "perception potion",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-15",
+    "name": "glass bottle with XXX sign",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 91,
+        "y": 77
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-16",
+    "name": "green floppy disk",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 49,
+        "y": 29
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-17",
+    "name": "grey cassette",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 53,
+        "y": 44
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-18",
+    "name": "hot dog",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 9,
+        "y": 74
+      }
+    ],
+    "snippet": "force potion",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-19",
+    "name": "meat can",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 9,
+        "y": 73
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-20",
+    "name": "old branch",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 14,
+        "y": 33
+      }
+    ],
+    "snippet": "wooden axe",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-21",
+    "name": "old tire",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 32,
+        "y": 58
+      },
+      {
+        "x": 70,
+        "y": 35
+      },
+      {
+        "x": 32,
+        "y": 10
+      }
+    ],
+    "snippet": "fuel booster",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-22",
+    "name": "pipe",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 89,
+        "y": 37
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-23",
+    "name": "plastic bottle",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 81,
+        "y": 91
+      },
+      {
+        "x": 10,
+        "y": 71
+      }
+    ],
+    "snippet": "Collect 50 plastic bottles",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-24",
+    "name": "toxic barrel",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 84,
+        "y": 21
+      }
+    ],
+    "snippet": "fuel booster",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-25",
+    "name": "tribal chest",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 18,
+        "y": 85
+      }
+    ],
+    "snippet": "Collect 4 different chests",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-26",
+    "name": "tribal key",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 36,
+        "y": 42
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-27",
+    "name": "vegetable can",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 78,
+        "y": 89
+      },
+      {
+        "x": 10,
+        "y": 71
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-28",
+    "name": "video cassette",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 72,
+        "y": 79
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-29",
+    "name": "vinyl record",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 89,
+        "y": 89
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-30",
+    "name": "whited leaf",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 38,
+        "y": 85
+      }
+    ],
+    "snippet": "standards bait",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-31",
+    "name": "mouse glove",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 49,
+        "y": 70
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T2-32",
+    "name": "fridge magnet",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 17,
+        "y": 35
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

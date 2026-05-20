@@ -1,0 +1,321 @@
+[
+  {
+    "id": "T1-1",
+    "name": "empty bottle",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 27,
+        "y": 23
+      }
+    ],
+    "snippet": "Base element for the production of all potions and elixirs",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-2",
+    "name": "plastic bag",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 29,
+        "y": 19
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-3",
+    "name": "mask",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 29,
+        "y": 19
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-4",
+    "name": "plastic bottle",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 33,
+        "y": 14
+      }
+    ],
+    "snippet": "Collect 50 plastic bottles",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-5",
+    "name": "message in a bottle",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 29,
+        "y": 26
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-6",
+    "name": "can fish",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 12,
+        "y": 67
+      }
+    ],
+    "snippet": "Intelligence potion",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-7",
+    "name": "straw hat",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 60,
+        "y": 54
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-8",
+    "name": "gear",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 65,
+        "y": 11
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-9",
+    "name": "pinacolada drink",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 42,
+        "y": 59
+      }
+    ],
+    "snippet": "charisma potions",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-10",
+    "name": "old phone",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 54,
+        "y": 63
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-11",
+    "name": "sea weed",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 29,
+        "y": 24
+      },
+      {
+        "x": 56,
+        "y": 38
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-12",
+    "name": "kelp leaf",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 59,
+        "y": 39
+      }
+    ],
+    "snippet": "standards bait",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-13",
+    "name": "flip flops",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 39,
+        "y": 50
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-14",
+    "name": "can",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 53,
+        "y": 62
+      }
+    ],
+    "snippet": "charisma potion/elixir",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-15",
+    "name": "chips",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 26,
+        "y": 19
+      }
+    ],
+    "snippet": "standards bait",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-16",
+    "name": "lunch box",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 67,
+        "y": 10
+      }
+    ],
+    "snippet": "repair kit",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-17",
+    "name": "key with a skull",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 67,
+        "y": 10
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-18",
+    "name": "chest with a skull",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 46,
+        "y": 85
+      }
+    ],
+    "snippet": "Collect 4 different chests",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-19",
+    "name": "wilson ball",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 48,
+        "y": 13
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-20",
+    "name": "rubber duck",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 28,
+        "y": 87
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T1-21",
+    "name": "fridge magnet",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 30,
+        "y": 23
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

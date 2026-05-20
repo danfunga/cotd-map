@@ -1,0 +1,237 @@
+[
+  {
+    "id": "c5-0",
+    "name": "common toad",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 48,
+        "y": 89
+      },
+      {
+        "x": 71,
+        "y": 33
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c5-1",
+    "name": "otter",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 10,
+        "y": 66
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c5-2",
+    "name": "signal crayfish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 24,
+        "y": 39
+      },
+      {
+        "x": 26,
+        "y": 20
+      },
+      {
+        "x": 47,
+        "y": 20
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c5-3",
+    "name": "palmate newt",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 81,
+        "y": 67
+      },
+      {
+        "x": 79,
+        "y": 86
+      },
+      {
+        "x": 34,
+        "y": 14
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c5-4",
+    "name": "eurasian beaver",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 62,
+        "y": 88
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c5-5",
+    "name": "freshwater pearl mussels",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 10,
+        "y": 25
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c5-6",
+    "name": "water vole",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 50,
+        "y": 89
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c5-7",
+    "name": "adder",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 86,
+        "y": 50
+      },
+      {
+        "x": 89,
+        "y": 25
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c5-8",
+    "name": "common frog",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 43,
+        "y": 13
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c5-9",
+    "name": "slow worm",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 78,
+        "y": 74
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c5-10",
+    "name": "water shrew",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 21,
+        "y": 44
+      },
+      {
+        "x": 33,
+        "y": 32
+      },
+      {
+        "x": 50,
+        "y": 89
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c5-11",
+    "name": "natterjack toad",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 84,
+        "y": 57
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c5-12",
+    "name": "great crested newt",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 81,
+        "y": 67
+      },
+      {
+        "x": 79,
+        "y": 86
+      },
+      {
+        "x": 33,
+        "y": 32
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

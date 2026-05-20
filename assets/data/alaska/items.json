@@ -1,0 +1,411 @@
+[
+  {
+    "id": "T4-1",
+    "name": "blue cassette",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 90,
+        "y": 87
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-2",
+    "name": "broken fish finder",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 12,
+        "y": 86
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-3",
+    "name": "chip bag",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 58,
+        "y": 45
+      }
+    ],
+    "snippet": "standards bait",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-4",
+    "name": "compass",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 72,
+        "y": 36
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-5",
+    "name": "fishing line",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 72,
+        "y": 36
+      }
+    ],
+    "snippet": "repair kit",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-7",
+    "name": "frozen acorn",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 90,
+        "y": 86
+      }
+    ],
+    "snippet": "standards bait",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-8",
+    "name": "frozen chest",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 12,
+        "y": 41
+      }
+    ],
+    "snippet": "Collect 4 different chests",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-9",
+    "name": "frozen key",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 12,
+        "y": 41
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-10",
+    "name": "fuel barrel",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 38,
+        "y": 11
+      }
+    ],
+    "snippet": "fuel booster",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-11",
+    "name": "gold nugget",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 78,
+        "y": 79
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-12",
+    "name": "gold pan",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 78,
+        "y": 79
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-13",
+    "name": "ham can",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 42,
+        "y": 49
+      }
+    ],
+    "snippet": "force elixir",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-14",
+    "name": "harpoon",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 29,
+        "y": 65
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-15",
+    "name": "innertube",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 81,
+        "y": 14
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-16",
+    "name": "life jacket",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 20,
+        "y": 76
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-17",
+    "name": "meteorite",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 82,
+        "y": 14
+      }
+    ],
+    "snippet": "trash net",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-18",
+    "name": "moose antler",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 85,
+        "y": 59
+      },
+      {
+        "x": 94,
+        "y": 89
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-19",
+    "name": "ski",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 29,
+        "y": 52
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-20",
+    "name": "snow shovel",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 56,
+        "y": 17
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-21",
+    "name": "snowman hat",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 25,
+        "y": 81
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-22",
+    "name": "snowshoe",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 43,
+        "y": 71
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-23",
+    "name": "terix floppy disk",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 14,
+        "y": 50
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-24",
+    "name": "video cassette",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 14,
+        "y": 50
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-25",
+    "name": "viking helmet",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 12,
+        "y": 41
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-26",
+    "name": "vinyl record",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 79,
+        "y": 12
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-27",
+    "name": "walrus tusk",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 17,
+        "y": 79
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T4-6",
+    "name": "fridge magnet",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 12,
+        "y": 44
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

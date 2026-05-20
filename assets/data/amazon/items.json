@@ -1,0 +1,426 @@
+[
+  {
+    "id": "T8-1",
+    "name": "amazonian blowpipe",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 85,
+        "y": 86
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-2",
+    "name": "amazonian honey",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 85,
+        "y": 86
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-3",
+    "name": "balsa timber",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 68,
+        "y": 59
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-4",
+    "name": "boné",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 20,
+        "y": 10
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-5",
+    "name": "bossa nova vinyl record",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 53,
+        "y": 59
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-6",
+    "name": "brazil cachaca",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 70,
+        "y": 84
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-7",
+    "name": "brazil drums",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 70,
+        "y": 84
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-8",
+    "name": "brazil hammock",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 70,
+        "y": 84
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-9",
+    "name": "carnival costume",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 40,
+        "y": 30
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-10",
+    "name": "\"cat's claw\" liana",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 25,
+        "y": 52
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-11",
+    "name": "coffee bean bag",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 87,
+        "y": 65
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-12",
+    "name": "coffee tree branch",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 43,
+        "y": 67
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-13",
+    "name": "decorated chest",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 69,
+        "y": 42
+      }
+    ],
+    "snippet": "Collect 4 different chests",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-14",
+    "name": "feather",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 88,
+        "y": 72
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-15",
+    "name": "football cup",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 74,
+        "y": 63
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-16",
+    "name": "football jersey",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 36,
+        "y": 11
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-17",
+    "name": "green can",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 19,
+        "y": 35
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-18",
+    "name": "kakao",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 24,
+        "y": 18
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-19",
+    "name": "maracas",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 42,
+        "y": 27
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-20",
+    "name": "rusty axe head",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 15,
+        "y": 66
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-21",
+    "name": "rusty barrel",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 36,
+        "y": 11
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-22",
+    "name": "soccer ball",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 74,
+        "y": 65
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-23",
+    "name": "stone key",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 86,
+        "y": 84
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-24",
+    "name": "stonebreaker leaf",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 36,
+        "y": 11
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-25",
+    "name": "wooden figurine",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 21,
+        "y": 34
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-26",
+    "name": "green yellow disk",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 36,
+        "y": 20
+      },
+      {
+        "x": 69,
+        "y": 65
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-27",
+    "name": "old gold coins",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 22,
+        "y": 26
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "T8-28",
+    "name": "fridge magnet",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 50,
+        "y": 82
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

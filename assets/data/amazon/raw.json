@@ -1,0 +1,3330 @@
+{
+  "creatures": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c-700",
+      "kgs": {
+        "max": 26,
+        "min": 5
+      },
+      "lbs": {
+        "max": 57.32,
+        "min": 11.02
+      },
+      "map": "Amazon",
+      "name": "giant otter",
+      "names": {
+        "en": "giant otter",
+        "fr": "loutre géante",
+        "it": "lontra gigante",
+        "pt": "lontra gigante"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 7,
+          "y": 74
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c-701",
+      "kgs": {
+        "max": 65,
+        "min": 20
+      },
+      "lbs": {
+        "max": 143.3,
+        "min": 44.09
+      },
+      "map": "Amazon",
+      "name": "capybara",
+      "names": {
+        "en": "capybara",
+        "fr": "capybara",
+        "it": "capibara",
+        "pt": "capivara"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 82,
+          "y": 34
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c-702",
+      "kgs": {
+        "max": 0.3,
+        "min": 0.1
+      },
+      "lbs": {
+        "max": 0.66,
+        "min": 0.22
+      },
+      "map": "Amazon",
+      "name": "giant snail",
+      "names": {
+        "en": "giant snail",
+        "fr": "escargot géant",
+        "it": "lumaca gigante",
+        "pt": "caracol gigante"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 76,
+          "y": 22
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 1,
+      "id": "c-703",
+      "kgs": {
+        "max": 250,
+        "min": 25
+      },
+      "lbs": {
+        "max": 551.16,
+        "min": 55.12
+      },
+      "map": "Amazon",
+      "name": "green anaconda",
+      "names": {
+        "en": "green anaconda",
+        "fr": "anaconda vert",
+        "it": "anaconda verde",
+        "pt": "sucuri verde"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 67,
+          "y": 29
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c-704",
+      "kgs": {
+        "max": 15,
+        "min": 4
+      },
+      "lbs": {
+        "max": 33.07,
+        "min": 8.82
+      },
+      "map": "Amazon",
+      "name": "matamata turtle",
+      "names": {
+        "en": "matamata turtle",
+        "fr": "tortue matamata",
+        "it": "tartaruga matamata",
+        "pt": "tartaruga matamata"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 22,
+          "y": 71
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c-705",
+      "kgs": {
+        "max": 50,
+        "min": 15
+      },
+      "lbs": {
+        "max": 110.23,
+        "min": 33.07
+      },
+      "map": "Amazon",
+      "name": "river turtle",
+      "names": {
+        "en": "river turtle",
+        "fr": "tortue fluviale",
+        "it": "tartaruga fluviale",
+        "pt": "tartaruga fluvial"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 17,
+          "y": 77
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c-706",
+      "kgs": {
+        "max": 0.3,
+        "min": 0.1
+      },
+      "lbs": {
+        "max": 0.66,
+        "min": 0.22
+      },
+      "map": "Amazon",
+      "name": "poison dart frog",
+      "names": {
+        "en": "poison dart frog",
+        "fr": "grenouille venimeuse",
+        "it": "rana freccia velenosa",
+        "pt": "rã venenosa"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 27,
+          "y": 44
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c-707",
+      "kgs": {
+        "max": 0.5,
+        "min": 0.1
+      },
+      "lbs": {
+        "max": 1.1,
+        "min": 0.22
+      },
+      "map": "Amazon",
+      "name": "giant leaf frog",
+      "names": {
+        "en": "giant leaf frog",
+        "fr": "genouille à grande feuille",
+        "it": "rana foglia gigante",
+        "pt": "rã de folha gigante"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 18,
+          "y": 74
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c-708",
+      "kgs": {
+        "max": 0.5,
+        "min": 0.1
+      },
+      "lbs": {
+        "max": 1.1,
+        "min": 0.22
+      },
+      "map": "Amazon",
+      "name": "axolotl",
+      "names": {
+        "en": "axolotl",
+        "fr": "axolotl",
+        "it": "acolotl",
+        "pt": "axolote"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 33,
+          "y": 50
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 1,
+      "id": "c-709",
+      "kgs": {
+        "max": 300,
+        "min": 50
+      },
+      "lbs": {
+        "max": 661.39,
+        "min": 110.23
+      },
+      "map": "Amazon",
+      "name": "black caiman",
+      "names": {
+        "en": "black caiman",
+        "fr": "caïman noir",
+        "it": "caimano nero",
+        "pt": "jacaré-açu"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 20,
+          "y": 30
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 1,
+      "id": "c-710",
+      "kgs": {
+        "max": 450,
+        "min": 100
+      },
+      "lbs": {
+        "max": 992.08,
+        "min": 220.46
+      },
+      "map": "Amazon",
+      "name": "amazonian manatee",
+      "names": {
+        "en": "amazonian manatee",
+        "fr": "manatee",
+        "it": "lamantino dell'amazzonia",
+        "pt": "peixe-boi da amazônia"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 64,
+          "y": 76
+        },
+        {
+          "x": 75,
+          "y": 41
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 1,
+      "id": "c-711",
+      "kgs": {
+        "max": 185,
+        "min": 50
+      },
+      "lbs": {
+        "max": 407.85,
+        "min": 110.23
+      },
+      "map": "Amazon",
+      "name": "amazon river dolphin",
+      "names": {
+        "en": "amazon river dolphin",
+        "fr": "dauphin des rivières",
+        "it": "delfino dell'amazzonia",
+        "pt": "golfinho do rio amazonas"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 59,
+          "y": 40
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "dataSource": "cloversalad2/src/assets/{fish,creatures,items}/Amazon.js",
+  "description": "Interactive Amazon map for Creatures of the Deep — fish, creatures, items, and the map monster.",
+  "fish": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "704",
+      "kgs": {
+        "max": 7.1,
+        "min": 1
+      },
+      "latin": "Pellona castelnaeana",
+      "lbs": {
+        "max": 15.65,
+        "min": 2.2
+      },
+      "map": "Amazon",
+      "name": "amazon pellona",
+      "names": {
+        "en": "amazon pellona",
+        "fr": "pellona",
+        "it": "pellona",
+        "pt": "pellona castelnaeana",
+        "zh": "亚马逊佩洛纳鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 30,
+          "y": 18
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "759",
+      "kgs": {
+        "max": 9,
+        "min": 1
+      },
+      "lbs": {
+        "max": 19.84,
+        "min": 2.2
+      },
+      "map": "Amazon",
+      "name": "tucunaré",
+      "names": {
+        "en": "tucunaré",
+        "fr": "tunacaré monoculus",
+        "it": "bass tunacare",
+        "pt": "tunacaré monoculus",
+        "zh": "孔雀鲈"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 74,
+          "y": 65
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "760",
+      "kgs": {
+        "max": 7,
+        "min": 1
+      },
+      "latin": "Prochilodus lineatus",
+      "lbs": {
+        "max": 15.43,
+        "min": 2.2
+      },
+      "map": "Amazon",
+      "name": "curimbata",
+      "names": {
+        "en": "curimbata",
+        "fr": "prochilodus rayé",
+        "it": "prochilodus lineato",
+        "pt": "curimatã",
+        "zh": "卡里巴塔鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 51,
+          "y": 60
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "709",
+      "kgs": {
+        "max": 4.5,
+        "min": 1
+      },
+      "latin": "Plagioscion squamosissimus",
+      "lbs": {
+        "max": 9.92,
+        "min": 2.2
+      },
+      "map": "Amazon",
+      "name": "corvina",
+      "names": {
+        "en": "corvina",
+        "fr": "corvina",
+        "it": "corvina",
+        "pt": "corvina",
+        "zh": "黄花鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 53,
+          "y": 55
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "713",
+      "kgs": {
+        "max": 4.4,
+        "min": 0.5
+      },
+      "latin": "Brycon melanopterus",
+      "lbs": {
+        "max": 9.7,
+        "min": 1.1
+      },
+      "map": "Amazon",
+      "name": "jatuarana",
+      "names": {
+        "en": "jatuarana",
+        "fr": "brycon à nageoires noires",
+        "it": "jatuarana",
+        "pt": "matrinxã de nadadeiras negras",
+        "zh": "黑鳍布莱恩鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 35,
+          "y": 38
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "758",
+      "kgs": {
+        "max": 44,
+        "min": 10
+      },
+      "latin": "Ictalurus punctatus",
+      "lbs": {
+        "max": 97,
+        "min": 22.05
+      },
+      "map": "Amazon",
+      "name": "redtail catfish",
+      "names": {
+        "en": "redtail catfish",
+        "fr": "poisson-chat rouge",
+        "it": "pesce gatto a coda rossa",
+        "pt": "pirarara",
+        "zh": "红尾鲨"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 89,
+          "y": 62
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "725",
+      "kgs": {
+        "max": 17,
+        "min": 2
+      },
+      "latin": "Pseudoplatystoma tigrinum",
+      "lbs": {
+        "max": 37.48,
+        "min": 4.41
+      },
+      "map": "Amazon",
+      "name": "tiger sorubim",
+      "names": {
+        "en": "tiger sorubim",
+        "fr": "poissont-chat tigré",
+        "it": "pesce gatto tigrato",
+        "pt": "surubim-tigre",
+        "zh": "虎纹鲇鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 89,
+          "y": 62
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "703",
+      "kgs": {
+        "max": 2.5,
+        "min": 1
+      },
+      "latin": "Myloplus rubripinnis",
+      "lbs": {
+        "max": 5.51,
+        "min": 2.2
+      },
+      "map": "Amazon",
+      "name": "redhook myleus",
+      "names": {
+        "en": "redhook myleus",
+        "fr": "myloplus à nageoires rouges",
+        "it": "myleus a uncino rosso",
+        "pt": "myleus de gancho vermelho",
+        "zh": "红钩鱿鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 41,
+          "y": 13
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "724",
+      "kgs": {
+        "max": 6.8,
+        "min": 1
+      },
+      "latin": "Cichla ocellaris",
+      "lbs": {
+        "max": 14.99,
+        "min": 2.2
+      },
+      "map": "Amazon",
+      "name": "peacock bass",
+      "names": {
+        "en": "peacock bass",
+        "fr": "tucunaré",
+        "it": "pesce pavone",
+        "pt": "tucunaré ocelado",
+        "zh": "孔雀鲈"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 74,
+          "y": 59
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "721",
+      "kgs": {
+        "max": 0.3,
+        "min": 0.1
+      },
+      "latin": "Astyanax ajuricaba",
+      "lbs": {
+        "max": 0.66,
+        "min": 0.22
+      },
+      "map": "Amazon",
+      "name": "lambari",
+      "names": {
+        "en": "lambari",
+        "fr": "lambari",
+        "it": "lambari",
+        "pt": "lambari",
+        "zh": "兰巴里鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 15,
+          "y": 53
+        },
+        {
+          "x": 27,
+          "y": 41
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "710",
+      "kgs": {
+        "max": 50,
+        "min": 5
+      },
+      "latin": "Zungaro zungaro",
+      "lbs": {
+        "max": 110.23,
+        "min": 11.02
+      },
+      "map": "Amazon",
+      "name": "zungaro",
+      "names": {
+        "en": "zungaro",
+        "fr": "zungaro",
+        "it": "zungaro",
+        "pt": "zungaro",
+        "zh": "尊加罗鲇"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 65,
+          "y": 81
+        },
+        {
+          "x": 88,
+          "y": 56
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "714",
+      "kgs": {
+        "max": 20,
+        "min": 3
+      },
+      "latin": "Piaractus mesopotamicus",
+      "lbs": {
+        "max": 44.09,
+        "min": 6.61
+      },
+      "map": "Amazon",
+      "name": "pacu",
+      "names": {
+        "en": "pacu",
+        "fr": "pacu",
+        "it": "pacu",
+        "pt": "pacu",
+        "zh": "淡水鲳鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 55,
+          "y": 43
+        },
+        {
+          "x": 39,
+          "y": 36
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1,
+            3
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "706",
+      "kgs": {
+        "max": 13,
+        "min": 1
+      },
+      "latin": "Hoplias macrophthalmus",
+      "lbs": {
+        "max": 28.66,
+        "min": 2.2
+      },
+      "map": "Amazon",
+      "name": "giant trahira",
+      "names": {
+        "en": "giant trahira",
+        "fr": "traira",
+        "it": "traira gigante",
+        "pt": "traira de olhos grandes",
+        "zh": "巨型豹鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 45,
+          "y": 58
+        },
+        {
+          "x": 85,
+          "y": 47
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "702",
+      "kgs": {
+        "max": 3,
+        "min": 0.5
+      },
+      "latin": "Serrasalmus rhombeus",
+      "lbs": {
+        "max": 6.61,
+        "min": 1.1
+      },
+      "map": "Amazon",
+      "name": "redeye piranha",
+      "names": {
+        "en": "redeye piranha",
+        "fr": "piranha losange",
+        "it": "piranha romboid",
+        "pt": "serrasalmus rhombeus",
+        "zh": "红眼食人鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 88,
+          "y": 79
+        },
+        {
+          "x": 49,
+          "y": 81
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "705",
+      "kgs": {
+        "max": 3.9,
+        "min": 0.5
+      },
+      "latin": "Pygocentrus nattereri",
+      "lbs": {
+        "max": 8.6,
+        "min": 1.1
+      },
+      "map": "Amazon",
+      "name": "red piranha",
+      "names": {
+        "en": "red piranha",
+        "fr": "piranha rouge",
+        "it": "piranha nattereri",
+        "pt": "piranha vermelha",
+        "zh": "红腹食人鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 55,
+          "y": 13
+        },
+        {
+          "x": 36,
+          "y": 14
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "723",
+      "kgs": {
+        "max": 12,
+        "min": 2
+      },
+      "latin": "Cichla temensis",
+      "lbs": {
+        "max": 26.46,
+        "min": 4.41
+      },
+      "map": "Amazon",
+      "name": "speckled pavon",
+      "names": {
+        "en": "speckled pavon",
+        "fr": "tucunaré temensis",
+        "it": "pavon chiazzato",
+        "pt": "tucunaré temensis",
+        "zh": "斑点孔雀鲈"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 23,
+          "y": 21
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "711",
+      "kgs": {
+        "max": 0.3,
+        "min": 0.1
+      },
+      "latin": "Ctenolucius hujeta",
+      "lbs": {
+        "max": 0.66,
+        "min": 0.22
+      },
+      "map": "Amazon",
+      "name": "freshwater barracuda",
+      "names": {
+        "en": "freshwater barracuda",
+        "fr": "hujeta",
+        "it": "hujeta",
+        "pt": "gar-pike sul-americano",
+        "zh": "淡水梭鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 54,
+          "y": 28
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "715",
+      "kgs": {
+        "max": 6,
+        "min": 2
+      },
+      "latin": "Boulengerella cuvieri",
+      "lbs": {
+        "max": 13.23,
+        "min": 4.41
+      },
+      "map": "Amazon",
+      "name": "bicuda",
+      "names": {
+        "en": "bicuda",
+        "fr": "bicuda",
+        "it": "bicuda",
+        "pt": "bicuda",
+        "zh": "尖嘴梭鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 15,
+          "y": 55
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "761",
+      "kgs": {
+        "max": 6,
+        "min": 4
+      },
+      "lbs": {
+        "max": 13.23,
+        "min": 8.82
+      },
+      "map": "Amazon",
+      "name": "arowana",
+      "names": {
+        "en": "arowana",
+        "fr": "arowana",
+        "it": "arowana",
+        "pt": "arowana",
+        "zh": "龙鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 66,
+          "y": 11
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "712",
+      "kgs": {
+        "max": 0.2,
+        "min": 0.1
+      },
+      "latin": "Colomesus asellus",
+      "lbs": {
+        "max": 0.44,
+        "min": 0.22
+      },
+      "map": "Amazon",
+      "name": "amazon puffer",
+      "names": {
+        "en": "amazon puffer",
+        "fr": "tétrodon d'eau douce",
+        "it": "pesce palla amazzonico",
+        "pt": "peixe-balão amazônico",
+        "zh": "亚马逊河豚"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 30,
+          "y": 22
+        },
+        {
+          "x": 15,
+          "y": 72
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "701",
+      "kgs": {
+        "max": 25,
+        "min": 3
+      },
+      "latin": "Piaractus brachypomus",
+      "lbs": {
+        "max": 55.12,
+        "min": 6.61
+      },
+      "map": "Amazon",
+      "name": "pirapitinga",
+      "names": {
+        "en": "pirapitinga",
+        "fr": "pirapitinga",
+        "it": "pirapitinga",
+        "pt": "pirapitinga",
+        "zh": "皮拉皮廷加鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 50,
+          "y": 80
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 2,
+      "id": "717",
+      "kgs": {
+        "max": 20,
+        "min": 2
+      },
+      "latin": "Electrophorus electricus",
+      "lbs": {
+        "max": 44.09,
+        "min": 4.41
+      },
+      "map": "Amazon",
+      "name": "electric eel",
+      "names": {
+        "en": "electric eel",
+        "fr": "anguille électrique",
+        "it": "anguilla elettrica",
+        "pt": "enguia elétrica",
+        "zh": "电鳝"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 45,
+          "y": 32
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 2,
+      "id": "757",
+      "kgs": {
+        "max": 7.7,
+        "min": 1
+      },
+      "latin": "Pinirampus pirinampu",
+      "lbs": {
+        "max": 16.98,
+        "min": 2.2
+      },
+      "map": "Amazon",
+      "name": "flatwhiskered catfish",
+      "names": {
+        "en": "flatwhiskered catfish",
+        "fr": "pirinampus",
+        "it": "pirinampu",
+        "pt": "pirinampu",
+        "zh": "扁鳚鲇"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 89,
+          "y": 62
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "720",
+      "kgs": {
+        "max": 1.3,
+        "min": 0.3
+      },
+      "latin": "Brachyplatystoma filamentosum",
+      "lbs": {
+        "max": 2.87,
+        "min": 0.66
+      },
+      "map": "Amazon",
+      "name": "lau lau",
+      "names": {
+        "en": "lau lau",
+        "fr": "lau lau",
+        "it": "lau lau",
+        "pt": "lau lau",
+        "zh": "劳劳鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 53,
+          "y": 60
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "716",
+      "kgs": {
+        "max": 15,
+        "min": 3
+      },
+      "latin": "Lithodoras dorsalis",
+      "lbs": {
+        "max": 33.07,
+        "min": 6.61
+      },
+      "map": "Amazon",
+      "name": "rock-bacu",
+      "names": {
+        "en": "rock-bacu",
+        "fr": "lithodoras",
+        "it": "rock-bacu",
+        "pt": "dourado do rio",
+        "zh": "岩石鲇"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 17,
+          "y": 49
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            3
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 2,
+      "id": "722",
+      "kgs": {
+        "max": 40,
+        "min": 5
+      },
+      "latin": "Colossoma macropomum",
+      "lbs": {
+        "max": 88.18,
+        "min": 11.02
+      },
+      "map": "Amazon",
+      "name": "cachama",
+      "names": {
+        "en": "cachama",
+        "fr": "cachama",
+        "it": "cachama",
+        "pt": "cachama",
+        "zh": "大眼鲳鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 39,
+          "y": 13
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 2,
+      "id": "718",
+      "kgs": {
+        "max": 200,
+        "min": 20
+      },
+      "latin": "Arapaima gigas",
+      "lbs": {
+        "max": 440.92,
+        "min": 44.09
+      },
+      "map": "Amazon",
+      "name": "arapaima",
+      "names": {
+        "en": "arapaima",
+        "fr": "arapaima",
+        "it": "araipama",
+        "pt": "araipama",
+        "zh": "巨骨舌鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 45,
+          "y": 21
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "719",
+      "kgs": {
+        "max": 17,
+        "min": 3
+      },
+      "latin": "Hydrolycus scomberoides",
+      "lbs": {
+        "max": 37.48,
+        "min": 6.61
+      },
+      "map": "Amazon",
+      "name": "payara",
+      "names": {
+        "en": "payara",
+        "fr": "payara",
+        "it": "payara",
+        "pt": "payara",
+        "zh": "尖牙鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 36,
+          "y": 65
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "intro": "Amazon is the last 'normal' area in Creatures of the Deep. It has similar dimensions to Great Lakes and Thailand. After exploring the previous zones thoroughly, you should be able to complete your collection without particular difficulty. Click on a fish in the side menu to see the details.",
+  "mapImage": "/images/maps/amazon.jpg",
+  "mapType": "classic",
+  "monster": {
+    "attributes": [
+      {
+        "shadow": []
+      },
+      {
+        "moment": [
+          0
+        ]
+      }
+    ],
+    "difficulty": 2,
+    "id": "777",
+    "kgs": {
+      "max": 3000,
+      "min": 1000
+    },
+    "lbs": {
+      "max": 6613.86,
+      "min": 2204.62
+    },
+    "map": "Amazon",
+    "name": "boiuna",
+    "names": {
+      "en": "boiuna",
+      "fr": "boiuna",
+      "it": "boiuna",
+      "pt": "boiuna",
+      "zh": "博伊纳巨蛇"
+    },
+    "portraitRatio": "horizontal",
+    "positions": [
+      {
+        "position": "top",
+        "spot": "gravity falls",
+        "x": 54,
+        "y": 73
+      },
+      {
+        "position": "top",
+        "spot": "Rio north",
+        "x": 72,
+        "y": 80
+      },
+      {
+        "position": "left",
+        "spot": "dead branchs",
+        "x": 75,
+        "y": 61
+      },
+      {
+        "position": "bottom",
+        "spot": "Rio south",
+        "x": 86,
+        "y": 72
+      }
+    ],
+    "rarity": "monster",
+    "rawType": "monster",
+    "rotation": [
+      3,
+      4,
+      1,
+      1,
+      2,
+      4,
+      3,
+      4,
+      2,
+      4,
+      3,
+      2,
+      3,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      3,
+      1,
+      1,
+      4,
+      1,
+      3,
+      1
+    ],
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "snippet": "The spot changes everyday. Check Discord to know the current spot.",
+    "startDate": "2024-05-01"
+  },
+  "name": "Amazon",
+  "objects": [
+    {
+      "bio": false,
+      "id": "T8-1",
+      "map": "Amazon",
+      "name": "amazonian blowpipe",
+      "names": {
+        "en": "amazonian blowpipe",
+        "fr": "sarbacane amazonienne",
+        "it": "cerbottana amazzonica",
+        "pt": "zarabatana amazônica",
+        "zh": "亚马逊吹箭筒"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 85,
+          "y": 86
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-2",
+      "map": "Amazon",
+      "name": "amazonian honey",
+      "names": {
+        "en": "amazonian honey",
+        "fr": "miel amazonien",
+        "it": "miele amazzonico",
+        "pt": "mel amazônico",
+        "zh": "亚马逊蜂蜜"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 85,
+          "y": 86
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": true,
+      "id": "T8-3",
+      "map": "Amazon",
+      "name": "balsa timber",
+      "names": {
+        "en": "balsa timber",
+        "fr": "bois de balsa",
+        "it": "legno di balsa",
+        "pt": "madeira de balsa",
+        "zh": "轻木"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 68,
+          "y": 59
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-4",
+      "map": "Amazon",
+      "name": "boné",
+      "names": {
+        "en": "boné",
+        "fr": "casquette",
+        "it": "cappellino",
+        "pt": "boné",
+        "zh": "帽子"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 20,
+          "y": 10
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "image": "/skins/skin_footcap.png",
+          "title": {
+            "en": "Hat",
+            "fr": "Chapeau",
+            "it": "Cappello",
+            "pt": "Chapéu",
+            "zh": "帽子"
+          },
+          "type": "recyclable"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T8-5",
+      "map": "Amazon",
+      "name": "bossa nova vinyl record",
+      "names": {
+        "en": "bossa nova vinyl record",
+        "fr": "disque vinyle de bossa nova",
+        "it": "disco in vinile di bossa nova",
+        "pt": "disco de vinil de bossa nova",
+        "zh": "波萨诺瓦黑胶唱片"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 53,
+          "y": 59
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-6",
+      "map": "Amazon",
+      "name": "brazil cachaca",
+      "names": {
+        "en": "brazil cachaca",
+        "fr": "cachaça brésilienne",
+        "it": "cachaça brasiliana",
+        "pt": "cachaça brasileira",
+        "zh": "巴西甘蔗酒"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 70,
+          "y": 84
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-7",
+      "map": "Amazon",
+      "name": "brazil drums",
+      "names": {
+        "en": "brazil drums",
+        "fr": "tambours brésiliens",
+        "it": "tamburi brasiliani",
+        "pt": "tambores brasileiros",
+        "zh": "巴西鼓"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 70,
+          "y": 84
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-8",
+      "map": "Amazon",
+      "name": "brazil hammock",
+      "names": {
+        "en": "brazil hammock",
+        "fr": "hamac brésilien",
+        "it": "amaca brasiliana",
+        "pt": "rede brasileira",
+        "zh": "巴西吊床"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 70,
+          "y": 84
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-9",
+      "map": "Amazon",
+      "name": "carnival costume",
+      "names": {
+        "en": "carnival costume",
+        "fr": "costume de carnaval",
+        "it": "costume di carnevale",
+        "pt": "fantasia de carnaval",
+        "zh": "狂欢节服装"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 40,
+          "y": 30
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": true,
+      "id": "T8-10",
+      "map": "Amazon",
+      "name": "\"cat's claw\" liana",
+      "names": {
+        "en": "\"cat's claw\" liana",
+        "fr": "liane « griffe du chat »",
+        "it": "liana unghia di gatto",
+        "pt": "liana unha-de-gato",
+        "zh": "猫爪藤"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 25,
+          "y": 52
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "type": "floating"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T8-11",
+      "map": "Amazon",
+      "name": "coffee bean bag",
+      "names": {
+        "en": "coffee bean bag",
+        "fr": "sac de grains de café",
+        "it": "sacco di chicchi di caffè",
+        "pt": "saco de grãos de café",
+        "zh": "咖啡豆袋"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 87,
+          "y": 65
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "image": "/NPC/NPC_monica.png",
+          "title": {
+            "en": "Monica",
+            "fr": "Monica",
+            "it": "Monica",
+            "pt": "Monica",
+            "zh": "Monica"
+          },
+          "type": "npcquest"
+        }
+      ]
+    },
+    {
+      "bio": true,
+      "id": "T8-12",
+      "map": "Amazon",
+      "name": "coffee tree branch",
+      "names": {
+        "en": "coffee tree branch",
+        "fr": "branche de caféier",
+        "it": "ramo di pianta del caffè",
+        "pt": "galho de cafeeiro",
+        "zh": "咖啡树枝"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 43,
+          "y": 67
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-13",
+      "map": "Amazon",
+      "name": "decorated chest",
+      "names": {
+        "en": "decorated chest",
+        "fr": "coffre décoré",
+        "it": "scrigno decorato",
+        "pt": "baú decorado",
+        "zh": "装饰宝箱"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 69,
+          "y": 42
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "Collect 4 different chests",
+      "usage": [
+        {
+          "image": "/NPC/NPC_locksmith.png",
+          "title": {
+            "en": "LockSmith",
+            "fr": "LockSmith",
+            "it": "LockSmith",
+            "pt": "LockSmith",
+            "zh": "LockSmith"
+          },
+          "type": "npcquest"
+        },
+        {
+          "description": {
+            "en": "Collect 4 different chests",
+            "fr": "Récoltez 4 coffres différents",
+            "it": "Raccogliere 4 scrigni diversi",
+            "pt": "Coletar 4 baús diferentes",
+            "zh": "收集4个不同的宝箱"
+          },
+          "type": "seasonal_quest"
+        }
+      ]
+    },
+    {
+      "bio": true,
+      "id": "T8-14",
+      "map": "Amazon",
+      "name": "feather",
+      "names": {
+        "en": "feather",
+        "fr": "plume",
+        "it": "piuma",
+        "pt": "pena",
+        "zh": "羽毛"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 88,
+          "y": 72
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-15",
+      "map": "Amazon",
+      "name": "football cup",
+      "names": {
+        "en": "football cup",
+        "fr": "coupe de football",
+        "it": "coppa di calcio",
+        "pt": "taça de futebol",
+        "zh": "足球奖杯"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 74,
+          "y": 63
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "image": "/NPC/NPC_golzino.png",
+          "title": {
+            "en": "Golzino",
+            "fr": "Golzino",
+            "it": "Golzino",
+            "pt": "Golzino",
+            "zh": "Golzino"
+          },
+          "type": "npcquest"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T8-16",
+      "map": "Amazon",
+      "name": "football jersey",
+      "names": {
+        "en": "football jersey",
+        "fr": "maillot de football",
+        "it": "maglia da calcio",
+        "pt": "camisa de futebol",
+        "zh": "足球球衣"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 36,
+          "y": 11
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "image": "/skins/skin_foot.png",
+          "title": {
+            "en": "Body",
+            "fr": "Corps",
+            "it": "Corpo",
+            "pt": "Corpo",
+            "zh": "身体"
+          },
+          "type": "recyclable"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T8-17",
+      "map": "Amazon",
+      "name": "green can",
+      "names": {
+        "en": "green can",
+        "fr": "canette verte",
+        "it": "lattina verde",
+        "pt": "lata verde",
+        "zh": "绿色易拉罐"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 19,
+          "y": 35
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": true,
+      "id": "T8-18",
+      "map": "Amazon",
+      "name": "kakao",
+      "names": {
+        "en": "kakao",
+        "fr": "cacao",
+        "it": "cacao",
+        "pt": "cacau",
+        "zh": "可可"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 24,
+          "y": 18
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-19",
+      "map": "Amazon",
+      "name": "maracas",
+      "names": {
+        "en": "maracas",
+        "fr": "maracas",
+        "it": "maracas",
+        "pt": "maracas",
+        "zh": "沙锤"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 42,
+          "y": 27
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-20",
+      "map": "Amazon",
+      "name": "rusty axe head",
+      "names": {
+        "en": "rusty axe head",
+        "fr": "tête de hache rouillée",
+        "it": "testa d'ascia arrugginita",
+        "pt": "cabeça de machado enferrujada",
+        "zh": "生锈的斧头"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 15,
+          "y": 66
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-21",
+      "map": "Amazon",
+      "name": "rusty barrel",
+      "names": {
+        "en": "rusty barrel",
+        "fr": "baril rouillé",
+        "it": "barile arrugginito",
+        "pt": "barril enferrujado",
+        "zh": "生锈的桶"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 36,
+          "y": 11
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-22",
+      "map": "Amazon",
+      "name": "soccer ball",
+      "names": {
+        "en": "soccer ball",
+        "fr": "ballon de football",
+        "it": "pallone da calcio",
+        "pt": "bola de futebol",
+        "zh": "足球"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 74,
+          "y": 65
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-23",
+      "map": "Amazon",
+      "name": "stone key",
+      "names": {
+        "en": "stone key",
+        "fr": "clé en pierre",
+        "it": "chiave di pietra",
+        "pt": "chave de pedra",
+        "zh": "石钥匙"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 86,
+          "y": 84
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": true,
+      "id": "T8-24",
+      "map": "Amazon",
+      "name": "stonebreaker leaf",
+      "names": {
+        "en": "stonebreaker leaf",
+        "fr": "feuille brise-pierre",
+        "it": "foglia spaccapietra",
+        "pt": "folha quebra-pedra",
+        "zh": "碎石草叶"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 36,
+          "y": 11
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-25",
+      "map": "Amazon",
+      "name": "wooden figurine",
+      "names": {
+        "en": "wooden figurine",
+        "fr": "figurine en bois",
+        "it": "statuetta di legno",
+        "pt": "estatueta de madeira",
+        "zh": "木雕人偶"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 21,
+          "y": 34
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-26",
+      "map": "Amazon",
+      "name": "green yellow disk",
+      "names": {
+        "en": "green yellow disk",
+        "fr": "disque vert et jaune",
+        "it": "disco verde e giallo",
+        "pt": "disco verde e amarelo",
+        "zh": "绿黄光盘"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 36,
+          "y": 20
+        },
+        {
+          "x": 69,
+          "y": 65
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-27",
+      "map": "Amazon",
+      "name": "old gold coins",
+      "names": {
+        "en": "old gold coins",
+        "fr": "anciennes pièces d’or",
+        "it": "vecchie monete d’oro",
+        "pt": "moedas de ouro antigas",
+        "zh": "古金币"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 22,
+          "y": 26
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T8-28",
+      "map": "Amazon",
+      "name": "fridge magnet",
+      "names": {
+        "en": "fridge magnet",
+        "fr": "aimant de réfrigérateur",
+        "it": "calamita da frigorifero",
+        "pt": "ímã de geladeira",
+        "zh": "冰箱磁铁"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 50,
+          "y": 82
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    }
+  ],
+  "slug": "amazon",
+  "title": "Amazon map"
+}

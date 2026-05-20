@@ -1,0 +1,509 @@
+[
+  {
+    "id": "31",
+    "name": "arctic char",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 30,
+        "y": 70
+      },
+      {
+        "x": 90,
+        "y": 25
+      },
+      {
+        "x": 35,
+        "y": 18
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "32",
+    "name": "atka mackerel",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 30,
+        "y": 55
+      },
+      {
+        "x": 82,
+        "y": 78
+      },
+      {
+        "x": 72,
+        "y": 61
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "33",
+    "name": "yellow irish lord",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 28,
+        "y": 33
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "34",
+    "name": "lancetfish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 54,
+        "y": 88
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "35",
+    "name": "steelhead",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 74,
+        "y": 74
+      },
+      {
+        "x": 72,
+        "y": 88
+      },
+      {
+        "x": 72,
+        "y": 53
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "36",
+    "name": "silver salmon",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 85,
+        "y": 62
+      },
+      {
+        "x": 86,
+        "y": 27
+      },
+      {
+        "x": 80,
+        "y": 44
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "37",
+    "name": "rougheye rockfish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 66,
+        "y": 9
+      },
+      {
+        "x": 89,
+        "y": 10
+      },
+      {
+        "x": 52,
+        "y": 71
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "38",
+    "name": "pacific herring",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 38,
+        "y": 60
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "39",
+    "name": "sockeye salmon",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 64,
+        "y": 40
+      },
+      {
+        "x": 70,
+        "y": 60
+      },
+      {
+        "x": 50,
+        "y": 70
+      },
+      {
+        "x": 85,
+        "y": 40
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "310",
+    "name": "dolly varden",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 50,
+        "y": 23
+      },
+      {
+        "x": 58,
+        "y": 66
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "311",
+    "name": "coalfish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 54,
+        "y": 88
+      },
+      {
+        "x": 84,
+        "y": 39
+      },
+      {
+        "x": 37,
+        "y": 18
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "312",
+    "name": "chum salmon",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 66,
+        "y": 39
+      },
+      {
+        "x": 45,
+        "y": 79
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "313",
+    "name": "capelin",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 87,
+        "y": 41
+      },
+      {
+        "x": 58,
+        "y": 16
+      },
+      {
+        "x": 30,
+        "y": 85
+      },
+      {
+        "x": 15,
+        "y": 50
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "314",
+    "name": "burbot",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 81,
+        "y": 15
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "315",
+    "name": "bigmouth sculpin",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 80,
+        "y": 65
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "316",
+    "name": "arctic greyling",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 30,
+        "y": 85
+      },
+      {
+        "x": 85,
+        "y": 85
+      },
+      {
+        "x": 25,
+        "y": 55
+      },
+      {
+        "x": 15,
+        "y": 15
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "317",
+    "name": "humpback salmon",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 47,
+        "y": 41
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "318",
+    "name": "halibut",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 38,
+        "y": 61
+      },
+      {
+        "x": 29,
+        "y": 52
+      },
+      {
+        "x": 86,
+        "y": 27
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "319",
+    "name": "blue lingcod",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 45,
+        "y": 85
+      },
+      {
+        "x": 49,
+        "y": 23
+      },
+      {
+        "x": 65,
+        "y": 39
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "320",
+    "name": "spiny skate",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 35,
+        "y": 15
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "321",
+    "name": "wolf eel",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 54,
+        "y": 88
+      },
+      {
+        "x": 87,
+        "y": 64
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "322",
+    "name": "king salmon",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 65,
+        "y": 40
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "323",
+    "name": "salmon shark",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 85,
+        "y": 40
+      },
+      {
+        "x": 52,
+        "y": 89
+      },
+      {
+        "x": 55,
+        "y": 15
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "324",
+    "name": "pacific sleeper shark",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 12,
+        "y": 68
+      },
+      {
+        "x": 30,
+        "y": 85
+      },
+      {
+        "x": 80,
+        "y": 15
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "325",
+    "name": "sunfish",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 85,
+        "y": 15
+      },
+      {
+        "x": 70,
+        "y": 87
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

@@ -1,0 +1,3777 @@
+{
+  "creatures": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c5-0",
+      "kgs": {
+        "max": 0.8,
+        "min": 0.2
+      },
+      "latin": "Bufo bufo",
+      "lbs": {
+        "max": 1.76,
+        "min": 0.44
+      },
+      "map": "Scotland",
+      "name": "common toad",
+      "names": {
+        "en": "common toad",
+        "fr": "crapaud commun",
+        "it": "rospo comune",
+        "pt": "sapo-comum"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 48,
+          "y": 89
+        },
+        {
+          "x": 71,
+          "y": 33
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c5-1",
+      "kgs": {
+        "max": 12,
+        "min": 4
+      },
+      "latin": "Lutra lutra",
+      "lbs": {
+        "max": 26.46,
+        "min": 8.82
+      },
+      "map": "Scotland",
+      "name": "otter",
+      "names": {
+        "en": "otter",
+        "fr": "loutre d'europe",
+        "it": "lontra europea",
+        "pt": "lontra-europeia"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 10,
+          "y": 66
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c5-2",
+      "kgs": {
+        "max": 0.1,
+        "min": 0.05
+      },
+      "latin": "Pacifastacus leniusculus",
+      "lbs": {
+        "max": 0.22,
+        "min": 0.11
+      },
+      "map": "Scotland",
+      "name": "signal crayfish",
+      "names": {
+        "en": "signal crayfish",
+        "fr": "écrevisse du pacifique",
+        "it": "gambero di fiume americano",
+        "pt": "lagostim-sinal"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 24,
+          "y": 39
+        },
+        {
+          "x": 26,
+          "y": 20
+        },
+        {
+          "x": 47,
+          "y": 20
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c5-3",
+      "kgs": {
+        "max": 0.05,
+        "min": 0.01
+      },
+      "latin": "Lissotriton helveticus",
+      "lbs": {
+        "max": 0.11,
+        "min": 0.02
+      },
+      "map": "Scotland",
+      "name": "palmate newt",
+      "names": {
+        "en": "palmate newt",
+        "fr": "triton palmé",
+        "it": "tritone crestato",
+        "pt": "tritão-palmado"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 81,
+          "y": 67
+        },
+        {
+          "x": 79,
+          "y": 86
+        },
+        {
+          "x": 34,
+          "y": 14
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c5-4",
+      "kgs": {
+        "max": 30,
+        "min": 5
+      },
+      "latin": "Castor fiber",
+      "lbs": {
+        "max": 66.14,
+        "min": 11.02
+      },
+      "map": "Scotland",
+      "name": "eurasian beaver",
+      "names": {
+        "en": "eurasian beaver",
+        "fr": "castor fiber",
+        "it": "castoro europeo",
+        "pt": "castor-europeu"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 62,
+          "y": 88
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c5-5",
+      "kgs": {
+        "max": 0.05,
+        "min": 0.01
+      },
+      "latin": "Margaritifera margaritifera",
+      "lbs": {
+        "max": 0.11,
+        "min": 0.02
+      },
+      "map": "Scotland",
+      "name": "freshwater pearl mussels",
+      "names": {
+        "en": "freshwater pearl mussels",
+        "fr": "moule perlière d'eau douce",
+        "it": "cozza perla d'acqua dolca",
+        "pt": "mexilhão-de-rio"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 10,
+          "y": 25
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c5-6",
+      "kgs": {
+        "max": 0.7,
+        "min": 0.1
+      },
+      "latin": "Arvicola amphibius",
+      "lbs": {
+        "max": 1.54,
+        "min": 0.22
+      },
+      "map": "Scotland",
+      "name": "water vole",
+      "names": {
+        "en": "water vole",
+        "fr": "grand campagnol",
+        "it": "arvicola acquatica",
+        "pt": "rato-dos-lameiros"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 50,
+          "y": 89
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c5-7",
+      "kgs": {
+        "max": 0.2,
+        "min": 0.05
+      },
+      "latin": "Vipera berus",
+      "lbs": {
+        "max": 0.44,
+        "min": 0.11
+      },
+      "map": "Scotland",
+      "name": "adder",
+      "names": {
+        "en": "adder",
+        "fr": "vipère péliale",
+        "it": "marasso",
+        "pt": "vibora comum"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 86,
+          "y": 50
+        },
+        {
+          "x": 89,
+          "y": 25
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c5-8",
+      "kgs": {
+        "max": 0.05,
+        "min": 0.01
+      },
+      "latin": "Rana temporaria",
+      "lbs": {
+        "max": 0.11,
+        "min": 0.02
+      },
+      "map": "Scotland",
+      "name": "common frog",
+      "names": {
+        "en": "common frog",
+        "fr": "grenouille rousse",
+        "it": "rana alpina",
+        "pt": "rã-comum"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 43,
+          "y": 13
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c5-9",
+      "kgs": {
+        "max": 0.1,
+        "min": 0.02
+      },
+      "latin": "Anguis fragilis",
+      "lbs": {
+        "max": 0.22,
+        "min": 0.04
+      },
+      "map": "Scotland",
+      "name": "slow worm",
+      "names": {
+        "en": "slow worm",
+        "fr": "anguis fragilis",
+        "it": "orbettino",
+        "pt": "licranço"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 78,
+          "y": 74
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c5-10",
+      "kgs": {
+        "max": 0.15,
+        "min": 0.1
+      },
+      "latin": "Neomys fodiens",
+      "lbs": {
+        "max": 0.33,
+        "min": 0.22
+      },
+      "map": "Scotland",
+      "name": "water shrew",
+      "names": {
+        "en": "water shrew",
+        "fr": "crossope aquatique",
+        "it": "toporagno d'acqua",
+        "pt": "musaranho de àgua"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 21,
+          "y": 44
+        },
+        {
+          "x": 33,
+          "y": 32
+        },
+        {
+          "x": 50,
+          "y": 89
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c5-11",
+      "kgs": {
+        "max": 0.05,
+        "min": 0.01
+      },
+      "latin": "Epidalea calamita",
+      "lbs": {
+        "max": 0.11,
+        "min": 0.02
+      },
+      "map": "Scotland",
+      "name": "natterjack toad",
+      "names": {
+        "en": "natterjack toad",
+        "fr": "crapaud calamite",
+        "it": "rospo calamita",
+        "pt": "sapo-corredor"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 84,
+          "y": 57
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c5-12",
+      "kgs": {
+        "max": 0.1,
+        "min": 0.05
+      },
+      "latin": "Triturus cristatus",
+      "lbs": {
+        "max": 0.22,
+        "min": 0.11
+      },
+      "map": "Scotland",
+      "name": "great crested newt",
+      "names": {
+        "en": "great crested newt",
+        "fr": "triton crêté",
+        "it": "tritone elvetico",
+        "pt": "tritão-de-crista"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 81,
+          "y": 67
+        },
+        {
+          "x": 79,
+          "y": 86
+        },
+        {
+          "x": 33,
+          "y": 32
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "dataSource": "cloversalad2/src/assets/{fish,creatures,items}/Scotland.js",
+  "description": "Interactive Scotland map for Creatures of the Deep — fish, creatures, items, and the map monster.",
+  "fish": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "523",
+      "kgs": {
+        "max": 40,
+        "min": 2
+      },
+      "latin": "Cyprinus carpio",
+      "lbs": {
+        "max": 88.18,
+        "min": 4.41
+      },
+      "map": "Scotland",
+      "name": "carp",
+      "names": {
+        "en": "carp",
+        "fr": "carpe commune",
+        "it": "carpa",
+        "pt": "carpa-comum",
+        "zh": "鲤鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 19,
+          "y": 88
+        },
+        {
+          "x": 55,
+          "y": 88
+        },
+        {
+          "x": 69,
+          "y": 33
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "524",
+      "kgs": {
+        "max": 50,
+        "min": 15
+      },
+      "latin": "Salmo trutta",
+      "lbs": {
+        "max": 110.23,
+        "min": 33.07
+      },
+      "map": "Scotland",
+      "name": "sea trout",
+      "names": {
+        "en": "sea trout",
+        "fr": "truite commune",
+        "it": "trota",
+        "pt": "truta marisca",
+        "zh": "海鳕"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 35,
+          "y": 90
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1,
+            3
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "525",
+      "kgs": {
+        "max": 32,
+        "min": 10
+      },
+      "latin": "Salvelinus namaycush",
+      "lbs": {
+        "max": 70.55,
+        "min": 22.05
+      },
+      "map": "Scotland",
+      "name": "grey trout",
+      "names": {
+        "en": "grey trout",
+        "fr": "touladi",
+        "it": "salmerino di lago",
+        "pt": "truta-de-lago",
+        "zh": "灰鳕"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 9,
+          "y": 60
+        },
+        {
+          "x": 92,
+          "y": 47
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "526",
+      "kgs": {
+        "max": 1.5,
+        "min": 0.3
+      },
+      "latin": "Alosa fallax",
+      "lbs": {
+        "max": 3.31,
+        "min": 0.66
+      },
+      "map": "Scotland",
+      "name": "twaite shad",
+      "names": {
+        "en": "twaite shad",
+        "fr": "alose feinte",
+        "it": "cheppia",
+        "pt": "savelha",
+        "zh": "暗色西鲱"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 65,
+          "y": 90
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "527",
+      "kgs": {
+        "max": 11,
+        "min": 4
+      },
+      "latin": "Coregonus clupeoides",
+      "lbs": {
+        "max": 24.25,
+        "min": 8.82
+      },
+      "map": "Scotland",
+      "name": "powan",
+      "names": {
+        "en": "powan",
+        "fr": "corégone clupéoïde",
+        "it": "powan",
+        "pt": "powan",
+        "zh": "苏格兰白鱿"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 40,
+          "y": 10
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "51",
+      "kgs": {
+        "max": 6,
+        "min": 1
+      },
+      "latin": "Abramis brama",
+      "lbs": {
+        "max": 13.23,
+        "min": 2.2
+      },
+      "map": "Scotland",
+      "name": "freshwater bream",
+      "names": {
+        "en": "freshwater bream",
+        "fr": "brème commune",
+        "it": "abramide comune",
+        "pt": "brema",
+        "zh": "淡水鲲"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 85,
+          "y": 56
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "52",
+      "kgs": {
+        "max": 0.3,
+        "min": 0.1
+      },
+      "latin": "Gasterosteus aculeatus",
+      "lbs": {
+        "max": 0.66,
+        "min": 0.22
+      },
+      "map": "Scotland",
+      "name": "three-spined stickleback",
+      "names": {
+        "en": "three-spined stickleback",
+        "fr": "épinoche",
+        "it": "spinarello",
+        "pt": "esgana-gata",
+        "zh": "三刺鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 87,
+          "y": 37
+        },
+        {
+          "x": 77,
+          "y": 77
+        },
+        {
+          "x": 49,
+          "y": 63
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "53",
+      "kgs": {
+        "max": 8,
+        "min": 1
+      },
+      "latin": "Squalius cephalus",
+      "lbs": {
+        "max": 17.64,
+        "min": 2.2
+      },
+      "map": "Scotland",
+      "name": "chub",
+      "names": {
+        "en": "chub",
+        "fr": "chevesne",
+        "it": "cavedano europeo",
+        "pt": "caboz",
+        "zh": "欧洲骛鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 22,
+          "y": 43
+        },
+        {
+          "x": 72,
+          "y": 84
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "54",
+      "kgs": {
+        "max": 7.5,
+        "min": 2
+      },
+      "latin": "Tinca tinca",
+      "lbs": {
+        "max": 16.53,
+        "min": 4.41
+      },
+      "map": "Scotland",
+      "name": "tench",
+      "names": {
+        "en": "tench",
+        "fr": "tanche",
+        "it": "tinca",
+        "pt": "tenca",
+        "zh": "丁鲥"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 48,
+          "y": 60
+        },
+        {
+          "x": 80,
+          "y": 77
+        },
+        {
+          "x": 50,
+          "y": 25
+        },
+        {
+          "x": 88,
+          "y": 35
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "55",
+      "kgs": {
+        "max": 4,
+        "min": 1
+      },
+      "latin": "Alosa alosa",
+      "lbs": {
+        "max": 8.82,
+        "min": 2.2
+      },
+      "map": "Scotland",
+      "name": "allis shad",
+      "names": {
+        "en": "allis shad",
+        "fr": "grande alose",
+        "it": "alosa",
+        "pt": "sável",
+        "zh": "欧洲西鲱"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 92,
+          "y": 47
+        },
+        {
+          "x": 35,
+          "y": 90
+        },
+        {
+          "x": 11,
+          "y": 60
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "56",
+      "kgs": {
+        "max": 28,
+        "min": 9
+      },
+      "latin": "Esox lucius",
+      "lbs": {
+        "max": 61.73,
+        "min": 19.84
+      },
+      "map": "Scotland",
+      "name": "northern pike",
+      "names": {
+        "en": "northern pike",
+        "fr": "grand brochet",
+        "it": "luccio",
+        "pt": "lùcio",
+        "zh": "白斟狗鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 85,
+          "y": 54
+        },
+        {
+          "x": 30,
+          "y": 10
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "57",
+      "kgs": {
+        "max": 25,
+        "min": 9
+      },
+      "latin": "Oncorhynchus mykiss",
+      "lbs": {
+        "max": 55.12,
+        "min": 19.84
+      },
+      "map": "Scotland",
+      "name": "rainbow trout",
+      "names": {
+        "en": "rainbow trout",
+        "fr": "truite arc-en-ciel",
+        "it": "trota iridea",
+        "pt": "truta-arco-iris",
+        "zh": "虹鳕"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 62,
+          "y": 10
+        },
+        {
+          "x": 62,
+          "y": 89
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "58",
+      "kgs": {
+        "max": 0.2,
+        "min": 0.1
+      },
+      "latin": "Gobio gobio",
+      "lbs": {
+        "max": 0.44,
+        "min": 0.22
+      },
+      "map": "Scotland",
+      "name": "gudgeon",
+      "names": {
+        "en": "gudgeon",
+        "fr": "goujon",
+        "it": "gobione",
+        "pt": "barbo-espanhol",
+        "zh": "鳕鱿"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 89,
+          "y": 25
+        },
+        {
+          "x": 11,
+          "y": 68
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "59",
+      "kgs": {
+        "max": 1,
+        "min": 0.2
+      },
+      "latin": "Coregonus albula",
+      "lbs": {
+        "max": 2.2,
+        "min": 0.44
+      },
+      "map": "Scotland",
+      "name": "vendace",
+      "names": {
+        "en": "vendace",
+        "fr": "corégone blanc",
+        "it": "coregone bianco",
+        "pt": "vendace",
+        "zh": "白鳗鱿"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 40,
+          "y": 10
+        },
+        {
+          "x": 65,
+          "y": 21
+        },
+        {
+          "x": 55,
+          "y": 13
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "510",
+      "kgs": {
+        "max": 1.8,
+        "min": 0.2
+      },
+      "latin": "Rutilus rutilus",
+      "lbs": {
+        "max": 3.97,
+        "min": 0.44
+      },
+      "map": "Scotland",
+      "name": "roach",
+      "names": {
+        "en": "roach",
+        "fr": "gardon",
+        "it": "gardon",
+        "pt": "pardelha-dos-alpes",
+        "zh": "欧洲欧鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 8,
+          "y": 59
+        },
+        {
+          "x": 20,
+          "y": 45
+        },
+        {
+          "x": 72,
+          "y": 83
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "511",
+      "kgs": {
+        "max": 1.2,
+        "min": 0.4
+      },
+      "latin": "Scardinius erythrophthalmus",
+      "lbs": {
+        "max": 2.65,
+        "min": 0.88
+      },
+      "map": "Scotland",
+      "name": "rudd",
+      "names": {
+        "en": "rudd",
+        "fr": "rotengle",
+        "it": "scardola",
+        "pt": "rudd comum",
+        "zh": "红眉鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 21,
+          "y": 43
+        },
+        {
+          "x": 90,
+          "y": 25
+        },
+        {
+          "x": 91,
+          "y": 45
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "512",
+      "kgs": {
+        "max": 2.5,
+        "min": 0.5
+      },
+      "latin": "Petromyzon marinus",
+      "lbs": {
+        "max": 5.51,
+        "min": 1.1
+      },
+      "map": "Scotland",
+      "name": "lamprey",
+      "names": {
+        "en": "lamprey",
+        "fr": "lamproie marine",
+        "it": "lampreda di mare",
+        "pt": "peixe vampiro",
+        "zh": "七鳌"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 40,
+          "y": 9
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "513",
+      "kgs": {
+        "max": 4.8,
+        "min": 1
+      },
+      "latin": "Perca fluviatilis",
+      "lbs": {
+        "max": 10.58,
+        "min": 2.2
+      },
+      "map": "Scotland",
+      "name": "european perch",
+      "names": {
+        "en": "european perch",
+        "fr": "perche commune",
+        "it": "pesce persico",
+        "pt": "perca",
+        "zh": "欧洲鲈"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 43,
+          "y": 50
+        },
+        {
+          "x": 24,
+          "y": 64
+        },
+        {
+          "x": 43,
+          "y": 10
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "514",
+      "kgs": {
+        "max": 1,
+        "min": 0.2
+      },
+      "latin": "Leuciscus leuciscus",
+      "lbs": {
+        "max": 2.2,
+        "min": 0.44
+      },
+      "map": "Scotland",
+      "name": "dace",
+      "names": {
+        "en": "dace",
+        "fr": "vandoise",
+        "it": "leucisco",
+        "pt": "dace comum",
+        "zh": "雅罗鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 76,
+          "y": 80
+        },
+        {
+          "x": 43,
+          "y": 50
+        },
+        {
+          "x": 83,
+          "y": 10
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "515",
+      "kgs": {
+        "max": 0.17,
+        "min": 0.1
+      },
+      "latin": "Osmerus eperlanus",
+      "lbs": {
+        "max": 0.37,
+        "min": 0.22
+      },
+      "map": "Scotland",
+      "name": "european smelt",
+      "names": {
+        "en": "european smelt",
+        "fr": "éperlan d'europe",
+        "it": "sperlano",
+        "pt": "eperlano",
+        "zh": "欧洲胡瓜鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 66,
+          "y": 88
+        },
+        {
+          "x": 56,
+          "y": 13
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "516",
+      "kgs": {
+        "max": 9,
+        "min": 2
+      },
+      "latin": "Anguilla anguilla",
+      "lbs": {
+        "max": 19.84,
+        "min": 4.41
+      },
+      "map": "Scotland",
+      "name": "european eel",
+      "names": {
+        "en": "european eel",
+        "fr": "anguille d'europe",
+        "it": "anguilla europea",
+        "pt": "enguia",
+        "zh": "欧洲鳝"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 9,
+          "y": 70
+        },
+        {
+          "x": 90,
+          "y": 46
+        },
+        {
+          "x": 90,
+          "y": 23
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "517",
+      "kgs": {
+        "max": 6.7,
+        "min": 1
+      },
+      "latin": "Thymallus thymallus",
+      "lbs": {
+        "max": 14.77,
+        "min": 2.2
+      },
+      "map": "Scotland",
+      "name": "european grayling",
+      "names": {
+        "en": "european grayling",
+        "fr": "ombre commune",
+        "it": "temolo",
+        "pt": "grayling europeu",
+        "zh": "欧洲茶鳕"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 10,
+          "y": 59
+        },
+        {
+          "x": 65,
+          "y": 89
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "518",
+      "kgs": {
+        "max": 10,
+        "min": 1
+      },
+      "latin": "Coregonus lavaretus",
+      "lbs": {
+        "max": 22.05,
+        "min": 2.2
+      },
+      "map": "Scotland",
+      "name": "european whitefish",
+      "names": {
+        "en": "european whitefish",
+        "fr": "corégone lavaret",
+        "it": "lavarello",
+        "pt": "peixe brancos",
+        "zh": "欧洲白鱿"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 81,
+          "y": 45
+        },
+        {
+          "x": 61,
+          "y": 15
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "519",
+      "kgs": {
+        "max": 14.5,
+        "min": 4
+      },
+      "latin": "Salvelinus confluentus",
+      "lbs": {
+        "max": 31.97,
+        "min": 8.82
+      },
+      "map": "Scotland",
+      "name": "bull trout",
+      "names": {
+        "en": "bull trout",
+        "fr": "omble à tête plate",
+        "it": "trota toro",
+        "pt": "truta touros",
+        "zh": "公牛鳕"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 90,
+          "y": 45
+        },
+        {
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 2,
+      "id": "520",
+      "kgs": {
+        "max": 46,
+        "min": 12
+      },
+      "latin": "Oncorhynchus gorbuscha",
+      "lbs": {
+        "max": 101.41,
+        "min": 26.46
+      },
+      "map": "Scotland",
+      "name": "scotish salmon",
+      "names": {
+        "en": "scotish salmon",
+        "fr": "saumon atlantique",
+        "it": "salmone dell'atlantico",
+        "pt": "salmào",
+        "zh": "苏格兰鲑鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 9,
+          "y": 59
+        },
+        {
+          "x": 36,
+          "y": 89
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            3
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "521",
+      "kgs": {
+        "max": 400,
+        "min": 112
+      },
+      "latin": "Acipenser sturio",
+      "lbs": {
+        "max": 881.85,
+        "min": 246.92
+      },
+      "map": "Scotland",
+      "name": "common sturgeon",
+      "names": {
+        "en": "common sturgeon",
+        "fr": "esturgeon d'europe",
+        "it": "storione comune",
+        "pt": "solho",
+        "zh": "欧洲鳘"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 55,
+          "y": 14
+        },
+        {
+          "x": 83,
+          "y": 44
+        },
+        {
+          "x": 25,
+          "y": 40
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "intro": "Back to freshwater with Scotland, the fifth unlockable area in Creatures of the Deep. A wide variety of common fish, several rare ones and relatively abundant epic species. No major surprises for an experienced angler. Prepare your fishing session by clicking on a fish in the side menu to see the details.",
+  "mapImage": "/images/maps/scotland.jpg",
+  "mapType": "classic",
+  "monster": {
+    "attributes": [
+      {
+        "shadow": []
+      },
+      {
+        "moment": [
+          0,
+          1
+        ]
+      }
+    ],
+    "difficulty": 2,
+    "id": "522",
+    "kgs": {
+      "max": 350,
+      "min": 250
+    },
+    "lbs": {
+      "max": 771.62,
+      "min": 551
+    },
+    "map": "Scotland",
+    "name": "nessie",
+    "names": {
+      "en": "nessie",
+      "fr": "nessie",
+      "it": "nessie",
+      "pt": "nessie",
+      "zh": "尼斯湖水怪"
+    },
+    "portraitRatio": "horizontal",
+    "positions": [
+      {
+        "position": "right",
+        "spot": "Cave A",
+        "x": 62,
+        "y": 20
+      },
+      {
+        "position": "right",
+        "spot": "Cave B",
+        "x": 55,
+        "y": 12
+      },
+      {
+        "position": "right",
+        "spot": "Mannanan A",
+        "x": 34,
+        "y": 16
+      },
+      {
+        "position": "right",
+        "spot": "Mannanan B",
+        "x": 26,
+        "y": 20
+      },
+      {
+        "position": "left",
+        "spot": "Cliff",
+        "x": 13,
+        "y": 53
+      },
+      {
+        "position": "right",
+        "spot": "Tree",
+        "x": 12,
+        "y": 69
+      }
+    ],
+    "rarity": "monster",
+    "rawType": "monster",
+    "rotation": [
+      1,
+      5,
+      2,
+      2,
+      5,
+      6,
+      2,
+      5,
+      5,
+      4,
+      1,
+      5,
+      2,
+      3,
+      2,
+      5,
+      5,
+      2,
+      2,
+      2,
+      2,
+      2,
+      6,
+      1,
+      3,
+      3
+    ],
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "snippet": "Map monster.",
+    "startDate": "2024-05-01"
+  },
+  "name": "Scotland",
+  "objects": [
+    {
+      "bio": true,
+      "id": "T6-35",
+      "map": "Scotland",
+      "name": "thistle",
+      "names": {
+        "en": "thistle",
+        "fr": "chardon",
+        "it": "cardo",
+        "pt": "cardo",
+        "zh": "蓟"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 47,
+          "y": 28
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "type": "floating"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-1",
+      "map": "Scotland",
+      "name": "armor",
+      "names": {
+        "en": "armor",
+        "fr": "armure",
+        "it": "armatura",
+        "pt": "armadura",
+        "zh": "盔甲"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 61,
+          "y": 62
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-2",
+      "map": "Scotland",
+      "name": "bag pipes",
+      "names": {
+        "en": "bag pipes",
+        "fr": "cornemuse",
+        "it": "cornamusa",
+        "pt": "gaita de foles",
+        "zh": "风笛"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 45,
+          "y": 89
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-3",
+      "map": "Scotland",
+      "name": "black pudding",
+      "names": {
+        "en": "black pudding",
+        "fr": "boudin noir",
+        "it": "sanguinaccio",
+        "pt": "morcela",
+        "zh": "黑布丁"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 81,
+          "y": 67
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "eco-thruster mix",
+      "usage": [
+        {
+          "image": "/potions/fuel_ecoboost.png",
+          "title": {
+            "en": "eco-thruster mix",
+            "fr": "eco-thruster mix",
+            "it": "eco-thruster mix",
+            "pt": "eco-thruster mix",
+            "zh": "eco-thruster mix"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-4",
+      "map": "Scotland",
+      "name": "caber",
+      "names": {
+        "en": "caber",
+        "fr": "tronc de caber",
+        "it": "tronco da caber",
+        "pt": "tronco de caber",
+        "zh": "掷木柱"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 19,
+          "y": 90
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "image": "/NPC/NPC_duncan.png",
+          "title": {
+            "en": "Duncan",
+            "fr": "Duncan",
+            "it": "Duncan",
+            "pt": "Duncan",
+            "zh": "Duncan"
+          },
+          "type": "npcquest"
+        },
+        {
+          "description": {
+            "en": "McFisher",
+            "fr": "McFisher",
+            "it": "McFisher",
+            "pt": "McFisher",
+            "zh": "McFisher"
+          },
+          "image": "/skins/skin_fisher.png",
+          "type": "reconstruction"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-5",
+      "map": "Scotland",
+      "name": "cauldron",
+      "names": {
+        "en": "cauldron",
+        "fr": "chaudron",
+        "it": "calderone",
+        "pt": "caldeirão",
+        "zh": "大锅"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 61,
+          "y": 78
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-6",
+      "map": "Scotland",
+      "name": "chess piece",
+      "names": {
+        "en": "chess piece",
+        "fr": "pièce d’échecs",
+        "it": "pezzo degli scacchi",
+        "pt": "peça de xadrez",
+        "zh": "棋子"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 82,
+          "y": 87
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "chess game",
+      "usage": [
+        {
+          "image": "/potions/chess.png",
+          "title": {
+            "en": "chess game",
+            "fr": "jeu d'échecs",
+            "it": "gioco di scacchi",
+            "pt": "jogo de xadrez",
+            "zh": "国际象棋游戏"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-7",
+      "map": "Scotland",
+      "name": "chip bag",
+      "names": {
+        "en": "chip bag",
+        "fr": "sachet de chips",
+        "it": "sacco di patatine",
+        "pt": "saco de batatas fritas",
+        "zh": "薯片袋"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 32,
+          "y": 32
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-8",
+      "map": "Scotland",
+      "name": "floppy disk 5.25 blue",
+      "names": {
+        "en": "floppy disk 5.25 blue",
+        "fr": "disquette 5,25 bleue",
+        "it": "dischetto 5,25 blu",
+        "pt": "disquete 5,25 azul",
+        "zh": "蓝色5.25英寸软盘"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 62,
+          "y": 36
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-9",
+      "map": "Scotland",
+      "name": "golf ball",
+      "names": {
+        "en": "golf ball",
+        "fr": "balle de golf",
+        "it": "pallina da golf",
+        "pt": "bola de golfe",
+        "zh": "高尔夫球"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 79,
+          "y": 76
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "image": "/NPC/NPC_bert.png",
+          "title": {
+            "en": "Bert",
+            "fr": "Bert",
+            "it": "Bert",
+            "pt": "Bert",
+            "zh": "Bert"
+          },
+          "type": "npcquest"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-10",
+      "map": "Scotland",
+      "name": "golf club",
+      "names": {
+        "en": "golf club",
+        "fr": "club de golf",
+        "it": "mazza da golf",
+        "pt": "taco de golfe",
+        "zh": "高尔夫球杆"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 73,
+          "y": 58
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "pirat rod",
+      "usage": [
+        {
+          "image": "/NPC/NPC_bert.png",
+          "title": {
+            "en": "Bert",
+            "fr": "Bert",
+            "it": "Bert",
+            "pt": "Bert",
+            "zh": "Bert"
+          },
+          "type": "npcquest"
+        },
+        {
+          "image": "/images/pirat_rod.png",
+          "title": {
+            "en": "pirat rod",
+            "fr": "canne de pirate",
+            "it": "canna da pirata",
+            "pt": "cana de pirata",
+            "zh": "海盗竿"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-11",
+      "map": "Scotland",
+      "name": "golf clubs bag",
+      "names": {
+        "en": "golf clubs bag",
+        "fr": "sac de clubs de golf",
+        "it": "sacca da golf",
+        "pt": "bolsa de tacos de golfe",
+        "zh": "高尔夫球包"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 73,
+          "y": 58
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "image": "/NPC/NPC_bert.png",
+          "title": {
+            "en": "Bert",
+            "fr": "Bert",
+            "it": "Bert",
+            "pt": "Bert",
+            "zh": "Bert"
+          },
+          "type": "npcquest"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-12",
+      "map": "Scotland",
+      "name": "haggis",
+      "names": {
+        "en": "haggis",
+        "fr": "haggis",
+        "it": "haggis",
+        "pt": "haggis",
+        "zh": "哈吉斯"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 81,
+          "y": 66
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "force elixir",
+      "usage": [
+        {
+          "image": "/potions/potion_strength.png",
+          "title": {
+            "en": "force elixir",
+            "fr": "elixir de force",
+            "it": "elixir di forza",
+            "pt": "elixir de força",
+            "zh": "力量药水"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-13",
+      "map": "Scotland",
+      "name": "kilt",
+      "names": {
+        "en": "kilt",
+        "fr": "kilt",
+        "it": "kilt",
+        "pt": "kilt",
+        "zh": "苏格兰短裙"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 41,
+          "y": 10
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "description": {
+            "en": "Sunglasses (random)",
+            "fr": "lunettes de soleil (aléatoire)",
+            "it": "occhiali da sole (casuale)",
+            "pt": "óculos de sol (aleatório)",
+            "zh": "太阳镜（随机）"
+          },
+          "type": "recyclable"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-14",
+      "map": "Scotland",
+      "name": "medieval chest",
+      "names": {
+        "en": "medieval chest",
+        "fr": "coffre médiéval",
+        "it": "scrigno medievale",
+        "pt": "baú medieval",
+        "zh": "中世纪宝箱"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 66,
+          "y": 62
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "Collect 4 different chests",
+      "usage": [
+        {
+          "image": "/NPC/NPC_locksmith.png",
+          "title": {
+            "en": "LockSmith",
+            "fr": "LockSmith",
+            "it": "LockSmith",
+            "pt": "LockSmith",
+            "zh": "LockSmith"
+          },
+          "type": "npcquest"
+        },
+        {
+          "description": {
+            "en": "Collect 4 different chests",
+            "fr": "Récoltez 4 coffres différents",
+            "it": "Raccogliere 4 scrigni diversi",
+            "pt": "Coletar 4 baús diferentes",
+            "zh": "收集4个不同的宝箱"
+          },
+          "type": "seasonal_quest"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-15",
+      "map": "Scotland",
+      "name": "medieval key",
+      "names": {
+        "en": "medieval key",
+        "fr": "clé médiévale",
+        "it": "chiave medievale",
+        "pt": "chave medieval",
+        "zh": "中世纪钥匙"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 66,
+          "y": 41
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-16",
+      "map": "Scotland",
+      "name": "medieval mug",
+      "names": {
+        "en": "medieval mug",
+        "fr": "chope médiévale",
+        "it": "boccale medievale",
+        "pt": "caneca medieval",
+        "zh": "中世纪酒杯"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 66,
+          "y": 62
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": true,
+      "id": "T6-17",
+      "map": "Scotland",
+      "name": "mistletoe",
+      "names": {
+        "en": "mistletoe",
+        "fr": "gui",
+        "it": "vischio",
+        "pt": "visco",
+        "zh": "槲寄生"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 34,
+          "y": 88
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "type": "floating"
+        },
+        {
+          "image": "/NPC/NPC_lily.png",
+          "title": {
+            "en": "Lily",
+            "fr": "Lily",
+            "it": "Lily",
+            "pt": "Lily",
+            "zh": "Lily"
+          },
+          "type": "npcquest"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-18",
+      "map": "Scotland",
+      "name": "old boot",
+      "names": {
+        "en": "old boot",
+        "fr": "vieille botte",
+        "it": "vecchio stivale",
+        "pt": "bota velha",
+        "zh": "旧靴子"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 81,
+          "y": 67
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "type": "floating"
+        },
+        {
+          "description": {
+            "en": "Sunglasses (random)",
+            "fr": "lunettes de soleil (aléatoire)",
+            "it": "occhiali da sole (casuale)",
+            "pt": "óculos de sol (aleatório)",
+            "zh": "太阳镜（随机）"
+          },
+          "type": "recyclable"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-19",
+      "map": "Scotland",
+      "name": "robby burns poetry",
+      "names": {
+        "en": "robby burns poetry",
+        "fr": "poésie de Robert Burns",
+        "it": "poesia di Robert Burns",
+        "pt": "poesia de Robert Burns",
+        "zh": "罗伯特·彭斯诗歌"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 26,
+          "y": 53
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-20",
+      "map": "Scotland",
+      "name": "scottish hat",
+      "names": {
+        "en": "scottish hat",
+        "fr": "bonnet écossais",
+        "it": "cappello scozzese",
+        "pt": "chapéu escocês",
+        "zh": "苏格兰帽"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 42,
+          "y": 14
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-21",
+      "map": "Scotland",
+      "name": "sporran",
+      "names": {
+        "en": "sporran",
+        "fr": "sporran",
+        "it": "sporran",
+        "pt": "sporran",
+        "zh": "斯波兰包"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 81,
+          "y": 87
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-22",
+      "map": "Scotland",
+      "name": "stone block",
+      "names": {
+        "en": "stone block",
+        "fr": "bloc de pierre",
+        "it": "blocco di pietra",
+        "pt": "bloco de pedra",
+        "zh": "石块"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 31,
+          "y": 63
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "description": {
+            "en": "McFisher",
+            "fr": "McFisher",
+            "it": "McFisher",
+            "pt": "McFisher",
+            "zh": "McFisher"
+          },
+          "image": "/skins/skin_fisher.png",
+          "type": "reconstruction"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-23",
+      "map": "Scotland",
+      "name": "tea pot",
+      "names": {
+        "en": "tea pot",
+        "fr": "théière",
+        "it": "teiera",
+        "pt": "bule de chá",
+        "zh": "茶壶"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 22,
+          "y": 27
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "description": {
+            "en": "Sunglasses (random)",
+            "fr": "lunettes de soleil (aléatoire)",
+            "it": "occhiali da sole (casuale)",
+            "pt": "óculos de sol (aleatório)",
+            "zh": "太阳镜（随机）"
+          },
+          "type": "recyclable"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-24",
+      "map": "Scotland",
+      "name": "unicorn horn",
+      "names": {
+        "en": "unicorn horn",
+        "fr": "corne de licorne",
+        "it": "corno di unicorno",
+        "pt": "chifre de unicórnio",
+        "zh": "独角兽角"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 35,
+          "y": 32
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-25",
+      "map": "Scotland",
+      "name": "vinyl record",
+      "names": {
+        "en": "vinyl record",
+        "fr": "disque vinyle",
+        "it": "disco in vinile",
+        "pt": "disco de vinil",
+        "zh": "黑胶唱片"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 84,
+          "y": 87
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-26",
+      "map": "Scotland",
+      "name": "whisky scotch bottle",
+      "names": {
+        "en": "whisky scotch bottle",
+        "fr": "bouteille de whisky écossais",
+        "it": "bottiglia di whisky scozzese",
+        "pt": "garrafa de uísque escocês",
+        "zh": "苏格兰威士忌瓶"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 82,
+          "y": 70
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "fuel booster",
+      "usage": [
+        {
+          "image": "/potions/fuel_boost.png",
+          "title": {
+            "en": "fuel booster",
+            "fr": "fuel booster",
+            "it": "fuel booster",
+            "pt": "fuel booster",
+            "zh": "燃料增强剂"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-27",
+      "map": "Scotland",
+      "name": "wooden barel",
+      "names": {
+        "en": "wooden barel",
+        "fr": "tonneau en bois",
+        "it": "barile di legno",
+        "pt": "barril de madeira",
+        "zh": "木桶"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 82,
+          "y": 13
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "description": {
+            "en": "Sunglasses (random)",
+            "fr": "lunettes de soleil (aléatoire)",
+            "it": "occhiali da sole (casuale)",
+            "pt": "óculos de sol (aleatório)",
+            "zh": "太阳镜（随机）"
+          },
+          "type": "recyclable"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-28",
+      "map": "Scotland",
+      "name": "toursit camera",
+      "names": {
+        "en": "toursit camera",
+        "fr": "appareil photo touristique",
+        "it": "fotocamera turistica",
+        "pt": "câmera turística",
+        "zh": "游客相机"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 54,
+          "y": 14
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-29",
+      "map": "Scotland",
+      "name": "weird stone",
+      "names": {
+        "en": "weird stone",
+        "fr": "pierre étrange",
+        "it": "pietra strana",
+        "pt": "pedra estranha",
+        "zh": "奇怪的石头"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 61,
+          "y": 42
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-30",
+      "map": "Scotland",
+      "name": "nessie toy",
+      "names": {
+        "en": "nessie toy",
+        "fr": "jouet Nessie",
+        "it": "giocattolo di Nessie",
+        "pt": "brinquedo Nessie",
+        "zh": "尼斯湖水怪玩具"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 54,
+          "y": 14
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "type": "aquarium"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-31",
+      "map": "Scotland",
+      "name": "old mini yellow submarine",
+      "names": {
+        "en": "old mini yellow submarine",
+        "fr": "vieux mini sous-marin jaune",
+        "it": "vecchio mini sottomarino giallo",
+        "pt": "mini submarino amarelo antigo",
+        "zh": "旧款黄色迷你潜艇"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 34,
+          "y": 32
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-32",
+      "map": "Scotland",
+      "name": "golden apple",
+      "names": {
+        "en": "golden apple",
+        "fr": "pomme dorée",
+        "it": "mela dorata",
+        "pt": "maçã dourada",
+        "zh": "金苹果"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 80,
+          "y": 14
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T6-33",
+      "map": "Scotland",
+      "name": "excalibur",
+      "names": {
+        "en": "excalibur",
+        "fr": "Excalibur",
+        "it": "Excalibur",
+        "pt": "Excalibur",
+        "zh": "王者之剑"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 82,
+          "y": 87
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "type": "aquarium"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T6-34",
+      "map": "Scotland",
+      "name": "fridge magnet",
+      "names": {
+        "en": "fridge magnet",
+        "fr": "aimant de réfrigérateur",
+        "it": "calamita da frigorifero",
+        "pt": "ímã de geladeira",
+        "zh": "冰箱磁铁"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 49,
+          "y": 63
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    }
+  ],
+  "slug": "scotland",
+  "title": "Scotland map"
+}

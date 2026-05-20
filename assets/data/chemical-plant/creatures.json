@@ -1,0 +1,243 @@
+[
+  {
+    "id": "c7-0",
+    "name": "toxurtle",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 90,
+        "y": 30
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-1",
+    "name": "lemon puffrog",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 37,
+        "y": 12
+      },
+      {
+        "x": 33,
+        "y": 86
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-2",
+    "name": "shrimpster",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 57,
+        "y": 52
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-3",
+    "name": "crystalcrab",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 59,
+        "y": 86
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-4",
+    "name": "slimy",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 87,
+        "y": 47
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-5",
+    "name": "bottlopus",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 57,
+        "y": 52
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-6",
+    "name": "cybersquid",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 59,
+        "y": 86
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-7",
+    "name": "firetopus",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 22,
+        "y": 55
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-8",
+    "name": "plasmaturtle",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 12,
+        "y": 15
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-9",
+    "name": "sewage fungus",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 36,
+        "y": 67
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-10",
+    "name": "discoshell",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 13,
+        "y": 58
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-11",
+    "name": "tubesnail",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 73,
+        "y": 89
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-12",
+    "name": "jellydusa",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 48,
+        "y": 77
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-13",
+    "name": "neon frogson",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 80,
+        "y": 69
+      },
+      {
+        "x": 30,
+        "y": 29
+      },
+      {
+        "x": 64,
+        "y": 9
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c7-14",
+    "name": "armored mutoclam",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 62,
+        "y": 27
+      },
+      {
+        "x": 48,
+        "y": 41
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

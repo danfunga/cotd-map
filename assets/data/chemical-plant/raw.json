@@ -1,0 +1,5565 @@
+{
+  "creatures": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 3,
+      "id": "c7-0",
+      "kgs": {
+        "max": 89,
+        "min": 32
+      },
+      "lbs": {
+        "max": 196.21,
+        "min": 70.55
+      },
+      "map": "ChemicalPlant",
+      "name": "toxurtle",
+      "names": {
+        "en": "toxurtle",
+        "fr": "tortoxique",
+        "it": "tartaruga tossica",
+        "pt": "tartaruga toxica"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 90,
+          "y": 30
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 3,
+      "id": "c7-1",
+      "kgs": {
+        "max": 34,
+        "min": 7
+      },
+      "lbs": {
+        "max": 74.96,
+        "min": 15.43
+      },
+      "map": "ChemicalPlant",
+      "name": "lemon puffrog",
+      "names": {
+        "en": "lemon puffrog",
+        "fr": "crapeau citron pompé",
+        "it": "rana gonfia limone",
+        "pt": "sapo inchado limão"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 37,
+          "y": 12
+        },
+        {
+          "x": 33,
+          "y": 86
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c7-2",
+      "kgs": {
+        "max": 24,
+        "min": 6
+      },
+      "lbs": {
+        "max": 52.91,
+        "min": 13.23
+      },
+      "map": "ChemicalPlant",
+      "name": "shrimpster",
+      "names": {
+        "en": "shrimpster",
+        "fr": "crevettin",
+        "it": "gameretto",
+        "pt": "camarãozinho"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 57,
+          "y": 52
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c7-3",
+      "kgs": {
+        "max": 26,
+        "min": 6
+      },
+      "lbs": {
+        "max": 57.32,
+        "min": 13.23
+      },
+      "map": "ChemicalPlant",
+      "name": "crystalcrab",
+      "names": {
+        "en": "crystalcrab",
+        "fr": "crabe de cristal",
+        "it": "granchio di cristallo",
+        "pt": "caranguejo de cristal"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 59,
+          "y": 86
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c7-4",
+      "kgs": {
+        "max": 22,
+        "min": 5
+      },
+      "lbs": {
+        "max": 48.5,
+        "min": 11.02
+      },
+      "map": "ChemicalPlant",
+      "name": "slimy",
+      "names": {
+        "en": "slimy",
+        "fr": "limaçaon",
+        "it": "lumacone",
+        "pt": "caracolão"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 87,
+          "y": 47
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c7-5",
+      "kgs": {
+        "max": 31,
+        "min": 12
+      },
+      "lbs": {
+        "max": 68.34,
+        "min": 26.46
+      },
+      "map": "ChemicalPlant",
+      "name": "bottlopus",
+      "names": {
+        "en": "bottlopus",
+        "fr": "pieuvrette",
+        "it": "polpo bottiglia",
+        "pt": "polvo garrafa"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 57,
+          "y": 52
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 3,
+      "id": "c7-6",
+      "kgs": {
+        "max": 41,
+        "min": 17
+      },
+      "lbs": {
+        "max": 90.39,
+        "min": 37.48
+      },
+      "map": "ChemicalPlant",
+      "name": "cybersquid",
+      "names": {
+        "en": "cybersquid",
+        "fr": "cyberpoulpe",
+        "it": "cyberpolpo",
+        "pt": "polvo cibernético"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 59,
+          "y": 86
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 3,
+      "id": "c7-7",
+      "kgs": {
+        "max": 35,
+        "min": 16
+      },
+      "lbs": {
+        "max": 77.16,
+        "min": 35.27
+      },
+      "map": "ChemicalPlant",
+      "name": "firetopus",
+      "names": {
+        "en": "firetopus",
+        "fr": "firetopus",
+        "it": "firetopus",
+        "pt": "firetopus"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 22,
+          "y": 55
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 3,
+      "id": "c7-8",
+      "kgs": {
+        "max": 72,
+        "min": 27
+      },
+      "lbs": {
+        "max": 158.73,
+        "min": 59.52
+      },
+      "map": "ChemicalPlant",
+      "name": "plasmaturtle",
+      "names": {
+        "en": "plasmaturtle",
+        "fr": "tortue plasma",
+        "it": "tartaruga plasma",
+        "pt": "tartaruga plasma"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 12,
+          "y": 15
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c7-9",
+      "kgs": {
+        "max": 11,
+        "min": 1
+      },
+      "latin": "Fungus cloacae",
+      "lbs": {
+        "max": 24.25,
+        "min": 2.2
+      },
+      "map": "ChemicalPlant",
+      "name": "sewage fungus",
+      "names": {
+        "en": "sewage fungus",
+        "fr": "champignon d'égouts",
+        "it": "fungo di fogna",
+        "pt": "cogumelo de esgoto"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 36,
+          "y": 67
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c7-10",
+      "kgs": {
+        "max": 63,
+        "min": 28
+      },
+      "lbs": {
+        "max": 138.89,
+        "min": 61.73
+      },
+      "map": "ChemicalPlant",
+      "name": "discoshell",
+      "names": {
+        "en": "discoshell",
+        "fr": "tortue disco",
+        "it": "discoshell",
+        "pt": "discoshell"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 13,
+          "y": 58
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c7-11",
+      "kgs": {
+        "max": 8,
+        "min": 1
+      },
+      "lbs": {
+        "max": 17.64,
+        "min": 2.2
+      },
+      "map": "ChemicalPlant",
+      "name": "tubesnail",
+      "names": {
+        "en": "tubesnail",
+        "fr": "escargot tube",
+        "it": "lumaca di tubo",
+        "pt": "caracol de tubo"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 73,
+          "y": 89
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c7-12",
+      "kgs": {
+        "max": 33,
+        "min": 3
+      },
+      "lbs": {
+        "max": 72.75,
+        "min": 6.61
+      },
+      "map": "ChemicalPlant",
+      "name": "jellydusa",
+      "names": {
+        "en": "jellydusa",
+        "fr": "méduzilla",
+        "it": "jellydusa",
+        "pt": "jellydusa"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 48,
+          "y": 77
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 3,
+      "id": "c7-13",
+      "kgs": {
+        "max": 28,
+        "min": 13
+      },
+      "lbs": {
+        "max": 61.73,
+        "min": 28.66
+      },
+      "map": "ChemicalPlant",
+      "name": "neon frogson",
+      "names": {
+        "en": "neon frogson",
+        "fr": "grenouille néon",
+        "it": "ranason neon",
+        "pt": "sapão néon"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 80,
+          "y": 69
+        },
+        {
+          "x": 30,
+          "y": 29
+        },
+        {
+          "x": 64,
+          "y": 9
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c7-14",
+      "kgs": {
+        "max": 16,
+        "min": 2
+      },
+      "lbs": {
+        "max": 35.27,
+        "min": 4.41
+      },
+      "map": "ChemicalPlant",
+      "name": "armored mutoclam",
+      "names": {
+        "en": "armored mutoclam",
+        "fr": "palourde mutante blindée",
+        "it": "vongola mutante corazzata",
+        "pt": "marisco mutante blindado"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 62,
+          "y": 27
+        },
+        {
+          "x": 48,
+          "y": 41
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "dataSource": "cloversalad2/src/assets/{fish,creatures,items}/ChemicalPlant.js",
+  "description": "Interactive Chemical Plant map for Creatures of the Deep — fish, creatures, items, and the map monster.",
+  "fish": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a2",
+      "kgs": {
+        "max": 30,
+        "min": 15
+      },
+      "latin": "Lucipisces fulgens",
+      "lbs": {
+        "max": 66.14,
+        "min": 33.07
+      },
+      "map": "ChemicalPlant",
+      "name": "glowfish",
+      "names": {
+        "en": "glowfish",
+        "fr": "glowfish",
+        "it": "glowfish",
+        "pt": "glowfish"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 57,
+          "y": 51
+        },
+        {
+          "x": 77,
+          "y": 38
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a8",
+      "kgs": {
+        "max": 45,
+        "min": 20
+      },
+      "lbs": {
+        "max": 99.21,
+        "min": 44.09
+      },
+      "map": "ChemicalPlant",
+      "name": "anchorscale",
+      "names": {
+        "en": "anchorscale",
+        "fr": "anchorscale",
+        "it": "anchorscale",
+        "pt": "anchorscale"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 86,
+          "y": 47
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a18",
+      "kgs": {
+        "max": 43,
+        "min": 20
+      },
+      "lbs": {
+        "max": 94.8,
+        "min": 44.09
+      },
+      "map": "ChemicalPlant",
+      "name": "raspberryfish",
+      "names": {
+        "en": "raspberryfish",
+        "fr": "raspberryfish",
+        "it": "raspberryfish",
+        "pt": "raspberryfish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 79,
+          "y": 10
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a11",
+      "kgs": {
+        "max": 75,
+        "min": 35
+      },
+      "latin": "Incusmarinus robustus",
+      "lbs": {
+        "max": 165.35,
+        "min": 77.16
+      },
+      "map": "ChemicalPlant",
+      "name": "anvilfish",
+      "names": {
+        "en": "anvilfish",
+        "fr": "anvilfish",
+        "it": "anvilfish",
+        "pt": "anvilfish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 50,
+          "y": 40
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a10",
+      "kgs": {
+        "max": 15,
+        "min": 7
+      },
+      "lbs": {
+        "max": 33.07,
+        "min": 15.43
+      },
+      "map": "ChemicalPlant",
+      "name": "bootfish",
+      "names": {
+        "en": "bootfish",
+        "fr": "bootfish",
+        "it": "bootfish",
+        "pt": "bootfish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 10,
+          "y": 43
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a19",
+      "kgs": {
+        "max": 46,
+        "min": 23
+      },
+      "lbs": {
+        "max": 101.41,
+        "min": 50.71
+      },
+      "map": "ChemicalPlant",
+      "name": "zombifin",
+      "names": {
+        "en": "zombifin",
+        "fr": "zombifin",
+        "it": "zombifin",
+        "pt": "zombifin"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 22,
+          "y": 12
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a20",
+      "kgs": {
+        "max": 100,
+        "min": 50
+      },
+      "latin": "Cyprinus carpio",
+      "lbs": {
+        "max": 220.46,
+        "min": 110.23
+      },
+      "map": "ChemicalPlant",
+      "name": "cthulu carp",
+      "names": {
+        "en": "cthulu carp",
+        "fr": "cthulu carp",
+        "it": "cthulu carp",
+        "pt": "cthulu carp"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 17,
+          "y": 82
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a12",
+      "kgs": {
+        "max": 20,
+        "min": 10
+      },
+      "lbs": {
+        "max": 44.09,
+        "min": 22.05
+      },
+      "map": "ChemicalPlant",
+      "name": "teapotfish",
+      "names": {
+        "en": "teapotfish",
+        "fr": "teapotfish",
+        "it": "teapotfish",
+        "pt": "teapotfish"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 47,
+          "y": 21
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a21",
+      "kgs": {
+        "max": 8,
+        "min": 4
+      },
+      "latin": "Nylonichthys syntheticus",
+      "lbs": {
+        "max": 17.64,
+        "min": 8.82
+      },
+      "map": "ChemicalPlant",
+      "name": "nylonfish",
+      "names": {
+        "en": "nylonfish",
+        "fr": "nylonfish",
+        "it": "nylonfish",
+        "pt": "nylonfish"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 69,
+          "y": 89
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a22",
+      "kgs": {
+        "max": 25,
+        "min": 10
+      },
+      "lbs": {
+        "max": 55.12,
+        "min": 22.05
+      },
+      "map": "ChemicalPlant",
+      "name": "telebass",
+      "names": {
+        "en": "telebass",
+        "fr": "telebass",
+        "it": "telebass",
+        "pt": "telebass"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 20,
+          "y": 75
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a23",
+      "kgs": {
+        "max": 15,
+        "min": 7
+      },
+      "lbs": {
+        "max": 33.07,
+        "min": 15.43
+      },
+      "map": "ChemicalPlant",
+      "name": "long sparker",
+      "names": {
+        "en": "long sparker",
+        "fr": "long sparker",
+        "it": "long sparker",
+        "pt": "long sparker"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 62,
+          "y": 71
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a24",
+      "kgs": {
+        "max": 52,
+        "min": 26
+      },
+      "lbs": {
+        "max": 114.64,
+        "min": 57.32
+      },
+      "map": "ChemicalPlant",
+      "name": "rotting deadfish",
+      "names": {
+        "en": "rotting deadfish",
+        "fr": "rotting deadfish",
+        "it": "rotting deadfish",
+        "pt": "rotting deadfish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 62,
+          "y": 71
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a25",
+      "kgs": {
+        "max": 58,
+        "min": 25
+      },
+      "lbs": {
+        "max": 127.87,
+        "min": 55.12
+      },
+      "map": "ChemicalPlant",
+      "name": "fireborn scales",
+      "names": {
+        "en": "fireborn scales",
+        "fr": "fireborn scales",
+        "it": "fireborn scales",
+        "pt": "fireborn scales"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 47,
+          "y": 85
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a26",
+      "kgs": {
+        "max": 8,
+        "min": 4
+      },
+      "lbs": {
+        "max": 17.64,
+        "min": 8.82
+      },
+      "map": "ChemicalPlant",
+      "name": "burned potfish",
+      "names": {
+        "en": "burned potfish",
+        "fr": "burned potfish",
+        "it": "burned potfish",
+        "pt": "burned potfish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 17,
+          "y": 83
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a27",
+      "kgs": {
+        "max": 25,
+        "min": 10
+      },
+      "lbs": {
+        "max": 55.12,
+        "min": 22.05
+      },
+      "map": "ChemicalPlant",
+      "name": "bubblefin",
+      "names": {
+        "en": "bubblefin",
+        "fr": "bubblefin",
+        "it": "bubblefin",
+        "pt": "bubblefin"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 35,
+          "y": 88
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a28",
+      "kgs": {
+        "max": 55,
+        "min": 25
+      },
+      "lbs": {
+        "max": 121.25,
+        "min": 55.12
+      },
+      "map": "ChemicalPlant",
+      "name": "luminator",
+      "names": {
+        "en": "luminator",
+        "fr": "luminator",
+        "it": "luminator",
+        "pt": "luminator"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 36,
+          "y": 72
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a15",
+      "kgs": {
+        "max": 27,
+        "min": 12
+      },
+      "lbs": {
+        "max": 59.52,
+        "min": 26.45
+      },
+      "map": "ChemicalPlant",
+      "name": "biterfish",
+      "names": {
+        "en": "biterfish",
+        "fr": "biterfish",
+        "it": "biterfish",
+        "pt": "biterfish"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 61,
+          "y": 21
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a29",
+      "kgs": {
+        "max": 6,
+        "min": 3
+      },
+      "lbs": {
+        "max": 13.23,
+        "min": 6.61
+      },
+      "map": "ChemicalPlant",
+      "name": "fish-eye",
+      "names": {
+        "en": "fish-eye",
+        "fr": "fish-eye",
+        "it": "fish-eye",
+        "pt": "fish-eye"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 70,
+          "y": 11
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a30",
+      "kgs": {
+        "max": 18,
+        "min": 8
+      },
+      "lbs": {
+        "max": 39.68,
+        "min": 17.64
+      },
+      "map": "ChemicalPlant",
+      "name": "gnawfish",
+      "names": {
+        "en": "gnawfish",
+        "fr": "gnawfish",
+        "it": "gnawfish",
+        "pt": "gnawfish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 30,
+          "y": 28
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a1",
+      "kgs": {
+        "max": 7,
+        "min": 3
+      },
+      "latin": "Palustrivenator",
+      "lbs": {
+        "max": 15.43,
+        "min": 6.61
+      },
+      "map": "ChemicalPlant",
+      "name": "chupakabrafish",
+      "names": {
+        "en": "chupakabrafish",
+        "fr": "chupakabrafish",
+        "it": "chupakabrafish",
+        "pt": "chupakabrafish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 85,
+          "y": 47
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a3",
+      "kgs": {
+        "max": 14,
+        "min": 6
+      },
+      "lbs": {
+        "max": 30.86,
+        "min": 13.23
+      },
+      "map": "ChemicalPlant",
+      "name": "slimesnail",
+      "names": {
+        "en": "slimesnail",
+        "fr": "slimesnail",
+        "it": "slimesnail",
+        "pt": "slimesnail"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 57,
+          "y": 51
+        },
+        {
+          "x": 69,
+          "y": 35
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a5",
+      "kgs": {
+        "max": 250,
+        "min": 5
+      },
+      "lbs": {
+        "max": 551.15,
+        "min": 11.02
+      },
+      "map": "ChemicalPlant",
+      "name": "wheelreef",
+      "names": {
+        "en": "wheelreef",
+        "fr": "wheelreef",
+        "it": "wheelreef",
+        "pt": "wheelreef"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 65,
+          "y": 61
+        },
+        {
+          "x": 81,
+          "y": 82
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a7",
+      "kgs": {
+        "max": 50,
+        "min": 20
+      },
+      "lbs": {
+        "max": 110.23,
+        "min": 33.1
+      },
+      "map": "ChemicalPlant",
+      "name": "barreltail",
+      "names": {
+        "en": "barreltail",
+        "fr": "barreltail",
+        "it": "barreltail",
+        "pt": "barreltail"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 90,
+          "y": 79
+        },
+        {
+          "x": 90,
+          "y": 21
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a9",
+      "kgs": {
+        "max": 50,
+        "min": 25
+      },
+      "latin": "Salmo toxicus",
+      "lbs": {
+        "max": 110.23,
+        "min": 55.11
+      },
+      "map": "ChemicalPlant",
+      "name": "toxic salmon",
+      "names": {
+        "en": "toxic salmon",
+        "fr": "toxic salmon",
+        "it": "toxic salmon",
+        "pt": "toxic salmon"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 90,
+          "y": 21
+        },
+        {
+          "x": 30,
+          "y": 27
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a31",
+      "kgs": {
+        "max": 16,
+        "min": 8
+      },
+      "latin": "Cyprinus carpio",
+      "lbs": {
+        "max": 35.27,
+        "min": 17.64
+      },
+      "map": "ChemicalPlant",
+      "name": "wicked carp",
+      "names": {
+        "en": "wicked carp",
+        "fr": "wicked carp",
+        "it": "wicked carp",
+        "pt": "wicked carp"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 72,
+          "y": 19
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a6",
+      "kgs": {
+        "max": 10,
+        "min": 5
+      },
+      "lbs": {
+        "max": 22.05,
+        "min": 11.02
+      },
+      "map": "ChemicalPlant",
+      "name": "bottlegill",
+      "names": {
+        "en": "bottlegill",
+        "fr": "bottlegill",
+        "it": "bottlegill",
+        "pt": "bottlegill"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 82,
+          "y": 71
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a4",
+      "kgs": {
+        "max": 8,
+        "min": 4
+      },
+      "lbs": {
+        "max": 17.64,
+        "min": 8.82
+      },
+      "map": "ChemicalPlant",
+      "name": "cantrout",
+      "names": {
+        "en": "cantrout",
+        "fr": "cantrout",
+        "it": "cantrout",
+        "pt": "cantrout"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 57,
+          "y": 51
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a13",
+      "kgs": {
+        "max": 12,
+        "min": 6
+      },
+      "latin": "Diodon hystrix",
+      "lbs": {
+        "max": 26.46,
+        "min": 13.23
+      },
+      "map": "ChemicalPlant",
+      "name": "crystal fin",
+      "names": {
+        "en": "crystal fin",
+        "fr": "crystal fin",
+        "it": "crystal fin",
+        "pt": "crystal fin"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 61,
+          "y": 21
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a32",
+      "kgs": {
+        "max": 37,
+        "min": 15
+      },
+      "latin": "Toxicus fumosus",
+      "lbs": {
+        "max": 81.57,
+        "min": 33.07
+      },
+      "map": "ChemicalPlant",
+      "name": "toxic puffer",
+      "names": {
+        "en": "toxic puffer",
+        "fr": "toxic puffer",
+        "it": "toxic puffer",
+        "pt": "toxic puffer"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 61,
+          "y": 9
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a14",
+      "kgs": {
+        "max": 26,
+        "min": 16
+      },
+      "latin": "Plantus toxicus",
+      "lbs": {
+        "max": 57.32,
+        "min": 35.27
+      },
+      "map": "ChemicalPlant",
+      "name": "plant waterer",
+      "names": {
+        "en": "plant waterer",
+        "fr": "plant waterer",
+        "it": "plant waterer",
+        "pt": "plant waterer"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 61,
+          "y": 21
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a44",
+      "kgs": {
+        "max": 74,
+        "min": 33
+      },
+      "lbs": {
+        "max": 163.14,
+        "min": 72.25
+      },
+      "map": "ChemicalPlant",
+      "name": "zombie genius",
+      "names": {
+        "en": "zombie genius",
+        "fr": "zombie genius",
+        "it": "zombie genius",
+        "pt": "zombie genius"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 13,
+          "y": 14
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a45",
+      "kgs": {
+        "max": 35,
+        "min": 16
+      },
+      "lbs": {
+        "max": 77.16,
+        "min": 35.27
+      },
+      "map": "ChemicalPlant",
+      "name": "phosphorite",
+      "names": {
+        "en": "phosphorite",
+        "fr": "phosphorite",
+        "it": "phosphorite",
+        "pt": "phosphorite"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 41,
+          "y": 54
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a46",
+      "kgs": {
+        "max": 28,
+        "min": 14
+      },
+      "lbs": {
+        "max": 61.73,
+        "min": 30.86
+      },
+      "map": "ChemicalPlant",
+      "name": "glow puffball",
+      "names": {
+        "en": "glow puffball",
+        "fr": "glow puffball",
+        "it": "glow puffball",
+        "pt": "glow puffball"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 21,
+          "y": 56
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a47",
+      "kgs": {
+        "max": 12,
+        "min": 6
+      },
+      "latin": "Brachionichthys hirsutus",
+      "lbs": {
+        "max": 26.46,
+        "min": 13.23
+      },
+      "map": "ChemicalPlant",
+      "name": "spotted windchaser",
+      "names": {
+        "en": "spotted windchaser",
+        "fr": "spotted windchaser",
+        "it": "spotted windchaser",
+        "pt": "spotted windchaser"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 29,
+          "y": 66
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a48",
+      "kgs": {
+        "max": 25,
+        "min": 12
+      },
+      "latin": "Platygnathus compressus",
+      "lbs": {
+        "max": 55.12,
+        "min": 26.46
+      },
+      "map": "ChemicalPlant",
+      "name": "flatjaw",
+      "names": {
+        "en": "flatjaw",
+        "fr": "flatjaw",
+        "it": "flatjaw",
+        "pt": "flatjaw"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 33,
+          "y": 61
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a49",
+      "kgs": {
+        "max": 65,
+        "min": 30
+      },
+      "lbs": {
+        "max": 143.3,
+        "min": 66.14
+      },
+      "map": "ChemicalPlant",
+      "name": "silvered amelinium",
+      "names": {
+        "en": "silvered amelinium",
+        "fr": "silvered amelinium",
+        "it": "silvered amelinium",
+        "pt": "silvered amelinium"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 13,
+          "y": 16
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a50",
+      "kgs": {
+        "max": 82,
+        "min": 41
+      },
+      "latin": "Mutangus ferrugineus",
+      "lbs": {
+        "max": 180.78,
+        "min": 90.39
+      },
+      "map": "ChemicalPlant",
+      "name": "rusty mutang",
+      "names": {
+        "en": "rusty mutang",
+        "fr": "rusty mutang",
+        "it": "rusty mutang",
+        "pt": "rusty mutang"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 43,
+          "y": 55
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a51",
+      "kgs": {
+        "max": 14,
+        "min": 7
+      },
+      "lbs": {
+        "max": 30.86,
+        "min": 15.43
+      },
+      "map": "ChemicalPlant",
+      "name": "mailfish",
+      "names": {
+        "en": "mailfish",
+        "fr": "mailfish",
+        "it": "mailfish",
+        "pt": "mailfish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 13,
+          "y": 59
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a52",
+      "kgs": {
+        "max": 5,
+        "min": 2
+      },
+      "lbs": {
+        "max": 11.02,
+        "min": 4.41
+      },
+      "map": "ChemicalPlant",
+      "name": "flipper sneaker",
+      "names": {
+        "en": "flipper sneaker",
+        "fr": "flipper sneaker",
+        "it": "flipper sneaker",
+        "pt": "flipper sneaker"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 20,
+          "y": 29
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a53",
+      "kgs": {
+        "max": 52,
+        "min": 27
+      },
+      "latin": "Anguilla rostrata",
+      "lbs": {
+        "max": 114.64,
+        "min": 59.52
+      },
+      "map": "ChemicalPlant",
+      "name": "uranium eel",
+      "names": {
+        "en": "uranium eel",
+        "fr": "uranium eel",
+        "it": "uranium eel",
+        "pt": "uranium eel"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 22,
+          "y": 55
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "a54",
+      "kgs": {
+        "max": 42,
+        "min": 22
+      },
+      "lbs": {
+        "max": 92.59,
+        "min": 48.5
+      },
+      "map": "ChemicalPlant",
+      "name": "graterfin",
+      "names": {
+        "en": "graterfin",
+        "fr": "graterfin",
+        "it": "graterfin",
+        "pt": "graterfin"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 26,
+          "y": 43
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a55",
+      "kgs": {
+        "max": 7,
+        "min": 3
+      },
+      "lbs": {
+        "max": 15.43,
+        "min": 6.61
+      },
+      "map": "ChemicalPlant",
+      "name": "fingered glovefish",
+      "names": {
+        "en": "fingered glovefish",
+        "fr": "fingered glovefish",
+        "it": "fingered glovefish",
+        "pt": "fingered glovefish"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 26,
+          "y": 43
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a56",
+      "kgs": {
+        "max": 150,
+        "min": 78
+      },
+      "lbs": {
+        "max": 330.69,
+        "min": 171.96
+      },
+      "map": "ChemicalPlant",
+      "name": "bomberfish",
+      "names": {
+        "en": "bomberfish",
+        "fr": "bomberfish",
+        "it": "bomberfish",
+        "pt": "bomberfish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 21,
+          "y": 28
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a57",
+      "kgs": {
+        "max": 60,
+        "min": 29
+      },
+      "lbs": {
+        "max": 132.28,
+        "min": 63.93
+      },
+      "map": "ChemicalPlant",
+      "name": "stale deadfish",
+      "names": {
+        "en": "stale deadfish",
+        "fr": "stale deadfish",
+        "it": "stale deadfish",
+        "pt": "stale deadfish"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 11,
+          "y": 43
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a33",
+      "kgs": {
+        "max": 34,
+        "min": 16
+      },
+      "lbs": {
+        "max": 74.96,
+        "min": 35.27
+      },
+      "map": "ChemicalPlant",
+      "name": "banjoplayer",
+      "names": {
+        "en": "banjoplayer",
+        "fr": "banjoplayer",
+        "it": "banjoplayer",
+        "pt": "banjoplayer"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 60,
+          "y": 87
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a34",
+      "kgs": {
+        "max": 41,
+        "min": 17
+      },
+      "latin": "Serrator aqua",
+      "lbs": {
+        "max": 90.39,
+        "min": 37.48
+      },
+      "map": "ChemicalPlant",
+      "name": "sawfish",
+      "names": {
+        "en": "sawfish",
+        "fr": "sawfish",
+        "it": "sawfish",
+        "pt": "sawfish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 63,
+          "y": 22
+        },
+        {
+          "x": 16,
+          "y": 13
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a16",
+      "kgs": {
+        "max": 36,
+        "min": 13
+      },
+      "lbs": {
+        "max": 79.36,
+        "min": 28.66
+      },
+      "map": "ChemicalPlant",
+      "name": "Gasmist Swimmer",
+      "names": {
+        "en": "Gasmist Swimmer",
+        "fr": "Gasmist Swimmer",
+        "it": "gasmist swimmer",
+        "pt": "Gasmist Swimmer"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 66,
+          "y": 37
+        },
+        {
+          "x": 78,
+          "y": 39
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a35",
+      "kgs": {
+        "max": 38,
+        "min": 17
+      },
+      "lbs": {
+        "max": 83.78,
+        "min": 37.48
+      },
+      "map": "ChemicalPlant",
+      "name": "guitarfin",
+      "names": {
+        "en": "guitarfin",
+        "fr": "guitarfin",
+        "it": "guitarfin",
+        "pt": "guitarfin"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 91,
+          "y": 60
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a17",
+      "kgs": {
+        "max": 43,
+        "min": 21
+      },
+      "lbs": {
+        "max": 94.8,
+        "min": 46.3
+      },
+      "map": "ChemicalPlant",
+      "name": "bonebite",
+      "names": {
+        "en": "bonebite",
+        "fr": "bonebite",
+        "it": "bonebite",
+        "pt": "bonebite"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 82,
+          "y": 82
+        },
+        {
+          "x": 91,
+          "y": 79
+        },
+        {
+          "x": 91,
+          "y": 21
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a36",
+      "kgs": {
+        "max": 25,
+        "min": 11
+      },
+      "latin": "Cerebralis piscatorius",
+      "lbs": {
+        "max": 55.12,
+        "min": 24.25
+      },
+      "map": "ChemicalPlant",
+      "name": "brainfish",
+      "names": {
+        "en": "brainfish",
+        "fr": "brainfish",
+        "it": "brainfish",
+        "pt": "brainfish"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 47,
+          "y": 22
+        },
+        {
+          "x": 80,
+          "y": 11
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a37",
+      "kgs": {
+        "max": 78,
+        "min": 34
+      },
+      "lbs": {
+        "max": 171.96,
+        "min": 74.96
+      },
+      "map": "ChemicalPlant",
+      "name": "cuddlyfish",
+      "names": {
+        "en": "cuddlyfish",
+        "fr": "cuddlyfish",
+        "it": "cuddlyfish",
+        "pt": "cuddlyfish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 61,
+          "y": 69
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a38",
+      "kgs": {
+        "max": 41,
+        "min": 22
+      },
+      "lbs": {
+        "max": 90.39,
+        "min": 48.5
+      },
+      "map": "ChemicalPlant",
+      "name": "stringed guitarfish",
+      "names": {
+        "en": "stringed guitarfish",
+        "fr": "stringed guitarfish",
+        "it": "stringed guitarfish",
+        "pt": "stringed guitarfish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 33,
+          "y": 10
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a39",
+      "kgs": {
+        "max": 30,
+        "min": 15
+      },
+      "lbs": {
+        "max": 66.14,
+        "min": 33.07
+      },
+      "map": "ChemicalPlant",
+      "name": "soccerfish",
+      "names": {
+        "en": "soccerfish",
+        "fr": "soccerfish",
+        "it": "soccerfish",
+        "pt": "soccerfish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 21,
+          "y": 12
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a40",
+      "kgs": {
+        "max": 120,
+        "min": 59
+      },
+      "lbs": {
+        "max": 264.55,
+        "min": 130.07
+      },
+      "map": "ChemicalPlant",
+      "name": "swagfish",
+      "names": {
+        "en": "swagfish",
+        "fr": "swagfish",
+        "it": "swagfish",
+        "pt": "swagfish"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 73,
+          "y": 75
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a41",
+      "kgs": {
+        "max": 175,
+        "min": 79
+      },
+      "latin": "Prosopium cylindraceum",
+      "lbs": {
+        "max": 385.81,
+        "min": 174.16
+      },
+      "map": "ChemicalPlant",
+      "name": "round tubefish",
+      "names": {
+        "en": "round tubefish",
+        "fr": "round tubefish",
+        "it": "round tubefish",
+        "pt": "round tubefish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 50,
+          "y": 75
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a42",
+      "kgs": {
+        "max": 212,
+        "min": 106
+      },
+      "lbs": {
+        "max": 467.38,
+        "min": 233.69
+      },
+      "map": "ChemicalPlant",
+      "name": "polish spudfish",
+      "names": {
+        "en": "polish spudfish",
+        "fr": "polish spudfish",
+        "it": "polish spudfish",
+        "pt": "polish spudfish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 54,
+          "y": 18
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a43",
+      "kgs": {
+        "max": 46,
+        "min": 22
+      },
+      "lbs": {
+        "max": 101.41,
+        "min": 48.5
+      },
+      "map": "ChemicalPlant",
+      "name": "seahorse abomination",
+      "names": {
+        "en": "seahorse abomination",
+        "fr": "seahorse abomination",
+        "it": "seahorse abomination",
+        "pt": "seahorse abomination"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 79,
+          "y": 22
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "a58",
+      "kgs": {
+        "max": 180,
+        "min": 85
+      },
+      "latin": "Albula vulpes",
+      "lbs": {
+        "max": 396.83,
+        "min": 187.39
+      },
+      "map": "ChemicalPlant",
+      "name": "ribbed bonefish",
+      "names": {
+        "en": "ribbed bonefish",
+        "fr": "ribbed bonefish",
+        "it": "ribbed bonefish",
+        "pt": "ribbed bonefish"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 13,
+          "y": 13
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "intro": "Chemical Plant is the first so-called \"VIP\" area in Creatures of the Deep. It has the unusual characteristic of being available only from Friday to Sunday. To travel there, you do not need gold: you need VIP tickets. The entry cost ranges from 0 to 200 VIP tickets, and the exact price at any given time depends on how many players are visiting the area. Another unique feature: you will be alone. The zone is instanced, meaning you will never encounter other players there. One more particularity: the minigames for some species are very different from those on other maps. To learn more about these mechanics, click on a fish in the side menu.",
+  "mapImage": "/images/maps/chemical-plant.jpg",
+  "mapType": "VIP",
+  "monster": {
+    "attributes": [
+      {
+        "shadow": []
+      },
+      {
+        "moment": [
+          0,
+          1
+        ]
+      }
+    ],
+    "difficulty": 3,
+    "id": "b23",
+    "kgs": {
+      "max": 500,
+      "min": 200
+    },
+    "lbs": {
+      "max": 1102.31,
+      "min": 436.96
+    },
+    "map": "ChemicalPlant",
+    "name": "Nightmary",
+    "names": {
+      "en": "Nightmary",
+      "fr": "Nightmary",
+      "it": "Nightmary",
+      "pt": "Nightmary"
+    },
+    "portraitRatio": "horizontal",
+    "positions": [
+      {
+        "position": "top",
+        "spot": "Spot",
+        "x": 34,
+        "y": 85
+      }
+    ],
+    "rarity": "monster",
+    "rawType": "monster",
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "snippet": "Map monster."
+  },
+  "name": "Chemical Plant",
+  "objects": [
+    {
+      "bio": false,
+      "id": "T9-1",
+      "map": "ChemicalPlant",
+      "name": "can",
+      "names": {
+        "en": "can",
+        "fr": "canette",
+        "it": "lattina",
+        "pt": "lata",
+        "zh": "易拉罐"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 81,
+          "y": 70
+        },
+        {
+          "x": 10,
+          "y": 30
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-2",
+      "map": "ChemicalPlant",
+      "name": "cartridge",
+      "names": {
+        "en": "cartridge",
+        "fr": "cartouche",
+        "it": "cartuccia",
+        "pt": "cartucho",
+        "zh": "弹药筒"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 21,
+          "y": 35
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-3",
+      "map": "ChemicalPlant",
+      "name": "crowbar",
+      "names": {
+        "en": "crowbar",
+        "fr": "pied-de-biche",
+        "it": "piede di porco",
+        "pt": "pé-de-cabra",
+        "zh": "撬棍"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 67,
+          "y": 36
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-4",
+      "map": "ChemicalPlant",
+      "name": "geiger counter",
+      "names": {
+        "en": "geiger counter",
+        "fr": "compteur Geiger",
+        "it": "contatore Geiger",
+        "pt": "contador Geiger",
+        "zh": "盖革计数器"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 20,
+          "y": 64
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-5",
+      "map": "ChemicalPlant",
+      "name": "glowing cristal",
+      "names": {
+        "en": "glowing cristal",
+        "fr": "cristal lumineux",
+        "it": "cristallo luminoso",
+        "pt": "cristal brilhante",
+        "zh": "发光水晶"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 22,
+          "y": 52
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-6",
+      "map": "ChemicalPlant",
+      "name": "hacksaw",
+      "names": {
+        "en": "hacksaw",
+        "fr": "scie à métaux",
+        "it": "seghetto",
+        "pt": "arco de serra",
+        "zh": "钢锯"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 29,
+          "y": 29
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-7",
+      "map": "ChemicalPlant",
+      "name": "heater",
+      "names": {
+        "en": "heater",
+        "fr": "chauffage",
+        "it": "riscaldatore",
+        "pt": "aquecedor",
+        "zh": "加热器"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 11,
+          "y": 43
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-8",
+      "map": "ChemicalPlant",
+      "name": "high radiation sign",
+      "names": {
+        "en": "high radiation sign",
+        "fr": "panneau haute radiation",
+        "it": "segnale di alta radiazione",
+        "pt": "placa de alta radiação",
+        "zh": "高辐射标志"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 21,
+          "y": 51
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-9",
+      "map": "ChemicalPlant",
+      "name": "laboratory equipment",
+      "names": {
+        "en": "laboratory equipment",
+        "fr": "équipement de laboratoire",
+        "it": "attrezzatura da laboratorio",
+        "pt": "equipamento de laboratório",
+        "zh": "实验室设备"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 11,
+          "y": 43
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-10",
+      "map": "ChemicalPlant",
+      "name": "manhole cover",
+      "names": {
+        "en": "manhole cover",
+        "fr": "plaque d’égout",
+        "it": "chiusino",
+        "pt": "tampa de bueiro",
+        "zh": "井盖"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 13,
+          "y": 16
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-11",
+      "map": "ChemicalPlant",
+      "name": "mutated horsetail",
+      "names": {
+        "en": "mutated horsetail",
+        "fr": "prêle mutante",
+        "it": "equiseto mutato",
+        "pt": "cavalinha mutante",
+        "zh": "变异木贼"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 44,
+          "y": 11
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-12",
+      "map": "ChemicalPlant",
+      "name": "ninja pizza box",
+      "names": {
+        "en": "ninja pizza box",
+        "fr": "boîte à pizza ninja",
+        "it": "scatola di pizza ninja",
+        "pt": "caixa de pizza ninja",
+        "zh": "忍者披萨盒"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 12,
+          "y": 59
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-13",
+      "map": "ChemicalPlant",
+      "name": "ninja pizza slice",
+      "names": {
+        "en": "ninja pizza slice",
+        "fr": "part de pizza ninja",
+        "it": "fetta di pizza ninja",
+        "pt": "fatia de pizza ninja",
+        "zh": "忍者披萨片"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 12,
+          "y": 59
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-14",
+      "map": "ChemicalPlant",
+      "name": "old battery",
+      "names": {
+        "en": "old battery",
+        "fr": "vieille batterie",
+        "it": "vecchia batteria",
+        "pt": "bateria velha",
+        "zh": "旧电池"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 25,
+          "y": 13
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-15",
+      "map": "ChemicalPlant",
+      "name": "pesticides",
+      "names": {
+        "en": "pesticides",
+        "fr": "pesticides",
+        "it": "pesticidi",
+        "pt": "pesticidas",
+        "zh": "农药"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 11,
+          "y": 43
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-16",
+      "map": "ChemicalPlant",
+      "name": "phosphorus",
+      "names": {
+        "en": "phosphorus",
+        "fr": "phosphore",
+        "it": "fosforo",
+        "pt": "fósforo",
+        "zh": "磷"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 39,
+          "y": 54
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-17",
+      "map": "ChemicalPlant",
+      "name": "pipe",
+      "names": {
+        "en": "pipe",
+        "fr": "tuyau",
+        "it": "tubo",
+        "pt": "cano",
+        "zh": "管道"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 70,
+          "y": 63
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "toxic fishing rod",
+      "usage": [
+        {
+          "image": "/images/toxic_rod.png",
+          "title": {
+            "en": "toxic fishing rod",
+            "fr": "canne à pêchetoxique",
+            "it": "canna da pesca tossica",
+            "pt": "vara de pesca tóxica",
+            "zh": "有毒钓鱼竿"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T9-18",
+      "map": "ChemicalPlant",
+      "name": "pipe wrench",
+      "names": {
+        "en": "pipe wrench",
+        "fr": "clé à tuyau",
+        "it": "chiave per tubi",
+        "pt": "chave de cano",
+        "zh": "管钳"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 51,
+          "y": 82
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-19",
+      "map": "ChemicalPlant",
+      "name": "prof. flux's notes",
+      "names": {
+        "en": "prof. flux's notes",
+        "fr": "notes du prof. Flux",
+        "it": "appunti del prof. Flux",
+        "pt": "anotações do prof. Flux",
+        "zh": "弗拉克斯教授的笔记"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 81,
+          "y": 70
+        },
+        {
+          "x": 10,
+          "y": 30
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-20",
+      "map": "ChemicalPlant",
+      "name": "protective mask",
+      "names": {
+        "en": "protective mask",
+        "fr": "masque de protection",
+        "it": "maschera protettiva",
+        "pt": "máscara de proteção",
+        "zh": "防护面罩"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 91,
+          "y": 78
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-21",
+      "map": "ChemicalPlant",
+      "name": "protective suit",
+      "names": {
+        "en": "protective suit",
+        "fr": "combinaison de protection",
+        "it": "tuta protettiva",
+        "pt": "traje de proteção",
+        "zh": "防护服"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 51,
+          "y": 43
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-22",
+      "map": "ChemicalPlant",
+      "name": "radioactive stone",
+      "names": {
+        "en": "radioactive stone",
+        "fr": "pierre radioactive",
+        "it": "pietra radioattiva",
+        "pt": "pedra radioativa",
+        "zh": "放射性石头"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 22,
+          "y": 59
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-23",
+      "map": "ChemicalPlant",
+      "name": "red valve",
+      "names": {
+        "en": "red valve",
+        "fr": "vanne rouge",
+        "it": "valvola rossa",
+        "pt": "válvula vermelha",
+        "zh": "红色阀门"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 56,
+          "y": 51
+        },
+        {
+          "x": 79,
+          "y": 44
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "toxic fishing rod",
+      "usage": [
+        {
+          "image": "/images/toxic_rod.png",
+          "title": {
+            "en": "toxic fishing rod",
+            "fr": "canne à pêchetoxique",
+            "it": "canna da pesca tossica",
+            "pt": "vara de pesca tóxica",
+            "zh": "有毒钓鱼竿"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T9-24",
+      "map": "ChemicalPlant",
+      "name": "research files vol.1",
+      "names": {
+        "en": "research files vol.1",
+        "fr": "dossiers de recherche vol.1",
+        "it": "fascicoli di ricerca vol.1",
+        "pt": "arquivos de pesquisa vol.1",
+        "zh": "研究文件 第1卷"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 86,
+          "y": 42
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-25",
+      "map": "ChemicalPlant",
+      "name": "research files vol.2",
+      "names": {
+        "en": "research files vol.2",
+        "fr": "dossiers de recherche vol.2",
+        "it": "fascicoli di ricerca vol.2",
+        "pt": "arquivos de pesquisa vol.2",
+        "zh": "研究文件 第2卷"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 79,
+          "y": 12
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-26",
+      "map": "ChemicalPlant",
+      "name": "research files vol.3",
+      "names": {
+        "en": "research files vol.3",
+        "fr": "dossiers de recherche vol.3",
+        "it": "fascicoli di ricerca vol.3",
+        "pt": "arquivos de pesquisa vol.3",
+        "zh": "研究文件 第3卷"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 74,
+          "y": 74
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-27",
+      "map": "ChemicalPlant",
+      "name": "research files vol.4",
+      "names": {
+        "en": "research files vol.4",
+        "fr": "dossiers de recherche vol.4",
+        "it": "fascicoli di ricerca vol.4",
+        "pt": "arquivos de pesquisa vol.4",
+        "zh": "研究文件 第4卷"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 11,
+          "y": 65
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-28",
+      "map": "ChemicalPlant",
+      "name": "sai knive",
+      "names": {
+        "en": "sai knive",
+        "fr": "poignard sai",
+        "it": "pugnale sai",
+        "pt": "adaga sai",
+        "zh": "赛式匕首"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 21,
+          "y": 56
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-29",
+      "map": "ChemicalPlant",
+      "name": "skateboard",
+      "names": {
+        "en": "skateboard",
+        "fr": "skateboard",
+        "it": "skateboard",
+        "pt": "skate",
+        "zh": "滑板"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 21,
+          "y": 49
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-30",
+      "map": "ChemicalPlant",
+      "name": "sign",
+      "names": {
+        "en": "sign",
+        "fr": "panneau",
+        "it": "cartello",
+        "pt": "placa",
+        "zh": "标志"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 86,
+          "y": 65
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-31",
+      "map": "ChemicalPlant",
+      "name": "toxic algae",
+      "names": {
+        "en": "toxic algae",
+        "fr": "algues toxiques",
+        "it": "alghe tossiche",
+        "pt": "algas tóxicas",
+        "zh": "有毒藻类"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 23,
+          "y": 35
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-32",
+      "map": "ChemicalPlant",
+      "name": "toxic branch",
+      "names": {
+        "en": "toxic branch",
+        "fr": "branche toxique",
+        "it": "ramo tossico",
+        "pt": "galho tóxico",
+        "zh": "有毒树枝"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 85,
+          "y": 43
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "toxic fishing rod",
+      "usage": [
+        {
+          "image": "/images/toxic_rod.png",
+          "title": {
+            "en": "toxic fishing rod",
+            "fr": "canne à pêchetoxique",
+            "it": "canna da pesca tossica",
+            "pt": "vara de pesca tóxica",
+            "zh": "有毒钓鱼竿"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T9-33",
+      "map": "ChemicalPlant",
+      "name": "toxic barrel",
+      "names": {
+        "en": "toxic barrel",
+        "fr": "baril toxique",
+        "it": "barile tossico",
+        "pt": "barril tóxico",
+        "zh": "有毒桶"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 25,
+          "y": 14
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-34",
+      "map": "ChemicalPlant",
+      "name": "venus flytrap",
+      "names": {
+        "en": "venus flytrap",
+        "fr": "dionée attrape-mouche",
+        "it": "dionea",
+        "pt": "dionéia",
+        "zh": "捕蝇草"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 13,
+          "y": 59
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-35",
+      "map": "ChemicalPlant",
+      "name": "water bottle",
+      "names": {
+        "en": "water bottle",
+        "fr": "bouteille d’eau",
+        "it": "bottiglia d’acqua",
+        "pt": "garrafa de água",
+        "zh": "水瓶"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 55,
+          "y": 51
+        },
+        {
+          "x": 82,
+          "y": 87
+        },
+        {
+          "x": 90,
+          "y": 15
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-36",
+      "map": "ChemicalPlant",
+      "name": "wind turbine propeller blade",
+      "names": {
+        "en": "wind turbine propeller blade",
+        "fr": "pale d’éolienne",
+        "it": "pala di turbina eolica",
+        "pt": "pá de turbina eólica",
+        "zh": "风力涡轮叶片"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 63,
+          "y": 87
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-37",
+      "map": "ChemicalPlant",
+      "name": "wind turbine propeller hub",
+      "names": {
+        "en": "wind turbine propeller hub",
+        "fr": "moyeu d’hélice d’éolienne",
+        "it": "mozzo dell’elica eolica",
+        "pt": "cubo da hélice eólica",
+        "zh": "风力涡轮轮毂"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 76,
+          "y": 10
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T9-38",
+      "map": "ChemicalPlant",
+      "name": "wind turbine propeller dynamo",
+      "names": {
+        "en": "wind turbine propeller dynamo",
+        "fr": "dynamo d’éolienne",
+        "it": "dinamo di turbina eolica",
+        "pt": "dínamo de turbina eólica",
+        "zh": "风力涡轮发电机"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 49,
+          "y": 59
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    }
+  ],
+  "slug": "chemical-plant",
+  "title": "Chemical Plant map"
+}

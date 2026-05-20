@@ -3,36 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>COTD Map</title>
-
-  <!-- CSS 연결 -->
+  <title>COTD Map Explorer</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- 상단 헤더 -->
   <header>
-    <h1>🎣 COTD Map</h1>
-    <p>Creatures of the Deep 인터랙티브 지도</p>
+    <h1>COTD Map Explorer</h1>
+    <p>Creatures position + Clover detail</p>
   </header>
 
-  <!-- 검색 영역 -->
-  <section id="controls">
-    <input
-      type="text"
-      id="searchInput"
-      placeholder="검색어를 입력하세요..."
-    >
+  <section id="mapPickerSection">
+    <div class="section-title">OTHER MAPS</div>
+    <div id="mapPicker" aria-label="Map selector"></div>
   </section>
 
-  <!-- 지도 영역 -->
-  <main>
-    <div id="map">
-      지도 영역 (나중에 Paradise Island 지도가 표시됩니다)
+  <section id="controls">
+    <div class="filter-grid">
+    <div class="filter-card" id="categoryCard">
+      <div class="filter-headline"><span class="filter-title">CATEGORY</span><button class="clear-btn" data-clear-group="category" type="button">×</button></div>
+      <div class="filter-row" data-group="category">
+        <button class="filter-btn" data-group="category" data-value="fish" type="button">물고기</button>
+        <button class="filter-btn" data-group="category" data-value="creature" type="button">생명체</button>
+        <button class="filter-btn" data-group="category" data-value="item" type="button">아이템</button>
+      </div>
     </div>
+
+    <div class="filter-card" id="timeCard">
+      <div class="filter-headline"><span class="filter-title">DAY & NIGHT</span><button class="clear-btn" data-clear-group="time" type="button">×</button></div>
+      <div class="filter-row" data-group="time">
+        <button class="filter-btn" data-group="time" data-value="day" type="button">낮</button>
+        <button class="filter-btn" data-group="time" data-value="night" type="button">밤</button>
+        <button class="filter-btn" data-group="time" data-value="both" type="button">낮/밤</button>
+      </div>
+    </div>
+
+    <div class="filter-card" id="rarityCard">
+      <div class="filter-headline"><span class="filter-title">TYPE</span><button class="clear-btn" data-clear-group="rarity" type="button">×</button></div>
+      <div class="filter-row" data-group="rarity">
+        <button class="filter-btn" data-group="rarity" data-value="common" type="button">Common</button>
+        <button class="filter-btn" data-group="rarity" data-value="rare" type="button">Rare</button>
+        <button class="filter-btn" data-group="rarity" data-value="epic" type="button">Epic</button>
+      </div>
+    </div>
+
+    <div class="filter-card" id="availabilityCard">
+      <div class="filter-headline"><span class="filter-title">AVAILABILITY</span><button class="clear-btn" data-clear-group="availability" type="button">×</button></div>
+      <div class="filter-row" data-group="availability">
+        <button class="filter-btn" data-group="availability" data-value="available" type="button">현재 가능</button>
+        <button class="filter-btn" data-group="availability" data-value="unavailable" type="button">현재 안됨</button>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <main id="mapLayout">
+    <div id="map"></div>
+    <button id="panelToggleBtn" class="panel-toggle-btn" type="button">목록 열기</button>
+    <aside id="entityPanel">
+      <div class="panel-head">
+        <strong>Filtered List</strong>
+        <div class="panel-actions">
+          <button id="showAllBtn" class="tiny-btn" type="button">Show All</button>
+          <button id="hideAllBtn" class="tiny-btn" type="button">Hide All</button>
+        </div>
+      </div>
+      <div id="entityList" class="entity-list"></div>
+    </aside>
   </main>
 
-  <!-- JavaScript 연결 -->
-  <script src="script.js"></script>
+  <section id="detailSheet" class="detail-sheet" aria-hidden="true">
+    <div id="detailBackdrop" class="detail-backdrop"></div>
+    <article class="detail-panel" role="dialog" aria-modal="true" aria-label="상세 정보">
+      <button id="detailClose" class="detail-close" type="button">닫기</button>
+      <div id="detailBody" class="detail-body"></div>
+    </article>
+  </section>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script type="module" src="script.js"></script>
 </body>
 </html>

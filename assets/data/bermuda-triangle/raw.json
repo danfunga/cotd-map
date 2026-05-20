@@ -1,0 +1,2822 @@
+{
+  "creatures": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "DC-1",
+      "kgs": {
+        "max": 100,
+        "min": 15
+      },
+      "latin": "Acanthoceras rotomagensis",
+      "lbs": {
+        "max": 220.46,
+        "min": 33.07
+      },
+      "map": "Bermuda Triangle",
+      "name": "Ammonoidea",
+      "names": {
+        "en": "Ammonoidea",
+        "fr": "Ammonoidea",
+        "it": "Ammonoidea",
+        "pt": "Ammonoidea",
+        "zh": "鹦鹉螺目"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 14,
+          "y": 86
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "DC-2",
+      "kgs": {
+        "max": 90,
+        "min": 20
+      },
+      "latin": "Archelon ischyros",
+      "lbs": {
+        "max": 198.42,
+        "min": 44.09
+      },
+      "map": "Bermuda Triangle",
+      "name": "Archelon",
+      "names": {
+        "en": "Archelon",
+        "fr": "Archelon",
+        "it": "Archelon",
+        "pt": "Archelon",
+        "zh": "始鳖属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 24,
+          "y": 29
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "DC-3",
+      "kgs": {
+        "max": 6,
+        "min": 2
+      },
+      "latin": "Cephalaspis lyelli",
+      "lbs": {
+        "max": 13.23,
+        "min": 4.41
+      },
+      "map": "Bermuda Triangle",
+      "name": "Cephalaspis",
+      "names": {
+        "en": "Cephalaspis",
+        "fr": "Cephalaspis",
+        "it": "Cephalaspis",
+        "pt": "Cephalaspis",
+        "zh": "头盾鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 67,
+          "y": 53
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "DC-4",
+      "kgs": {
+        "max": 20,
+        "min": 9
+      },
+      "latin": "Diplocaulus magnicornis",
+      "lbs": {
+        "max": 44.09,
+        "min": 19.84
+      },
+      "map": "Bermuda Triangle",
+      "name": "Diplocaulus",
+      "names": {
+        "en": "Diplocaulus",
+        "fr": "Diplocaulus",
+        "it": "Diplocaulus",
+        "pt": "Diplocaulus",
+        "zh": "双弯蜥属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 89,
+          "y": 50
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "DC-5",
+      "kgs": {
+        "max": 150,
+        "min": 80
+      },
+      "latin": "Ichthyosaurus communis",
+      "lbs": {
+        "max": 330.69,
+        "min": 176.37
+      },
+      "map": "Bermuda Triangle",
+      "name": "Ichthyosaurus",
+      "names": {
+        "en": "Ichthyosaurus",
+        "fr": "Ichthyosaurus",
+        "it": "Ittiosauro",
+        "pt": "Ictiossauro",
+        "zh": "鱼龙属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 69,
+          "y": 69
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "DC-7",
+      "kgs": {
+        "max": 1500,
+        "min": 900
+      },
+      "latin": "Odobenocetops peruvianus",
+      "lbs": {
+        "max": 3306.93,
+        "min": 1984.16
+      },
+      "map": "Bermuda Triangle",
+      "name": "Odobenocetops",
+      "names": {
+        "en": "Odobenocetops",
+        "fr": "Odobenocetops",
+        "it": "Odobenocetops",
+        "pt": "Odobenocetops",
+        "zh": "海象鲸属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 38,
+          "y": 72
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "DC-8",
+      "kgs": {
+        "max": 0.9,
+        "min": 0.1
+      },
+      "latin": "Opabinia regalis",
+      "lbs": {
+        "max": 1.98,
+        "min": 0.22
+      },
+      "map": "Bermuda Triangle",
+      "name": "Opabinia",
+      "names": {
+        "en": "Opabinia",
+        "fr": "Opabinia",
+        "it": "Opabinia",
+        "pt": "Opabinia",
+        "zh": "奥帕宾虫"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 13,
+          "y": 45
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "DC-9",
+      "kgs": {
+        "max": 30,
+        "min": 10
+      },
+      "latin": "Orthoceras regulare",
+      "lbs": {
+        "max": 66.14,
+        "min": 22.05
+      },
+      "map": "Bermuda Triangle",
+      "name": "Orthoceras",
+      "names": {
+        "en": "Orthoceras",
+        "fr": "Orthoceras",
+        "it": "Orthoceras",
+        "pt": "Orthoceras",
+        "zh": "直角石"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 37,
+          "y": 42
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "DC-11",
+      "kgs": {
+        "max": 10,
+        "min": 5
+      },
+      "latin": "Peytoia nathorsti",
+      "lbs": {
+        "max": 22.05,
+        "min": 11.02
+      },
+      "map": "Bermuda Triangle",
+      "name": "Peytoia",
+      "names": {
+        "en": "Peytoia",
+        "fr": "Peytoia",
+        "it": "Peytoia",
+        "pt": "Peytoia",
+        "zh": "佩托亚虫"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 13,
+          "y": 45
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "DC-10",
+      "kgs": {
+        "max": 1400,
+        "min": 1000
+      },
+      "latin": "Peloneustes philarchus",
+      "lbs": {
+        "max": 3086.47,
+        "min": 2204.62
+      },
+      "map": "Bermuda Triangle",
+      "name": "Peloneustes",
+      "names": {
+        "en": "Peloneustes",
+        "fr": "Peloneustes",
+        "it": "Peloneustes",
+        "pt": "Peloneustes",
+        "zh": "佩罗纽斯龙"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 50,
+          "y": 90
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "DC-12",
+      "kgs": {
+        "max": 1100,
+        "min": 450
+      },
+      "latin": "Plesiosaurus dolichodeirus",
+      "lbs": {
+        "max": 2425.08,
+        "min": 992.08
+      },
+      "map": "Bermuda Triangle",
+      "name": "Plesiosaurus",
+      "names": {
+        "en": "Plesiosaurus",
+        "fr": "Plesiosaure",
+        "it": "Plesiosauro",
+        "pt": "Plesiossauro",
+        "zh": "蛇颈龙"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 85,
+          "y": 18
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "DC-6",
+      "kgs": {
+        "max": 12000,
+        "min": 9000
+      },
+      "latin": "Kronosaurus queenslandicus",
+      "lbs": {
+        "max": 26455.47,
+        "min": 19841.6
+      },
+      "map": "Bermuda Triangle",
+      "name": "Kronosaurus",
+      "names": {
+        "en": "Kronosaurus",
+        "fr": "Kronosaurus",
+        "it": "Kronosauro",
+        "pt": "Cronossauro",
+        "zh": "克罗诺龙"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 58,
+          "y": 19
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "dataSource": "game / BERMUDA_*.json",
+  "description": "Interactive Bermuda Triangle map for Creatures of the Deep — fish, creatures, and items.",
+  "fish": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-5",
+      "kgs": {
+        "max": 3,
+        "min": 1
+      },
+      "latin": "Diplacanthus crassisimus",
+      "lbs": {
+        "max": 6.61,
+        "min": 2.2
+      },
+      "map": "Bermuda Triangle",
+      "name": "Diplacanthus",
+      "names": {
+        "en": "Diplacanthus",
+        "fr": "Diplacanthus",
+        "it": "Diplacanthus",
+        "pt": "Diplacanthus",
+        "zh": "双棘鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 54,
+          "y": 67
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-6",
+      "kgs": {
+        "max": 45,
+        "min": 20
+      },
+      "latin": "Eusthenopteron foordi",
+      "lbs": {
+        "max": 99.21,
+        "min": 44.09
+      },
+      "map": "Bermuda Triangle",
+      "name": "Eusthenopteron",
+      "names": {
+        "en": "Eusthenopteron",
+        "fr": "Eusthenopteron",
+        "it": "Eusthenopteron",
+        "pt": "Eusthenopteron",
+        "zh": "真鳍鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 17,
+          "y": 34
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-7",
+      "kgs": {
+        "max": 2,
+        "min": 1
+      },
+      "latin": "Fanjingshania renovata",
+      "lbs": {
+        "max": 4.41,
+        "min": 2.2
+      },
+      "map": "Bermuda Triangle",
+      "name": "Fanjingshania",
+      "names": {
+        "en": "Fanjingshania",
+        "fr": "Fanjingshania",
+        "it": "Fanjingshania",
+        "pt": "Fanjingshania",
+        "zh": "梵净山鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 68,
+          "y": 33
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-8",
+      "kgs": {
+        "max": 19,
+        "min": 10
+      },
+      "latin": "Gogonasus andersoni",
+      "lbs": {
+        "max": 41.89,
+        "min": 22.05
+      },
+      "map": "Bermuda Triangle",
+      "name": "Gogonasus",
+      "names": {
+        "en": "Gogonasus",
+        "fr": "Gogonasus",
+        "it": "Gogonasus",
+        "pt": "Gogonasus",
+        "zh": "哥戈纳鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 81,
+          "y": 41
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-9",
+      "kgs": {
+        "max": 21,
+        "min": 10
+      },
+      "latin": "Gooloogongia loomesi",
+      "lbs": {
+        "max": 46.3,
+        "min": 22.05
+      },
+      "map": "Bermuda Triangle",
+      "name": "Gooloogongia",
+      "names": {
+        "en": "Gooloogongia",
+        "fr": "Gooloogongia",
+        "it": "Gooloogongia",
+        "pt": "Gooloogongia",
+        "zh": "古鲁贡鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 38,
+          "y": 41
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-11",
+      "kgs": {
+        "max": 18,
+        "min": 4
+      },
+      "latin": "Gyracanthides murrayi",
+      "lbs": {
+        "max": 39.68,
+        "min": 8.82
+      },
+      "map": "Bermuda Triangle",
+      "name": "Gyracanthides",
+      "names": {
+        "en": "Gyracanthides",
+        "fr": "Gyracanthides",
+        "it": "Gyracanthides",
+        "pt": "Gyracanthides",
+        "zh": "圆棘鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 27,
+          "y": 64
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-12",
+      "kgs": {
+        "max": 2,
+        "min": 1
+      },
+      "latin": "Haikouichthys ercaicunensis",
+      "lbs": {
+        "max": 4.41,
+        "min": 2.2
+      },
+      "map": "Bermuda Triangle",
+      "name": "Haikouichthys",
+      "names": {
+        "en": "Haikouichthys",
+        "fr": "Haikouichthys",
+        "it": "Haikouichthys",
+        "pt": "Haikouichthys",
+        "zh": "海口鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 35,
+          "y": 73
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "D-13",
+      "kgs": {
+        "max": 600,
+        "min": 400
+      },
+      "latin": "Hyneria lindae",
+      "lbs": {
+        "max": 1322.77,
+        "min": 881.85
+      },
+      "map": "Bermuda Triangle",
+      "name": "Hyneria",
+      "names": {
+        "en": "Hyneria",
+        "fr": "Hyneria",
+        "it": "Hyneria",
+        "pt": "Hyneria",
+        "zh": "希内里鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 26,
+          "y": 33
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-14",
+      "kgs": {
+        "max": 5,
+        "min": 2
+      },
+      "latin": "Ischnacanthus gracilis",
+      "lbs": {
+        "max": 11.02,
+        "min": 4.41
+      },
+      "map": "Bermuda Triangle",
+      "name": "Ischnacanthus",
+      "names": {
+        "en": "Ischnacanthus",
+        "fr": "Ischnacanthus",
+        "it": "Ischnacanthus",
+        "pt": "Ischnacanthus",
+        "zh": "细棘鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 11,
+          "y": 57
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1,
+            2
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-15",
+      "kgs": {
+        "max": 110,
+        "min": 60
+      },
+      "latin": "Latimeria chalumnae",
+      "lbs": {
+        "max": 242.51,
+        "min": 132.28
+      },
+      "map": "Bermuda Triangle",
+      "name": "Latimeria",
+      "names": {
+        "en": "Latimeria",
+        "fr": "Latimérie",
+        "it": "Latimeria",
+        "pt": "Celacanto",
+        "zh": "腔棘鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 48,
+          "y": 23
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-17",
+      "kgs": {
+        "max": 6,
+        "min": 2
+      },
+      "latin": "Macropoma lewesiensis",
+      "lbs": {
+        "max": 13.23,
+        "min": 4.41
+      },
+      "map": "Bermuda Triangle",
+      "name": "Macropoma",
+      "names": {
+        "en": "Macropoma",
+        "fr": "Macropoma",
+        "it": "Macropoma",
+        "pt": "Macropoma",
+        "zh": "巨身鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 81,
+          "y": 33
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "D-18",
+      "kgs": {
+        "max": 500,
+        "min": 300
+      },
+      "latin": "Mawsonia gigas",
+      "lbs": {
+        "max": 1102.31,
+        "min": 661.39
+      },
+      "map": "Bermuda Triangle",
+      "name": "Mawsonia",
+      "names": {
+        "en": "Mawsonia",
+        "fr": "Mawsonia",
+        "it": "Mawsonia",
+        "pt": "Mawsonia",
+        "zh": "莫氏鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 39,
+          "y": 22
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-20",
+      "kgs": {
+        "max": 3,
+        "min": 1
+      },
+      "latin": "Parexus recurvus",
+      "lbs": {
+        "max": 6.61,
+        "min": 2.2
+      },
+      "map": "Bermuda Triangle",
+      "name": "Parexus",
+      "names": {
+        "en": "Parexus",
+        "fr": "Parexus",
+        "it": "Parexus",
+        "pt": "Parexus",
+        "zh": "帕雷克斯鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 68,
+          "y": 74
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            2
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-21",
+      "kgs": {
+        "max": 350,
+        "min": 90
+      },
+      "latin": "Protosphyraena ferox",
+      "lbs": {
+        "max": 771.62,
+        "min": 198.42
+      },
+      "map": "Bermuda Triangle",
+      "name": "Protosphyraena",
+      "names": {
+        "en": "Protosphyraena",
+        "fr": "Protosphyraena",
+        "it": "Protosphyraena",
+        "pt": "Protosphyraena",
+        "zh": "原旗鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 23,
+          "y": 86
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-23",
+      "kgs": {
+        "max": 45,
+        "min": 25
+      },
+      "latin": "Stethacanthus altonensis",
+      "lbs": {
+        "max": 99.21,
+        "min": 55.12
+      },
+      "map": "Bermuda Triangle",
+      "name": "Stethacanthus",
+      "names": {
+        "en": "Stethacanthus",
+        "fr": "Stethacanthus",
+        "it": "Stethacanthus",
+        "pt": "Stethacanthus",
+        "zh": "胸棘鲨属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 18,
+          "y": 17
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            2
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "D-24",
+      "kgs": {
+        "max": 650,
+        "min": 400
+      },
+      "latin": "Ensisorays gladius",
+      "lbs": {
+        "max": 1433,
+        "min": 881.85
+      },
+      "map": "Bermuda Triangle",
+      "name": "Sword ray",
+      "names": {
+        "en": "Sword ray",
+        "fr": "Raie-épée",
+        "it": "Razza spada",
+        "pt": "Raia espada",
+        "zh": "剑鳐"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 52,
+          "y": 14
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-25",
+      "kgs": {
+        "max": 120,
+        "min": 60
+      },
+      "latin": "Tiktaalik roseae",
+      "lbs": {
+        "max": 264.55,
+        "min": 132.28
+      },
+      "map": "Bermuda Triangle",
+      "name": "Tiktaalik",
+      "names": {
+        "en": "Tiktaalik",
+        "fr": "Tiktaalik",
+        "it": "Tiktaalik",
+        "pt": "Tiktaalik",
+        "zh": "提克塔里克"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 50,
+          "y": 88
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "D-26",
+      "kgs": {
+        "max": 22,
+        "min": 10
+      },
+      "latin": "Xenacanthus decheni",
+      "lbs": {
+        "max": 48.5,
+        "min": 22.05
+      },
+      "map": "Bermuda Triangle",
+      "name": "Xenacanthus",
+      "names": {
+        "en": "Xenacanthus",
+        "fr": "Xenacanthus",
+        "it": "Xenacanthus",
+        "pt": "Xenacanthus",
+        "zh": "异棘鲨属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 85,
+          "y": 85
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "D-10",
+      "kgs": {
+        "max": 2200,
+        "min": 400
+      },
+      "latin": "Carcharodon carcharias",
+      "lbs": {
+        "max": 4850.17,
+        "min": 881.85
+      },
+      "map": "Bermuda Triangle",
+      "name": "Great white shark",
+      "names": {
+        "en": "Great white shark",
+        "fr": "Grand requin blanc",
+        "it": "Grande squalo bianco",
+        "pt": "Grande tubarão-branco",
+        "zh": "大白鲨"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 30,
+          "y": 50
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "D-16",
+      "kgs": {
+        "max": 50000,
+        "min": 25000
+      },
+      "latin": "Leedsichthys problematicus",
+      "lbs": {
+        "max": 110231.1,
+        "min": 55115.56
+      },
+      "map": "Bermuda Triangle",
+      "name": "Leedsichthys",
+      "names": {
+        "en": "Leedsichthys",
+        "fr": "Leedsichthys",
+        "it": "Leedsichthys",
+        "pt": "Leedsichthys",
+        "zh": "利兹鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 14,
+          "y": 69
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "D-22",
+      "kgs": {
+        "max": 3,
+        "min": 1
+      },
+      "latin": "Aphyosemion splendopleure",
+      "lbs": {
+        "max": 6.61,
+        "min": 2.2
+      },
+      "map": "Bermuda Triangle",
+      "name": "Splendid killifish",
+      "names": {
+        "en": "Splendid killifish",
+        "fr": "Killi splendide",
+        "it": "Killifish splendido",
+        "pt": "Killifish esplêndido",
+        "zh": "华丽鳉鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 82,
+          "y": 60
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "D-27",
+      "kgs": {
+        "max": 6000,
+        "min": 4000
+      },
+      "latin": "Dunkleosteus terrelli",
+      "lbs": {
+        "max": 13227.74,
+        "min": 8818.49
+      },
+      "map": "Bermuda Triangle",
+      "name": "Dunkleosteus",
+      "names": {
+        "en": "Dunkleosteus",
+        "fr": "Dunkleosteus",
+        "it": "Dunkleosteus",
+        "pt": "Dunkleosteus",
+        "zh": "邓氏鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 69,
+          "y": 53
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "D-19",
+      "kgs": {
+        "max": 350,
+        "min": 200
+      },
+      "latin": "Onchopristis numidus",
+      "lbs": {
+        "max": 771.62,
+        "min": 440.92
+      },
+      "map": "Bermuda Triangle",
+      "name": "Onchopristis",
+      "names": {
+        "en": "Onchopristis",
+        "fr": "Onchopristis",
+        "it": "Onchopristis",
+        "pt": "Onchopristis",
+        "zh": "钩锯鱼属"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 68,
+          "y": 74
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "D-28",
+      "kgs": {
+        "max": 1000,
+        "min": 100
+      },
+      "latin": "Helicoprion bessonowi",
+      "lbs": {
+        "max": 2204.62,
+        "min": 220.46
+      },
+      "map": "Bermuda Triangle",
+      "name": "Helicoprion",
+      "names": {
+        "en": "Helicoprion",
+        "fr": "Helicoprion",
+        "it": "Helicoprion",
+        "pt": "Helicoprion",
+        "zh": "螺旋齿鲨"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 73,
+          "y": 19
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "D-29",
+      "kgs": {
+        "max": 60000,
+        "min": 40000
+      },
+      "latin": "Otodus megalodon",
+      "lbs": {
+        "max": 132277.36,
+        "min": 88184.9
+      },
+      "map": "Bermuda Triangle",
+      "name": "Megalodon",
+      "names": {
+        "en": "Megalodon",
+        "fr": "Mégalodon",
+        "it": "Megalodonte",
+        "pt": "Megalodon",
+        "zh": "史前巨鲨"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 35,
+          "y": 74
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "intro": "The Bermuda Triangle map in Creatures of the Deep leans into prehistoric and deep-sea life with a mysterious twist. Track fish, creatures, and items on the interactive map; use the side menu to open details for each spot.",
+  "mapImage": "/maps_images/BermudaTriangle.jpg",
+  "mapType": "VIP",
+  "monster": false,
+  "name": "Bermuda Triangle",
+  "objects": [
+    {
+      "bio": false,
+      "id": "DT-1",
+      "map": "Bermuda Triangle",
+      "name": "Aviator Cap",
+      "names": {
+        "en": "Aviator Cap",
+        "fr": "Cagoule de pilote",
+        "it": "Cappello da aviatore",
+        "pt": "Gorro de aviador",
+        "zh": "飞行帽"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 32,
+          "y": 44
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-2",
+      "map": "Bermuda Triangle",
+      "name": "12V Battery",
+      "names": {
+        "en": "12V Battery",
+        "fr": "Batterie 12V",
+        "it": "Batteria 12V",
+        "pt": "Bateria 12V",
+        "zh": "12V电池"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 21,
+          "y": 17
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-3",
+      "map": "Bermuda Triangle",
+      "name": "Damaged CRT Monitor",
+      "names": {
+        "en": "Damaged CRT Monitor",
+        "fr": "Moniteur CRT endommagé",
+        "it": "Monitor CRT danneggiato",
+        "pt": "Monitor CRT danificado",
+        "zh": "损坏的CRT显示器"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 72,
+          "y": 82
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-4",
+      "map": "Bermuda Triangle",
+      "name": "Car Keys",
+      "names": {
+        "en": "Car Keys",
+        "fr": "Clés de voiture",
+        "it": "Chiavi dell’auto",
+        "pt": "Chaves do carro",
+        "zh": "车钥匙"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 71,
+          "y": 39
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-5",
+      "map": "Bermuda Triangle",
+      "name": "Chair",
+      "names": {
+        "en": "Chair",
+        "fr": "Chaise",
+        "it": "Sedia",
+        "pt": "Cadeira",
+        "zh": "椅子"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 22,
+          "y": 89
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-6",
+      "map": "Bermuda Triangle",
+      "name": "Toy Dinosaur",
+      "names": {
+        "en": "Toy Dinosaur",
+        "fr": "Dinosaure jouet",
+        "it": "Dinosauro giocattolo",
+        "pt": "Dinossauro de brinquedo",
+        "zh": "玩具恐龙"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 23,
+          "y": 61
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-7",
+      "map": "Bermuda Triangle",
+      "name": "VHS “The Found Ones”",
+      "names": {
+        "en": "VHS “The Found Ones”",
+        "fr": "VHS « Retrouvés »",
+        "it": "VHS “I Ritrovati”",
+        "pt": "VHS “Os Encontrados”",
+        "zh": "VHS《被发现的人们》"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 38,
+          "y": 14
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-8",
+      "map": "Bermuda Triangle",
+      "name": "Glasses",
+      "names": {
+        "en": "Glasses",
+        "fr": "Lunettes",
+        "it": "Occhiali",
+        "pt": "Óculos",
+        "zh": "眼镜"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 14,
+          "y": 70
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-9",
+      "map": "Bermuda Triangle",
+      "name": "3D Glasses",
+      "names": {
+        "en": "3D Glasses",
+        "fr": "Lunettes 3D",
+        "it": "Occhiali 3D",
+        "pt": "Óculos 3D",
+        "zh": "3D眼镜"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 87,
+          "y": 62
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-10",
+      "map": "Bermuda Triangle",
+      "name": "Golden Pocket Watch",
+      "names": {
+        "en": "Golden Pocket Watch",
+        "fr": "Montre de poche en or",
+        "it": "Orologio da tasca dorato",
+        "pt": "Relógio de bolso dourado",
+        "zh": "金色怀表"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 31,
+          "y": 75
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-11",
+      "map": "Bermuda Triangle",
+      "name": "Heart-shaped Necklace",
+      "names": {
+        "en": "Heart-shaped Necklace",
+        "fr": "Collier en forme de cœur",
+        "it": "Collana a forma di cuore",
+        "pt": "Colar em forma de coração",
+        "zh": "心形项链"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 48,
+          "y": 22
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-12",
+      "map": "Bermuda Triangle",
+      "name": "Lifebuoy",
+      "names": {
+        "en": "Lifebuoy",
+        "fr": "Bouée de sauvetage",
+        "it": "Salvagente",
+        "pt": "Boia de salvação",
+        "zh": "救生圈"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 31,
+          "y": 92
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-13",
+      "map": "Bermuda Triangle",
+      "name": "Magnet",
+      "names": {
+        "en": "Magnet",
+        "fr": "Aimant",
+        "it": "Magnete",
+        "pt": "Íman",
+        "zh": "磁铁"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 86,
+          "y": 83
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-14",
+      "map": "Bermuda Triangle",
+      "name": "Old Sock",
+      "names": {
+        "en": "Old Sock",
+        "fr": "Vieille chaussette",
+        "it": "Calzino vecchio",
+        "pt": "Meia velha",
+        "zh": "旧袜子"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 83,
+          "y": 60
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-15",
+      "map": "Bermuda Triangle",
+      "name": "Portable Toilet",
+      "names": {
+        "en": "Portable Toilet",
+        "fr": "Toilettes portatives",
+        "it": "Toilette portatile",
+        "pt": "Sanita portátil",
+        "zh": "便携厕所"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 54,
+          "y": 55
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-16",
+      "map": "Bermuda Triangle",
+      "name": "Rubber Toy",
+      "names": {
+        "en": "Rubber Toy",
+        "fr": "Jouet en caoutchouc",
+        "it": "Giocattolo di gomma",
+        "pt": "Brinquedo de borracha",
+        "zh": "橡胶玩具"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 61,
+          "y": 44
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-17",
+      "map": "Bermuda Triangle",
+      "name": "Sextant",
+      "names": {
+        "en": "Sextant",
+        "fr": "Sextant",
+        "it": "Sestante",
+        "pt": "Sextante",
+        "zh": "六分仪"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 31,
+          "y": 92
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-18",
+      "map": "Bermuda Triangle",
+      "name": "Suitcase",
+      "names": {
+        "en": "Suitcase",
+        "fr": "Valise",
+        "it": "Valigia",
+        "pt": "Mala",
+        "zh": "手提箱"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 65,
+          "y": 65
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-19",
+      "map": "Bermuda Triangle",
+      "name": "Suitcase Key",
+      "names": {
+        "en": "Suitcase Key",
+        "fr": "Clé de valise",
+        "it": "Chiave della valigia",
+        "pt": "Chave da mala",
+        "zh": "手提箱钥匙"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 22,
+          "y": 49
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-20",
+      "map": "Bermuda Triangle",
+      "name": "TV Remote",
+      "names": {
+        "en": "TV Remote",
+        "fr": "Télécommande",
+        "it": "Telecomando",
+        "pt": "Comando da TV",
+        "zh": "电视遥控器"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 10,
+          "y": 65
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-21",
+      "map": "Bermuda Triangle",
+      "name": "Wallet",
+      "names": {
+        "en": "Wallet",
+        "fr": "Portefeuille",
+        "it": "Portafoglio",
+        "pt": "Carteira",
+        "zh": "钱包"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 80,
+          "y": 33
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-22",
+      "map": "Bermuda Triangle",
+      "name": "Old Washing Machine",
+      "names": {
+        "en": "Old Washing Machine",
+        "fr": "Vieille machine à laver",
+        "it": "Vecchia lavatrice",
+        "pt": "Máquina de lavar antiga",
+        "zh": "旧洗衣机"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 76,
+          "y": 49
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-23",
+      "map": "Bermuda Triangle",
+      "name": "Toilet Brush",
+      "names": {
+        "en": "Toilet Brush",
+        "fr": "Brosse WC",
+        "it": "Spazzola per WC",
+        "pt": "Escova da sanita",
+        "zh": "马桶刷"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 53,
+          "y": 64
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "DT-24",
+      "map": "Bermuda Triangle",
+      "name": "Winter Glove",
+      "names": {
+        "en": "Winter Glove",
+        "fr": "Gant d’hiver",
+        "it": "Guanto invernale",
+        "pt": "Luva de inverno",
+        "zh": "冬天手套"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 85,
+          "y": 85
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    }
+  ],
+  "slug": "bermuda-triangle",
+  "title": "Bermuda Triangle map"
+}

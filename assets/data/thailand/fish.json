@@ -1,0 +1,429 @@
+[
+  {
+    "id": "63",
+    "name": "pla-kad thong",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 23,
+        "y": 16
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "614",
+    "name": "rice eel",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 9,
+        "y": 35
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "62",
+    "name": "bighead carp",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 25,
+        "y": 50
+      },
+      {
+        "x": 60,
+        "y": 33
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "625",
+    "name": "aligator gar",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 71,
+        "y": 35
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "619",
+    "name": "spotted sorubim",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 85,
+        "y": 31
+      },
+      {
+        "x": 68,
+        "y": 61
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "612",
+    "name": "marbled sand goby",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 40,
+        "y": 28
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "621",
+    "name": "tapah",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 21,
+        "y": 18
+      },
+      {
+        "x": 89,
+        "y": 74
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "615",
+    "name": "red-tail tiger catfish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 84,
+        "y": 56
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "65",
+    "name": "giant devil catfish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 84,
+        "y": 20
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "622",
+    "name": "empurau",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 44,
+        "y": 39
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "69",
+    "name": "great snakehead",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 22,
+        "y": 89
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "624",
+    "name": "yellow mystus",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 26,
+        "y": 48
+      },
+      {
+        "x": 22,
+        "y": 88
+      },
+      {
+        "x": 72,
+        "y": 37
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "623",
+    "name": "wallago",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 30,
+        "y": 24
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "618",
+    "name": "black ear catfish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 60,
+        "y": 75
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "617",
+    "name": "rohu",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 41,
+        "y": 28
+      },
+      {
+        "x": 60,
+        "y": 36
+      },
+      {
+        "x": 25,
+        "y": 48
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "616",
+    "name": "ripsaw catfish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 72,
+        "y": 23
+      },
+      {
+        "x": 88,
+        "y": 65
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "611",
+    "name": "malayan leaffish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 25,
+        "y": 85
+      },
+      {
+        "x": 54,
+        "y": 49
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "61",
+    "name": "bambusa",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 73,
+        "y": 36
+      },
+      {
+        "x": 62,
+        "y": 34
+      },
+      {
+        "x": 66,
+        "y": 51
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "64",
+    "name": "fire eel",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 10,
+        "y": 36
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "66",
+    "name": "giant freshwater whipray",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 66,
+        "y": 51
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "620",
+    "name": "striped catfish",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 89,
+        "y": 25
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "67",
+    "name": "giant pangasius",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 88,
+        "y": 58
+      },
+      {
+        "x": 88,
+        "y": 84
+      },
+      {
+        "x": 83,
+        "y": 28
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "613",
+    "name": "mekong giant catfish",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 88,
+        "y": 58
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "610",
+    "name": "jullien's golden prize carp",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 27,
+        "y": 50
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "68",
+    "name": "giant siamese",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 63,
+        "y": 34
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

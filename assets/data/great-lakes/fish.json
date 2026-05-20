@@ -1,0 +1,430 @@
+[
+  {
+    "id": "11",
+    "name": "alewife",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 42,
+        "y": 59
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "12",
+    "name": "brook trout",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 30,
+        "y": 40
+      },
+      {
+        "x": 79,
+        "y": 13
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "13",
+    "name": "brown trout",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 31,
+        "y": 38
+      },
+      {
+        "x": 88,
+        "y": 90
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "14",
+    "name": "largemouth bass",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 60,
+        "y": 20
+      },
+      {
+        "x": 87,
+        "y": 67
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "15",
+    "name": "yellow perch",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 62,
+        "y": 90
+      },
+      {
+        "x": 90,
+        "y": 29
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "16",
+    "name": "white crappie",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 75,
+        "y": 80
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "17",
+    "name": "white bass",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 65,
+        "y": 15
+      },
+      {
+        "x": 90,
+        "y": 30
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "18",
+    "name": "walleye",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 43,
+        "y": 59
+      },
+      {
+        "x": 10,
+        "y": 84
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "19",
+    "name": "sea lamprey",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 47,
+        "y": 70
+      },
+      {
+        "x": 47,
+        "y": 29
+      },
+      {
+        "x": 43,
+        "y": 54
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "110",
+    "name": "pink salmon",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 75,
+        "y": 50
+      },
+      {
+        "x": 75,
+        "y": 7
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "111",
+    "name": "smallmouth bass",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 59,
+        "y": 42
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "112",
+    "name": "round whitefish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 38,
+        "y": 26
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "113",
+    "name": "redear sunfish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 72,
+        "y": 67
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "114",
+    "name": "channel catfish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 25,
+        "y": 75
+      },
+      {
+        "x": 88,
+        "y": 45
+      },
+      {
+        "x": 77,
+        "y": 27
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "115",
+    "name": "bloater",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 78,
+        "y": 25
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "116",
+    "name": "coho salmon",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 75,
+        "y": 50
+      },
+      {
+        "x": 35,
+        "y": 10
+      },
+      {
+        "x": 52,
+        "y": 70
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "117",
+    "name": "chinook salmon",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 75,
+        "y": 55
+      },
+      {
+        "x": 15,
+        "y": 78
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "118",
+    "name": "muskie",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 90,
+        "y": 63
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "119",
+    "name": "flathead catfish",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 45,
+        "y": 45
+      },
+      {
+        "x": 85,
+        "y": 25
+      },
+      {
+        "x": 15,
+        "y": 78
+      }
+    ],
+    "snippet": "",
+    "day": false,
+    "night": true
+  },
+  {
+    "id": "120",
+    "name": "lake trout",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 70,
+        "y": 12
+      },
+      {
+        "x": 78,
+        "y": 88
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "121",
+    "name": "longnose gar",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 75,
+        "y": 20
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "122",
+    "name": "american eel",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 90,
+        "y": 65
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "123",
+    "name": "goldfish",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 50,
+        "y": 70
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "124",
+    "name": "lake sturgeon",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 47,
+        "y": 10
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

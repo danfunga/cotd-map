@@ -1,0 +1,1679 @@
+{
+  "creatures": [
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "C-M01",
+      "kgs": {
+        "max": 0.1,
+        "min": 0.01
+      },
+      "latin": "Roboastra leonis",
+      "lbs": {
+        "max": 0.22,
+        "min": 0.02
+      },
+      "map": "Marina",
+      "name": "nudibranch",
+      "names": {
+        "en": "nudibranch",
+        "fr": "nudibranche",
+        "it": "nudibranchi",
+        "pt": "nudibrânquio"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 45,
+          "y": 70
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "C-M02",
+      "kgs": {
+        "max": 0.5,
+        "min": 0.2
+      },
+      "latin": "Asthenosoma varium",
+      "lbs": {
+        "max": 1.1,
+        "min": 0.44
+      },
+      "map": "Marina",
+      "name": "fire urchin",
+      "names": {
+        "en": "fire urchin",
+        "fr": "oursin de feu",
+        "it": "riccio di fuoco",
+        "pt": "ouriço do mar de fogo"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 45,
+          "y": 70
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "C-M03",
+      "kgs": {
+        "max": 0.1,
+        "min": 0.01
+      },
+      "latin": "Thylacodes squamigerus",
+      "lbs": {
+        "max": 0.22,
+        "min": 0.02
+      },
+      "map": "Marina",
+      "name": "worm snail",
+      "names": {
+        "en": "worm snail",
+        "fr": "vermet squamigère",
+        "it": "vermeto squamigero",
+        "pt": "caramujo verme"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 33,
+          "y": 52
+        },
+        {
+          "x": 17,
+          "y": 72
+        },
+        {
+          "x": 4,
+          "y": 4
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "C-M04",
+      "kgs": {
+        "max": 4,
+        "min": 0.2
+      },
+      "latin": "Asterias rubens",
+      "lbs": {
+        "max": 8.82,
+        "min": 0.44
+      },
+      "map": "Marina",
+      "name": "common starfish",
+      "names": {
+        "en": "common starfish",
+        "fr": "étoile de mer commune",
+        "it": "stella marina comune",
+        "pt": "estralo do mar comum"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 14,
+          "y": 19
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "C-M05",
+      "kgs": {
+        "max": 1.5,
+        "min": 0.01
+      },
+      "latin": "Dardanus calidus",
+      "lbs": {
+        "max": 3.31,
+        "min": 0.02
+      },
+      "map": "Marina",
+      "name": "hermit crab",
+      "names": {
+        "en": "hermit crab",
+        "fr": "bernard l'ermite rouge",
+        "it": "paguro bernardo rosso",
+        "pt": "caranguejo eremita"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 35,
+          "y": 52
+        },
+        {
+          "x": 47,
+          "y": 70
+        },
+        {
+          "x": 55,
+          "y": 76
+        },
+        {
+          "x": 65,
+          "y": 58
+        },
+        {
+          "x": 60,
+          "y": 33
+        },
+        {
+          "x": 46,
+          "y": 34
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "C-M07",
+      "kgs": {
+        "max": 0.55,
+        "min": 0.15
+      },
+      "latin": "Astropyga Radiata",
+      "lbs": {
+        "max": 1.21,
+        "min": 0.33
+      },
+      "map": "Marina",
+      "name": "longspine urchin",
+      "names": {
+        "en": "longspine urchin",
+        "fr": "oursin long-piquant",
+        "it": "riccio a spine lunghe",
+        "pt": "ouriço-de-espinhos-longos"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 48,
+          "y": 36
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "C-M08",
+      "kgs": {
+        "max": 1.5,
+        "min": 0.01
+      },
+      "latin": "Coenobita clypeatus",
+      "lbs": {
+        "max": 1.5,
+        "min": 0.01
+      },
+      "map": "Marina",
+      "name": "caribbean crab",
+      "names": {
+        "en": "caribbean crab",
+        "fr": "crabe caribéen",
+        "it": "granchio caraibico",
+        "pt": "caranguejo caribenho"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 18,
+          "y": 71
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "C-M06",
+      "kgs": {
+        "max": 1.5,
+        "min": 0.01
+      },
+      "latin": "Dardanus calidus",
+      "lbs": {
+        "max": 3.31,
+        "min": 0.02
+      },
+      "map": "Marina",
+      "name": "hermit crab",
+      "names": {
+        "en": "hermit crab",
+        "fr": "bernard l'ermite rouge",
+        "it": "paguro bernardo rosso",
+        "pt": "caranguejo eremita"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 15,
+          "y": 19
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "dataSource": "cloversalad2/src/assets/{fish,creatures,items}/Marina.js",
+  "description": "Interactive Marina map for Creatures of the Deep — fish, creatures, items, and the map monster.",
+  "fish": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "M01",
+      "kgs": {
+        "max": 0.1,
+        "min": 0.01
+      },
+      "latin": "Engraulis encrasicolus",
+      "lbs": {
+        "max": 0.22,
+        "min": 0.02
+      },
+      "map": "Marina",
+      "name": "anchovy",
+      "names": {
+        "en": "anchovy",
+        "fr": "anchois",
+        "it": "acciuga",
+        "pt": "anchova",
+        "zh": "凤尾鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 46,
+          "y": 33
+        },
+        {
+          "x": 60,
+          "y": 31
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "M02",
+      "kgs": {
+        "max": 0.3,
+        "min": 0.1
+      },
+      "latin": "Sardina pilchardus",
+      "lbs": {
+        "max": 0.66,
+        "min": 0.22
+      },
+      "map": "Marina",
+      "name": "sardine",
+      "names": {
+        "en": "sardine",
+        "fr": "sardine",
+        "it": "sardina",
+        "pt": "sardinha",
+        "zh": "沙丁鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 34,
+          "y": 55
+        },
+        {
+          "x": 18,
+          "y": 71
+        },
+        {
+          "x": 67,
+          "y": 53
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "M03",
+      "kgs": {
+        "max": 0.1,
+        "min": 0.01
+      },
+      "latin": "Sprattus sprattus",
+      "lbs": {
+        "max": 0.22,
+        "min": 0.02
+      },
+      "map": "Marina",
+      "name": "brisling",
+      "names": {
+        "en": "brisling",
+        "fr": "sprat",
+        "it": "spratto",
+        "pt": "espadilha",
+        "zh": "小鲱鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 33,
+          "y": 52
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "M04",
+      "kgs": {
+        "max": 2,
+        "min": 1
+      },
+      "latin": "Sparus aurata",
+      "lbs": {
+        "max": 4.41,
+        "min": 2.2
+      },
+      "map": "Marina",
+      "name": "gilt-head bream",
+      "names": {
+        "en": "gilt-head bream",
+        "fr": "dorade royale",
+        "it": "orata",
+        "pt": "dourada",
+        "zh": "金头鲷"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 33,
+          "y": 52
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "M05",
+      "kgs": {
+        "max": 1,
+        "min": 0.5
+      },
+      "latin": "Mullus surmuletus",
+      "lbs": {
+        "max": 2.2,
+        "min": 1.1
+      },
+      "map": "Marina",
+      "name": "striped red mullet",
+      "names": {
+        "en": "striped red mullet",
+        "fr": "rouget barbet de roche",
+        "it": "triglia di scoglio",
+        "pt": "salmonetete listado",
+        "zh": "条纹红鲻"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 46,
+          "y": 70
+        },
+        {
+          "x": 55,
+          "y": 77
+        },
+        {
+          "x": 48,
+          "y": 34
+        },
+        {
+          "x": 60,
+          "y": 32
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "M06",
+      "kgs": {
+        "max": 0.05,
+        "min": 0.01
+      },
+      "latin": "Oxudercinae",
+      "lbs": {
+        "max": 0.11,
+        "min": 0.02
+      },
+      "map": "Marina",
+      "name": "mudskipper",
+      "names": {
+        "en": "mudskipper",
+        "fr": "gobie sauteur",
+        "it": "pesce saltatore del fango",
+        "pt": "peixe-pulga",
+        "zh": "弹涂鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 17,
+          "y": 15
+        },
+        {
+          "x": 67,
+          "y": 51
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "M08",
+      "kgs": {
+        "max": 0.35,
+        "min": 0.1
+      },
+      "latin": "Atherinomorus lacunosus",
+      "lbs": {
+        "max": 0.77,
+        "min": 0.22
+      },
+      "map": "Marina",
+      "name": "hardyhead silverside",
+      "names": {
+        "en": "hardyhead silverside",
+        "fr": "athérine têtue",
+        "it": "latterino orientale",
+        "pt": "rei cabeçudo",
+        "zh": "硬头银汉鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 66,
+          "y": 54
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 2,
+      "id": "M07",
+      "kgs": {
+        "max": 2,
+        "min": 1
+      },
+      "latin": "Psychrolutes marcidus",
+      "lbs": {
+        "max": 4.41,
+        "min": 2.2
+      },
+      "map": "Marina",
+      "name": "blobfish",
+      "names": {
+        "en": "blobfish",
+        "fr": "poisson blob",
+        "it": "pesce blob",
+        "pt": "peixe-borbulha",
+        "zh": "水滴鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 18,
+          "y": 72
+        },
+        {
+          "x": 20,
+          "y": 57
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "intro": "The Marina is a very unique area: it is the only location in the game where you practice shore fishing. Fish are abundant there (the area is difficult — if not impossible — to deplete), but their selling value is very low. Some species can still be quite challenging to catch, however. Click on a fish in the side menu to see full details.",
+  "mapImage": "/images/maps/marina.jpg",
+  "mapType": "classic",
+  "monster": false,
+  "name": "Marina",
+  "objects": [
+    {
+      "bio": true,
+      "id": "T0-1",
+      "map": "Marina",
+      "name": "turban shell",
+      "names": {
+        "en": "turban shell",
+        "fr": "coquille turbo",
+        "it": "conchiglia turbo",
+        "pt": "concha turbo",
+        "zh": "宝螺壳"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 12,
+          "y": 19
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": true,
+      "id": "T0-2",
+      "map": "Marina",
+      "name": "common seashell",
+      "names": {
+        "en": "common seashell",
+        "fr": "coquillage commun",
+        "it": "conchiglia comune",
+        "pt": "concha comum",
+        "zh": "普通贝壳"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 65,
+          "y": 59
+        },
+        {
+          "x": 58,
+          "y": 68
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "id": "T0-22",
+      "map": "Marina",
+      "name": "sailing rope",
+      "names": {
+        "en": "sailing rope",
+        "fr": "corde à voile",
+        "it": "corda di vela",
+        "pt": "corda de vela",
+        "zh": "帆绳"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 57,
+          "y": 30
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "Repair Kit",
+      "usage": [
+        {
+          "image": "/potions/repairkit2.png",
+          "title": {
+            "en": "Repair Kit",
+            "fr": "Kit de réparation",
+            "it": "Kit di riparazione",
+            "pt": "Kit de reparo",
+            "zh": "修复工具包"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T0-3",
+      "map": "Marina",
+      "name": "old plank",
+      "names": {
+        "en": "old plank",
+        "fr": "vieille planche",
+        "it": "vecchia tavola",
+        "pt": "tábua velha",
+        "zh": "旧木板"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 22,
+          "y": 59
+        },
+        {
+          "x": 22,
+          "y": 79
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "Repair Kit",
+      "usage": [
+        {
+          "image": "/potions/repairkit2.png",
+          "title": {
+            "en": "Repair Kit",
+            "fr": "Kit de réparation",
+            "it": "Kit di riparazione",
+            "pt": "Kit de reparo",
+            "zh": "修复工具包"
+          },
+          "type": "craft"
+        },
+        {
+          "image": "/trashPortraits/tr_wood.png",
+          "title": {
+            "en": "wooden plank",
+            "fr": "planche de bois",
+            "it": "tavola di legno",
+            "pt": "tábua de madeira",
+            "zh": "木板"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": true,
+      "id": "T0-4",
+      "map": "Marina",
+      "name": "tiny pink shell",
+      "names": {
+        "en": "tiny pink shell",
+        "fr": "petite coquille rose",
+        "it": "piccola conchiglia rosa",
+        "pt": "pequena concha rosa",
+        "zh": "小粉色贝壳"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 60,
+          "y": 31
+        },
+        {
+          "x": 66,
+          "y": 48
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": true,
+      "id": "T0-5",
+      "map": "Marina",
+      "name": "urchin shell",
+      "names": {
+        "en": "urchin shell",
+        "fr": "coquille d’oursin",
+        "it": "guscio di riccio di mare",
+        "pt": "concha de ouriço",
+        "zh": "海胆壳"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 45,
+          "y": 34
+        },
+        {
+          "x": 52,
+          "y": 78
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": true,
+      "id": "T0-6",
+      "map": "Marina",
+      "name": "striped beach shell",
+      "names": {
+        "en": "striped beach shell",
+        "fr": "coquillage rayé de plage",
+        "it": "conchiglia da spiaggia a strisce",
+        "pt": "concha listrada da praia",
+        "zh": "条纹海滩贝壳"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 45,
+          "y": 34
+        },
+        {
+          "x": 59,
+          "y": 30
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T0-7",
+      "map": "Marina",
+      "name": "whale bone",
+      "names": {
+        "en": "whale bone",
+        "fr": "os de baleine",
+        "it": "osso di balena",
+        "pt": "osso de baleia",
+        "zh": "鲸鱼骨"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 22,
+          "y": 59
+        },
+        {
+          "x": 22,
+          "y": 79
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "suspended bridge in the waste museum",
+      "usage": [
+        {
+          "description": {
+            "en": "suspended bridge in the waste museum",
+            "fr": "pont suspendu dans le musée des déchets",
+            "it": "ponte sospesa nel museo dei rifiuti",
+            "pt": "ponte suspensa no museu de resíduos",
+            "zh": "废弃物博物馆中的悬索桥"
+          },
+          "type": "building_material"
+        }
+      ]
+    },
+    {
+      "bio": true,
+      "id": "T0-8",
+      "map": "Marina",
+      "name": "sea grass",
+      "names": {
+        "en": "sea grass",
+        "fr": "herbe marine",
+        "it": "erba Marina",
+        "pt": "erva marinha",
+        "zh": "海草"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 34,
+          "y": 53
+        },
+        {
+          "x": 37,
+          "y": 69
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "Decoration in the central part of the aquarium",
+      "usage": [
+        {
+          "description": {
+            "en": "Decoration in the central part of the aquarium",
+            "fr": "Décoration dans la partie centrale de l'aquarium",
+            "it": "Decorazione nella parte centrale dell'acquario",
+            "pt": "Decoração na parte central do aquário",
+            "zh": " aquarium的中心部分装饰"
+          },
+          "type": "building_material"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T0-9",
+      "map": "Marina",
+      "name": "grey rock",
+      "names": {
+        "en": "grey rock",
+        "fr": "roche grise",
+        "it": "roccia grigia",
+        "pt": "rocha cinza",
+        "zh": "灰色岩石"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 35,
+          "y": 53
+        },
+        {
+          "x": 37,
+          "y": 68
+        },
+        {
+          "x": 64,
+          "y": 58
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T0-10",
+      "map": "Marina",
+      "name": "steering wheel",
+      "names": {
+        "en": "steering wheel",
+        "fr": "barre de gouvernail",
+        "it": "timone",
+        "pt": "leme",
+        "zh": "船舵"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 35,
+          "y": 53
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T0-11",
+      "map": "Marina",
+      "name": "mysterious key",
+      "names": {
+        "en": "mysterious key",
+        "fr": "clé mystérieuse",
+        "it": "chiave misteriosa",
+        "pt": "chave misteriosa",
+        "zh": "神秘钥匙"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 14,
+          "y": 19
+        },
+        {
+          "x": 46,
+          "y": 68
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T0-12",
+      "map": "Marina",
+      "name": "wooden chest",
+      "names": {
+        "en": "wooden chest",
+        "fr": "coffre en bois",
+        "it": "scrigno di legno",
+        "pt": "baú de madeira",
+        "zh": "木箱"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 46,
+          "y": 71
+        },
+        {
+          "x": 13,
+          "y": 16
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T0-13",
+      "map": "Marina",
+      "name": "tourist brochure (paradise)",
+      "names": {
+        "en": "tourist brochure (paradise)",
+        "fr": "brochure touristique (paradis)",
+        "it": "opuscolo turistico (paradiso)",
+        "pt": "folheto turístico (paraíso)",
+        "zh": "旅游手册（天堂）"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 59,
+          "y": 30
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T0-14",
+      "map": "Marina",
+      "name": "tourist brochure (great lakes)",
+      "names": {
+        "en": "tourist brochure (great lakes)",
+        "fr": "brochure touristique (grands lacs)",
+        "it": "opuscolo turistico (grandi laghi)",
+        "pt": "folheto turístico (grandes lagos)",
+        "zh": "旅游手册（大湖区）"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 65,
+          "y": 51
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T0-15",
+      "map": "Marina",
+      "name": "tourist brochure (costa rica)",
+      "names": {
+        "en": "tourist brochure (costa rica)",
+        "fr": "brochure touristique (Costa Rica)",
+        "it": "opuscolo turistico (Costa Rica)",
+        "pt": "folheto turístico (Costa Rica)",
+        "zh": "旅游手册（哥斯达黎加）"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 59,
+          "y": 68
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T0-16",
+      "map": "Marina",
+      "name": "tourist brochure (alaska)",
+      "names": {
+        "en": "tourist brochure (alaska)",
+        "fr": "brochure touristique (Alaska)",
+        "it": "opuscolo turistico (Alaska)",
+        "pt": "folheto turístico (Alasca)",
+        "zh": "旅游手册（阿拉斯加）"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 45,
+          "y": 34
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T0-17",
+      "map": "Marina",
+      "name": "tourist brochure (australia)",
+      "names": {
+        "en": "tourist brochure (australia)",
+        "fr": "brochure touristique (Australie)",
+        "it": "opuscolo turistico (Australia)",
+        "pt": "folheto turístico (Austrália)",
+        "zh": "旅游手册（澳大利亚）"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 34,
+          "y": 55
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T0-18",
+      "map": "Marina",
+      "name": "tourist brochure (scotland)",
+      "names": {
+        "en": "tourist brochure (scotland)",
+        "fr": "brochure touristique (Écosse)",
+        "it": "opuscolo turistico (Scozia)",
+        "pt": "folheto turístico (Escócia)",
+        "zh": "旅游手册（苏格兰）"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 36,
+          "y": 67
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T0-19",
+      "map": "Marina",
+      "name": "tourist brochure (thailand)",
+      "names": {
+        "en": "tourist brochure (thailand)",
+        "fr": "brochure touristique (Thaïlande)",
+        "it": "opuscolo turistico (Thailandia)",
+        "pt": "folheto turístico (Tailândia)",
+        "zh": "旅游手册（泰国）"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 50,
+          "y": 77
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T0-20",
+      "map": "Marina",
+      "name": "tourist brochure (amazon)",
+      "names": {
+        "en": "tourist brochure (amazon)",
+        "fr": "brochure touristique (Amazonie)",
+        "it": "opuscolo turistico (Amazzonia)",
+        "pt": "folheto turístico (Amazônia)",
+        "zh": "旅游手册（亚马逊）"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 19,
+          "y": 71
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T0-21",
+      "map": "Marina",
+      "name": "fridge magnet",
+      "names": {
+        "en": "fridge magnet",
+        "fr": "aimant de réfrigérateur",
+        "it": "calamita da frigorifero",
+        "pt": "ímã de geladeira",
+        "zh": "冰箱磁铁"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 60,
+          "y": 32
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    }
+  ],
+  "slug": "marina",
+  "title": "Marina map"
+}

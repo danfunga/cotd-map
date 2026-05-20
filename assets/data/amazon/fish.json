@@ -1,0 +1,450 @@
+[
+  {
+    "id": "704",
+    "name": "amazon pellona",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 30,
+        "y": 18
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "759",
+    "name": "tucunaré",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 74,
+        "y": 65
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "760",
+    "name": "curimbata",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 51,
+        "y": 60
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "709",
+    "name": "corvina",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 53,
+        "y": 55
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "713",
+    "name": "jatuarana",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 35,
+        "y": 38
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "758",
+    "name": "redtail catfish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 89,
+        "y": 62
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "725",
+    "name": "tiger sorubim",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 89,
+        "y": 62
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "703",
+    "name": "redhook myleus",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 41,
+        "y": 13
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "724",
+    "name": "peacock bass",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 74,
+        "y": 59
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "721",
+    "name": "lambari",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 15,
+        "y": 53
+      },
+      {
+        "x": 27,
+        "y": 41
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "710",
+    "name": "zungaro",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 65,
+        "y": 81
+      },
+      {
+        "x": 88,
+        "y": 56
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "714",
+    "name": "pacu",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 55,
+        "y": 43
+      },
+      {
+        "x": 39,
+        "y": 36
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "706",
+    "name": "giant trahira",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 45,
+        "y": 58
+      },
+      {
+        "x": 85,
+        "y": 47
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "702",
+    "name": "redeye piranha",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 88,
+        "y": 79
+      },
+      {
+        "x": 49,
+        "y": 81
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "705",
+    "name": "red piranha",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 55,
+        "y": 13
+      },
+      {
+        "x": 36,
+        "y": 14
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "723",
+    "name": "speckled pavon",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 23,
+        "y": 21
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "711",
+    "name": "freshwater barracuda",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 54,
+        "y": 28
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "715",
+    "name": "bicuda",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 15,
+        "y": 55
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "761",
+    "name": "arowana",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 66,
+        "y": 11
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "712",
+    "name": "amazon puffer",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 30,
+        "y": 22
+      },
+      {
+        "x": 15,
+        "y": 72
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "701",
+    "name": "pirapitinga",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 50,
+        "y": 80
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "717",
+    "name": "electric eel",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 45,
+        "y": 32
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "757",
+    "name": "flatwhiskered catfish",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 89,
+        "y": 62
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "720",
+    "name": "lau lau",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 53,
+        "y": 60
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "716",
+    "name": "rock-bacu",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 17,
+        "y": 49
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "722",
+    "name": "cachama",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 39,
+        "y": 13
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "718",
+    "name": "arapaima",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 45,
+        "y": 21
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "719",
+    "name": "payara",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 36,
+        "y": 65
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

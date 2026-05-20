@@ -1,0 +1,81 @@
+[
+  {
+    "id": "c0-1",
+    "name": "peacock mantis shrimp",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 66,
+        "y": 14
+      },
+      {
+        "x": 63,
+        "y": 70
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c0-2",
+    "name": "flower tube sea anemona",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 64,
+        "y": 67
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c0-3",
+    "name": "red starfish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 46,
+        "y": 42
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c0-4",
+    "name": "sand striker",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 44,
+        "y": 84
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c0-5",
+    "name": "mimic octopus",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 16,
+        "y": 84
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

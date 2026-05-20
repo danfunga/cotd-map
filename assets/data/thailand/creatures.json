@@ -1,0 +1,160 @@
+[
+  {
+    "id": "c6-0",
+    "name": "rainbow water snake",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 33,
+        "y": 91
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c6-1",
+    "name": "green paddy frog",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 19,
+        "y": 16
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c6-2",
+    "name": "thai giant frog",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 19,
+        "y": 16
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c6-3",
+    "name": "chinese water dragon",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 39,
+        "y": 28
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c6-4",
+    "name": "water scorpion",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 62,
+        "y": 82
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c6-8",
+    "name": "thai devil crab",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 27,
+        "y": 48
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c6-9",
+    "name": "pomacea",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 19,
+        "y": 16
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c6-5",
+    "name": "giant asian pond turtle",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 62,
+        "y": 81
+      },
+      {
+        "x": 89,
+        "y": 72
+      },
+      {
+        "x": 72,
+        "y": 43
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c6-6",
+    "name": "asian small-clawed otter",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 12,
+        "y": 73
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c6-7",
+    "name": "irrawady dolphin",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 70,
+        "y": 43
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

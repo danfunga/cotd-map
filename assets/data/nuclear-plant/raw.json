@@ -1,0 +1,2544 @@
+{
+  "creatures": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "cb9",
+      "kgs": {
+        "max": 1.5,
+        "min": 0.5
+      },
+      "latin": "Vipera filamenta",
+      "lbs": {
+        "max": 3.31,
+        "min": 1.1
+      },
+      "map": "NuclearPlant",
+      "name": "Wireviper",
+      "names": {
+        "en": "Wireviper",
+        "fr": "Vipèrefil",
+        "it": "ViperaFilo",
+        "pt": "VíboraFio",
+        "zh": "电线蝰蛇"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 51,
+          "y": 60
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "cb1",
+      "kgs": {
+        "max": 2.8,
+        "min": 1
+      },
+      "latin": "Extensocochlea volubilis",
+      "lbs": {
+        "max": 6.17,
+        "min": 2.2
+      },
+      "map": "NuclearPlant",
+      "name": "Rollslug",
+      "names": {
+        "en": "Rollslug",
+        "fr": "Limacerouleau",
+        "it": "Lumacarullo",
+        "pt": "Lesmarolo",
+        "zh": "卷蛞蝓"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 76,
+          "y": 10
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "cb3",
+      "kgs": {
+        "max": 2.8,
+        "min": 1
+      },
+      "latin": "Cochlephona capillaris",
+      "lbs": {
+        "max": 6.17,
+        "min": 2.2
+      },
+      "map": "NuclearPlant",
+      "name": "Blowslug",
+      "names": {
+        "en": "Blowslug",
+        "fr": "Limacesouffle",
+        "it": "Soffialumaca",
+        "pt": "Lesmasopro",
+        "zh": "吹气蛞蝓"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 48,
+          "y": 88
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "cb4",
+      "kgs": {
+        "max": 5,
+        "min": 2
+      },
+      "latin": "Testudo galeata",
+      "lbs": {
+        "max": 11.02,
+        "min": 4.41
+      },
+      "map": "NuclearPlant",
+      "name": "Ironhelm Turtle",
+      "names": {
+        "en": "Ironhelm Turtle",
+        "fr": "TortueCasque-de-fer",
+        "it": "TartarugaElmoferro",
+        "pt": "TartarugaCapaceteFerro",
+        "zh": "铁盔龟"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 45,
+          "y": 13
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "cb6",
+      "kgs": {
+        "max": 2.8,
+        "min": 1
+      },
+      "latin": "Medusina phosphorata",
+      "lbs": {
+        "max": 6.17,
+        "min": 2.2
+      },
+      "map": "NuclearPlant",
+      "name": "Luminajelly",
+      "names": {
+        "en": "Luminajelly",
+        "fr": "Méduselumineuse",
+        "it": "Medusaluce",
+        "pt": "Medusaluz",
+        "zh": "光水母"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 84,
+          "y": 70
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "cb7",
+      "kgs": {
+        "max": 2.8,
+        "min": 1
+      },
+      "latin": "Serpens linearis",
+      "lbs": {
+        "max": 6.17,
+        "min": 2.2
+      },
+      "map": "NuclearPlant",
+      "name": "Stripeserpent",
+      "names": {
+        "en": "Stripeserpent",
+        "fr": "SerpentRayé",
+        "it": "SerpenteStriato",
+        "pt": "SerpenteListrada",
+        "zh": "条纹蛇"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 17,
+          "y": 81
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "cb8",
+      "kgs": {
+        "max": 2.8,
+        "min": 1
+      },
+      "latin": "Cancer telephonicus",
+      "lbs": {
+        "max": 6.17,
+        "min": 2.2
+      },
+      "map": "NuclearPlant",
+      "name": "Crabphone",
+      "names": {
+        "en": "Crabphone",
+        "fr": "Crabétéléphone",
+        "it": "GranchioTelefono",
+        "pt": "CaranguejoTelefone",
+        "zh": "螃蟹电话"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 12,
+          "y": 35
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "cb5",
+      "kgs": {
+        "max": 30,
+        "min": 11.8
+      },
+      "latin": "Balaenorobustus viridis",
+      "lbs": {
+        "max": 66.14,
+        "min": 26.46
+      },
+      "map": "NuclearPlant",
+      "name": "Hulkwhale",
+      "names": {
+        "en": "Hulkwhale",
+        "fr": "BaleineHulk",
+        "it": "BalenaHulk",
+        "pt": "BaleiaHulk",
+        "zh": "浩克鲸"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 40,
+          "y": 61
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "cb2",
+      "kgs": {
+        "max": 21,
+        "min": 8
+      },
+      "latin": "Octopluginus gigantarus",
+      "lbs": {
+        "max": 46.31,
+        "min": 17.64
+      },
+      "map": "NuclearPlant",
+      "name": "Megaplugtopus",
+      "names": {
+        "en": "Megaplugtopus",
+        "fr": "Mégaplugtopus",
+        "it": "Megaplugtopo",
+        "pt": "Megaplugtopus",
+        "zh": "巨插头章鱼"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 74,
+          "y": 33
+        },
+        {
+          "x": 79,
+          "y": 14
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "dataSource": "cloversalad2/src/assets/{fish,creatures,items}/NuclearPlant.js",
+  "description": "Interactive Nuclear Plant map for Creatures of the Deep — fish, creatures, items, and the map monster.",
+  "fish": [
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b01",
+      "kgs": {
+        "max": 2,
+        "min": 0.2
+      },
+      "latin": "Pomifex pisciculus",
+      "lbs": {
+        "max": 4.41,
+        "min": 0.44
+      },
+      "map": "NuclearPlant",
+      "name": "AppleGill",
+      "names": {
+        "en": "AppleGill",
+        "fr": "Branchie-Pomme",
+        "it": "Branchiamela",
+        "pt": "Brânquia-Maçã",
+        "zh": "苹果鳃"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 19,
+          "y": 13
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b02",
+      "kgs": {
+        "max": 4,
+        "min": 1
+      },
+      "latin": "Chiropteroanguilla nocturna",
+      "lbs": {
+        "max": 8.82,
+        "min": 2.2
+      },
+      "map": "NuclearPlant",
+      "name": "Bat-eel",
+      "names": {
+        "en": "Bat-eel",
+        "fr": "Anguille-Chauve-souris",
+        "it": "Anguilla-Pipistrello",
+        "pt": "Enguia-Morcego",
+        "zh": "蝙蝠鳗"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 28,
+          "y": 29
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b03",
+      "kgs": {
+        "max": 3,
+        "min": 1
+      },
+      "latin": "Amphorichthys vitreius",
+      "lbs": {
+        "max": 6.61,
+        "min": 2.2
+      },
+      "map": "NuclearPlant",
+      "name": "Bottlefin",
+      "names": {
+        "en": "Bottlefin",
+        "fr": "Nageoire-Bouteille",
+        "it": "Pinna-Bottiglia",
+        "pt": "Barbatana-Garrafa",
+        "zh": "瓶鳍"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 53,
+          "y": 60
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b04",
+      "kgs": {
+        "max": 4,
+        "min": 2
+      },
+      "latin": "Panisbutyra piscis domesticus",
+      "lbs": {
+        "max": 8.82,
+        "min": 4.41
+      },
+      "map": "NuclearPlant",
+      "name": "Bread’n’Butterjaw",
+      "names": {
+        "en": "Bread’n’Butterjaw",
+        "fr": "Mâchoire Pain-beurre",
+        "it": "Mascella Pane-e-Burro",
+        "pt": "Mandíbula Pão-com-Manteiga",
+        "zh": "面包黄油颚"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 54,
+          "y": 89
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b05",
+      "kgs": {
+        "max": 2,
+        "min": 0.1
+      },
+      "latin": "Bulbus aquatilis",
+      "lbs": {
+        "max": 4.41,
+        "min": 0.22
+      },
+      "map": "NuclearPlant",
+      "name": "Bulpgill",
+      "names": {
+        "en": "Bulpgill",
+        "fr": "Branchie-Ampoule",
+        "it": "Branchia-Lampadina",
+        "pt": "Brânquia-Lâmpada",
+        "zh": "灯泡鳃"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 23,
+          "y": 75
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b06",
+      "kgs": {
+        "max": 5,
+        "min": 1.5
+      },
+      "latin": "Daucicarpa piscinus",
+      "lbs": {
+        "max": 11.02,
+        "min": 3.3
+      },
+      "map": "NuclearPlant",
+      "name": "Carrotfin",
+      "names": {
+        "en": "Carrotfin",
+        "fr": "Nageoire-Carotte",
+        "it": "Pinno-Carota",
+        "pt": "Barbatana-Cenoura",
+        "zh": "胡萝卜鳍"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 56,
+          "y": 48
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b07",
+      "kgs": {
+        "max": 7,
+        "min": 2
+      },
+      "latin": "Duplicatrotus absurdus",
+      "lbs": {
+        "max": 15.34,
+        "min": 4.41
+      },
+      "map": "NuclearPlant",
+      "name": "Double Troutot",
+      "names": {
+        "en": "Double Troutot",
+        "fr": "Double Truitot",
+        "it": "Doppia Trototta",
+        "pt": "Duplo Trutot",
+        "zh": "双鳟特"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 74,
+          "y": 42
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b09",
+      "kgs": {
+        "max": 6,
+        "min": 1
+      },
+      "latin": "Tridentinasus forcipatus",
+      "lbs": {
+        "max": 13.22,
+        "min": 2.2
+      },
+      "map": "NuclearPlant",
+      "name": "Forknose",
+      "names": {
+        "en": "Forknose",
+        "fr": "Nez-Fourchette",
+        "it": "Naso-Forchetta",
+        "pt": "Nariz-Garfo",
+        "zh": "叉鼻"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 72,
+          "y": 61
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "b10",
+      "kgs": {
+        "max": 17,
+        "min": 8
+      },
+      "latin": "Radiometrus piscis",
+      "lbs": {
+        "max": 37.48,
+        "min": 17.64
+      },
+      "map": "NuclearPlant",
+      "name": "Geigerfin",
+      "names": {
+        "en": "Geigerfin",
+        "fr": "Nageoire-Geiger",
+        "it": "Pinna-Geiger",
+        "pt": "Barbatana-Geiger",
+        "zh": "盖革鳍"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 45,
+          "y": 40
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b12",
+      "kgs": {
+        "max": 10,
+        "min": 5
+      },
+      "latin": "Xenoradiatus sectilis",
+      "lbs": {
+        "max": 22.04,
+        "min": 11.02
+      },
+      "map": "NuclearPlant",
+      "name": "Irradiated Cutfin",
+      "names": {
+        "en": "Irradiated Cutfin",
+        "fr": "Nageoire-Tranchée Irradiée",
+        "it": "Pinna-Taglio Irradiata",
+        "pt": "Barbatana-Corte Irradiada",
+        "zh": "辐照切鳍"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 89,
+          "y": 87
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b13",
+      "kgs": {
+        "max": 3,
+        "min": 1
+      },
+      "latin": "Cultercauda acuta",
+      "lbs": {
+        "max": 6.61,
+        "min": 2.2
+      },
+      "map": "NuclearPlant",
+      "name": "Knifetail",
+      "names": {
+        "en": "Knifetail",
+        "fr": "Queue-Couteau",
+        "it": "Coda-Coltello",
+        "pt": "Cauda-Faca",
+        "zh": "刀尾"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 56,
+          "y": 47
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b15",
+      "kgs": {
+        "max": 4,
+        "min": 0.5
+      },
+      "latin": "Cepa marina lacrimosa",
+      "lbs": {
+        "max": 8.82,
+        "min": 1.1
+      },
+      "map": "NuclearPlant",
+      "name": "Oniongill",
+      "names": {
+        "en": "Oniongill",
+        "fr": "Branchie-Oignon",
+        "it": "Branchia-Cipolla",
+        "pt": "Brânquia-Cebola",
+        "zh": "洋葱鳃"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 14,
+          "y": 17
+        },
+        {
+          "x": 26,
+          "y": 52
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b16",
+      "kgs": {
+        "max": 6,
+        "min": 2
+      },
+      "latin": "Tuberosus aquatiliformis",
+      "lbs": {
+        "max": 13.63,
+        "min": 4.41
+      },
+      "map": "NuclearPlant",
+      "name": "Potatofin",
+      "names": {
+        "en": "Potatofin",
+        "fr": "Nageoire-Pomme de terre",
+        "it": "Pinna-Patata",
+        "pt": "Barbatana-Batata",
+        "zh": "土豆鳍"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 44,
+          "y": 16
+        },
+        {
+          "x": 16,
+          "y": 18
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b17",
+      "kgs": {
+        "max": 9,
+        "min": 2
+      },
+      "latin": "Roccus regnans rollifer",
+      "lbs": {
+        "max": 19.84,
+        "min": 4.41
+      },
+      "map": "NuclearPlant",
+      "name": "Rock'n'RollKingjaw",
+      "names": {
+        "en": "Rock'n'RollKingjaw",
+        "fr": "Roi-Mâchoire Rock'n'Roll",
+        "it": "Re-Mascella Rock'n'Roll",
+        "pt": "Mandíbula-Rei Rock'n'Roll",
+        "zh": "摇滚国王颚"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 85,
+          "y": 18
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b18",
+      "kgs": {
+        "max": 5,
+        "min": 1
+      },
+      "latin": "Tapetobolus piscis domesticus",
+      "lbs": {
+        "max": 11.02,
+        "min": 2.2
+      },
+      "map": "NuclearPlant",
+      "name": "Rug-ball-swimmer",
+      "names": {
+        "en": "Rug-ball-swimmer",
+        "fr": "Nageur-Balle-Tapis",
+        "it": "Nuotatore-Palla-Tappeto",
+        "pt": "Nadador-Bola-Tapete",
+        "zh": "地毯球游泳者"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 59,
+          "y": 15
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b19",
+      "kgs": {
+        "max": 7,
+        "min": 2
+      },
+      "latin": "Embuticthys longiformis",
+      "lbs": {
+        "max": 15.43,
+        "min": 4.41
+      },
+      "map": "NuclearPlant",
+      "name": "Sausagetail",
+      "names": {
+        "en": "Sausagetail",
+        "fr": "Queue-Saucisse",
+        "it": "Coda-Salsiccia",
+        "pt": "Cauda-Linguiça",
+        "zh": "香肠尾"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 32,
+          "y": 45
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "b20",
+      "kgs": {
+        "max": 3,
+        "min": 0.5
+      },
+      "latin": "Triangulichthys absurdiformis",
+      "lbs": {
+        "max": 6.61,
+        "min": 1.1
+      },
+      "map": "NuclearPlant",
+      "name": "Triangle gill",
+      "names": {
+        "en": "Triangle gill",
+        "fr": "Branchie-Triangle",
+        "it": "Branchia-Triangolo",
+        "pt": "Brânquia-Triângulo",
+        "zh": "三角鳃"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 11,
+          "y": 48
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "b08",
+      "kgs": {
+        "max": 12,
+        "min": 5
+      },
+      "latin": "Pedosalmo ungulatus",
+      "lbs": {
+        "max": 26.46,
+        "min": 11.02
+      },
+      "map": "NuclearPlant",
+      "name": "Footsalmon",
+      "names": {
+        "en": "Footsalmon",
+        "fr": "Saumon-Pied",
+        "it": "Salmone-Piede",
+        "pt": "Salmão-Pé",
+        "zh": "足鲑"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 66,
+          "y": 76
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "b14",
+      "kgs": {
+        "max": 20,
+        "min": 3
+      },
+      "latin": "Magnetopterus ferratus",
+      "lbs": {
+        "max": 44.09,
+        "min": 6.61
+      },
+      "map": "NuclearPlant",
+      "name": "Magnetfin",
+      "names": {
+        "en": "Magnetfin",
+        "fr": "Nageoire-Magnétique",
+        "it": "Pinna-Magnete",
+        "pt": "Barbatana-Ímã",
+        "zh": "磁铁鳍"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 45,
+          "y": 80
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "b21",
+      "kgs": {
+        "max": 90,
+        "min": 15
+      },
+      "latin": "Submarinus flavomorpha",
+      "lbs": {
+        "max": 198.42,
+        "min": 33.07
+      },
+      "map": "NuclearPlant",
+      "name": "Yellow Submarine Cod",
+      "names": {
+        "en": "Yellow Submarine Cod",
+        "fr": "Morue Sous-Marin Jaune",
+        "it": "Merluzzo Sottomarino Giallo",
+        "pt": "Bacalhau Submarino Amarelo",
+        "zh": "黄色潜水艇鳕"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 87,
+          "y": 42
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "b22",
+      "kgs": {
+        "max": 15,
+        "min": 5
+      },
+      "latin": "Devil mutanoid",
+      "lbs": {
+        "max": 33.07,
+        "min": 11.02
+      },
+      "map": "NuclearPlant",
+      "name": "Devil mutanoid",
+      "names": {
+        "en": "Devil mutanoid",
+        "fr": "Devil mutanoid",
+        "it": "Merluzzo Sottomarino Giallo",
+        "pt": "Devil mutanoid",
+        "zh": "Devil mutanoid"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 21,
+          "y": 64
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "b11",
+      "kgs": {
+        "max": 300,
+        "min": 100
+      },
+      "latin": "Omnibassus gigantarus",
+      "lbs": {
+        "max": 661.39,
+        "min": 220.46
+      },
+      "map": "NuclearPlant",
+      "name": "Giant Bus Bass",
+      "names": {
+        "en": "Giant Bus Bass",
+        "fr": "Grosbus-Basse",
+        "it": "Corriera-Basso Gigante",
+        "pt": "Baixo-Ônibus Gigante",
+        "zh": "巨型巴士鲈"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 64,
+          "y": 26
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "intro": "Nuclear Plant - work in progress...",
+  "mapImage": "/images/maps/nuclear-plant.jpg",
+  "mapType": "VIP",
+  "monster": false,
+  "name": "Nuclear Plant",
+  "objects": [
+    {
+      "bio": false,
+      "id": "tb1",
+      "map": "NuclearPlant",
+      "name": "Bowling Ball",
+      "names": {
+        "en": "Bowling Ball",
+        "fr": "Boule de bowling",
+        "it": "Palla da bowling",
+        "pt": "Bola de boliche",
+        "zh": "保龄球"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 52,
+          "y": 10
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb2",
+      "map": "NuclearPlant",
+      "name": "Bowling Pin",
+      "names": {
+        "en": "Bowling Pin",
+        "fr": "Quille de bowling",
+        "it": "Birillo da bowling",
+        "pt": "Pino de boliche",
+        "zh": "保龄球瓶"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 12,
+          "y": 48
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb3",
+      "map": "NuclearPlant",
+      "name": "Bowling Shoe",
+      "names": {
+        "en": "Bowling Shoe",
+        "fr": "Chaussure de bowling",
+        "it": "Scarpa da bowling",
+        "pt": "Sapato de boliche",
+        "zh": "保龄球鞋"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 37,
+          "y": 71
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb4",
+      "map": "NuclearPlant",
+      "name": "Dead Battery",
+      "names": {
+        "en": "Dead Battery",
+        "fr": "Batterie déchargée",
+        "it": "Batteria scarica",
+        "pt": "Pilha descarregada",
+        "zh": "废电池"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 49,
+          "y": 59
+        },
+        {
+          "x": 14,
+          "y": 61
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb5",
+      "map": "NuclearPlant",
+      "name": "“Cat Eye” Glasses",
+      "names": {
+        "en": "“Cat Eye” Glasses",
+        "fr": "Lunettes « Yeux de chat »",
+        "it": "Occhiali “Occhi di Gatto”",
+        "pt": "Óculos “Olhos de Gato”",
+        "zh": "“猫眼”眼镜"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 69,
+          "y": 28
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb6",
+      "map": "NuclearPlant",
+      "name": "Can of Dog Food",
+      "names": {
+        "en": "Can of Dog Food",
+        "fr": "Boîte de nourriture pour chien",
+        "it": "Scatoletta di cibo per cani",
+        "pt": "Lata de comida para cachorro",
+        "zh": "狗粮罐头"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 86,
+          "y": 77
+        },
+        {
+          "x": 16,
+          "y": 20
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb7",
+      "map": "NuclearPlant",
+      "name": "Grandma’s Compote",
+      "names": {
+        "en": "Grandma’s Compote",
+        "fr": "Compote de grand-mère",
+        "it": "Composta della nonna",
+        "pt": "Compota da vovó",
+        "zh": "奶奶的蜜饯"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 83,
+          "y": 21
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb8",
+      "map": "NuclearPlant",
+      "name": "Hamburger",
+      "names": {
+        "en": "Hamburger",
+        "fr": "Hamburger",
+        "it": "Hamburger",
+        "pt": "Hambúrguer",
+        "zh": "汉堡"
+      },
+      "positions": [
+        {
+          "x": 25,
+          "y": 51
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb9",
+      "map": "NuclearPlant",
+      "name": "Book “Understanding ATOM”",
+      "names": {
+        "en": "Book “Understanding ATOM”",
+        "fr": "Livre « Maîtriser l’ATOM »",
+        "it": "Libro “Capire l’ATOMO”",
+        "pt": "Livro “Entendendo o ÁTOMO”",
+        "zh": "书《学会原子》"
+      },
+      "positions": [
+        {
+          "x": 52,
+          "y": 35
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb10",
+      "map": "NuclearPlant",
+      "name": "Unique Scientific Catcher",
+      "names": {
+        "en": "Unique Scientific Catcher",
+        "fr": "Capteur scientifique unique",
+        "it": "Catturatore scientifico unico",
+        "pt": "Capturador científico único",
+        "zh": "独特科学捕捉器"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 60,
+          "y": 41
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb11",
+      "map": "NuclearPlant",
+      "name": "Laboratory Fridge",
+      "names": {
+        "en": "Laboratory Fridge",
+        "fr": "Réfrigérateur de laboratoire",
+        "it": "Frigo da laboratorio",
+        "pt": "Geladeira de laboratório",
+        "zh": "实验室冰箱"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 38,
+          "y": 38
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb12",
+      "map": "NuclearPlant",
+      "name": "VHS Tape “Mudmax”",
+      "names": {
+        "en": "VHS Tape “Mudmax”",
+        "fr": "Cassette VHS « Mudmax »",
+        "it": "VHS “Mudmax”",
+        "pt": "Fita VHS “Mudmax”",
+        "zh": "录像带《泥地狂飙》"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 58,
+          "y": 64
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb13",
+      "map": "NuclearPlant",
+      "name": "Floppy Disk “POND”",
+      "names": {
+        "en": "Floppy Disk “POND”",
+        "fr": "Disquette « POND »",
+        "it": "Dischetto “POND”",
+        "pt": "Disquete “POND”",
+        "zh": "软盘“POND”"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 45,
+          "y": 17
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb14",
+      "map": "NuclearPlant",
+      "name": "Punch Card",
+      "names": {
+        "en": "Punch Card",
+        "fr": "Carte perforée",
+        "it": "Scheda perforata",
+        "pt": "Cartão perfurado",
+        "zh": "穿孔卡"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 49,
+          "y": 59
+        },
+        {
+          "x": 82,
+          "y": 35
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb25",
+      "map": "NuclearPlant",
+      "name": "Thermal heating device",
+      "names": {
+        "en": "Thermal heating device",
+        "fr": "Appareil de chauffage thermique",
+        "it": "Dispositivo di riscaldamento termico",
+        "pt": "Dispositivo de aquecimento térmico",
+        "zh": "热加热设备"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 16,
+          "y": 81
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb15",
+      "map": "NuclearPlant",
+      "name": "Bottle of Rocket Cola",
+      "names": {
+        "en": "Bottle of Rocket Cola",
+        "fr": "Bouteille de Rocket Cola",
+        "it": "Bottiglia di Rocket Cola",
+        "pt": "Garrafa de Rocket Cola",
+        "zh": "火箭可乐瓶"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 26,
+          "y": 32
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb16",
+      "map": "NuclearPlant",
+      "name": "Candy Dispenser",
+      "names": {
+        "en": "Candy Dispenser",
+        "fr": "Distributeur de bonbons",
+        "it": "Distributore di caramelle",
+        "pt": "Distribuidor de doces",
+        "zh": "糖果分发器"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 30,
+          "y": 84
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb17",
+      "map": "NuclearPlant",
+      "name": "Control Chip",
+      "names": {
+        "en": "Control Chip",
+        "fr": "Puce de contrôle",
+        "it": "Chip di controllo",
+        "pt": "Chip de controle",
+        "zh": "控制芯片"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 56,
+          "y": 89
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb18",
+      "map": "NuclearPlant",
+      "name": "Lunchbox",
+      "names": {
+        "en": "Lunchbox",
+        "fr": "Boîte à déjeuner",
+        "it": "Portapranzo",
+        "pt": "Marmita",
+        "zh": "午餐盒"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 22,
+          "y": 78
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb19",
+      "map": "NuclearPlant",
+      "name": "Lunchbox Key",
+      "names": {
+        "en": "Lunchbox Key",
+        "fr": "Clé de la boîte à déjeuner",
+        "it": "Chiave del portapranzo",
+        "pt": "Chave da marmita",
+        "zh": "午餐盒钥匙"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 44,
+          "y": 46
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb20",
+      "map": "NuclearPlant",
+      "name": "Retro TV",
+      "names": {
+        "en": "Retro TV",
+        "fr": "Télé rétro",
+        "it": "TV retrò",
+        "pt": "TV retrô",
+        "zh": "复古电视"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 80,
+          "y": 81
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb21",
+      "map": "NuclearPlant",
+      "name": "Uranium Container",
+      "names": {
+        "en": "Uranium Container",
+        "fr": "Contenant d’uranium",
+        "it": "Contenitore per uranio",
+        "pt": "Recipiente de urânio",
+        "zh": "铀容器"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 43,
+          "y": 61
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb22",
+      "map": "NuclearPlant",
+      "name": "Uranophane",
+      "names": {
+        "en": "Uranophane",
+        "fr": "Uranophane",
+        "it": "Uranofano",
+        "pt": "Uranofano",
+        "zh": "铀矿石（铀钒矿）"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 49,
+          "y": 59
+        },
+        {
+          "x": 73,
+          "y": 85
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb23",
+      "map": "NuclearPlant",
+      "name": "Vacuum Cleaner",
+      "names": {
+        "en": "Vacuum Cleaner",
+        "fr": "Aspirateur",
+        "it": "Aspirapolvere",
+        "pt": "Aspirador de pó",
+        "zh": "吸尘器"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 31,
+          "y": 25
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tb24",
+      "map": "NuclearPlant",
+      "name": "Retro Washing Machine",
+      "names": {
+        "en": "Retro Washing Machine",
+        "fr": "Machine à laver rétro",
+        "it": "Lavatrice retrò",
+        "pt": "Máquina de lavar retrô",
+        "zh": "复古洗衣机"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 81,
+          "y": 14
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    }
+  ],
+  "slug": "nuclear-plant",
+  "title": "Nuclear Plant map"
+}

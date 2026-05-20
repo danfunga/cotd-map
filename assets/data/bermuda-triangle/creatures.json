@@ -1,0 +1,182 @@
+[
+  {
+    "id": "DC-1",
+    "name": "Ammonoidea",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 14,
+        "y": 86
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "DC-2",
+    "name": "Archelon",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 24,
+        "y": 29
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "DC-3",
+    "name": "Cephalaspis",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 67,
+        "y": 53
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "DC-4",
+    "name": "Diplocaulus",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 89,
+        "y": 50
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "DC-5",
+    "name": "Ichthyosaurus",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 69,
+        "y": 69
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "DC-7",
+    "name": "Odobenocetops",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 38,
+        "y": 72
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "DC-8",
+    "name": "Opabinia",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 13,
+        "y": 45
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "DC-9",
+    "name": "Orthoceras",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 37,
+        "y": 42
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "DC-11",
+    "name": "Peytoia",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 13,
+        "y": 45
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "DC-10",
+    "name": "Peloneustes",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 50,
+        "y": 90
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "DC-12",
+    "name": "Plesiosaurus",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 85,
+        "y": 18
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "DC-6",
+    "name": "Kronosaurus",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 58,
+        "y": 19
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

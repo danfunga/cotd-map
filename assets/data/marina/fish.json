@@ -1,0 +1,154 @@
+[
+  {
+    "id": "M01",
+    "name": "anchovy",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 46,
+        "y": 33
+      },
+      {
+        "x": 60,
+        "y": 31
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "M02",
+    "name": "sardine",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 34,
+        "y": 55
+      },
+      {
+        "x": 18,
+        "y": 71
+      },
+      {
+        "x": 67,
+        "y": 53
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "M03",
+    "name": "brisling",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 33,
+        "y": 52
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "M04",
+    "name": "gilt-head bream",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 33,
+        "y": 52
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "M05",
+    "name": "striped red mullet",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 46,
+        "y": 70
+      },
+      {
+        "x": 55,
+        "y": 77
+      },
+      {
+        "x": 48,
+        "y": 34
+      },
+      {
+        "x": 60,
+        "y": 32
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "M06",
+    "name": "mudskipper",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 17,
+        "y": 15
+      },
+      {
+        "x": 67,
+        "y": 51
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "M08",
+    "name": "hardyhead silverside",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 66,
+        "y": 54
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "M07",
+    "name": "blobfish",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 18,
+        "y": 72
+      },
+      {
+        "x": 20,
+        "y": 57
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

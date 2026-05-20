@@ -1,0 +1,3285 @@
+{
+  "creatures": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c2-1",
+      "kgs": {
+        "max": 0.2,
+        "min": 0.1
+      },
+      "latin": "Pelagia noctiluca",
+      "lbs": {
+        "max": 0.44,
+        "min": 0.22
+      },
+      "map": "CostaRica",
+      "name": "pink jellyfish",
+      "names": {
+        "en": "pink jellyfish",
+        "fr": "méduse pélagique",
+        "it": "medusa luminosa",
+        "pt": "àgua-viva brilhante"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 75,
+          "y": 23
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c2-2",
+      "kgs": {
+        "max": 0.35,
+        "min": 0.05
+      },
+      "latin": "Roboastra leonis",
+      "lbs": {
+        "max": 0.77,
+        "min": 0.11
+      },
+      "map": "CostaRica",
+      "name": "nudibranch",
+      "names": {
+        "en": "nudibranch",
+        "fr": "nudibranch",
+        "it": "lumaca di mare",
+        "pt": "nudibranch"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 61,
+          "y": 16
+        },
+        {
+          "x": 16,
+          "y": 86
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c2-3",
+      "kgs": {
+        "max": 46,
+        "min": 10
+      },
+      "latin": "Lepidochelys olivacea",
+      "lbs": {
+        "max": 101.41,
+        "min": 22.05
+      },
+      "map": "CostaRica",
+      "name": "olive ridley sea turtle",
+      "names": {
+        "en": "olive ridley sea turtle",
+        "fr": "tortue olivâtre",
+        "it": "tartaruga bastarda olivacea",
+        "pt": "tartaruga-oliva"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 15,
+          "y": 53
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c2-4",
+      "kgs": {
+        "max": 0.47,
+        "min": 0.1
+      },
+      "latin": "Hydrophis platurus",
+      "lbs": {
+        "max": 1.04,
+        "min": 0.22
+      },
+      "map": "CostaRica",
+      "name": "yellow-bellied sea snake",
+      "names": {
+        "en": "yellow-bellied sea snake",
+        "fr": "serpent marin noir et jaune",
+        "it": "serpente di mare dal ventre giallo",
+        "pt": "cobra-do-mar-pelàgio"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 30,
+          "y": 68
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c2-5",
+      "kgs": {
+        "max": 0.3,
+        "min": 0.1
+      },
+      "latin": "Mithraculus forceps",
+      "lbs": {
+        "max": 0.66,
+        "min": 0.22
+      },
+      "map": "CostaRica",
+      "name": "red-ridged clinging crab",
+      "names": {
+        "en": "red-ridged clinging crab",
+        "fr": "crabe à crête rouge",
+        "it": "granchio striato di rosso",
+        "pt": "caranguejo-ferrugem"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 81,
+          "y": 63
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c2-6",
+      "kgs": {
+        "max": 0.9,
+        "min": 0.1
+      },
+      "latin": "Gecarcinus quadratus",
+      "lbs": {
+        "max": 1.98,
+        "min": 0.22
+      },
+      "map": "CostaRica",
+      "name": "pacific land crab",
+      "names": {
+        "en": "pacific land crab",
+        "fr": "crabe halloween",
+        "it": "granchio di halloween",
+        "pt": "caranguejo-do-halloween"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 26,
+          "y": 85
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "c2-7",
+      "kgs": {
+        "max": 0.8,
+        "min": 0.2
+      },
+      "latin": "Isostichopus fuscus",
+      "lbs": {
+        "max": 1.76,
+        "min": 0.44
+      },
+      "map": "CostaRica",
+      "name": "brown sea cucumber",
+      "names": {
+        "en": "brown sea cucumber",
+        "fr": "holothurie",
+        "it": "cetriolo di mare marrone",
+        "pt": "pepino do mar marrom"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 86,
+          "y": 44
+        },
+        {
+          "x": 54,
+          "y": 86
+        },
+        {
+          "x": 71,
+          "y": 87
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 1,
+      "id": "c2-8",
+      "kgs": {
+        "max": 450,
+        "min": 100
+      },
+      "latin": "Crocodylus acutus",
+      "lbs": {
+        "max": 992.08,
+        "min": 220.46
+      },
+      "map": "CostaRica",
+      "name": "american crocodile",
+      "names": {
+        "en": "american crocodile",
+        "fr": "crocodile américain",
+        "it": "coccodrillo americano",
+        "pt": "crocodilo-americano"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 89,
+          "y": 28
+        },
+        {
+          "x": 89,
+          "y": 45
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "descriptions": [
+        {
+          "content": [
+            {
+              "en": "The blue sea dragon is one of the most difficult achievements in the entire map. This epic creature is located in the south-east corner. Position yourself at the entrance of the east cave, and target all the creature shadows (round shadows). If you have access to this equipment, use the creature rod to increase your chances of capture. Be patient, be precise, target all the shadows. If when a creature shadow bites, a mini-game starts, congratulations, you have found the creature!",
+              "fr": "Le dragon bleu est l'un des accomplissement les plus difficile de toute la carte. Cette créature épique est située dans le coin sud-est. Placez vous à l'entrée de la cavité est, et ciblez toutes les ombres de créatures (ombres rondes). Si vous avez accès à cet équipement, utilisez la canne à créatures pour augmenter vos chances de capture. Soyez patient, soyez précis, visez toutes les ombres. Si lorsqu'une ombre de créature mord, un mini-game se lance, bravo, vous avez trouvé la créature!",
+              "it": "Il drago blu è uno dei più difficili risultati in tutta la mappa. Questa creatura epica è situata nell'angolo sud-est. Posizionati all'ingresso della caverna est, e punta tutte le ombre delle creature (ombre tonde). Se hai accesso a questo equipaggiamento, usa la canna per creature per aumentare le tue possibilità di cattura. Sii paziente, sii preciso, punta tutte le ombre. Se quando un'ombra di creatura morde, un mini-game inizia, bravo, hai trovato la creatura!",
+              "pt": "O dragão azul é um dos mais difíceis de todo o mapa. Esta criatura épica está localizada no canto sudeste. Posicione-se na entrada da caverna leste, e alvo todas as sombras das criaturas (sombras redondas). Se você tem acesso a este equipamento, use a vara de criaturas para aumentar suas chances de captura. Seja paciente, seja preciso, alvo todas as sombras. Se quando uma sombra de criatura morder, um mini-game começar, parabéns, você encontrou a criatura!",
+              "zh": "蓝海龙是地图上最难成就之一。这种史诗生物位于东南角。进入东洞穴入口，瞄准所有生物阴影（圆形阴影）。如果您有此装备，请使用creature rod增加捕获几率。保持耐心，保持精准，瞄准所有阴影。当生物阴影咬人时，一个小游戏开始，恭喜，您找到了生物！"
+            }
+          ],
+          "title": "How to find it"
+        }
+      ],
+      "difficulty": 1,
+      "id": "c2-9",
+      "kgs": {
+        "max": 0.35,
+        "min": 0.05
+      },
+      "latin": "Glaucus atlanticus",
+      "lbs": {
+        "max": 0.77,
+        "min": 0.11
+      },
+      "map": "CostaRica",
+      "name": "blue sea dragon",
+      "names": {
+        "en": "blue sea dragon",
+        "fr": "dragon bleu",
+        "it": "drago blu",
+        "pt": "dragão azul"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 85,
+          "y": 87
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "dataSource": "cloversalad2/src/assets/{fish,creatures,items}/CostaRica.js",
+  "description": "Interactive Costa Rica map for Creatures of the Deep — fish, creatures, items, and the map monster.",
+  "fish": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "content": [
+            {
+              "en": "abundant, easy to catch, relatively good selling price, the barracuda is a fish you should appreciate! It has 4 effective spots on the map, in addition to being rather easy to recognize: average size shadow, relatively fast, aggressive on the cork, that's the barracuda! However, a tip: if you fish during the day, avoid the northernmost spot: you will also find Crevalle Carangs whose shadow is very similar. If you are at night, no restrictions, fish all spots!",
+              "fr": "Abondant, facile à pêcher, relativement bon prix de vente, le barracuda est un poisson que vous devez apprécier! Il dispose de 4 spots efficaces sur la carte, en plus d'être plutôt facile à reconnaitre: ombre de taille moyenne, relativement rapide, aggressif sur le bouchon, c'est le barracuda! Un conseil toutefois: si vous péchez de jour, évitez le spot le plus au nord: on y trouve également des Carangues Crevalle dont l'ombre est très ressemblante. Si vous êtes de nuit, aucune restriction, pêchez tous les spots!",
+              "it": "Abbondante, facile da pescare, prezzo di vendita relativamente buono, il barracuda è un pesce che dovresti apprezzare! Ha 4 posti efficaci sulla mappa, oltre a essere relativamente facile da riconoscere: ombra di dimensioni medie, relativamente veloce, aggressivo sul cappuccio, questo è il barracuda! Tuttavia, un consiglio: se pescate di giorno, evitate il posto più a nord: troverete anche Carangues Crevalle la cui ombra è molto simile. Se siete di notte, nessuna restrizione, pescate tutti i posti!",
+              "pt": "Abundante, fácil de pescar, preço de venda relativamente bom, o barracuda é um peixe que você deve apreciar! Ele tem 4 spots efetivos na mapa, além de ser relativamente fácil de reconhecer: sombra de tamanho médio, relativamente rápido, agressivo no banco, é o barracuda! No entanto, um conselho: se você pesca durante o dia, evite o spot mais ao norte: você também encontrará Carangues Crevalle cuja sombra é muito semelhante. Se você é de noite, nenhuma restrição, pesque todos os spots!",
+              "zh": "丰富，容易捕捉，相对好的销售价格，梭鱼是一只你应该欣赏的鱼！它有4个有效的位置在地图上，除了相对容易识别：中等大小的阴影，相对较快，攻击瓶子，这是梭鱼！然而，一个建议：如果你在白天钓鱼，避免最北边的位置：你也会找到刺鱼crevalle，它们的影子非常相似。如果你是晚上，没有任何限制，捕捞所有位置！"
+            }
+          ],
+          "title": "How to find it"
+        }
+      ],
+      "difficulty": 0,
+      "id": "21",
+      "kgs": {
+        "max": 50,
+        "min": 3
+      },
+      "latin": "Sphyraena barracuda",
+      "lbs": {
+        "max": 110.23,
+        "min": 6.61
+      },
+      "map": "CostaRica",
+      "name": "barracuda",
+      "names": {
+        "en": "barracuda",
+        "fr": "barracuda",
+        "it": "grande barracuda",
+        "pt": "grande barracuda",
+        "zh": "梭鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 25,
+          "y": 60
+        },
+        {
+          "x": 57,
+          "y": 10
+        },
+        {
+          "x": 82,
+          "y": 63
+        },
+        {
+          "x": 65,
+          "y": 67
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": "abundant, easy to catch, relatively good selling price, the barracuda is a fish you should appreciate! It has 4 effective spots on the map, in addition to being rather easy to recognize: average size shadow, relatively fast, aggressive on the cork, that's the barracuda! Howeve…"
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "22",
+      "kgs": {
+        "max": 51,
+        "min": 5
+      },
+      "latin": "Nematistius pectoralis",
+      "lbs": {
+        "max": 112.44,
+        "min": 11.02
+      },
+      "map": "CostaRica",
+      "name": "roosterfish",
+      "names": {
+        "en": "roosterfish",
+        "fr": "poisson coq",
+        "it": "pesce gallo",
+        "pt": "peixe galo",
+        "zh": "公鸡鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 45,
+          "y": 15
+        },
+        {
+          "x": 85,
+          "y": 45
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "23",
+      "kgs": {
+        "max": 40,
+        "min": 5
+      },
+      "latin": "Coryphaena hippurus",
+      "lbs": {
+        "max": 88.18,
+        "min": 11.02
+      },
+      "map": "CostaRica",
+      "name": "dorado",
+      "names": {
+        "en": "dorado",
+        "fr": "dorade coryphène",
+        "it": "corifena",
+        "pt": "dourado-do-mar",
+        "zh": "鬼头刀鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 52,
+          "y": 23
+        },
+        {
+          "x": 49,
+          "y": 76
+        },
+        {
+          "x": 15,
+          "y": 85
+        },
+        {
+          "x": 90,
+          "y": 80
+        },
+        {
+          "x": 87,
+          "y": 64
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "24",
+      "kgs": {
+        "max": 9,
+        "min": 1
+      },
+      "latin": "Trachinotus carolinus",
+      "lbs": {
+        "max": 19.84,
+        "min": 2.2
+      },
+      "map": "CostaRica",
+      "name": "pompano",
+      "names": {
+        "en": "pompano",
+        "fr": "pompaneau sole",
+        "it": "leccia dei caraibi",
+        "pt": "pampo verdadeiro",
+        "zh": "鲳鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 45,
+          "y": 65
+        },
+        {
+          "x": 70,
+          "y": 90
+        },
+        {
+          "x": 55,
+          "y": 34
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1,
+            3
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "25",
+      "kgs": {
+        "max": 250,
+        "min": 5
+      },
+      "latin": "Acanthocybium solandri",
+      "lbs": {
+        "max": 551.16,
+        "min": 11.02
+      },
+      "map": "CostaRica",
+      "name": "wahoo",
+      "names": {
+        "en": "wahoo",
+        "fr": "thazard noir",
+        "it": "acantocibio",
+        "pt": "cavala da india",
+        "zh": "刑棘鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 85,
+          "y": 45
+        },
+        {
+          "x": 85,
+          "y": 15
+        },
+        {
+          "x": 42,
+          "y": 86
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "26",
+      "kgs": {
+        "max": 19,
+        "min": 1
+      },
+      "latin": "Lobotes surinamensis",
+      "lbs": {
+        "max": 41.89,
+        "min": 2.2
+      },
+      "map": "CostaRica",
+      "name": "tripletail",
+      "names": {
+        "en": "tripletail",
+        "fr": "croupia roche",
+        "it": "pesce foglia",
+        "pt": "prejereba",
+        "zh": "三尾鱿"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 45,
+          "y": 15
+        },
+        {
+          "x": 55,
+          "y": 35
+        },
+        {
+          "x": 89,
+          "y": 45
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            3
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "27",
+      "kgs": {
+        "max": 161,
+        "min": 10
+      },
+      "latin": "Megalops atlanticus",
+      "lbs": {
+        "max": 354.94,
+        "min": 22.05
+      },
+      "map": "CostaRica",
+      "name": "tarpon",
+      "names": {
+        "en": "tarpon",
+        "fr": "tarpon de l'atlantique",
+        "it": "tarpone",
+        "pt": "tarpão"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 30,
+          "y": 30
+        },
+        {
+          "x": 55,
+          "y": 35
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            3
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "28",
+      "kgs": {
+        "max": 200,
+        "min": 10
+      },
+      "latin": "Thunnus albacares",
+      "lbs": {
+        "max": 440.92,
+        "min": 22.05
+      },
+      "map": "CostaRica",
+      "name": "yellowfin tuna",
+      "names": {
+        "en": "yellowfin tuna",
+        "fr": "thon jaune",
+        "it": "tonno a pinne gialle",
+        "pt": "albacora"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 38,
+          "y": 46
+        },
+        {
+          "x": 80,
+          "y": 12
+        },
+        {
+          "x": 42,
+          "y": 86
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "29",
+      "kgs": {
+        "max": 8.9,
+        "min": 2
+      },
+      "latin": "Scomberomorus sierra",
+      "lbs": {
+        "max": 19.62,
+        "min": 4.41
+      },
+      "map": "CostaRica",
+      "name": "sierra mackerel",
+      "names": {
+        "en": "sierra mackerel",
+        "fr": "thazard sierra",
+        "it": "sierra del pacifico",
+        "pt": "serra do pacifico"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 65,
+          "y": 23
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1,
+            3
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "210",
+      "kgs": {
+        "max": 100,
+        "min": 10
+      },
+      "latin": "Istiophorus platypterus",
+      "lbs": {
+        "max": 220.46,
+        "min": 22.05
+      },
+      "map": "CostaRica",
+      "name": "pacific sailfish",
+      "names": {
+        "en": "pacific sailfish",
+        "fr": "voilier de l'indo-pacifique",
+        "it": "pesce vela",
+        "pt": "agulhão vela"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 86,
+          "y": 66
+        },
+        {
+          "x": 13,
+          "y": 22
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "211",
+      "kgs": {
+        "max": 32,
+        "min": 5
+      },
+      "latin": "Caranx hippos",
+      "lbs": {
+        "max": 70.55,
+        "min": 11.02
+      },
+      "map": "CostaRica",
+      "name": "jack crevalle",
+      "names": {
+        "en": "jack crevalle",
+        "fr": "carangue crevalle",
+        "it": "crevalle jack",
+        "pt": "charo-largo"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 49,
+          "y": 13
+        },
+        {
+          "x": 25,
+          "y": 55
+        },
+        {
+          "x": 84,
+          "y": 27
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "212",
+      "kgs": {
+        "max": 57,
+        "min": 10
+      },
+      "latin": "Lutjanus cyanopterus",
+      "lbs": {
+        "max": 125.66,
+        "min": 22.05
+      },
+      "map": "CostaRica",
+      "name": "cubera snapper",
+      "names": {
+        "en": "cubera snapper",
+        "fr": "vivaneau cubéra",
+        "it": "crevalle jack",
+        "pt": "caranha"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 58,
+          "y": 79
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            3
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "213",
+      "kgs": {
+        "max": 91,
+        "min": 10
+      },
+      "latin": "Mycteroperca xenarcha",
+      "lbs": {
+        "max": 200.62,
+        "min": 22.05
+      },
+      "map": "CostaRica",
+      "name": "broomtail grouper",
+      "names": {
+        "en": "broomtail grouper",
+        "fr": "mérou genêt-queue",
+        "it": "cernia di mangrovie",
+        "pt": "garoupa de mangue"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 57,
+          "y": 80
+        },
+        {
+          "x": 79,
+          "y": 12
+        },
+        {
+          "x": 48,
+          "y": 12
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1,
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "214",
+      "kgs": {
+        "max": 24,
+        "min": 2
+      },
+      "latin": "Centropomus undecimalis",
+      "lbs": {
+        "max": 52.91,
+        "min": 4.41
+      },
+      "map": "CostaRica",
+      "name": "snook",
+      "names": {
+        "en": "snook",
+        "fr": "brochet de mer",
+        "it": "luccio sottile di mare",
+        "pt": "robalo branco"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 90,
+          "y": 85
+        },
+        {
+          "x": 70,
+          "y": 55
+        },
+        {
+          "x": 10,
+          "y": 47
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 2,
+      "id": "215",
+      "kgs": {
+        "max": 636,
+        "min": 50
+      },
+      "latin": "Makaira nigricans",
+      "lbs": {
+        "max": 1402.14,
+        "min": 110.23
+      },
+      "map": "CostaRica",
+      "name": "blue marlin",
+      "names": {
+        "en": "blue marlin",
+        "fr": "makaire bleu",
+        "it": "marlin blu",
+        "pt": "marlim azul"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 25,
+          "y": 15
+        },
+        {
+          "x": 88,
+          "y": 66
+        },
+        {
+          "x": 46,
+          "y": 87
+        },
+        {
+          "x": 21,
+          "y": 84
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            3
+          ]
+        },
+        {
+          "moment": [
+            0
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 2,
+      "id": "216",
+      "kgs": {
+        "max": 440,
+        "min": 50
+      },
+      "latin": "Kajikia audax",
+      "lbs": {
+        "max": 970.03,
+        "min": 110.23
+      },
+      "map": "CostaRica",
+      "name": "striped marlin",
+      "names": {
+        "en": "striped marlin",
+        "fr": "marlin rayé",
+        "it": "marlin striato",
+        "pt": "marlim listrado"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 28,
+          "y": 13
+        },
+        {
+          "x": 87,
+          "y": 84
+        },
+        {
+          "x": 14,
+          "y": 84
+        },
+        {
+          "x": 46,
+          "y": 87
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1,
+            3
+          ]
+        },
+        {
+          "moment": [
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "id": "217",
+      "kgs": {
+        "max": 109,
+        "min": 20
+      },
+      "latin": "Ginglymostoma cirratum",
+      "lbs": {
+        "max": 240.3,
+        "min": 44.09
+      },
+      "map": "CostaRica",
+      "name": "nurse shark",
+      "names": {
+        "en": "nurse shark",
+        "fr": "requin nourrice atlantique",
+        "it": "squalo nutrice",
+        "pt": "tubarão enfermeiro"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 15,
+          "y": 25
+        },
+        {
+          "x": 74,
+          "y": 43
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 2,
+      "id": "218",
+      "kgs": {
+        "max": 750,
+        "min": 50
+      },
+      "latin": "Istiompax indica",
+      "lbs": {
+        "max": 1653.47,
+        "min": 110.23
+      },
+      "map": "CostaRica",
+      "name": "black marlin",
+      "names": {
+        "en": "black marlin",
+        "fr": "makaire noir",
+        "it": "marlin indopacifico",
+        "pt": "marlim preto"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 15,
+          "y": 15
+        },
+        {
+          "x": 45,
+          "y": 85
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 2,
+      "id": "219",
+      "kgs": {
+        "max": 316,
+        "min": 10
+      },
+      "latin": "Carcharhinus leucas",
+      "lbs": {
+        "max": 696.66,
+        "min": 22.05
+      },
+      "map": "CostaRica",
+      "name": "bull shark",
+      "names": {
+        "en": "bull shark",
+        "fr": "requin-bouledogue",
+        "it": "squalo leuca",
+        "pt": "tubarão cabeça chata"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 15,
+          "y": 15
+        },
+        {
+          "x": 45,
+          "y": 85
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            3
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 2,
+      "id": "220",
+      "kgs": {
+        "max": 152,
+        "min": 20
+      },
+      "latin": "Sphyrna lewini",
+      "lbs": {
+        "max": 335.1,
+        "min": 44.09
+      },
+      "map": "CostaRica",
+      "name": "hammerhead shark",
+      "names": {
+        "en": "hammerhead shark",
+        "fr": "requin-marteau halicorne",
+        "it": "squalo martello smerlato",
+        "pt": "tubarão-martelo- recortado"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 15,
+          "y": 25
+        },
+        {
+          "x": 11,
+          "y": 45
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0
+          ]
+        }
+      ],
+      "descriptions": [
+        {
+          "content": [
+            {
+              "en": "The whale shark is rather difficult to find, but with a bit of patience and the right method, you will be able to catch it!",
+              "fr": "Le requin baleine est plutôt difficile à trouver, mais avec un peu de patience et la bonne méthode, vous pourrez le capturer!",
+              "it": "Lo squalo balena è molto difficile da trovare, ma con un po' di pazienza e il metodo giusto, riuscirai a catturarlo!",
+              "pt": "O tubarão-baleia é bastante difícil de encontrar, mas com um pouco de paciência e o método certo, você conseguirá capturá-lo!",
+              "zh": "鲸鲨很难找到，但只要有耐心和正确的方法，你就能抓到它！"
+            },
+            {
+              "en": "As with all rare/epic fish, activate a luck bonus (clover) either by buying it in the shop, obtaining it in a chest or by selling 50 trash",
+              "fr": "Comme pour tous les poissons rares/épiques, activez d'abord un bonus de chance (trèfle) soit en l'achetant en boutique, en l'obtenant dans un coffre ou bien en vendant 50 déchets",
+              "it": "Come con tutti i pesci rari/epici, attiva prima un bonus di fortuna (tre-foglie) acquistandolo in negozio, ottenendolo in un cassetto o vendendo 50 rifiuti",
+              "pt": "Como com todos os peixes raros/épicos, ative primeiro um bônus de sorte (três-folhas) comprando-o na loja, obtendo-o em um baú ou vendendo 50 lixo",
+              "zh": "就像所有稀有/史诗鱼一样，首先激活一个幸运奖励（三叶草），要么通过在商店购买，要么通过在箱子中获得，要么通过出售50个垃圾"
+            },
+            {
+              "en": "As for the equipment, you have the choice: carbon rod, monster rod, golden rod or old person rod. Avoid rods of lower value (wood or glass fiber) as these reduce the spawn rate of rare/epic fish.",
+              "fr": "Pour ce qui concerne l'équipement, vous avez le choix: canne carbone, canne monstre, canne dorée ou canne pour vieilles personnes. Evitez les cannes de moindre valeur (bois ou fibre de verre) car ces dernières réduisent le spawn rate des poissons rares/épiques.",
+              "it": "Per quanto riguarda l'equipaggiamento, hai la scelta: canna carboniosa, canna mostro, canna dorata o canna per anziani. Evita le canne di valore inferiore (legno o fibra di vetro) perché queste riducono la frequenza di comparsa dei pesci rari/epici.",
+              "pt": "Quanto ao equipamento, você tem a escolha: vara de carbono, vara de monstro, vara dourada ou vara para pessoas idosas. Evite varas de menor valor (madeira ou fibra de vidro) porque essas reduzem a taxa de aparência de peixes raros/épicos.",
+              "zh": "至于装备，你有选择：碳鱼竿、怪物鱼竿、金色鱼竿或老人鱼竿。避免低价值的鱼竿（木材或玻璃纤维），因为这些会降低稀有/史诗鱼的繁殖率。"
+            },
+            {
+              "en": "Once equipped, go to the zone. One of the most effective appearance points is near a circular submerged rock. Place your boat nearby, and start fishing. The whale shark does not have any shadow: cast your rod at a good distance (but not too far to risk losing it), and wait. If you want to speed things up, use the pink baits. But with a bit of patience, you will even succeed without baits!",
+              "fr": "Une fois équipé, rendez-vous sur zone. L'un des points d'apparition les plus efficaces se trouve à proximité d'un rocher circulaire immergé. Placez votre bateau à proximité, et commencez à pêcher. Le requin baleine n'a pas d'ombre: lancez votre canne à bonne distance (mais pas trop loin pour ne pas risquer de le perdre), et patientez. Si vous voulez accélérer les choses, utilisez les appâts rose. Mais avec un peu de patience, vous réussirez même sans appâts!",
+              "it": "Una volta equipaggiato, vai nella zona. Uno dei punti di comparsa più efficaci si trova vicino a un rocco circolare sommerso. Posiziona il tuo barca vicino, e inizia a pescare. Lo squalo balena non ha ombra: lancia la tua canna a una buona distanza (ma non troppo lontana per non perdere), e aspetta. Se vuoi accelerare le cose, usa i baits rosa. Ma con un po' di pazienza, riuscirai anche senza baits!",
+              "pt": "Uma vez equipado, vá para a zona. Um dos pontos de comparação mais eficazes está próximo de um rocha circular submersa. Coloque seu barco perto, e comece a pescar. O tubarão-baleia não tem sombra: lance sua vara a uma boa distância (mas não muito longe para não perder), e espere. Se você quiser acelerar as coisas, use os appêts rosas. Mas com um pouco de paciência, você conseguirá mesmo sem appêts!",
+              "zh": "一旦装备好，前往区域。其中一个最有效的出现点靠近一个圆形下沉的岩石。将你的船靠近，开始钓鱼。鲸鲨没有影子：将你的鱼竿投到合适的距离（但不要太远以免丢失），然后等待。如果你想加快进度，使用粉色饵料。但只要有耐心，你甚至可以不使用饵料！"
+            },
+            {
+              "en": "Note: you will certainly find a lot of blue marlins during your searches. Unfortunately, there is no way to avoid this. And to make matters worse, the blue marlin, like the whale shark, does not have a shadow. The only way to know for sure that you have hooked a whale shark is to observe the type of minigame:",
+              "fr": "Note: vous trouverez certainement beaucoup de marlins bleu durant vos recherches. Malheureusement, il n'y a aucun moyen d'éviter cela. Et pour ne rien arranger, le marlin bleu à l'instar du requin baleine, n'a pas d'ombre. La seule façon de savoir avec certitude que vous avez hameçonné un requin baleine est d'observer le type de minigame:",
+              "it": "Nota: certamente troverai molte marlin blu durante le tue ricerche. Sfortunatamente, non c'è modo di evitare questo. E per peggiorare le cose, il marlin blu, come il tubarão-baleia, non ha ombra. L'unica possibilità di sapere con certezza che hai colpito un tubarão-baleia è osservare il tipo di mini-gioco:",
+              "pt": "Nota: você certamente encontrará muitos marlins azuis durante suas buscas. Infelizmente, não há como evitar isso. E para piorar, o marlin azul, como o tubarão-baleia, não tem sombra. A única maneira de saber com certeza que você capturou um tubarão-baleia é observar o tipo de mini-jogo:",
+              "zh": "注意：你肯定会找到很多蓝马林鱼在你的搜索过程中。不幸的是，没有一种方法可以避免这种情况。而且，为了使事情变得更糟，蓝马林鱼，就像鲸鲨一样，没有影子。唯一确定的方法是观察迷你游戏的类型："
+            },
+            {
+              "en": "narrow \"perfect\" zone, fast movements: Probably a blue marlin",
+              "fr": "zone \"perfect\" étroite, mouvements rapides: Probablement un marlin bleu",
+              "it": "zona \"perfetta\" stretta, movimenti rapidi: Probabilmente un marlin blu",
+              "pt": "zona \"perfeita\" estreita, movimentos rápidos: Provavelmente um marlin azul",
+              "zh": "狭窄的“完美”区域，快速移动：可能是蓝马林鱼"
+            },
+            {
+              "en": "large \"perfect\" zone, slow and fluid movements: congratulations, it's a whale shark!",
+              "fr": "zone \"perfect\" large, mouvements lents et fluides: félicitations, c'est un requin baleine!",
+              "it": "zona \"perfetta\" grande, movimenti lenti e fluidi: congratulazioni, è un tubarão-baleia!",
+              "pt": "zona \"perfeita\" grande, movimentos lentos e fluidos: parabéns, é um tubarão-baleia!",
+              "zh": "宽阔的“完美”区域，缓慢而流畅的移动：恭喜，这是一只鲸鲨！"
+            }
+          ],
+          "title": "How to find it"
+        }
+      ],
+      "difficulty": 2,
+      "id": "221",
+      "kgs": {
+        "max": 3400,
+        "min": 200
+      },
+      "latin": "Rhincodon typus",
+      "lbs": {
+        "max": 7495.72,
+        "min": 440.92
+      },
+      "map": "CostaRica",
+      "name": "whale shark",
+      "names": {
+        "en": "whale shark",
+        "fr": "requin-baleine",
+        "it": "squalo balena",
+        "pt": "tubarão-baleia"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 15,
+          "y": 25
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": "The whale shark is rather difficult to find, but with a bit of patience and the right method, you will be able to catch it!"
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1,
+            3
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 2,
+      "id": "222",
+      "kgs": {
+        "max": 167,
+        "min": 20
+      },
+      "latin": "Carcharhinus longimanus",
+      "lbs": {
+        "max": 368.17,
+        "min": 44.09
+      },
+      "map": "CostaRica",
+      "name": "whitetip shark",
+      "names": {
+        "en": "whitetip shark",
+        "fr": "requin longimane",
+        "it": "squalo longimanus",
+        "pt": "galha branca oceânico"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 10,
+          "y": 15
+        },
+        {
+          "x": 10,
+          "y": 36
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "intro": "Costa Rica, the second unlockable area in Creatures of the Deep, offers a much higher difficulty than the first zones. Here, you will find some of the most challenging fish to catch. Even certain rare fish represent a significant challenge. Battles are more punishing, but with practice you will be able to succeed. Click on a fish in the side menu to see the details.",
+  "mapImage": "/images/maps/costa-rica.jpg",
+  "mapType": "classic",
+  "monster": {
+    "attributes": [
+      {
+        "shadow": []
+      },
+      {
+        "moment": [
+          1
+        ]
+      }
+    ],
+    "difficulty": 2,
+    "id": "223",
+    "kgs": {
+      "max": 1400,
+      "min": 850
+    },
+    "lbs": {
+      "max": 3086.47,
+      "min": 1873.93
+    },
+    "map": "CostaRica",
+    "name": "don pedro",
+    "names": {
+      "en": "don pedro",
+      "fr": "don pedro",
+      "it": "don perdo",
+      "pt": "don pedro"
+    },
+    "portraitRatio": "horizontal",
+    "positions": [
+      {
+        "position": "top",
+        "spot": "Mangrove",
+        "x": 85,
+        "y": 15
+      },
+      {
+        "position": "bottom",
+        "spot": "Croc' Tail",
+        "x": 85,
+        "y": 30
+      },
+      {
+        "position": "top",
+        "spot": "Croc' Mouth",
+        "x": 85,
+        "y": 45
+      }
+    ],
+    "rarity": "monster",
+    "rawType": "monster",
+    "rotation": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      1,
+      2,
+      1,
+      2,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      1,
+      1
+    ],
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "snippet": "The spot changes everyday. Check Discord to know the current spot.",
+    "startDate": "2024-05-01"
+  },
+  "name": "Costa Rica",
+  "objects": [
+    {
+      "bio": false,
+      "id": "T3-1",
+      "map": "CostaRica",
+      "name": "anchor",
+      "names": {
+        "en": "anchor",
+        "fr": "ancre",
+        "it": "ancora",
+        "pt": "âncora",
+        "zh": "船锚"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 68,
+          "y": 78
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-2",
+      "map": "CostaRica",
+      "name": "key with a chain",
+      "names": {
+        "en": "key with a chain",
+        "fr": "clé avec une chaîne",
+        "it": "chiave con catena",
+        "pt": "chave com corrente",
+        "zh": "带链子的钥匙"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 68,
+          "y": 78
+        },
+        {
+          "x": 72,
+          "y": 12
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-3",
+      "map": "CostaRica",
+      "name": "bicycle frame",
+      "names": {
+        "en": "bicycle frame",
+        "fr": "cadre de vélo",
+        "it": "telaio di bicicletta",
+        "pt": "quadro de bicicleta",
+        "zh": "自行车车架"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 89,
+          "y": 45
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "description": {
+            "en": "Sunglasses (random)",
+            "fr": "lunettes de soleil (aléatoire)",
+            "it": "occhiali da sole (casuale)",
+            "pt": "óculos de sol (aleatório)",
+            "zh": "太阳镜（随机）"
+          },
+          "type": "recyclable"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T3-4",
+      "map": "CostaRica",
+      "name": "bikini top",
+      "names": {
+        "en": "bikini top",
+        "fr": "haut de bikini",
+        "it": "top del bikini",
+        "pt": "parte de cima do biquíni",
+        "zh": "比基尼上衣"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 35,
+          "y": 79
+        },
+        {
+          "x": 77,
+          "y": 25
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-5",
+      "map": "CostaRica",
+      "name": "bottle santa maria",
+      "names": {
+        "en": "bottle santa maria",
+        "fr": "bouteille Santa Maria",
+        "it": "bottiglia Santa Maria",
+        "pt": "garrafa Santa Maria",
+        "zh": "圣玛丽亚号瓶子"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 72,
+          "y": 12
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": true,
+      "id": "T3-6",
+      "map": "CostaRica",
+      "name": "broken coral",
+      "names": {
+        "en": "broken coral",
+        "fr": "corail brisé",
+        "it": "corallo rotto",
+        "pt": "coral quebrado",
+        "zh": "破碎的珊瑚"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 20,
+          "y": 84
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-7",
+      "map": "CostaRica",
+      "name": "chip bag",
+      "names": {
+        "en": "chip bag",
+        "fr": "sachet de chips",
+        "it": "sacchetto di patatine",
+        "pt": "pacote de batatas fritas",
+        "zh": "薯片袋"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 89,
+          "y": 47
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "standards bait",
+      "usage": [
+        {
+          "type": "floating"
+        },
+        {
+          "description": {
+            "en": "Sunglasses (random)",
+            "fr": "lunettes de soleil (aléatoire)",
+            "it": "occhiali da sole (casuale)",
+            "pt": "óculos de sol (aleatório)",
+            "zh": "太阳镜（随机）"
+          },
+          "type": "recyclable"
+        },
+        {
+          "image": "/potions/craft_bait_CR.png",
+          "title": {
+            "en": "standards bait",
+            "fr": "standards bait",
+            "it": "bait standard",
+            "pt": "bait padrão",
+            "zh": "标准饵料"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": true,
+      "id": "T3-8",
+      "map": "CostaRica",
+      "name": "coconut",
+      "names": {
+        "en": "coconut",
+        "fr": "noix de coco",
+        "it": "cocco",
+        "pt": "coco",
+        "zh": "椰子"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 44,
+          "y": 35
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "type": "floating"
+        },
+        {
+          "image": "/skins/skin_cocoglasses.png",
+          "title": {
+            "en": "Glasses",
+            "fr": "lunettes",
+            "it": "occhiali",
+            "pt": "óculos",
+            "zh": "眼镜"
+          },
+          "type": "recyclable"
+        },
+        {
+          "image": "/NPC/NPC_juana.png",
+          "title": {
+            "en": "Juana",
+            "fr": "Juana",
+            "it": "Juana",
+            "pt": "Juana",
+            "zh": "Juana"
+          },
+          "type": "npcquest"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T3-9",
+      "map": "CostaRica",
+      "name": "costa rican vase",
+      "names": {
+        "en": "costa rican vase",
+        "fr": "vase costaricien",
+        "it": "vaso costaricano",
+        "pt": "vaso costarriquenho",
+        "zh": "哥斯达黎加花瓶"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 72,
+          "y": 13
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-10",
+      "map": "CostaRica",
+      "name": "fish can",
+      "names": {
+        "en": "fish can",
+        "fr": "boîte de poisson",
+        "it": "scatoletta di pesce",
+        "pt": "lata de peixe",
+        "zh": "鱼罐头"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 77,
+          "y": 10
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "Intelligence potion",
+      "usage": [
+        {
+          "description": {
+            "en": "Sunglasses (random)",
+            "fr": "lunettes de soleil (aléatoire)",
+            "it": "occhiali da sole (casuale)",
+            "pt": "óculos de sol (aleatório)",
+            "zh": "太阳镜（随机）"
+          },
+          "type": "recyclable"
+        },
+        {
+          "image": "/potions/potion_intelligence.png",
+          "title": {
+            "en": "Intelligence potion",
+            "fr": "Potion d'intelligence",
+            "it": "Pozione di intelligenza",
+            "pt": "Poção de inteligência",
+            "zh": "智力药水"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T3-11",
+      "map": "CostaRica",
+      "name": "flipper",
+      "names": {
+        "en": "flipper",
+        "fr": "palme de plongée",
+        "it": "pinna",
+        "pt": "nadadeira",
+        "zh": "潜水脚蹼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 76,
+          "y": 63
+        },
+        {
+          "x": 26,
+          "y": 85
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "image": "/NPC/NPC_jose.png",
+          "title": {
+            "en": "Jose",
+            "fr": "Jose",
+            "it": "Jose",
+            "pt": "Jose",
+            "zh": "Jose"
+          },
+          "type": "npcquest"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T3-13",
+      "map": "CostaRica",
+      "name": "inflatable flamingo",
+      "names": {
+        "en": "inflatable flamingo",
+        "fr": "flamant rose gonflable",
+        "it": "fenicottero gonfiabile",
+        "pt": "flamingo inflável",
+        "zh": "充气火烈鸟"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 35,
+          "y": 79
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "",
+      "usage": [
+        {
+          "type": "aquarium"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T3-15",
+      "map": "CostaRica",
+      "name": "oil barrel",
+      "names": {
+        "en": "oil barrel",
+        "fr": "baril de pétrole",
+        "it": "barile di petrolio",
+        "pt": "barril de petróleo",
+        "zh": "油桶"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 14,
+          "y": 14
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "fuel booster",
+      "usage": [
+        {
+          "description": {
+            "en": "Sunglasses (random)",
+            "fr": "lunettes de soleil (aléatoire)",
+            "it": "occhiali da sole (casuale)",
+            "pt": "óculos de sol (aleatório)",
+            "zh": "太阳镜（随机）"
+          },
+          "type": "recyclable"
+        },
+        {
+          "image": "/potions/fuel_boost.png",
+          "title": {
+            "en": "fuel booster",
+            "fr": "fuel booster",
+            "it": "fuel booster",
+            "pt": "fuel booster",
+            "zh": "燃料增强剂"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T3-16",
+      "map": "CostaRica",
+      "name": "orange cassette",
+      "names": {
+        "en": "orange cassette",
+        "fr": "cassette orange",
+        "it": "cassetta arancione",
+        "pt": "cassete laranja",
+        "zh": "橙色磁带"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 14,
+          "y": 30
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-17",
+      "map": "CostaRica",
+      "name": "oxcart wheel",
+      "names": {
+        "en": "oxcart wheel",
+        "fr": "roue de char à bœufs",
+        "it": "ruota di carro a buoi",
+        "pt": "roda de carro de bois",
+        "zh": "牛车轮"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 73,
+          "y": 12
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": true,
+      "id": "T3-18",
+      "map": "CostaRica",
+      "name": "palm leaf",
+      "names": {
+        "en": "palm leaf",
+        "fr": "feuille de palmier",
+        "it": "foglia di palma",
+        "pt": "folha de palmeira",
+        "zh": "棕榈叶"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 57,
+          "y": 48
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "standards bait",
+      "usage": [
+        {
+          "type": "floating"
+        },
+        {
+          "image": "/skins/skin_coconut2.png",
+          "title": {
+            "en": "Body",
+            "fr": "Corps",
+            "it": "Corpo",
+            "pt": "Corpo",
+            "zh": "身体"
+          },
+          "type": "recyclable"
+        },
+        {
+          "image": "/potions/craft_bait_CR.png",
+          "title": {
+            "en": "standards bait",
+            "fr": "standards bait",
+            "it": "bait standard",
+            "pt": "bait padrão",
+            "zh": "标准饵料"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T3-19",
+      "map": "CostaRica",
+      "name": "pirate hat",
+      "names": {
+        "en": "pirate hat",
+        "fr": "chapeau de pirate",
+        "it": "cappello da pirata",
+        "pt": "chapéu de pirata",
+        "zh": "海盗帽"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 85,
+          "y": 87
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "Pirate hat",
+      "usage": [
+        {
+          "image": "/skins/skin_pirate.png",
+          "title": {
+            "en": "Pirate hat",
+            "fr": "chapeau de pirate",
+            "it": "cappello da pirata",
+            "pt": "chapéu de pirata",
+            "zh": "海盗帽"
+          },
+          "type": "can_be_recycled"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T3-20",
+      "map": "CostaRica",
+      "name": "pirate spyglass",
+      "names": {
+        "en": "pirate spyglass",
+        "fr": "longue-vue de pirate",
+        "it": "cannocchiale da pirata",
+        "pt": "luneta de pirata",
+        "zh": "海盗望远镜"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 72,
+          "y": 13
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "pirat rod",
+      "usage": [
+        {
+          "image": "/images/pirat_rod.png",
+          "title": {
+            "en": "pirat rod",
+            "fr": "canne de pirate",
+            "it": "canna da pirata",
+            "pt": "cana de pirata",
+            "zh": "海盗竿"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T3-21",
+      "map": "CostaRica",
+      "name": "rubber crocodile",
+      "names": {
+        "en": "rubber crocodile",
+        "fr": "crocodile en caoutchouc",
+        "it": "coccodrillo di gomma",
+        "pt": "crocodilo de borracha",
+        "zh": "橡胶鳄鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 87,
+          "y": 43
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-22",
+      "map": "CostaRica",
+      "name": "scuba diver mask",
+      "names": {
+        "en": "scuba diver mask",
+        "fr": "masque de plongée",
+        "it": "maschera subacquea",
+        "pt": "máscara de mergulho",
+        "zh": "潜水面罩"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 21,
+          "y": 87
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-23",
+      "map": "CostaRica",
+      "name": "ship bell from santa maria",
+      "names": {
+        "en": "ship bell from santa maria",
+        "fr": "cloche du navire Santa Maria",
+        "it": "campana della nave Santa Maria",
+        "pt": "sino do navio Santa Maria",
+        "zh": "圣玛丽亚号船钟"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 72,
+          "y": 13
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-24",
+      "map": "CostaRica",
+      "name": "steel hook",
+      "names": {
+        "en": "steel hook",
+        "fr": "crochet en acier",
+        "it": "gancio d'acciaio",
+        "pt": "gancho de aço",
+        "zh": "钢钩"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 84,
+          "y": 87
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-25",
+      "map": "CostaRica",
+      "name": "surfboard",
+      "names": {
+        "en": "surfboard",
+        "fr": "planche de surf",
+        "it": "tavola da surf",
+        "pt": "prancha de surfe",
+        "zh": "冲浪板"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 76,
+          "y": 29
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-26",
+      "map": "CostaRica",
+      "name": "treasure chest",
+      "names": {
+        "en": "treasure chest",
+        "fr": "coffre au trésor",
+        "it": "scrigno del tesoro",
+        "pt": "baú do tesouro",
+        "zh": "宝箱"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 67,
+          "y": 79
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "Treasure",
+      "usage": [
+        {
+          "image": "/NPC/NPC_locksmith.png",
+          "title": {
+            "en": "LockSmith",
+            "fr": "LockSmith",
+            "it": "LockSmith",
+            "pt": "LockSmith",
+            "zh": "LockSmith"
+          },
+          "type": "npcquest"
+        },
+        {
+          "image": "/icons/coin.png",
+          "title": {
+            "en": "Treasure",
+            "fr": "Trésor",
+            "it": "Trésor",
+            "pt": "Trésor",
+            "zh": "宝藏"
+          },
+          "type": "craft"
+        },
+        {
+          "description": {
+            "en": "Collect 4 different chests",
+            "fr": "Récoltez 4 coffres différents",
+            "it": "Raccogliere 4 scrigni diversi",
+            "pt": "Coletar 4 baús diferentes",
+            "zh": "收集4个不同的宝箱"
+          },
+          "type": "seasonal_quest"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T3-27",
+      "map": "CostaRica",
+      "name": "volcanic rock",
+      "names": {
+        "en": "volcanic rock",
+        "fr": "roche volcanique",
+        "it": "roccia vulcanica",
+        "pt": "rocha vulcânica",
+        "zh": "火山岩"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 49,
+          "y": 39
+        },
+        {
+          "x": 63,
+          "y": 19
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "perception potion",
+      "usage": [
+        {
+          "image": "/potions/potion_perception.png",
+          "title": {
+            "en": "perception potion",
+            "fr": "potion de perception",
+            "it": "potion di percezione",
+            "pt": "potion de percepção",
+            "zh": "感知药水"
+          },
+          "type": "craft"
+        },
+        {
+          "description": {
+            "en": "aquarium, totem, clover base",
+            "fr": "aquarium, totem, socle du trèfle",
+            "it": "acquario, totem, base del trifoglio",
+            "pt": "aquário, totem, base do três folhas",
+            "zh": "水族馆,图腾,三叶草底座"
+          },
+          "type": "building_material"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T3-28",
+      "map": "CostaRica",
+      "name": "watermelon vinyl record",
+      "names": {
+        "en": "watermelon vinyl record",
+        "fr": "disque vinyle pastèque",
+        "it": "disco in vinile anguria",
+        "pt": "disco de vinil de melancia",
+        "zh": "西瓜黑胶唱片"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 22,
+          "y": 17
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-29",
+      "map": "CostaRica",
+      "name": "waterproof watch",
+      "names": {
+        "en": "waterproof watch",
+        "fr": "montre étanche",
+        "it": "orologio impermeabile",
+        "pt": "relógio à prova d’água",
+        "zh": "防水手表"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 61,
+          "y": 14
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-30",
+      "map": "CostaRica",
+      "name": "white bottle",
+      "names": {
+        "en": "white bottle",
+        "fr": "bouteille blanche",
+        "it": "bottiglia bianca",
+        "pt": "garrafa branca",
+        "zh": "白色瓶子"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 35,
+          "y": 76
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": "fuel booster",
+      "usage": [
+        {
+          "description": {
+            "en": "Sunglasses (random)",
+            "fr": "lunettes de soleil (aléatoire)",
+            "it": "occhiali da sole (casuale)",
+            "pt": "óculos de sol (aleatório)",
+            "zh": "太阳镜（随机）"
+          },
+          "type": "recyclable"
+        },
+        {
+          "image": "/potions/fuel_boost2.png",
+          "title": {
+            "en": "fuel booster",
+            "fr": "fuel booster",
+            "it": "fuel booster",
+            "pt": "fuel booster",
+            "zh": "燃料增强剂"
+          },
+          "type": "craft"
+        }
+      ]
+    },
+    {
+      "bio": false,
+      "id": "T3-31",
+      "map": "CostaRica",
+      "name": "wooden leg",
+      "names": {
+        "en": "wooden leg",
+        "fr": "jambe de bois",
+        "it": "gamba di legno",
+        "pt": "perna de madeira",
+        "zh": "木腿"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 69,
+          "y": 79
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-32",
+      "map": "CostaRica",
+      "name": "yellow floppy disk 5.25",
+      "names": {
+        "en": "yellow floppy disk 5.25",
+        "fr": "disquette jaune 5,25",
+        "it": "dischetto giallo 5,25",
+        "pt": "disquete amarelo 5,25",
+        "zh": "黄色 5.25 英寸软盘"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 52,
+          "y": 22
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "descriptions": [
+        {
+          "content": [
+            {
+              "en": "The mysterious stone sphere is extremely rare. If you don't manage to find it right away: it's normal! Tell yourself that many players have failed for several months (weeks? years?) before finding the precious sphere... It can seem discouraging, but don't panic: consider it as a routine. Dedicate between a few minutes to 1 hour per day (depending on your available time) to the search for the sphere. If you don't find it, stop for the day and come back the next day. Impossible to predict how long it will take, but you will find it for sure! Restricting yourself to this type of reasonable routine is the best way to avoid unnecessary frustration, in addition to increasing your karma.",
+              "fr": "La sphère mystérieuse est extrémement rare. Si vous ne parvenez pas à la trouver du premier coup: c'est normal! Dites vous que de très nombreux joueurs ont échoué pendant plusieurs mois (semaines? années?) avant de trouver la précieuse sphère... Ca peut sembler décourageant, mais pas de panique: envisagez ça sous forme de routine. Octroyez entre quelques minutes à 1 heure par jour (selon votre temps disponible) à la recherche de la sphère. Si vous ne trouvez pas, arrêtez pour la journée et revenez le lendemain. Impossible de prédire combien de temps cela vous prendra, mais vous la trouverez c'est certain! Se restreindre à ce type de routine raisonnable est le meilleur moyen de ne pas vous frustrer inutilement, en plus d'augmenter votre karma.",
+              "it": "La sfera di pietra misteriosa è estremamente rara. Se non riesci a trovarla subito: è normale! Ti dica che molti giocatori hanno fallito per diversi mesi (settimane? anni?) prima di trovare la preziosa sfera... Può sembrare disperante, ma non panico: considera questo come una routine. Dedicate tra qualche minuto a 1 ora al giorno (a seconda del tuo tempo disponibile) alla ricerca della sfera. Se non la trovi, smetti per il giorno e torna il giorno successivo. Impossibile prevedere quanto tempo ci vorrà, ma la troverai per certo! Limitarti a questo tipo di routine ragionevole è il modo migliore per evitare frustrazione inutile, oltre a aumentare il tuo karma.",
+              "pt": "A esfera de pedra misteriosa é extremamente rara. Se você não consegue encontrá-la do primeiro golpe: é normal! Diga-se que muitos jogadores falharam por vários meses (semanas? anos?) antes de encontrar a preciosa esfera... Pode parecer desanimador, mas não panique: considere isso como um rotina. Dedique entre alguns minutos a 1 hora por dia (dependendo do seu tempo disponível) à busca pela esfera. Se você não encontrar, pare para o dia e volte no dia seguinte. Impossível prever quanto tempo isso levará, mas você encontrará certamente! Restringir-se a este tipo de rotina razoável é a melhor maneira de evitar frustração desnecessária, além de aumentar seu karma.",
+              "zh": "神秘石球非常罕见。如果你不能马上找到它：这是正常的！告诉自己，许多玩家在找到珍贵石球之前已经失败了几个月（几周？几年？）... 这可能看起来令人气馁，但不要惊慌：把它看作是一种常规。每天分配一些时间（根据你的可用时间）来寻找石球。如果你找不到，今天就停下来，明天再回来。无法预测需要多长时间，但你肯定会找到它！限制自己这种合理的常规是避免不必要的挫折的最佳方式，同时也是增加你的 karma。"
+            }
+          ],
+          "title": "How to find it"
+        }
+      ],
+      "id": "T3-14",
+      "map": "CostaRica",
+      "name": "mysterious stone sphere",
+      "names": {
+        "en": "mysterious stone sphere",
+        "fr": "sphère de pierre mystérieuse",
+        "it": "sfera di pietra misteriosa",
+        "pt": "esfera de pedra misteriosa",
+        "zh": "神秘石球"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 63,
+          "y": 81
+        },
+        {
+          "x": 85,
+          "y": 86
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "T3-12",
+      "map": "CostaRica",
+      "name": "fridge magnet",
+      "names": {
+        "en": "fridge magnet",
+        "fr": "aimant de réfrigérateur",
+        "it": "calamita da frigorifero",
+        "pt": "ímã de geladeira",
+        "zh": "冰箱磁铁"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 49,
+          "y": 38
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    }
+  ],
+  "slug": "costa-rica",
+  "title": "Costa Rica map"
+}

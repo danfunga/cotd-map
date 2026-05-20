@@ -1,0 +1,186 @@
+[
+  {
+    "id": "c-700",
+    "name": "giant otter",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 7,
+        "y": 74
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c-701",
+    "name": "capybara",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 82,
+        "y": 34
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c-702",
+    "name": "giant snail",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 76,
+        "y": 22
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c-703",
+    "name": "green anaconda",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 67,
+        "y": 29
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c-704",
+    "name": "matamata turtle",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 22,
+        "y": 71
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c-705",
+    "name": "river turtle",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 17,
+        "y": 77
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c-706",
+    "name": "poison dart frog",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 27,
+        "y": 44
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c-707",
+    "name": "giant leaf frog",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 18,
+        "y": 74
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c-708",
+    "name": "axolotl",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 33,
+        "y": 50
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c-709",
+    "name": "black caiman",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 20,
+        "y": 30
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c-710",
+    "name": "amazonian manatee",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 64,
+        "y": 76
+      },
+      {
+        "x": 75,
+        "y": 41
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c-711",
+    "name": "amazon river dolphin",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 59,
+        "y": 40
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

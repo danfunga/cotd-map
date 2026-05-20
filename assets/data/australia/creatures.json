@@ -1,0 +1,218 @@
+[
+  {
+    "id": "c4-0",
+    "name": "biscuit seastar",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 82,
+        "y": 50
+      },
+      {
+        "x": 48,
+        "y": 89
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c4-1",
+    "name": "pinctada",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 9,
+        "y": 57
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c4-2",
+    "name": "sand cucumber",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 50,
+        "y": 30
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c4-3",
+    "name": "portuguese man o'war",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 69,
+        "y": 20
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c4-4",
+    "name": "purple sea urchin",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 63,
+        "y": 34
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c4-5",
+    "name": "box jelly fish",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 88,
+        "y": 39
+      },
+      {
+        "x": 48,
+        "y": 89
+      },
+      {
+        "x": 44,
+        "y": 66
+      },
+      {
+        "x": 53,
+        "y": 61
+      },
+      {
+        "x": 54,
+        "y": 72
+      },
+      {
+        "x": 84,
+        "y": 62
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c4-6",
+    "name": "sand anemone",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 33,
+        "y": 54
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c4-7",
+    "name": "cauliflower coral",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 47,
+        "y": 89
+      },
+      {
+        "x": 44,
+        "y": 66
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c4-8",
+    "name": "sea cow",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 89,
+        "y": 34
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c4-9",
+    "name": "saltwater crocodile",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 24,
+        "y": 20
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c4-10",
+    "name": "giant cuttlefish",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 43,
+        "y": 89
+      },
+      {
+        "x": 63,
+        "y": 89
+      },
+      {
+        "x": 53,
+        "y": 77
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "c4-11",
+    "name": "blue ringed octopus",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 74,
+        "y": 70
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

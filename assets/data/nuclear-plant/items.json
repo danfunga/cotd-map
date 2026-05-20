@@ -1,0 +1,393 @@
+[
+  {
+    "id": "tb1",
+    "name": "Bowling Ball",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 52,
+        "y": 10
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb2",
+    "name": "Bowling Pin",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 12,
+        "y": 48
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb3",
+    "name": "Bowling Shoe",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 37,
+        "y": 71
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb4",
+    "name": "Dead Battery",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 49,
+        "y": 59
+      },
+      {
+        "x": 14,
+        "y": 61
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb5",
+    "name": "“Cat Eye” Glasses",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 69,
+        "y": 28
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb6",
+    "name": "Can of Dog Food",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 86,
+        "y": 77
+      },
+      {
+        "x": 16,
+        "y": 20
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb7",
+    "name": "Grandma’s Compote",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 83,
+        "y": 21
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb8",
+    "name": "Hamburger",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 25,
+        "y": 51
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb9",
+    "name": "Book “Understanding ATOM”",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 52,
+        "y": 35
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb10",
+    "name": "Unique Scientific Catcher",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 60,
+        "y": 41
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb11",
+    "name": "Laboratory Fridge",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 38,
+        "y": 38
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb12",
+    "name": "VHS Tape “Mudmax”",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 58,
+        "y": 64
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb13",
+    "name": "Floppy Disk “POND”",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 45,
+        "y": 17
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb14",
+    "name": "Punch Card",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 49,
+        "y": 59
+      },
+      {
+        "x": 82,
+        "y": 35
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb25",
+    "name": "Thermal heating device",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 16,
+        "y": 81
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb15",
+    "name": "Bottle of Rocket Cola",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 26,
+        "y": 32
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb16",
+    "name": "Candy Dispenser",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 30,
+        "y": 84
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb17",
+    "name": "Control Chip",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 56,
+        "y": 89
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb18",
+    "name": "Lunchbox",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 22,
+        "y": 78
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb19",
+    "name": "Lunchbox Key",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 44,
+        "y": 46
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb20",
+    "name": "Retro TV",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 80,
+        "y": 81
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb21",
+    "name": "Uranium Container",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 43,
+        "y": 61
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb22",
+    "name": "Uranophane",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 49,
+        "y": 59
+      },
+      {
+        "x": 73,
+        "y": 85
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb23",
+    "name": "Vacuum Cleaner",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 31,
+        "y": 25
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "tb24",
+    "name": "Retro Washing Machine",
+    "rarity": "common",
+    "rawType": "item",
+    "positions": [
+      {
+        "x": 81,
+        "y": 14
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]

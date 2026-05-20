@@ -1,0 +1,340 @@
+[
+  {
+    "id": "b01",
+    "name": "AppleGill",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 19,
+        "y": 13
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b02",
+    "name": "Bat-eel",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 28,
+        "y": 29
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b03",
+    "name": "Bottlefin",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 53,
+        "y": 60
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b04",
+    "name": "Bread’n’Butterjaw",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 54,
+        "y": 89
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b05",
+    "name": "Bulpgill",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 23,
+        "y": 75
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b06",
+    "name": "Carrotfin",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 56,
+        "y": 48
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b07",
+    "name": "Double Troutot",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 74,
+        "y": 42
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b09",
+    "name": "Forknose",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 72,
+        "y": 61
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b10",
+    "name": "Geigerfin",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 45,
+        "y": 40
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b12",
+    "name": "Irradiated Cutfin",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 89,
+        "y": 87
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b13",
+    "name": "Knifetail",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 56,
+        "y": 47
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b15",
+    "name": "Oniongill",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 14,
+        "y": 17
+      },
+      {
+        "x": 26,
+        "y": 52
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b16",
+    "name": "Potatofin",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 44,
+        "y": 16
+      },
+      {
+        "x": 16,
+        "y": 18
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b17",
+    "name": "Rock'n'RollKingjaw",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 85,
+        "y": 18
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b18",
+    "name": "Rug-ball-swimmer",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 59,
+        "y": 15
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b19",
+    "name": "Sausagetail",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 32,
+        "y": 45
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b20",
+    "name": "Triangle gill",
+    "rarity": "common",
+    "rawType": "common",
+    "positions": [
+      {
+        "x": 11,
+        "y": 48
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b08",
+    "name": "Footsalmon",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 66,
+        "y": 76
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b14",
+    "name": "Magnetfin",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 45,
+        "y": 80
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b21",
+    "name": "Yellow Submarine Cod",
+    "rarity": "rare",
+    "rawType": "rare",
+    "positions": [
+      {
+        "x": 87,
+        "y": 42
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b22",
+    "name": "Devil mutanoid",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 21,
+        "y": 64
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  },
+  {
+    "id": "b11",
+    "name": "Giant Bus Bass",
+    "rarity": "epic",
+    "rawType": "epic",
+    "positions": [
+      {
+        "x": 64,
+        "y": 26
+      }
+    ],
+    "snippet": "",
+    "day": null,
+    "night": null
+  }
+]
