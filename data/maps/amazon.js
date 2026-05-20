@@ -46,7 +46,8 @@ export const amazonMap = {
         0,
         1
       ],
-      "mapCategory": "Amazon Pellona"
+      "mapCategory": "Amazon Pellona",
+      "altImage": "./assets/portraits-mapicons/amazon/704.png"
     },
     {
       "id": "759",
@@ -84,7 +85,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Tucunaré"
+      "mapCategory": "Tucunaré",
+      "altImage": "./assets/portraits-mapicons/amazon/759.png"
     },
     {
       "id": "760",
@@ -122,7 +124,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Curimbata"
+      "mapCategory": "Curimbata",
+      "altImage": "./assets/portraits-mapicons/amazon/760.png"
     },
     {
       "id": "709",
@@ -160,7 +163,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Corvina"
+      "mapCategory": "Corvina",
+      "altImage": "./assets/portraits-mapicons/amazon/709.png"
     },
     {
       "id": "713",
@@ -199,7 +203,8 @@ export const amazonMap = {
         1,
         2
       ],
-      "mapCategory": "Jatuarana"
+      "mapCategory": "Jatuarana",
+      "altImage": "./assets/portraits-mapicons/amazon/713.png"
     },
     {
       "id": "758",
@@ -237,7 +242,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Redtail Catfish"
+      "mapCategory": "Redtail Catfish",
+      "altImage": "./assets/portraits-mapicons/amazon/758.png"
     },
     {
       "id": "725",
@@ -275,7 +281,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Tiger Sorubim"
+      "mapCategory": "Tiger Sorubim",
+      "altImage": "./assets/portraits-mapicons/amazon/725.png"
     },
     {
       "id": "703",
@@ -314,7 +321,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         2
       ],
-      "mapCategory": "Redhook Myleus"
+      "mapCategory": "Redhook Myleus",
+      "altImage": "./assets/portraits-mapicons/amazon/703.png"
     },
     {
       "id": "724",
@@ -352,7 +360,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         2
       ],
-      "mapCategory": "Peacock Bass"
+      "mapCategory": "Peacock Bass",
+      "altImage": "./assets/portraits-mapicons/amazon/724.png"
     },
     {
       "id": "721",
@@ -387,7 +396,8 @@ export const amazonMap = {
       "image": "./assets/portraits/fish/721.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Lambari"
+      "mapCategory": "Lambari",
+      "altImage": "./assets/portraits-mapicons/amazon/721.png"
     },
     {
       "id": "710",
@@ -427,7 +437,8 @@ export const amazonMap = {
         1,
         2
       ],
-      "mapCategory": "Zungaro"
+      "mapCategory": "Zungaro",
+      "altImage": "./assets/portraits-mapicons/amazon/710.png"
     },
     {
       "id": "714",
@@ -466,7 +477,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Pacu"
+      "mapCategory": "Pacu",
+      "altImage": "./assets/portraits-mapicons/amazon/714.png"
     },
     {
       "id": "706",
@@ -507,7 +519,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Giant Trahira"
+      "mapCategory": "Giant Trahira",
+      "altImage": "./assets/portraits-mapicons/amazon/706.png"
     },
     {
       "id": "702",
@@ -550,7 +563,8 @@ export const amazonMap = {
         1,
         2
       ],
-      "mapCategory": "Redeye Piranha"
+      "mapCategory": "Redeye Piranha",
+      "altImage": "./assets/portraits-mapicons/amazon/702.png"
     },
     {
       "id": "705",
@@ -590,7 +604,8 @@ export const amazonMap = {
         1,
         2
       ],
-      "mapCategory": "Red Piranha"
+      "mapCategory": "Red Piranha",
+      "altImage": "./assets/portraits-mapicons/amazon/705.png"
     },
     {
       "id": "723",
@@ -631,7 +646,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Speckled Pavon"
+      "mapCategory": "Speckled Pavon",
+      "altImage": "./assets/portraits-mapicons/amazon/723.png"
     },
     {
       "id": "711",
@@ -666,7 +682,8 @@ export const amazonMap = {
       "image": "./assets/portraits/fish/711.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Freshwater Barracuda"
+      "mapCategory": "Freshwater Barracuda",
+      "altImage": "./assets/portraits-mapicons/amazon/711.png"
     },
     {
       "id": "715",
@@ -705,7 +722,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Bicuda"
+      "mapCategory": "Bicuda",
+      "altImage": "./assets/portraits-mapicons/amazon/715.png"
     },
     {
       "id": "761",
@@ -746,7 +764,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Arowana"
+      "mapCategory": "Arowana",
+      "altImage": "./assets/portraits-mapicons/amazon/761.png"
     },
     {
       "id": "712",
@@ -782,7 +801,8 @@ export const amazonMap = {
       "image": "./assets/portraits/fish/712.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Amazon Puffer"
+      "mapCategory": "Amazon Puffer",
+      "altImage": "./assets/portraits-mapicons/amazon/712.png"
     },
     {
       "id": "701",
@@ -822,7 +842,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Pirapitinga"
+      "mapCategory": "Pirapitinga",
+      "altImage": "./assets/portraits-mapicons/amazon/701.png"
     },
     {
       "id": "717",
@@ -861,7 +882,8 @@ export const amazonMap = {
         0,
         1
       ],
-      "mapCategory": "Electric Eel"
+      "mapCategory": "Electric Eel",
+      "altImage": "./assets/portraits-mapicons/amazon/717.png"
     },
     {
       "id": "757",
@@ -899,7 +921,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Flatwhiskered Catfish"
+      "mapCategory": "Flatwhiskered Catfish",
+      "altImage": "./assets/portraits-mapicons/amazon/757.png"
     },
     {
       "id": "720",
@@ -933,7 +956,8 @@ export const amazonMap = {
       "image": "./assets/portraits/fish/720.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Lau Lau"
+      "mapCategory": "Lau Lau",
+      "altImage": "./assets/portraits-mapicons/amazon/720.png"
     },
     {
       "id": "716",
@@ -971,7 +995,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Rock-Bacu"
+      "mapCategory": "Rock-Bacu",
+      "altImage": "./assets/portraits-mapicons/amazon/716.png"
     },
     {
       "id": "722",
@@ -1009,7 +1034,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Cachama"
+      "mapCategory": "Cachama",
+      "altImage": "./assets/portraits-mapicons/amazon/722.png"
     },
     {
       "id": "718",
@@ -1043,7 +1069,8 @@ export const amazonMap = {
       "image": "./assets/portraits/fish/718.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Arapaima"
+      "mapCategory": "Arapaima",
+      "altImage": "./assets/portraits-mapicons/amazon/718.png"
     },
     {
       "id": "719",
@@ -1081,7 +1108,8 @@ export const amazonMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Payara"
+      "mapCategory": "Payara",
+      "altImage": "./assets/portraits-mapicons/amazon/719.png"
     },
     {
       "id": "c-700",
@@ -1113,12 +1141,13 @@ export const amazonMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c-700.png",
+      "image": "./assets/portraits-mapicons/amazon/c-700.png",
       "shadowSizes": [
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Giant Otter"
+      "mapCategory": "Giant Otter",
+      "altImage": "./assets/portraits-mapicons/amazon/c-700.png"
     },
     {
       "id": "c-701",
@@ -1149,12 +1178,13 @@ export const amazonMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c-701.png",
+      "image": "./assets/portraits-mapicons/amazon/c-701.png",
       "shadowSizes": [
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Capybara"
+      "mapCategory": "Capybara",
+      "altImage": "./assets/portraits-mapicons/amazon/c-701.png"
     },
     {
       "id": "c-702",
@@ -1185,12 +1215,13 @@ export const amazonMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c-702.png",
+      "image": "./assets/portraits-mapicons/amazon/c-702.png",
       "shadowSizes": [
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Giant Snail"
+      "mapCategory": "Giant Snail",
+      "altImage": "./assets/portraits-mapicons/amazon/c-702.png"
     },
     {
       "id": "c-703",
@@ -1221,12 +1252,13 @@ export const amazonMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c-703.png",
+      "image": "./assets/portraits-mapicons/amazon/c-703.png",
       "shadowSizes": [
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Green Anaconda"
+      "mapCategory": "Green Anaconda",
+      "altImage": "./assets/portraits-mapicons/amazon/c-703.png"
     },
     {
       "id": "c-704",
@@ -1257,12 +1289,13 @@ export const amazonMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c-704.png",
+      "image": "./assets/portraits-mapicons/amazon/c-704.png",
       "shadowSizes": [
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Matamata Turtle"
+      "mapCategory": "Matamata Turtle",
+      "altImage": "./assets/portraits-mapicons/amazon/c-704.png"
     },
     {
       "id": "c-705",
@@ -1293,12 +1326,13 @@ export const amazonMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c-705.png",
+      "image": "./assets/portraits-mapicons/amazon/c-705.png",
       "shadowSizes": [
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "River Turtle"
+      "mapCategory": "River Turtle",
+      "altImage": "./assets/portraits-mapicons/amazon/c-705.png"
     },
     {
       "id": "c-706",
@@ -1329,10 +1363,11 @@ export const amazonMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c-706.png",
+      "image": "./assets/portraits-mapicons/amazon/c-706.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Poison Dart Frog"
+      "mapCategory": "Poison Dart Frog",
+      "altImage": "./assets/portraits-mapicons/amazon/c-706.png"
     },
     {
       "id": "c-707",
@@ -1363,10 +1398,11 @@ export const amazonMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c-707.png",
+      "image": "./assets/portraits-mapicons/amazon/c-707.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Giant Leaf Frog"
+      "mapCategory": "Giant Leaf Frog",
+      "altImage": "./assets/portraits-mapicons/amazon/c-707.png"
     },
     {
       "id": "c-708",
@@ -1398,10 +1434,11 @@ export const amazonMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c-708.png",
+      "image": "./assets/portraits-mapicons/amazon/c-708.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Axolotl"
+      "mapCategory": "Axolotl",
+      "altImage": "./assets/portraits-mapicons/amazon/c-708.png"
     },
     {
       "id": "c-709",
@@ -1432,10 +1469,11 @@ export const amazonMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c-709.png",
+      "image": "./assets/portraits-mapicons/amazon/c-709.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Black Caiman"
+      "mapCategory": "Black Caiman",
+      "altImage": "./assets/portraits-mapicons/amazon/c-709.png"
     },
     {
       "id": "c-710",
@@ -1468,10 +1506,11 @@ export const amazonMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c-710.png",
+      "image": "./assets/portraits-mapicons/amazon/c-710.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Amazonian Manatee"
+      "mapCategory": "Amazonian Manatee",
+      "altImage": "./assets/portraits-mapicons/amazon/c-710.png"
     },
     {
       "id": "c-711",
@@ -1505,10 +1544,11 @@ export const amazonMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c-711.png",
+      "image": "./assets/portraits-mapicons/amazon/c-711.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Amazon River Dolphin"
+      "mapCategory": "Amazon River Dolphin",
+      "altImage": "./assets/portraits-mapicons/amazon/c-711.png"
     },
     {
       "id": "T8-1",
@@ -1526,10 +1566,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-1.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-1.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Amazonian Blowpipe"
+      "mapCategory": "Amazonian Blowpipe",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-1.png"
     },
     {
       "id": "T8-2",
@@ -1548,10 +1589,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-2.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-2.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Amazonian Honey"
+      "mapCategory": "Amazonian Honey",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-2.png"
     },
     {
       "id": "T8-3",
@@ -1570,10 +1612,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-3.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-3.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Balsa Timber"
+      "mapCategory": "Balsa Timber",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-3.png"
     },
     {
       "id": "T8-4",
@@ -1592,10 +1635,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-4.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-4.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Boné"
+      "mapCategory": "Boné",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-4.png"
     },
     {
       "id": "T8-5",
@@ -1613,10 +1657,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-5.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-5.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Bossa Nova Vinyl Record"
+      "mapCategory": "Bossa Nova Vinyl Record",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-5.png"
     },
     {
       "id": "T8-6",
@@ -1634,10 +1679,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-6.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-6.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Brazil Cachaca"
+      "mapCategory": "Brazil Cachaca",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-6.png"
     },
     {
       "id": "T8-7",
@@ -1655,10 +1701,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-7.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-7.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Brazil Drums"
+      "mapCategory": "Brazil Drums",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-7.png"
     },
     {
       "id": "T8-8",
@@ -1676,10 +1723,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-8.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-8.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Brazil Hammock"
+      "mapCategory": "Brazil Hammock",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-8.png"
     },
     {
       "id": "T8-9",
@@ -1697,10 +1745,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-9.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-9.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Carnival Costume"
+      "mapCategory": "Carnival Costume",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-9.png"
     },
     {
       "id": "T8-10",
@@ -1719,10 +1768,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-10.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-10.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Cat's Claw Liana"
+      "mapCategory": "Cat's Claw Liana",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-10.png"
     },
     {
       "id": "T8-11",
@@ -1741,10 +1791,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-11.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-11.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Coffee Bean Bag"
+      "mapCategory": "Coffee Bean Bag",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-11.png"
     },
     {
       "id": "T8-12",
@@ -1764,10 +1815,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-12.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-12.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Coffee Tree Branch"
+      "mapCategory": "Coffee Tree Branch",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-12.png"
     },
     {
       "id": "T8-13",
@@ -1786,10 +1838,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-13.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-13.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Decorated Chest"
+      "mapCategory": "Decorated Chest",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-13.png"
     },
     {
       "id": "T8-14",
@@ -1808,10 +1861,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-14.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-14.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Feather"
+      "mapCategory": "Feather",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-14.png"
     },
     {
       "id": "T8-15",
@@ -1829,10 +1883,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-15.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-15.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Football Cup"
+      "mapCategory": "Football Cup",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-15.png"
     },
     {
       "id": "T8-16",
@@ -1853,10 +1908,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-16.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-16.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Football Jersey"
+      "mapCategory": "Football Jersey",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-16.png"
     },
     {
       "id": "T8-17",
@@ -1875,10 +1931,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-17.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-17.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Green Can"
+      "mapCategory": "Green Can",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-17.png"
     },
     {
       "id": "T8-18",
@@ -1899,10 +1956,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-18.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-18.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Kakao"
+      "mapCategory": "Kakao",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-18.png"
     },
     {
       "id": "T8-19",
@@ -1921,10 +1979,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-19.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-19.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Maracas"
+      "mapCategory": "Maracas",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-19.png"
     },
     {
       "id": "T8-20",
@@ -1942,10 +2001,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-20.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-20.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Rusty Axe Head"
+      "mapCategory": "Rusty Axe Head",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-20.png"
     },
     {
       "id": "T8-21",
@@ -1964,10 +2024,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-21.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-21.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Rusty Barrel"
+      "mapCategory": "Rusty Barrel",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-21.png"
     },
     {
       "id": "T8-22",
@@ -1985,10 +2046,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-22.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-22.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Soccer Ball"
+      "mapCategory": "Soccer Ball",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-22.png"
     },
     {
       "id": "T8-23",
@@ -2008,10 +2070,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-23.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-23.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Stone Key"
+      "mapCategory": "Stone Key",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-23.png"
     },
     {
       "id": "T8-24",
@@ -2030,10 +2093,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-24.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-24.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Stonebreaker Leaf"
+      "mapCategory": "Stonebreaker Leaf",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-24.png"
     },
     {
       "id": "T8-25",
@@ -2051,10 +2115,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-25.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-25.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Wooden Figurine"
+      "mapCategory": "Wooden Figurine",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-25.png"
     },
     {
       "id": "T8-26",
@@ -2073,10 +2138,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-26.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-26.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Green Yellow Disk"
+      "mapCategory": "Green Yellow Disk",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-26.png"
     },
     {
       "id": "T8-27",
@@ -2096,10 +2162,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-27.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-27.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Old Gold Coins"
+      "mapCategory": "Old Gold Coins",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-27.png"
     },
     {
       "id": "T8-28",
@@ -2117,10 +2184,11 @@ export const amazonMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T8-28.png",
+      "image": "./assets/portraits-mapicons/amazon/T8-28.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Fridge Magnet"
+      "mapCategory": "Fridge Magnet",
+      "altImage": "./assets/portraits-mapicons/amazon/T8-28.png"
     },
     {
       "id": "777",

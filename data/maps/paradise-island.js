@@ -36,6 +36,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/01.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/01.png",
       "shadowSizes": [
         1
       ],
@@ -75,6 +76,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/02.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/02.png",
       "shadowSizes": [
         0
       ],
@@ -114,6 +116,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/03.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/03.png",
       "shadowSizes": [
         1
       ],
@@ -153,6 +156,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/04.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/04.png",
       "shadowSizes": [
         1
       ],
@@ -192,6 +196,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/05.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/05.png",
       "shadowSizes": [
         1
       ],
@@ -233,6 +238,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/06.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/06.png",
       "shadowSizes": [
         1
       ],
@@ -273,6 +279,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/07.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/07.png",
       "shadowSizes": [
         1
       ],
@@ -311,6 +318,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/08.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/08.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Clownfish"
@@ -348,6 +356,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/09.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/09.png",
       "shadowSizes": [
         2,
         3
@@ -388,6 +397,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/010.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/010.png",
       "shadowSizes": [
         3
       ],
@@ -430,6 +440,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/011.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/011.png",
       "shadowSizes": [
         2
       ],
@@ -471,6 +482,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/012.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/012.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Pacific Footballfish"
@@ -506,7 +518,8 @@ export const paradiseIslandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c0-1.png",
+      "image": "./assets/portraits-mapicons/paradise-island/c0-1.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/c0-1.png",
       "shadowSizes": [
         0
       ],
@@ -541,6 +554,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/creature/c0-2.png",
+      "altImage": "",
       "shadowSizes": [
         0
       ],
@@ -577,7 +591,8 @@ export const paradiseIslandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c0-3.png",
+      "image": "./assets/portraits-mapicons/paradise-island/c0-3.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/c0-3.png",
       "shadowSizes": [
         0
       ],
@@ -614,7 +629,8 @@ export const paradiseIslandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c0-4.png",
+      "image": "./assets/portraits-mapicons/paradise-island/c0-4.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/c0-4.png",
       "shadowSizes": [
         0
       ],
@@ -650,7 +666,8 @@ export const paradiseIslandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c0-5.png",
+      "image": "./assets/portraits-mapicons/paradise-island/c0-5.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/c0-5.png",
       "shadowSizes": [
         0
       ],
@@ -673,7 +690,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-1.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-1.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-1.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Empty Bottle"
@@ -694,7 +712,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-2.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-2.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-2.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Plastic Bag"
@@ -716,7 +735,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-3.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-3.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-3.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Mask"
@@ -737,7 +757,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-4.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-4.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-4.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Plastic Bottle"
@@ -758,7 +779,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-5.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-5.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-5.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Message In A Bottle"
@@ -779,7 +801,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-6.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-6.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-6.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Can Fish"
@@ -800,7 +823,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-7.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-7.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-7.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Straw Hat"
@@ -821,7 +845,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-8.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-8.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-8.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Gear"
@@ -842,7 +867,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-9.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-9.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-9.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Pinacolada Drink"
@@ -863,7 +889,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-10.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-10.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-10.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Old Phone"
@@ -885,7 +912,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-11.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-11.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-11.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Sea Weed"
@@ -906,7 +934,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-12.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-12.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-12.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Kelp Leaf"
@@ -928,7 +957,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-13.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-13.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-13.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Flip Flops"
@@ -950,7 +980,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-14.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-14.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-14.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Can"
@@ -971,7 +1002,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-15.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-15.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-15.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Chips"
@@ -992,7 +1024,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-16.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-16.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-16.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Lunch Box"
@@ -1013,7 +1046,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-17.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-17.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-17.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Key With A Skull"
@@ -1034,7 +1068,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-18.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-18.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-18.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Chest With A Skull"
@@ -1055,7 +1090,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-19.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-19.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-19.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Wilson Ball"
@@ -1076,7 +1112,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-20.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-20.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-20.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Rubber Duck"
@@ -1098,7 +1135,8 @@ export const paradiseIslandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T1-21.png",
+      "image": "./assets/portraits-mapicons/paradise-island/T1-21.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/T1-21.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Fridge Magnet"
@@ -1135,6 +1173,7 @@ export const paradiseIslandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/013.png",
+      "altImage": "./assets/portraits-mapicons/paradise-island/013.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Shredder"

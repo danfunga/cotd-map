@@ -36,6 +36,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/40.png",
+      "altImage": "./assets/portraits-mapicons/australia/40.png",
       "shadowSizes": [
         0
       ],
@@ -76,6 +77,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/41.png",
+      "altImage": "./assets/portraits-mapicons/australia/41.png",
       "shadowSizes": [
         1
       ],
@@ -116,6 +118,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/42.png",
+      "altImage": "./assets/portraits-mapicons/australia/42.png",
       "shadowSizes": [
         1,
         3
@@ -157,6 +160,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/43.png",
+      "altImage": "./assets/portraits-mapicons/australia/43.png",
       "shadowSizes": [
         1
       ],
@@ -195,6 +199,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/44.png",
+      "altImage": "./assets/portraits-mapicons/australia/44.png",
       "shadowSizes": [
         1,
         3
@@ -234,6 +239,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/45.png",
+      "altImage": "./assets/portraits-mapicons/australia/45.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Port Jackson Shark"
@@ -271,6 +277,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/46.png",
+      "altImage": "./assets/portraits-mapicons/australia/46.png",
       "shadowSizes": [
         3
       ],
@@ -313,6 +320,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/47.png",
+      "altImage": "./assets/portraits-mapicons/australia/47.png",
       "shadowSizes": [
         1
       ],
@@ -353,6 +361,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/48.png",
+      "altImage": "./assets/portraits-mapicons/australia/48.png",
       "shadowSizes": [
         1
       ],
@@ -392,6 +401,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/49.png",
+      "altImage": "./assets/portraits-mapicons/australia/49.png",
       "shadowSizes": [
         0
       ],
@@ -432,6 +442,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/410.png",
+      "altImage": "./assets/portraits-mapicons/australia/410.png",
       "shadowSizes": [
         1
       ],
@@ -472,6 +483,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/411.png",
+      "altImage": "./assets/portraits-mapicons/australia/411.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Leafy Seadragon"
@@ -508,6 +520,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/412.png",
+      "altImage": "./assets/portraits-mapicons/australia/412.png",
       "shadowSizes": [
         0
       ],
@@ -544,6 +557,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/413.png",
+      "altImage": "",
       "shadowSizes": [
         1
       ],
@@ -585,6 +599,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/414.png",
+      "altImage": "./assets/portraits-mapicons/australia/414.png",
       "shadowSizes": [
         1
       ],
@@ -624,6 +639,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/415.png",
+      "altImage": "./assets/portraits-mapicons/australia/415.png",
       "shadowSizes": [
         1
       ],
@@ -663,6 +679,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/416.png",
+      "altImage": "./assets/portraits-mapicons/australia/416.png",
       "shadowSizes": [
         1
       ],
@@ -704,6 +721,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/417.png",
+      "altImage": "./assets/portraits-mapicons/australia/417.png",
       "shadowSizes": [
         1
       ],
@@ -747,6 +765,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/418.png",
+      "altImage": "./assets/portraits-mapicons/australia/418.png",
       "shadowSizes": [
         0
       ],
@@ -787,6 +806,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/419.png",
+      "altImage": "./assets/portraits-mapicons/australia/419.png",
       "shadowSizes": [
         0
       ],
@@ -827,6 +847,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/420.png",
+      "altImage": "./assets/portraits-mapicons/australia/420.png",
       "shadowSizes": [
         0
       ],
@@ -866,6 +887,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/421.png",
+      "altImage": "./assets/portraits-mapicons/australia/421.png",
       "shadowSizes": [
         1
       ],
@@ -906,6 +928,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/422.png",
+      "altImage": "./assets/portraits-mapicons/australia/422.png",
       "shadowSizes": [
         3
       ],
@@ -946,6 +969,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/423.png",
+      "altImage": "./assets/portraits-mapicons/australia/423.png",
       "shadowSizes": [
         1
       ],
@@ -985,6 +1009,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/424.png",
+      "altImage": "./assets/portraits-mapicons/australia/424.png",
       "shadowSizes": [
         3
       ],
@@ -1023,6 +1048,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/425.png",
+      "altImage": "./assets/portraits-mapicons/australia/425.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Spotted Handfish"
@@ -1059,6 +1085,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/426.png",
+      "altImage": "./assets/portraits-mapicons/australia/426.png",
       "shadowSizes": [
         1
       ],
@@ -1099,6 +1126,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/427.png",
+      "altImage": "./assets/portraits-mapicons/australia/427.png",
       "shadowSizes": [
         1,
         3
@@ -1139,6 +1167,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/428.png",
+      "altImage": "./assets/portraits-mapicons/australia/428.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Manta Ray"
@@ -1174,6 +1203,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/429.png",
+      "altImage": "./assets/portraits-mapicons/australia/429.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Hoodwinker Sunfish"
@@ -1208,7 +1238,8 @@ export const australiaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c4-0.png",
+      "image": "./assets/portraits-mapicons/australia/c4-0.png",
+      "altImage": "./assets/portraits-mapicons/australia/c4-0.png",
       "shadowSizes": [
         0
       ],
@@ -1244,7 +1275,8 @@ export const australiaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c4-1.png",
+      "image": "./assets/portraits-mapicons/australia/c4-1.png",
+      "altImage": "./assets/portraits-mapicons/australia/c4-1.png",
       "shadowSizes": [
         0
       ],
@@ -1280,7 +1312,8 @@ export const australiaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c4-2.png",
+      "image": "./assets/portraits-mapicons/australia/c4-2.png",
+      "altImage": "./assets/portraits-mapicons/australia/c4-2.png",
       "shadowSizes": [
         0
       ],
@@ -1316,7 +1349,8 @@ export const australiaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c4-3.png",
+      "image": "./assets/portraits-mapicons/australia/c4-3.png",
+      "altImage": "./assets/portraits-mapicons/australia/c4-3.png",
       "shadowSizes": [
         0
       ],
@@ -1353,7 +1387,8 @@ export const australiaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c4-4.png",
+      "image": "./assets/portraits-mapicons/australia/c4-4.png",
+      "altImage": "./assets/portraits-mapicons/australia/c4-4.png",
       "shadowSizes": [
         0
       ],
@@ -1394,7 +1429,8 @@ export const australiaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c4-5.png",
+      "image": "./assets/portraits-mapicons/australia/c4-5.png",
+      "altImage": "./assets/portraits-mapicons/australia/c4-5.png",
       "shadowSizes": [
         0
       ],
@@ -1432,7 +1468,8 @@ export const australiaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c4-6.png",
+      "image": "./assets/portraits-mapicons/australia/c4-6.png",
+      "altImage": "./assets/portraits-mapicons/australia/c4-6.png",
       "shadowSizes": [
         0
       ],
@@ -1469,7 +1506,8 @@ export const australiaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c4-7.png",
+      "image": "./assets/portraits-mapicons/australia/c4-7.png",
+      "altImage": "./assets/portraits-mapicons/australia/c4-7.png",
       "shadowSizes": [
         0
       ],
@@ -1505,7 +1543,8 @@ export const australiaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c4-8.png",
+      "image": "./assets/portraits-mapicons/australia/c4-8.png",
+      "altImage": "./assets/portraits-mapicons/australia/c4-8.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Sea Cow"
@@ -1539,7 +1578,8 @@ export const australiaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c4-9.png",
+      "image": "./assets/portraits-mapicons/australia/c4-9.png",
+      "altImage": "./assets/portraits-mapicons/australia/c4-9.png",
       "shadowSizes": [
         0
       ],
@@ -1575,7 +1615,8 @@ export const australiaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c4-10.png",
+      "image": "./assets/portraits-mapicons/australia/c4-10.png",
+      "altImage": "./assets/portraits-mapicons/australia/c4-10.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Giant Cuttlefish"
@@ -1609,7 +1650,8 @@ export const australiaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c4-11.png",
+      "image": "./assets/portraits-mapicons/australia/c4-11.png",
+      "altImage": "./assets/portraits-mapicons/australia/c4-11.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Blue Ringed Octopus"
@@ -1631,6 +1673,7 @@ export const australiaMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T5-30.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Vinyl Record"
@@ -1650,6 +1693,7 @@ export const australiaMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T5-31.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -1670,7 +1714,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-29.png",
+      "image": "./assets/portraits-mapicons/australia/T5-29.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-29.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Didgeridoo Flute"
@@ -1693,7 +1738,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-1.png",
+      "image": "./assets/portraits-mapicons/australia/T5-1.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-1.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Aussie Rule Ball"
@@ -1714,7 +1760,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-2.png",
+      "image": "./assets/portraits-mapicons/australia/T5-2.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-2.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Australian Cricket Bat"
@@ -1735,7 +1782,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-3.png",
+      "image": "./assets/portraits-mapicons/australia/T5-3.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-3.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Beer Can"
@@ -1757,7 +1805,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-4.png",
+      "image": "./assets/portraits-mapicons/australia/T5-4.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-4.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Boomerang"
@@ -1779,7 +1828,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-5.png",
+      "image": "./assets/portraits-mapicons/australia/T5-5.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-5.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Bottle of Suntan Oil"
@@ -1803,7 +1853,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-6.png",
+      "image": "./assets/portraits-mapicons/australia/T5-6.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-6.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Cork Hat"
@@ -1824,7 +1875,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-7.png",
+      "image": "./assets/portraits-mapicons/australia/T5-7.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-7.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Crocodile Crate"
@@ -1848,7 +1900,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-8.png",
+      "image": "./assets/portraits-mapicons/australia/T5-8.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-8.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Crocodile Key"
@@ -1869,7 +1922,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-9.png",
+      "image": "./assets/portraits-mapicons/australia/T5-9.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-9.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Eucalyptus Branch"
@@ -1890,7 +1944,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-10.png",
+      "image": "./assets/portraits-mapicons/australia/T5-10.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-10.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Explorer Diary"
@@ -1912,7 +1967,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-11.png",
+      "image": "./assets/portraits-mapicons/australia/T5-11.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-11.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Koala Hat"
@@ -1933,7 +1989,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-12.png",
+      "image": "./assets/portraits-mapicons/australia/T5-12.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-12.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Lawn Chair"
@@ -1954,7 +2011,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-13.png",
+      "image": "./assets/portraits-mapicons/australia/T5-13.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-13.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Marine Trap"
@@ -1977,7 +2035,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-14.png",
+      "image": "./assets/portraits-mapicons/australia/T5-14.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-14.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Parrot Feather"
@@ -1999,7 +2058,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-15.png",
+      "image": "./assets/portraits-mapicons/australia/T5-15.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-15.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Pearl"
@@ -2021,7 +2081,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-16.png",
+      "image": "./assets/portraits-mapicons/australia/T5-16.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-16.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Plastic Barrel"
@@ -2043,7 +2104,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-17.png",
+      "image": "./assets/portraits-mapicons/australia/T5-17.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-17.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Plastic \"Dory\" Fish"
@@ -2064,7 +2126,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-18.png",
+      "image": "./assets/portraits-mapicons/australia/T5-18.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-18.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Rock with Aboriginal Painting"
@@ -2085,7 +2148,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-19.png",
+      "image": "./assets/portraits-mapicons/australia/T5-19.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-19.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Sunglasses"
@@ -2106,7 +2170,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-20.png",
+      "image": "./assets/portraits-mapicons/australia/T5-20.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-20.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Surfboard"
@@ -2127,7 +2192,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-21.png",
+      "image": "./assets/portraits-mapicons/australia/T5-21.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-21.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Turtlegrass"
@@ -2148,7 +2214,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-22.png",
+      "image": "./assets/portraits-mapicons/australia/T5-22.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-22.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Vegetime"
@@ -2169,7 +2236,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-23.png",
+      "image": "./assets/portraits-mapicons/australia/T5-23.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-23.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Wooden Crate"
@@ -2191,7 +2259,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-24.png",
+      "image": "./assets/portraits-mapicons/australia/T5-24.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-24.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Kangaroo Road Sign"
@@ -2212,7 +2281,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-25.png",
+      "image": "./assets/portraits-mapicons/australia/T5-25.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-25.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Maori Jewelery"
@@ -2233,7 +2303,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-26.png",
+      "image": "./assets/portraits-mapicons/australia/T5-26.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-26.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Giant Shark Tooth"
@@ -2253,6 +2324,7 @@ export const australiaMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T5-27.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -2273,7 +2345,8 @@ export const australiaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T5-28.png",
+      "image": "./assets/portraits-mapicons/australia/T5-28.png",
+      "altImage": "./assets/portraits-mapicons/australia/T5-28.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Fridge Magnet"
@@ -2311,6 +2384,7 @@ export const australiaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/430.png",
+      "altImage": "./assets/portraits-mapicons/australia/430.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Bunyip"

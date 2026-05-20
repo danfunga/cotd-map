@@ -37,7 +37,8 @@ export const nuclearPlantMap = {
       "image": "./assets/portraits/fish/b01.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Applegill"
+      "mapCategory": "Applegill",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b01.png"
     },
     {
       "id": "b02",
@@ -76,7 +77,8 @@ export const nuclearPlantMap = {
         1,
         2
       ],
-      "mapCategory": "Bat-eel"
+      "mapCategory": "Bat-eel",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b02.png"
     },
     {
       "id": "b03",
@@ -115,7 +117,8 @@ export const nuclearPlantMap = {
         1,
         2
       ],
-      "mapCategory": "Bottlefin"
+      "mapCategory": "Bottlefin",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b03.png"
     },
     {
       "id": "b04",
@@ -153,7 +156,8 @@ export const nuclearPlantMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Bread'n'Butterjaw"
+      "mapCategory": "Bread'n'Butterjaw",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b04.png"
     },
     {
       "id": "b05",
@@ -187,7 +191,8 @@ export const nuclearPlantMap = {
       "image": "./assets/portraits/fish/b05.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Bulpgill"
+      "mapCategory": "Bulpgill",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b05.png"
     },
     {
       "id": "b06",
@@ -226,7 +231,8 @@ export const nuclearPlantMap = {
         1,
         2
       ],
-      "mapCategory": "Carrotfin"
+      "mapCategory": "Carrotfin",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b06.png"
     },
     {
       "id": "b07",
@@ -264,7 +270,8 @@ export const nuclearPlantMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Double Troutot"
+      "mapCategory": "Double Troutot",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b07.png"
     },
     {
       "id": "b09",
@@ -302,7 +309,8 @@ export const nuclearPlantMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Forknose"
+      "mapCategory": "Forknose",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b09.png"
     },
     {
       "id": "b10",
@@ -340,7 +348,8 @@ export const nuclearPlantMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Geigerfin"
+      "mapCategory": "Geigerfin",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b10.png"
     },
     {
       "id": "b12",
@@ -378,7 +387,8 @@ export const nuclearPlantMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "IrradiatedCutfin"
+      "mapCategory": "IrradiatedCutfin",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b12.png"
     },
     {
       "id": "b13",
@@ -416,7 +426,8 @@ export const nuclearPlantMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Knifetail"
+      "mapCategory": "Knifetail",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b13.png"
     },
     {
       "id": "b15",
@@ -451,7 +462,8 @@ export const nuclearPlantMap = {
       "image": "./assets/portraits/fish/b15.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Oniongill"
+      "mapCategory": "Oniongill",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b15.png"
     },
     {
       "id": "b16",
@@ -490,7 +502,8 @@ export const nuclearPlantMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Potatofin"
+      "mapCategory": "Potatofin",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b16.png"
     },
     {
       "id": "b17",
@@ -529,7 +542,8 @@ export const nuclearPlantMap = {
         1,
         2
       ],
-      "mapCategory": "Rock'n'RollKingjaw"
+      "mapCategory": "Rock'n'RollKingjaw",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b17.png"
     },
     {
       "id": "b18",
@@ -567,7 +581,8 @@ export const nuclearPlantMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Rug-Ball-Swimmer\t"
+      "mapCategory": "Rug-Ball-Swimmer\t",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b18.png"
     },
     {
       "id": "b19",
@@ -605,7 +620,8 @@ export const nuclearPlantMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Sausagetail"
+      "mapCategory": "Sausagetail",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b19.png"
     },
     {
       "id": "b20",
@@ -643,7 +659,8 @@ export const nuclearPlantMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Trianglegill"
+      "mapCategory": "Trianglegill",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b20.png"
     },
     {
       "id": "b08",
@@ -682,7 +699,8 @@ export const nuclearPlantMap = {
         1,
         2
       ],
-      "mapCategory": "Footsalmon"
+      "mapCategory": "Footsalmon",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b08.png"
     },
     {
       "id": "b14",
@@ -716,7 +734,8 @@ export const nuclearPlantMap = {
       "image": "./assets/portraits/fish/b14.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Magnetfin"
+      "mapCategory": "Magnetfin",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b14.png"
     },
     {
       "id": "b21",
@@ -750,7 +769,8 @@ export const nuclearPlantMap = {
       "image": "./assets/portraits/fish/b21.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "YellowSubmarineCod"
+      "mapCategory": "YellowSubmarineCod",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b21.png"
     },
     {
       "id": "b22",
@@ -784,7 +804,8 @@ export const nuclearPlantMap = {
       "image": "./assets/portraits/fish/b22.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Devil Mutanoid"
+      "mapCategory": "Devil Mutanoid",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b22.png"
     },
     {
       "id": "b11",
@@ -818,7 +839,8 @@ export const nuclearPlantMap = {
       "image": "./assets/portraits/fish/b11.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Giant Bus Bass"
+      "mapCategory": "Giant Bus Bass",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/b11.png"
     },
     {
       "id": "cb9",
@@ -854,7 +876,8 @@ export const nuclearPlantMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Wireviper"
+      "mapCategory": "Wireviper",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/cb9.png"
     },
     {
       "id": "cb1",
@@ -962,7 +985,8 @@ export const nuclearPlantMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Ironhelm Turtle"
+      "mapCategory": "Ironhelm Turtle",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/cb4.png"
     },
     {
       "id": "cb6",
@@ -1150,10 +1174,11 @@ export const nuclearPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/tb1.png",
+      "image": "./assets/portraits-mapicons/nuclear-plant/tb1.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Bowling Ball"
+      "mapCategory": "Bowling Ball",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/tb1.png"
     },
     {
       "id": "tb2",
@@ -1226,10 +1251,11 @@ export const nuclearPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/tb5.png",
+      "image": "./assets/portraits-mapicons/nuclear-plant/tb5.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "“Cat Eye” Glasses"
+      "mapCategory": "“Cat Eye” Glasses",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/tb5.png"
     },
     {
       "id": "tb6",
@@ -1302,10 +1328,11 @@ export const nuclearPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/tb9.png",
+      "image": "./assets/portraits-mapicons/nuclear-plant/tb9.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Book “Understanding ATOM\""
+      "mapCategory": "Book “Understanding ATOM\"",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/tb9.png"
     },
     {
       "id": "tb10",
@@ -1321,10 +1348,11 @@ export const nuclearPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/tb10.png",
+      "image": "./assets/portraits-mapicons/nuclear-plant/tb10.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Unique Scientific Catcher"
+      "mapCategory": "Unique Scientific Catcher",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/tb10.png"
     },
     {
       "id": "tb11",
@@ -1359,10 +1387,11 @@ export const nuclearPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/tb12.png",
+      "image": "./assets/portraits-mapicons/nuclear-plant/tb12.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "VHS Tape “Mudmax\""
+      "mapCategory": "VHS Tape “Mudmax\"",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/tb12.png"
     },
     {
       "id": "tb13",
@@ -1397,10 +1426,11 @@ export const nuclearPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/tb14.png",
+      "image": "./assets/portraits-mapicons/nuclear-plant/tb14.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Punch Card"
+      "mapCategory": "Punch Card",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/tb14.png"
     },
     {
       "id": "tb25",
@@ -1435,10 +1465,11 @@ export const nuclearPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/tb15.png",
+      "image": "./assets/portraits-mapicons/nuclear-plant/tb15.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Bottle of Rocket Cola"
+      "mapCategory": "Bottle of Rocket Cola",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/tb15.png"
     },
     {
       "id": "tb16",
@@ -1454,10 +1485,11 @@ export const nuclearPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/tb16.png",
+      "image": "./assets/portraits-mapicons/nuclear-plant/tb16.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Candy Dispenser"
+      "mapCategory": "Candy Dispenser",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/tb16.png"
     },
     {
       "id": "tb17",
@@ -1473,10 +1505,11 @@ export const nuclearPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/tb17.png",
+      "image": "./assets/portraits-mapicons/nuclear-plant/tb17.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Control Chip"
+      "mapCategory": "Control Chip",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/tb17.png"
     },
     {
       "id": "tb18",
@@ -1568,10 +1601,11 @@ export const nuclearPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/tb22.png",
+      "image": "./assets/portraits-mapicons/nuclear-plant/tb22.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Uranophane"
+      "mapCategory": "Uranophane",
+      "altImage": "./assets/portraits-mapicons/nuclear-plant/tb22.png"
     },
     {
       "id": "tb23",

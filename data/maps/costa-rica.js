@@ -39,6 +39,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/21.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/21.png",
       "shadowSizes": [
         1
       ],
@@ -78,6 +79,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/22.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/22.png",
       "shadowSizes": [
         1
       ],
@@ -120,6 +122,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/23.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/23.png",
       "shadowSizes": [
         1
       ],
@@ -160,6 +163,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/24.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/24.png",
       "shadowSizes": [
         0
       ],
@@ -200,6 +204,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/25.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/25.png",
       "shadowSizes": [
         2,
         3
@@ -240,6 +245,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/26.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/26.png",
       "shadowSizes": [
         1
       ],
@@ -279,6 +285,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/27.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/27.png",
       "shadowSizes": [
         3
       ],
@@ -320,6 +327,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/28.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/28.png",
       "shadowSizes": [
         3
       ],
@@ -359,6 +367,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/29.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/29.png",
       "shadowSizes": [
         0
       ],
@@ -398,6 +407,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/210.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/210.png",
       "shadowSizes": [
         1,
         3
@@ -438,6 +448,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/211.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/211.png",
       "shadowSizes": [
         1
       ],
@@ -478,6 +489,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/212.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/212.png",
       "shadowSizes": [
         1
       ],
@@ -519,6 +531,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/213.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/213.png",
       "shadowSizes": [
         3
       ],
@@ -558,6 +571,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/214.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/214.png",
       "shadowSizes": [
         1
       ],
@@ -598,6 +612,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/215.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/215.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Blue Marlin"
@@ -633,6 +648,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/216.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/216.png",
       "shadowSizes": [
         3
       ],
@@ -672,6 +688,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/217.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/217.png",
       "shadowSizes": [
         1,
         3
@@ -712,6 +729,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/218.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/218.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Black Marlin"
@@ -746,6 +764,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/219.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/219.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Bull Shark"
@@ -780,6 +799,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/220.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/220.png",
       "shadowSizes": [
         3
       ],
@@ -818,6 +838,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/221.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/221.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Whale Shark"
@@ -853,6 +874,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/222.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/222.png",
       "shadowSizes": [
         1,
         3
@@ -892,7 +914,8 @@ export const costaRicaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c2-1.png",
+      "image": "./assets/portraits-mapicons/costa-rica/c2-1.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/c2-1.png",
       "shadowSizes": [
         0
       ],
@@ -929,7 +952,8 @@ export const costaRicaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c2-2.png",
+      "image": "./assets/portraits-mapicons/costa-rica/c2-2.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/c2-2.png",
       "shadowSizes": [
         0
       ],
@@ -965,7 +989,8 @@ export const costaRicaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c2-3.png",
+      "image": "./assets/portraits-mapicons/costa-rica/c2-3.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/c2-3.png",
       "shadowSizes": [
         0
       ],
@@ -1001,7 +1026,8 @@ export const costaRicaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c2-4.png",
+      "image": "./assets/portraits-mapicons/costa-rica/c2-4.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/c2-4.png",
       "shadowSizes": [
         0
       ],
@@ -1038,7 +1064,8 @@ export const costaRicaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c2-5.png",
+      "image": "./assets/portraits-mapicons/costa-rica/c2-5.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/c2-5.png",
       "shadowSizes": [
         0
       ],
@@ -1077,7 +1104,8 @@ export const costaRicaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c2-6.png",
+      "image": "./assets/portraits-mapicons/costa-rica/c2-6.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/c2-6.png",
       "shadowSizes": [
         0
       ],
@@ -1115,7 +1143,8 @@ export const costaRicaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c2-7.png",
+      "image": "./assets/portraits-mapicons/costa-rica/c2-7.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/c2-7.png",
       "shadowSizes": [
         0
       ],
@@ -1152,7 +1181,8 @@ export const costaRicaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c2-8.png",
+      "image": "./assets/portraits-mapicons/costa-rica/c2-8.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/c2-8.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "American Crocodile"
@@ -1186,7 +1216,8 @@ export const costaRicaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c2-9.png",
+      "image": "./assets/portraits-mapicons/costa-rica/c2-9.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/c2-9.png",
       "shadowSizes": [
         0
       ],
@@ -1210,7 +1241,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-1.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-1.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-1.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Anchor"
@@ -1232,7 +1264,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-2.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-2.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-2.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Key with a Chain"
@@ -1253,7 +1286,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-3.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-3.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-3.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Bicycle Frame"
@@ -1276,7 +1310,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-4.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-4.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-4.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Bikini Top"
@@ -1297,7 +1332,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-5.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-5.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-5.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Bottle Santa Maria"
@@ -1318,7 +1354,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-6.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-6.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-6.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Broken Coral"
@@ -1340,7 +1377,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-7.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-7.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-7.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Chip Bag"
@@ -1361,7 +1399,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-8.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-8.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-8.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Coconut"
@@ -1382,7 +1421,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-9.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-9.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-9.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Costa Rican Vase"
@@ -1404,7 +1444,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-10.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-10.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-10.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Fish Can"
@@ -1427,7 +1468,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-11.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-11.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-11.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Flipper"
@@ -1448,7 +1490,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-13.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-13.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-13.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Inflatable Flamingo"
@@ -1470,7 +1513,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-15.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-15.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-15.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Oil Barrel"
@@ -1493,7 +1537,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-16.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-16.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-16.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Orange Cassette"
@@ -1515,7 +1560,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-17.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-17.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-17.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Oxcart Wheel"
@@ -1536,7 +1582,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-18.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-18.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-18.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Palm Leaf"
@@ -1558,7 +1605,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-19.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-19.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-19.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Pirate Hat"
@@ -1579,7 +1627,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-20.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-20.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-20.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Pirate Spyglass"
@@ -1600,7 +1649,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-21.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-21.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-21.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Rubber Crocodile"
@@ -1622,7 +1672,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-22.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-22.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-22.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Scuba Diver Mask"
@@ -1643,7 +1694,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-23.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-23.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-23.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Ship Bell from Santa Maria"
@@ -1664,7 +1716,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-24.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-24.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-24.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Steel Hook"
@@ -1686,7 +1739,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-25.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-25.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-25.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Surfboard"
@@ -1708,7 +1762,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-26.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-26.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-26.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Treasure Chest"
@@ -1731,7 +1786,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-27.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-27.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-27.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Volcanic Rock"
@@ -1753,7 +1809,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-28.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-28.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-28.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Watermelon Vinyl Record"
@@ -1775,7 +1832,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-29.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-29.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-29.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Waterproof Watch"
@@ -1797,7 +1855,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-30.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-30.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-30.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "White Bottle"
@@ -1818,7 +1877,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-31.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-31.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-31.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Wooden Leg"
@@ -1839,7 +1899,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-32.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-32.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-32.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Yellow Floppy Disk 5.25"
@@ -1862,7 +1923,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-14.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-14.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-14.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Mysterious Stone Sphere"
@@ -1883,7 +1945,8 @@ export const costaRicaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T3-12.png",
+      "image": "./assets/portraits-mapicons/costa-rica/T3-12.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/T3-12.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Fridge Magnet"
@@ -1920,6 +1983,7 @@ export const costaRicaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/223.png",
+      "altImage": "./assets/portraits-mapicons/costa-rica/223.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Don Pedro"

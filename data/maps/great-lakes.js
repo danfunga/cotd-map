@@ -37,6 +37,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/11.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/11.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Alewife"
@@ -72,6 +73,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/12.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/12.png",
       "shadowSizes": [
         1
       ],
@@ -111,6 +113,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/13.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/13.png",
       "shadowSizes": [
         1,
         3
@@ -151,6 +154,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/14.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/14.png",
       "shadowSizes": [
         1
       ],
@@ -190,6 +194,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/15.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/15.png",
       "shadowSizes": [
         0
       ],
@@ -229,6 +234,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/16.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/16.png",
       "shadowSizes": [
         0
       ],
@@ -268,6 +274,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/17.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/17.png",
       "shadowSizes": [
         0
       ],
@@ -308,6 +315,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/18.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/18.png",
       "shadowSizes": [
         1
       ],
@@ -348,6 +356,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/19.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/19.png",
       "shadowSizes": [
         0
       ],
@@ -387,6 +396,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/110.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/110.png",
       "shadowSizes": [
         0
       ],
@@ -426,6 +436,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/111.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/111.png",
       "shadowSizes": [
         1
       ],
@@ -465,6 +476,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/112.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/112.png",
       "shadowSizes": [
         0
       ],
@@ -503,6 +515,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/113.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/113.png",
       "shadowSizes": [
         0
       ],
@@ -544,6 +557,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/114.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/114.png",
       "shadowSizes": [
         1
       ],
@@ -584,6 +598,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/115.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/115.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Bloater"
@@ -620,6 +635,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/116.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/116.png",
       "shadowSizes": [
         1
       ],
@@ -659,6 +675,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/117.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/117.png",
       "shadowSizes": [
         3
       ],
@@ -698,6 +715,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/118.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/118.png",
       "shadowSizes": [
         1
       ],
@@ -739,6 +757,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/119.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/119.png",
       "shadowSizes": [
         1,
         3
@@ -779,6 +798,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/120.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/120.png",
       "shadowSizes": [
         1
       ],
@@ -818,6 +838,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/121.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/121.png",
       "shadowSizes": [
         1
       ],
@@ -856,6 +877,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/122.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/122.png",
       "shadowSizes": [
         1
       ],
@@ -894,6 +916,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/123.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/123.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Goldfish"
@@ -928,6 +951,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/124.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/124.png",
       "shadowSizes": [
         3
       ],
@@ -966,7 +990,8 @@ export const greatLakesMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c1-1.png",
+      "image": "./assets/portraits-mapicons/great-lakes/c1-1.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/c1-1.png",
       "shadowSizes": [
         0
       ],
@@ -1003,7 +1028,8 @@ export const greatLakesMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c1-2.png",
+      "image": "./assets/portraits-mapicons/great-lakes/c1-2.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/c1-2.png",
       "shadowSizes": [
         0
       ],
@@ -1039,7 +1065,8 @@ export const greatLakesMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c1-3.png",
+      "image": "./assets/portraits-mapicons/great-lakes/c1-3.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/c1-3.png",
       "shadowSizes": [
         0
       ],
@@ -1076,7 +1103,8 @@ export const greatLakesMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c1-4.png",
+      "image": "./assets/portraits-mapicons/great-lakes/c1-4.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/c1-4.png",
       "shadowSizes": [
         0
       ],
@@ -1112,7 +1140,8 @@ export const greatLakesMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c1-5.png",
+      "image": "./assets/portraits-mapicons/great-lakes/c1-5.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/c1-5.png",
       "shadowSizes": [
         0
       ],
@@ -1148,7 +1177,8 @@ export const greatLakesMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c1-6.png",
+      "image": "./assets/portraits-mapicons/great-lakes/c1-6.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/c1-6.png",
       "shadowSizes": [
         0
       ],
@@ -1187,7 +1217,8 @@ export const greatLakesMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c1-7.png",
+      "image": "./assets/portraits-mapicons/great-lakes/c1-7.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/c1-7.png",
       "shadowSizes": [
         0
       ],
@@ -1226,7 +1257,8 @@ export const greatLakesMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c1-8.png",
+      "image": "./assets/portraits-mapicons/great-lakes/c1-8.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/c1-8.png",
       "shadowSizes": [
         0
       ],
@@ -1265,7 +1297,8 @@ export const greatLakesMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c1-9.png",
+      "image": "./assets/portraits-mapicons/great-lakes/c1-9.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/c1-9.png",
       "shadowSizes": [
         0
       ],
@@ -1288,7 +1321,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-1.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-1.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-1.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Baseball Hat"
@@ -1310,7 +1344,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-2.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-2.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-2.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Al'Capone Cap"
@@ -1331,7 +1366,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-3.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-3.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-3.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Beaver Hat"
@@ -1352,7 +1388,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-4.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-4.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-4.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Colorful Headdress"
@@ -1373,7 +1410,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-5.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-5.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-5.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Arrow"
@@ -1393,6 +1431,7 @@ export const greatLakesMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T2-6.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -1414,7 +1453,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-7.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-7.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-7.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Basketball"
@@ -1438,7 +1478,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-8.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-8.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-8.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Beverage Can"
@@ -1460,7 +1501,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-9.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-9.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-9.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Can Soup"
@@ -1482,7 +1524,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-10.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-10.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-10.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Chip Bag"
@@ -1502,6 +1545,7 @@ export const greatLakesMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T2-11.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -1523,7 +1567,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-12.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-12.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-12.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Concrete Shoe"
@@ -1546,7 +1591,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-13.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-13.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-13.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Duct Tape"
@@ -1570,7 +1616,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-14.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-14.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-14.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Fish Can"
@@ -1591,7 +1638,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-15.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-15.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-15.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Glass Bottle with XXX Sign"
@@ -1611,6 +1659,7 @@ export const greatLakesMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T2-16.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -1630,6 +1679,7 @@ export const greatLakesMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T2-17.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -1650,7 +1700,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-18.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-18.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-18.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Hot Dog"
@@ -1674,7 +1725,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-19.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-19.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-19.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Meat Can"
@@ -1697,7 +1749,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-20.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-20.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-20.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Old Branch"
@@ -1720,7 +1773,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-21.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-21.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-21.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Old Tire"
@@ -1741,7 +1795,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-22.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-22.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-22.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Pipe"
@@ -1763,7 +1818,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-23.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-23.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-23.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Plastic Bottle"
@@ -1784,7 +1840,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-24.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-24.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-24.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Toxic Barrel"
@@ -1805,7 +1862,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-25.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-25.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-25.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Tribal Chest"
@@ -1831,7 +1889,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-26.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-26.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-26.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Tribal Key"
@@ -1854,7 +1913,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-27.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-27.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-27.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Vegetable Can"
@@ -1875,7 +1935,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-28.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-28.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-28.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Video Cassette"
@@ -1896,7 +1957,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-29.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-29.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-29.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Vinyl Record"
@@ -1916,6 +1978,7 @@ export const greatLakesMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T2-30.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -1936,7 +1999,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-31.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-31.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-31.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Mouse Glove"
@@ -1957,7 +2021,8 @@ export const greatLakesMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T2-32.png",
+      "image": "./assets/portraits-mapicons/great-lakes/T2-32.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/T2-32.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Fridge Magnet"
@@ -1995,6 +2060,7 @@ export const greatLakesMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/125.png",
+      "altImage": "./assets/portraits-mapicons/great-lakes/125.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Bessie"

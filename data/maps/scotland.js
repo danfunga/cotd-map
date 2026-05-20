@@ -37,6 +37,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/523.png",
+      "altImage": "./assets/portraits-mapicons/scotland/523.png",
       "shadowSizes": [
         1
       ],
@@ -76,6 +77,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/524.png",
+      "altImage": "./assets/portraits-mapicons/scotland/524.png",
       "shadowSizes": [
         1
       ],
@@ -115,6 +117,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/525.png",
+      "altImage": "./assets/portraits-mapicons/scotland/525.png",
       "shadowSizes": [
         1,
         3
@@ -154,6 +157,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/526.png",
+      "altImage": "./assets/portraits-mapicons/scotland/526.png",
       "shadowSizes": [
         0
       ],
@@ -192,6 +196,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/527.png",
+      "altImage": "./assets/portraits-mapicons/scotland/527.png",
       "shadowSizes": [
         0
       ],
@@ -230,6 +235,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/51.png",
+      "altImage": "./assets/portraits-mapicons/scotland/51.png",
       "shadowSizes": [
         0
       ],
@@ -271,6 +277,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/52.png",
+      "altImage": "./assets/portraits-mapicons/scotland/52.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Three-spined Stickleback"
@@ -306,6 +313,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/53.png",
+      "altImage": "./assets/portraits-mapicons/scotland/53.png",
       "shadowSizes": [
         1
       ],
@@ -347,6 +355,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/54.png",
+      "altImage": "./assets/portraits-mapicons/scotland/54.png",
       "shadowSizes": [
         1
       ],
@@ -389,6 +398,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/55.png",
+      "altImage": "./assets/portraits-mapicons/scotland/55.png",
       "shadowSizes": [
         1
       ],
@@ -429,6 +439,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/56.png",
+      "altImage": "./assets/portraits-mapicons/scotland/56.png",
       "shadowSizes": [
         1
       ],
@@ -469,6 +480,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/57.png",
+      "altImage": "./assets/portraits-mapicons/scotland/57.png",
       "shadowSizes": [
         1
       ],
@@ -508,6 +520,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/58.png",
+      "altImage": "./assets/portraits-mapicons/scotland/58.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Gudgeon"
@@ -544,6 +557,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/59.png",
+      "altImage": "./assets/portraits-mapicons/scotland/59.png",
       "shadowSizes": [
         1
       ],
@@ -587,6 +601,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/510.png",
+      "altImage": "./assets/portraits-mapicons/scotland/510.png",
       "shadowSizes": [
         1
       ],
@@ -631,6 +646,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/511.png",
+      "altImage": "./assets/portraits-mapicons/scotland/511.png",
       "shadowSizes": [
         1
       ],
@@ -676,6 +692,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/512.png",
+      "altImage": "./assets/portraits-mapicons/scotland/512.png",
       "shadowSizes": [
         1
       ],
@@ -716,6 +733,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/513.png",
+      "altImage": "./assets/portraits-mapicons/scotland/513.png",
       "shadowSizes": [
         1
       ],
@@ -760,6 +778,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/514.png",
+      "altImage": "./assets/portraits-mapicons/scotland/514.png",
       "shadowSizes": [
         1
       ],
@@ -802,6 +821,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/515.png",
+      "altImage": "./assets/portraits-mapicons/scotland/515.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "European Smelt"
@@ -838,6 +858,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/516.png",
+      "altImage": "./assets/portraits-mapicons/scotland/516.png",
       "shadowSizes": [
         1
       ],
@@ -878,6 +899,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/517.png",
+      "altImage": "./assets/portraits-mapicons/scotland/517.png",
       "shadowSizes": [
         1
       ],
@@ -917,6 +939,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/518.png",
+      "altImage": "./assets/portraits-mapicons/scotland/518.png",
       "shadowSizes": [
         1
       ],
@@ -956,6 +979,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/519.png",
+      "altImage": "./assets/portraits-mapicons/scotland/519.png",
       "shadowSizes": [
         1
       ],
@@ -992,6 +1016,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/520.png",
+      "altImage": "",
       "shadowSizes": [
         1
       ],
@@ -1032,6 +1057,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/521.png",
+      "altImage": "./assets/portraits-mapicons/scotland/521.png",
       "shadowSizes": [
         3
       ],
@@ -1072,7 +1098,8 @@ export const scotlandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c5-0.png",
+      "image": "./assets/portraits-mapicons/scotland/c5-0.png",
+      "altImage": "./assets/portraits-mapicons/scotland/c5-0.png",
       "shadowSizes": [
         0
       ],
@@ -1110,7 +1137,8 @@ export const scotlandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c5-1.png",
+      "image": "./assets/portraits-mapicons/scotland/c5-1.png",
+      "altImage": "./assets/portraits-mapicons/scotland/c5-1.png",
       "shadowSizes": [
         0
       ],
@@ -1149,7 +1177,8 @@ export const scotlandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c5-2.png",
+      "image": "./assets/portraits-mapicons/scotland/c5-2.png",
+      "altImage": "./assets/portraits-mapicons/scotland/c5-2.png",
       "shadowSizes": [
         0
       ],
@@ -1189,7 +1218,8 @@ export const scotlandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c5-3.png",
+      "image": "./assets/portraits-mapicons/scotland/c5-3.png",
+      "altImage": "./assets/portraits-mapicons/scotland/c5-3.png",
       "shadowSizes": [
         0
       ],
@@ -1226,7 +1256,8 @@ export const scotlandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c5-4.png",
+      "image": "./assets/portraits-mapicons/scotland/c5-4.png",
+      "altImage": "./assets/portraits-mapicons/scotland/c5-4.png",
       "shadowSizes": [
         0
       ],
@@ -1263,7 +1294,8 @@ export const scotlandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c5-5.png",
+      "image": "./assets/portraits-mapicons/scotland/c5-5.png",
+      "altImage": "./assets/portraits-mapicons/scotland/c5-5.png",
       "shadowSizes": [
         0
       ],
@@ -1300,7 +1332,8 @@ export const scotlandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c5-6.png",
+      "image": "./assets/portraits-mapicons/scotland/c5-6.png",
+      "altImage": "./assets/portraits-mapicons/scotland/c5-6.png",
       "shadowSizes": [
         0
       ],
@@ -1338,7 +1371,8 @@ export const scotlandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c5-7.png",
+      "image": "./assets/portraits-mapicons/scotland/c5-7.png",
+      "altImage": "./assets/portraits-mapicons/scotland/c5-7.png",
       "shadowSizes": [
         0
       ],
@@ -1376,7 +1410,8 @@ export const scotlandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c5-8.png",
+      "image": "./assets/portraits-mapicons/scotland/c5-8.png",
+      "altImage": "./assets/portraits-mapicons/scotland/c5-8.png",
       "shadowSizes": [
         0
       ],
@@ -1416,7 +1451,8 @@ export const scotlandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c5-9.png",
+      "image": "./assets/portraits-mapicons/scotland/c5-9.png",
+      "altImage": "./assets/portraits-mapicons/scotland/c5-9.png",
       "shadowSizes": [
         0
       ],
@@ -1457,7 +1493,8 @@ export const scotlandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c5-10.png",
+      "image": "./assets/portraits-mapicons/scotland/c5-10.png",
+      "altImage": "./assets/portraits-mapicons/scotland/c5-10.png",
       "shadowSizes": [
         0
       ],
@@ -1493,7 +1530,8 @@ export const scotlandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c5-11.png",
+      "image": "./assets/portraits-mapicons/scotland/c5-11.png",
+      "altImage": "./assets/portraits-mapicons/scotland/c5-11.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Natterjack Toad"
@@ -1532,7 +1570,8 @@ export const scotlandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c5-12.png",
+      "image": "./assets/portraits-mapicons/scotland/c5-12.png",
+      "altImage": "./assets/portraits-mapicons/scotland/c5-12.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Great Crested Newt"
@@ -1553,7 +1592,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-35.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-35.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-35.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Thistle"
@@ -1574,7 +1614,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-1.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-1.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-1.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Armor"
@@ -1595,7 +1636,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-2.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-2.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-2.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Bag Pipes"
@@ -1617,7 +1659,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-3.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-3.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-3.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Black Pudding"
@@ -1638,7 +1681,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-4.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-4.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-4.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Caber"
@@ -1660,7 +1704,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-5.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-5.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-5.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Cauldron"
@@ -1681,7 +1726,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-6.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-6.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-6.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Chess Piece"
@@ -1702,7 +1748,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-7.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-7.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-7.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Chip Bag"
@@ -1726,7 +1773,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-8.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-8.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-8.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Floppy Disk 5.25 Blue"
@@ -1747,7 +1795,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-9.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-9.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-9.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Golf Ball"
@@ -1768,7 +1817,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-10.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-10.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-10.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Golf Club"
@@ -1789,7 +1839,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-11.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-11.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-11.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Golf Clubs Bag"
@@ -1810,7 +1861,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-12.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-12.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-12.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Haggis"
@@ -1831,7 +1883,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-13.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-13.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-13.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Kilt"
@@ -1853,7 +1906,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-14.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-14.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-14.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Medieval Chest"
@@ -1877,7 +1931,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-15.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-15.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-15.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Medieval Key"
@@ -1898,7 +1953,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-16.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-16.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-16.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Medieval Mug"
@@ -1920,7 +1976,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-17.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-17.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-17.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Mistletoe"
@@ -1944,7 +2001,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-18.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-18.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-18.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Old Boot"
@@ -1967,7 +2025,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-19.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-19.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-19.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Robby Burns Poetry"
@@ -1990,7 +2049,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-20.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-20.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-20.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Scottish Hat"
@@ -2013,7 +2073,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-21.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-21.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-21.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Sporran"
@@ -2036,7 +2097,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-22.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-22.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-22.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Stone Block"
@@ -2058,7 +2120,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-23.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-23.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-23.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Tea Pot"
@@ -2079,7 +2142,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-24.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-24.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-24.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Unicorn Horn"
@@ -2100,7 +2164,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-25.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-25.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-25.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Vinyl Record"
@@ -2122,7 +2187,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-26.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-26.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-26.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Whisky Scotch Bottle"
@@ -2142,6 +2208,7 @@ export const scotlandMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T6-27.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -2161,6 +2228,7 @@ export const scotlandMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T6-28.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -2181,7 +2249,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-29.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-29.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-29.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Weird Stone"
@@ -2202,7 +2271,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-30.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-30.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-30.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Nessie Toy"
@@ -2223,7 +2293,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-31.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-31.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-31.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Old mini yellow submarine"
@@ -2244,7 +2315,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-32.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-32.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-32.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Golden Apple"
@@ -2265,7 +2337,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-33.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-33.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-33.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Excalibur"
@@ -2286,7 +2359,8 @@ export const scotlandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T6-34.png",
+      "image": "./assets/portraits-mapicons/scotland/T6-34.png",
+      "altImage": "./assets/portraits-mapicons/scotland/T6-34.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Fridge Magnet"
@@ -2326,6 +2400,7 @@ export const scotlandMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/522.png",
+      "altImage": "./assets/portraits-mapicons/scotland/522.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Nessie"

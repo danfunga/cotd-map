@@ -38,7 +38,8 @@ export const thailandMap = {
       "image": "./assets/portraits/fish/63.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Pla-Kad Thong"
+      "mapCategory": "Pla-Kad Thong",
+      "altImage": "./assets/portraits-mapicons/thailand/63.png"
     },
     {
       "id": "614",
@@ -73,7 +74,8 @@ export const thailandMap = {
       "image": "./assets/portraits/fish/614.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Rice Eel"
+      "mapCategory": "Rice Eel",
+      "altImage": "./assets/portraits-mapicons/thailand/614.png"
     },
     {
       "id": "62",
@@ -113,7 +115,8 @@ export const thailandMap = {
         0,
         1
       ],
-      "mapCategory": "Bighead Carp"
+      "mapCategory": "Bighead Carp",
+      "altImage": "./assets/portraits-mapicons/thailand/62.png"
     },
     {
       "id": "625",
@@ -153,7 +156,8 @@ export const thailandMap = {
         0,
         1
       ],
-      "mapCategory": "Aligator Gar"
+      "mapCategory": "Aligator Gar",
+      "altImage": "./assets/portraits-mapicons/thailand/625.png"
     },
     {
       "id": "619",
@@ -194,7 +198,8 @@ export const thailandMap = {
         0,
         1
       ],
-      "mapCategory": "Spotted Sorubim"
+      "mapCategory": "Spotted Sorubim",
+      "altImage": "./assets/portraits-mapicons/thailand/619.png"
     },
     {
       "id": "612",
@@ -233,7 +238,8 @@ export const thailandMap = {
         1,
         2
       ],
-      "mapCategory": "Marbled Sand Goby"
+      "mapCategory": "Marbled Sand Goby",
+      "altImage": "./assets/portraits-mapicons/thailand/612.png"
     },
     {
       "id": "621",
@@ -274,7 +280,8 @@ export const thailandMap = {
         0,
         1
       ],
-      "mapCategory": "Tapah"
+      "mapCategory": "Tapah",
+      "altImage": "./assets/portraits-mapicons/thailand/621.png"
     },
     {
       "id": "615",
@@ -315,7 +322,8 @@ export const thailandMap = {
         0,
         1
       ],
-      "mapCategory": "Red-Tail Tiger Catfish"
+      "mapCategory": "Red-Tail Tiger Catfish",
+      "altImage": "./assets/portraits-mapicons/thailand/615.png"
     },
     {
       "id": "65",
@@ -355,7 +363,8 @@ export const thailandMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Giant Devil Catfish"
+      "mapCategory": "Giant Devil Catfish",
+      "altImage": "./assets/portraits-mapicons/thailand/65.png"
     },
     {
       "id": "622",
@@ -394,7 +403,8 @@ export const thailandMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Empurau"
+      "mapCategory": "Empurau",
+      "altImage": "./assets/portraits-mapicons/thailand/622.png"
     },
     {
       "id": "69",
@@ -433,7 +443,8 @@ export const thailandMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Great Snakehead"
+      "mapCategory": "Great Snakehead",
+      "altImage": "./assets/portraits-mapicons/thailand/69.png"
     },
     {
       "id": "624",
@@ -469,7 +480,8 @@ export const thailandMap = {
       "image": "./assets/portraits/fish/624.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Yellow Mystus"
+      "mapCategory": "Yellow Mystus",
+      "altImage": "./assets/portraits-mapicons/thailand/624.png"
     },
     {
       "id": "623",
@@ -512,7 +524,8 @@ export const thailandMap = {
         1,
         2
       ],
-      "mapCategory": "Wallago"
+      "mapCategory": "Wallago",
+      "altImage": "./assets/portraits-mapicons/thailand/623.png"
     },
     {
       "id": "618",
@@ -553,7 +566,8 @@ export const thailandMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Black Ear Catfish"
+      "mapCategory": "Black Ear Catfish",
+      "altImage": "./assets/portraits-mapicons/thailand/618.png"
     },
     {
       "id": "617",
@@ -596,7 +610,8 @@ export const thailandMap = {
         0,
         1
       ],
-      "mapCategory": "Rohu"
+      "mapCategory": "Rohu",
+      "altImage": "./assets/portraits-mapicons/thailand/617.png"
     },
     {
       "id": "616",
@@ -635,7 +650,8 @@ export const thailandMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Ripsaw Catfish"
+      "mapCategory": "Ripsaw Catfish",
+      "altImage": "./assets/portraits-mapicons/thailand/616.png"
     },
     {
       "id": "611",
@@ -672,7 +688,8 @@ export const thailandMap = {
       "image": "./assets/portraits/fish/611.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Malayan Leaffish"
+      "mapCategory": "Malayan Leaffish",
+      "altImage": "./assets/portraits-mapicons/thailand/611.png"
     },
     {
       "id": "61",
@@ -713,7 +730,8 @@ export const thailandMap = {
         0,
         1
       ],
-      "mapCategory": "Bambusa"
+      "mapCategory": "Bambusa",
+      "altImage": "./assets/portraits-mapicons/thailand/61.png"
     },
     {
       "id": "64",
@@ -752,7 +770,8 @@ export const thailandMap = {
         1,
         2
       ],
-      "mapCategory": "Fire Eel"
+      "mapCategory": "Fire Eel",
+      "altImage": "./assets/portraits-mapicons/thailand/64.png"
     },
     {
       "id": "66",
@@ -787,7 +806,8 @@ export const thailandMap = {
       "image": "./assets/portraits/fish/66.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Giant Freshwater Whipray"
+      "mapCategory": "Giant Freshwater Whipray",
+      "altImage": "./assets/portraits-mapicons/thailand/66.png"
     },
     {
       "id": "620",
@@ -825,7 +845,8 @@ export const thailandMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Striped Catfish"
+      "mapCategory": "Striped Catfish",
+      "altImage": "./assets/portraits-mapicons/thailand/620.png"
     },
     {
       "id": "67",
@@ -865,7 +886,8 @@ export const thailandMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Giant Pangasius"
+      "mapCategory": "Giant Pangasius",
+      "altImage": "./assets/portraits-mapicons/thailand/67.png"
     },
     {
       "id": "613",
@@ -903,7 +925,8 @@ export const thailandMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Mekong Giant Catfish"
+      "mapCategory": "Mekong Giant Catfish",
+      "altImage": "./assets/portraits-mapicons/thailand/613.png"
     },
     {
       "id": "610",
@@ -942,7 +965,8 @@ export const thailandMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Jullien's Golden Prize Carp"
+      "mapCategory": "Jullien's Golden Prize Carp",
+      "altImage": "./assets/portraits-mapicons/thailand/610.png"
     },
     {
       "id": "68",
@@ -980,7 +1004,8 @@ export const thailandMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Giant Siamese"
+      "mapCategory": "Giant Siamese",
+      "altImage": "./assets/portraits-mapicons/thailand/68.png"
     },
     {
       "id": "c6-0",
@@ -1011,12 +1036,13 @@ export const thailandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c6-0.png",
+      "image": "./assets/portraits-mapicons/thailand/c6-0.png",
       "shadowSizes": [
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Rainbow Water Snake"
+      "mapCategory": "Rainbow Water Snake",
+      "altImage": "./assets/portraits-mapicons/thailand/c6-0.png"
     },
     {
       "id": "c6-1",
@@ -1047,10 +1073,11 @@ export const thailandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c6-1.png",
+      "image": "./assets/portraits-mapicons/thailand/c6-1.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Green Paddy Frog"
+      "mapCategory": "Green Paddy Frog",
+      "altImage": "./assets/portraits-mapicons/thailand/c6-1.png"
     },
     {
       "id": "c6-2",
@@ -1081,12 +1108,13 @@ export const thailandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c6-2.png",
+      "image": "./assets/portraits-mapicons/thailand/c6-2.png",
       "shadowSizes": [
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Thai Giant Frog"
+      "mapCategory": "Thai Giant Frog",
+      "altImage": "./assets/portraits-mapicons/thailand/c6-2.png"
     },
     {
       "id": "c6-3",
@@ -1117,12 +1145,13 @@ export const thailandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c6-3.png",
+      "image": "./assets/portraits-mapicons/thailand/c6-3.png",
       "shadowSizes": [
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Chinese Water Dragon"
+      "mapCategory": "Chinese Water Dragon",
+      "altImage": "./assets/portraits-mapicons/thailand/c6-3.png"
     },
     {
       "id": "c6-4",
@@ -1153,10 +1182,11 @@ export const thailandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c6-4.png",
+      "image": "./assets/portraits-mapicons/thailand/c6-4.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Water Scorpion"
+      "mapCategory": "Water Scorpion",
+      "altImage": "./assets/portraits-mapicons/thailand/c6-4.png"
     },
     {
       "id": "c6-8",
@@ -1187,10 +1217,11 @@ export const thailandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c6-8.png",
+      "image": "./assets/portraits-mapicons/thailand/c6-8.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Thai Devil Crab"
+      "mapCategory": "Thai Devil Crab",
+      "altImage": "./assets/portraits-mapicons/thailand/c6-8.png"
     },
     {
       "id": "c6-9",
@@ -1221,10 +1252,11 @@ export const thailandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c6-9.png",
+      "image": "./assets/portraits-mapicons/thailand/c6-9.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Pomacea"
+      "mapCategory": "Pomacea",
+      "altImage": "./assets/portraits-mapicons/thailand/c6-9.png"
     },
     {
       "id": "c6-5",
@@ -1258,12 +1290,13 @@ export const thailandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c6-5.png",
+      "image": "./assets/portraits-mapicons/thailand/c6-5.png",
       "shadowSizes": [
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Giant Asian Pond Turtle"
+      "mapCategory": "Giant Asian Pond Turtle",
+      "altImage": "./assets/portraits-mapicons/thailand/c6-5.png"
     },
     {
       "id": "c6-6",
@@ -1294,12 +1327,13 @@ export const thailandMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c6-6.png",
+      "image": "./assets/portraits-mapicons/thailand/c6-6.png",
       "shadowSizes": [
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Asian Small-Clawed Otter"
+      "mapCategory": "Asian Small-Clawed Otter",
+      "altImage": "./assets/portraits-mapicons/thailand/c6-6.png"
     },
     {
       "id": "c6-7",
@@ -1349,10 +1383,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-1.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-1.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Ancient Statue"
+      "mapCategory": "Ancient Statue",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-1.png"
     },
     {
       "id": "T7-2",
@@ -1370,10 +1405,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-2.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-2.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Bamboo"
+      "mapCategory": "Bamboo",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-2.png"
     },
     {
       "id": "T7-3",
@@ -1391,10 +1427,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-3.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-3.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Banana Leaf"
+      "mapCategory": "Banana Leaf",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-3.png"
     },
     {
       "id": "T7-4",
@@ -1412,10 +1449,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-4.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-4.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Bowl of Rice"
+      "mapCategory": "Bowl of Rice",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-4.png"
     },
     {
       "id": "T7-5",
@@ -1433,10 +1471,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-5.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-5.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Bubba Gump Cap"
+      "mapCategory": "Bubba Gump Cap",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-5.png"
     },
     {
       "id": "T7-6",
@@ -1454,10 +1493,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-6.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-6.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Carpet"
+      "mapCategory": "Carpet",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-6.png"
     },
     {
       "id": "T7-7",
@@ -1475,10 +1515,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-7.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-7.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Chakhe"
+      "mapCategory": "Chakhe",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-7.png"
     },
     {
       "id": "T7-8",
@@ -1515,10 +1556,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-9.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-9.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Empty Can"
+      "mapCategory": "Empty Can",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-9.png"
     },
     {
       "id": "T7-12",
@@ -1536,10 +1578,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-12.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-12.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Kwong Wong Yai Stick"
+      "mapCategory": "Kwong Wong Yai Stick",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-12.png"
     },
     {
       "id": "T7-13",
@@ -1557,10 +1600,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-13.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-13.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Massage Oil Bottle"
+      "mapCategory": "Massage Oil Bottle",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-13.png"
     },
     {
       "id": "T7-14",
@@ -1578,10 +1622,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-14.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-14.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Massage Stone"
+      "mapCategory": "Massage Stone",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-14.png"
     },
     {
       "id": "T7-15",
@@ -1599,10 +1644,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-15.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-15.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Muay Thai Headgear"
+      "mapCategory": "Muay Thai Headgear",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-15.png"
     },
     {
       "id": "T7-16",
@@ -1620,10 +1666,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-16.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-16.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Old Fishing Net"
+      "mapCategory": "Old Fishing Net",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-16.png"
     },
     {
       "id": "T7-17",
@@ -1641,10 +1688,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-17.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-17.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Oriental Chest"
+      "mapCategory": "Oriental Chest",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-17.png"
     },
     {
       "id": "T7-18",
@@ -1663,10 +1711,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-18.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-18.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Oriental Key"
+      "mapCategory": "Oriental Key",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-18.png"
     },
     {
       "id": "T7-19",
@@ -1682,10 +1731,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-19.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-19.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Plastic Water Bottle"
+      "mapCategory": "Plastic Water Bottle",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-19.png"
     },
     {
       "id": "T7-20",
@@ -1704,10 +1754,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-20.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-20.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Shrimp Stick"
+      "mapCategory": "Shrimp Stick",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-20.png"
     },
     {
       "id": "T7-21",
@@ -1725,10 +1776,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-21.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-21.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Silk Tapestry"
+      "mapCategory": "Silk Tapestry",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-21.png"
     },
     {
       "id": "T7-22",
@@ -1746,10 +1798,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-22.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-22.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Singing Bowl"
+      "mapCategory": "Singing Bowl",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-22.png"
     },
     {
       "id": "T7-23",
@@ -1767,10 +1820,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-23.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-23.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Styrofoam Bowl"
+      "mapCategory": "Styrofoam Bowl",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-23.png"
     },
     {
       "id": "T7-25",
@@ -1788,10 +1842,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-25.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-25.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Thai Poulaine Shoes"
+      "mapCategory": "Thai Poulaine Shoes",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-25.png"
     },
     {
       "id": "T7-24",
@@ -1809,10 +1864,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-24.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-24.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "\"Sweet Fighter\" Disk"
+      "mapCategory": "\"Sweet Fighter\" Disk",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-24.png"
     },
     {
       "id": "T7-11",
@@ -1830,10 +1886,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-11.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-11.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Gold Necklace"
+      "mapCategory": "Gold Necklace",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-11.png"
     },
     {
       "id": "T7-10",
@@ -1851,10 +1908,11 @@ export const thailandMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T7-10.png",
+      "image": "./assets/portraits-mapicons/thailand/T7-10.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Fridge Magnet"
+      "mapCategory": "Fridge Magnet",
+      "altImage": "./assets/portraits-mapicons/thailand/T7-10.png"
     },
     {
       "id": "626",
@@ -1891,7 +1949,8 @@ export const thailandMap = {
       "image": "./assets/portraits/fish/626.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Naga"
+      "mapCategory": "Naga",
+      "altImage": "./assets/portraits-mapicons/thailand/626.png"
     }
   ]
 };

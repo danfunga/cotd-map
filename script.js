@@ -41,9 +41,10 @@ function label(entity) {
 function markerIcon(entity) {
   const rarityKey = entity.isMonster ? "monster" : entity.rarity;
   const categoryKey = entity.category || "fish";
+  const alt = entity.altImage || "";
   return L.divIcon({
     className: "photo-marker-wrap",
-    html: `<div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}"></div><img class="photo-marker rarity-${rarityKey}" src="${entity.image}" alt="${label(entity)}" onerror="this.style.display='none';this.previousElementSibling.style.display='block';">`,
+    html: `<div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}"></div><img class="photo-marker rarity-${rarityKey}" src="${entity.image}" data-alt="${alt}" alt="${label(entity)}" onerror="if(this.dataset.alt && !this.dataset.tried){this.dataset.tried='1';this.src=this.dataset.alt;return;}this.style.display='none';this.previousElementSibling.style.display='block';">`,
     iconSize: [30, 30],
     iconAnchor: [15, 15],
     popupAnchor: [0, -16]

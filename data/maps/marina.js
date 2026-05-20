@@ -38,6 +38,7 @@ export const marinaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/M01.png",
+      "altImage": "./assets/portraits-mapicons/marina/M01.png",
       "shadowSizes": [
         1
       ],
@@ -85,6 +86,7 @@ export const marinaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/M02.png",
+      "altImage": "./assets/portraits-mapicons/marina/M02.png",
       "shadowSizes": [
         1
       ],
@@ -123,6 +125,7 @@ export const marinaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/M03.png",
+      "altImage": "./assets/portraits-mapicons/marina/M03.png",
       "shadowSizes": [
         1
       ],
@@ -161,6 +164,7 @@ export const marinaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/M04.png",
+      "altImage": "./assets/portraits-mapicons/marina/M04.png",
       "shadowSizes": [
         1
       ],
@@ -202,6 +206,7 @@ export const marinaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/M05.png",
+      "altImage": "./assets/portraits-mapicons/marina/M05.png",
       "shadowSizes": [
         1
       ],
@@ -241,6 +246,7 @@ export const marinaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/M06.png",
+      "altImage": "./assets/portraits-mapicons/marina/M06.png",
       "shadowSizes": [
         1
       ],
@@ -280,6 +286,7 @@ export const marinaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/M08.png",
+      "altImage": "./assets/portraits-mapicons/marina/M08.png",
       "shadowSizes": [
         1
       ],
@@ -319,6 +326,7 @@ export const marinaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/M07.png",
+      "altImage": "./assets/portraits-mapicons/marina/M07.png",
       "shadowSizes": [],
       "shadowSpeeds": [
         0
@@ -354,7 +362,8 @@ export const marinaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/C-M01.png",
+      "image": "./assets/portraits-mapicons/marina/C-M01.png",
+      "altImage": "./assets/portraits-mapicons/marina/C-M01.png",
       "shadowSizes": [],
       "shadowSpeeds": [
         0
@@ -390,7 +399,8 @@ export const marinaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/C-M02.png",
+      "image": "./assets/portraits-mapicons/marina/C-M02.png",
+      "altImage": "./assets/portraits-mapicons/marina/C-M02.png",
       "shadowSizes": [],
       "shadowSpeeds": [
         0
@@ -429,7 +439,8 @@ export const marinaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/C-M03.png",
+      "image": "./assets/portraits-mapicons/marina/C-M03.png",
+      "altImage": "./assets/portraits-mapicons/marina/C-M03.png",
       "shadowSizes": [],
       "shadowSpeeds": [
         0
@@ -465,7 +476,8 @@ export const marinaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/C-M04.png",
+      "image": "./assets/portraits-mapicons/marina/C-M04.png",
+      "altImage": "./assets/portraits-mapicons/marina/C-M04.png",
       "shadowSizes": [],
       "shadowSpeeds": [
         0
@@ -501,7 +513,8 @@ export const marinaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/C-M05.png",
+      "image": "./assets/portraits-mapicons/marina/C-M05.png",
+      "altImage": "./assets/portraits-mapicons/marina/C-M05.png",
       "shadowSizes": [],
       "shadowSpeeds": [
         0
@@ -537,7 +550,8 @@ export const marinaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/C-M07.png",
+      "image": "./assets/portraits-mapicons/marina/C-M07.png",
+      "altImage": "./assets/portraits-mapicons/marina/C-M07.png",
       "shadowSizes": [],
       "shadowSpeeds": [
         0
@@ -574,7 +588,8 @@ export const marinaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/C-M08.png",
+      "image": "./assets/portraits-mapicons/marina/C-M08.png",
+      "altImage": "./assets/portraits-mapicons/marina/C-M08.png",
       "shadowSizes": [],
       "shadowSpeeds": [
         0
@@ -610,7 +625,8 @@ export const marinaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/C-M06.png",
+      "image": "./assets/portraits-mapicons/marina/C-M06.png",
+      "altImage": "./assets/portraits-mapicons/marina/C-M06.png",
       "shadowSizes": [],
       "shadowSpeeds": [
         0
@@ -633,7 +649,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-1.png",
+      "image": "./assets/portraits-mapicons/marina/T0-1.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-1.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Turban Shell"
@@ -656,7 +673,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-2.png",
+      "image": "./assets/portraits-mapicons/marina/T0-2.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-2.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Common Seashell"
@@ -678,7 +696,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-22.png",
+      "image": "./assets/portraits-mapicons/marina/T0-22.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-22.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Sailing Rope"
@@ -701,7 +720,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-3.png",
+      "image": "./assets/portraits-mapicons/marina/T0-3.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-3.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Old Plank"
@@ -724,7 +744,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-4.png",
+      "image": "./assets/portraits-mapicons/marina/T0-4.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-4.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Tiny Pink Shell"
@@ -747,7 +768,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-5.png",
+      "image": "./assets/portraits-mapicons/marina/T0-5.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-5.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Urchin Shell"
@@ -767,6 +789,7 @@ export const marinaMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T0-6.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -788,7 +811,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-7.png",
+      "image": "./assets/portraits-mapicons/marina/T0-7.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-7.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Whale Bone"
@@ -812,7 +836,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-8.png",
+      "image": "./assets/portraits-mapicons/marina/T0-8.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-8.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Sea Grass"
@@ -836,7 +861,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-9.png",
+      "image": "./assets/portraits-mapicons/marina/T0-9.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-9.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Grey Rock"
@@ -857,7 +883,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-10.png",
+      "image": "./assets/portraits-mapicons/marina/T0-10.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-10.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Steering Wheel"
@@ -878,7 +905,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-11.png",
+      "image": "./assets/portraits-mapicons/marina/T0-11.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-11.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Mysterious Key"
@@ -899,7 +927,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-12.png",
+      "image": "./assets/portraits-mapicons/marina/T0-12.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-12.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Wooden Chest"
@@ -919,6 +948,7 @@ export const marinaMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T0-13.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -939,7 +969,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-14.png",
+      "image": "./assets/portraits-mapicons/marina/T0-14.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-14.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Tourist Brochure-Great Lakes"
@@ -960,7 +991,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-15.png",
+      "image": "./assets/portraits-mapicons/marina/T0-15.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-15.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Tourist Brochure-Costa Rica"
@@ -981,7 +1013,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-16.png",
+      "image": "./assets/portraits-mapicons/marina/T0-16.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-16.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Tourist Brochure-Alaska"
@@ -1001,6 +1034,7 @@ export const marinaMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T0-17.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -1021,7 +1055,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-18.png",
+      "image": "./assets/portraits-mapicons/marina/T0-18.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-18.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Tourist Brochure-Scotland"
@@ -1042,7 +1077,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-19.png",
+      "image": "./assets/portraits-mapicons/marina/T0-19.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-19.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Tourist Brochure-Thailand"
@@ -1063,7 +1099,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-20.png",
+      "image": "./assets/portraits-mapicons/marina/T0-20.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-20.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Tourist Brochure-Amazon"
@@ -1084,7 +1121,8 @@ export const marinaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T0-21.png",
+      "image": "./assets/portraits-mapicons/marina/T0-21.png",
+      "altImage": "./assets/portraits-mapicons/marina/T0-21.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Fridge Magnet"

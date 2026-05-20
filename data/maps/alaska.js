@@ -37,6 +37,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/31.png",
+      "altImage": "./assets/portraits-mapicons/alaska/31.png",
       "shadowSizes": [
         1
       ],
@@ -78,6 +79,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/32.png",
+      "altImage": "./assets/portraits-mapicons/alaska/32.png",
       "shadowSizes": [
         1
       ],
@@ -119,6 +121,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/33.png",
+      "altImage": "./assets/portraits-mapicons/alaska/33.png",
       "shadowSizes": [
         1
       ],
@@ -158,6 +161,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/34.png",
+      "altImage": "./assets/portraits-mapicons/alaska/34.png",
       "shadowSizes": [
         0
       ],
@@ -198,6 +202,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/35.png",
+      "altImage": "./assets/portraits-mapicons/alaska/35.png",
       "shadowSizes": [
         1,
         3
@@ -239,6 +244,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/36.png",
+      "altImage": "./assets/portraits-mapicons/alaska/36.png",
       "shadowSizes": [
         1,
         3
@@ -282,6 +288,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/37.png",
+      "altImage": "./assets/portraits-mapicons/alaska/37.png",
       "shadowSizes": [
         0
       ],
@@ -325,6 +332,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/38.png",
+      "altImage": "./assets/portraits-mapicons/alaska/38.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Pacific Herring"
@@ -362,6 +370,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/39.png",
+      "altImage": "./assets/portraits-mapicons/alaska/39.png",
       "shadowSizes": [
         1
       ],
@@ -403,6 +412,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/310.png",
+      "altImage": "./assets/portraits-mapicons/alaska/310.png",
       "shadowSizes": [
         1
       ],
@@ -444,6 +454,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/311.png",
+      "altImage": "./assets/portraits-mapicons/alaska/311.png",
       "shadowSizes": [
         1
       ],
@@ -483,6 +494,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/312.png",
+      "altImage": "./assets/portraits-mapicons/alaska/312.png",
       "shadowSizes": [
         1
       ],
@@ -525,6 +537,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/313.png",
+      "altImage": "./assets/portraits-mapicons/alaska/313.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Capelin"
@@ -559,6 +572,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/314.png",
+      "altImage": "./assets/portraits-mapicons/alaska/314.png",
       "shadowSizes": [
         1,
         3
@@ -598,6 +612,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/315.png",
+      "altImage": "./assets/portraits-mapicons/alaska/315.png",
       "shadowSizes": [
         0
       ],
@@ -639,6 +654,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/316.png",
+      "altImage": "./assets/portraits-mapicons/alaska/316.png",
       "shadowSizes": [
         0
       ],
@@ -683,6 +699,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/317.png",
+      "altImage": "./assets/portraits-mapicons/alaska/317.png",
       "shadowSizes": [
         1
       ],
@@ -726,6 +743,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/318.png",
+      "altImage": "./assets/portraits-mapicons/alaska/318.png",
       "shadowSizes": [
         3
       ],
@@ -766,6 +784,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/319.png",
+      "altImage": "./assets/portraits-mapicons/alaska/319.png",
       "shadowSizes": [
         1,
         3
@@ -807,6 +826,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/320.png",
+      "altImage": "./assets/portraits-mapicons/alaska/320.png",
       "shadowSizes": [
         1,
         3
@@ -848,6 +868,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/321.png",
+      "altImage": "./assets/portraits-mapicons/alaska/321.png",
       "shadowSizes": [
         1,
         3
@@ -888,6 +909,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/322.png",
+      "altImage": "./assets/portraits-mapicons/alaska/322.png",
       "shadowSizes": [
         1,
         3
@@ -927,6 +949,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/323.png",
+      "altImage": "./assets/portraits-mapicons/alaska/323.png",
       "shadowSizes": [
         3
       ],
@@ -968,6 +991,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/324.png",
+      "altImage": "./assets/portraits-mapicons/alaska/324.png",
       "shadowSizes": [
         3
       ],
@@ -1004,6 +1028,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/325.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -1042,7 +1067,8 @@ export const alaskaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c3-1.png",
+      "image": "./assets/portraits-mapicons/alaska/c3-1.png",
+      "altImage": "./assets/portraits-mapicons/alaska/c3-1.png",
       "shadowSizes": [
         0
       ],
@@ -1080,7 +1106,8 @@ export const alaskaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c3-2.png",
+      "image": "./assets/portraits-mapicons/alaska/c3-2.png",
+      "altImage": "./assets/portraits-mapicons/alaska/c3-2.png",
       "shadowSizes": [
         0
       ],
@@ -1122,7 +1149,8 @@ export const alaskaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c3-3.png",
+      "image": "./assets/portraits-mapicons/alaska/c3-3.png",
+      "altImage": "./assets/portraits-mapicons/alaska/c3-3.png",
       "shadowSizes": [
         0
       ],
@@ -1159,7 +1187,8 @@ export const alaskaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c3-4.png",
+      "image": "./assets/portraits-mapicons/alaska/c3-4.png",
+      "altImage": "./assets/portraits-mapicons/alaska/c3-4.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Humboldt Squid"
@@ -1198,7 +1227,8 @@ export const alaskaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c3-5.png",
+      "image": "./assets/portraits-mapicons/alaska/c3-5.png",
+      "altImage": "./assets/portraits-mapicons/alaska/c3-5.png",
       "shadowSizes": [
         0
       ],
@@ -1235,7 +1265,8 @@ export const alaskaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c3-6.png",
+      "image": "./assets/portraits-mapicons/alaska/c3-6.png",
+      "altImage": "./assets/portraits-mapicons/alaska/c3-6.png",
       "shadowSizes": [
         0
       ],
@@ -1273,7 +1304,8 @@ export const alaskaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c3-7.png",
+      "image": "./assets/portraits-mapicons/alaska/c3-7.png",
+      "altImage": "./assets/portraits-mapicons/alaska/c3-7.png",
       "shadowSizes": [
         0
       ],
@@ -1314,7 +1346,8 @@ export const alaskaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c3-8.png",
+      "image": "./assets/portraits-mapicons/alaska/c3-8.png",
+      "altImage": "./assets/portraits-mapicons/alaska/c3-8.png",
       "shadowSizes": [
         0
       ],
@@ -1351,7 +1384,8 @@ export const alaskaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c3-9.png",
+      "image": "./assets/portraits-mapicons/alaska/c3-9.png",
+      "altImage": "./assets/portraits-mapicons/alaska/c3-9.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Polar Bear"
@@ -1384,6 +1418,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/creature/c3-10.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -1416,6 +1451,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/creature/c3-11.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -1449,7 +1485,8 @@ export const alaskaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c3-12.png",
+      "image": "./assets/portraits-mapicons/alaska/c3-12.png",
+      "altImage": "./assets/portraits-mapicons/alaska/c3-12.png",
       "shadowSizes": [
         0
       ],
@@ -1486,7 +1523,8 @@ export const alaskaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c3-13.png",
+      "image": "./assets/portraits-mapicons/alaska/c3-13.png",
+      "altImage": "./assets/portraits-mapicons/alaska/c3-13.png",
       "shadowSizes": [
         0
       ],
@@ -1523,7 +1561,8 @@ export const alaskaMap = {
         true
       ],
       "minigame": null,
-      "image": "./assets/portraits/creature/c3-14.png",
+      "image": "./assets/portraits-mapicons/alaska/c3-14.png",
+      "altImage": "./assets/portraits-mapicons/alaska/c3-14.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Killer Whale"
@@ -1544,7 +1583,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-1.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-1.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-1.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Blue Cassette"
@@ -1568,7 +1608,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-2.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-2.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-2.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Broken Fish Finder"
@@ -1591,7 +1632,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-3.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-3.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-3.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Chip Bag"
@@ -1612,7 +1654,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-4.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-4.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-4.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Compass"
@@ -1637,7 +1680,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-5.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-5.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-5.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Fishing Line"
@@ -1660,7 +1704,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-7.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-7.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-7.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Frozen Acorn"
@@ -1684,7 +1729,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-8.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-8.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-8.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Frozen Chest"
@@ -1709,7 +1755,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-9.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-9.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-9.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Frozen Key"
@@ -1730,7 +1777,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-10.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-10.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-10.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Fuel Barrel"
@@ -1751,7 +1799,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-11.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-11.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-11.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Gold Nugget"
@@ -1772,7 +1821,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-12.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-12.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-12.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Gold Pan"
@@ -1793,7 +1843,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-13.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-13.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-13.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Ham Can"
@@ -1814,7 +1865,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-14.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-14.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-14.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Harpoon"
@@ -1836,7 +1888,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-15.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-15.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-15.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Inner Tube"
@@ -1859,7 +1912,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-16.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-16.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-16.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Life Jacket"
@@ -1880,7 +1934,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-17.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-17.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-17.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Meteorite"
@@ -1903,7 +1958,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-18.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-18.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-18.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Moose Antler"
@@ -1924,7 +1980,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-19.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-19.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-19.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Ski"
@@ -1947,7 +2004,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-20.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-20.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-20.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Snow Shovel"
@@ -1971,7 +2029,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-21.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-21.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-21.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Snowman Hat"
@@ -1992,7 +2051,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-22.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-22.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-22.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Snowshoe"
@@ -2012,6 +2072,7 @@ export const alaskaMap = {
       "seasons": [],
       "minigame": null,
       "image": "./assets/portraits/item/T4-23.png",
+      "altImage": "",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": ""
@@ -2033,7 +2094,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-24.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-24.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-24.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Video Cassette"
@@ -2054,7 +2116,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-25.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-25.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-25.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Viking Helmet"
@@ -2080,7 +2143,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-26.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-26.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-26.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Vinyl Record"
@@ -2102,7 +2166,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-27.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-27.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-27.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Walrus Tusk"
@@ -2124,7 +2189,8 @@ export const alaskaMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T4-6.png",
+      "image": "./assets/portraits-mapicons/alaska/T4-6.png",
+      "altImage": "./assets/portraits-mapicons/alaska/T4-6.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Fridge Magnet"
@@ -2162,6 +2228,7 @@ export const alaskaMap = {
       ],
       "minigame": null,
       "image": "./assets/portraits/fish/326.png",
+      "altImage": "./assets/portraits-mapicons/alaska/326.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
       "mapCategory": "Kraken"

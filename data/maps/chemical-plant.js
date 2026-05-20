@@ -43,7 +43,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Glowfish"
+      "mapCategory": "Glowfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a2.png"
     },
     {
       "id": "a8",
@@ -81,7 +82,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Anchorscale"
+      "mapCategory": "Anchorscale",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a8.png"
     },
     {
       "id": "a18",
@@ -119,7 +121,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Raspberryfish"
+      "mapCategory": "Raspberryfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a18.png"
     },
     {
       "id": "a11",
@@ -157,7 +160,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Anvilfish"
+      "mapCategory": "Anvilfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a11.png"
     },
     {
       "id": "a10",
@@ -195,7 +199,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Bootfish"
+      "mapCategory": "Bootfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a10.png"
     },
     {
       "id": "a19",
@@ -233,7 +238,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Zombifin"
+      "mapCategory": "Zombifin",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a19.png"
     },
     {
       "id": "a20",
@@ -307,7 +313,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Teapotfish"
+      "mapCategory": "Teapotfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a12.png"
     },
     {
       "id": "a21",
@@ -345,7 +352,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Nylonfish"
+      "mapCategory": "Nylonfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a21.png"
     },
     {
       "id": "a22",
@@ -383,7 +391,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Telebass"
+      "mapCategory": "Telebass",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a22.png"
     },
     {
       "id": "a23",
@@ -421,7 +430,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Long Sparker"
+      "mapCategory": "Long Sparker",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a23.png"
     },
     {
       "id": "a24",
@@ -459,7 +469,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Rotting Deadfish"
+      "mapCategory": "Rotting Deadfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a24.png"
     },
     {
       "id": "a25",
@@ -497,7 +508,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Fireborn Scales"
+      "mapCategory": "Fireborn Scales",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a25.png"
     },
     {
       "id": "a26",
@@ -535,7 +547,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Burned Potfish"
+      "mapCategory": "Burned Potfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a26.png"
     },
     {
       "id": "a27",
@@ -573,7 +586,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Bubblefin"
+      "mapCategory": "Bubblefin",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a27.png"
     },
     {
       "id": "a28",
@@ -611,7 +625,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Luminator"
+      "mapCategory": "Luminator",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a28.png"
     },
     {
       "id": "a15",
@@ -650,7 +665,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Biterfish"
+      "mapCategory": "Biterfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a15.png"
     },
     {
       "id": "a29",
@@ -688,7 +704,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Fish-eye"
+      "mapCategory": "Fish-eye",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a29.png"
     },
     {
       "id": "a30",
@@ -726,7 +743,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Gnawfish"
+      "mapCategory": "Gnawfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a30.png"
     },
     {
       "id": "a1",
@@ -765,7 +783,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Chupakabrafish"
+      "mapCategory": "Chupakabrafish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a1.png"
     },
     {
       "id": "a3",
@@ -805,7 +824,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Slimesnail"
+      "mapCategory": "Slimesnail",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a3.png"
     },
     {
       "id": "a5",
@@ -844,7 +864,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Wheelreef"
+      "mapCategory": "Wheelreef",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a5.png"
     },
     {
       "id": "a7",
@@ -883,7 +904,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Barreltail"
+      "mapCategory": "Barreltail",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a7.png"
     },
     {
       "id": "a9",
@@ -923,7 +945,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Toxic Salmon"
+      "mapCategory": "Toxic Salmon",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a9.png"
     },
     {
       "id": "a31",
@@ -961,7 +984,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Wicked Carp"
+      "mapCategory": "Wicked Carp",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a31.png"
     },
     {
       "id": "a6",
@@ -999,7 +1023,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Bottlegill"
+      "mapCategory": "Bottlegill",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a6.png"
     },
     {
       "id": "a4",
@@ -1037,7 +1062,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Cantrout"
+      "mapCategory": "Cantrout",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a4.png"
     },
     {
       "id": "a13",
@@ -1075,7 +1101,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Crystal Fin"
+      "mapCategory": "Crystal Fin",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a13.png"
     },
     {
       "id": "a32",
@@ -1113,7 +1140,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Toxic Puffer"
+      "mapCategory": "Toxic Puffer",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a32.png"
     },
     {
       "id": "a14",
@@ -1151,7 +1179,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Plant Waterer"
+      "mapCategory": "Plant Waterer",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a14.png"
     },
     {
       "id": "a44",
@@ -1189,7 +1218,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Zombie Genius"
+      "mapCategory": "Zombie Genius",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a44.png"
     },
     {
       "id": "a45",
@@ -1227,7 +1257,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Phosphorite"
+      "mapCategory": "Phosphorite",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a45.png"
     },
     {
       "id": "a46",
@@ -1265,7 +1296,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Glow Puffball"
+      "mapCategory": "Glow Puffball",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a46.png"
     },
     {
       "id": "a47",
@@ -1303,7 +1335,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Spotted Windchaser"
+      "mapCategory": "Spotted Windchaser",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a47.png"
     },
     {
       "id": "a48",
@@ -1341,7 +1374,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Flatjaw"
+      "mapCategory": "Flatjaw",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a48.png"
     },
     {
       "id": "a49",
@@ -1379,7 +1413,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Silvered Amelinium"
+      "mapCategory": "Silvered Amelinium",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a49.png"
     },
     {
       "id": "a50",
@@ -1417,7 +1452,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Rusty Mutang"
+      "mapCategory": "Rusty Mutang",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a50.png"
     },
     {
       "id": "a51",
@@ -1455,7 +1491,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Mailfish"
+      "mapCategory": "Mailfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a51.png"
     },
     {
       "id": "a52",
@@ -1493,7 +1530,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Flipper Sneaker"
+      "mapCategory": "Flipper Sneaker",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a52.png"
     },
     {
       "id": "a53",
@@ -1531,7 +1569,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Uranium Eel"
+      "mapCategory": "Uranium Eel",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a53.png"
     },
     {
       "id": "a54",
@@ -1569,7 +1608,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Graterfin"
+      "mapCategory": "Graterfin",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a54.png"
     },
     {
       "id": "a55",
@@ -1607,7 +1647,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Fingered Glovefish"
+      "mapCategory": "Fingered Glovefish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a55.png"
     },
     {
       "id": "a56",
@@ -1645,7 +1686,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Bomberfish"
+      "mapCategory": "Bomberfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a56.png"
     },
     {
       "id": "a57",
@@ -1683,7 +1725,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Stale Deadfish"
+      "mapCategory": "Stale Deadfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a57.png"
     },
     {
       "id": "a33",
@@ -1721,7 +1764,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Banjoplayer"
+      "mapCategory": "Banjoplayer",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a33.png"
     },
     {
       "id": "a34",
@@ -1760,7 +1804,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Sawfish"
+      "mapCategory": "Sawfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a34.png"
     },
     {
       "id": "a16",
@@ -1799,7 +1844,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Gasmist Swimmer"
+      "mapCategory": "Gasmist Swimmer",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a16.png"
     },
     {
       "id": "a35",
@@ -1837,7 +1883,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Guitarfin"
+      "mapCategory": "Guitarfin",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a35.png"
     },
     {
       "id": "a17",
@@ -1877,7 +1924,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Bonebite"
+      "mapCategory": "Bonebite",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a17.png"
     },
     {
       "id": "a36",
@@ -1916,7 +1964,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Brainfish"
+      "mapCategory": "Brainfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a36.png"
     },
     {
       "id": "a37",
@@ -1955,7 +2004,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Cuddlyfish"
+      "mapCategory": "Cuddlyfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a37.png"
     },
     {
       "id": "a38",
@@ -2029,7 +2079,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Soccerfish"
+      "mapCategory": "Soccerfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a39.png"
     },
     {
       "id": "a40",
@@ -2067,7 +2118,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Swagfish"
+      "mapCategory": "Swagfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a40.png"
     },
     {
       "id": "a41",
@@ -2141,7 +2193,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Polish Spudfish"
+      "mapCategory": "Polish Spudfish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a42.png"
     },
     {
       "id": "a43",
@@ -2179,7 +2232,8 @@ export const chemicalPlantMap = {
       "shadowSpeeds": [
         1
       ],
-      "mapCategory": "Seahorse Abomination"
+      "mapCategory": "Seahorse Abomination",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a43.png"
     },
     {
       "id": "a58",
@@ -2213,7 +2267,8 @@ export const chemicalPlantMap = {
       "image": "./assets/portraits/fish/a58.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Ribbed Bonefish"
+      "mapCategory": "Ribbed Bonefish",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/a58.png"
     },
     {
       "id": "c7-0",
@@ -2250,7 +2305,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Toxurtle"
+      "mapCategory": "Toxurtle",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-0.png"
     },
     {
       "id": "c7-1",
@@ -2322,7 +2378,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Shrimpster"
+      "mapCategory": "Shrimpster",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-2.png"
     },
     {
       "id": "c7-3",
@@ -2358,7 +2415,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Crystalcrab"
+      "mapCategory": "Crystalcrab",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-3.png"
     },
     {
       "id": "c7-4",
@@ -2394,7 +2452,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Slimy"
+      "mapCategory": "Slimy",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-4.png"
     },
     {
       "id": "c7-5",
@@ -2430,7 +2489,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Bottlopus"
+      "mapCategory": "Bottlopus",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-5.png"
     },
     {
       "id": "c7-6",
@@ -2466,7 +2526,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Cybersquid"
+      "mapCategory": "Cybersquid",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-6.png"
     },
     {
       "id": "c7-7",
@@ -2502,7 +2563,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Firetopus"
+      "mapCategory": "Firetopus",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-7.png"
     },
     {
       "id": "c7-8",
@@ -2538,7 +2600,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Plasmaturtle"
+      "mapCategory": "Plasmaturtle",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-8.png"
     },
     {
       "id": "c7-9",
@@ -2574,7 +2637,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Sewage Fungus"
+      "mapCategory": "Sewage Fungus",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-9.png"
     },
     {
       "id": "c7-10",
@@ -2610,7 +2674,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Discoshell"
+      "mapCategory": "Discoshell",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-10.png"
     },
     {
       "id": "c7-11",
@@ -2646,7 +2711,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Tubesnail"
+      "mapCategory": "Tubesnail",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-11.png"
     },
     {
       "id": "c7-12",
@@ -2682,7 +2748,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Jellydusa"
+      "mapCategory": "Jellydusa",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-12.png"
     },
     {
       "id": "c7-13",
@@ -2720,7 +2787,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Neon Frogson"
+      "mapCategory": "Neon Frogson",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-13.png"
     },
     {
       "id": "c7-14",
@@ -2757,7 +2825,8 @@ export const chemicalPlantMap = {
         0
       ],
       "shadowSpeeds": [],
-      "mapCategory": "Armored Mutoclam"
+      "mapCategory": "Armored Mutoclam",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/c7-14.png"
     },
     {
       "id": "T9-1",
@@ -2775,10 +2844,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-1.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-1.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Can"
+      "mapCategory": "Can",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-1.png"
     },
     {
       "id": "T9-2",
@@ -2796,10 +2866,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-2.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-2.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Cartridge"
+      "mapCategory": "Cartridge",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-2.png"
     },
     {
       "id": "T9-3",
@@ -2817,10 +2888,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-3.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-3.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Crowbar"
+      "mapCategory": "Crowbar",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-3.png"
     },
     {
       "id": "T9-4",
@@ -2838,10 +2910,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-4.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-4.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Geiger Counter"
+      "mapCategory": "Geiger Counter",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-4.png"
     },
     {
       "id": "T9-5",
@@ -2878,10 +2951,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-6.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-6.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Hacksaw"
+      "mapCategory": "Hacksaw",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-6.png"
     },
     {
       "id": "T9-7",
@@ -2899,10 +2973,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-7.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-7.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Heater"
+      "mapCategory": "Heater",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-7.png"
     },
     {
       "id": "T9-8",
@@ -2920,10 +2995,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-8.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-8.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "High Radiation Sign"
+      "mapCategory": "High Radiation Sign",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-8.png"
     },
     {
       "id": "T9-9",
@@ -2941,10 +3017,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-9.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-9.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Laboratory Equipment"
+      "mapCategory": "Laboratory Equipment",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-9.png"
     },
     {
       "id": "T9-10",
@@ -2962,10 +3039,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-10.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-10.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Manhole Cover"
+      "mapCategory": "Manhole Cover",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-10.png"
     },
     {
       "id": "T9-11",
@@ -2983,10 +3061,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-11.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-11.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Mutated Horsetail"
+      "mapCategory": "Mutated Horsetail",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-11.png"
     },
     {
       "id": "T9-12",
@@ -3004,10 +3083,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-12.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-12.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Ninja Pizza Box"
+      "mapCategory": "Ninja Pizza Box",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-12.png"
     },
     {
       "id": "T9-13",
@@ -3025,10 +3105,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-13.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-13.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Ninja Pizza Slice"
+      "mapCategory": "Ninja Pizza Slice",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-13.png"
     },
     {
       "id": "T9-14",
@@ -3046,10 +3127,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-14.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-14.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Old Battery"
+      "mapCategory": "Old Battery",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-14.png"
     },
     {
       "id": "T9-15",
@@ -3067,10 +3149,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-15.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-15.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Pesticides"
+      "mapCategory": "Pesticides",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-15.png"
     },
     {
       "id": "T9-16",
@@ -3088,10 +3171,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-16.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-16.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Phosphorus"
+      "mapCategory": "Phosphorus",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-16.png"
     },
     {
       "id": "T9-17",
@@ -3111,10 +3195,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-17.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-17.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Pipe"
+      "mapCategory": "Pipe",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-17.png"
     },
     {
       "id": "T9-18",
@@ -3132,10 +3217,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-18.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-18.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Pipe Wrench"
+      "mapCategory": "Pipe Wrench",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-18.png"
     },
     {
       "id": "T9-19",
@@ -3154,10 +3240,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-19.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-19.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Prof. Flux’s Notes"
+      "mapCategory": "Prof. Flux’s Notes",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-19.png"
     },
     {
       "id": "T9-20",
@@ -3175,10 +3262,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-20.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-20.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Protective Mask"
+      "mapCategory": "Protective Mask",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-20.png"
     },
     {
       "id": "T9-21",
@@ -3196,10 +3284,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-21.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-21.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Protective Suit"
+      "mapCategory": "Protective Suit",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-21.png"
     },
     {
       "id": "T9-22",
@@ -3217,10 +3306,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-22.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-22.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Radioactive Stone"
+      "mapCategory": "Radioactive Stone",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-22.png"
     },
     {
       "id": "T9-23",
@@ -3241,10 +3331,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-23.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-23.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Red Valve"
+      "mapCategory": "Red Valve",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-23.png"
     },
     {
       "id": "T9-24",
@@ -3262,10 +3353,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-24.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-24.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Research Files Vol.1"
+      "mapCategory": "Research Files Vol.1",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-24.png"
     },
     {
       "id": "T9-25",
@@ -3283,10 +3375,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-25.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-25.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Research Files Vol.2"
+      "mapCategory": "Research Files Vol.2",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-25.png"
     },
     {
       "id": "T9-26",
@@ -3304,10 +3397,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-26.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-26.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Research Files Vol.3"
+      "mapCategory": "Research Files Vol.3",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-26.png"
     },
     {
       "id": "T9-27",
@@ -3325,10 +3419,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-27.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-27.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Research Files Vol.4"
+      "mapCategory": "Research Files Vol.4",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-27.png"
     },
     {
       "id": "T9-28",
@@ -3346,10 +3441,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-28.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-28.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Sai Knive"
+      "mapCategory": "Sai Knive",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-28.png"
     },
     {
       "id": "T9-29",
@@ -3367,10 +3463,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-29.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-29.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Skateboard"
+      "mapCategory": "Skateboard",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-29.png"
     },
     {
       "id": "T9-30",
@@ -3388,10 +3485,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-30.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-30.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Sign"
+      "mapCategory": "Sign",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-30.png"
     },
     {
       "id": "T9-31",
@@ -3410,10 +3508,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-31.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-31.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Toxic Algae"
+      "mapCategory": "Toxic Algae",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-31.png"
     },
     {
       "id": "T9-32",
@@ -3431,10 +3530,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-32.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-32.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Toxic Branch"
+      "mapCategory": "Toxic Branch",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-32.png"
     },
     {
       "id": "T9-33",
@@ -3452,10 +3552,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-33.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-33.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Toxic Barrel"
+      "mapCategory": "Toxic Barrel",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-33.png"
     },
     {
       "id": "T9-34",
@@ -3473,10 +3574,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-34.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-34.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Venus Flytrap"
+      "mapCategory": "Venus Flytrap",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-34.png"
     },
     {
       "id": "T9-35",
@@ -3497,10 +3599,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-35.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-35.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Water Bottle"
+      "mapCategory": "Water Bottle",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-35.png"
     },
     {
       "id": "T9-36",
@@ -3518,10 +3621,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-36.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-36.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Wind Turbine Propeller Blade"
+      "mapCategory": "Wind Turbine Propeller Blade",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-36.png"
     },
     {
       "id": "T9-37",
@@ -3540,10 +3644,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-37.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-37.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Wind Turbine Propeller Hub"
+      "mapCategory": "Wind Turbine Propeller Hub",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-37.png"
     },
     {
       "id": "T9-38",
@@ -3596,7 +3701,8 @@ export const chemicalPlantMap = {
       "image": "./assets/portraits/fish/b23.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": "Nightmary"
+      "mapCategory": "Nightmary",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/b23.png"
     }
   ]
 };
