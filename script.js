@@ -57,15 +57,15 @@ function markerIcon(entity) {
 }
 
 function availabilityTimeLabel(values) {
-    if (!values || values.length === 0) return "종일";
-  const map = { "day": "낮", "night": "밤", "both" : "종일" };
+  if (!values || values.length === 0) return "종일";
+  const map = { "day": "낮", "night": "밤", "both": "종일" };
   const labels = values.map((v) => map[v]).filter(Boolean);
   return labels.length ? labels.join(", ") : "종일";
 }
 
 function shadowSizeLabel(values) {
   if (!values || values.length === 0) return "없음";
-  const map = {0:"작음", 1: "보통", 2: "중형", 3: "대형" };
+  const map = { 0: "작음", 1: "보통", 2: "중형", 3: "대형" };
   const labels = values.map((v) => map[v]).filter(Boolean);
   return labels.length ? labels.join(", ") : "없음";
 }
@@ -156,6 +156,26 @@ function applyFishOnlyState() {
   timeCard.classList.toggle("disabled", !hasFish);
   rarityCard.classList.remove("disabled");
 }
+// 모바일에서 한 손가락 더블탭으로 확대, 두 손가락 더블탭으로 축소 기능을 구현합니다. 
+// iOS Safari의 경우 페이지 전체의 핀치/더블탭 줌이 방해될 수 있어,
+//  map 영역 외에서는 300ms 이내의 터치가 발생하면 기본 동작을 막도록 했습니다.
+//  map 영역에서는 별도의 로직으로 처리합니다.
+function installSingleFingerDoubleTapZoomIn() {
+  const el = mapInstance.getContainer();
+  let lastTap = 0;
+  el.addEventListener("touchstart", (event) => {
+    // 한 손가락만
+    if (event.touches.length !== 1) return;
+    const now = Date.now();
+    if (now - lastTap <= 300) {
+      mapInstance.zoomIn();
+      event.preventDefault();
+      lastTap = 0;
+      return;
+    }
+    lastTap = now;
+  }, { passive: false });
+}
 
 function installTwoFingerDoubleTapZoomOut() {
   const el = mapInstance.getContainer();
@@ -179,10 +199,14 @@ function createMapIfNeeded() {
     minZoom: -3,
     maxZoom: 2,
     zoomSnap: 0.25,
+    preferCanvas: true,
     zoomControl: false,
+    zoomAnimation: false,
+    fadeAnimation: false,
     doubleClickZoom: true
   });
   markerLayer = L.layerGroup().addTo(mapInstance);
+  installSingleFingerDoubleTapZoomIn();
   installTwoFingerDoubleTapZoomOut();
 }
 
@@ -288,7 +312,12 @@ function renderEntityPanel() {
     const header = document.createElement("button");
     header.type = "button";
     header.className = "entity-group-head";
-    header.innerHTML = `<span>${categoryLabel[category]}</span><span class="entity-group-meta">${groupItems.length}</span><span class="entity-group-arrow">${panelFoldState[category] ? "▾" : "▸"}</span>`;
+    header.innerHTML = `
+      <span>${categoryLabel[category]}</span>
+      <button type="button" class="group-toggle-btn" data-category="${category}">⊘</button>
+      <span class="entity-group-meta">${groupItems.length}</span>
+      <span class="entity-group-arrow">${panelFoldState[category] ? "▾" : "▸"}</span>
+    `;
     header.addEventListener("click", () => {
       panelFoldState[category] = !panelFoldState[category];
       renderEntityPanel();
@@ -304,8 +333,7 @@ function renderEntityPanel() {
       const rarityKey = entity.isMonster ? "monster" : entity.rarity;
       row.className = `entity-row rarity-${rarityKey} ${hiddenEntityIds.has(entity.id) ? "off" : ""}`;
       const count = Array.isArray(entity.locations) ? entity.locations.length : 0;
-      const isBlobfish = entity.name.toLowerCase() === "blobfish" || label(entity).includes("블롭피시");
-      row.innerHTML = `<span class="entity-left"><img class="entity-thumb" src="${entity.image}" alt="${label(entity)}" onerror="this.style.display='none';"><span class="entity-name rarity-${rarityKey} ${isBlobfish ? "blobfish" : ""}">${label(entity)}</span></span><span class="entity-count">${count}</span>`;
+      row.innerHTML = `<span class="entity-left"><img class="entity-thumb" src="${entity.image}" alt="${label(entity)}" onerror="this.style.display='none';"><span class="entity-name rarity-${rarityKey}">${label(entity)}</span></span><span class="entity-count">${count}</span>`;
       row.addEventListener("click", () => {
         if (hiddenEntityIds.has(entity.id)) hiddenEntityIds.delete(entity.id);
         else hiddenEntityIds.add(entity.id);
@@ -316,6 +344,22 @@ function renderEntityPanel() {
 
     section.appendChild(body);
     entityList.appendChild(section);
+
+    // 그룹 전체 토글 버튼 이벤트
+    header.querySelector(".group-toggle-btn").addEventListener("click", (e) => {
+      e.stopPropagation();
+      const group = grouped[category];
+      const allHidden = group.every((e) => hiddenEntityIds.has(e.id));
+      group.forEach((e) => {
+        if (allHidden) {
+          hiddenEntityIds.delete(e.id); // 전체 표시
+        } else {
+          hiddenEntityIds.add(e.id); // 전체 숨김
+        }
+      });
+      renderMarkers();
+      renderEntityPanel();
+    });
   });
 }
 
@@ -347,9 +391,13 @@ function renderMap() {
     if (!(layer instanceof L.TileLayer) && layer !== markerLayer) mapInstance.removeLayer(layer);
   });
 
-  L.imageOverlay(mapInfo.imagePath, bounds).addTo(mapInstance);
-  mapInstance.fitBounds(bounds);
+  L.imageOverlay(mapInfo.imagePath, bounds).addTo(mapInstance);  
+  mapInstance.fitBounds(bounds, {
+    padding: [0, 0],
+    animate: false
+  });
 
+  // 여기서 부터 클릭 부분==================
   mapInstance.off("click");
   mapInstance.on("click", async (e) => {
     // ALT + 클릭만 동작
@@ -363,11 +411,15 @@ function renderMap() {
     const text = `x: ${point.x}, y: ${point.y}`;
     console.log(text);
   });
+  // 클릭 끝 ==================
 
-  mapInstance.setMaxBounds([
-    [-80, -80],
-    [mapInfo.imageHeight + 80, mapInfo.imageWidth + 80]
-  ]);
+   requestAnimationFrame(() => {
+    mapInstance.invalidateSize();
+  });
+  // mapInstance.setMaxBounds([
+  //   [-80, -80],
+  //   [mapInfo.imageHeight + 80, mapInfo.imageWidth + 80]
+  // ]);
   renderMarkers();
 }
 
@@ -401,11 +453,6 @@ function clearFilterGroup(group) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  // iOS Safari: prevent page-level pinch/double-tap zoom so map gestures win.
-  document.addEventListener("gesturestart", (e) => e.preventDefault(), { passive: false });
-  document.addEventListener("gesturechange", (e) => e.preventDefault(), { passive: false });
-  document.addEventListener("gestureend", (e) => e.preventDefault(), { passive: false });
-
   buildPicker();
   applyPickerState();
   createMapIfNeeded();

@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>COTD Map Explorer</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
     <h1>크리쳐스 오드 더 딥</h1>
@@ -20,44 +24,44 @@
 
   <section id="controls">
     <div class="filter-grid">
-    <div class="filter-card" id="categoryCard">
-      <div class="filter-headline"><span class="filter-title">CATEGORY</span></div>
-      <div class="filter-row" data-group="category">
-        <button class="filter-btn" data-group="category" data-value="fish" type="button">물고기</button>
-        <button class="filter-btn" data-group="category" data-value="creature" type="button">생명체</button>
-        <button class="filter-btn" data-group="category" data-value="item" type="button">아이템</button>
-        <button class="clear-btn clear-btn-inline" data-clear-group="category" type="button">×</button>
+      <div class="filter-card" id="categoryCard">
+        <div class="filter-headline"><span class="filter-title">CATEGORY</span></div>
+        <div class="filter-row" data-group="category">
+          <button class="filter-btn" data-group="category" data-value="fish" type="button">물고기</button>
+          <button class="filter-btn" data-group="category" data-value="creature" type="button">생명체</button>
+          <button class="filter-btn" data-group="category" data-value="item" type="button">아이템</button>
+          <button class="clear-btn clear-btn-inline" data-clear-group="category" type="button">×</button>
+        </div>
       </div>
-    </div>
 
-    <div class="filter-card" id="timeCard">
-      <div class="filter-headline"><span class="filter-title">DAY & NIGHT</span></div>
-      <div class="filter-row" data-group="time">
-        <button class="filter-btn" data-group="time" data-value="day" type="button">낮</button>
-        <button class="filter-btn" data-group="time" data-value="night" type="button">밤</button>
-        <button class="filter-btn" data-group="time" data-value="both" type="button">종일</button>
-        <button class="clear-btn clear-btn-inline" data-clear-group="time" type="button">×</button>
+      <div class="filter-card" id="timeCard">
+        <div class="filter-headline"><span class="filter-title">DAY & NIGHT</span></div>
+        <div class="filter-row" data-group="time">
+          <button class="filter-btn" data-group="time" data-value="day" type="button">낮</button>
+          <button class="filter-btn" data-group="time" data-value="night" type="button">밤</button>
+          <button class="filter-btn" data-group="time" data-value="both" type="button">종일</button>
+          <button class="clear-btn clear-btn-inline" data-clear-group="time" type="button">×</button>
+        </div>
       </div>
-    </div>
 
-    <div class="filter-card" id="rarityCard">
-      <div class="filter-headline"><span class="filter-title">TYPE</span></div>
-      <div class="filter-row" data-group="rarity">
-        <button class="filter-btn" data-group="rarity" data-value="common" type="button">보통</button>
-        <button class="filter-btn" data-group="rarity" data-value="rare" type="button">희귀</button>
-        <button class="filter-btn" data-group="rarity" data-value="epic" type="button">에픽</button>
-        <button class="clear-btn clear-btn-inline" data-clear-group="rarity" type="button">×</button>
+      <div class="filter-card" id="rarityCard">
+        <div class="filter-headline"><span class="filter-title">TYPE</span></div>
+        <div class="filter-row" data-group="rarity">
+          <button class="filter-btn" data-group="rarity" data-value="common" type="button">보통</button>
+          <button class="filter-btn" data-group="rarity" data-value="rare" type="button">희귀</button>
+          <button class="filter-btn" data-group="rarity" data-value="epic" type="button">에픽</button>
+          <button class="clear-btn clear-btn-inline" data-clear-group="rarity" type="button">×</button>
+        </div>
       </div>
-    </div>
 
-    <div class="filter-card" id="availabilityCard">
-      <div class="filter-headline"><span class="filter-title">AVAILABILITY</span></div>
-      <div class="filter-row" data-group="availability">
-        <button class="filter-btn" data-group="availability" data-value="available" type="button">현재 가능</button>
-        <button class="filter-btn" data-group="availability" data-value="unavailable" type="button">현재 안됨</button>
-        <button class="clear-btn clear-btn-inline" data-clear-group="availability" type="button">×</button>
+      <div class="filter-card" id="availabilityCard">
+        <div class="filter-headline"><span class="filter-title">AVAILABILITY</span></div>
+        <div class="filter-row" data-group="availability">
+          <button class="filter-btn" data-group="availability" data-value="available" type="button">현재 가능</button>
+          <button class="filter-btn" data-group="availability" data-value="unavailable" type="button">현재 안됨</button>
+          <button class="clear-btn clear-btn-inline" data-clear-group="availability" type="button">×</button>
+        </div>
       </div>
-    </div>
     </div>
   </section>
 

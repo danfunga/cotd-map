@@ -208,6 +208,7 @@ main { padding: 0; }
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
   overflow: hidden;
+  touch-action: none;
 }
 #entityPanel {
   background: rgba(3, 44, 61, 0.9);
@@ -266,6 +267,26 @@ main { padding: 0; }
   gap: 5px;
   scrollbar-gutter: stable both-edges;
   padding-right: 4px;
+  touch-action: manipulation;
+}
+.group-toggle-btn {
+  margin-left: 6px;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #0d729c;
+  background: #01344a;
+  color: #ffd24f;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  touch-action: manipulation;
+}
+.group-toggle-btn:active {
+  transform: translateY(1px);
 }
 .entity-group {
   display: grid;
@@ -324,6 +345,7 @@ main { padding: 0; }
   gap: 6px;
   min-width: 0;
   box-sizing: border-box;
+  touch-action: manipulation;
 }
 .entity-row.off {
   opacity: 0.45;
@@ -361,7 +383,6 @@ main { padding: 0; }
 .entity-name.rarity-rare { color: #ffd400; }
 .entity-name.rarity-epic { color: #d2a8ff; }
 .entity-name.rarity-monster { color: #ff6b63; }
-.entity-name.blobfish { color: #d2a8ff !important; }
 .entity-count {
   font-weight: 800;
   font-size: 14px;
@@ -641,4 +662,9 @@ main { padding: 0; }
   .panel-toggle-btn {
     display: inline-block;
   }
+
+  html, body {
+    touch-action: manipulation;
+  }
+  
 }
