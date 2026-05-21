@@ -33,6 +33,12 @@ let mapInstance = null;
 let markerLayer = null;
 let lastFilteredEntities = [];
 const hiddenEntityIds = new Set();
+let lastTwoFingerTapAt = 0;
+const panelFoldState = {
+  fish: true,
+  creature: true,
+  item: true
+};
 
 function label(entity) {
   return entity.display && entity.display.trim() !== "" ? entity.display : entity.name;
@@ -114,7 +120,8 @@ function minigameMeta(entity) {
 function hitFishTimeFilter(entity) {
   if (entity.timeBand === "day") return filters.time.has("day");
   if (entity.timeBand === "night") return filters.time.has("night");
-  return filters.time.has("both") || filters.time.has("day") || filters.time.has("night");
+  if (entity.timeBand === "both") return filters.time.has("both");
+  return false;
 }
 
 function buildPicker() {
@@ -150,6 +157,21 @@ function applyFishOnlyState() {
   rarityCard.classList.toggle("disabled", !hasFish);
 }
 
+function installTwoFingerDoubleTapZoomOut() {
+  const el = mapInstance.getContainer();
+  el.addEventListener("touchstart", (event) => {
+    if (event.touches.length !== 2) return;
+    const now = Date.now();
+    if (now - lastTwoFingerTapAt <= 320) {
+      mapInstance.zoomOut();
+      lastTwoFingerTapAt = 0;
+      event.preventDefault();
+      return;
+    }
+    lastTwoFingerTapAt = now;
+  }, { passive: false });
+}
+
 function createMapIfNeeded() {
   if (mapInstance) return;
   mapInstance = L.map("map", {
@@ -158,9 +180,10 @@ function createMapIfNeeded() {
     maxZoom: 2,
     zoomSnap: 0.25,
     zoomControl: false,
-    doubleClickZoom: false // (선택) 커스텀 할 거면 끔
+    doubleClickZoom: true
   });
   markerLayer = L.layerGroup().addTo(mapInstance);
+  installTwoFingerDoubleTapZoomOut();
 }
 
 function renderMarkers() {
@@ -191,24 +214,37 @@ function renderMarkers() {
     const locs = Array.isArray(entity.locations) ? entity.locations : [];
     if (locs.length === 0) return;
 
-    const locationsText = locs.map((l) => `#${l.no} (${l.x}, ${l.y})`).join(", ");
     const mini = minigameMeta(entity);
     const miniHtml = mini
       ? `<p><strong>미니게임:</strong> <span class="minigame-pill minigame-${mini.cls}">${mini.label}</span></p>`
       : "";
+    const entityImage = entity.image || entity.altImage || "";
+    const noteHtml = entity.notes && entity.notes.trim() !== ""
+      ? `<div class="detail-note"><strong>메모:</strong> ${entity.notes}</div>`
+      : "";
     const detailHtml = `
-      <div class="fish-popup">
-        <h3>${label(entity)}</h3>
-        <p><strong>영문명:</strong> ${entity.name}</p>
-        <p><strong>분류:</strong> ${entity.isMonster ? "보스" : entity.category}</p>
-        <p><strong>활성 시간:</strong> ${availabilityTimeLabel([entity.timeBand])}</p>        
-        <p><strong>희귀도:</strong> <span class="rarity-pill rarity-${entity.rarity}">${entity.rarity}</span></p>
-        <p><strong>그림자 크기:</strong> ${shadowSizeLabel(entity.shadowSizes)}</p>
-        <p><strong>그림자 속도:</strong> ${shadowSpeedLabel(entity.shadowSpeeds)}</p>
-        ${miniHtml}
-        <p><strong>학명:</strong> ${entity.latin || "-"}</p>
-        ${seasonBar(entity)}
-        <p>${entity.notes || ""}</p>
+      <div class="fish-popup detail-theme">
+        <button class="detail-close-inline" type="button" aria-label="닫기">닫기</button>
+        <div class="detail-layout">
+          <div class="detail-info">
+            <div class="detail-title-row">
+              <h3>${label(entity)}</h3>
+            </div>
+            <p><strong>영문명:</strong> ${entity.name}</p>
+            <p><strong>분류:</strong> ${entity.isMonster ? "보스" : entity.category}</p>
+            <p><strong>활성 시간:</strong> ${availabilityTimeLabel([entity.timeBand])}</p>
+            <p><strong>희귀도:</strong> <span class="rarity-pill rarity-${entity.rarity}">${entity.rarity}</span></p>
+            <p><strong>그림자 크기:</strong> ${shadowSizeLabel(entity.shadowSizes)}</p>
+            <p><strong>그림자 속도:</strong> ${shadowSpeedLabel(entity.shadowSpeeds)}</p>
+            ${miniHtml}
+            <p><strong>학명:</strong> ${entity.latin || "-"}</p>
+            ${seasonBar(entity)}
+          </div>
+          <div class="detail-visual">
+            <img class="detail-entity-image" src="${entityImage}" alt="${label(entity)}" onerror="this.style.display='none';">
+          </div>
+        </div>
+        ${noteHtml}
       </div>`;
 
     locs.forEach((l) => {
@@ -222,6 +258,7 @@ function renderMarkers() {
 function renderEntityPanel() {
   entityList.innerHTML = "";
   const categoryRank = { fish: 0, creature: 1, item: 2 };
+  const categoryLabel = { fish: "물고기", creature: "생명체", item: "아이템" };
   const rarityRank = { common: 0, rare: 1, epic: 2, monster: 3 };
   const sorted = [...lastFilteredEntities].sort((a, b) => {
     const ca = categoryRank[a.category] ?? 9;
@@ -235,20 +272,50 @@ function renderEntityPanel() {
     return label(a).localeCompare(label(b));
   });
 
-  sorted.forEach((entity) => {
-    const row = document.createElement("button");
-    row.type = "button";
-    const rarityKey = entity.isMonster ? "monster" : entity.rarity;
-    row.className = `entity-row rarity-${rarityKey} ${hiddenEntityIds.has(entity.id) ? "off" : ""}`;
-    const count = Array.isArray(entity.locations) ? entity.locations.length : 0;
-    const isBlobfish = entity.name.toLowerCase() === "blobfish" || label(entity).includes("블롭피시");
-    row.innerHTML = `<span class="entity-left"><img class="entity-thumb" src="${entity.image}" alt="${label(entity)}" onerror="this.style.display='none';"><span class="entity-name rarity-${rarityKey} ${isBlobfish ? "blobfish" : ""}">${label(entity)}</span></span><span class="entity-count">${count}</span>`;
-    row.addEventListener("click", () => {
-      if (hiddenEntityIds.has(entity.id)) hiddenEntityIds.delete(entity.id);
-      else hiddenEntityIds.add(entity.id);
-      renderMarkers();
+  const grouped = {
+    fish: sorted.filter((e) => e.category === "fish"),
+    creature: sorted.filter((e) => e.category === "creature"),
+    item: sorted.filter((e) => e.category === "item")
+  };
+
+  ["fish", "creature", "item"].forEach((category) => {
+    const groupItems = grouped[category];
+    if (groupItems.length === 0) return;
+
+    const section = document.createElement("section");
+    section.className = "entity-group";
+
+    const header = document.createElement("button");
+    header.type = "button";
+    header.className = "entity-group-head";
+    header.innerHTML = `<span>${categoryLabel[category]}</span><span class="entity-group-meta">${groupItems.length}</span><span class="entity-group-arrow">${panelFoldState[category] ? "▾" : "▸"}</span>`;
+    header.addEventListener("click", () => {
+      panelFoldState[category] = !panelFoldState[category];
+      renderEntityPanel();
     });
-    entityList.appendChild(row);
+    section.appendChild(header);
+
+    const body = document.createElement("div");
+    body.className = `entity-group-body ${panelFoldState[category] ? "open" : "closed"}`;
+
+    groupItems.forEach((entity) => {
+      const row = document.createElement("button");
+      row.type = "button";
+      const rarityKey = entity.isMonster ? "monster" : entity.rarity;
+      row.className = `entity-row rarity-${rarityKey} ${hiddenEntityIds.has(entity.id) ? "off" : ""}`;
+      const count = Array.isArray(entity.locations) ? entity.locations.length : 0;
+      const isBlobfish = entity.name.toLowerCase() === "blobfish" || label(entity).includes("블롭피시");
+      row.innerHTML = `<span class="entity-left"><img class="entity-thumb" src="${entity.image}" alt="${label(entity)}" onerror="this.style.display='none';"><span class="entity-name rarity-${rarityKey} ${isBlobfish ? "blobfish" : ""}">${label(entity)}</span></span><span class="entity-count">${count}</span>`;
+      row.addEventListener("click", () => {
+        if (hiddenEntityIds.has(entity.id)) hiddenEntityIds.delete(entity.id);
+        else hiddenEntityIds.add(entity.id);
+        renderMarkers();
+      });
+      body.appendChild(row);
+    });
+
+    section.appendChild(body);
+    entityList.appendChild(section);
   });
 }
 
@@ -348,5 +415,8 @@ document.addEventListener("DOMContentLoaded", () => {
   panelToggleBtn.addEventListener("click", toggleEntityPanel);
   detailClose.addEventListener("click", closeDetail);
   detailBackdrop.addEventListener("click", closeDetail);
+  detailBody.addEventListener("click", (event) => {
+    if (event.target.classList.contains("detail-close-inline")) closeDetail();
+  });
   renderMap();
 });
