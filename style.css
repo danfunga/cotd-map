@@ -74,22 +74,35 @@ header p { margin: 4px 0 0; opacity: 0.75; font-size: 12px; }
 .filter-card {
   border: 1px solid rgba(71, 188, 245, 0.35);
   border-radius: 10px;
-  padding: 8px;
+  padding: 14px 8px 9px;
   background: rgba(2, 46, 65, 0.75);
   max-width: none;
   width: auto;
   justify-self: stretch;
   min-width: 0;
+  position: relative;
 }
 .filter-card.disabled { opacity: 0.45; }
 
 .filter-headline {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 7px;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  margin: 0;
+  padding: 0 6px;
+  background: rgba(2, 46, 65, 0.75);
+  border-radius: 6px;
 }
-.filter-title { font-size: 11px; letter-spacing: 1.8px; color: #7dc7ea; font-weight: 700; }
+.filter-title {
+  font-size: 11px;
+  letter-spacing: 1.4px;
+  color: #8fdcff;
+  font-weight: 900;
+  border: none;
+  border-radius: 0;
+  padding: 0 2px;
+  line-height: 1.1;
+}
 .clear-btn {
   border: 1px solid #0d729c;
   background: #01344a;
@@ -104,6 +117,19 @@ header p { margin: 4px 0 0; opacity: 0.75; font-size: 12px; }
   touch-action: manipulation;
   user-select: none;
 }
+.clear-btn-inline {
+  width: 22px;
+  height: 26px;
+  font-size: 13px;
+  line-height: 1;
+  border-radius: 6px;
+  margin-left: 2px;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
 /* 버튼들을 항상 한 줄로 배치 */
 .filter-row {
   display: flex;
@@ -111,6 +137,7 @@ header p { margin: 4px 0 0; opacity: 0.75; font-size: 12px; }
   gap: 7px;
   width: 100%;
   min-width: 0;
+  align-items: center;
 }
 
 /* 버튼이 공간을 균등하게 나눠 가지도록 설정 */
@@ -122,7 +149,7 @@ header p { margin: 4px 0 0; opacity: 0.75; font-size: 12px; }
   background: #01344a;
   color: #d8f2ff;
   border-radius: 9px;
-  padding: 6px 10px;
+  padding: 5px 9px;
 
   /* 텍스트를 항상 한 줄로 유지 */
   white-space: nowrap;
@@ -130,7 +157,7 @@ header p { margin: 4px 0 0; opacity: 0.75; font-size: 12px; }
   text-overflow: ellipsis;
 
   /* 화면이 좁아질수록 글자 크기 자동 축소 */
-  font-size: clamp(8px, 2.2vw, 12px);
+  font-size: clamp(8px, 2.1vw, 11px);
   font-weight: 700;
   touch-action: manipulation;
   user-select: none;
@@ -575,7 +602,7 @@ main { padding: 0; }
     top: 46px;
     width: min(82vw, 320px);
     height: auto;
-    max-height: 58vh;
+    max-height: calc(var(--map-h) - 64px);
     min-height: 160px;
     z-index: 1300;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);

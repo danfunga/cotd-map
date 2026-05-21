@@ -13,3 +13,7 @@ desktop.ini
 
 # Logs
 *.log
+
+.codex
+.npm-cache/
+node_modules/
