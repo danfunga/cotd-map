@@ -14,9 +14,21 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 581, "y": 506 },
-        { "no": 2, "x": 493, "y": 280 },
-        { "no": 3, "x": 914.9961748553924, "y": 125.86500705120545 }
+        {
+          "no": 1,
+          "x": 581,
+          "y": 506
+        },
+        {
+          "no": 2,
+          "x": 493,
+          "y": 280
+        },
+        {
+          "no": 3,
+          "x": 914.9961748553924,
+          "y": 125.86500705120545
+        }
       ],
       "notes": "",
       "latin": "Lucipisces fulgens",
@@ -55,7 +67,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        { "no": 1, "x": 552.2503961066935, "y": 176.06958851545033 }
+        {
+          "no": 1,
+          "x": 552.2503961066935,
+          "y": 176.06958851545033
+        }
       ],
       "notes": "",
       "latin": "",
@@ -94,7 +110,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 108, "y": 250 }
+        {
+          "no": 1,
+          "x": 108,
+          "y": 250
+        }
       ],
       "notes": "",
       "latin": "",
@@ -133,7 +153,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 475.17575695735997, "y": 571.3422791987305 }
+        {
+          "no": 1,
+          "x": 475.17575695735997,
+          "y": 571.3422791987305
+        }
       ],
       "notes": "",
       "latin": "Incusmarinus robustus",
@@ -172,7 +196,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 379.0092347159895, "y": 103.23759005323595 }
+        {
+          "no": 1,
+          "x": 379.0092347159895,
+          "y": 103.23759005323595
+        }
       ],
       "notes": "",
       "latin": "",
@@ -211,7 +239,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 157, "y": 942 }
+        {
+          "no": 1,
+          "x": 157,
+          "y": 942
+        }
       ],
       "notes": "",
       "latin": "",
@@ -286,7 +318,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "day",
       "locations": [
-        { "no": 1, "x": 253.14422766478404, "y": 636.3961030678928 }
+        {
+          "no": 1,
+          "x": 253.14422766478404,
+          "y": 636.3961030678928
+        }
       ],
       "notes": "",
       "latin": "",
@@ -325,7 +361,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 1084.701802340164, "y": 360.62445840513925 }
+        {
+          "no": 1,
+          "x": 1084.701802340164,
+          "y": 360.62445840513925
+        }
       ],
       "notes": "",
       "latin": "Nylonichthys syntheticus",
@@ -364,7 +404,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 898.0256121069154, "y": 954.5941546018393 }
+        {
+          "no": 1,
+          "x": 898.0256121069154,
+          "y": 954.5941546018393
+        }
       ],
       "notes": "",
       "latin": "",
@@ -403,7 +447,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 848, "y": 418 }
+        {
+          "no": 1,
+          "x": 848,
+          "y": 418
+        }
       ],
       "notes": "",
       "latin": "",
@@ -442,7 +490,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 905.0966799187809, "y": 404.4650788387052 }
+        {
+          "no": 1,
+          "x": 905.0966799187809,
+          "y": 404.4650788387052
+        }
       ],
       "notes": "",
       "latin": "",
@@ -481,7 +533,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 1030.9616869699864, "y": 606.6976182580578 }
+        {
+          "no": 1,
+          "x": 1030.9616869699864,
+          "y": 606.6976182580578
+        }
       ],
       "notes": "",
       "latin": "",
@@ -520,7 +576,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 1028.1332598452402, "y": 967.3220766631971 }
+        {
+          "no": 1,
+          "x": 1028.1332598452402,
+          "y": 967.3220766631971
+        }
       ],
       "notes": "",
       "latin": "",
@@ -559,7 +619,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 1055.003317530329, "y": 762.2611101190982 }
+        {
+          "no": 1,
+          "x": 1055.003317530329,
+          "y": 762.2611101190982
+        }
       ],
       "notes": "",
       "latin": "",
@@ -598,7 +662,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 879.6408357960652, "y": 782.0600999923216 }
+        {
+          "no": 1,
+          "x": 879.6408357960652,
+          "y": 782.0600999923216
+        }
       ],
       "notes": "",
       "latin": "",
@@ -637,8 +705,16 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 268, "y": 500 },
-        { "no": 2, "x": 784.1814203358812, "y": 1076.2165209659252 }
+        {
+          "no": 1,
+          "x": 268,
+          "y": 500
+        },
+        {
+          "no": 2,
+          "x": 784.1814203358812,
+          "y": 1076.2165209659252
+        }
       ],
       "notes": "",
       "latin": "",
@@ -677,7 +753,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        { "no": 1, "x": 130.10764773832474, "y": 353.5533905932738 }
+        {
+          "no": 1,
+          "x": 130.10764773832474,
+          "y": 353.5533905932738
+        }
       ],
       "notes": "",
       "latin": "",
@@ -716,7 +796,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 322, "y": 849 }
+        {
+          "no": 1,
+          "x": 322,
+          "y": 849
+        }
       ],
       "notes": "",
       "latin": "",
@@ -755,8 +839,16 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 596.0910165402595, "y": 161.92745289171938 },
-        { "no": 2, "x": 339, "y": 113 }
+        {
+          "no": 1,
+          "x": 596.0910165402595,
+          "y": 161.92745289171938
+        },
+        {
+          "no": 2,
+          "x": 339,
+          "y": 113
+        }
       ],
       "notes": "",
       "latin": "Palustrivenator",
@@ -795,9 +887,21 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "day",
       "locations": [
-        { "no": 1, "x": 621, "y": 518 },
-        { "no": 2, "x": 429.92092296142096, "y": 366.2813126546317 },
-        { "no": 3, "x": 873.2768747653861, "y": 160.51323932934628 }
+        {
+          "no": 1,
+          "x": 621,
+          "y": 518
+        },
+        {
+          "no": 2,
+          "x": 429.92092296142096,
+          "y": 366.2813126546317
+        },
+        {
+          "no": 3,
+          "x": 873.2768747653861,
+          "y": 160.51323932934628
+        }
       ],
       "notes": "",
       "latin": "",
@@ -836,8 +940,16 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 735.3910524340095, "y": 383.2518754031088 },
-        { "no": 2, "x": 996, "y": 196 }
+        {
+          "no": 1,
+          "x": 735.3910524340095,
+          "y": 383.2518754031088
+        },
+        {
+          "no": 2,
+          "x": 996,
+          "y": 196
+        }
       ],
       "notes": "",
       "latin": "",
@@ -876,8 +988,16 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 940.4520189781083, "y": 113.13708498984761 },
-        { "no": 2, "x": 237, "y": 120 }
+        {
+          "no": 1,
+          "x": 940.4520189781083,
+          "y": 113.13708498984761
+        },
+        {
+          "no": 2,
+          "x": 237,
+          "y": 120
+        }
       ],
       "notes": "",
       "latin": "",
@@ -916,9 +1036,21 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 330.9259735953043, "y": 803.2733034279181 },
-        { "no": 2, "x": 277.18585822512665, "y": 132.93607486307096 },
-        { "no": 3, "x": 761.5540033379116, "y": 126.57211383239199 }
+        {
+          "no": 1,
+          "x": 330.9259735953043,
+          "y": 803.2733034279181
+        },
+        {
+          "no": 2,
+          "x": 277.18585822512665,
+          "y": 132.93607486307096
+        },
+        {
+          "no": 3,
+          "x": 761.5540033379116,
+          "y": 126.57211383239199
+        }
       ],
       "notes": "",
       "latin": "Salmo toxicus",
@@ -957,7 +1089,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 240.41630560342617, "y": 308.29855659733477 }
+        {
+          "no": 1,
+          "x": 240.41630560342617,
+          "y": 308.29855659733477
+        }
       ],
       "notes": "",
       "latin": "Cyprinus carpio",
@@ -996,7 +1132,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 871.1555544218267, "y": 203.6467529817257 }
+        {
+          "no": 1,
+          "x": 871.1555544218267,
+          "y": 203.6467529817257
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1035,7 +1175,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 609, "y": 484 }
+        {
+          "no": 1,
+          "x": 609,
+          "y": 484
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1074,7 +1218,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 234, "y": 448 }
+        {
+          "no": 1,
+          "x": 234,
+          "y": 448
+        }
       ],
       "notes": "",
       "latin": "Diodon hystrix",
@@ -1113,7 +1261,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 107.48023074035524, "y": 462.4478348960021 }
+        {
+          "no": 1,
+          "x": 107.48023074035524,
+          "y": 462.4478348960021
+        }
       ],
       "notes": "",
       "latin": "Toxicus fumosus",
@@ -1152,7 +1304,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 293, "y": 458 }
+        {
+          "no": 1,
+          "x": 293,
+          "y": 458
+        }
       ],
       "notes": "",
       "latin": "Plantus toxicus",
@@ -1191,7 +1347,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 145, "y": 1003 }
+        {
+          "no": 1,
+          "x": 145,
+          "y": 1003
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1230,7 +1390,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 626, "y": 722 }
+        {
+          "no": 1,
+          "x": 626,
+          "y": 722
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1269,7 +1433,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 704, "y": 930 }
+        {
+          "no": 1,
+          "x": 704,
+          "y": 930
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1308,7 +1476,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 788, "y": 840 }
+        {
+          "no": 1,
+          "x": 788,
+          "y": 840
+        }
       ],
       "notes": "",
       "latin": "Brachionichthys hirsutus",
@@ -1347,7 +1519,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 768, "y": 792 }
+        {
+          "no": 1,
+          "x": 768,
+          "y": 792
+        }
       ],
       "notes": "",
       "latin": "Platygnathus compressus",
@@ -1386,7 +1562,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 230, "y": 1028 }
+        {
+          "no": 1,
+          "x": 230,
+          "y": 1028
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1425,7 +1605,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 674, "y": 684 }
+        {
+          "no": 1,
+          "x": 674,
+          "y": 684
+        }
       ],
       "notes": "",
       "latin": "Mutangus ferrugineus",
@@ -1464,7 +1648,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 742, "y": 1016 }
+        {
+          "no": 1,
+          "x": 742,
+          "y": 1016
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1503,7 +1691,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 346, "y": 930 }
+        {
+          "no": 1,
+          "x": 346,
+          "y": 930
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1542,7 +1734,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 664, "y": 898 }
+        {
+          "no": 1,
+          "x": 664,
+          "y": 898
+        }
       ],
       "notes": "",
       "latin": "Anguilla rostrata",
@@ -1581,7 +1777,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 542, "y": 870 }
+        {
+          "no": 1,
+          "x": 542,
+          "y": 870
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1620,7 +1820,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 492, "y": 834 }
+        {
+          "no": 1,
+          "x": 492,
+          "y": 834
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1659,7 +1863,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 386, "y": 888 }
+        {
+          "no": 1,
+          "x": 386,
+          "y": 888
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1698,7 +1906,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 523.9661248592316, "y": 1046.5180361560904 }
+        {
+          "no": 1,
+          "x": 523.9661248592316,
+          "y": 1046.5180361560904
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1737,7 +1949,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 1033, "y": 438 }
+        {
+          "no": 1,
+          "x": 1033,
+          "y": 438
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1776,8 +1992,16 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 280, "y": 414 },
-        { "no": 2, "x": 188, "y": 1012 }
+        {
+          "no": 1,
+          "x": 280,
+          "y": 414
+        },
+        {
+          "no": 2,
+          "x": 188,
+          "y": 1012
+        }
       ],
       "notes": "",
       "latin": "Serrator aqua",
@@ -1816,8 +2040,16 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 474, "y": 394 },
-        { "no": 2, "x": 477, "y": 241 }
+        {
+          "no": 1,
+          "x": 474,
+          "y": 394
+        },
+        {
+          "no": 2,
+          "x": 477,
+          "y": 241
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1856,7 +2088,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 734, "y": 110 }
+        {
+          "no": 1,
+          "x": 734,
+          "y": 110
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1895,9 +2131,21 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        { "no": 1, "x": 960, "y": 207 },
-        { "no": 2, "x": 896, "y": 98 },
-        { "no": 3, "x": 257, "y": 82 }
+        {
+          "no": 1,
+          "x": 960,
+          "y": 207
+        },
+        {
+          "no": 2,
+          "x": 896,
+          "y": 98
+        },
+        {
+          "no": 3,
+          "x": 257,
+          "y": 82
+        }
       ],
       "notes": "",
       "latin": "",
@@ -1936,8 +2184,16 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 278, "y": 600 },
-        { "no": 2, "x": 145, "y": 211 }
+        {
+          "no": 1,
+          "x": 278,
+          "y": 600
+        },
+        {
+          "no": 2,
+          "x": 145,
+          "y": 211
+        }
       ],
       "notes": "",
       "latin": "Cerebralis piscatorius",
@@ -1976,8 +2232,16 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 846, "y": 477 },
-        { "no": 2, "x": 196, "y": 1051 }
+        {
+          "no": 1,
+          "x": 846,
+          "y": 477
+        },
+        {
+          "no": 2,
+          "x": 196,
+          "y": 1051
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2052,7 +2316,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 148, "y": 905 }
+        {
+          "no": 1,
+          "x": 148,
+          "y": 905
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2091,7 +2359,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 922, "y": 328 }
+        {
+          "no": 1,
+          "x": 922,
+          "y": 328
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2166,7 +2438,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 138, "y": 609 }
+        {
+          "no": 1,
+          "x": 138,
+          "y": 609
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2205,7 +2481,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 295, "y": 229 }
+        {
+          "no": 1,
+          "x": 295,
+          "y": 229
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2244,7 +2524,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 168, "y": 1041 }
+        {
+          "no": 1,
+          "x": 168,
+          "y": 1041
+        }
       ],
       "notes": "",
       "latin": "Albula vulpes",
@@ -2279,8 +2563,16 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 306.88434303496166, "y": 90.50966799187809 },
-        { "no": 2, "x": 751.6545084013, "y": 1035.911434438292 }
+        {
+          "no": 1,
+          "x": 306.88434303496166,
+          "y": 90.50966799187809
+        },
+        {
+          "no": 2,
+          "x": 751.6545084013,
+          "y": 1035.911434438292
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2351,9 +2643,21 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 603.8691911333116, "y": 454.66966030295004 },
-        { "no": 2, "x": 969.4433970067566, "y": 142.12846301849603 },
-        { "no": 3, "x": 547.3006486383878, "y": 980.0499987245548 }
+        {
+          "no": 1,
+          "x": 603.8691911333116,
+          "y": 454.66966030295004
+        },
+        {
+          "no": 2,
+          "x": 969.4433970067566,
+          "y": 142.12846301849603
+        },
+        {
+          "no": 3,
+          "x": 547.3006486383878,
+          "y": 980.0499987245548
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2390,7 +2694,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 1039, "y": 478 }
+        {
+          "no": 1,
+          "x": 1039,
+          "y": 478
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2427,7 +2735,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 554.3717164502532, "y": 203.64675298172568 }
+        {
+          "no": 1,
+          "x": 554.3717164502532,
+          "y": 203.64675298172568
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2464,7 +2776,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 638, "y": 476 }
+        {
+          "no": 1,
+          "x": 638,
+          "y": 476
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2501,7 +2817,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 1083, "y": 492 }
+        {
+          "no": 1,
+          "x": 1083,
+          "y": 492
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2538,7 +2858,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 660, "y": 962 }
+        {
+          "no": 1,
+          "x": 660,
+          "y": 962
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2575,7 +2899,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 180, "y": 1077 }
+        {
+          "no": 1,
+          "x": 180,
+          "y": 1077
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2612,7 +2940,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 135, "y": 302 }
+        {
+          "no": 1,
+          "x": 135,
+          "y": 302
+        }
       ],
       "notes": "",
       "latin": "Fungus cloacae",
@@ -2649,7 +2981,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 689, "y": 1023 }
+        {
+          "no": 1,
+          "x": 689,
+          "y": 1023
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2686,7 +3022,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 1083, "y": 288 }
+        {
+          "no": 1,
+          "x": 1083,
+          "y": 288
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2723,7 +3063,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 918, "y": 633 }
+        {
+          "no": 1,
+          "x": 918,
+          "y": 633
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2760,9 +3104,21 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 819, "y": 219 },
-        { "no": 2, "x": 117, "y": 416 },
-        { "no": 3, "x": 349, "y": 831 }
+        {
+          "no": 1,
+          "x": 819,
+          "y": 219
+        },
+        {
+          "no": 2,
+          "x": 117,
+          "y": 416
+        },
+        {
+          "no": 3,
+          "x": 349,
+          "y": 831
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2799,8 +3155,16 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 498, "y": 599 },
-        { "no": 2, "x": 338, "y": 431 }
+        {
+          "no": 1,
+          "x": 498,
+          "y": 599
+        },
+        {
+          "no": 2,
+          "x": 338,
+          "y": 431
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2837,7 +3201,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 911.4606409494597, "y": 185.969083452062 }
+        {
+          "no": 1,
+          "x": 911.4606409494597,
+          "y": 185.969083452062
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2859,7 +3227,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 461.03362133362896, "y": 958.8367952889583 }
+        {
+          "no": 1,
+          "x": 461.03362133362896,
+          "y": 958.8367952889583
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2881,7 +3253,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 435.5777772109133, "y": 408.70771952582453 }
+        {
+          "no": 1,
+          "x": 435.5777772109133,
+          "y": 408.70771952582453
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2903,7 +3279,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 755.1900423072327, "y": 963.0794359760777 }
+        {
+          "no": 1,
+          "x": 755.1900423072327,
+          "y": 963.0794359760777
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2930,10 +3310,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-5.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-5.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": ""
+      "mapCategory": "",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-5.png"
     },
     {
       "id": "T9-6",
@@ -2944,7 +3325,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 377.5950211536164, "y": 816.001225489276 }
+        {
+          "no": 1,
+          "x": 377.5950211536164,
+          "y": 816.001225489276
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2966,7 +3351,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 510.5310960166873, "y": 1067.7312395916867 }
+        {
+          "no": 1,
+          "x": 510.5310960166873,
+          "y": 1067.7312395916867
+        }
       ],
       "notes": "",
       "latin": "",
@@ -2988,7 +3377,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 585.4844148224613, "y": 970.8576105691296 }
+        {
+          "no": 1,
+          "x": 585.4844148224613,
+          "y": 970.8576105691296
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3010,7 +3403,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 276.47875144394004, "y": 661.1448404094219 }
+        {
+          "no": 1,
+          "x": 276.47875144394004,
+          "y": 661.1448404094219
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3032,7 +3429,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 362.74577874869885, "y": 1087.53022946491 }
+        {
+          "no": 1,
+          "x": 362.74577874869885,
+          "y": 1087.53022946491
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3054,7 +3455,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 125.86500705120545, "y": 741.7550134646883 }
+        {
+          "no": 1,
+          "x": 125.86500705120545,
+          "y": 741.7550134646883
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3076,7 +3481,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 654.0737725975564, "y": 1045.8109293749037 }
+        {
+          "no": 1,
+          "x": 654.0737725975564,
+          "y": 1045.8109293749037
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3098,7 +3507,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 642.0529573173851, "y": 1074.0952006223656 }
+        {
+          "no": 1,
+          "x": 642.0529573173851,
+          "y": 1074.0952006223656
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3120,7 +3533,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 169.70562748477138, "y": 889.5403307326767 }
+        {
+          "no": 1,
+          "x": 169.70562748477138,
+          "y": 889.5403307326767
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3142,7 +3559,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 424.2640687119285, "y": 1056.417531092702 }
+        {
+          "no": 1,
+          "x": 424.2640687119285,
+          "y": 1056.417531092702
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3164,7 +3585,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 644.8813844421313, "y": 700.7428201558686 }
+        {
+          "no": 1,
+          "x": 644.8813844421313,
+          "y": 700.7428201558686
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3186,9 +3611,21 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 909.3393206059002, "y": 219.20310216782974 },
-        { "no": 2, "x": 1038.032754781852, "y": 224.85995641732214 },
-        { "no": 3, "x": 784.8885271170677, "y": 325.97622612699837 }
+        {
+          "no": 1,
+          "x": 909.3393206059002,
+          "y": 219.20310216782974
+        },
+        {
+          "no": 2,
+          "x": 1038.032754781852,
+          "y": 224.85995641732214
+        },
+        {
+          "no": 3,
+          "x": 784.8885271170677,
+          "y": 325.97622612699837
+        }
       ],
       "notes": "toxic fishing rod",
       "latin": "",
@@ -3210,7 +3647,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 207, "y": 168 }
+        {
+          "no": 1,
+          "x": 207,
+          "y": 168
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3232,8 +3673,16 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 557.2001435749995, "y": 499.212660928468 },
-        { "no": 2, "x": 842.8712831743647, "y": 200.81832585697953 }
+        {
+          "no": 1,
+          "x": 557.2001435749995,
+          "y": 499.212660928468
+        },
+        {
+          "no": 2,
+          "x": 842.8712831743647,
+          "y": 200.81832585697953
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3255,7 +3704,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 963.0794359760778, "y": 91.8909158522651 }
+        {
+          "no": 1,
+          "x": 963.0794359760778,
+          "y": 91.8909158522651
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3277,7 +3730,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 511.94530957906045, "y": 558.6032481473883 }
+        {
+          "no": 1,
+          "x": 511.94530957906045,
+          "y": 558.6032481473883
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3299,7 +3756,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 692.2575387816299, "y": 905.8037866999673 }
+        {
+          "no": 1,
+          "x": 692.2575387816299,
+          "y": 905.8037866999673
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3321,10 +3782,26 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 535.2798333582165, "y": 247.48737341529161 },
-        { "no": 2, "x": 382.5447686219222, "y": 358.5031380615796 },
-        { "no": 3, "x": 959, "y": 604 },
-        { "no": 4, "x": 610.2331521639904, "y": 533.1585130146568 }
+        {
+          "no": 1,
+          "x": 535.2798333582165,
+          "y": 247.48737341529161
+        },
+        {
+          "no": 2,
+          "x": 382.5447686219222,
+          "y": 358.5031380615796
+        },
+        {
+          "no": 3,
+          "x": 959,
+          "y": 604
+        },
+        {
+          "no": 4,
+          "x": 610.2331521639904,
+          "y": 533.1585130146568
+        }
       ],
       "notes": "toxic fishing rod",
       "latin": "",
@@ -3346,7 +3823,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 526.0874452027913, "y": 161.22034611053283 }
+        {
+          "no": 1,
+          "x": 526.0874452027913,
+          "y": 161.22034611053283
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3368,7 +3849,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 145.6639969244288, "y": 268.70057685088807 }
+        {
+          "no": 1,
+          "x": 145.6639969244288,
+          "y": 268.70057685088807
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3390,7 +3875,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 899.4398256692884, "y": 317.49094475275984 }
+        {
+          "no": 1,
+          "x": 899.4398256692884,
+          "y": 317.49094475275984
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3412,7 +3901,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 794.7880220536794, "y": 1028.13325984524 }
+        {
+          "no": 1,
+          "x": 794.7880220536794,
+          "y": 1028.13325984524
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3434,7 +3927,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 632.1534623807735, "y": 915.7032816365789 }
+        {
+          "no": 1,
+          "x": 632.1534623807735,
+          "y": 915.7032816365789
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3456,7 +3953,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 545.8864350760147, "y": 942.5733393216677 }
+        {
+          "no": 1,
+          "x": 545.8864350760147,
+          "y": 942.5733393216677
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3478,7 +3979,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 781.352993211135, "y": 171.1198410471445 }
+        {
+          "no": 1,
+          "x": 781.352993211135,
+          "y": 171.1198410471445
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3500,8 +4005,16 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 127.27922061357856, "y": 939.0378054157352 },
-        { "no": 2, "x": 717.0062761231592, "y": 1028.8403666264267 }
+        {
+          "no": 1,
+          "x": 127.27922061357856,
+          "y": 939.0378054157352
+        },
+        {
+          "no": 2,
+          "x": 717.0062761231592,
+          "y": 1028.8403666264267
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3523,7 +4036,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 485.0752518939716, "y": 164.04877323527901 }
+        {
+          "no": 1,
+          "x": 485.0752518939716,
+          "y": 164.04877323527901
+        }
       ],
       "notes": "toxic fishing rod",
       "latin": "",
@@ -3545,7 +4062,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 168.29141392239833, "y": 848.5281374238571 }
+        {
+          "no": 1,
+          "x": 168.29141392239833,
+          "y": 848.5281374238571
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3567,7 +4088,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 715.5920625607861, "y": 1002.6774157225243 }
+        {
+          "no": 1,
+          "x": 715.5920625607861,
+          "y": 1002.6774157225243
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3589,10 +4114,26 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 1088.5, "y": 226.5 },
-        { "no": 2, "x": 175.3624817342638, "y": 123.03657992645928 },
-        { "no": 3, "x": 98.99494936611666, "y": 954.5941546018393 },
-        { "no": 4, "x": 629.6785886466205, "y": 536.3404935299963 }
+        {
+          "no": 1,
+          "x": 1088.5,
+          "y": 226.5
+        },
+        {
+          "no": 2,
+          "x": 175.3624817342638,
+          "y": 123.03657992645928
+        },
+        {
+          "no": 3,
+          "x": 98.99494936611666,
+          "y": 954.5941546018393
+        },
+        {
+          "no": 4,
+          "x": 629.6785886466205,
+          "y": 536.3404935299963
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3614,7 +4155,11 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 1034, "y": 517 }
+        {
+          "no": 1,
+          "x": 1034,
+          "y": 517
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3636,8 +4181,16 @@ export const chemicalPlantMap = {
       "isMonster": false,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 172.53405460951763, "y": 321.0264786586926 },
-        { "no": 2, "x": 997, "y": 110 }
+        {
+          "no": 1,
+          "x": 172.53405460951763,
+          "y": 321.0264786586926
+        },
+        {
+          "no": 2,
+          "x": 997,
+          "y": 110
+        }
       ],
       "notes": "",
       "latin": "",
@@ -3664,10 +4217,11 @@ export const chemicalPlantMap = {
       "difficulty": null,
       "seasons": [],
       "minigame": null,
-      "image": "./assets/portraits/item/T9-38.png",
+      "image": "./assets/portraits-mapicons/chemical-plant/T9-38.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": ""
+      "mapCategory": "",
+      "altImage": "./assets/portraits-mapicons/chemical-plant/T9-38.png"
     },
     {
       "id": "b23",
@@ -3678,7 +4232,11 @@ export const chemicalPlantMap = {
       "isMonster": true,
       "timeBand": "both",
       "locations": [
-        { "no": 1, "x": 1048, "y": 818 }
+        {
+          "no": 1,
+          "x": 1048,
+          "y": 818
+        }
       ],
       "notes": "Map monster.",
       "latin": "",
