@@ -607,7 +607,7 @@ export const marinaMap = {
     {
       "id": "C-M05",
       "name": "hermit crab",
-      "display": "hermit 크랩",
+      "display": "Hermit crab",
       "category": "creature",
       "rarity": "common",
       "isMonster": false,
@@ -767,7 +767,7 @@ export const marinaMap = {
     {
       "id": "C-M06",
       "name": "hermit crab",
-      "display": "hermit 크랩",
+      "display": "Hermit crab",
       "category": "creature",
       "rarity": "rare",
       "isMonster": false,
