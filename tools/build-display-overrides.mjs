@@ -26,4 +26,4 @@ for (const file of files) {
 const header = `// Editable display overrides by map id.\n// Prefer key by entity id (stable) for safe updates.\n// You can also add name-based keys if needed.\n\n`;
 const body = `export const displayOverrides = ${JSON.stringify(out, null, 2)};\n`;
 fs.writeFileSync(path.join(mapsDir, 'display-overrides.js'), header + body);
-console.log('written data/maps/display-overrides.js');
+console.log('written content/display-overrides.js');

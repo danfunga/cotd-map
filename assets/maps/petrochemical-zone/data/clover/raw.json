@@ -1,0 +1,2724 @@
+{
+  "creatures": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "cc05",
+      "kgs": {
+        "max": 4,
+        "min": 1
+      },
+      "latin": "Forficulocarcinus incisus",
+      "lbs": {
+        "max": 8.82,
+        "min": 2.2
+      },
+      "map": "Petrochemical",
+      "name": "Snipcerra",
+      "names": {
+        "en": "Snipcerra",
+        "fr": "Ciscerra",
+        "it": "Cescerra",
+        "pt": "Teserra",
+        "zh": "剪甲蟹"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 53,
+          "y": 88
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "cc02",
+      "kgs": {
+        "max": 2,
+        "min": 0.5
+      },
+      "latin": "Nubimedusa vaporosa",
+      "lbs": {
+        "max": 4.41,
+        "min": 1.1
+      },
+      "map": "Petrochemical",
+      "name": "Nimbusjelly",
+      "names": {
+        "en": "Nimbusjelly",
+        "fr": "Nimbogélie",
+        "it": "Nimbogella",
+        "pt": "Nimbogeleia",
+        "zh": "云霞水母"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 52,
+          "y": 86
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": []
+        }
+      ],
+      "difficulty": 0,
+      "id": "cc04",
+      "kgs": {
+        "max": 0.5,
+        "min": 0.1
+      },
+      "latin": "Acharipiscis crispulus",
+      "lbs": {
+        "max": 1.1,
+        "min": 0.22
+      },
+      "map": "Petrochemical",
+      "name": "Brineling",
+      "names": {
+        "en": "Brineling",
+        "fr": "Brineline",
+        "it": "Brinolino",
+        "pt": "Brinelingue",
+        "zh": "腌灵兽"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 56,
+          "y": 87
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "cc01",
+      "kgs": {
+        "max": 3,
+        "min": 1
+      },
+      "latin": "Campanocarcinus alertus",
+      "lbs": {
+        "max": 6.61,
+        "min": 2.2
+      },
+      "map": "Petrochemical",
+      "name": "Clangcrab",
+      "names": {
+        "en": "Clangcrab",
+        "fr": "Cloquepince",
+        "it": "Clancorbo",
+        "pt": "Crangclang",
+        "zh": "响壳蟹"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 14,
+          "y": 59
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "cc09",
+      "kgs": {
+        "max": 1,
+        "min": 0.2
+      },
+      "latin": "Vermus musculinus",
+      "lbs": {
+        "max": 2.2,
+        "min": 0.44
+      },
+      "map": "Petrochemical",
+      "name": "V-Mouse",
+      "names": {
+        "en": "V-Mouse",
+        "fr": "V-Souris",
+        "it": "V-Topo",
+        "pt": "V-Raposo",
+        "zh": "V鼠灵"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 23,
+          "y": 75
+        },
+        {
+          "x": 71,
+          "y": 13
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "cc08",
+      "kgs": {
+        "max": 0.5,
+        "min": 0.1
+      },
+      "latin": "Polyfragma levitans",
+      "lbs": {
+        "max": 1.1,
+        "min": 0.22
+      },
+      "map": "Petrochemical",
+      "name": "Styrophyl",
+      "names": {
+        "en": "Styrophyl",
+        "fr": "Styrophyle",
+        "it": "Styrofilo",
+        "pt": "Estirofil",
+        "zh": "泡壳蛎"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 44,
+          "y": 67
+        },
+        {
+          "x": 55,
+          "y": 87
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "cc03",
+      "kgs": {
+        "max": 35,
+        "min": 9
+      },
+      "latin": "Ferricarcharias durus",
+      "lbs": {
+        "max": 77.16,
+        "min": 19.84
+      },
+      "map": "Petrochemical",
+      "name": "Ferrashark",
+      "names": {
+        "en": "Ferrashark",
+        "fr": "Ferrasquale",
+        "it": "Ferrasqualo",
+        "pt": "Ferratubar",
+        "zh": "铁焰鲨"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 61,
+          "y": 38
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "cc06",
+      "kgs": {
+        "max": 1100,
+        "min": 200
+      },
+      "latin": "Minaspina titanica",
+      "lbs": {
+        "max": 2425.08,
+        "min": 440.92
+      },
+      "map": "Petrochemical",
+      "name": "Minethorn",
+      "names": {
+        "en": "Minethorn",
+        "fr": "Minépine",
+        "it": "Minaspina",
+        "pt": "Minapico",
+        "zh": "雷刺灵"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 87,
+          "y": 60
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "cc07",
+      "kgs": {
+        "max": 2000,
+        "min": 150
+      },
+      "latin": "Crococarcharias hybridus",
+      "lbs": {
+        "max": 4409.25,
+        "min": 330.69
+      },
+      "map": "Petrochemical",
+      "name": "Sharokyle",
+      "names": {
+        "en": "Sharokyle",
+        "fr": "Charokyle",
+        "it": "Sciarocile",
+        "pt": "Sharokail",
+        "zh": "鲨鳄灵"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 29,
+          "y": 36
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "dataSource": "cloversalad2/src/assets/{fish,creatures,items}/Petrochemical.js",
+  "description": "Interactive Petrochemical map for Creatures of the Deep — fish, creatures, items, and the map monster.",
+  "fish": [
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c18",
+      "kgs": {
+        "max": 90,
+        "min": 25
+      },
+      "latin": "Susichthys rotundus",
+      "lbs": {
+        "max": 198.42,
+        "min": 55.12
+      },
+      "map": "Petrochemical",
+      "name": "Swinklet",
+      "names": {
+        "en": "Swinklet",
+        "fr": "Suclune",
+        "it": "Dolcetto",
+        "pt": "Suavinha",
+        "zh": "绵闪兽"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 35,
+          "y": 46
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c17",
+      "kgs": {
+        "max": 6,
+        "min": 1
+      },
+      "latin": "Pavonichthys splendens",
+      "lbs": {
+        "max": 13.23,
+        "min": 2.2
+      },
+      "map": "Petrochemical",
+      "name": "Pavonyx",
+      "names": {
+        "en": "Pavonyx",
+        "fr": "Pavonix",
+        "it": "Pavonix",
+        "pt": "Pavonix",
+        "zh": "孔雀灵"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 14,
+          "y": 56
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c12",
+      "kgs": {
+        "max": 3,
+        "min": 1
+      },
+      "latin": "Rudichthys sordidus",
+      "lbs": {
+        "max": 6.61,
+        "min": 2.2
+      },
+      "map": "Petrochemical",
+      "name": "Grungletide",
+      "names": {
+        "en": "Grungletide",
+        "fr": "Grungemarée",
+        "it": "Grungemarea",
+        "pt": "Grungemaré",
+        "zh": "荒潮灵"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 24,
+          "y": 74
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c21",
+      "kgs": {
+        "max": 4,
+        "min": 1
+      },
+      "latin": "Leporichthys saltans",
+      "lbs": {
+        "max": 8.82,
+        "min": 2.2
+      },
+      "map": "Petrochemical",
+      "name": "Harefin",
+      "names": {
+        "en": "Harefin",
+        "fr": "Léporin",
+        "it": "Leprofin",
+        "pt": "Leporim",
+        "zh": "兔鳍灵"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 57,
+          "y": 18
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c01",
+      "kgs": {
+        "max": 0.35,
+        "min": 0.05
+      },
+      "latin": "Pneumichthys globulus",
+      "lbs": {
+        "max": 0.77,
+        "min": 0.11
+      },
+      "map": "Petrochemical",
+      "name": "Balloonflare",
+      "names": {
+        "en": "Balloonflare",
+        "fr": "Ballonflair",
+        "it": "Flarpallone",
+        "pt": "Baloflar",
+        "zh": "气焰球灵"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 43,
+          "y": 67
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c23",
+      "kgs": {
+        "max": 5,
+        "min": 2
+      },
+      "latin": "Calceichthys deformis",
+      "lbs": {
+        "max": 11.02,
+        "min": 4.41
+      },
+      "map": "Petrochemical",
+      "name": "Shooloop",
+      "names": {
+        "en": "Shooloop",
+        "fr": "Chausseloup",
+        "it": "Scarpalupo",
+        "pt": "Calçalup",
+        "zh": "履环兽"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 44,
+          "y": 17
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c02",
+      "kgs": {
+        "max": 0.5,
+        "min": 0.2
+      },
+      "latin": "Apichthys melissa",
+      "lbs": {
+        "max": 1.1,
+        "min": 0.44
+      },
+      "map": "Petrochemical",
+      "name": "Meliglow",
+      "names": {
+        "en": "Meliglow",
+        "fr": "Mélilueur",
+        "it": "Meliglò",
+        "pt": "Meliglowa",
+        "zh": "蜜光灵"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 76,
+          "y": 77
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c15",
+      "kgs": {
+        "max": 90,
+        "min": 13
+      },
+      "latin": "Alcescyprinus magnus",
+      "lbs": {
+        "max": 198.42,
+        "min": 28.66
+      },
+      "map": "Petrochemical",
+      "name": "Moosecarver",
+      "names": {
+        "en": "Moosecarver",
+        "fr": "Élanobleu",
+        "it": "Alcisco",
+        "pt": "Alciscorte",
+        "zh": "麋刻兽"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 39,
+          "y": 33
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c13",
+      "kgs": {
+        "max": 8,
+        "min": 2
+      },
+      "latin": "Concordichthys sonorus",
+      "lbs": {
+        "max": 17.64,
+        "min": 4.41
+      },
+      "map": "Petrochemical",
+      "name": "Harmonelle",
+      "names": {
+        "en": "Harmonelle",
+        "fr": "Harmonnelle",
+        "it": "Harmonella",
+        "pt": "Harmonela",
+        "zh": "和谐灵"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 36,
+          "y": 13
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c06",
+      "kgs": {
+        "max": 800,
+        "min": 500
+      },
+      "latin": "Bovinichthys placidus",
+      "lbs": {
+        "max": 1763.7,
+        "min": 1102.31
+      },
+      "map": "Petrochemical",
+      "name": "Mooline",
+      "names": {
+        "en": "Mooline",
+        "fr": "Mouliane",
+        "it": "Molinae",
+        "pt": "Mulina",
+        "zh": "牧灵鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 35,
+          "y": 46
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c16",
+      "kgs": {
+        "max": 40,
+        "min": 25
+      },
+      "latin": "Oleichthys lubricus",
+      "lbs": {
+        "max": 88.18,
+        "min": 55.12
+      },
+      "map": "Petrochemical",
+      "name": "Olexis",
+      "names": {
+        "en": "Olexis",
+        "fr": "Olexine",
+        "it": "Olexia",
+        "pt": "Olexis",
+        "zh": "奥莱克斯"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 72,
+          "y": 27
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c20",
+      "kgs": {
+        "max": 13,
+        "min": 2
+      },
+      "latin": "Punkichthys erectus",
+      "lbs": {
+        "max": 28.66,
+        "min": 4.41
+      },
+      "map": "Petrochemical",
+      "name": "Punkflare",
+      "names": {
+        "en": "Punkflare",
+        "fr": "Punklame",
+        "it": "Punkfiamma",
+        "pt": "Punkfler",
+        "zh": "朋克焰"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 23,
+          "y": 74
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c05",
+      "kgs": {
+        "max": 6,
+        "min": 3
+      },
+      "latin": "Gallochthys crestatus",
+      "lbs": {
+        "max": 13.23,
+        "min": 6.61
+      },
+      "map": "Petrochemical",
+      "name": "Cresthorn",
+      "names": {
+        "en": "Cresthorn",
+        "fr": "Cornéclat",
+        "it": "Crestacorno",
+        "pt": "Créstorno",
+        "zh": "冠角兽"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 36,
+          "y": 46
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            2
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c09",
+      "kgs": {
+        "max": 8,
+        "min": 1
+      },
+      "latin": "Gariorhynchus acutus",
+      "lbs": {
+        "max": 17.64,
+        "min": 2.2
+      },
+      "map": "Petrochemical",
+      "name": "Garlite",
+      "names": {
+        "en": "Garlite",
+        "fr": "Garlithe",
+        "it": "Garlita",
+        "pt": "Garlite",
+        "zh": "加利特"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 91,
+          "y": 32
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c04",
+      "kgs": {
+        "max": 12,
+        "min": 2
+      },
+      "latin": "Circichthys ludicus",
+      "lbs": {
+        "max": 26.46,
+        "min": 4.41
+      },
+      "map": "Petrochemical",
+      "name": "Cirquelight",
+      "names": {
+        "en": "Cirquelight",
+        "fr": "Cirquelueur",
+        "it": "Circoluce",
+        "pt": "Circuluz",
+        "zh": "环光灵"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 11,
+          "y": 12
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            1
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c07",
+      "kgs": {
+        "max": 30,
+        "min": 12
+      },
+      "latin": "Cervoesox gracilis",
+      "lbs": {
+        "max": 66.14,
+        "min": 26.46
+      },
+      "map": "Petrochemical",
+      "name": "Hartspike",
+      "names": {
+        "en": "Hartspike",
+        "fr": "Cerfépine",
+        "it": "Cervospina",
+        "pt": "Cervoespim",
+        "zh": "鹿棘灵"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 10,
+          "y": 41
+        },
+        {
+          "x": 13,
+          "y": 58
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c25",
+      "kgs": {
+        "max": 1,
+        "min": 0.1
+      },
+      "latin": "Araneichthys longipes",
+      "lbs": {
+        "max": 2.2,
+        "min": 0.22
+      },
+      "map": "Petrochemical",
+      "name": "Arakelle",
+      "names": {
+        "en": "Arakelle",
+        "fr": "Arakelle",
+        "it": "Arachelle",
+        "pt": "Arakelle",
+        "zh": "蛛歌灵"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 55,
+          "y": 88
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": [
+            0
+          ]
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        },
+        {
+          "speed": [
+            0
+          ]
+        }
+      ],
+      "difficulty": 0,
+      "id": "c11",
+      "kgs": {
+        "max": 5,
+        "min": 1
+      },
+      "latin": "Globopterus inflatus",
+      "lbs": {
+        "max": 11.02,
+        "min": 2.2
+      },
+      "map": "Petrochemical",
+      "name": "Globulett",
+      "names": {
+        "en": "Globulett",
+        "fr": "Globuletté",
+        "it": "Globuletta",
+        "pt": "Globulet",
+        "zh": "微光珠"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 38,
+          "y": 15
+        }
+      ],
+      "rarity": "common",
+      "rawType": "common",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "c03",
+      "kgs": {
+        "max": 1200,
+        "min": 500
+      },
+      "latin": "Taurichthys robustus",
+      "lbs": {
+        "max": 2645.55,
+        "min": 1102.31
+      },
+      "map": "Petrochemical",
+      "name": "Taurfin",
+      "names": {
+        "en": "Taurfin",
+        "fr": "Taureaufin",
+        "it": "Taurpinna",
+        "pt": "Taurapina",
+        "zh": "牛鳍兽"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 57,
+          "y": 52
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "c24",
+      "kgs": {
+        "max": 4,
+        "min": 1
+      },
+      "latin": "Hastasalmo aculeatus",
+      "lbs": {
+        "max": 8.82,
+        "min": 2.2
+      },
+      "map": "Petrochemical",
+      "name": "Speartide",
+      "names": {
+        "en": "Speartide",
+        "fr": "Lamitide",
+        "it": "Lamitide",
+        "pt": "Maréspira",
+        "zh": "矛潮灵"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 82,
+          "y": 58
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "c08",
+      "kgs": {
+        "max": 3000,
+        "min": 1200
+      },
+      "latin": "Elephasichthys nasocornis",
+      "lbs": {
+        "max": 6613.87,
+        "min": 2645.55
+      },
+      "map": "Petrochemical",
+      "name": "Elephara",
+      "names": {
+        "en": "Elephara",
+        "fr": "Éléphara",
+        "it": "Elefara",
+        "pt": "Elefara",
+        "zh": "象灵鱼"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 28,
+          "y": 42
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "c14",
+      "kgs": {
+        "max": 0.5,
+        "min": 0.1
+      },
+      "latin": "Coccinellichthys punctatus",
+      "lbs": {
+        "max": 1.1,
+        "min": 0.22
+      },
+      "map": "Petrochemical",
+      "name": "Ladybelle",
+      "names": {
+        "en": "Ladybelle",
+        "fr": "Damebelle",
+        "it": "Signorbella",
+        "pt": "Damaluz",
+        "zh": "丽蝶灵"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 75,
+          "y": 76
+        }
+      ],
+      "rarity": "rare",
+      "rawType": "rare",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "c10",
+      "kgs": {
+        "max": 1200,
+        "min": 800
+      },
+      "latin": "Giraffichthys alticollis",
+      "lbs": {
+        "max": 2645.55,
+        "min": 1763.7
+      },
+      "map": "Petrochemical",
+      "name": "Giraffine",
+      "names": {
+        "en": "Giraffine",
+        "fr": "Girafline",
+        "it": "Giraffina",
+        "pt": "Girafina",
+        "zh": "长颈灵"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 26,
+          "y": 73
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "c22",
+      "kgs": {
+        "max": 3300,
+        "min": 800
+      },
+      "latin": "Rhinichthys cornutus",
+      "lbs": {
+        "max": 7275.25,
+        "min": 1763.7
+      },
+      "map": "Petrochemical",
+      "name": "Rhynorid",
+      "names": {
+        "en": "Rhynorid",
+        "fr": "Rhinoryde",
+        "it": "Rinorido",
+        "pt": "Rinorido",
+        "zh": "犀鳞兽"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 72,
+          "y": 16
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    },
+    {
+      "attributes": [
+        {
+          "shadow": []
+        },
+        {
+          "moment": [
+            0,
+            1
+          ]
+        }
+      ],
+      "difficulty": 3,
+      "id": "c19",
+      "kgs": {
+        "max": 400,
+        "min": 200
+      },
+      "latin": "Caudichthys funiculus",
+      "lbs": {
+        "max": 881.85,
+        "min": 440.92
+      },
+      "map": "Petrochemical",
+      "name": "Tailtress",
+      "names": {
+        "en": "Tailtress",
+        "fr": "Tressaile",
+        "it": "Codalina",
+        "pt": "Trançalina",
+        "zh": "尾绢灵"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 52,
+          "y": 86
+        }
+      ],
+      "rarity": "epic",
+      "rawType": "epic",
+      "seasons": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "snippet": ""
+    }
+  ],
+  "intro": "The Petrochemical map in Creatures of the Deep is a surreal industrial bay where fish take on strange hybrid forms. This guide lists every fish species, their shadows, weight ranges, and the rods and moments that help you complete your collection.",
+  "mapImage": "/images/maps/petrochemical.jpg",
+  "mapType": "VIP",
+  "monster": false,
+  "name": "Petrochemical",
+  "objects": [
+    {
+      "bio": false,
+      "id": "tc21",
+      "map": "Petrochemical",
+      "name": "Video Cassette",
+      "names": {
+        "en": "Video Cassette",
+        "fr": "Cassette vidéo",
+        "it": "Videocassetta",
+        "pt": "Cassete de vídeo",
+        "zh": "录像带"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 13,
+          "y": 46
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc22",
+      "map": "Petrochemical",
+      "name": "Tomato Seedling",
+      "names": {
+        "en": "Tomato Seedling",
+        "fr": "Plant de tomate",
+        "it": "Piantina di pomodoro",
+        "pt": "Muda de tomate",
+        "zh": "番茄幼苗"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 80,
+          "y": 43
+        },
+        {
+          "x": 58,
+          "y": 18
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc07",
+      "map": "Petrochemical",
+      "name": "Nerd Glasses",
+      "names": {
+        "en": "Nerd Glasses",
+        "fr": "Lunettes d’intello",
+        "it": "Occhiali da secchione",
+        "pt": "Óculos de nerd",
+        "zh": "书呆子眼镜"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 38,
+          "y": 87
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc14",
+      "map": "Petrochemical",
+      "name": "Black Water Lily",
+      "names": {
+        "en": "Black Water Lily",
+        "fr": "Nénuphar noir",
+        "it": "Ninfea nera",
+        "pt": "Lírio-de-água preto",
+        "zh": "黑色睡莲"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 36,
+          "y": 63
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc11",
+      "map": "Petrochemical",
+      "name": "Jar of Sand",
+      "names": {
+        "en": "Jar of Sand",
+        "fr": "Bocal de sable",
+        "it": "Barattolo di sabbia",
+        "pt": "Frasco com areia",
+        "zh": "沙子罐"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 75,
+          "y": 90
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc06",
+      "map": "Petrochemical",
+      "name": "FIN-MAN Floppy Disk",
+      "names": {
+        "en": "FIN-MAN Floppy Disk",
+        "fr": "Disquette FIN-MAN",
+        "it": "Floppy disk FIN-MAN",
+        "pt": "Disquete FIN-MAN",
+        "zh": "FIN-MAN 软盘"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 55,
+          "y": 89
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc19",
+      "map": "Petrochemical",
+      "name": "Sail&Fish Console",
+      "names": {
+        "en": "Sail&Fish Console",
+        "fr": "Console Sail&Fish",
+        "it": "Console Sail&Fish",
+        "pt": "Consola Sail&Fish",
+        "zh": "Sail&Fish 游戏机"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 85,
+          "y": 52
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc01",
+      "map": "Petrochemical",
+      "name": "Four-pack Holder",
+      "names": {
+        "en": "Four-pack Holder",
+        "fr": "Porte-pack de quatre",
+        "it": "Porta quattro bottiglie",
+        "pt": "Suporte para quatro garrafas",
+        "zh": "四瓶装提手"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 56,
+          "y": 89
+        },
+        {
+          "x": 56,
+          "y": 53
+        },
+        {
+          "x": 66,
+          "y": 67
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc12",
+      "map": "Petrochemical",
+      "name": "Laboratory Glassware",
+      "names": {
+        "en": "Laboratory Glassware",
+        "fr": "Verre de laboratoire",
+        "it": "Vetreria da laboratorio",
+        "pt": "Vidros de laboratório",
+        "zh": "实验室玻璃器皿"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 44,
+          "y": 17
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc20",
+      "map": "Petrochemical",
+      "name": "Tamagotchi",
+      "names": {
+        "en": "Tamagotchi",
+        "fr": "Tamagotchi",
+        "it": "Tamagotchi",
+        "pt": "Tamagotchi",
+        "zh": "电子宠物"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 21,
+          "y": 39
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc02",
+      "map": "Petrochemical",
+      "name": "Bebop’s Glasses",
+      "names": {
+        "en": "Bebop’s Glasses",
+        "fr": "Lunettes de Bebop",
+        "it": "Occhiali di Bebop",
+        "pt": "Óculos do Bebop",
+        "zh": "比波普的眼镜"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 20,
+          "y": 42
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc04",
+      "map": "Petrochemical",
+      "name": "Broken Bottle",
+      "names": {
+        "en": "Broken Bottle",
+        "fr": "Bouteille cassée",
+        "it": "Bottiglia rotta",
+        "pt": "Garrafa partida",
+        "zh": "破瓶子"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 65,
+          "y": 66
+        },
+        {
+          "x": 54,
+          "y": 88
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc18",
+      "map": "Petrochemical",
+      "name": "Research Notes",
+      "names": {
+        "en": "Research Notes",
+        "fr": "Notes de recherche",
+        "it": "Note di ricerca",
+        "pt": "Notas de pesquisa",
+        "zh": "研究笔记"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 44,
+          "y": 17
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc15",
+      "map": "Petrochemical",
+      "name": "Telephone",
+      "names": {
+        "en": "Telephone",
+        "fr": "Téléphone",
+        "it": "Telefono",
+        "pt": "Telefone",
+        "zh": "电话"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 70,
+          "y": 34
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc05",
+      "map": "Petrochemical",
+      "name": "Damaged Crate",
+      "names": {
+        "en": "Damaged Crate",
+        "fr": "Caisse endommagée",
+        "it": "Cassa danneggiata",
+        "pt": "Caixa danificada",
+        "zh": "破损的箱子"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 8,
+          "y": 39
+        },
+        {
+          "x": 65,
+          "y": 66
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc03",
+      "map": "Petrochemical",
+      "name": "Pager",
+      "names": {
+        "en": "Pager",
+        "fr": "Pager",
+        "it": "Cercapersone",
+        "pt": "Pager",
+        "zh": "传呼机"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 50,
+          "y": 50
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc23",
+      "map": "Petrochemical",
+      "name": "Old Safe",
+      "names": {
+        "en": "Old Safe",
+        "fr": "Vieux coffre-fort",
+        "it": "Vecchia cassaforte",
+        "pt": "Cofre antigo",
+        "zh": "旧保险箱"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 21,
+          "y": 39
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc17",
+      "map": "Petrochemical",
+      "name": "Sludge",
+      "names": {
+        "en": "Sludge",
+        "fr": "Boue visqueuse",
+        "it": "Melma",
+        "pt": "Lodo",
+        "zh": "黏液"
+      },
+      "portraitRatio": "horizontal",
+      "positions": [
+        {
+          "x": 71,
+          "y": 35
+        },
+        {
+          "x": 46,
+          "y": 72
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc09",
+      "map": "Petrochemical",
+      "name": "Warning Sign",
+      "names": {
+        "en": "Warning Sign",
+        "fr": "Panneau d’avertissement",
+        "it": "Cartello d’avvertimento",
+        "pt": "Sinal de aviso",
+        "zh": "警告标志"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 55,
+          "y": 88
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc13",
+      "map": "Petrochemical",
+      "name": "Leaky Canister",
+      "names": {
+        "en": "Leaky Canister",
+        "fr": "Jerrycan fuyant",
+        "it": "Tanica che perde",
+        "pt": "Bidão com fuga",
+        "zh": "漏油的罐子"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 71,
+          "y": 29
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc10",
+      "map": "Petrochemical",
+      "name": "Headphones",
+      "names": {
+        "en": "Headphones",
+        "fr": "Écouteurs",
+        "it": "Cuffie",
+        "pt": "Auscultadores",
+        "zh": "耳机"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 80,
+          "y": 76
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc25",
+      "map": "Petrochemical",
+      "name": "Television",
+      "names": {
+        "en": "Television",
+        "fr": "Télévision",
+        "it": "Televisore",
+        "pt": "Televisão",
+        "zh": "电视"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 36,
+          "y": 27
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc16",
+      "map": "Petrochemical",
+      "name": "Old Radiator",
+      "names": {
+        "en": "Old Radiator",
+        "fr": "Vieux radiateur",
+        "it": "Vecchio termosifone",
+        "pt": "Radiador antigo",
+        "zh": "旧暖气片"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 22,
+          "y": 20
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc08",
+      "map": "Petrochemical",
+      "name": "Hairspray",
+      "names": {
+        "en": "Hairspray",
+        "fr": "Laque à cheveux",
+        "it": "Lacca per capelli",
+        "pt": "Laca para cabelo",
+        "zh": "发胶"
+      },
+      "portraitRatio": "vertical",
+      "positions": [
+        {
+          "x": 80,
+          "y": 75
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc24",
+      "map": "Petrochemical",
+      "name": "Safe Code",
+      "names": {
+        "en": "Safe Code",
+        "fr": "Code du coffre-fort",
+        "it": "Codice della cassaforte",
+        "pt": "Código do cofre",
+        "zh": "保险箱密码"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 24,
+          "y": 74
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    },
+    {
+      "bio": false,
+      "id": "tc26",
+      "map": "Petrochemical",
+      "name": "Walkman",
+      "names": {
+        "en": "Walkman",
+        "fr": "Walkman",
+        "it": "Walkman",
+        "pt": "Walkman",
+        "zh": "随身听"
+      },
+      "portraitRatio": "balanced",
+      "positions": [
+        {
+          "x": 80,
+          "y": 43
+        },
+        {
+          "x": 35,
+          "y": 28
+        }
+      ],
+      "rarity": "common",
+      "rawType": "item",
+      "snippet": ""
+    }
+  ],
+  "slug": "petrochemical",
+  "title": "Petrochemical map"
+}

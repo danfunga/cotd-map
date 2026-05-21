@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { mapOrder, mapsById } from '../data/maps/index.js';
+import { mapOrder, mapsById } from '../content/index.js';
 
 const exts=['png','jpg','jpeg','webp'];
 const bases={
@@ -50,7 +50,7 @@ for(const id of mapOrder){
   }
   if(changed){
     const varName=id.replace(/-([a-z])/g,(_,c)=>c.toUpperCase())+'Map';
-    await fs.writeFile(`data/maps/${id}.js`, `export const ${varName} = ${JSON.stringify(map,null,2)};\n`);
+    await fs.writeFile(`content/maps/${id}.js`, `export const ${varName} = ${JSON.stringify(map,null,2)};\n`);
     console.log('updated',id);
   }
 }

@@ -1,4 +1,4 @@
-import { mapOrder, mapsById } from "./data/maps/index.js";
+import { mapOrder, mapsById } from "./content/index.js";
 
 const mapPicker = document.getElementById("mapPicker");
 const timeCard = document.getElementById("timeCard");
@@ -47,10 +47,9 @@ function label(entity) {
 function markerIcon(entity) {
   const rarityKey = entity.isMonster ? "monster" : entity.rarity;
   const categoryKey = entity.category || "fish";
-  const alt = entity.altImage || "";
   return L.divIcon({
     className: "photo-marker-wrap",
-    html: `<div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}"></div><img class="photo-marker rarity-${rarityKey}" src="${entity.image}" data-alt="${alt}" alt="${label(entity)}" onerror="if(this.dataset.alt && !this.dataset.tried){this.dataset.tried='1';this.src=this.dataset.alt;return;}this.style.display='none';this.previousElementSibling.style.display='block';">`,
+    html: `<div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}"></div><img class="photo-marker rarity-${rarityKey}" src="${entity.image}" alt="${label(entity)}" onerror="this.style.display='none';this.previousElementSibling.style.display='block';">`,
     iconSize: [30, 30],
     iconAnchor: [15, 15],
     popupAnchor: [0, -16]
@@ -154,7 +153,7 @@ function applyFilterButtonState() {
 function applyFishOnlyState() {
   const hasFish = filters.category.has("fish");
   timeCard.classList.toggle("disabled", !hasFish);
-  rarityCard.classList.toggle("disabled", !hasFish);
+  rarityCard.classList.remove("disabled");
 }
 
 function installTwoFingerDoubleTapZoomOut() {
@@ -194,10 +193,8 @@ function renderMarkers() {
   const filtered = entities.filter((entity) => {
     if (!filters.category.has(entity.category)) return false;
 
-    if (entity.category === "fish") {
-      if (!hitFishTimeFilter(entity)) return false;
-      if (!filters.rarity.has(entity.rarity)) return false;
-    }
+    if (!filters.rarity.has(entity.rarity)) return false;
+    if (entity.category === "fish" && !hitFishTimeFilter(entity)) return false;
 
     const availableNow = isSeasonAvailable(entity);
     const availabilityKey = availableNow ? "available" : "unavailable";
@@ -218,7 +215,9 @@ function renderMarkers() {
     const miniHtml = mini
       ? `<p><strong>미니게임:</strong> <span class="minigame-pill minigame-${mini.cls}">${mini.label}</span></p>`
       : "";
-    const entityImage = entity.image || entity.altImage || "";
+    const entityImage = entity.image || "";
+    const latinHtml = `<div class="detail-wide-row"><strong>학명:</strong> ${entity.latin || "-"}</div>`;
+    const seasonHtml = seasonBar(entity);
     const noteHtml = entity.notes && entity.notes.trim() !== ""
       ? `<div class="detail-note"><strong>메모:</strong> ${entity.notes}</div>`
       : "";
@@ -237,13 +236,13 @@ function renderMarkers() {
             <p><strong>그림자 크기:</strong> ${shadowSizeLabel(entity.shadowSizes)}</p>
             <p><strong>그림자 속도:</strong> ${shadowSpeedLabel(entity.shadowSpeeds)}</p>
             ${miniHtml}
-            <p><strong>학명:</strong> ${entity.latin || "-"}</p>
-            ${seasonBar(entity)}
           </div>
           <div class="detail-visual">
             <img class="detail-entity-image" src="${entityImage}" alt="${label(entity)}" onerror="this.style.display='none';">
           </div>
         </div>
+        ${latinHtml}
+        ${seasonHtml}
         ${noteHtml}
       </div>`;
 
@@ -375,13 +374,22 @@ function resetFilters() {
 }
 
 function clearFilterGroup(group) {
-  filters[group].clear();
+  if (filters[group].size > 0) {
+    filters[group].clear();
+  } else {
+    filters[group] = new Set(defaults[group]);
+  }
   applyFilterButtonState();
   applyFishOnlyState();
   renderMarkers();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  // iOS Safari: prevent page-level pinch/double-tap zoom so map gestures win.
+  document.addEventListener("gesturestart", (e) => e.preventDefault(), { passive: false });
+  document.addEventListener("gesturechange", (e) => e.preventDefault(), { passive: false });
+  document.addEventListener("gestureend", (e) => e.preventDefault(), { passive: false });
+
   buildPicker();
   applyPickerState();
   createMapIfNeeded();

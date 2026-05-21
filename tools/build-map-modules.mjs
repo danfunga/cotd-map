@@ -138,26 +138,6 @@ async function downloadIfMissing(url, filePath) {
   } catch {}
 }
 
-function normalizeFileTitle(fileLike) {
-  if (!fileLike) return null;
-  return String(fileLike).replace(/^File:/i, '').trim();
-}
-
-async function resolveFandomFileUrl(fileTitle) {
-  if (!fileTitle) return null;
-  const api = `https://creatures-of-the-deep-app.fandom.com/api.php?action=query&titles=${encodeURIComponent(`File:${fileTitle}`)}&prop=imageinfo&iiprop=url&format=json`;
-  try {
-    const data = await fetchJson(api);
-    const pages = data?.query?.pages || {};
-    for (const page of Object.values(pages)) {
-      const u = page?.imageinfo?.[0]?.url;
-      if (u) return u;
-    }
-  } catch {}
-  return null;
-}
-const fileUrlCache = new Map();
-
 function locationsFromMarkers(markers, size) {
   return markers.map((mk, idx) => {
     const x = Number(mk.position?.[0]);
@@ -231,20 +211,6 @@ for (const map of MAPS) {
     const localImage = `./assets/portraits/${category}/${entity.id}.png`;
     await downloadIfMissing(imageUrl, `assets/portraits/${category}/${entity.id}.png`);
 
-    let localAltImage = '';
-    const fileTitle = normalizeFileTitle(cat?.icon);
-    if (fileTitle) {
-      const ext = (fileTitle.split('.').pop() || 'png').toLowerCase();
-      const altPath = `assets/portraits-mapicons/${map.id}/${entity.id}.${ext}`;
-      let altUrl = fileUrlCache.get(fileTitle) || null;
-      if (!altUrl) {
-        altUrl = await resolveFandomFileUrl(fileTitle);
-        if (altUrl) fileUrlCache.set(fileTitle, altUrl);
-      }
-      if (altUrl) await downloadIfMissing(altUrl, altPath);
-      try { await fs.access(altPath); localAltImage = `./${altPath}`; } catch {}
-    }
-
     entities.push({
       id: entity.id,
       name: entity?.names?.en || entity?.name || 'unknown',
@@ -265,7 +231,6 @@ for (const map of MAPS) {
         readSingleAttr(entity?.attributes, 'miniGame') ||
         null,
       image: localImage,
-      altImage: localAltImage,
       shadowSizes: readAttr(entity?.attributes, 'shadow'),
       shadowSpeeds: readAttr(entity?.attributes, 'speed'),
       mapCategory: cat?.name || ''
@@ -281,10 +246,10 @@ for (const map of MAPS) {
     entities
   }, null, 2)};\n`;
 
-  await fs.writeFile(`data/maps/${map.id}.js`, fileContent);
+  await fs.writeFile(`content/maps/${map.id}.js`, fileContent);
 }
 
 const imports = MAPS.map((m) => `import { ${toVarName(m.id)} } from "./${m.id}.js";`).join('\n');
 const list = MAPS.map((m) => `  ${toVarName(m.id)}`).join(',\n');
 const idx = `${imports}\n\nconst maps = [\n${list}\n];\n\nexport const mapOrder = maps.map((map) => map.id);\nexport const mapsById = Object.fromEntries(maps.map((map) => [map.id, map]));\n`;
-await fs.writeFile('data/maps/index.js', idx);
+await fs.writeFile('content/index.js', idx);

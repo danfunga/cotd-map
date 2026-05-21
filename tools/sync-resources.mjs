@@ -62,9 +62,11 @@ function normalizeEntity(e) {
 async function main() {
   for (const map of MAPS) {
     const mapDir = path.join('assets', 'maps', map.id);
-    const dataDir = path.join('assets', 'data', map.id);
+    const dataDir = path.join('assets', 'maps', map.id, 'data', 'clover');
+    const creaturesDir = path.join('assets', 'maps', map.id, 'data', 'creatures');
     await fs.mkdir(mapDir, { recursive: true });
     await fs.mkdir(dataDir, { recursive: true });
+    await fs.mkdir(creaturesDir, { recursive: true });
 
     let downloaded = false;
     for (const fileName of map.fandomFiles) {
