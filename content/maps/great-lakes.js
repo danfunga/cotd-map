@@ -1678,7 +1678,7 @@ export const greatLakesMap = {
         {
           "no": 1,
           "x": 2229.3,
-          "y": 2227.5
+          "y": 218
         }
       ],
       "notes": "",

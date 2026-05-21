@@ -445,6 +445,7 @@ main { padding: 0; }
 .minigame-none { background: #546e7a; }
 .minigame-fixed { background: #1e88e5; }
 .minigame-moving { background: #ef6c00; }
+.minigame-rotate { background: #83394a; }
 
 .season-wrap { margin: 8px 0; overflow: hidden; }
 .season-grid {

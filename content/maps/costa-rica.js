@@ -273,7 +273,7 @@ export const costaRicaMap = {
       "minigame": null,
       "image": "./assets/portraits/fish/25.png",
       "shadowSizes": [
-        2,
+        1,
         3
       ],
       "shadowSpeeds": [

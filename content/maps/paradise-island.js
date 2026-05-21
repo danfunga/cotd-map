@@ -433,7 +433,7 @@ export const paradiseIslandMap = {
       "minigame": null,
       "image": "./assets/portraits/fish/09.png",
       "shadowSizes": [
-        2,
+        1,
         3
       ],
       "shadowSpeeds": [
@@ -539,7 +539,7 @@ export const paradiseIslandMap = {
       "minigame": null,
       "image": "./assets/portraits/fish/011.png",
       "shadowSizes": [
-        2
+        1
       ],
       "shadowSpeeds": [
         0

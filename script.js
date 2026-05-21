@@ -65,7 +65,7 @@ function availabilityTimeLabel(values) {
 
 function shadowSizeLabel(values) {
   if (!values || values.length === 0) return "없음";
-  const map = { 1: "소", 2: "중", 3: "대" };
+  const map = {0:"작음", 1: "보통", 2: "중형", 3: "대형" };
   const labels = values.map((v) => map[v]).filter(Boolean);
   return labels.length ? labels.join(", ") : "없음";
 }
@@ -111,9 +111,10 @@ function seasonBar(entity) {
 
 function minigameMeta(entity) {
   const d = entity.difficulty;
-  if (d === null || d === undefined || d === 0) return null;
+  if (d === null || d === undefined || d === 0) return { label: "없음", cls: "none" };
   if (d === 1) return { label: "고정", cls: "fixed" };
-  return { label: "움직임", cls: "moving" };
+  if (d === 2) return { label: "움직임", cls: "moving" };
+  return { label: "회전", cls: "rotate" };
 }
 
 function hitFishTimeFilter(entity) {

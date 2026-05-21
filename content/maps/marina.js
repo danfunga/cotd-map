@@ -615,8 +615,43 @@ export const marinaMap = {
       "locations": [
         {
           "no": 1,
-          "x": 170.7662876565512,
-          "y": 541.6437943888953
+          "x": 306.5,
+          "y": 392.0
+        },
+        {
+          "no": 2,
+          "x": 125.5,
+          "y": 265.0
+        },
+        {
+          "no": 3,
+          "x": 108.0,
+          "y": 131.0
+        },
+        {
+          "no": 4,
+          "x": 351.5,
+          "y": 81.5
+        },
+        {
+          "no": 5,
+          "x": 557.0,
+          "y": 411.5
+        },
+        {
+          "no": 6,
+          "x": 658.0,
+          "y": 324.5
+        },
+        {
+          "no": 7,
+          "x": 516.0,
+          "y": 140.0
+        },
+        {
+          "no": 8,
+          "x": 574.0,
+          "y": 228.5
         }
       ],
       "notes": "",
@@ -767,7 +802,7 @@ export const marinaMap = {
       "shadowSpeeds": [
         0
       ],
-      "mapCategory": "Hermit Crab"
+      "mapCategory": "Hermit Crab Can"
     },
     {
       "id": "T0-1",
@@ -1007,7 +1042,7 @@ export const marinaMap = {
       "image": "./assets/portraits/item/T0-6.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": ""
+      "mapCategory": "Striped Beach Seashell"
     },
     {
       "id": "T0-7",
@@ -1217,7 +1252,7 @@ export const marinaMap = {
       "image": "./assets/portraits/item/T0-13.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": ""
+      "mapCategory": "Tourist Brochure-Paradise Island"
     },
     {
       "id": "T0-14",
@@ -1317,7 +1352,7 @@ export const marinaMap = {
       "image": "./assets/portraits/item/T0-17.png",
       "shadowSizes": [],
       "shadowSpeeds": [],
-      "mapCategory": ""
+      "mapCategory": "Tourist Brochure-Austraila"
     },
     {
       "id": "T0-18",
