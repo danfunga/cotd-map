@@ -1568,8 +1568,8 @@ export const thailandMap = {
       "locations": [
         {
           "no": 1,
-          "x": 789.5999999999999,
-          "y": 483.75
+          "x": 463,
+          "y": 322
         }
       ],
       "notes": "",
@@ -1781,8 +1781,8 @@ export const thailandMap = {
       "locations": [
         {
           "no": 1,
-          "x": 575.28,
-          "y": 236.25
+          "x": 194,
+          "y": 535
         }
       ],
       "notes": "",
@@ -2011,8 +2011,8 @@ export const thailandMap = {
       "locations": [
         {
           "no": 1,
-          "x": 575.28,
-          "y": 225
+          "x": 213,
+          "y": 570
         }
       ],
       "notes": "Collect 50 plastic bottles",

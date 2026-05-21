@@ -1279,13 +1279,13 @@ export const scotlandMap = {
       "locations": [
         {
           "no": 1,
-          "x": 101.25,
-          "y": 663.75
+          "x": 683,
+          "y": 1001
         },
         {
           "no": 2,
-          "x": 405,
-          "y": 1001.25
+          "x": 1991,
+          "y": 712
         }
       ],
       "notes": "",
@@ -2849,8 +2849,8 @@ export const scotlandMap = {
       "locations": [
         {
           "no": 1,
-          "x": 922.5,
-          "y": 146.25
+          "x": 117,
+          "y": 178
         }
       ],
       "notes": "",
@@ -2874,8 +2874,8 @@ export const scotlandMap = {
       "locations": [
         {
           "no": 1,
-          "x": 607.5,
-          "y": 157.50000000000003
+          "x": 178,
+          "y": 511
         }
       ],
       "notes": "",

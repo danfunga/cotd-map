@@ -349,6 +349,21 @@ function renderMap() {
 
   L.imageOverlay(mapInfo.imagePath, bounds).addTo(mapInstance);
   mapInstance.fitBounds(bounds);
+
+  mapInstance.off("click");
+  mapInstance.on("click", async (e) => {
+    // ALT + 클릭만 동작
+    if (!e.originalEvent.altKey) return;
+    const point = {
+      x: Math.round(e.latlng.lng),
+      y: Math.round(e.latlng.lat),
+    };
+
+    // 보기 쉽게 문자열 생성
+    const text = `x: ${point.x}, y: ${point.y}`;
+    console.log(text);
+  });
+
   mapInstance.setMaxBounds([
     [-80, -80],
     [mapInfo.imageHeight + 80, mapInfo.imageWidth + 80]

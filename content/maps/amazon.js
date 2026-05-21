@@ -2637,23 +2637,23 @@ export const amazonMap = {
       "locations": [
         {
           "no": 1,
-          "x": 1620,
-          "y": 2190
+          "x": 2413,
+          "y": 863
         },
         {
           "no": 2,
-          "x": 2160,
-          "y": 2400
+          "x": 2281,
+          "y": 365
         },
         {
           "no": 3,
-          "x": 2250,
-          "y": 1830
+          "x": 1727,
+          "y": 793
         },
         {
           "no": 4,
-          "x": 2580,
-          "y": 2160
+          "x": 2133,
+          "y": 1363
         }
       ],
       "notes": "The spot changes everyday. Check Discord to know the current spot.",

@@ -1987,8 +1987,8 @@ export const greatLakesMap = {
       "locations": [
         {
           "no": 1,
-          "x": 1213.73,
-          "y": 717.75
+          "x": 828,
+          "y": 1260
         }
       ],
       "notes": "",
@@ -2012,8 +2012,8 @@ export const greatLakesMap = {
       "locations": [
         {
           "no": 1,
-          "x": 1312.8100000000002,
-          "y": 1089
+          "x": 1460,
+          "y": 292
         }
       ],
       "notes": "",
@@ -2412,8 +2412,8 @@ export const greatLakesMap = {
       "locations": [
         {
           "no": 1,
-          "x": 941.26,
-          "y": 2103.75
+          "x": 2124,
+          "y": 1558
         }
       ],
       "notes": "standards bait",

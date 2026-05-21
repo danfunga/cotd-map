@@ -2842,8 +2842,8 @@ export const australiaMap = {
       "locations": [
         {
           "no": 1,
-          "x": 210,
-          "y": 399.6
+          "x": 368,
+          "y": 792
         }
       ],
       "notes": "",
