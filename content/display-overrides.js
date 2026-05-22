@@ -124,7 +124,7 @@ export const displayOverrides = {
     "arrow": "화살",
     "boom floppy disk": "붐 플로피 디스크",
     "basketball": "농구공",
-    "beverage can": "야채 통조림",
+    "beverage can": "캔",
     "can soup": "수프 캔",
     "chip bag": "감자칩 봉지",
     "cobra sunglass": "코브라 선글라스",

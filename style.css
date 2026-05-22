@@ -432,12 +432,15 @@ main { padding: 0; }
   object-fit: cover;
   background: transparent !important;
   border: 2px solid #fff;
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.40);
 }
 .photo-marker.rarity-common { border-color: #ffffff; }
 .photo-marker.rarity-rare { border-color: #ffd400; }
 .photo-marker.rarity-epic { border-color: #b57bff; }
 .photo-marker.rarity-monster { border-color: #ff3b30; }
+.photo-marker.primary-location {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.85);
+}
 
 .leaflet-popup-content { margin: 10px 12px; line-height: 1.38; max-width: 340px; }
 .fish-popup h3 { margin: 0 0 6px; font-size: 15px; }

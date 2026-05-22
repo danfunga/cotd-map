@@ -44,12 +44,20 @@ function label(entity) {
   return entity.display && entity.display.trim() !== "" ? entity.display : entity.name;
 }
 
-function markerIcon(entity) {
+function markerIcon(entity, isPrimary = false) {
   const rarityKey = entity.isMonster ? "monster" : entity.rarity;
   const categoryKey = entity.category || "fish";
+
   return L.divIcon({
     className: "photo-marker-wrap",
-    html: `<div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}"></div><img class="photo-marker rarity-${rarityKey}" src="${entity.image}" alt="${label(entity)}" onerror="this.style.display='none';this.previousElementSibling.style.display='block';">`,
+    html: `
+      <div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}" ></div>
+      <img class="photo-marker rarity-${rarityKey} ${isPrimary ? "primary-location" : ""}"
+        src="${entity.image}"
+        alt="${label(entity)}"
+        onerror="this.style.display='none';this.previousElementSibling.style.display='block';"
+      >
+    `,
     iconSize: [30, 30],
     iconAnchor: [15, 15],
     popupAnchor: [0, -16]
@@ -271,8 +279,8 @@ function renderMarkers() {
         ${noteHtml}
       </div>`;
 
-    locs.forEach((l) => {
-      L.marker([l.y, l.x], { icon: markerIcon(entity) })
+    locs.forEach((l, idx) => {
+      L.marker([l.y, l.x], { icon: markerIcon(entity, idx === 0) })
         .on("click", () => openDetail(detailHtml))
         .addTo(markerLayer);
     });
@@ -391,7 +399,7 @@ function renderMap() {
     if (!(layer instanceof L.TileLayer) && layer !== markerLayer) mapInstance.removeLayer(layer);
   });
 
-  L.imageOverlay(mapInfo.imagePath, bounds).addTo(mapInstance);  
+  L.imageOverlay(mapInfo.imagePath, bounds).addTo(mapInstance);
   mapInstance.fitBounds(bounds, {
     padding: [0, 0],
     animate: false
@@ -413,7 +421,7 @@ function renderMap() {
   });
   // 클릭 끝 ==================
 
-   requestAnimationFrame(() => {
+  requestAnimationFrame(() => {
     mapInstance.invalidateSize();
   });
   // mapInstance.setMaxBounds([

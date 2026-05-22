@@ -109,16 +109,8 @@ export const greatLakesMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 939.04028479073,
-          "y": 1547.149637236166
-        },
-        {
-          "no": 2,
-          "x": 2272.0014511598138,
-          "y": 176
-        }
+        { "no": 1, "x": 2272.0014511598138, "y": 176 },
+        { "no": 2, "x": 939.04028479073, "y": 1547.149637236166 }
       ],
       "notes": "",
       "latin": "Salmo trutta",
@@ -915,14 +907,14 @@ export const greatLakesMap = {
       "locations": [
         {
           "no": 1,
-          "x": 240.41729735342406,
-          "y": 514.7737367038065
+          "x": 2258.497819422335,
+          "y": 463.86204845837517
         },
         {
           "no": 2,
-          "x": 2258.497819422335,
-          "y": 463.86204845837517
-        }
+          "x": 240.41729735342406,
+          "y": 514.7737367038065
+        }        
       ],
       "notes": "",
       "latin": "Salvelinus namaycush",
@@ -1039,7 +1031,7 @@ export const greatLakesMap = {
     {
       "id": "123",
       "name": "goldfish",
-      "display": "gold피시",
+      "display": "goldfish",
       "category": "fish",
       "rarity": "epic",
       "isMonster": false,
@@ -1437,8 +1429,8 @@ export const greatLakesMap = {
       "locations": [
         {
           "no": 1,
-          "x": 2186,
-          "y": 1480
+          "x": 790,
+          "y": 1394          
         },
         {
           "no": 2,
@@ -1452,8 +1444,8 @@ export const greatLakesMap = {
         },
         {
           "no": 4,
-          "x": 790,
-          "y": 1394
+          "x": 2186,
+          "y": 1480
         }
       ],
       "notes": "",
@@ -1492,8 +1484,8 @@ export const greatLakesMap = {
       "locations": [
         {
           "no": 1,
-          "x": 1405,
-          "y": 250
+          "x": 1726,
+          "y": 1248
         },
         {
           "no": 2,
