@@ -321,11 +321,17 @@ function renderEntityPanel() {
     header.type = "button";
     header.className = "entity-group-head";
     header.innerHTML = `
-      <span>${categoryLabel[category]}</span>
-      <button type="button" class="group-toggle-btn" data-category="${category}">⊘</button>
-      <span class="entity-group-meta">${groupItems.length}</span>
-      <span class="entity-group-arrow">${panelFoldState[category] ? "▾" : "▸"}</span>
+        <span>${categoryLabel[category]}</span>
+        <button type="button" class="group-toggle-btn" data-category="${category}"> </button>
+        <span class="entity-group-meta">${groupItems.length}</span>
+        <span class="entity-group-arrow">${panelFoldState[category] ? "▾" : "▸"} </span>
     `;
+    const toggleBtn = header.querySelector(".group-toggle-btn");
+    const allHidden = groupItems.every((e) =>
+        hiddenEntityIds.has(e.id)
+    );
+    toggleBtn.textContent = allHidden ? "X" : "O";
+    toggleBtn.style.color = allHidden ? "#e6e2e2":"#ffd24f";
     header.addEventListener("click", () => {
       panelFoldState[category] = !panelFoldState[category];
       renderEntityPanel();
