@@ -2885,8 +2885,8 @@ export const australiaMap = {
       "id": "430",
       "name": "bunyip",
       "display": "bunyip",
-      "category": "fish",
-      "rarity": "epic",
+      "category": "monster",
+      "rarity": "monster",
       "isMonster": true,
       "timeBand": "day",
       "locations": [

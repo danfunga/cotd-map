@@ -9,7 +9,7 @@ import { thailandMap } from "./maps/thailand.js";
 import { amazonMap } from "./maps/amazon.js";
 import { chemicalPlantMap } from "./maps/chemical-plant.js";
 import { nuclearPlantMap } from "./maps/nuclear-plant.js";
-import { petrochemicalZoneMap } from "./maps/petrochemical-zone.js";
+import { petrochemicalMap } from "./maps/petrochemical.js";
 import { bermudaTriangleMap } from "./maps/bermuda-triangle.js";
 import { displayOverrides } from "./display-overrides.js";
 
@@ -35,7 +35,7 @@ const maps = [
   amazonMap,
   chemicalPlantMap,
   nuclearPlantMap,
-  petrochemicalZoneMap,
+  petrochemicalMap,
   bermudaTriangleMap
 ].map(applyDisplayOverrides);
 

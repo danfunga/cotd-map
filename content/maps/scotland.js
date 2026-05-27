@@ -3042,8 +3042,8 @@ export const scotlandMap = {
       "id": "522",
       "name": "nessie",
       "display": "nessie",
-      "category": "fish",
-      "rarity": "epic",
+      "category": "monster",
+      "rarity": "monster",
       "isMonster": true,
       "timeBand": "both",
       "locations": [

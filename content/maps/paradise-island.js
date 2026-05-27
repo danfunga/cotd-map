@@ -1378,8 +1378,8 @@ export const paradiseIslandMap = {
       "id": "013",
       "name": "shredder",
       "display": "슈레더",
-      "category": "fish",
-      "rarity": "epic",
+      "category": "monster",
+      "rarity": "monster",
       "isMonster": true,
       "timeBand": "both",
       "locations": [

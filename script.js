@@ -1,4 +1,4 @@
-import { mapOrder, mapsById } from "./content/index.js";
+import { mapOrder, mapsById } from "./content";
 
 const mapPicker = document.getElementById("mapPicker");
 const timeCard = document.getElementById("timeCard");
@@ -15,10 +15,10 @@ const detailClose = document.getElementById("detailClose");
 const detailBackdrop = document.getElementById("detailBackdrop");
 
 const defaults = {
-  category: new Set(["fish", "creature", "item"]),
-  time: new Set(["day", "night", "both"]),
-  rarity: new Set(["common", "rare", "epic"]),
-  availability: new Set(["available", "unavailable"])
+    category: new Set(["fish", "creature", "item", "monster"]),
+    time: new Set(["day", "night", "both"]),
+    rarity: new Set(["common", "rare", "epic", "monster"]),
+    availability: new Set(["available", "unavailable"])
 };
 
 const filters = {
@@ -33,7 +33,6 @@ let mapInstance = null;
 let markerLayer = null;
 let lastFilteredEntities = [];
 const hiddenEntityIds = new Set();
-let lastTwoFingerTapAt = 0;
 const panelFoldState = {
   fish: true,
   creature: true,
@@ -45,23 +44,33 @@ function label(entity) {
 }
 
 function markerIcon(entity, isPrimary = false) {
-  const rarityKey = entity.isMonster ? "monster" : entity.rarity;
+  const rarityKey = entity.rarity;
   const categoryKey = entity.category || "fish";
 
+  console.log(getImagePath(entity.id));
   return L.divIcon({
     className: "photo-marker-wrap",
     html: `
       <div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}" ></div>
       <img class="photo-marker rarity-${rarityKey} ${isPrimary ? "primary-location" : ""}"
-        src="${entity.image}"
+        src="${getImagePath(entity)}"
         alt="${label(entity)}"
         onerror="this.style.display='none';this.previousElementSibling.style.display='block';"
       >
     `,
+
     iconSize: [30, 30],
     iconAnchor: [15, 15],
     popupAnchor: [0, -16]
   });
+}
+
+
+function getImagePath(entity) {
+  return `./assets/maps/${currentMapId}/portraits/${entity.category}/${entity.id}.png`;
+}
+function getFigureImage(entity) {
+  return `./assets/maps/${currentMapId}/portraits/${entity.category}/figure/${entity.id}W.png`;
 }
 
 function availabilityTimeLabel(values) {
@@ -164,7 +173,7 @@ function applyFishOnlyState() {
   timeCard.classList.toggle("disabled", !hasFish);
   rarityCard.classList.remove("disabled");
 }
-// 모바일에서 한 손가락 더블탭으로 확대, 두 손가락 더블탭으로 축소 기능을 구현합니다. 
+// 모바일에서 한 손가락 더블탭으로 확대, 두 손가락 더블탭으로 축소 기능을 구현합니다.
 // iOS Safari의 경우 페이지 전체의 핀치/더블탭 줌이 방해될 수 있어,
 //  map 영역 외에서는 300ms 이내의 터치가 발생하면 기본 동작을 막도록 했습니다.
 //  map 영역에서는 별도의 로직으로 처리합니다.
@@ -173,7 +182,9 @@ function installSingleFingerDoubleTapZoomIn() {
   let lastTap = 0;
   el.addEventListener("touchstart", (event) => {
     // 한 손가락만
-    if (event.touches.length !== 1) return;
+    if (event.touches.length !== 1) {
+      return;
+    }
     const now = Date.now();
     if (now - lastTap <= 300) {
       mapInstance.zoomIn();
@@ -187,13 +198,16 @@ function installSingleFingerDoubleTapZoomIn() {
 
 function installTwoFingerDoubleTapZoomOut() {
   const el = mapInstance.getContainer();
+  let lastTwoFingerTapAt =0;
   el.addEventListener("touchstart", (event) => {
-    if (event.touches.length !== 2) return;
+    if (event.touches.length !== 2) {
+      return;
+    }
     const now = Date.now();
-    if (now - lastTwoFingerTapAt <= 320) {
+    if (now - lastTwoFingerTapAt <= 300) {
       mapInstance.zoomOut();
-      lastTwoFingerTapAt = 0;
       event.preventDefault();
+      lastTwoFingerTapAt = 0;
       return;
     }
     lastTwoFingerTapAt = now;
@@ -224,16 +238,27 @@ function renderMarkers() {
   markerLayer.clearLayers();
 
   const filtered = entities.filter((entity) => {
-    if (!filters.category.has(entity.category)) return false;
+    if (entity.category === "monster" ){
+        if (!filters.category.has("fish")) {
+            return false;
+        }
+        if (!filters.rarity.has("epic")) {
+            return false;
+        }
+    } else {
+        if (!filters.category.has(entity.category)) {
+            return false;
+        }
+        if (!filters.rarity.has(entity.rarity)) {
+            return false;
+        }
+    }
 
-    if (!filters.rarity.has(entity.rarity)) return false;
     if (entity.category === "fish" && !hitFishTimeFilter(entity)) return false;
 
     const availableNow = isSeasonAvailable(entity);
     const availabilityKey = availableNow ? "available" : "unavailable";
-    if (!filters.availability.has(availabilityKey)) return false;
-
-    return true;
+    return filters.availability.has(availabilityKey);
   });
 
   lastFilteredEntities = filtered;
@@ -248,35 +273,38 @@ function renderMarkers() {
     const miniHtml = mini
       ? `<p><strong>미니게임:</strong> <span class="minigame-pill minigame-${mini.cls}">${mini.label}</span></p>`
       : "";
-    const entityImage = entity.image || "";
     const latinHtml = `<div class="detail-wide-row"><strong>학명:</strong> ${entity.latin || "-"}</div>`;
     const seasonHtml = seasonBar(entity);
     const noteHtml = entity.notes && entity.notes.trim() !== ""
       ? `<div class="detail-note"><strong>메모:</strong> ${entity.notes}</div>`
       : "";
+
     const detailHtml = `
       <div class="fish-popup detail-theme">
-        <button class="detail-close-inline" type="button" aria-label="닫기">닫기</button>
+        <div class="detail-title-row">
+            <h3>${label(entity)}</h3>
+            ${entity.name}
+            <button class="detail-close-inline" type="button" aria-label="닫기"> 닫기 </button>
+        </div>
+              
         <div class="detail-layout">
           <div class="detail-info">
-            <div class="detail-title-row">
-              <h3>${label(entity)}</h3>
-            </div>
-            <p><strong>영문명:</strong> ${entity.name}</p>
-            <p><strong>분류:</strong> ${entity.isMonster ? "보스" : entity.category}</p>
+            <p><strong>분류:</strong> ${entity.category}</p>
             <p><strong>활성 시간:</strong> ${availabilityTimeLabel([entity.timeBand])}</p>
             <p><strong>희귀도:</strong> <span class="rarity-pill rarity-${entity.rarity}">${entity.rarity}</span></p>
             <p><strong>그림자 크기:</strong> ${shadowSizeLabel(entity.shadowSizes)}</p>
             <p><strong>그림자 속도:</strong> ${shadowSpeedLabel(entity.shadowSpeeds)}</p>
             ${miniHtml}
-          </div>
+          </div>        
           <div class="detail-visual">
-            <img class="detail-entity-image" src="${entityImage}" alt="${label(entity)}" onerror="this.style.display='none';">
+              <img class="detail-entity-image" src="${getFigureImage(entity)}" alt="${label(entity)}" onerror="this.style.display='none';">
           </div>
         </div>
-        ${latinHtml}
-        ${seasonHtml}
-        ${noteHtml}
+        <div class="detail-bottom">
+          ${latinHtml}
+          ${seasonHtml}
+          ${noteHtml}
+        </div>
       </div>`;
 
     locs.forEach((l, idx) => {
@@ -296,16 +324,14 @@ function renderEntityPanel() {
     const ca = categoryRank[a.category] ?? 9;
     const cb = categoryRank[b.category] ?? 9;
     if (ca !== cb) return ca - cb;
-    const ka = a.isMonster ? "monster" : a.rarity;
-    const kb = b.isMonster ? "monster" : b.rarity;
-    const ra = rarityRank[ka] ?? 9;
-    const rb = rarityRank[kb] ?? 9;
+    const ra = rarityRank[a.rarity] ?? 9;
+    const rb = rarityRank[b.rarity] ?? 9;
     if (ra !== rb) return ra - rb;
     return label(a).localeCompare(label(b));
   });
 
   const grouped = {
-    fish: sorted.filter((e) => e.category === "fish"),
+    fish: sorted.filter((e) => e.category === "fish"|| e.category === "monster"),
     creature: sorted.filter((e) => e.category === "creature"),
     item: sorted.filter((e) => e.category === "item")
   };
@@ -435,7 +461,7 @@ function renderMap() {
     };
 
     // 보기 쉽게 문자열 생성
-    const text = `x: ${point.x}, y: ${point.y}`;
+    const text = `"x": ${point.x}, "y": ${point.y}`;
     console.log(text);
   });
   // 클릭 끝 ==================
@@ -443,10 +469,7 @@ function renderMap() {
   requestAnimationFrame(() => {
     mapInstance.invalidateSize();
   });
-  // mapInstance.setMaxBounds([
-  //   [-80, -80],
-  //   [mapInfo.imageHeight + 80, mapInfo.imageWidth + 80]
-  // ]);
+
   renderMarkers();
 }
 

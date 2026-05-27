@@ -2472,8 +2472,8 @@ export const greatLakesMap = {
       "id": "125",
       "name": "bessie",
       "display": "bessie",
-      "category": "fish",
-      "rarity": "epic",
+      "category": "monster",
+      "rarity": "monster",
       "isMonster": true,
       "timeBand": "day",
       "locations": [

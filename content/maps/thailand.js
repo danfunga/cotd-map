@@ -2234,8 +2234,8 @@ export const thailandMap = {
       "id": "626",
       "name": "naga",
       "display": "naga",
-      "category": "fish",
-      "rarity": "epic",
+      "category": "monster",
+      "rarity": "monster",
       "isMonster": true,
       "timeBand": "both",
       "locations": [

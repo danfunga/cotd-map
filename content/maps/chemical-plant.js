@@ -4992,8 +4992,8 @@ export const chemicalPlantMap = {
       "id": "b23",
       "name": "Nightmary",
       "display": "Nightmary",
-      "category": "fish",
-      "rarity": "epic",
+      "category": "monster",
+      "rarity": "monster",
       "isMonster": true,
       "timeBand": "both",
       "locations": [

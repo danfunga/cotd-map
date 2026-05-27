@@ -2630,8 +2630,8 @@ export const amazonMap = {
       "id": "777",
       "name": "boiuna",
       "display": "boiuna",
-      "category": "fish",
-      "rarity": "epic",
+      "category": "monster",
+      "rarity": "monster",
       "isMonster": true,
       "timeBand": "day",
       "locations": [

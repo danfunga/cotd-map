@@ -2400,8 +2400,8 @@ export const costaRicaMap = {
       "id": "223",
       "name": "don pedro",
       "display": "don pedro",
-      "category": "fish",
-      "rarity": "epic",
+      "category": "monster",
+      "rarity": "monster",
       "isMonster": true,
       "timeBand": "night",
       "locations": [

@@ -2933,8 +2933,8 @@ export const alaskaMap = {
       "id": "326",
       "name": "kraken",
       "display": "kraken",
-      "category": "fish",
-      "rarity": "epic",
+      "category": "monster",
+      "rarity": "monster",
       "isMonster": true,
       "timeBand": "both",
       "locations": [
