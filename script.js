@@ -347,11 +347,24 @@ function renderEntityPanel() {
       const rarityKey = entity.isMonster ? "monster" : entity.rarity;
       row.className = `entity-row rarity-${rarityKey} ${hiddenEntityIds.has(entity.id) ? "off" : ""}`;
       const count = Array.isArray(entity.locations) ? entity.locations.length : 0;
-      row.innerHTML = `<span class="entity-left"><img class="entity-thumb" src="${entity.image}" alt="${label(entity)}" onerror="this.style.display='none';"><span class="entity-name rarity-${rarityKey}">${label(entity)}</span></span><span class="entity-count">${count}</span>`;
+      row.innerHTML = `
+          <span class="entity-left">
+              <img class="entity-thumb" src="${entity.image}" alt="${label(entity)}" onerror="this.style.display='none';">
+              <span class="entity-texts">
+                <span class="entity-name rarity-${rarityKey}"> ${label(entity)} </span>
+                <span class="entity-sub-name"> ${entity.name} </span>
+              </span>              
+          </span>
+          <span class="entity-count">${count}</span>
+        `;
       row.addEventListener("click", () => {
-        if (hiddenEntityIds.has(entity.id)) hiddenEntityIds.delete(entity.id);
+        if (hiddenEntityIds.has(entity.id)) {
+          hiddenEntityIds.delete(entity.id);
+        }
         else hiddenEntityIds.add(entity.id);
-        renderMarkers();
+        {
+          renderMarkers();
+        }
       });
       body.appendChild(row);
     });
