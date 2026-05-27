@@ -14,11 +14,7 @@ export const thailandMap = {
       "isMonster": false,
       "timeBand": "night",
       "locations": [
-        {
-          "no": 1,
-          "x": 314.6624260215278,
-          "y": 671.0408419569756
-        },
+        { "no": 1, "x": 314.6624260215278, "y": 671.0408419569756 },
         {
           "no": 2,
           "x": 188,

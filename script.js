@@ -1,4 +1,4 @@
-import { mapOrder, mapsById } from "./content";
+import { mapOrder, mapsById } from "./content/index.js";
 
 const mapPicker = document.getElementById("mapPicker");
 const timeCard = document.getElementById("timeCard");
@@ -47,7 +47,7 @@ function markerIcon(entity, isPrimary = false) {
   const rarityKey = entity.rarity;
   const categoryKey = entity.category || "fish";
 
-  console.log(getImagePath(entity.id));
+  // console.log(getImagePath(entity));
   return L.divIcon({
     className: "photo-marker-wrap",
     html: `
@@ -58,7 +58,6 @@ function markerIcon(entity, isPrimary = false) {
         onerror="this.style.display='none';this.previousElementSibling.style.display='block';"
       >
     `,
-
     iconSize: [30, 30],
     iconAnchor: [15, 15],
     popupAnchor: [0, -16]
@@ -375,7 +374,7 @@ function renderEntityPanel() {
       const count = Array.isArray(entity.locations) ? entity.locations.length : 0;
       row.innerHTML = `
           <span class="entity-left">
-              <img class="entity-thumb" src="${entity.image}" alt="${label(entity)}" onerror="this.style.display='none';">
+              <img class="entity-thumb" src="${getImagePath(entity)}" alt="${label(entity)}" onerror="this.style.display='none';">
               <span class="entity-texts">
                 <span class="entity-name rarity-${rarityKey}"> ${label(entity)} </span>
                 <span class="entity-sub-name"> ${entity.name} </span>

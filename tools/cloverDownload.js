@@ -11,23 +11,24 @@ import path from 'path';
 // const mapName = 'scotland';
 
 
-const mapName = 'thailand';
+// const mapName = 'thailand';
 // const mapName = 'amazon';
 // const mapName = 'chemical-plant';
 // const mapName = 'nuclear-plant';
 // const mapName = 'petrochemical';
-// const mapName = 'bermuda-triangle';
+const mapName = 'bermuda-triangle';
 
-const category = 'fish';
+// const category = 'fish';
 // const category = 'creature';
-// const category = 'item';
+const category = 'item';
 // const category = 'monster';
-let startIndex = 610;
-let endIndex = 625;
+let startIndex = 22;
+let endIndex = 24;
 // let prefix = 'M';
-let prefix = '';
+// let prefix = '';
 // let prefix = '0';
-// let prefix = 'T3-';
+let prefix = 'DT-';
+// let prefix = 'a';
 // let prefix = 'DT-';
 // const pad = true
 const pad = false
@@ -69,7 +70,7 @@ async function downloadFile(url, outPath) {
 
 }
 
-const normalDir = `../assets/maps/${mapName}/portraits/${category}`;
+const normalDir = `./assets/maps/${mapName}/portraits/${category}`;
 const tightDir = `${normalDir}/figure`;
 
 fs.mkdirSync(normalDir, {
