@@ -460,14 +460,14 @@ function renderEntityPanel() {
   });
 
   const grouped = {
-    fish: sorted.filter((e) => e.category === "fish"|| e.category === "monster"),
+    fish: sorted.filter((e) => e.category === "fish" || e.category === "monster"),
     creature: sorted.filter((e) => e.category === "creature"),
     item: sorted.filter((e) => e.category === "item")
   };
+  const visibleCategories = ["fish", "creature", "item"].filter((category) => filters.category.has(category));
 
-  ["fish", "creature", "item"].forEach((category) => {
+  visibleCategories.forEach((category) => {
     const groupItems = grouped[category];
-    if (groupItems.length === 0) return;
 
     const section = document.createElement("section");
     section.className = "entity-group";
@@ -548,6 +548,12 @@ function renderEntityPanel() {
       }
       body.appendChild(row);
     });
+    if (groupItems.length === 0) {
+      const empty = document.createElement("div");
+      empty.className = "entity-empty";
+      empty.textContent = "표시할 항목 없음";
+      body.appendChild(empty);
+    }
     section.appendChild(body);
     entityList.appendChild(section);
 

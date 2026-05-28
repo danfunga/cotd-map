@@ -351,6 +351,14 @@ main { padding: 0; }
 .entity-group-body.closed {
   display: none;
 }
+.entity-empty {
+  border: 1px dashed rgba(143, 220, 255, 0.35);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 13px;
+  color: #8fdcff;
+  text-align: center;
+}
 .entity-row {
   border: 1px solid #0d729c;
   background: #01344a !important;
