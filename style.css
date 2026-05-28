@@ -90,7 +90,7 @@ header p { margin: 0 0 0 auto; opacity: 0.75; font-size: 12px; text-align: right
 .filter-headline {
   position: absolute;
   left: 10px;
-  top: -5px;
+  top: -4px;
   margin: 0;
   padding: 0 4px;
   background: rgba(2, 46, 65, 0.75);
