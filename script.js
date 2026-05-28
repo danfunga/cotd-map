@@ -8,11 +8,13 @@ const clearButtons = document.querySelectorAll(".clear-btn[data-clear-group]");
 const entityList = document.getElementById("entityList");
 const showAllBtn = document.getElementById("showAllBtn");
 const hideAllBtn = document.getElementById("hideAllBtn");
+const caughtFilterAllBtn = document.getElementById("caughtFilterAllBtn");
 const panelToggleBtn = document.getElementById("panelToggleBtn");
 const detailSheet = document.getElementById("detailSheet");
 const detailBody = document.getElementById("detailBody");
 const detailClose = document.getElementById("detailClose");
 const detailBackdrop = document.getElementById("detailBackdrop");
+const STORAGE_KEY = "cotd-map:user-state:v1";
 
 const defaults = {
     category: new Set(["fish", "creature", "item", "monster"]),
@@ -32,12 +34,103 @@ let currentMapId = mapOrder[0];
 let mapInstance = null;
 let markerLayer = null;
 let lastFilteredEntities = [];
+const mapEntitiesCache = new Map();
+let renderRequestId = 0;
 const hiddenEntityIds = new Set();
+const caughtEntityKeys = new Set();
 const panelFoldState = {
   fish: true,
   creature: true,
   item: true
 };
+const caughtFilterMode = {
+  fish: "all",
+  creature: "all",
+  item: "all"
+};
+
+function nextCaughtMode(mode) {
+  if (mode === "all") return "caught";
+  if (mode === "caught") return "uncaught";
+  return "all";
+}
+
+function caughtModeLabel(mode) {
+  if (mode === "caught") return "잡음";
+  if (mode === "uncaught") return "미획득";
+  return "전체";
+}
+
+function getGroupCaughtMode(category) {
+  return category === "monster" ? caughtFilterMode.fish : (caughtFilterMode[category] || "all");
+}
+
+function syncCaughtFilterAllButton() {
+  if (!caughtFilterAllBtn) return;
+  const modes = [caughtFilterMode.fish, caughtFilterMode.creature, caughtFilterMode.item];
+  const same = modes.every((mode) => mode === modes[0]);
+  caughtFilterAllBtn.textContent = same ? caughtModeLabel(modes[0]) : "혼합";
+}
+
+function entityKey(entity, mapId = currentMapId) {
+  return `${mapId}:${entity.category}:${entity.id}`;
+}
+
+function isCaught(entity, mapId = currentMapId) {
+  return caughtEntityKeys.has(entityKey(entity, mapId));
+}
+
+function saveUserState() {
+  const payload = {
+    mapId: currentMapId,
+    filters: {
+      category: [...filters.category],
+      time: [...filters.time],
+      rarity: [...filters.rarity],
+      availability: [...filters.availability]
+    },
+    caught: [...caughtEntityKeys]
+    ,
+    caughtFilterMode: { ...caughtFilterMode },
+    hiddenEntityIds: [...hiddenEntityIds]
+  };
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+}
+
+function loadUserState() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return;
+    const data = JSON.parse(raw);
+    if (mapOrder.includes(data.mapId)) currentMapId = data.mapId;
+    if (data.filters && typeof data.filters === "object") {
+      for (const group of ["category", "time", "rarity", "availability"]) {
+        const values = Array.isArray(data.filters[group]) ? data.filters[group] : null;
+        if (values) filters[group] = new Set(values);
+      }
+    }
+    if (Array.isArray(data.caught)) {
+      data.caught.forEach((key) => {
+        if (typeof key === "string") caughtEntityKeys.add(key);
+      });
+    }
+    if (Array.isArray(data.hiddenEntityIds)) {
+      data.hiddenEntityIds.forEach((id) => {
+        if (typeof id === "string") hiddenEntityIds.add(id);
+      });
+    }
+    if (data.caughtFilterMode && typeof data.caughtFilterMode === "object") {
+      for (const category of ["fish", "creature", "item"]) {
+        const mode = data.caughtFilterMode[category];
+        if (mode === "all" || mode === "caught" || mode === "uncaught") {
+          caughtFilterMode[category] = mode;
+        }
+      }
+    }
+  } catch {
+    // Ignore invalid local state
+  }
+}
 
 function label(entity) {
   return entity.display && entity.display.trim() !== "" ? entity.display : entity.name;
@@ -46,17 +139,20 @@ function label(entity) {
 function markerIcon(entity, isPrimary = false) {
   const rarityKey = entity.rarity;
   const categoryKey = entity.category || "fish";
+  const caught = isCaught(entity);
+  const caughtClass = caught ? "caught" : "";
 
   // console.log(getImagePath(entity));
   return L.divIcon({
     className: "photo-marker-wrap",
     html: `
       <div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}" ></div>
-      <img class="photo-marker rarity-${rarityKey} ${isPrimary ? "primary-location" : ""}"
+      <img class="photo-marker rarity-${rarityKey} ${isPrimary ? "primary-location" : ""} ${caughtClass}"
         src="${getImagePath(entity)}"
         alt="${label(entity)}"
         onerror="this.style.display='none';this.previousElementSibling.style.display='block';"
       >
+      ${caught ? '<span class="caught-v marker-v">✓</span>' : ""}
     `,
     iconSize: [30, 30],
     iconAnchor: [15, 15],
@@ -231,9 +327,74 @@ function createMapIfNeeded() {
   installTwoFingerDoubleTapZoomOut();
 }
 
-function renderMarkers() {
+function buildDetailHtml(entity) {
+  const mini = minigameMeta(entity);
+  const miniHtml = mini
+    ? `<p><strong>미니게임:</strong> <span class="minigame-pill minigame-${mini.cls}">${mini.label}</span></p>`
+    : "";
+  const latinHtml = `<div class="detail-wide-row"><strong>학명:</strong> ${entity.latin || "-"}</div>`;
+  const seasonHtml = seasonBar(entity);
+  const noteHtml = entity.notes && entity.notes.trim() !== ""
+    ? `<div class="detail-note"><strong>메모:</strong> ${entity.notes}</div>`
+    : "";
+
+  const caught = isCaught(entity);
+  return `
+      <div class="fish-popup detail-theme">
+        <div class="detail-title-row">
+            <h3>${label(entity)}</h3>
+            ${entity.name}
+            <button class="caught-toggle ${caught ? "on" : ""}" data-action="toggle-caught" data-id="${entity.id}" data-category="${entity.category}" type="button">${caught ? "잡음 ✓" : "미획득"}</button>
+            <button class="detail-close-inline" type="button" aria-label="닫기"> 닫기 </button>
+        </div>
+              
+        <div class="detail-layout">
+          <div class="detail-info">
+            <p><strong>분류:</strong> ${entity.category}</p>
+            <p><strong>활성 시간:</strong> ${availabilityTimeLabel([entity.timeBand])}</p>
+            <p><strong>희귀도:</strong> <span class="rarity-pill rarity-${entity.rarity}">${entity.rarity}</span></p>
+            <p><strong>그림자 크기:</strong> ${shadowSizeLabel(entity.shadowSizes)}</p>
+            <p><strong>그림자 속도:</strong> ${shadowSpeedLabel(entity.shadowSpeeds)}</p>
+            ${miniHtml}
+          </div>        
+          <div class="detail-visual">
+              <img class="detail-entity-image" src="${getFigureImage(entity)}" alt="${label(entity)}" onerror="this.style.display='none';">
+          </div>
+        </div>
+        <div class="detail-bottom">
+          ${latinHtml}
+          ${seasonHtml}
+          ${noteHtml}
+        </div>
+      </div>`;
+}
+
+async function loadMapEntities(mapId) {
+  if (mapEntitiesCache.has(mapId)) return mapEntitiesCache.get(mapId);
+  const basePath = mapsById[mapId]?.dataPath || `./assets/maps/${mapId}/data`;
+  const targets = ["fish", "creature", "item"];
+  const responses = await Promise.all(
+    targets.map(async (name) => {
+      try {
+        const res = await fetch(`${basePath}/${name}.json`);
+        if (!res.ok) return [];
+        const data = await res.json();
+        return Array.isArray(data) ? data : [];
+      } catch {
+        return [];
+      }
+    })
+  );
+  const entities = responses.flat();
+  mapEntitiesCache.set(mapId, entities);
+  return entities;
+}
+
+async function renderMarkers() {
+  const requestId = ++renderRequestId;
   const mapInfo = mapsById[currentMapId];
-  const entities = Array.isArray(mapInfo.entities) ? mapInfo.entities : [];
+  const entities = await loadMapEntities(currentMapId);
+  if (requestId !== renderRequestId || mapInfo.id !== currentMapId) return;
   markerLayer.clearLayers();
 
   const filtered = entities.filter((entity) => {
@@ -257,7 +418,11 @@ function renderMarkers() {
 
     const availableNow = isSeasonAvailable(entity);
     const availabilityKey = availableNow ? "available" : "unavailable";
-    return filters.availability.has(availabilityKey);
+    if (!filters.availability.has(availabilityKey)) return false;
+    const mode = getGroupCaughtMode(entity.category);
+    if (mode === "caught" && !isCaught(entity)) return false;
+    if (mode === "uncaught" && isCaught(entity)) return false;
+    return true;
   });
 
   lastFilteredEntities = filtered;
@@ -268,43 +433,7 @@ function renderMarkers() {
     const locs = Array.isArray(entity.locations) ? entity.locations : [];
     if (locs.length === 0) return;
 
-    const mini = minigameMeta(entity);
-    const miniHtml = mini
-      ? `<p><strong>미니게임:</strong> <span class="minigame-pill minigame-${mini.cls}">${mini.label}</span></p>`
-      : "";
-    const latinHtml = `<div class="detail-wide-row"><strong>학명:</strong> ${entity.latin || "-"}</div>`;
-    const seasonHtml = seasonBar(entity);
-    const noteHtml = entity.notes && entity.notes.trim() !== ""
-      ? `<div class="detail-note"><strong>메모:</strong> ${entity.notes}</div>`
-      : "";
-
-    const detailHtml = `
-      <div class="fish-popup detail-theme">
-        <div class="detail-title-row">
-            <h3>${label(entity)}</h3>
-            ${entity.name}
-            <button class="detail-close-inline" type="button" aria-label="닫기"> 닫기 </button>
-        </div>
-              
-        <div class="detail-layout">
-          <div class="detail-info">
-            <p><strong>분류:</strong> ${entity.category}</p>
-            <p><strong>활성 시간:</strong> ${availabilityTimeLabel([entity.timeBand])}</p>
-            <p><strong>희귀도:</strong> <span class="rarity-pill rarity-${entity.rarity}">${entity.rarity}</span></p>
-            <p><strong>그림자 크기:</strong> ${shadowSizeLabel(entity.shadowSizes)}</p>
-            <p><strong>그림자 속도:</strong> ${shadowSpeedLabel(entity.shadowSpeeds)}</p>
-            ${miniHtml}
-          </div>        
-          <div class="detail-visual">
-              <img class="detail-entity-image" src="${getFigureImage(entity)}" alt="${label(entity)}" onerror="this.style.display='none';">
-          </div>
-        </div>
-        <div class="detail-bottom">
-          ${latinHtml}
-          ${seasonHtml}
-          ${noteHtml}
-        </div>
-      </div>`;
+    const detailHtml = buildDetailHtml(entity);
 
     locs.forEach((l, idx) => {
       L.marker([l.y, l.x], { icon: markerIcon(entity, idx === 0) })
@@ -316,6 +445,7 @@ function renderMarkers() {
 
 function renderEntityPanel() {
   entityList.innerHTML = "";
+  syncCaughtFilterAllButton();
   const categoryRank = { fish: 0, creature: 1, item: 2 };
   const categoryLabel = { fish: "물고기", creature: "생명체", item: "아이템" };
   const rarityRank = { common: 0, rare: 1, epic: 2, monster: 3 };
@@ -348,6 +478,7 @@ function renderEntityPanel() {
     header.innerHTML = `
         <span>${categoryLabel[category]}</span>
         <button type="button" class="group-toggle-btn" data-category="${category}"> </button>
+        <button type="button" class="caught-filter-btn" data-category="${category}">${caughtModeLabel(caughtFilterMode[category])}</button>
         <span class="entity-group-meta">${groupItems.length}</span>
         <span class="entity-group-arrow">${panelFoldState[category] ? "▾" : "▸"} </span>
     `;
@@ -370,30 +501,53 @@ function renderEntityPanel() {
       const row = document.createElement("button");
       row.type = "button";
       const rarityKey = entity.isMonster ? "monster" : entity.rarity;
-      row.className = `entity-row rarity-${rarityKey} ${hiddenEntityIds.has(entity.id) ? "off" : ""}`;
+      row.className = `entity-row rarity-${rarityKey} ${hiddenEntityIds.has(entity.id) ? "off" : ""} ${isCaught(entity) ? "caught" : ""}`;
       const count = Array.isArray(entity.locations) ? entity.locations.length : 0;
       row.innerHTML = `
           <span class="entity-left">
-              <img class="entity-thumb" src="${getImagePath(entity)}" alt="${label(entity)}" onerror="this.style.display='none';">
+              <span class="entity-thumb-wrap">
+                <img class="entity-thumb" src="${getImagePath(entity)}" alt="${label(entity)}" onerror="this.style.display='none';">
+              </span>
               <span class="entity-texts">
                 <span class="entity-name rarity-${rarityKey}"> ${label(entity)} </span>
                 <span class="entity-sub-name"> ${entity.name} </span>
               </span>              
           </span>
           <span class="entity-count">${count}</span>
+          <button class="count-v-toggle" type="button" aria-label="획득 토글">
+            <span class="caught-v count-v ${isCaught(entity) ? "on" : "off"}">✓</span>
+          </button>
         `;
       row.addEventListener("click", () => {
         if (hiddenEntityIds.has(entity.id)) {
           hiddenEntityIds.delete(entity.id);
         }
         else hiddenEntityIds.add(entity.id);
+        saveUserState();
         {
-          renderMarkers();
+          void renderMarkers();
         }
       });
+      const thumb = row.querySelector(".entity-thumb");
+      if (thumb) {
+        thumb.addEventListener("click", (event) => {
+          event.stopPropagation();
+          openDetail(buildDetailHtml(entity));
+        });
+      }
+      const countVToggle = row.querySelector(".count-v-toggle");
+      if (countVToggle) {
+        countVToggle.addEventListener("click", (event) => {
+          event.stopPropagation();
+          const key = entityKey(entity);
+          if (caughtEntityKeys.has(key)) caughtEntityKeys.delete(key);
+          else caughtEntityKeys.add(key);
+          saveUserState();
+          void renderMarkers();
+        });
+      }
       body.appendChild(row);
     });
-
     section.appendChild(body);
     entityList.appendChild(section);
 
@@ -409,9 +563,20 @@ function renderEntityPanel() {
           hiddenEntityIds.add(e.id); // 전체 숨김
         }
       });
-      renderMarkers();
+      saveUserState();
+      void renderMarkers();
       renderEntityPanel();
     });
+    const caughtFilterBtn = header.querySelector(".caught-filter-btn");
+    if (caughtFilterBtn) {
+      caughtFilterBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        caughtFilterMode[category] = nextCaughtMode(caughtFilterMode[category]);
+        syncCaughtFilterAllButton();
+        saveUserState();
+        void renderMarkers();
+      });
+    }
   });
 }
 
@@ -469,13 +634,14 @@ function renderMap() {
     mapInstance.invalidateSize();
   });
 
-  renderMarkers();
+  void renderMarkers();
 }
 
 function selectMap(mapId) {
   closeDetail();
   currentMapId = mapId;
   applyPickerState();
+  saveUserState();
   renderMap();
 }
 
@@ -487,7 +653,8 @@ function resetFilters() {
   hiddenEntityIds.clear();
   applyFilterButtonState();
   applyFishOnlyState();
-  renderMarkers();
+  saveUserState();
+  void renderMarkers();
 }
 
 function clearFilterGroup(group) {
@@ -498,15 +665,18 @@ function clearFilterGroup(group) {
   }
   applyFilterButtonState();
   applyFishOnlyState();
-  renderMarkers();
+  saveUserState();
+  void renderMarkers();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  loadUserState();
   buildPicker();
   applyPickerState();
   createMapIfNeeded();
   applyFilterButtonState();
   applyFishOnlyState();
+  syncCaughtFilterAllButton();
 
   filterButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -517,7 +687,8 @@ document.addEventListener("DOMContentLoaded", () => {
       else set.add(value);
       applyFilterButtonState();
       applyFishOnlyState();
-      renderMarkers();
+      saveUserState();
+      void renderMarkers();
     });
   });
 
@@ -526,17 +697,45 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   showAllBtn.addEventListener("click", () => {
     hiddenEntityIds.clear();
-    renderMarkers();
+    saveUserState();
+    void renderMarkers();
   });
   hideAllBtn.addEventListener("click", () => {
     lastFilteredEntities.forEach((e) => hiddenEntityIds.add(e.id));
-    renderMarkers();
+    saveUserState();
+    void renderMarkers();
+  });
+  caughtFilterAllBtn?.addEventListener("click", () => {
+    const current = caughtFilterMode.fish;
+    const next = nextCaughtMode(current);
+    caughtFilterMode.fish = next;
+    caughtFilterMode.creature = next;
+    caughtFilterMode.item = next;
+    syncCaughtFilterAllButton();
+    saveUserState();
+    void renderMarkers();
   });
   panelToggleBtn.addEventListener("click", toggleEntityPanel);
   detailClose.addEventListener("click", closeDetail);
   detailBackdrop.addEventListener("click", closeDetail);
+  detailSheet.addEventListener("click", (event) => {
+    if (!detailBody.contains(event.target)) closeDetail();
+  });
   detailBody.addEventListener("click", (event) => {
+    event.stopPropagation();
     if (event.target.classList.contains("detail-close-inline")) closeDetail();
+    const toggle = event.target.closest("[data-action='toggle-caught']");
+    if (!toggle) return;
+    const id = toggle.dataset.id;
+    const category = toggle.dataset.category;
+    const entity = lastFilteredEntities.find((e) => e.id === id && e.category === category);
+    if (!entity) return;
+    const key = entityKey(entity);
+    if (caughtEntityKeys.has(key)) caughtEntityKeys.delete(key);
+    else caughtEntityKeys.add(key);
+    saveUserState();
+    openDetail(buildDetailHtml(entity));
+    void renderMarkers();
   });
   renderMap();
 });
