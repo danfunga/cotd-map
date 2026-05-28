@@ -1,0 +1,407 @@
+[
+  {
+    "id": "c6-0",
+    "name": "rainbow water snake",
+    "display": "무지개 물뱀",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1027.0000064775568,
+        "y": 777.9781799080183
+      }
+    ],
+    "notes": "",
+    "latin": "Enhydris enhydris",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c6-0.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Rainbow Water Snake"
+  },
+  {
+    "id": "c6-1",
+    "name": "green paddy frog",
+    "display": "녹색 논 개구리",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 205.9998315835249,
+        "y": 904.9967064012103
+      }
+    ],
+    "notes": "",
+    "latin": "Hylarana erythraea",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c6-1.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Green Paddy Frog"
+  },
+  {
+    "id": "c6-2",
+    "name": "thai giant frog",
+    "display": "태국 거대 개구리",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 249.02743468986728,
+        "y": 905.4091740848172
+      }
+    ],
+    "notes": "",
+    "latin": "Limnonectes blythii",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c6-2.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Thai Giant Frog"
+  },
+  {
+    "id": "c6-3",
+    "name": "chinese water dragon",
+    "display": "중국 물 용",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 282.52788811883875,
+        "y": 671.3585350034257
+      }
+    ],
+    "notes": "",
+    "latin": "Physignathus cocincinus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c6-3.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Chinese Water Dragon"
+  },
+  {
+    "id": "c6-4",
+    "name": "water scorpion",
+    "display": "물전갈",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 931.5277780003743,
+        "y": 429.3692391994922
+      }
+    ],
+    "notes": "",
+    "latin": "Lethocerus indicus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c6-4.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Water Scorpion"
+  },
+  {
+    "id": "c6-8",
+    "name": "thai devil crab",
+    "display": "태국 악마 게",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 477.00001943267023,
+        "y": 795.9962947013616
+      }
+    ],
+    "notes": "",
+    "latin": "Cardisoma carnifex",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c6-8.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Thai Devil Crab"
+  },
+  {
+    "id": "c6-9",
+    "name": "pomacea",
+    "display": "포마시아",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 227.99985749375182,
+        "y": 905.4897075037823
+      }
+    ],
+    "notes": "",
+    "latin": "Pomacea canaliculata",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c6-9.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Pomacea"
+  },
+  {
+    "id": "c6-5",
+    "name": "giant asian pond turtle",
+    "display": "거대한 아시아 연못 거북",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 921.3599160305054,
+        "y": 881.7767119273665
+      },
+      {
+        "no": 2,
+        "x": 853,
+        "y": 82
+      },
+      {
+        "no": 3,
+        "x": 898,
+        "y": 435
+      },
+      {
+        "no": 4,
+        "x": 518,
+        "y": 356
+      }
+    ],
+    "notes": "",
+    "latin": "Heosemys grandis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c6-5.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Giant Asian Pond Turtle"
+  },
+  {
+    "id": "c6-6",
+    "name": "asian small-clawed otter",
+    "display": "아시아 작은발톱수달",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 862.668289547592,
+        "y": 963.0794359760777
+      }
+    ],
+    "notes": "",
+    "latin": "Aonyx cinereus",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c6-6.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Asian Small-Clawed Otter"
+  },
+  {
+    "id": "c6-7",
+    "name": "irrawady dolphin",
+    "display": "이라와디 돌고래",
+    "category": "creature",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 463,
+        "y": 322
+      }
+    ],
+    "notes": "",
+    "latin": "Orcaella brevirostris",
+    "difficulty": 2,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c6-7.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  }
+]

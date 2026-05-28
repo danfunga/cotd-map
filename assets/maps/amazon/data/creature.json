@@ -1,0 +1,505 @@
+[
+  {
+    "id": "c-700",
+    "name": "giant otter",
+    "display": "거대한 수달",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1451.6056477987383,
+        "y": 2100.433612870349
+      },
+      {
+        "no": 2,
+        "x": 2158.0898961813427,
+        "y": 2667.206778635657
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c-700.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Giant Otter"
+  },
+  {
+    "id": "c-701",
+    "name": "capybara",
+    "display": "카피바라",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 998.434775035405,
+        "y": 452.5483399593904
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c-701.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Capybara"
+  },
+  {
+    "id": "c-702",
+    "name": "giant snail",
+    "display": "거대한 달팽이",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 616.7105519773968,
+        "y": 717.8914220675861
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c-702.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Giant Snail"
+  },
+  {
+    "id": "c-703",
+    "name": "green anaconda",
+    "display": "녹색 아나콘다",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 888,
+        "y": 992
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c-703.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Green Anaconda"
+  },
+  {
+    "id": "c-704",
+    "name": "matamata turtle",
+    "display": "마타마타 거북이",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2159.5208461853117,
+        "y": 2446.351548717231
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c-704.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Matamata Turtle"
+  },
+  {
+    "id": "c-705",
+    "name": "river turtle",
+    "display": "강 거북",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2185.998476617723,
+        "y": 2498.003794874133
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c-705.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "River Turtle"
+  },
+  {
+    "id": "c-706",
+    "name": "poison dart frog",
+    "display": "독 다트 개구리",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1360.627180316967,
+        "y": 2129.7072912047893
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c-706.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Poison Dart Frog"
+  },
+  {
+    "id": "c-707",
+    "name": "giant leaf frog",
+    "display": "거대잎개구리",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2117.5106903034643,
+        "y": 2496.0360998049555
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c-707.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Giant Leaf Frog"
+  },
+  {
+    "id": "c-708",
+    "name": "axolotl",
+    "display": "아홀로틀",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2240.1240464947273,
+        "y": 2435.267423183342
+      },
+      {
+        "no": 2,
+        "x": 1548,
+        "y": 1998
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c-708.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Axolotl"
+  },
+  {
+    "id": "c-709",
+    "name": "black caiman",
+    "display": "검은 카이만",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 948.0419549278613,
+        "y": 2418.0098184406147
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c-709.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Black Caiman"
+  },
+  {
+    "id": "c-710",
+    "name": "amazonian manatee",
+    "display": "아마존 매너티",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1352,
+        "y": 868
+      },
+      {
+        "no": 2,
+        "x": 2076.0655095637035,
+        "y": 831.5575746753798
+      },
+      {
+        "no": 3,
+        "x": 2316,
+        "y": 1164
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c-710.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Amazonian Manatee"
+  },
+  {
+    "id": "c-711",
+    "name": "amazon river dolphin",
+    "display": "아마존 강 돌고래",
+    "category": "creature",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1953.9973446248189,
+        "y": 824
+      },
+      {
+        "no": 2,
+        "x": 1132.0890285456785,
+        "y": 1287.5137674427388
+      },
+      {
+        "no": 3,
+        "x": 1276,
+        "y": 768
+      },
+      {
+        "no": 4,
+        "x": 1842,
+        "y": 382
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c-711.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Amazon River Dolphin"
+  }
+]

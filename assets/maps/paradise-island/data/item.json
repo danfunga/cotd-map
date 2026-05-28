@@ -1,0 +1,552 @@
+[
+  {
+    "id": "T1-1",
+    "name": "empty bottle",
+    "display": "빈 병",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 234.05234457274722,
+        "y": 845.6997102991107
+      }
+    ],
+    "notes": "Base element for the production of all potions and elixirs",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-1.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Empty Bottle"
+  },
+  {
+    "id": "T1-2",
+    "name": "plastic bag",
+    "display": "비닐 봉지",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 230.51681066681448,
+        "y": 774.989032180456
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-2.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Plastic Bag"
+  },
+  {
+    "id": "T1-3",
+    "name": "mask",
+    "display": "마스크",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 422,
+        "y": 589
+      },
+      {
+        "no": 2,
+        "x": 173.24116139070412,
+        "y": 773.574818618083
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-3.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Mask"
+  },
+  {
+    "id": "T1-4",
+    "name": "plastic bottle",
+    "display": "플라스틱 병",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 143.54267658086914,
+        "y": 739.6336931211287
+      }
+    ],
+    "notes": "Collect 50 plastic bottles",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-4.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Plastic Bottle"
+  },
+  {
+    "id": "T1-5",
+    "name": "message in a bottle",
+    "display": "병 속의 메시지",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 263.04372260139564,
+        "y": 811.05147802097
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-5.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Message In A Bottle"
+  },
+  {
+    "id": "T1-6",
+    "name": "can fish",
+    "display": "생선 통조림",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 800,
+        "y": 963
+      }
+    ],
+    "notes": "Intelligence potion",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-6.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Can Fish"
+  },
+  {
+    "id": "T1-7",
+    "name": "straw hat",
+    "display": "밀짚 모자",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 572,
+        "y": 472
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-7.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Straw Hat"
+  },
+  {
+    "id": "T1-8",
+    "name": "gear",
+    "display": "장비",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 88.00653021916094,
+        "y": 334
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-8.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Gear"
+  },
+  {
+    "id": "T1-9",
+    "name": "pinacolada drink",
+    "display": "피나콜라다 음료",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 562.0070127314877,
+        "y": 650
+      }
+    ],
+    "notes": "charisma potions",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-9.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Pinacolada Drink"
+  },
+  {
+    "id": "T1-10",
+    "name": "old phone",
+    "display": "오래된 핸드폰",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 637.8103166302659,
+        "y": 494.9747468305833
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-10.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Old Phone"
+  },
+  {
+    "id": "T1-11",
+    "name": "sea weed",
+    "display": "해초",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 398.80822458921284,
+        "y": 497.8031739553295
+      },
+      {
+        "no": 2,
+        "x": 159.80613254815972,
+        "y": 813.8799051457162
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-11.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Sea Weed"
+  },
+  {
+    "id": "T1-12",
+    "name": "kelp leaf",
+    "display": "다시마",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 432,
+        "y": 481
+      }
+    ],
+    "notes": "standards bait",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-12.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Kelp Leaf"
+  },
+  {
+    "id": "T1-13",
+    "name": "flip flops",
+    "display": "쪼리",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 569,
+        "y": 680
+      },
+      {
+        "no": 2,
+        "x": 117.37972567696688,
+        "y": 777.1103525240156
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-13.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Flip Flops"
+  },
+  {
+    "id": "T1-14",
+    "name": "can",
+    "display": "캔",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 661.8519471906086,
+        "y": 441.2346314604057
+      },
+      {
+        "no": 2,
+        "x": 282,
+        "y": 868
+      }
+    ],
+    "notes": "charisma potion/elixir",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-14.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Can"
+  },
+  {
+    "id": "T1-15",
+    "name": "chips",
+    "display": "감자칩",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 206.47518010647187,
+        "y": 844.2854967367377
+      }
+    ],
+    "notes": "standards bait",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-15.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Chips"
+  },
+  {
+    "id": "T1-16",
+    "name": "lunch box",
+    "display": "도시락 상자",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 134,
+        "y": 370
+      }
+    ],
+    "notes": "repair kit",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-16.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Lunch Box"
+  },
+  {
+    "id": "T1-17",
+    "name": "key with a skull",
+    "display": "해골 열쇠",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 140,
+        "y": 320
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-17.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Key With A Skull"
+  },
+  {
+    "id": "T1-18",
+    "name": "chest with a skull",
+    "display": "상자",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1006.910821285141,
+        "y": 582.6559876977152
+      }
+    ],
+    "notes": "Collect 4 different chests",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-18.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Chest With A Skull"
+  },
+  {
+    "id": "T1-19",
+    "name": "wilson ball",
+    "display": "윌슨 공",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 174,
+        "y": 488
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-19.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Wilson Ball"
+  },
+  {
+    "id": "T1-20",
+    "name": "rubber duck",
+    "display": "고무 오리",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1000,
+        "y": 750
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-20.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Rubber Duck"
+  },
+  {
+    "id": "T1-21",
+    "name": "fridge magnet",
+    "display": "냉장고 자석",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 203.64675298172568,
+        "y": 801.8590898655449
+      },
+      {
+        "no": 2,
+        "x": 589.7270555095807,
+        "y": 637.8103166302659
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T1-21.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Fridge Magnet"
+  }
+]

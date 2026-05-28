@@ -1,0 +1,1017 @@
+[
+  {
+    "id": "c18",
+    "name": "Swinklet",
+    "display": "Swinklet",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1380,
+        "y": 1950
+      }
+    ],
+    "notes": "",
+    "latin": "Susichthys rotundus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c18.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Swinklet"
+  },
+  {
+    "id": "c17",
+    "name": "Pavonyx",
+    "display": "Pavonyx",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1680.0000000000002,
+        "y": 2580
+      }
+    ],
+    "notes": "",
+    "latin": "Pavonichthys splendens",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c17.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      2
+    ],
+    "mapCategory": "Pavonyx"
+  },
+  {
+    "id": "c12",
+    "name": "Grungletide",
+    "display": "Grungletide",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2220,
+        "y": 2280
+      }
+    ],
+    "notes": "",
+    "latin": "Rudichthys sordidus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c12.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      2
+    ],
+    "mapCategory": "Grungletide"
+  },
+  {
+    "id": "c21",
+    "name": "Harefin",
+    "display": "Harefin",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 540,
+        "y": 1290
+      }
+    ],
+    "notes": "",
+    "latin": "Leporichthys saltans",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c21.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      2
+    ],
+    "mapCategory": "Harefin"
+  },
+  {
+    "id": "c01",
+    "name": "Balloonflare",
+    "display": "Balloonflare",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2010.0000000000002,
+        "y": 1709.9999999999998
+      }
+    ],
+    "notes": "",
+    "latin": "Pneumichthys globulus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c01.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Balloonflare"
+  },
+  {
+    "id": "c23",
+    "name": "Shooloop",
+    "display": "Shooloop",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 510.00000000000006,
+        "y": 1680.0000000000002
+      }
+    ],
+    "notes": "",
+    "latin": "Calceichthys deformis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c23.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Shooloop"
+  },
+  {
+    "id": "c02",
+    "name": "Meliglow",
+    "display": "Meliglow",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2310,
+        "y": 720
+      }
+    ],
+    "notes": "",
+    "latin": "Apichthys melissa",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c02.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Meliglow"
+  },
+  {
+    "id": "c15",
+    "name": "Moosecarver",
+    "display": "Moosecarver",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 990,
+        "y": 1830
+      }
+    ],
+    "notes": "",
+    "latin": "Alcescyprinus magnus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c15.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Moosecarver"
+  },
+  {
+    "id": "c13",
+    "name": "Harmonelle",
+    "display": "Harmonelle",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 390,
+        "y": 1920
+      }
+    ],
+    "notes": "",
+    "latin": "Concordichthys sonorus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c13.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Harmonelle"
+  },
+  {
+    "id": "c06",
+    "name": "Mooline",
+    "display": "Mooline",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1380,
+        "y": 1950
+      }
+    ],
+    "notes": "",
+    "latin": "Bovinichthys placidus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c06.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Mooline"
+  },
+  {
+    "id": "c16",
+    "name": "Olexis",
+    "display": "Olexis",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 810,
+        "y": 840.0000000000001
+      }
+    ],
+    "notes": "",
+    "latin": "Oleichthys lubricus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c16.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Olexis"
+  },
+  {
+    "id": "c20",
+    "name": "Punkflare",
+    "display": "Punkflare",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2220,
+        "y": 2310
+      }
+    ],
+    "notes": "",
+    "latin": "Punkichthys erectus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c20.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      2
+    ],
+    "mapCategory": "Punkflare"
+  },
+  {
+    "id": "c05",
+    "name": "Cresthorn",
+    "display": "Cresthorn",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1380,
+        "y": 1920
+      }
+    ],
+    "notes": "",
+    "latin": "Gallochthys crestatus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c05.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      2
+    ],
+    "mapCategory": "Cresthorn"
+  },
+  {
+    "id": "c09",
+    "name": "Garlite",
+    "display": "Garlite",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 960,
+        "y": 270
+      }
+    ],
+    "notes": "",
+    "latin": "Gariorhynchus acutus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c09.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      2
+    ],
+    "mapCategory": "Garlite"
+  },
+  {
+    "id": "c04",
+    "name": "Cirquelight",
+    "display": "Cirquelight",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 360,
+        "y": 2670
+      }
+    ],
+    "notes": "",
+    "latin": "Circichthys ludicus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c04.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Cirquelight"
+  },
+  {
+    "id": "c07",
+    "name": "Hartspike",
+    "display": "Hartspike",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1230,
+        "y": 2700
+      },
+      {
+        "no": 2,
+        "x": 1739.9999999999998,
+        "y": 2610
+      }
+    ],
+    "notes": "",
+    "latin": "Cervoesox gracilis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c07.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Hartspike"
+  },
+  {
+    "id": "c25",
+    "name": "Arakelle",
+    "display": "Arakelle",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2640,
+        "y": 1350
+      }
+    ],
+    "notes": "",
+    "latin": "Araneichthys longipes",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c25.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "c11",
+    "name": "Globulett",
+    "display": "Globulett",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 450,
+        "y": 1860
+      }
+    ],
+    "notes": "",
+    "latin": "Globopterus inflatus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c11.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Globulett"
+  },
+  {
+    "id": "c03",
+    "name": "Taurfin",
+    "display": "Taurfin",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1560,
+        "y": 1290
+      }
+    ],
+    "notes": "",
+    "latin": "Taurichthys robustus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c03.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Taurfin"
+  },
+  {
+    "id": "c24",
+    "name": "Speartide",
+    "display": "Speartide",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1739.9999999999998,
+        "y": 540
+      }
+    ],
+    "notes": "",
+    "latin": "Hastasalmo aculeatus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c24.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Speartide"
+  },
+  {
+    "id": "c08",
+    "name": "Elephara",
+    "display": "Elephara",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1260,
+        "y": 2160
+      }
+    ],
+    "notes": "",
+    "latin": "Elephasichthys nasocornis",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c08.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Elephara"
+  },
+  {
+    "id": "c14",
+    "name": "Ladybelle",
+    "display": "Ladybelle",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2280,
+        "y": 750
+      }
+    ],
+    "notes": "",
+    "latin": "Coccinellichthys punctatus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c14.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Ladybelle"
+  },
+  {
+    "id": "c10",
+    "name": "Giraffine",
+    "display": "Giraffine",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2190,
+        "y": 2220
+      }
+    ],
+    "notes": "",
+    "latin": "Giraffichthys alticollis",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c10.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Giraffine"
+  },
+  {
+    "id": "c22",
+    "name": "Rhynorid",
+    "display": "Rhynorid",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 480,
+        "y": 840.0000000000001
+      }
+    ],
+    "notes": "",
+    "latin": "Rhinichthys cornutus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c22.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Rhynorid"
+  },
+  {
+    "id": "c19",
+    "name": "Tailtress",
+    "display": "Tailtress",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2580,
+        "y": 1440
+      }
+    ],
+    "notes": "",
+    "latin": "Caudichthys funiculus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/c19.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Tailtress"
+  }
+]

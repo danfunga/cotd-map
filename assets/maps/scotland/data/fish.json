@@ -1,0 +1,1427 @@
+[
+  {
+    "id": "523",
+    "name": "carp",
+    "display": "잉어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 998.4341551916563,
+        "y": 896.6113985445422
+      },
+      {
+        "no": 2,
+        "x": 347.0038570023183,
+        "y": 342
+      },
+      {
+        "no": 3,
+        "x": 1015,
+        "y": 545
+      }
+    ],
+    "notes": "",
+    "latin": "Cyprinus carpio",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/523.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0,
+      1
+    ],
+    "mapCategory": "Carp"
+  },
+  {
+    "id": "524",
+    "name": "sea trout",
+    "display": "바다 송어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1012,
+        "y": 746
+      }
+    ],
+    "notes": "",
+    "latin": "Salmo trutta",
+    "difficulty": 0,
+    "seasons": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/524.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Sea Trout"
+  },
+  {
+    "id": "525",
+    "name": "grey trout",
+    "display": "회색 송어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 679.0005259548616,
+        "y": 978
+      },
+      {
+        "no": 2,
+        "x": 537,
+        "y": 112.5
+      }
+    ],
+    "notes": "",
+    "latin": "Salvelinus namaycush",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/525.png",
+    "shadowSizes": [
+      1,
+      3
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Grey Trout"
+  },
+  {
+    "id": "526",
+    "name": "twaite shad",
+    "display": "트와이트 샤드",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1022,
+        "y": 422
+      }
+    ],
+    "notes": "",
+    "latin": "Alosa fallax",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/526.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Twaite Shad"
+  },
+  {
+    "id": "527",
+    "name": "powan",
+    "display": "포완",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 140,
+        "y": 663.5
+      }
+    ],
+    "notes": "",
+    "latin": "Coregonus clupeoides",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/527.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Powan"
+  },
+  {
+    "id": "51",
+    "name": "freshwater bream",
+    "display": "민물도미",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 621.5508100155108,
+        "y": 180.31443143865937
+      }
+    ],
+    "notes": "",
+    "latin": "Abramis brama",
+    "difficulty": 0,
+    "seasons": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/51.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Freshwater Bream"
+  },
+  {
+    "id": "52",
+    "name": "three-spined stickleback",
+    "display": "가시가 세 개인 큰가시등",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 898,
+        "y": 271
+      },
+      {
+        "no": 2,
+        "x": 303,
+        "y": 521.5
+      },
+      {
+        "no": 3,
+        "x": 698.0003506365744,
+        "y": 548
+      },
+      {
+        "no": 4,
+        "x": 392.44426355853386,
+        "y": 126.57211383239199
+      }
+    ],
+    "notes": "",
+    "latin": "Gasterosteus aculeatus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/52.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Three-spined Stickleback"
+  },
+  {
+    "id": "53",
+    "name": "chub",
+    "display": "처브",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 515.0010519097232,
+        "y": 879
+      },
+      {
+        "no": 2,
+        "x": 944.6940398214788,
+        "y": 307.59144981614816
+      }
+    ],
+    "notes": "",
+    "latin": "Squalius cephalus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/53.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Chub"
+  },
+  {
+    "id": "54",
+    "name": "tench",
+    "display": "텐치",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 687.9978961805537,
+        "y": 569
+      },
+      {
+        "no": 2,
+        "x": 878.226622233692,
+        "y": 261.6295090390226
+      },
+      {
+        "no": 3,
+        "x": 284.0212135127506,
+        "y": 109
+      },
+      {
+        "no": 4,
+        "x": 304.00438295717987,
+        "y": 545
+      }
+    ],
+    "notes": "",
+    "latin": "Tinca tinca",
+    "difficulty": 0,
+    "seasons": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/54.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Tench"
+  },
+  {
+    "id": "55",
+    "name": "allis shad",
+    "display": "알리스 청어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 981,
+        "y": 726
+      },
+      {
+        "no": 2,
+        "x": 665.9926366319378,
+        "y": 1015
+      },
+      {
+        "no": 3,
+        "x": 88,
+        "y": 426.5
+      },
+      {
+        "no": 4,
+        "x": 249.60770200885335,
+        "y": 1010.4555903155764
+      },
+      {
+        "no": 5,
+        "x": 569.9280656363572,
+        "y": 88.38834764831843
+      }
+    ],
+    "notes": "",
+    "latin": "Alosa alosa",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/55.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": "Allis Shad"
+  },
+  {
+    "id": "56",
+    "name": "northern pike",
+    "display": "노던 파이크",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 114.99947404513841,
+        "y": 752
+      },
+      {
+        "no": 2,
+        "x": 565.6854249492379,
+        "y": 110.30865786510141
+      }
+    ],
+    "notes": "",
+    "latin": "Esox lucius",
+    "difficulty": 0,
+    "seasons": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/56.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0,
+      1
+    ],
+    "mapCategory": "Northern Pike"
+  },
+  {
+    "id": "57",
+    "name": "rainbow trout",
+    "display": "무지개 송어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 102.52994472397634,
+        "y": 425.6876417776831
+      },
+      {
+        "no": 2,
+        "x": 975.5,
+        "y": 425
+      }
+    ],
+    "notes": "",
+    "latin": "Oncorhynchus mykiss",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/57.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Rainbow Trout"
+  },
+  {
+    "id": "58",
+    "name": "gudgeon",
+    "display": "잘 속는 사람",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 302.64170234784234,
+        "y": 101.82337649086284
+      },
+      {
+        "no": 2,
+        "x": 557.2001435749994,
+        "y": 67.88225099390856
+      }
+    ],
+    "notes": "",
+    "latin": "Gobio gobio",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/58.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Gudgeon"
+  },
+  {
+    "id": "59",
+    "name": "vendace",
+    "display": "벤다스",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 159.80613254815972,
+        "y": 642.7600640985717
+      },
+      {
+        "no": 2,
+        "x": 132.5,
+        "y": 491
+      },
+      {
+        "no": 3,
+        "x": 236.8807716974934,
+        "y": 341.5325753131024
+      }
+    ],
+    "notes": "",
+    "latin": "Coregonus albula",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/59.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": "Vendace"
+  },
+  {
+    "id": "510",
+    "name": "roach",
+    "display": "바퀴벌레",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 951.7486197896285,
+        "y": 316.7838379715733
+      },
+      {
+        "no": 2,
+        "x": 529.9866758101732,
+        "y": 871
+      },
+      {
+        "no": 3,
+        "x": 273,
+        "y": 539
+      },
+      {
+        "no": 4,
+        "x": 254.5584412271571,
+        "y": 114.55129855222069
+      },
+      {
+        "no": 5,
+        "x": 647.7098115668775,
+        "y": 1022.4764055957477
+      }
+    ],
+    "notes": "",
+    "latin": "Rutilus rutilus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/510.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Roach"
+  },
+  {
+    "id": "511",
+    "name": "rudd",
+    "display": "러드",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 586.1915216036479,
+        "y": 606.6976182580578
+      },
+      {
+        "no": 2,
+        "x": 673.9977208622664,
+        "y": 395
+      },
+      {
+        "no": 3,
+        "x": 350.72496346852756,
+        "y": 729.0270914033305
+      },
+      {
+        "no": 4,
+        "x": 276.47875144394004,
+        "y": 96.16652224137046
+      },
+      {
+        "no": 5,
+        "x": 783.4779038751815,
+        "y": 952.494581339666
+      },
+      {
+        "no": 6,
+        "x": 477.29707730091957,
+        "y": 865.4987001723341
+      },
+      {
+        "no": 7,
+        "x": 511.9453095790604,
+        "y": 77.07463914933368
+      }
+    ],
+    "notes": "",
+    "latin": "Scardinius erythrophthalmus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/511.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Rudd"
+  },
+  {
+    "id": "512",
+    "name": "lamprey",
+    "display": "칠성장어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 550.8361825443205,
+        "y": 610.940258945177
+      },
+      {
+        "no": 2,
+        "x": 671,
+        "y": 412
+      },
+      {
+        "no": 3,
+        "x": 120,
+        "y": 641.5
+      },
+      {
+        "no": 4,
+        "x": 282.13560569343247,
+        "y": 123.03657992645925
+      },
+      {
+        "no": 5,
+        "x": 1019,
+        "y": 711
+      },
+      {
+        "no": 6,
+        "x": 347.89653634378135,
+        "y": 704.9854608429878
+      },
+      {
+        "no": 7,
+        "x": 814.597603372339,
+        "y": 960.26642450396
+      },
+      {
+        "no": 8,
+        "x": 992.0708140047261,
+        "y": 987.8281733176068
+      }
+    ],
+    "notes": "",
+    "latin": "Petromyzon marinus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/512.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Lamprey"
+  },
+  {
+    "id": "513",
+    "name": "european perch",
+    "display": "유럽 ​​농어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 560.0285706997456,
+        "y": 641.3458505361986
+      },
+      {
+        "no": 2,
+        "x": 98.2878425849301,
+        "y": 662.559053971795
+      },
+      {
+        "no": 3,
+        "x": 726.9651116608482,
+        "y": 841
+      }
+    ],
+    "notes": "",
+    "latin": "Perca fluviatilis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/513.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": "European Perch"
+  },
+  {
+    "id": "514",
+    "name": "dace",
+    "display": "황어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 331.9905328124915,
+        "y": 343
+      },
+      {
+        "no": 2,
+        "x": 802.998246817128,
+        "y": 950
+      },
+      {
+        "no": 3,
+        "x": 484,
+        "y": 79.5
+      },
+      {
+        "no": 4,
+        "x": 911.4606409494597,
+        "y": 295.57063453597686
+      },
+      {
+        "no": 5,
+        "x": 576.9991334482228,
+        "y": 666.8016946589142
+      },
+      {
+        "no": 6,
+        "x": 141.42135623730948,
+        "y": 226.98127676088174
+      }
+    ],
+    "notes": "",
+    "latin": "Leuciscus leuciscus",
+    "difficulty": 0,
+    "seasons": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/514.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": "Dace"
+  },
+  {
+    "id": "515",
+    "name": "european smelt",
+    "display": "유럽의 빙어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 120,
+        "y": 426
+      },
+      {
+        "no": 2,
+        "x": 643.5,
+        "y": 998
+      },
+      {
+        "no": 3,
+        "x": 215.0007012731488,
+        "y": 1007
+      },
+      {
+        "no": 4,
+        "x": 536.6940469205896,
+        "y": 89.09545442950498
+      }
+    ],
+    "notes": "",
+    "latin": "Osmerus eperlanus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/515.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "European Smelt"
+  },
+  {
+    "id": "516",
+    "name": "european eel",
+    "display": "유럽 ​​장어",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 507,
+        "y": 99
+      },
+      {
+        "no": 2,
+        "x": 786.3041043356878,
+        "y": 973.6860376938758
+      },
+      {
+        "no": 3,
+        "x": 231.93102422918759,
+        "y": 112.42997820866105
+      }
+    ],
+    "notes": "",
+    "latin": "Anguilla anguilla",
+    "difficulty": 1,
+    "seasons": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/516.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "European Eel"
+  },
+  {
+    "id": "517",
+    "name": "european grayling",
+    "display": "유럽의 회색빛",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 656.0012272280104,
+        "y": 979
+      },
+      {
+        "no": 2,
+        "x": 508.5,
+        "y": 130
+      },
+      {
+        "no": 3,
+        "x": 1001.5,
+        "y": 397
+      }
+    ],
+    "notes": "",
+    "latin": "Thymallus thymallus",
+    "difficulty": 1,
+    "seasons": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/517.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "European Grayling"
+  },
+  {
+    "id": "518",
+    "name": "european whitefish",
+    "display": "유럽 ​​흰살생선",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 468.8193355997034,
+        "y": 221.32304611383321
+      },
+      {
+        "no": 2,
+        "x": 195.17403772919124,
+        "y": 449.7055983000607
+      }
+    ],
+    "notes": "",
+    "latin": "Coregonus lavaretus",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/518.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "European Whitefish"
+  },
+  {
+    "id": "519",
+    "name": "bull trout",
+    "display": "황소 송어",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 479,
+        "y": 115.5
+      },
+      {
+        "no": 2,
+        "x": 263.999123408564,
+        "y": 1010
+      }
+    ],
+    "notes": "",
+    "latin": "Salvelinus confluentus",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/519.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Bull Trout"
+  },
+  {
+    "id": "520",
+    "name": "scotish salmon",
+    "display": "스코틀랜드 연어",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 683,
+        "y": 1001
+      },
+      {
+        "no": 2,
+        "x": 1991,
+        "y": 712
+      }
+    ],
+    "notes": "",
+    "latin": "Oncorhynchus gorbuscha",
+    "difficulty": 2,
+    "seasons": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/520.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "521",
+    "name": "common sturgeon",
+    "display": "철갑상어",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 192.34130221986075,
+        "y": 472.3492567891923
+      },
+      {
+        "no": 2,
+        "x": 449.7199128346442,
+        "y": 844.2854967367377
+      },
+      {
+        "no": 3,
+        "x": 523.2590180780452,
+        "y": 176.06958851545033
+      }
+    ],
+    "notes": "",
+    "latin": "Acipenser sturio",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/521.png",
+    "shadowSizes": [
+      3
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Common Sturgeon"
+  },
+  {
+    "id": "522",
+    "name": "nessie",
+    "display": "네시",
+    "category": "monster",
+    "rarity": "monster",
+    "isMonster": true,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 111.01217432580106,
+        "y": 458.1977616620798
+      },
+      {
+        "no": 2,
+        "x": 182.00035063657438,
+        "y": 764
+      },
+      {
+        "no": 3,
+        "x": 733.9968442708305,
+        "y": 948
+      },
+      {
+        "no": 4,
+        "x": 198.99964936342562,
+        "y": 407
+      },
+      {
+        "no": 5,
+        "x": 637.9985974537025,
+        "y": 954
+      },
+      {
+        "no": 6,
+        "x": 239.00087659143597,
+        "y": 805
+      }
+    ],
+    "notes": "Map monster.",
+    "latin": "",
+    "difficulty": 2,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/522.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Nessie"
+  }
+]

@@ -1,0 +1,478 @@
+[
+  {
+    "id": "DC-1",
+    "name": "Ammonoidea",
+    "display": "암모니아과",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2580,
+        "y": 2580
+      }
+    ],
+    "notes": "",
+    "latin": "Acanthoceras rotomagensis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/DC-1.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "DC-2",
+    "name": "Archelon",
+    "display": "아르켈론",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 869.9999999999999,
+        "y": 2280
+      }
+    ],
+    "notes": "",
+    "latin": "Archelon ischyros",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/DC-2.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "DC-3",
+    "name": "Cephalaspis",
+    "display": "두족류",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1590,
+        "y": 990
+      }
+    ],
+    "notes": "",
+    "latin": "Cephalaspis lyelli",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/DC-3.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "DC-4",
+    "name": "Diplocaulus",
+    "display": "디플로카울루스",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1500,
+        "y": 330
+      }
+    ],
+    "notes": "",
+    "latin": "Diplocaulus magnicornis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/DC-4.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "DC-5",
+    "name": "Ichthyosaurus",
+    "display": "어룡",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2070,
+        "y": 930
+      }
+    ],
+    "notes": "",
+    "latin": "Ichthyosaurus communis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/DC-5.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "DC-7",
+    "name": "Odobenocetops",
+    "display": "오도베노케톱스",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2160,
+        "y": 1860
+      }
+    ],
+    "notes": "",
+    "latin": "Odobenocetops peruvianus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/DC-7.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "DC-8",
+    "name": "Opabinia",
+    "display": "오파비니아",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1350,
+        "y": 2610
+      }
+    ],
+    "notes": "",
+    "latin": "Opabinia regalis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/DC-8.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "DC-9",
+    "name": "Orthoceras",
+    "display": "오르토케라스",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1260,
+        "y": 1890
+      }
+    ],
+    "notes": "",
+    "latin": "Orthoceras regulare",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/DC-9.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "DC-11",
+    "name": "Peytoia",
+    "display": "페이토이아",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1350,
+        "y": 2610
+      }
+    ],
+    "notes": "",
+    "latin": "Peytoia nathorsti",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/DC-11.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "DC-10",
+    "name": "Peloneustes",
+    "display": "펠로네스테스",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2700,
+        "y": 1500
+      }
+    ],
+    "notes": "",
+    "latin": "Peloneustes philarchus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/DC-10.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "DC-12",
+    "name": "Plesiosaurus",
+    "display": "플레시오사우루스",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 540,
+        "y": 450
+      }
+    ],
+    "notes": "",
+    "latin": "Plesiosaurus dolichodeirus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/DC-12.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "DC-6",
+    "name": "Kronosaurus",
+    "display": "크로노사우루스",
+    "category": "creature",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 570,
+        "y": 1260
+      }
+    ],
+    "notes": "",
+    "latin": "Kronosaurus queenslandicus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/DC-6.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  }
+]

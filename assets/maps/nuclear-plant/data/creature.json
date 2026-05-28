@@ -1,0 +1,386 @@
+[
+  {
+    "id": "cb9",
+    "name": "Wireviper",
+    "display": "와이어바이퍼",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1800,
+        "y": 1470
+      }
+    ],
+    "notes": "",
+    "latin": "Vipera filamenta",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cb9.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Wireviper",
+    "legacyLocations": []
+  },
+  {
+    "id": "cb1",
+    "name": "Rollslug",
+    "display": "롤슬러그",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 300,
+        "y": 720
+      }
+    ],
+    "notes": "",
+    "latin": "Extensocochlea volubilis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cb1.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Roll Slug",
+    "legacyLocations": []
+  },
+  {
+    "id": "cb3",
+    "name": "Blowslug",
+    "display": "블로우슬러그",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2640,
+        "y": 1560
+      }
+    ],
+    "notes": "",
+    "latin": "Cochlephona capillaris",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cb3.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Blowslug",
+    "legacyLocations": []
+  },
+  {
+    "id": "cb4",
+    "name": "Ironhelm Turtle",
+    "display": "철투구 거북",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 390,
+        "y": 1650.0000000000002
+      }
+    ],
+    "notes": "",
+    "latin": "Testudo galeata",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cb4.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Ironhelm Turtle",
+    "legacyLocations": []
+  },
+  {
+    "id": "cb6",
+    "name": "Luminajelly",
+    "display": "루미나젤리",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2100,
+        "y": 480
+      }
+    ],
+    "notes": "",
+    "latin": "Medusina phosphorata",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cb6.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Luminajelly",
+    "legacyLocations": []
+  },
+  {
+    "id": "cb7",
+    "name": "Stripeserpent",
+    "display": "줄무늬뱀",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2430,
+        "y": 2490
+      }
+    ],
+    "notes": "",
+    "latin": "Serpens linearis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cb7.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Stripeserpent",
+    "legacyLocations": []
+  },
+  {
+    "id": "cb8",
+    "name": "Crabphone",
+    "display": "게 전화",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1050,
+        "y": 2640
+      }
+    ],
+    "notes": "",
+    "latin": "Cancer telephonicus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cb8.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Crabphone",
+    "legacyLocations": []
+  },
+  {
+    "id": "cb5",
+    "name": "Hulkwhale",
+    "display": "거대고래",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1830,
+        "y": 1800
+      }
+    ],
+    "notes": "",
+    "latin": "Balaenorobustus viridis",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cb5.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Hulkwhale",
+    "legacyLocations": []
+  },
+  {
+    "id": "cb2",
+    "name": "Megaplugtopus",
+    "display": "메가플러그토푸스",
+    "category": "creature",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 990,
+        "y": 780
+      },
+      {
+        "no": 2,
+        "x": 420.00000000000006,
+        "y": 630
+      }
+    ],
+    "notes": "",
+    "latin": "Octopluginus gigantarus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cb2.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Megaplugtopus",
+    "legacyLocations": []
+  }
+]

@@ -1,0 +1,751 @@
+[
+  {
+    "id": "c7-0",
+    "name": "toxurtle",
+    "display": "toxurtle",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 360,
+        "y": 120
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-0.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Toxurtle",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 306.88434303496166,
+        "y": 90.50966799187809
+      },
+      {
+        "no": 2,
+        "x": 751.6545084013,
+        "y": 1035.911434438292
+      }
+    ]
+  },
+  {
+    "id": "c7-1",
+    "name": "lemon puffrog",
+    "display": "레몬 퍼프로그",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 144,
+        "y": 756
+      },
+      {
+        "no": 2,
+        "x": 1032,
+        "y": 804
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-1.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "",
+    "legacyLocations": []
+  },
+  {
+    "id": "c7-2",
+    "name": "shrimpster",
+    "display": "새우새우",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 624,
+        "y": 516
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-2.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Shrimpster",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 603.8691911333116,
+        "y": 454.66966030295004
+      },
+      {
+        "no": 2,
+        "x": 969.4433970067566,
+        "y": 142.12846301849603
+      },
+      {
+        "no": 3,
+        "x": 547.3006486383878,
+        "y": 980.0499987245548
+      }
+    ]
+  },
+  {
+    "id": "c7-3",
+    "name": "crystalcrab",
+    "display": "수정게",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1032,
+        "y": 491.99999999999994
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-3.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Crystalcrab",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1039,
+        "y": 478
+      }
+    ]
+  },
+  {
+    "id": "c7-4",
+    "name": "slimy",
+    "display": "불쾌한",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 564,
+        "y": 156
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-4.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Slimy",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 554.3717164502532,
+        "y": 203.64675298172568
+      }
+    ]
+  },
+  {
+    "id": "c7-5",
+    "name": "bottlopus",
+    "display": "병토푸스",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 624,
+        "y": 516
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-5.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Bottlopus",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 638,
+        "y": 476
+      }
+    ]
+  },
+  {
+    "id": "c7-6",
+    "name": "cybersquid",
+    "display": "사이버 오징어",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1032,
+        "y": 491.99999999999994
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-6.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Cybersquid",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1083,
+        "y": 492
+      }
+    ]
+  },
+  {
+    "id": "c7-7",
+    "name": "firetopus",
+    "display": "불토퍼스",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 660,
+        "y": 936
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-7.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Firetopus",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 660,
+        "y": 962
+      }
+    ]
+  },
+  {
+    "id": "c7-8",
+    "name": "plasmaturtle",
+    "display": "플라즈마 터틀",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 180,
+        "y": 1056
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-8.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Plasmaturtle",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 180,
+        "y": 1077
+      }
+    ]
+  },
+  {
+    "id": "c7-9",
+    "name": "sewage fungus",
+    "display": "하수 곰팡이",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 804,
+        "y": 768
+      }
+    ],
+    "notes": "",
+    "latin": "Fungus cloacae",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-9.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Sewage Fungus",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 135,
+        "y": 302
+      }
+    ]
+  },
+  {
+    "id": "c7-10",
+    "name": "discoshell",
+    "display": "디스코셸",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 696,
+        "y": 1044
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-10.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Discoshell",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 689,
+        "y": 1023
+      }
+    ]
+  },
+  {
+    "id": "c7-11",
+    "name": "tubesnail",
+    "display": "튜브네일",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1068,
+        "y": 324
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-11.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Tubesnail",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1083,
+        "y": 288
+      }
+    ]
+  },
+  {
+    "id": "c7-12",
+    "name": "jellydusa",
+    "display": "젤리두사",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 924,
+        "y": 624
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-12.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Jellydusa",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 918,
+        "y": 633
+      }
+    ]
+  },
+  {
+    "id": "c7-13",
+    "name": "neon frogson",
+    "display": "네온 프로그슨",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 827.9999999999999,
+        "y": 240
+      },
+      {
+        "no": 2,
+        "x": 348,
+        "y": 840
+      },
+      {
+        "no": 3,
+        "x": 108,
+        "y": 432
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-13.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Neon Frogson",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 819,
+        "y": 219
+      },
+      {
+        "no": 2,
+        "x": 117,
+        "y": 416
+      },
+      {
+        "no": 3,
+        "x": 349,
+        "y": 831
+      }
+    ]
+  },
+  {
+    "id": "c7-14",
+    "name": "armored mutoclam",
+    "display": "기갑 뮤토클람",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 324,
+        "y": 456
+      },
+      {
+        "no": 2,
+        "x": 491.99999999999994,
+        "y": 624
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c7-14.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Armored Mutoclam",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 498,
+        "y": 599
+      },
+      {
+        "no": 2,
+        "x": 338,
+        "y": 431
+      }
+    ]
+  }
+]

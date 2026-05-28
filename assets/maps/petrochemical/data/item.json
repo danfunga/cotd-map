@@ -1,0 +1,687 @@
+[
+  {
+    "id": "tc21",
+    "name": "Video Cassette",
+    "display": "Video Cassette",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1380,
+        "y": 2610
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc21.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "tc22",
+    "name": "Tomato Seedling",
+    "display": "Tomato Seedling",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1290,
+        "y": 600
+      },
+      {
+        "no": 2,
+        "x": 540,
+        "y": 1260
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc22.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Tomato Seedling"
+  },
+  {
+    "id": "tc07",
+    "name": "Nerd Glasses",
+    "display": "Nerd Glasses",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2610,
+        "y": 1860
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc07.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Nerd Glasses"
+  },
+  {
+    "id": "tc14",
+    "name": "Black Water Lily",
+    "display": "Black Water Lily",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1890,
+        "y": 1920
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc14.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Black Water Lily"
+  },
+  {
+    "id": "tc11",
+    "name": "Jar of Sand",
+    "display": "Jar of Sand",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2700,
+        "y": 750
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc11.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Jar of Sand"
+  },
+  {
+    "id": "tc06",
+    "name": "FIN-MAN Floppy Disk",
+    "display": "FIN-MAN Floppy Disk",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2670,
+        "y": 1350
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc06.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "FIN-MAN Floppy Disk"
+  },
+  {
+    "id": "tc19",
+    "name": "Sail&Fish Console",
+    "display": "Sail&Fish Console",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1560,
+        "y": 450
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc19.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Sail & Fish Console"
+  },
+  {
+    "id": "tc01",
+    "name": "Four-pack Holder",
+    "display": "Four-pack Holder",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2670,
+        "y": 1320
+      },
+      {
+        "no": 2,
+        "x": 1590,
+        "y": 1320
+      },
+      {
+        "no": 3,
+        "x": 2010.0000000000002,
+        "y": 1020.0000000000001
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc01.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Four-Pack Holder"
+  },
+  {
+    "id": "tc12",
+    "name": "Laboratory Glassware",
+    "display": "Laboratory Glassware",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 510.00000000000006,
+        "y": 1680.0000000000002
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc12.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Laboratory Glassware"
+  },
+  {
+    "id": "tc20",
+    "name": "Tamagotchi",
+    "display": "Tamagotchi",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1170,
+        "y": 2370
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc20.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Tamagotchi"
+  },
+  {
+    "id": "tc02",
+    "name": "Bebop’s Glasses",
+    "display": "Bebop’s Glasses",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1260,
+        "y": 2400
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc02.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Bebop’s Glasses"
+  },
+  {
+    "id": "tc04",
+    "name": "Broken Bottle",
+    "display": "Broken Bottle",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1980,
+        "y": 1050
+      },
+      {
+        "no": 2,
+        "x": 2640,
+        "y": 1380
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc04.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Broken Bottle"
+  },
+  {
+    "id": "tc18",
+    "name": "Research Notes",
+    "display": "Research Notes",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 510.00000000000006,
+        "y": 1680.0000000000002
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc18.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Research Notes"
+  },
+  {
+    "id": "tc15",
+    "name": "Telephone",
+    "display": "Telephone",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1020.0000000000001,
+        "y": 900
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc15.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Telephone"
+  },
+  {
+    "id": "tc05",
+    "name": "Damaged Crate",
+    "display": "Damaged Crate",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1170,
+        "y": 2760
+      },
+      {
+        "no": 2,
+        "x": 1980,
+        "y": 1050
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc05.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Damaged Crate"
+  },
+  {
+    "id": "tc03",
+    "name": "Pager",
+    "display": "Pager",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1500,
+        "y": 1500
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc03.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Pager"
+  },
+  {
+    "id": "tc23",
+    "name": "Old Safe",
+    "display": "Old Safe",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1170,
+        "y": 2370
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc23.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Old Safe"
+  },
+  {
+    "id": "tc17",
+    "name": "Sludge",
+    "display": "Sludge",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1050,
+        "y": 869.9999999999999
+      },
+      {
+        "no": 2,
+        "x": 2160,
+        "y": 1620
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc17.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Sludge"
+  },
+  {
+    "id": "tc09",
+    "name": "Warning Sign",
+    "display": "Warning Sign",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2640,
+        "y": 1350
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc09.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Warning Sign"
+  },
+  {
+    "id": "tc13",
+    "name": "Leaky Canister",
+    "display": "Leaky Canister",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 869.9999999999999,
+        "y": 869.9999999999999
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc13.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Leaky Canister"
+  },
+  {
+    "id": "tc10",
+    "name": "Headphones",
+    "display": "Headphones",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2280,
+        "y": 600
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc10.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Headphones"
+  },
+  {
+    "id": "tc25",
+    "name": "Television",
+    "display": "Television",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 810,
+        "y": 1920
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc25.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Television"
+  },
+  {
+    "id": "tc16",
+    "name": "Old Radiator",
+    "display": "Old Radiator",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 600,
+        "y": 2340
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc16.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Old Radiator"
+  },
+  {
+    "id": "tc08",
+    "name": "Hairspray",
+    "display": "Hairspray",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2250,
+        "y": 600
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc08.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Hairspray"
+  },
+  {
+    "id": "tc24",
+    "name": "Safe Code",
+    "display": "Safe Code",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2220,
+        "y": 2280
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc24.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Safe Code"
+  },
+  {
+    "id": "tc26",
+    "name": "Walkman",
+    "display": "Walkman",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1290,
+        "y": 600
+      },
+      {
+        "no": 2,
+        "x": 840.0000000000001,
+        "y": 1950
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/tc26.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Walkman"
+  }
+]

@@ -1,0 +1,683 @@
+[
+  {
+    "id": "c5-0",
+    "name": "common toad",
+    "display": "일반적인 두꺼비",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 737.5,
+        "y": 273
+      },
+      {
+        "no": 2,
+        "x": 140.5,
+        "y": 622
+      },
+      {
+        "no": 3,
+        "x": 1022.4764055957477,
+        "y": 598.9194436650057
+      },
+      {
+        "no": 4,
+        "x": 374.76659402887014,
+        "y": 306.8843430349616
+      }
+    ],
+    "notes": "",
+    "latin": "Bufo bufo",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c5-0.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Common Toad"
+  },
+  {
+    "id": "c5-1",
+    "name": "otter",
+    "display": "수달",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1002,
+        "y": 662
+      },
+      {
+        "no": 2,
+        "x": 624,
+        "y": 160.5
+      },
+      {
+        "no": 3,
+        "x": 773.574818618083,
+        "y": 1023.1835123769342
+      }
+    ],
+    "notes": "",
+    "latin": "Lutra lutra",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c5-1.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Otter"
+  },
+  {
+    "id": "c5-2",
+    "name": "signal crayfish",
+    "display": "신호 가재",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 419.0106944155189,
+        "y": 834
+      },
+      {
+        "no": 2,
+        "x": 84.5,
+        "y": 381
+      },
+      {
+        "no": 3,
+        "x": 148.9998246817128,
+        "y": 770
+      },
+      {
+        "no": 4,
+        "x": 212.8391411371508,
+        "y": 569.2209588551707
+      }
+    ],
+    "notes": "",
+    "latin": "Pacifastacus leniusculus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c5-2.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Signal Crayfish"
+  },
+  {
+    "id": "c5-3",
+    "name": "palmate newt",
+    "display": "손바닥 모양의 영원",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 272,
+        "y": 147.5
+      },
+      {
+        "no": 2,
+        "x": 116,
+        "y": 381
+      },
+      {
+        "no": 3,
+        "x": 764,
+        "y": 277.5
+      },
+      {
+        "no": 4,
+        "x": 361.33156518632575,
+        "y": 753.7758287448596
+      },
+      {
+        "no": 5,
+        "x": 1010.4555903155764,
+        "y": 228.39549032325485
+      }
+    ],
+    "notes": "",
+    "latin": "Lissotriton helveticus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c5-3.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Palmate Newt"
+  },
+  {
+    "id": "c5-4",
+    "name": "eurasian beaver",
+    "display": "유라시아 비버",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 694,
+        "y": 1029.5
+      },
+      {
+        "no": 2,
+        "x": 994,
+        "y": 451
+      }
+    ],
+    "notes": "",
+    "latin": "Castor fiber",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c5-4.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Eurasian Beaver"
+  },
+  {
+    "id": "c5-5",
+    "name": "freshwater pearl mussels",
+    "display": "담수 진주 홍합",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 459,
+        "y": 870
+      },
+      {
+        "no": 2,
+        "x": 240.0005259548616,
+        "y": 1010
+      }
+    ],
+    "notes": "",
+    "latin": "Margaritifera margaritifera",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c5-5.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Freshwater Pearl Mussels"
+  },
+  {
+    "id": "c5-6",
+    "name": "water vole",
+    "display": "물쥐",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 135,
+        "y": 362.5
+      },
+      {
+        "no": 2,
+        "x": 922,
+        "y": 575
+      }
+    ],
+    "notes": "",
+    "latin": "Arvicola amphibius",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c5-6.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Water Vole"
+  },
+  {
+    "id": "c5-7",
+    "name": "adder",
+    "display": "가산기",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 648,
+        "y": 184
+      },
+      {
+        "no": 2,
+        "x": 534,
+        "y": 140
+      },
+      {
+        "no": 3,
+        "x": 248.19448019647817,
+        "y": 140.71424945612296
+      }
+    ],
+    "notes": "",
+    "latin": "Vipera berus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c5-7.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Adder"
+  },
+  {
+    "id": "c5-8",
+    "name": "common frog",
+    "display": "일반적인 개구리",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 646.5,
+        "y": 758.5
+      },
+      {
+        "no": 2,
+        "x": 717.5,
+        "y": 294.5
+      },
+      {
+        "no": 3,
+        "x": 176.77669529663686,
+        "y": 652.6595590351833
+      }
+    ],
+    "notes": "",
+    "latin": "Rana temporaria",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c5-8.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Common Frog"
+  },
+  {
+    "id": "c5-9",
+    "name": "slow worm",
+    "display": "느린 벌레",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 962.5,
+        "y": 152
+      },
+      {
+        "no": 2,
+        "x": 269.5,
+        "y": 513
+      },
+      {
+        "no": 3,
+        "x": 480.5,
+        "y": 884
+      },
+      {
+        "no": 4,
+        "x": 554.5,
+        "y": 932.5
+      },
+      {
+        "no": 5,
+        "x": 844.2854967367377,
+        "y": 223.445742854949
+      }
+    ],
+    "notes": "",
+    "latin": "Anguis fragilis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c5-9.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Slow Worm"
+  },
+  {
+    "id": "c5-10",
+    "name": "water shrew",
+    "display": "물뒤쥐",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 501.9996493634256,
+        "y": 862
+      },
+      {
+        "no": 2,
+        "x": 117.25,
+        "y": 216.75
+      },
+      {
+        "no": 3,
+        "x": 102.5,
+        "y": 361
+      },
+      {
+        "no": 4,
+        "x": 705.5,
+        "y": 468
+      },
+      {
+        "no": 5,
+        "x": 382.5447686219222,
+        "y": 747.4118677141806
+      },
+      {
+        "no": 6,
+        "x": 991.3637072235396,
+        "y": 567.099638511611
+      }
+    ],
+    "notes": "",
+    "latin": "Neomys fodiens",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c5-10.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Water Shrew"
+  },
+  {
+    "id": "c5-11",
+    "name": "natterjack toad",
+    "display": "내터잭 두꺼비",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 595.9940391782354,
+        "y": 174
+      }
+    ],
+    "notes": "",
+    "latin": "Epidalea calamita",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c5-11.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Natterjack Toad"
+  },
+  {
+    "id": "c5-12",
+    "name": "great crested newt",
+    "display": "위대한 볏 영원",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1011.5,
+        "y": 929
+      },
+      {
+        "no": 2,
+        "x": 180,
+        "y": 622.5
+      },
+      {
+        "no": 3,
+        "x": 310.5,
+        "y": 242
+      },
+      {
+        "no": 4,
+        "x": 102,
+        "y": 399.5
+      },
+      {
+        "no": 5,
+        "x": 745,
+        "y": 297
+      },
+      {
+        "no": 6,
+        "x": 984.9997461928606,
+        "y": 246.78026663410506
+      }
+    ],
+    "notes": "",
+    "latin": "Triturus cristatus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c5-12.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Great Crested Newt"
+  }
+]

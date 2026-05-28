@@ -1,0 +1,368 @@
+[
+  {
+    "id": "cc05",
+    "name": "Snipcerra",
+    "display": "Snipcerra",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2640,
+        "y": 1410
+      }
+    ],
+    "notes": "",
+    "latin": "Forficulocarcinus incisus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cc05.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Snipcerra"
+  },
+  {
+    "id": "cc02",
+    "name": "Nimbusjelly",
+    "display": "Nimbusjelly",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2580,
+        "y": 1440
+      }
+    ],
+    "notes": "",
+    "latin": "Nubimedusa vaporosa",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cc02.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Nimbusjelly"
+  },
+  {
+    "id": "cc04",
+    "name": "Brineling",
+    "display": "Brineling",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2610,
+        "y": 1320
+      }
+    ],
+    "notes": "",
+    "latin": "Acharipiscis crispulus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cc04.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Brineling"
+  },
+  {
+    "id": "cc01",
+    "name": "Clangcrab",
+    "display": "Clangcrab",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1770,
+        "y": 2580
+      }
+    ],
+    "notes": "",
+    "latin": "Campanocarcinus alertus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cc01.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Clangcrab"
+  },
+  {
+    "id": "cc09",
+    "name": "V-Mouse",
+    "display": "V-Mouse",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2250,
+        "y": 2310
+      },
+      {
+        "no": 2,
+        "x": 390,
+        "y": 869.9999999999999
+      }
+    ],
+    "notes": "",
+    "latin": "Vermus musculinus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cc09.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "V-Mouse"
+  },
+  {
+    "id": "cc08",
+    "name": "Styrophyl",
+    "display": "Styrophyl",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2010.0000000000002,
+        "y": 1680.0000000000002
+      },
+      {
+        "no": 2,
+        "x": 2610,
+        "y": 1350
+      }
+    ],
+    "notes": "",
+    "latin": "Polyfragma levitans",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cc08.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Styrophyl"
+  },
+  {
+    "id": "cc03",
+    "name": "Ferrashark",
+    "display": "Ferrashark",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1140,
+        "y": 1170
+      }
+    ],
+    "notes": "",
+    "latin": "Ferricarcharias durus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cc03.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Ferrashark"
+  },
+  {
+    "id": "cc06",
+    "name": "Minethorn",
+    "display": "Minethorn",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1800,
+        "y": 390
+      }
+    ],
+    "notes": "",
+    "latin": "Minaspina titanica",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cc06.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Minethorn"
+  },
+  {
+    "id": "cc07",
+    "name": "Sharokyle",
+    "display": "Sharokyle",
+    "category": "creature",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1080,
+        "y": 2130
+      }
+    ],
+    "notes": "",
+    "latin": "Crococarcharias hybridus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/cc07.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Sharokyle"
+  }
+]

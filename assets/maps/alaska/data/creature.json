@@ -1,0 +1,712 @@
+[
+  {
+    "id": "c3-1",
+    "name": "spot prawn",
+    "display": "알래스카 새우",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1811.6075733999346,
+        "y": 614.2990161558131
+      },
+      {
+        "no": 2,
+        "x": 1088.9444430272831,
+        "y": 1431.8912319027586
+      },
+      {
+        "no": 3,
+        "x": 541.0026297743079,
+        "y": 1801
+      },
+      {
+        "no": 4,
+        "x": 295.01577864584755,
+        "y": 1738
+      },
+      {
+        "no": 5,
+        "x": 1826.034827835525,
+        "y": 1364
+      },
+      {
+        "no": 6,
+        "x": 1822.002389837663,
+        "y": 160.99852723390768
+      }
+    ],
+    "notes": "",
+    "latin": "Pandalus platyceros",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-1.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Spot Prawn"
+  },
+  {
+    "id": "c3-2",
+    "name": "california sea cucumber",
+    "display": "자이언트 캘리포니아 해삼",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 800.4448763031719,
+        "y": 243.24473272817238
+      },
+      {
+        "no": 2,
+        "x": 1841.2624212098606,
+        "y": 893.782971419796
+      },
+      {
+        "no": 3,
+        "x": 253.14422766478398,
+        "y": 478.0041840821061
+      }
+    ],
+    "notes": "",
+    "latin": "Apostichopus californicus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-2.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "California Sea Cucumber"
+  },
+  {
+    "id": "c3-3",
+    "name": "moon jelly",
+    "display": "보름달물해파리",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1705.1880028313592,
+        "y": 1086.116015902537
+      },
+      {
+        "no": 2,
+        "x": 1778.009116550934,
+        "y": 736
+      },
+      {
+        "no": 3,
+        "x": 1040.5076285160048,
+        "y": 1444.0888238782268
+      },
+      {
+        "no": 4,
+        "x": 308.2985565973347,
+        "y": 1793.2227970890845
+      },
+      {
+        "no": 5,
+        "x": 1032.3763964073582,
+        "y": 1818.6786412118001
+      },
+      {
+        "no": 6,
+        "x": 1759,
+        "y": 1478
+      },
+      {
+        "no": 7,
+        "x": 246.42671324351178,
+        "y": 510.5310960166873
+      }
+    ],
+    "notes": "",
+    "latin": "Aurelia labiata",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-3.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Moon Jelly"
+  },
+  {
+    "id": "c3-4",
+    "name": "humboldt squid",
+    "display": "아메리카대왕 오징어",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1803,
+        "y": 1397
+      },
+      {
+        "no": 2,
+        "x": 273.9970195891177,
+        "y": 471
+      }
+    ],
+    "notes": "",
+    "latin": "Dosidicus gigas",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-4.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Humboldt Squid"
+  },
+  {
+    "id": "c3-5",
+    "name": "rose star",
+    "display": "커먼 썬스타",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1735.5935944223809,
+        "y": 1884.7931252527424
+      },
+      {
+        "no": 2,
+        "x": 1848,
+        "y": 1429
+      },
+      {
+        "no": 3,
+        "x": 278.22090104186555,
+        "y": 152
+      },
+      {
+        "no": 4,
+        "x": 1816.9984067748912,
+        "y": 191.00147276609232
+      },
+      {
+        "no": 5,
+        "x": 267.9934700697015,
+        "y": 499.92449429888904
+      },
+      {
+        "no": 6,
+        "x": 732.5626253092634,
+        "y": 1409.9709216859758
+      }
+    ],
+    "notes": "",
+    "latin": "Crossaster papposus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-5.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Rose Star"
+  },
+  {
+    "id": "c3-6",
+    "name": "razor clam",
+    "display": "면도칼 조개",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 303.00490891204146,
+        "y": 403
+      },
+      {
+        "no": 2,
+        "x": 328.09754647055803,
+        "y": 851.3565645486032
+      }
+    ],
+    "notes": "",
+    "latin": "Siliqua patula",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-6.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Razor Clam"
+  },
+  {
+    "id": "c3-7",
+    "name": "walrus",
+    "display": "바다코끼리",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1575.433908483628,
+        "y": 1640.4877323527903
+      },
+      {
+        "no": 2,
+        "x": 1788.9801564019654,
+        "y": 1644.7303730399096
+      },
+      {
+        "no": 3,
+        "x": 1704.1273426595797,
+        "y": 1838.4776310850236
+      }
+    ],
+    "notes": "",
+    "latin": "Odobenus rosmarus",
+    "difficulty": 2,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-7.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Walrus"
+  },
+  {
+    "id": "c3-8",
+    "name": "red king crab",
+    "display": "왕게",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 290.00771400463657,
+        "y": 150
+      },
+      {
+        "no": 2,
+        "x": 215.00350636574387,
+        "y": 1645
+      },
+      {
+        "no": 3,
+        "x": 1747.9631831596892,
+        "y": 1838
+      },
+      {
+        "no": 4,
+        "x": 882.4692629208114,
+        "y": 217.78888860545666
+      },
+      {
+        "no": 5,
+        "x": 322.0871388304724,
+        "y": 481.8932713786321
+      },
+      {
+        "no": 6,
+        "x": 695.7930726875628,
+        "y": 1093.1870837144027
+      }
+    ],
+    "notes": "",
+    "latin": "Paralithodes camtschaticus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-8.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Red King Crab"
+  },
+  {
+    "id": "c3-9",
+    "name": "polar bear",
+    "display": "횐곰",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 162.9545565546639,
+        "y": 1615.0739677634606
+      },
+      {
+        "no": 2,
+        "x": 866.9129137347072,
+        "y": 1845.548698896889
+      }
+    ],
+    "notes": "",
+    "latin": "Ursus maritimus",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-9.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Polar Bear"
+  },
+  {
+    "id": "c3-10",
+    "name": "beluga",
+    "display": "벨루가",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1494.0375181134598,
+        "y": 1718
+      },
+      {
+        "no": 2,
+        "x": 1788.0043534794404,
+        "y": 1452
+      }
+    ],
+    "notes": "",
+    "latin": "Delphinapterus leucas",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-10.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "c3-11",
+    "name": "narwal",
+    "display": "나왈",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 491.52,
+        "y": 1720.32
+      },
+      {
+        "no": 2,
+        "x": 1433.6,
+        "y": 1781.76
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 2,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-11.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "c3-12",
+    "name": "adélie penguin",
+    "display": "아델리펭귄",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1124.2980465241142,
+        "y": 1845.548698896889
+      }
+    ],
+    "notes": "",
+    "latin": "Pygoscelis adeliae",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-12.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Adélie Penguin"
+  },
+  {
+    "id": "c3-13",
+    "name": "harbor seal",
+    "display": "항구 인감",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1668.7720036002522,
+        "y": 1846.9629124592623
+      },
+      {
+        "no": 2,
+        "x": 852.7707781109764,
+        "y": 220.61731573020285
+      }
+    ],
+    "notes": "",
+    "latin": "Phoca vitulina",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-13.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Harbor Seal"
+  },
+  {
+    "id": "c3-14",
+    "name": "killer whale",
+    "display": "범고래",
+    "category": "creature",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1752,
+        "y": 1427
+      },
+      {
+        "no": 2,
+        "x": 1708.3699833466987,
+        "y": 1705.5415562219525
+      }
+    ],
+    "notes": "",
+    "latin": "Rhincodon typus",
+    "difficulty": 2,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c3-14.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Killer Whale"
+  }
+]

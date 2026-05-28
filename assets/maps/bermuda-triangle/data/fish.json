@@ -1,0 +1,1025 @@
+[
+  {
+    "id": "D-5",
+    "name": "Diplacanthus",
+    "display": "디플라칸투스",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2010.0000000000002,
+        "y": 1380
+      }
+    ],
+    "notes": "",
+    "latin": "Diplacanthus crassisimus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-5.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-6",
+    "name": "Eusthenopteron",
+    "display": "유스테노프테론",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1020.0000000000001,
+        "y": 2490
+      }
+    ],
+    "notes": "",
+    "latin": "Eusthenopteron foordi",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-6.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-7",
+    "name": "Fanjingshania",
+    "display": "판징샤니아",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 990,
+        "y": 960
+      }
+    ],
+    "notes": "",
+    "latin": "Fanjingshania renovata",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-7.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-8",
+    "name": "Gogonasus",
+    "display": "고고나소스",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1230,
+        "y": 570
+      }
+    ],
+    "notes": "",
+    "latin": "Gogonasus andersoni",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-8.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-9",
+    "name": "Gooloogongia",
+    "display": "굴루공기아",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1230,
+        "y": 1860
+      }
+    ],
+    "notes": "",
+    "latin": "Gooloogongia loomesi",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-9.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      2
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-11",
+    "name": "Gyracanthides",
+    "display": "자이라칸타이드",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1920,
+        "y": 2190
+      }
+    ],
+    "notes": "",
+    "latin": "Gyracanthides murrayi",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-11.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-12",
+    "name": "Haikouichthys",
+    "display": "하이쿠이크티스",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2190,
+        "y": 1950
+      }
+    ],
+    "notes": "",
+    "latin": "Haikouichthys ercaicunensis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-12.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-13",
+    "name": "Hyneria",
+    "display": "히네리아",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 990,
+        "y": 2220
+      }
+    ],
+    "notes": "",
+    "latin": "Hyneria lindae",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-13.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-14",
+    "name": "Ischnacanthus",
+    "display": "이쉬나칸투스",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1709.9999999999998,
+        "y": 2670
+      }
+    ],
+    "notes": "",
+    "latin": "Ischnacanthus gracilis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-14.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-15",
+    "name": "Latimeria",
+    "display": "라티메리아",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 690,
+        "y": 1560
+      }
+    ],
+    "notes": "",
+    "latin": "Latimeria chalumnae",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-15.png",
+    "shadowSizes": [
+      1,
+      2
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-17",
+    "name": "Macropoma",
+    "display": "대식세포종",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 990,
+        "y": 570
+      }
+    ],
+    "notes": "",
+    "latin": "Macropoma lewesiensis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-17.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      2
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-18",
+    "name": "Mawsonia",
+    "display": "모소니아",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 660,
+        "y": 1830
+      }
+    ],
+    "notes": "",
+    "latin": "Mawsonia gigas",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-18.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-20",
+    "name": "Parexus",
+    "display": "파렉서스",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2220,
+        "y": 960
+      }
+    ],
+    "notes": "",
+    "latin": "Parexus recurvus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-20.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-21",
+    "name": "Protosphyraena",
+    "display": "프로토스피라에나",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2580,
+        "y": 2310
+      }
+    ],
+    "notes": "",
+    "latin": "Protosphyraena ferox",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-21.png",
+    "shadowSizes": [
+      2
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-23",
+    "name": "Stethacanthus",
+    "display": "스테타칸투스",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 510.00000000000006,
+        "y": 2460
+      }
+    ],
+    "notes": "",
+    "latin": "Stethacanthus altonensis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-23.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-24",
+    "name": "Sword ray",
+    "display": "소드 레이",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 420.00000000000006,
+        "y": 1440
+      }
+    ],
+    "notes": "",
+    "latin": "Ensisorays gladius",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-24.png",
+    "shadowSizes": [
+      2
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-25",
+    "name": "Tiktaalik",
+    "display": "틱타알릭",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2640,
+        "y": 1500
+      }
+    ],
+    "notes": "",
+    "latin": "Tiktaalik roseae",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-25.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-26",
+    "name": "Xenacanthus",
+    "display": "제나칸투스",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2550,
+        "y": 450
+      }
+    ],
+    "notes": "",
+    "latin": "Xenacanthus decheni",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-26.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-10",
+    "name": "Great white shark",
+    "display": "백상아리",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1500,
+        "y": 2100
+      }
+    ],
+    "notes": "",
+    "latin": "Carcharodon carcharias",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-10.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-16",
+    "name": "Leedsichthys",
+    "display": "리드식티스",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2070,
+        "y": 2580
+      }
+    ],
+    "notes": "",
+    "latin": "Leedsichthys problematicus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-16.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-22",
+    "name": "Splendid killifish",
+    "display": "화려한 송사리",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1800,
+        "y": 540
+      }
+    ],
+    "notes": "",
+    "latin": "Aphyosemion splendopleure",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-22.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-27",
+    "name": "Dunkleosteus",
+    "display": "던클레오스테우스",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1590,
+        "y": 930
+      }
+    ],
+    "notes": "",
+    "latin": "Dunkleosteus terrelli",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-27.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-19",
+    "name": "Onchopristis",
+    "display": "온초프리스티스",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2220,
+        "y": 960
+      }
+    ],
+    "notes": "",
+    "latin": "Onchopristis numidus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-19.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-28",
+    "name": "Helicoprion",
+    "display": "헬리코프리온",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 570,
+        "y": 810
+      }
+    ],
+    "notes": "",
+    "latin": "Helicoprion bessonowi",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-28.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "D-29",
+    "name": "Megalodon",
+    "display": "메갈로돈",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2220,
+        "y": 1950
+      }
+    ],
+    "notes": "",
+    "latin": "Otodus megalodon",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/D-29.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  }
+]

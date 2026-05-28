@@ -1,0 +1,882 @@
+[
+  {
+    "id": "T4-1",
+    "name": "blue cassette",
+    "display": "파란색 카세트",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1756.9981412373731,
+        "y": 223.00343645421526
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-1.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Blue Cassette"
+  },
+  {
+    "id": "T4-2",
+    "name": "broken fish finder",
+    "display": "고장난 어군탐지기",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 240.41630560342614,
+        "y": 1725.3405460951758
+      },
+      {
+        "no": 2,
+        "x": 1827,
+        "y": 1869
+      },
+      {
+        "no": 3,
+        "x": 755.1900423072328,
+        "y": 502.04581464244876
+      },
+      {
+        "no": 4,
+        "x": 233.9964936342561,
+        "y": 471
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-2.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Broken Fish Finder"
+  },
+  {
+    "id": "T4-3",
+    "name": "chip bag",
+    "display": "감자칩 봉지",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1029.5452419701178,
+        "y": 1861.1050480829929
+      },
+      {
+        "no": 2,
+        "x": 968.796248577701,
+        "y": 1158.0003132907568
+      },
+      {
+        "no": 3,
+        "x": 1787,
+        "y": 195.00196368812294
+      }
+    ],
+    "notes": "standards bait",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-3.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Chip Bag"
+  },
+  {
+    "id": "T4-4",
+    "name": "compass",
+    "display": "나침반",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 755.1977382443183,
+        "y": 578.4133470105959
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-4.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Compass"
+  },
+  {
+    "id": "T4-5",
+    "name": "fishing line",
+    "display": "낚싯줄",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 789.1306547417147,
+        "y": 521.8448045156721
+      },
+      {
+        "no": 2,
+        "x": 317.49094475275984,
+        "y": 876.1053018901323
+      },
+      {
+        "no": 3,
+        "x": 801.859089865545,
+        "y": 212.13203435596427
+      },
+      {
+        "no": 4,
+        "x": 324.99737022569207,
+        "y": 1762
+      },
+      {
+        "no": 5,
+        "x": 1679.377759202469,
+        "y": 1708.3674449999546
+      }
+    ],
+    "notes": "repair kit",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-5.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Fishing Line"
+  },
+  {
+    "id": "T4-7",
+    "name": "frozen acorn",
+    "display": "얼은 도토리",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1726.5,
+        "y": 272
+      },
+      {
+        "no": 2,
+        "x": 1754.0007966125543,
+        "y": 190.9975453898462
+      },
+      {
+        "no": 3,
+        "x": 298,
+        "y": 475.125
+      }
+    ],
+    "notes": "standards bait",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-7.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Frozen Acorn"
+  },
+  {
+    "id": "T4-8",
+    "name": "frozen chest",
+    "display": "얼어붙은 상자",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1892.5712998457946,
+        "y": 1156.4731406305987
+      },
+      {
+        "no": 2,
+        "x": 349.31074990615446,
+        "y": 874.6910883277592
+      },
+      {
+        "no": 3,
+        "x": 804.687516990291,
+        "y": 865.4987001723341
+      },
+      {
+        "no": 4,
+        "x": 845,
+        "y": 1865
+      }
+    ],
+    "notes": "Collect 4 different chests",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-8.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Frozen Chest"
+  },
+  {
+    "id": "T4-9",
+    "name": "frozen key",
+    "display": "얼어붙은 열쇠",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1827.4514402765458,
+        "y": 1835.5414369437458
+      },
+      {
+        "no": 2,
+        "x": 1133.1034636018594,
+        "y": 1813.9100513949616
+      },
+      {
+        "no": 3,
+        "x": 1299.1475428298659,
+        "y": 1504.3607096425587
+      },
+      {
+        "no": 4,
+        "x": 1250.9978756998553,
+        "y": 237.99165432547738
+      },
+      {
+        "no": 5,
+        "x": 1747.9970790873008,
+        "y": 162.99852723390768
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-9.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Frozen Key"
+  },
+  {
+    "id": "T4-10",
+    "name": "fuel barrel",
+    "display": "기름 배럴",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 180.02176739720312,
+        "y": 1272
+      }
+    ],
+    "notes": "fuel booster",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-10.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Fuel Barrel"
+  },
+  {
+    "id": "T4-11",
+    "name": "gold nugget",
+    "display": "금 덩어리",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1625.25,
+        "y": 398.25
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-11.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Gold Nugget"
+  },
+  {
+    "id": "T4-12",
+    "name": "gold pan",
+    "display": "금 냄비",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1605.75,
+        "y": 459.25
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-12.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Gold Pan"
+  },
+  {
+    "id": "T4-13",
+    "name": "ham can",
+    "display": "햄 통조림",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 998.0021767397202,
+        "y": 1142
+      }
+    ],
+    "notes": "force elixir",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-13.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Ham Can"
+  },
+  {
+    "id": "T4-14",
+    "name": "harpoon",
+    "display": "작살",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1354.0133241898268,
+        "y": 1464
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-14.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Harpoon"
+  },
+  {
+    "id": "T4-15",
+    "name": "innertube",
+    "display": "내장 튜브",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 272.94420928800525,
+        "y": 155.56349186104043
+      },
+      {
+        "no": 2,
+        "x": 783.4743135546946,
+        "y": 824.4865068635144
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-15.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Inner Tube"
+  },
+  {
+    "id": "T4-16",
+    "name": "life jacket",
+    "display": "구명조끼",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1016,
+        "y": 1433.5
+      },
+      {
+        "no": 2,
+        "x": 265.87214972614186,
+        "y": 1756.453244467384
+      },
+      {
+        "no": 3,
+        "x": 1227.535140702351,
+        "y": 1624.9313831666861
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-16.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Life Jacket"
+  },
+  {
+    "id": "T4-17",
+    "name": "meteorite",
+    "display": "운석",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 220.00262977430793,
+        "y": 352
+      }
+    ],
+    "notes": "trash net",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-17.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Meteorite"
+  },
+  {
+    "id": "T4-18",
+    "name": "moose antler",
+    "display": "큰사슴 뿔",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1055.7104243115155,
+        "y": 1406.435387780043
+      },
+      {
+        "no": 2,
+        "x": 1715.9973446248189,
+        "y": 195.00098184406147
+      },
+      {
+        "no": 3,
+        "x": 1276.0189343750171,
+        "y": 252
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-18.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Moose Antler"
+  },
+  {
+    "id": "T4-19",
+    "name": "ski",
+    "display": "스키",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1006.2129496284572,
+        "y": 1418.4562030602144
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-19.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Ski"
+  },
+  {
+    "id": "T4-20",
+    "name": "snow shovel",
+    "display": "눈삽",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 386.08030252785494,
+        "y": 886.7119036079305
+      },
+      {
+        "no": 2,
+        "x": 903.6824663564079,
+        "y": 239.0020920410531
+      },
+      {
+        "no": 3,
+        "x": 821.6580797387682,
+        "y": 831.5575746753798
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-20.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Snow Shovel"
+  },
+  {
+    "id": "T4-21",
+    "name": "snowman hat",
+    "display": "눈사람 모자",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1879.4898243938435,
+        "y": 1422.6988437473337
+      },
+      {
+        "no": 2,
+        "x": 272.992811950225,
+        "y": 396
+      },
+      {
+        "no": 3,
+        "x": 857,
+        "y": 181.5
+      },
+      {
+        "no": 4,
+        "x": 1685.7425663487295,
+        "y": 1549.9780643609124
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-21.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Snowman Hat"
+  },
+  {
+    "id": "T4-22",
+    "name": "snowshoe",
+    "display": "설피",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1470.5,
+        "y": 1196.75
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-22.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Snowshoe"
+  },
+  {
+    "id": "T4-23",
+    "name": "terix floppy disk",
+    "display": "테릭스 플로피 디스크",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 715,
+        "y": 1350
+      },
+      {
+        "no": 2,
+        "x": 1037,
+        "y": 1796
+      },
+      {
+        "no": 3,
+        "x": 200,
+        "y": 417
+      },
+      {
+        "no": 4,
+        "x": 816,
+        "y": 190
+      },
+      {
+        "no": 5,
+        "x": 816,
+        "y": 673
+      },
+      {
+        "no": 6,
+        "x": 1018,
+        "y": 1724
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-23.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "T4-24",
+    "name": "video cassette",
+    "display": "비디오 카세트",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1074.8075140910414,
+        "y": 1825.7497090236657
+      },
+      {
+        "no": 2,
+        "x": 237.23432508808668,
+        "y": 427.79960261786124
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-24.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Video Cassette"
+  },
+  {
+    "id": "T4-25",
+    "name": "viking helmet",
+    "display": "바이킹 헬멧",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 879.6408357960651,
+        "y": 1873.8329701443508
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-25.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Viking Helmet"
+  },
+  {
+    "id": "T4-26",
+    "name": "vinyl record",
+    "display": "비닐 레코드",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1081.1662684342311,
+        "y": 1872.4187565819777
+      },
+      {
+        "no": 2,
+        "x": 1784.7446985894592,
+        "y": 1846.9629124592623
+      },
+      {
+        "no": 3,
+        "x": 1612.2034611053284,
+        "y": 1675.8430714121178
+      },
+      {
+        "no": 4,
+        "x": 776.4006804304673,
+        "y": 626.4966081312812
+      },
+      {
+        "no": 5,
+        "x": 1801.0010621500724,
+        "y": 222.0029455321844
+      },
+      {
+        "no": 6,
+        "x": 1782.0071695129889,
+        "y": 298.0024546101537
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-26.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Vinyl Record"
+  },
+  {
+    "id": "T4-27",
+    "name": "walrus tusk",
+    "display": "바다코끼리 엄니",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 765.0895372438445,
+        "y": 863.7309332193679
+      },
+      {
+        "no": 2,
+        "x": 1644.7303730399096,
+        "y": 1697.0562748477141
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-27.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Walrus Tusk"
+  },
+  {
+    "id": "T4-6",
+    "name": "fridge magnet",
+    "display": "냉장고 자석",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 905.2726056226384,
+        "y": 1844.0375869465656
+      },
+      {
+        "no": 2,
+        "x": 205.06134207085816,
+        "y": 1327.9333439650513
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T4-6.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Fridge Magnet"
+  }
+]

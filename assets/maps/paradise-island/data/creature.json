@@ -1,0 +1,237 @@
+[
+  {
+    "id": "c0-1",
+    "name": "peacock mantis shrimp",
+    "display": "광대사마귀 새우",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 194,
+        "y": 929.9998296966471
+      },
+      {
+        "no": 2,
+        "x": 789.136298428911,
+        "y": 333.75440072005046
+      },
+      {
+        "no": 3,
+        "x": 176,
+        "y": 356
+      }
+    ],
+    "notes": "",
+    "latin": "Odontodactylus scyllarus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c0-1.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Peacock Mantis Shrimp"
+  },
+  {
+    "id": "c0-2",
+    "name": "flower tube sea anemona",
+    "display": "꽃관 말미잘",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 821,
+        "y": 405
+      },
+      {
+        "no": 2,
+        "x": 619,
+        "y": 455
+      },
+      {
+        "no": 3,
+        "x": 601,
+        "y": 247
+      },
+      {
+        "no": 4,
+        "x": 748,
+        "y": 401
+      }
+    ],
+    "notes": "",
+    "latin": "Cerianthus filiformis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c0-2.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "c0-3",
+    "name": "red starfish",
+    "display": "빨간 불가사리",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 497,
+        "y": 613
+      },
+      {
+        "no": 2,
+        "x": 606.6976182580578,
+        "y": 502.04581464244876
+      }
+    ],
+    "notes": "",
+    "latin": "Fromia indica",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c0-3.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Red Starfish"
+  },
+  {
+    "id": "c0-4",
+    "name": "sand striker",
+    "display": "왕털갯지렁이",
+    "category": "creature",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 106.05610185190244,
+        "y": 404
+      },
+      {
+        "no": 2,
+        "x": 984.2926394116743,
+        "y": 667.5088014401009
+      }
+    ],
+    "notes": "",
+    "latin": "Eunice aphroditois",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c0-4.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Sand Striker"
+  },
+  {
+    "id": "c0-5",
+    "name": "mimic octopus",
+    "display": "흉내문어",
+    "category": "creature",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 914.9961748553926,
+        "y": 1002.6774157225245
+      }
+    ],
+    "notes": "",
+    "latin": "Thaumoctopus mimicus",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/creature/c0-5.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [],
+    "mapCategory": "Mimic Octopus"
+  }
+]

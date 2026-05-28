@@ -1,0 +1,992 @@
+[
+  {
+    "id": "T6-35",
+    "name": "thistle",
+    "display": "엉겅퀴 훈장",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 320.5,
+        "y": 574.5
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-35.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Thistle"
+  },
+  {
+    "id": "T6-1",
+    "name": "armor",
+    "display": "갑옷",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 692.5,
+        "y": 436.5
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-1.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Armor"
+  },
+  {
+    "id": "T6-2",
+    "name": "bag pipes",
+    "display": "백 파이프",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1023,
+        "y": 631
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-2.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Bag Pipes"
+  },
+  {
+    "id": "T6-3",
+    "name": "black pudding",
+    "display": "블랙 푸딩",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 752,
+        "y": 251
+      },
+      {
+        "no": 2,
+        "x": 304.99867231240944,
+        "y": 755.9945998576618
+      }
+    ],
+    "notes": "eco-thruster mix",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-3.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Black Pudding"
+  },
+  {
+    "id": "T6-4",
+    "name": "caber",
+    "display": "카버",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1043.6898569688435,
+        "y": 909.3393206059001
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-4.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Caber"
+  },
+  {
+    "id": "T6-5",
+    "name": "cauldron",
+    "display": "가마솥",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 333.04729393886385,
+        "y": 749.5331880577403
+      },
+      {
+        "no": 2,
+        "x": 741.5,
+        "y": 226
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-5.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Cauldron"
+  },
+  {
+    "id": "T6-6",
+    "name": "chess piece",
+    "display": "체스 조각",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 984,
+        "y": 215.5
+      }
+    ],
+    "notes": "chess game",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-6.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Chess Piece"
+  },
+  {
+    "id": "T6-7",
+    "name": "chip bag",
+    "display": "칩백",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 376.99893784992753,
+        "y": 772.9965635457847
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-7.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Chip Bag"
+  },
+  {
+    "id": "T6-8",
+    "name": "floppy disk 5.25 blue",
+    "display": "플로피 디스크 5.25 블루",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 346.48232278140824,
+        "y": 776.4032457428291
+      },
+      {
+        "no": 2,
+        "x": 596.5,
+        "y": 949
+      },
+      {
+        "no": 3,
+        "x": 720,
+        "y": 441.5
+      },
+      {
+        "no": 4,
+        "x": 439.8204178980326,
+        "y": 417.19300090006305
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-8.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Floppy Disk 5.25 Blue"
+  },
+  {
+    "id": "T6-9",
+    "name": "golf ball",
+    "display": "골프 공",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 866.2058069535207,
+        "y": 246.78026663410506
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-9.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Golf Ball"
+  },
+  {
+    "id": "T6-10",
+    "name": "golf club",
+    "display": "골프 클럽",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 651.9524522539967,
+        "y": 301.9345955666558
+      }
+    ],
+    "notes": "pirat rod",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-10.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Golf Club"
+  },
+  {
+    "id": "T6-11",
+    "name": "golf clubs bag",
+    "display": "골프 클럽 가방",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 689,
+        "y": 304
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-11.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Golf Clubs Bag"
+  },
+  {
+    "id": "T6-12",
+    "name": "haggis",
+    "display": "하기스",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 765,
+        "y": 206.5
+      }
+    ],
+    "notes": "force elixir",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-12.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Haggis"
+  },
+  {
+    "id": "T6-13",
+    "name": "kilt",
+    "display": "킬트",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 163,
+        "y": 603.5
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-13.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Kilt"
+  },
+  {
+    "id": "T6-14",
+    "name": "medieval chest",
+    "display": "중세의 가슴",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 490,
+        "y": 470
+      },
+      {
+        "no": 2,
+        "x": 722,
+        "y": 377
+      }
+    ],
+    "notes": "Collect 4 different chests",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-14.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Medieval Chest"
+  },
+  {
+    "id": "T6-15",
+    "name": "medieval key",
+    "display": "중세의 열쇠",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 442.64884502277874,
+        "y": 463.8523286980599
+      },
+      {
+        "no": 2,
+        "x": 398.10111780802623,
+        "y": 761.5540033379116
+      },
+      {
+        "no": 3,
+        "x": 1001.6178821310227,
+        "y": 173.94601179896034
+      },
+      {
+        "no": 4,
+        "x": 236.11144733401326,
+        "y": 256.40058790371546
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-15.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Medieval Key"
+  },
+  {
+    "id": "T6-16",
+    "name": "medieval mug",
+    "display": "중세 머그잔",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 697.5,
+        "y": 405.5
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-16.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Medieval Mug"
+  },
+  {
+    "id": "T6-17",
+    "name": "mistletoe",
+    "display": "겨우살이",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 720.0511929398608,
+        "y": 882
+      },
+      {
+        "no": 2,
+        "x": 964,
+        "y": 680
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-17.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Mistletoe"
+  },
+  {
+    "id": "T6-18",
+    "name": "old boot",
+    "display": "오래된 부츠",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 771,
+        "y": 234.5
+      },
+      {
+        "no": 2,
+        "x": 978,
+        "y": 181.5
+      },
+      {
+        "no": 3,
+        "x": 133.5,
+        "y": 402.5
+      },
+      {
+        "no": 4,
+        "x": 334.49960169372287,
+        "y": 796.4985272339078
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-18.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Old Boot"
+  },
+  {
+    "id": "T6-19",
+    "name": "robby burns poetry",
+    "display": "로비는 시를 불태운다",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 678,
+        "y": 776
+      },
+      {
+        "no": 2,
+        "x": 760.0005259548616,
+        "y": 942
+      },
+      {
+        "no": 3,
+        "x": 364.0002655375181,
+        "y": 792.9958271627387
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-19.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Robby Burns Poetry"
+  },
+  {
+    "id": "T6-20",
+    "name": "scottish hat",
+    "display": "스코틀랜드 모자",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 578.4133470105959,
+        "y": 129.4005409571382
+      },
+      {
+        "no": 2,
+        "x": 786,
+        "y": 930
+      },
+      {
+        "no": 3,
+        "x": 315.0585877612989,
+        "y": 735.4971859671057
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-20.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Scottish Hat"
+  },
+  {
+    "id": "T6-21",
+    "name": "sporran",
+    "display": "가죽 주머니",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 133.25,
+        "y": 199.25
+      },
+      {
+        "no": 2,
+        "x": 991.715195216956,
+        "y": 153.08618818680873
+      },
+      {
+        "no": 3,
+        "x": 398.8082245892128,
+        "y": 730.4413049657036
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-21.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Sporran"
+  },
+  {
+    "id": "T6-22",
+    "name": "stone block",
+    "display": "돌 블록",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 722.6631303726515,
+        "y": 772.1606050557099
+      },
+      {
+        "no": 2,
+        "x": 725.5,
+        "y": 408.5
+      },
+      {
+        "no": 3,
+        "x": 813,
+        "y": 597
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-22.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Stone Block"
+  },
+  {
+    "id": "T6-23",
+    "name": "tea pot",
+    "display": "차 남비",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 275.064537881567,
+        "y": 855.5992052357225
+      },
+      {
+        "no": 2,
+        "x": 323.85490578343877,
+        "y": 710.6423150924802
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-23.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Tea Pot"
+  },
+  {
+    "id": "T6-24",
+    "name": "unicorn horn",
+    "display": "유니콘 경적",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 315.72317779979346,
+        "y": 778.1710126957955
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-24.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Unicorn Horn"
+  },
+  {
+    "id": "T6-25",
+    "name": "vinyl record",
+    "display": "비닐 레코드",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 954.6811813410083,
+        "y": 179.4898770733506
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-25.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Vinyl Record"
+  },
+  {
+    "id": "T6-26",
+    "name": "whisky scotch bottle",
+    "display": "위스키 스카치 병",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 154.25,
+        "y": 183.75
+      },
+      {
+        "no": 2,
+        "x": 794.5,
+        "y": 213
+      }
+    ],
+    "notes": "fuel booster",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-26.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Whisky Scotch Bottle"
+  },
+  {
+    "id": "T6-27",
+    "name": "wooden barel",
+    "display": "나무통",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 117,
+        "y": 178
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-27.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "T6-28",
+    "name": "toursit camera",
+    "display": "관광 카메라",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 178,
+        "y": 511
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-28.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "T6-29",
+    "name": "weird stone",
+    "display": "이상한 돌",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 484,
+        "y": 419
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-29.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Weird Stone"
+  },
+  {
+    "id": "T6-30",
+    "name": "nessie toy",
+    "display": "네시 장난감",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 146.5,
+        "y": 515
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-30.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Nessie Toy"
+  },
+  {
+    "id": "T6-31",
+    "name": "old mini yellow submarine",
+    "display": "오래된 미니 노란 잠수함",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 379.00923471598946,
+        "y": 715.5920625607861
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-31.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Old mini yellow submarine"
+  },
+  {
+    "id": "T6-32",
+    "name": "golden apple",
+    "display": "황금 사과",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 249.98246817128052,
+        "y": 222
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-32.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Golden Apple"
+  },
+  {
+    "id": "T6-33",
+    "name": "excalibur",
+    "display": "엑스칼리버",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1007.5,
+        "y": 193
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-33.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Excalibur"
+  },
+  {
+    "id": "T6-34",
+    "name": "fridge magnet",
+    "display": "냉장고 자석",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 767.2628308958045,
+        "y": 574.4019411129029
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T6-34.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Fridge Magnet"
+  }
+]

@@ -1,0 +1,1077 @@
+[
+  {
+    "id": "b01",
+    "name": "AppleGill",
+    "display": "사과길",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 390,
+        "y": 2430
+      }
+    ],
+    "notes": "",
+    "latin": "Pomifex pisciculus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b01.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Applegill",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 362.0386719675123,
+        "y": 2319.239192925038
+      }
+    ]
+  },
+  {
+    "id": "b02",
+    "name": "Bat-eel",
+    "display": "박쥐장어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 869.9999999999999,
+        "y": 2160
+      }
+    ],
+    "notes": "",
+    "latin": "Chiropteroanguilla nocturna",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b02.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": "Bat-eel",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 916.4103884177655,
+        "y": 2047.7046495072432
+      }
+    ]
+  },
+  {
+    "id": "b03",
+    "name": "Bottlefin",
+    "display": "병지느러미",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1800,
+        "y": 1410
+      }
+    ],
+    "notes": "",
+    "latin": "Amphorichthys vitreius",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b03.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": "Bottlefin",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1832.820776835531,
+        "y": 1301.0280674756732
+      }
+    ]
+  },
+  {
+    "id": "b04",
+    "name": "Bread’n’Butterjaw",
+    "display": "브레드앤버터조",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2670,
+        "y": 1380
+      }
+    ],
+    "notes": "",
+    "latin": "Panisbutyra piscis domesticus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b04.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Bread'n'Butterjaw",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 2716,
+        "y": 1371.965854177754
+      }
+    ]
+  },
+  {
+    "id": "b05",
+    "name": "Bulpgill",
+    "display": "불아가미",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2250,
+        "y": 2310
+      }
+    ],
+    "notes": "",
+    "latin": "Bulbus aquatilis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b05.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Bulpgill",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 2300,
+        "y": 2271.9802448110695
+      }
+    ]
+  },
+  {
+    "id": "b06",
+    "name": "Carrotfin",
+    "display": "당근지느러미",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1440,
+        "y": 1320
+      }
+    ],
+    "notes": "",
+    "latin": "Daucicarpa piscinus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b06.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": "Carrotfin",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1452,
+        "y": 1163.9666205428418
+      }
+    ]
+  },
+  {
+    "id": "b07",
+    "name": "Double Troutot",
+    "display": "더블송어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1260,
+        "y": 780
+      }
+    ],
+    "notes": "",
+    "latin": "Duplicatrotus absurdus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b07.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Double Troutot",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1220,
+        "y": 687.9564874933476
+      }
+    ]
+  },
+  {
+    "id": "b09",
+    "name": "Forknose",
+    "display": "포크노즈",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1830,
+        "y": 840.0000000000001
+      }
+    ],
+    "notes": "",
+    "latin": "Tridentinasus forcipatus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b09.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Forknose",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1800,
+        "y": 819.9592974986695
+      }
+    ]
+  },
+  {
+    "id": "b10",
+    "name": "Geigerfin",
+    "display": "가이거핀",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1200,
+        "y": 1650.0000000000002
+      }
+    ],
+    "notes": "",
+    "latin": "Radiometrus piscis",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b10.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Geigerfin",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1227.5373721398464,
+        "y": 1600.847725099519
+      }
+    ]
+  },
+  {
+    "id": "b12",
+    "name": "Irradiated Cutfin",
+    "display": "조사된 컷핀",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2610,
+        "y": 330
+      }
+    ],
+    "notes": "",
+    "latin": "Xenoradiatus sectilis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b12.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "IrradiatedCutfin",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 2670.035205760403,
+        "y": 248.83077845613798
+      }
+    ]
+  },
+  {
+    "id": "b13",
+    "name": "Knifetail",
+    "display": "나이프테일",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1410,
+        "y": 1320
+      }
+    ],
+    "notes": "",
+    "latin": "Cultercauda acuta",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b13.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Knifetail",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1544.3212101114198,
+        "y": 1125.661852639084
+      }
+    ]
+  },
+  {
+    "id": "b15",
+    "name": "Oniongill",
+    "display": "양파길",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 510.00000000000006,
+        "y": 2580
+      },
+      {
+        "no": 2,
+        "x": 1560,
+        "y": 2220
+      }
+    ],
+    "notes": "",
+    "latin": "Cepa marina lacrimosa",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b15.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Oniongill",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1555.6349186104044,
+        "y": 2189.1730910029146
+      },
+      {
+        "no": 2,
+        "x": 486.48946545634465,
+        "y": 2562.5334193646854
+      }
+    ]
+  },
+  {
+    "id": "b16",
+    "name": "Potatofin",
+    "display": "감자지느러미",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 480,
+        "y": 1680.0000000000002
+      },
+      {
+        "no": 2,
+        "x": 540,
+        "y": 2520
+      }
+    ],
+    "notes": "",
+    "latin": "Tuberosus aquatiliformis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b16.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Potatofin",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 582.6559876977151,
+        "y": 2443.7369512495766
+      },
+      {
+        "no": 2,
+        "x": 514.7737367038065,
+        "y": 1702.6732691981838
+      }
+    ]
+  },
+  {
+    "id": "b17",
+    "name": "Rock'n'RollKingjaw",
+    "display": "Rock'n'Roll킹조",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 540,
+        "y": 450
+      }
+    ],
+    "notes": "",
+    "latin": "Roccus regnans rollifer",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b17.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": "Rock'n'RollKingjaw",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 537.4011537017761,
+        "y": 282.77262648902666
+      }
+    ]
+  },
+  {
+    "id": "b18",
+    "name": "Rug-ball-swimmer",
+    "display": "러그볼 수영선수",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 450,
+        "y": 1230
+      }
+    ],
+    "notes": "",
+    "latin": "Tapetobolus piscis domesticus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b18.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Rug-Ball-Swimmer\t",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 429.92092296142084,
+        "y": 1103.0339539504919
+      }
+    ]
+  },
+  {
+    "id": "b19",
+    "name": "Sausagetail",
+    "display": "소시지꼬리",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1350,
+        "y": 2040.0000000000002
+      }
+    ],
+    "notes": "",
+    "latin": "Embuticthys longiformis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b19.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Sausagetail",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1351.9881656286789,
+        "y": 1968.5510787891412
+      }
+    ]
+  },
+  {
+    "id": "b20",
+    "name": "Triangle gill",
+    "display": "삼각아가미",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1440,
+        "y": 2670
+      }
+    ],
+    "notes": "",
+    "latin": "Triangulichthys absurdiformis",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b20.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Trianglegill",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1431.1841251215722,
+        "y": 2573.8473687089813
+      }
+    ]
+  },
+  {
+    "id": "b08",
+    "name": "Footsalmon",
+    "display": "연어",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2280,
+        "y": 1020.0000000000001
+      }
+    ],
+    "notes": "",
+    "latin": "Pedosalmo ungulatus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b08.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": "Footsalmon",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 2302.3396795433987,
+        "y": 854.1270683759783
+      }
+    ]
+  },
+  {
+    "id": "b14",
+    "name": "Magnetfin",
+    "display": "자석지느러미",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 2400,
+        "y": 1650.0000000000002
+      }
+    ],
+    "notes": "",
+    "latin": "Magnetopterus ferratus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b14.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Magnetfin",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 2455.074744279693,
+        "y": 1606.504699771667
+      }
+    ]
+  },
+  {
+    "id": "b21",
+    "name": "Yellow Submarine Cod",
+    "display": "노란 잠수함 대구",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1260,
+        "y": 390
+      }
+    ],
+    "notes": "",
+    "latin": "Submarinus flavomorpha",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b21.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "YellowSubmarineCod",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1238.8510806388313,
+        "y": 294.0865758333225
+      }
+    ]
+  },
+  {
+    "id": "b22",
+    "name": "Devil mutanoid",
+    "display": "악마 돌연변이",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1920,
+        "y": 2370
+      }
+    ],
+    "notes": "",
+    "latin": "Devil mutanoid",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b22.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Devil Mutanoid",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 1849.7913395840083,
+        "y": 2296.6556097737275
+      }
+    ]
+  },
+  {
+    "id": "b11",
+    "name": "Giant Bus Bass",
+    "display": "자이언트 버스 베이스",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 780,
+        "y": 1080
+      }
+    ],
+    "notes": "",
+    "latin": "Omnibassus gigantarus",
+    "difficulty": 3,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/b11.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Giant Bus Bass",
+    "legacyLocations": [
+      {
+        "no": 1,
+        "x": 786.3027406794408,
+        "y": 1052.1211819011594
+      }
+    ]
+  }
+]

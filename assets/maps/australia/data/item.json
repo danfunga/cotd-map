@@ -1,0 +1,862 @@
+[
+  {
+    "id": "T5-30",
+    "name": "vinyl record",
+    "display": "LP 레코드",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 373,
+        "y": 191
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-30.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Vinyl Record"
+  },
+  {
+    "id": "T5-31",
+    "name": "chips bag",
+    "display": "칩 한 봉지",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 680,
+        "y": 899.1
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-31.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "T5-29",
+    "name": "didgeridoo Flute",
+    "display": "디저리두 플루트",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 222,
+        "y": 190
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-29.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Didgeridoo Flute"
+  },
+  {
+    "id": "T5-1",
+    "name": "aussie rule ball",
+    "display": "호주 규칙 공",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 153.4421715174808,
+        "y": 213.54624791833734
+      },
+      {
+        "no": 2,
+        "x": 774,
+        "y": 77
+      },
+      {
+        "no": 3,
+        "x": 710.5,
+        "y": 842.5
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-1.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Aussie Rule Ball"
+  },
+  {
+    "id": "T5-2",
+    "name": "australian cricket bat",
+    "display": "호주 크리켓 방망이",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 803,
+        "y": 79
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-2.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Australian Cricket Bat"
+  },
+  {
+    "id": "T5-3",
+    "name": "beer can",
+    "display": "맥주 캔",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 700.5,
+        "y": 828.5
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-3.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Beer Can"
+  },
+  {
+    "id": "T5-4",
+    "name": "boomerang",
+    "display": "부메랑",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 244.5,
+        "y": 913.5
+      },
+      {
+        "no": 2,
+        "x": 347,
+        "y": 785
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-4.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Boomerang"
+  },
+  {
+    "id": "T5-5",
+    "name": "bottle of suntan oil",
+    "display": "선탠 오일 병",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 440.5,
+        "y": 435
+      },
+      {
+        "no": 2,
+        "x": 630.5,
+        "y": 832
+      }
+    ],
+    "notes": "eco-thruster mix",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-5.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Bottle of Suntan Oil"
+  },
+  {
+    "id": "T5-6",
+    "name": "cork hat",
+    "display": "코르크 모자",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 814.4779194271302,
+        "y": 370.5239533417509
+      },
+      {
+        "no": 2,
+        "x": 416,
+        "y": 813
+      },
+      {
+        "no": 3,
+        "x": 373.5,
+        "y": 90
+      },
+      {
+        "no": 4,
+        "x": 653.0131124257766,
+        "y": 229.45615049503465
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-6.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Cork Hat"
+  },
+  {
+    "id": "T5-7",
+    "name": "crocodile crate",
+    "display": "악어 상자",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 708.5209947489205,
+        "y": 191.62593770155436
+      }
+    ],
+    "notes": "Collect 4 different chests",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-7.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Crocodile Crate"
+  },
+  {
+    "id": "T5-8",
+    "name": "crocodile key",
+    "display": "악어 열쇠",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 453.07647480521564,
+        "y": 610.9612171595712
+      },
+      {
+        "no": 2,
+        "x": 449.5,
+        "y": 836
+      },
+      {
+        "no": 3,
+        "x": 729.734198184517,
+        "y": 227.33483015147502
+      },
+      {
+        "no": 4,
+        "x": 207.07239571224068,
+        "y": 299.56247859719474
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-8.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Crocodile Key"
+  },
+  {
+    "id": "T5-9",
+    "name": "eucalyptus branch",
+    "display": "유칼립투스 나뭇가지",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 89,
+        "y": 878.5
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-9.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Eucalyptus Branch"
+  },
+  {
+    "id": "T5-10",
+    "name": "explorer diary",
+    "display": "탐험가 일기",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 683.7722574073914,
+        "y": 214.2533546995239
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-10.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Explorer Diary"
+  },
+  {
+    "id": "T5-11",
+    "name": "koala hat",
+    "display": "코알라 모자",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 411.5,
+        "y": 67
+      },
+      {
+        "no": 2,
+        "x": 333.0472516981204,
+        "y": 181.01800293181603
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-11.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Koala Hat"
+  },
+  {
+    "id": "T5-12",
+    "name": "lawn chair",
+    "display": "잔디 의자",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 287.5,
+        "y": 881.5
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-12.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Lawn Chair"
+  },
+  {
+    "id": "T5-13",
+    "name": "marine trap",
+    "display": "해양 함정",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 176.5,
+        "y": 65.5
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-13.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Marine Trap"
+  },
+  {
+    "id": "T5-14",
+    "name": "parrot feather",
+    "display": "앵무새 깃털",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 104,
+        "y": 855.5
+      },
+      {
+        "no": 2,
+        "x": 657.6095177072065,
+        "y": 829.4364209633128
+      },
+      {
+        "no": 3,
+        "x": 321.0261407327448,
+        "y": 197.98823241730807
+      }
+    ],
+    "notes": "Repair Kit",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-14.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Parrot Feather"
+  },
+  {
+    "id": "T5-15",
+    "name": "pearl",
+    "display": "진주",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 496,
+        "y": 601.5
+      },
+      {
+        "no": 2,
+        "x": 571.5,
+        "y": 909.5
+      }
+    ],
+    "notes": "fuel booster",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-15.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Pearl"
+  },
+  {
+    "id": "T5-16",
+    "name": "plastic barrel",
+    "display": "플라스틱 통",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 675.6405294237461,
+        "y": 175.36248173426378
+      },
+      {
+        "no": 2,
+        "x": 210,
+        "y": 84.5
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-16.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Plastic Barrel"
+  },
+  {
+    "id": "T5-17",
+    "name": "plastic \"Dory\" fish",
+    "display": "플라스틱 \"도리\" 물고기",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 762.5,
+        "y": 771
+      },
+      {
+        "no": 2,
+        "x": 871,
+        "y": 200
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-17.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Plastic \"Dory\" Fish"
+  },
+  {
+    "id": "T5-18",
+    "name": "rock with aboriginal painting",
+    "display": "원주민 그림이 있는 바위",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 124.44930586383545,
+        "y": 248.90158697766472
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-18.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Rock with Aboriginal Painting"
+  },
+  {
+    "id": "T5-19",
+    "name": "sunglasses",
+    "display": "색안경",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 804.5,
+        "y": 753.5
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-19.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Sunglasses"
+  },
+  {
+    "id": "T5-20",
+    "name": "surfboard",
+    "display": "서핑보드",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 186,
+        "y": 642
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-20.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Surfboard"
+  },
+  {
+    "id": "T5-21",
+    "name": "turtlegrass",
+    "display": "거북이가지",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 270,
+        "y": 459
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-21.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Turtlegrass"
+  },
+  {
+    "id": "T5-22",
+    "name": "vegetime",
+    "display": "야채",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 463.5,
+        "y": 405.5
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-22.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Vegetime"
+  },
+  {
+    "id": "T5-23",
+    "name": "wooden crate",
+    "display": "나무 상자",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 277.5,
+        "y": 530.5
+      }
+    ],
+    "notes": "Collect 4 different chests",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-23.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Wooden Crate"
+  },
+  {
+    "id": "T5-24",
+    "name": "kangaroo road sign",
+    "display": "캥거루 도로 표지판",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 298.5,
+        "y": 526
+      },
+      {
+        "no": 2,
+        "x": 156,
+        "y": 100.5
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-24.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Kangaroo Road Sign"
+  },
+  {
+    "id": "T5-25",
+    "name": "maori jewelery",
+    "display": "마오리 보석",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 670.6907819554402,
+        "y": 194.10081143570727
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-25.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Maori Jewelery"
+  },
+  {
+    "id": "T5-26",
+    "name": "giant shark tooth",
+    "display": "거대한 상어 이빨",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 644.5,
+        "y": 806
+      }
+    ],
+    "notes": "perception elixir",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-26.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Giant Shark Tooth"
+  },
+  {
+    "id": "T5-27",
+    "name": "floppy disk",
+    "display": "플로피 디스크",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 368,
+        "y": 792
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-27.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "T5-28",
+    "name": "fridge magnet",
+    "display": "냉장고 자석",
+    "category": "item",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 178.19239648400688,
+        "y": 258.8010819142764
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": null,
+    "seasons": [],
+    "minigame": null,
+    "image": "./assets/portraits/item/T5-28.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Fridge Magnet"
+  }
+]

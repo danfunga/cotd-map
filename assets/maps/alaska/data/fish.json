@@ -1,0 +1,1389 @@
+[
+  {
+    "id": "31",
+    "name": "arctic char",
+    "display": "북극곤돌매기",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 476.55997008229554,
+        "y": 1363.3018741276635
+      },
+      {
+        "no": 2,
+        "x": 1405.9992744200931,
+        "y": 1372
+      },
+      {
+        "no": 3,
+        "x": 540.2295808265222,
+        "y": 243.24473272817232
+      }
+    ],
+    "notes": "",
+    "latin": "Salvelinus alpinus",
+    "difficulty": 0,
+    "seasons": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/31.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Arctic Char"
+  },
+  {
+    "id": "32",
+    "name": "atka mackerel",
+    "display": "고등어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1264.000701273149,
+        "y": 561
+      },
+      {
+        "no": 2,
+        "x": 1857.992744200932,
+        "y": 1518
+      },
+      {
+        "no": 3,
+        "x": 1634.0266483796536,
+        "y": 326
+      },
+      {
+        "no": 4,
+        "x": 1098.8439379638949,
+        "y": 1452.3973285571685
+      }
+    ],
+    "notes": "",
+    "latin": "Pleurogrammus monopterygius",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/32.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Atka Mackerel"
+  },
+  {
+    "id": "33",
+    "name": "yellow irish lord",
+    "display": "노란 물고기",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1801.8215259836356,
+        "y": 1440
+      },
+      {
+        "no": 2,
+        "x": 322.4228407211029,
+        "y": 1716.8552647209374
+      },
+      {
+        "no": 3,
+        "x": 912.5,
+        "y": 281.5
+      },
+      {
+        "no": 4,
+        "x": 687.3077913133242,
+        "y": 1402.8998538741102
+      }
+    ],
+    "notes": "",
+    "latin": "Hemilepidotus jordani",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/33.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Yellow Irish Lord"
+  },
+  {
+    "id": "34",
+    "name": "lancetfish",
+    "display": "돛란도어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 824.0019285011592,
+        "y": 308
+      },
+      {
+        "no": 2,
+        "x": 1848.3791782715252,
+        "y": 864.0844866099611
+      }
+    ],
+    "notes": "",
+    "latin": "",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/34.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      2
+    ],
+    "mapCategory": "Lancetfish"
+  },
+  {
+    "id": "35",
+    "name": "steelhead",
+    "display": "무지개송어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1044.3149016795385,
+        "y": 520
+      },
+      {
+        "no": 2,
+        "x": 1808.9924613136507,
+        "y": 534
+      },
+      {
+        "no": 3,
+        "x": 1507.5526492397173,
+        "y": 503.4600282048218
+      }
+    ],
+    "notes": "",
+    "latin": "Oncorhynchus mykiss",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/35.png",
+    "shadowSizes": [
+      1,
+      3
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Steelhead"
+  },
+  {
+    "id": "36",
+    "name": "silver salmon",
+    "display": "은 연어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 531.7442994522837,
+        "y": 164.04877323527901
+      },
+      {
+        "no": 2,
+        "x": 1789.0066620949133,
+        "y": 568
+      },
+      {
+        "no": 3,
+        "x": 1186.009116550934,
+        "y": 308
+      }
+    ],
+    "notes": "",
+    "latin": "Oncorhynchus kisutch",
+    "difficulty": 0,
+    "seasons": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/36.png",
+    "shadowSizes": [
+      1,
+      3
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Silver Salmon"
+  },
+  {
+    "id": "37",
+    "name": "rougheye rockfish",
+    "display": "흥어 물고기",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 243.2650636031299,
+        "y": 690.1362184380704
+      },
+      {
+        "no": 2,
+        "x": 1842.1899416862527,
+        "y": 588.8431720330974
+      },
+      {
+        "no": 3,
+        "x": 1446.7307261207013,
+        "y": 943.2804461028545
+      },
+      {
+        "no": 4,
+        "x": 178.19685935899756,
+        "y": 298.399061660723
+      },
+      {
+        "no": 5,
+        "x": 1828.4536715236711,
+        "y": 872.5697679841995
+      }
+    ],
+    "notes": "",
+    "latin": "Sebastes aleutianus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/37.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": "Rougheye Rockfish"
+  },
+  {
+    "id": "38",
+    "name": "pacific herring",
+    "display": "청어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1093.1932821518894,
+        "y": 1774.838020778234
+      },
+      {
+        "no": 2,
+        "x": 1749,
+        "y": 1808
+      },
+      {
+        "no": 3,
+        "x": 448.0248951967817,
+        "y": 1756
+      },
+      {
+        "no": 4,
+        "x": 1193.5950069553949,
+        "y": 1278.4490603852778
+      },
+      {
+        "no": 5,
+        "x": 1826.0014511598138,
+        "y": 1490
+      }
+    ],
+    "notes": "",
+    "latin": "Clupea pallasii",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/38.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Pacific Herring"
+  },
+  {
+    "id": "39",
+    "name": "sockeye salmon",
+    "display": "홍연어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 740,
+        "y": 724
+      },
+      {
+        "no": 2,
+        "x": 1668.0014025462976,
+        "y": 1090
+      },
+      {
+        "no": 3,
+        "x": 1291.176982446636,
+        "y": 618.0113267570426
+      },
+      {
+        "no": 4,
+        "x": 765.0895372438445,
+        "y": 277.18585822512665
+      }
+    ],
+    "notes": "",
+    "latin": "Oncorhynchus gorbuscha",
+    "difficulty": 0,
+    "seasons": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/39.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": "Sockeye Salmon"
+  },
+  {
+    "id": "310",
+    "name": "dolly varden",
+    "display": "곤들매기속",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1790.0010621500724,
+        "y": 158.99803631187706
+      },
+      {
+        "no": 2,
+        "x": 436.0043534794406,
+        "y": 952
+      },
+      {
+        "no": 3,
+        "x": 1267.131761565806,
+        "y": 770.7843800658852
+      }
+    ],
+    "notes": "",
+    "latin": "Salvelinus malma",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/310.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Dolly Varden"
+  },
+  {
+    "id": "311",
+    "name": "coalfish",
+    "display": "은대구",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1796,
+        "y": 930
+      },
+      {
+        "no": 2,
+        "x": 826.9985974537024,
+        "y": 277
+      },
+      {
+        "no": 3,
+        "x": 340.0010519097232,
+        "y": 1328
+      },
+      {
+        "no": 4,
+        "x": 1513.2077679267131,
+        "y": 531.7442994522837
+      }
+    ],
+    "notes": "",
+    "latin": "Anoplopoma fimbria",
+    "difficulty": 1,
+    "seasons": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/311.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Coalfish"
+  },
+  {
+    "id": "312",
+    "name": "chum salmon",
+    "display": "연어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1650.3916901643925,
+        "y": 1064.9028124669405
+      },
+      {
+        "no": 2,
+        "x": 717.7120192480985,
+        "y": 683.7722574073914
+      }
+    ],
+    "notes": "",
+    "latin": "Oncorhynchus keta",
+    "difficulty": 0,
+    "seasons": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/312.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Chum Salmon"
+  },
+  {
+    "id": "313",
+    "name": "capelin",
+    "display": "열빙어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1100.258647401267,
+        "y": 1805.9507191504422
+      },
+      {
+        "no": 2,
+        "x": 1787.0446231642663,
+        "y": 1517
+      },
+      {
+        "no": 3,
+        "x": 861.9985974537024,
+        "y": 246
+      },
+      {
+        "no": 4,
+        "x": 240.0066620949134,
+        "y": 454
+      },
+      {
+        "no": 5,
+        "x": 278.60007178749976,
+        "y": 871.1555544218267
+      }
+    ],
+    "notes": "",
+    "latin": "Mallotus villosus",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/313.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Capelin"
+  },
+  {
+    "id": "314",
+    "name": "burbot",
+    "display": "모오케",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 264.99491576967137,
+        "y": 427
+      }
+    ],
+    "notes": "",
+    "latin": "Lota lota",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/314.png",
+    "shadowSizes": [
+      1,
+      3
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Burbot"
+  },
+  {
+    "id": "315",
+    "name": "bigmouth sculpin",
+    "display": "큰 입 볼락",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1403.9852732638756,
+        "y": 268
+      }
+    ],
+    "notes": "",
+    "latin": "Hemitripterus bolini",
+    "difficulty": 0,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/315.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Bigmouth Sculpin"
+  },
+  {
+    "id": "316",
+    "name": "arctic greyling",
+    "display": "아틱그레이링",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1074.8023074035523,
+        "y": 1471.4892116492053
+      },
+      {
+        "no": 2,
+        "x": 1758.9936270995654,
+        "y": 276.0029455321844
+      },
+      {
+        "no": 3,
+        "x": 1880.9040379562166,
+        "y": 1467.9536777432727
+      },
+      {
+        "no": 4,
+        "x": 275.77164466275354,
+        "y": 1718.2694782833107
+      }
+    ],
+    "notes": "",
+    "latin": "Thymallus arcticus",
+    "difficulty": 0,
+    "seasons": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/316.png",
+    "shadowSizes": [
+      0
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": "Arctic Greyling"
+  },
+  {
+    "id": "317",
+    "name": "humpback salmon",
+    "display": "곱사 연어",
+    "category": "fish",
+    "rarity": "common",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1819.8078511572344,
+        "y": 1434
+      },
+      {
+        "no": 2,
+        "x": 354.00631145833904,
+        "y": 1422
+      },
+      {
+        "no": 3,
+        "x": 276.99877277198965,
+        "y": 453
+      },
+      {
+        "no": 4,
+        "x": 857.9975455439793,
+        "y": 274
+      },
+      {
+        "no": 5,
+        "x": 1789.9323271411427,
+        "y": 872
+      },
+      {
+        "no": 6,
+        "x": 814.5820531769131,
+        "y": 1052.1748904055826
+      }
+    ],
+    "notes": "",
+    "latin": "Oncorhynchus gorbuscha",
+    "difficulty": 0,
+    "seasons": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/317.png",
+    "shadowSizes": [
+      1
+    ],
+    "shadowSpeeds": [
+      1,
+      2
+    ],
+    "mapCategory": "Humpback Salmon"
+  },
+  {
+    "id": "318",
+    "name": "halibut",
+    "display": "마설가자미",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 593.9696961966998,
+        "y": 209.30360723121805
+      },
+      {
+        "no": 2,
+        "x": 1027.5050842303285,
+        "y": 1461.5
+      },
+      {
+        "no": 3,
+        "x": 1248.7515673254409,
+        "y": 1269.9637790110394
+      },
+      {
+        "no": 4,
+        "x": 507.9985974537025,
+        "y": 1358
+      },
+      {
+        "no": 5,
+        "x": 241.00578550347745,
+        "y": 384
+      }
+    ],
+    "notes": "",
+    "latin": "Hippoglossus stenolepis",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/318.png",
+    "shadowSizes": [
+      3
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Halibut"
+  },
+  {
+    "id": "319",
+    "name": "blue lingcod",
+    "display": "블루링코드",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1620.6944450420547,
+        "y": 1093.1870837144024
+      },
+      {
+        "no": 2,
+        "x": 693.0174562502065,
+        "y": 673.1656556895932
+      },
+      {
+        "no": 3,
+        "x": 429.99789618055365,
+        "y": 996
+      }
+    ],
+    "notes": "",
+    "latin": "Ophiodon elongatus",
+    "difficulty": 1,
+    "seasons": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/319.png",
+    "shadowSizes": [
+      1,
+      3
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "Blue Lingcod"
+  },
+  {
+    "id": "320",
+    "name": "spiny skate",
+    "display": "흰가오리",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 825.9007204258876,
+        "y": 240.41630560342617
+      },
+      {
+        "no": 2,
+        "x": 362.0031557291695,
+        "y": 1320
+      },
+      {
+        "no": 3,
+        "x": 1806.003627899534,
+        "y": 852
+      }
+    ],
+    "notes": "",
+    "latin": "Bathyraja spinosissima",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/320.png",
+    "shadowSizes": [
+      1,
+      3
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Spiny Skate"
+  },
+  {
+    "id": "321",
+    "name": "wolf eel",
+    "display": "늑대 장어",
+    "category": "fish",
+    "rarity": "rare",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1361.0026553751811,
+        "y": 269.00049092203085
+      },
+      {
+        "no": 2,
+        "x": 512.0306000788825,
+        "y": 282.84271247461896
+      },
+      {
+        "no": 3,
+        "x": 1824.00561018519,
+        "y": 556
+      }
+    ],
+    "notes": "",
+    "latin": "Anarrhichthys ocellatus",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/321.png",
+    "shadowSizes": [
+      1,
+      3
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Wolf Eel"
+  },
+  {
+    "id": "322",
+    "name": "king salmon",
+    "display": "왕 연어",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "day",
+    "locations": [
+      {
+        "no": 1,
+        "x": 771.75,
+        "y": 672
+      },
+      {
+        "no": 2,
+        "x": 1026.7190462828669,
+        "y": 1383.1008640008868
+      }
+    ],
+    "notes": "",
+    "latin": "Oncorhynchus tshawytscha",
+    "difficulty": 1,
+    "seasons": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/322.png",
+    "shadowSizes": [
+      1,
+      3
+    ],
+    "shadowSpeeds": [
+      1
+    ],
+    "mapCategory": "King Salmon"
+  },
+  {
+    "id": "323",
+    "name": "salmon shark",
+    "display": "연어상어",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1827.8831816350098,
+        "y": 904
+      }
+    ],
+    "notes": "",
+    "latin": "Lamna ditropis",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/323.png",
+    "shadowSizes": [
+      3
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Salmon Shark"
+  },
+  {
+    "id": "324",
+    "name": "pacific sleeper shark",
+    "display": "태평양 잠자는 상어",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 255.09923015055233,
+        "y": 408
+      },
+      {
+        "no": 2,
+        "x": 1596.6424011067338,
+        "y": 1059.245958217448
+      },
+      {
+        "no": 3,
+        "x": 1867.9996372100466,
+        "y": 1395
+      },
+      {
+        "no": 4,
+        "x": 1589.576044107359,
+        "y": 1851.2055531463816
+      }
+    ],
+    "notes": "",
+    "latin": "Somniosus pacificus",
+    "difficulty": 1,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/324.png",
+    "shadowSizes": [
+      3
+    ],
+    "shadowSpeeds": [
+      0
+    ],
+    "mapCategory": "Pacific Sleeper Shark"
+  },
+  {
+    "id": "325",
+    "name": "sunfish",
+    "display": "개복치",
+    "category": "fish",
+    "rarity": "epic",
+    "isMonster": false,
+    "timeBand": "night",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1837.4169709132436,
+        "y": 562.6802211291952
+      },
+      {
+        "no": 2,
+        "x": 275.064537881567,
+        "y": 363.4528855298854
+      }
+    ],
+    "notes": "",
+    "latin": "Lepomis microlophus",
+    "difficulty": 2,
+    "seasons": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/325.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": ""
+  },
+  {
+    "id": "326",
+    "name": "kraken",
+    "display": "크라켄",
+    "category": "monster",
+    "rarity": "monster",
+    "isMonster": true,
+    "timeBand": "both",
+    "locations": [
+      {
+        "no": 1,
+        "x": 1476.0035063657438,
+        "y": 1708
+      },
+      {
+        "no": 2,
+        "x": 1732.0066620949133,
+        "y": 1422
+      },
+      {
+        "no": 3,
+        "x": 1219.052090765608,
+        "y": 1691.399420598222
+      },
+      {
+        "no": 4,
+        "x": 1750,
+        "y": 1710
+      }
+    ],
+    "notes": "The spot changes everyday. Check Discord to know the current spot.",
+    "latin": "",
+    "difficulty": 2,
+    "seasons": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "minigame": null,
+    "image": "./assets/portraits/fish/326.png",
+    "shadowSizes": [],
+    "shadowSpeeds": [],
+    "mapCategory": "Kraken"
+  }
+]
