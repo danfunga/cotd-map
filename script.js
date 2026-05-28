@@ -42,6 +42,7 @@ const groupUiCache = new Map();
 let renderRequestId = 0;
 let renderScheduled = false;
 let scheduledRefreshPanel = false;
+let currentDetailEntity = null;
 const hiddenEntityIds = new Set();
 const caughtEntityKeys = new Set();
 const panelFoldState = {
@@ -183,7 +184,7 @@ function getMarkerBundle(mapId, entity) {
   const locs = Array.isArray(entity.locations) ? entity.locations : [];
   const markers = locs.map((l, idx) => {
     const marker = L.marker([l.y, l.x], { icon: markerIcon(entity, idx === 0) });
-    marker.on("click", () => openDetail(buildDetailHtml(entity)));
+    marker.on("click", () => openEntityDetail(entity));
     return marker;
   });
   bundle = {
@@ -661,7 +662,7 @@ function getOrCreateEntityRow(entity) {
   });
   rowUi.thumb.addEventListener("click", (event) => {
     event.stopPropagation();
-    openDetail(buildDetailHtml(entity));
+    openEntityDetail(entity);
   });
   row.querySelector(".count-v-toggle").addEventListener("click", (event) => {
     event.stopPropagation();
@@ -708,9 +709,15 @@ function openDetail(html) {
   detailSheet.setAttribute("aria-hidden", "false");
 }
 
+function openEntityDetail(entity) {
+  currentDetailEntity = entity;
+  openDetail(buildDetailHtml(entity));
+}
+
 function closeDetail() {
   detailSheet.classList.remove("open");
   detailSheet.setAttribute("aria-hidden", "true");
+  currentDetailEntity = null;
 }
 
 function toggleEntityPanel() {
@@ -851,13 +858,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!toggle) return;
     const id = toggle.dataset.id;
     const category = toggle.dataset.category;
-    const entity = lastFilteredEntities.find((e) => e.id === id && e.category === category);
+    const entity = currentDetailEntity;
     if (!entity) return;
+    if (entity.id !== id || entity.category !== category) return;
     const key = entityKey(entity);
     if (caughtEntityKeys.has(key)) caughtEntityKeys.delete(key);
     else caughtEntityKeys.add(key);
     saveUserState();
-    openDetail(buildDetailHtml(entity));
+    openEntityDetail(entity);
     scheduleRenderMarkers();
   });
   renderMap();
