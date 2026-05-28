@@ -17,12 +17,12 @@ async function main() {
     const creature = byCategories(entities, ['creature']);
     const item = byCategories(entities, ['item']);
 
-    const dataDir = path.join('assets', 'maps', mapId, 'data');
+    const dataDir = path.join('assets', 'maps', mapId);
     await fs.mkdir(dataDir, { recursive: true });
 
-    await fs.writeFile(path.join(dataDir, 'fish.json'), `${JSON.stringify(fish, null, 2)}\n`);
-    await fs.writeFile(path.join(dataDir, 'creature.json'), `${JSON.stringify(creature, null, 2)}\n`);
-    await fs.writeFile(path.join(dataDir, 'item.json'), `${JSON.stringify(item, null, 2)}\n`);
+    await fs.writeFile(path.join(dataDir, '1_fish.json'), `${JSON.stringify(fish, null, 2)}\n`);
+    await fs.writeFile(path.join(dataDir, '2_creatures.json'), `${JSON.stringify(creature, null, 2)}\n`);
+    await fs.writeFile(path.join(dataDir, '3_items.json'), `${JSON.stringify(item, null, 2)}\n`);
   }
 
   console.log(`Exported map data for ${mapOrder.length} maps.`);

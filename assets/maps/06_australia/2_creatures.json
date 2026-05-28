@@ -127,7 +127,7 @@
   {
     "id": "c4-3",
     "name": "portuguese man o'war",
-    "display": "포르투갈 남자 해파리",
+    "display": "작은부레관해파리",
     "category": "creature",
     "rarity": "common",
     "isMonster": false,
@@ -211,7 +211,7 @@
   {
     "id": "c4-5",
     "name": "box jelly fish",
-    "display": "상자 해파리",
+    "display": "호주 은바치 해파리",
     "category": "creature",
     "rarity": "common",
     "isMonster": false,

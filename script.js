@@ -428,8 +428,8 @@ function buildDetailHtml(entity) {
 
 async function loadMapEntities(mapId) {
   if (mapEntitiesCache.has(mapId)) return mapEntitiesCache.get(mapId);
-  const basePath = mapsById[mapId]?.dataPath || `./assets/maps/${mapId}/data`;
-  const targets = ["fish", "creature", "item"];
+  const basePath = mapsById[mapId]?.dataPath || `./assets/maps/${mapId}`;
+  const targets = ["1_fish", "2_creatures", "3_items"];
   const responses = await Promise.all(
     targets.map(async (name) => {
       try {
@@ -455,14 +455,13 @@ function passesCurrentFilters(entity) {
     if (!filters.category.has(entity.category)) return false;
     if (!filters.rarity.has(entity.rarity)) return false;
   }
-  if (entity.category === "fish" && !hitFishTimeFilter(entity)) return false;
+  if (!hitFishTimeFilter(entity)) return false;
   const availableNow = isSeasonAvailable(entity);
   const availabilityKey = availableNow ? "available" : "unavailable";
   if (!filters.availability.has(availabilityKey)) return false;
   const mode = getGroupCaughtMode(entity.category);
   if (mode === "caught" && !isCaught(entity)) return false;
-  if (mode === "uncaught" && isCaught(entity)) return false;
-  return true;
+  return !(mode === "uncaught" && isCaught(entity));
 }
 
 async function renderMarkers(refreshPanel = true) {

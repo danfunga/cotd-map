@@ -49,7 +49,7 @@
   {
     "id": "41",
     "name": "dusky flathead",
-    "display": "더스키 플랫헤드",
+    "display": "플랫헤드",
     "category": "fish",
     "rarity": "common",
     "isMonster": false,
@@ -101,7 +101,7 @@
   {
     "id": "42",
     "name": "red emperor snapper",
-    "display": "붉은 황제 도미",
+    "display": "레드 엠퍼러 스냅퍼",
     "category": "fish",
     "rarity": "common",
     "isMonster": false,
@@ -249,7 +249,7 @@
   {
     "id": "45",
     "name": "port jackson shark",
-    "display": "포트잭슨상어",
+    "display": "포트 잭슨 상어",
     "category": "fish",
     "rarity": "common",
     "isMonster": false,
@@ -453,7 +453,7 @@
   {
     "id": "49",
     "name": "unicorn leatherjacket",
-    "display": "유니콘쥐치",
+    "display": "우스바하기",
     "category": "fish",
     "rarity": "common",
     "isMonster": false,
@@ -847,7 +847,7 @@
   {
     "id": "417",
     "name": "coral trout",
-    "display": "산호송어바리",
+    "display": "스지아라",
     "category": "fish",
     "rarity": "common",
     "isMonster": false,

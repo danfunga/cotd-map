@@ -499,13 +499,13 @@ main { padding: 0; }
 }
 .marker-v {
   position: absolute;
-  right: -10px;
-  top: -6px;
+  right: -5px;
+  top: 5px;
 }
 .caught-v {
   display: inline-block;
   color: #4cd964;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 900;
   line-height: 1;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -745,7 +745,7 @@ main { padding: 0; }
     top: 46px;
     width: min(82vw, 320px);
     height: auto;
-    max-height: calc(var(--map-h) - 64px);
+    max-height: calc(var(--map-h) - 20px);
     min-height: 160px;
     z-index: 1300;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);

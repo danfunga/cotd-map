@@ -1,107 +1,107 @@
 const maps = [
   {
-    id: "marina",
+    id: "01_marina",
     name: "Marina",
-    imagePath: "./assets/maps/marina/background.jpg",
+    imagePath: "./assets/maps/01_marina/background.jpg",
     imageWidth: 720,
     imageHeight: 720,
-    dataPath: "./assets/maps/marina/data"
+    dataPath: "./assets/maps/01_marina"
   },
   {
-    id: "paradise-island",
+    id: "02_paradise-island",
     name: "Paradise Island",
-    imagePath: "./assets/maps/paradise-island/background.jpg",
+    imagePath: "./assets/maps/02_paradise-island/background.jpg",
     imageWidth: 1134,
     imageHeight: 1125,
-    dataPath: "./assets/maps/paradise-island/data"
+    dataPath: "./assets/maps/02_paradise-island"
   },
   {
-    id: "great-lakes",
+    id: "03_great-lakes",
     name: "Great Lakes",
-    imagePath: "./assets/maps/great-lakes/background.jpg",
+    imagePath: "./assets/maps/03_great-lakes/background.jpg",
     imageWidth: 2477,
     imageHeight: 2475,
-    dataPath: "./assets/maps/great-lakes/data"
+    dataPath: "./assets/maps/03_great-lakes"
   },
   {
-    id: "costa-rica",
+    id: "04_costa-rica",
     name: "Costa Rica",
-    imagePath: "./assets/maps/costa-rica/background.jpg",
+    imagePath: "./assets/maps/04_costa-rica/background.jpg",
     imageWidth: 2048,
     imageHeight: 2048,
-    dataPath: "./assets/maps/costa-rica/data"
+    dataPath: "./assets/maps/04_costa-rica"
   },
   {
-    id: "alaska",
+    id: "05_alaska",
     name: "Alaska",
-    imagePath: "./assets/maps/alaska/background.jpg",
+    imagePath: "./assets/maps/05_alaska/background.jpg",
     imageWidth: 2048,
     imageHeight: 2048,
-    dataPath: "./assets/maps/alaska/data"
+    dataPath: "./assets/maps/05_alaska"
   },
   {
-    id: "australia",
+    id: "06_australia",
     name: "Australia",
-    imagePath: "./assets/maps/australia/background.jpg",
+    imagePath: "./assets/maps/06_australia/background.jpg",
     imageWidth: 1000,
     imageHeight: 999,
-    dataPath: "./assets/maps/australia/data"
+    dataPath: "./assets/maps/06_australia"
   },
   {
-    id: "scotland",
+    id: "07_scotland",
     name: "Scotland",
-    imagePath: "./assets/maps/scotland/background.jpg",
+    imagePath: "./assets/maps/07_scotland/background.jpg",
     imageWidth: 1125,
     imageHeight: 1125,
-    dataPath: "./assets/maps/scotland/data"
+    dataPath: "./assets/maps/07_scotland"
   },
   {
-    id: "thailand",
+    id: "08_thailand",
     name: "Thailand",
-    imagePath: "./assets/maps/thailand/background.jpg",
+    imagePath: "./assets/maps/08_thailand/background.jpg",
     imageWidth: 1128,
     imageHeight: 1125,
-    dataPath: "./assets/maps/thailand/data"
+    dataPath: "./assets/maps/08_thailand"
   },
   {
-    id: "amazon",
+    id: "09_amazon",
     name: "Amazon",
-    imagePath: "./assets/maps/amazon/background.jpg",
+    imagePath: "./assets/maps/09_amazon/background.jpg",
     imageWidth: 3000,
     imageHeight: 3000,
-    dataPath: "./assets/maps/amazon/data"
+    dataPath: "./assets/maps/09_amazon"
   },
   {
-    id: "chemical-plant",
+    id: "v1_chemical-plant",
     name: "Chemical Plant",
-    imagePath: "./assets/maps/chemical-plant/background.jpg",
+    imagePath: "./assets/maps/v1_chemical-plant/background.jpg",
     imageWidth: 1200,
     imageHeight: 1200,
-    dataPath: "./assets/maps/chemical-plant/data"
+    dataPath: "./assets/maps/v1_chemical-plant"
   },
   {
-    id: "nuclear-plant",
+    id: "v2_nuclear-plant",
     name: "Nuclear Plant",
-    imagePath: "./assets/maps/nuclear-plant/background.jpg",
+    imagePath: "./assets/maps/v2_nuclear-plant/background.jpg",
     imageWidth: 3000,
     imageHeight: 3000,
-    dataPath: "./assets/maps/nuclear-plant/data"
+    dataPath: "./assets/maps/v2_nuclear-plant"
   },
   {
-    id: "petrochemical",
+    id: "v3_petrochemical",
     name: "Petrochemical",
-    imagePath: "./assets/maps/petrochemical/background.jpg",
+    imagePath: "./assets/maps/v3_petrochemical/background.jpg",
     imageWidth: 3000,
     imageHeight: 3000,
-    dataPath: "./assets/maps/petrochemical/data"
+    dataPath: "./assets/maps/v3_petrochemical"
   },
   {
-    id: "bermuda-triangle",
+    id: "v4_bermuda-triangle",
     name: "Bermuda Triangle",
-    imagePath: "./assets/maps/bermuda-triangle/background.jpg",
+    imagePath: "./assets/maps/v4_bermuda-triangle/background.jpg",
     imageWidth: 3000,
     imageHeight: 3000,
-    dataPath: "./assets/maps/bermuda-triangle/data"
+    dataPath: "./assets/maps/v4_bermuda-triangle"
   }
 ];
 
