@@ -555,9 +555,10 @@ function getOrCreateGroupUi(category, labelText) {
   const section = document.createElement("section");
   section.className = "entity-group";
 
-  const header = document.createElement("button");
-  header.type = "button";
+  const header = document.createElement("div");
   header.className = "entity-group-head";
+  header.setAttribute("role", "button");
+  header.setAttribute("tabindex", "0");
   header.innerHTML = `
       <span>${labelText}</span>
       <button type="button" class="group-toggle-btn" data-category="${category}"></button>
@@ -587,6 +588,12 @@ function getOrCreateGroupUi(category, labelText) {
     panelFoldState[category] = !panelFoldState[category];
     renderEntityPanel();
   });
+  header.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    event.preventDefault();
+    panelFoldState[category] = !panelFoldState[category];
+    renderEntityPanel();
+  });
   ui.toggleBtn.addEventListener("click", (e) => {
     e.stopPropagation();
     const group = lastFilteredEntities.filter((ent) => category === "fish"
@@ -606,7 +613,7 @@ function getOrCreateGroupUi(category, labelText) {
     caughtFilterMode[category] = nextCaughtMode(caughtFilterMode[category]);
     syncCaughtFilterAllButton();
     saveUserState();
-    scheduleRenderMarkers(false);
+    scheduleRenderMarkers();
   });
 
   groupUiCache.set(category, ui);
@@ -618,8 +625,7 @@ function getOrCreateEntityRow(entity) {
   const cached = entityRowCache.get(key);
   if (cached) return cached;
 
-  const row = document.createElement("button");
-  row.type = "button";
+  const row = document.createElement("div");
   row.innerHTML = `
     <span class="entity-left">
       <span class="entity-thumb-wrap">
