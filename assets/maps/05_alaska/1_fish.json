@@ -1323,19 +1323,20 @@
       },
       {
         "no": 2,
+        "x": 1750,
+        "y": 1710
+      },
+      {
+        "no": 3,
         "x": 1732.0066620949133,
         "y": 1422
       },
       {
-        "no": 3,
+        "no": 4,
         "x": 1219.052090765608,
         "y": 1691.399420598222
-      },
-      {
-        "no": 4,
-        "x": 1750,
-        "y": 1710
       }
+
     ],
     "notes": "The spot changes everyday. Check Discord to know the current spot.",
     "latin": "",

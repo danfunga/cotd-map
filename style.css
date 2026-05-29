@@ -503,6 +503,23 @@ main { padding: 0; }
   right: -5px;
   top: 5px;
 }
+.marker-number {
+  position: absolute;
+  left: -8px;
+  bottom: -6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: #9a1212;
+  color: #fff;
+  border: 2px solid #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1;
+}
 .caught-v {
   display: inline-block;
   color: #4cd964;

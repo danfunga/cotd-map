@@ -150,11 +150,12 @@ function label(entity) {
   return entity.display && entity.display.trim() !== "" ? entity.display : entity.name;
 }
 
-function markerIcon(entity, isPrimary = false) {
+function markerIcon(entity, isPrimary = false, markerIndex = 0) {
   const rarityKey = entity.rarity;
   const categoryKey = entity.category || "fish";
   const caught = isCaught(entity);
   const caughtClass = caught ? "caught" : "";
+  const markerNumber = categoryKey === "monster" ? (markerIndex + 1) : null;
 
   // console.log(getImagePath(entity));
   return L.divIcon({
@@ -166,6 +167,7 @@ function markerIcon(entity, isPrimary = false) {
         alt="${label(entity)}"
         onerror="this.style.display='none';this.previousElementSibling.style.display='block';"
       >
+      ${markerNumber ? `<span class="marker-number">${markerNumber}</span>` : ""}
       ${caught ? '<span class="caught-v marker-v">✓</span>' : ""}
     `,
     iconSize: [30, 30],
@@ -190,7 +192,7 @@ function getMarkerBundle(mapId, entity) {
 
   const locs = Array.isArray(entity.locations) ? entity.locations : [];
   const markers = locs.map((l, idx) => {
-    const marker = L.marker([l.y, l.x], { icon: markerIcon(entity, idx === 0) });
+    const marker = L.marker([l.y, l.x], { icon: markerIcon(entity, idx === 0, idx) });
     marker.on("click", () => openEntityDetail(entity));
     return marker;
   });
@@ -207,7 +209,7 @@ function updateMarkerBundleIcons(bundle, entity) {
   bundle.markers.forEach((marker, idx) => {
     const nextSig = markerVisualSignature(entity, idx === 0);
     if (bundle.iconSignatures[idx] === nextSig) return;
-    marker.setIcon(markerIcon(entity, idx === 0));
+    marker.setIcon(markerIcon(entity, idx === 0, idx));
     bundle.iconSignatures[idx] = nextSig;
   });
 }
