@@ -20,7 +20,8 @@ body {
 header,
 #mapPickerSection,
 #controls,
-#mapLayout {
+#mapLayout,
+#tipsLayout {
   width: min(100% - 16px, var(--layout-max));
   margin-left: auto;
   margin-right: auto;
@@ -770,4 +771,158 @@ main { padding: 0; }
 
 #hideAllBtn {
   color: #e6e2e2;
+}
+
+#tipsLayout {
+  padding: 10px;
+}
+#tipsFrame {
+  width: 100%;
+  height: 78vh;
+  min-height: 680px;
+  border: 1px solid rgba(71, 188, 245, 0.35);
+  border-radius: 12px;
+  background: transparent;
+}
+.tips-hero {
+  border: 1px solid rgba(112, 232, 200, 0.4);
+  border-radius: 14px;
+  padding: 14px;
+  background: linear-gradient(140deg, rgba(7, 61, 74, 0.92), rgba(9, 44, 83, 0.9));
+  margin-bottom: 10px;
+}
+.tips-hero h2 {
+  margin: 0 0 6px;
+  color: #8fffe7;
+  font-size: 24px;
+}
+.tips-hero p {
+  margin: 0;
+  color: #d6f7ff;
+  font-size: 14px;
+}
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.tips-card {
+  border: 1px solid rgba(71, 188, 245, 0.35);
+  border-radius: 12px;
+  padding: 12px;
+  background: rgba(2, 46, 65, 0.8);
+}
+.tips-card h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: #9dddff;
+}
+.tips-card p {
+  margin: 0 0 8px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+.skill-tree-mini {
+  display: grid;
+  gap: 10px;
+}
+.skill-branch {
+  border: 1px solid rgba(143, 220, 255, 0.24);
+  border-radius: 10px;
+  padding: 8px;
+  background: rgba(1, 62, 87, 0.35);
+}
+.skill-branch h4 {
+  margin: 0 0 6px;
+  color: #8fffe7;
+  font-size: 14px;
+}
+.skill-branch ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: grid;
+  gap: 5px;
+}
+.skill-branch li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  line-height: 1.35;
+}
+.skill-branch img {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  border: 1px solid rgba(71, 188, 245, 0.45);
+  object-fit: cover;
+}
+.tips-card a {
+  color: #ffd24f;
+  font-weight: 700;
+}
+.tips-table-wrap {
+  overflow-x: auto;
+  margin: 8px 0 10px;
+}
+.tips-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.tips-table th,
+.tips-table td {
+  border: 1px solid rgba(71, 188, 245, 0.35);
+  padding: 7px 8px;
+  vertical-align: top;
+  line-height: 1.4;
+}
+.tips-table th {
+  background: rgba(7, 91, 123, 0.55);
+  color: #9dddff;
+  text-align: left;
+}
+.tips-table td:first-child {
+  white-space: nowrap;
+  font-weight: 700;
+  color: #8fffe7;
+}
+.fish-lines {
+  white-space: normal;
+}
+.tips-card-wide {
+  grid-column: 1 / -1;
+}
+.tips-map-figure {
+  margin: 0;
+}
+.tips-map-figure img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(71, 188, 245, 0.45);
+}
+.map-chip.tips-chip {
+  border-style: dashed;
+  border-color: #46d8b7;
+}
+
+body.tips-mode #controls,
+body.tips-mode #mapLayout {
+  display: none !important;
+}
+
+body.tips-mode #tipsLayout {
+  display: block !important;
+}
+
+@media (max-width: 860px) {
+  #tipsFrame {
+    height: 74vh;
+    min-height: 560px;
+  }
+  .tips-grid {
+    grid-template-columns: 1fr;
+  }
 }

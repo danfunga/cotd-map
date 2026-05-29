@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tips</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Noto Sans KR", sans-serif;
+      background: transparent;
+      color: #e7f6ff;
+    }
+    * { box-sizing: border-box; }
+    .tips-page {
+      padding: 8px;
+    }
+    .tips-hero {
+      border: 1px solid rgba(112, 232, 200, 0.4);
+      border-radius: 14px;
+      padding: 14px;
+      background: linear-gradient(140deg, rgba(7, 61, 74, 0.92), rgba(9, 44, 83, 0.9));
+      margin-bottom: 10px;
+    }
+    .tips-hero h2 { margin: 0 0 6px; color: #8fffe7; font-size: 24px; }
+    .tips-hero p { margin: 0; color: #d6f7ff; font-size: 14px; }
+    .tips-top-nav {
+      display: flex;
+      gap: 8px;
+      margin: 0 auto 10px;
+      max-width: 900px;
+      flex-wrap: wrap;
+    }
+    .tips-top-btn {
+      border: 1px solid #0d729c;
+      background: #01344a;
+      color: #d8f2ff;
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .tips-top-btn.on {
+      border-color: #34c7ff;
+      color: #ffd24f;
+    }
+    .tips-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .tips-card {
+      border: 1px solid rgba(71, 188, 245, 0.35);
+      border-radius: 12px;
+      padding: 12px;
+      background: rgba(2, 46, 65, 0.8);
+      max-width: 860px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    .tips-card h3 { margin: 0 0 8px; font-size: 16px; color: #9dddff; }
+    .tips-card p { margin: 0 0 8px; font-size: 13px; line-height: 1.45; }
+    .tips-card a { color: #ffd24f; font-weight: 700; }
+    .skill-tree-mini { display: grid; gap: 10px; }
+    .skill-branch {
+      border: 1px solid rgba(143, 220, 255, 0.24);
+      border-radius: 10px;
+      padding: 8px;
+      background: rgba(1, 62, 87, 0.35);
+    }
+    .skill-branch h4 { margin: 0 0 6px; color: #8fffe7; font-size: 14px; }
+    .skill-branch ul { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 5px; }
+    .skill-branch li { display: flex; align-items: center; gap: 6px; font-size: 12px; line-height: 1.35; }
+    .skill-branch img {
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+      border: 1px solid rgba(71, 188, 245, 0.45);
+      object-fit: cover;
+    }
+    .tips-table-wrap { overflow-x: auto; margin: 8px 0 10px; }
+    .tips-table {
+      width: 100%;
+      min-width: 760px;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+    .tips-table th,
+    .tips-table td {
+      border: 1px solid rgba(71, 188, 245, 0.35);
+      padding: 7px 8px;
+      vertical-align: top;
+      line-height: 1.4;
+    }
+    .tips-table th { background: rgba(7, 91, 123, 0.55); color: #9dddff; text-align: left; }
+    .tips-table td:first-child { white-space: nowrap; font-weight: 700; color: #8fffe7; }
+    .fish-lines { white-space: normal; }
+    .fish-line {
+      display: block;
+      font-size: 14px;
+      line-height: 1.5;
+      font-weight: 600;
+    }
+    .fish-line.hit3 { color: #ff5f5f; font-weight: 800; }
+    .fish-line.hit2 { color: #6fb8ff; font-weight: 800; }
+    .tips-map-figure { margin: 0; }
+    .tips-map-figure img { width: 100%; border-radius: 10px; border: 1px solid rgba(71, 188, 245, 0.45); }
+  </style>
+</head>
+<body>
+  <main class="tips-page">
+    <section class="tips-hero">
+      <h2>Tips</h2>
+      <p>대충 필요 할거 같은것들...</p>
+    </section>
+    <div class="tips-top-nav" id="tipsTopNav">
+      <button type="button" class="tips-top-btn on" data-section="skills">SKILLS</button>
+      <button type="button" class="tips-top-btn" data-section="lures">Lures</button>
+      <button type="button" class="tips-top-btn" data-section="aquarium">Aquarium</button>
+    </div>
+
+    <section class="tips-grid">
+      <article class="tips-card" data-tips-section="skills">
+        <h3>1) Skills</h3>
+        <p>각 특성은 10단계가지 있다.</p>
+        <p>스킬 슬롯은 총 5개, MARINA에서만 설정 가능하다.</p>
+        <div class="skill-tree-mini">
+          <section class="skill-branch">
+            <h4>운 (LUCK)</h4>
+            <ul>
+              <li><strong>Lv2</strong> <img src="./assets/tips/skills/luck_gift_of_fate.jpg" alt="Gift of Fate"> 큰 개체 출현 확률 증가</li>
+              <li><strong>Lv5</strong> <img src="./assets/tips/skills/luck_potion_of_luck.jpg" alt="Potion of Luck"> 미끼의 유인 확률 증가</li>
+              <li><strong>Lv6</strong> <img src="./assets/tips/skills/luck_epic_catch.jpg" alt="Epic Catch"> 희귀/에픽 확률 증가</li>
+              <li><strong>Lv7</strong> <img src="./assets/tips/skills/luck_four_leaf_clover.jpg" alt="Four Leaf Power"> 클로버 효과 지속시간 2배</li>
+              <li><strong>Lv8</strong> <img src="./assets/tips/skills/luck_smile_of_fate.jpg" alt="Smile of Fate"> 정말 멋진 대형 어종 확률 증가</li>
+            </ul>
+          </section>
+          <section class="skill-branch">
+            <h4>힘 (Strength)</h4>
+            <ul>
+              <li><strong>Lv2</strong> <img src="./assets/tips/skills/strength_strong_hand.jpg" alt="Strong Hands"> 일반 어종 릴링 속도 증가</li>
+              <li><strong>Lv3</strong> <img src="./assets/tips/skills/strength_titans_harm.jpg" alt="Titan's Arms"> 캐스팅 속도 증가</li>
+              <li><strong>Lv4</strong> <img src="./assets/tips/skills/strength_iron_grip.jpg" alt="Iron Grip"> 격력한 싸움시 릴링 속도 증가</li>
+              <li><strong>Lv5</strong> <img src="./assets/tips/skills/strength_touch_of_luck.jpg" alt="Touch of Luck"> 10% 확률로 전투 없이 희귀 어종 획득</li>
+              <li><strong>Lv6</strong> <img src="./assets/tips/skills/strength_steel_line.jpg" alt="Steel Line"> 라인 내구/저항 증가</li>
+            </ul>
+          </section>
+          <section class="skill-branch">
+            <h4>반사 (Reflex)</h4>
+            <ul>
+              <li><strong>Lv2</strong> <img src="./assets/tips/skills/reflex_master_of_reaction.jpg" alt="Master of Reaction"> 찌 반응 입력 여유 시간 증가</li>
+              <li><strong>Lv3</strong> <img src="./assets/tips/skills/reflex_durable_gear.jpg" alt="Durable Gear"> 낚시대 내구성 증가</li>
+              <li><strong>Lv4</strong> <img src="./assets/tips/skills/reflex_pure_focus.jpg" alt="Pure Focus"> 강한 개체 전투 난이도 완화</li>
+              <li><strong>Lv5</strong> <img src="./assets/tips/skills/reflex_persistent_grip.jpg" alt="Persistent Grip"> 물고기 피로 누적 속도 증가</li>
+              <li><strong>Lv6</strong> <img src="./assets/tips/skills/reflex_marathoner.jpg" alt="Marathoner"> 이동 속도 증가</li>
+            </ul>
+          </section>
+          <section class="skill-branch">
+            <h4>지각 (Perception)</h4>
+            <ul>
+              <li><strong>Lv2</strong> <img src="./assets/tips/skills/perception_sharp_vision.jpg" alt="Sharp Vision"> 물고기 때 가시성 향상</li>
+              <li><strong>Lv3</strong> <img src="./assets/tips/skills/perception_fish_magnet.jpg" alt="Fish Magnet"> 보트 주변 물고기 수 증가</li>
+              <li><strong>Lv4</strong> <img src="./assets/tips/skills/perception_eyes_of_the_night.jpg" alt="Eyes of the Night"> 야간 시야 향상</li>
+              <li><strong>Lv5</strong> <img src="./assets/tips/skills/perception_whisper_of_the_depths.jpg" alt="Whisper of the Depths"> 희귀/에픽 근처 사운드 힌트</li>
+              <li><strong>Lv6</strong> <img src="./assets/tips/skills/perception_eye_of_rarity.jpg" alt="Eye of Rarity"> 희귀/에픽 그림자 구분</li>
+            </ul>
+          </section>
+          <section class="skill-branch">
+            <h4>카리스마 (Carisma / Charisma)</h4>
+            <ul>
+              <li><strong>Lv1</strong> <img src="./assets/tips/skills/charisma_vip_transfer.jpg" alt="VIP Transfer"> 어디서나 VIP 이동</li>
+              <li><strong>Lv2</strong> <img src="./assets/tips/skills/charisma_trader_of_the_year.jpg" alt="Trader of the Year"> 판매 보너스</li>
+              <li><strong>Lv4</strong> <img src="./assets/tips/skills/charisma_local_favorite.jpg" alt="Local Favorite"> NPC XP 보상 증가</li>
+              <li><strong>Lv6</strong> <img src="./assets/tips/skills/charisma_negotiator.jpg" alt="Negotiator"> 상점 가격 할인</li>
+              <li><strong>Lv8</strong> <img src="./assets/tips/skills/charisma_creature_charmer.jpg" alt="Creature Charmer"> 생명체 포획 확률 증가</li>
+              <li><strong>Lv10</strong> <img src="./assets/tips/skills/charisma_aura_of_dread.jpg" alt="Aura of Dread"> 미끼 몬스터 소환 확률 증가</li>
+            </ul>
+          </section>
+        </div>
+      </article>
+
+      <article class="tips-card" data-tips-section="lures" hidden>
+        <h3>2) Lures 업그레이드 추천 정보</h3>
+        <p>대회 기준으로 3개 컬럼 모두에 나오면 빨간색, 2개 컬럼에 나오면 파란색으로 표시됩니다.</p>
+        <div class="tips-table-wrap">
+          <table class="tips-table" id="lureTable">
+            <thead>
+              <tr><th>지역</th><th>토너먼트</th><th>클랜 챌린지</th><th>듀얼</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </article>
+
+      <article class="tips-card" data-tips-section="aquarium" hidden>
+        <h3>3) 아쿠아리움 내부 지도</h3>
+        <p>계단이 정확하지는 않다...</p>
+        <figure class="tips-map-figure">
+          <img src="./assets/tips/aquarium.png" alt="아쿠아리움 지도">
+        </figure>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    const SOURCE_ROWS = [
+      { location: "Paradise Island", mapId: "02_paradise-island", t: ["Bluefish", "Largetooth Flounder", "Longtail Tuna", "Spot-fin Porcupinefish", "White Tuna"], c: ["Bluefish", "Blue Trevally", "Clownfish", "Green Humphead Parrotfish", "Largetooth Flounder", "Longtail Tuna", "Spot-fin Porcupinefish", "White Tuna"], d: ["Bluefish", "Blue Trevally", "Largetooth Flounder", "Longtail Tuna", "Snubnose pompano", "Spot-fin Porcupinefish", "White Tuna"] },
+      { location: "Great Lakes", mapId: "03_great-lakes", t: ["Brook Trout", "Channel Catfish", "Coho Salmon", "Largemouth Bass", "Smallmouth Bass", "White Bass"], c: ["Brook Trout", "Channel Catfish", "Chinook Salmon", "Coho Salmon", "Largemouth Bass", "Sea Lamprey", "White Bass", "Yellow Perch"], d: ["Chinook Salmon", "Coho Salmon", "Lake Trout", "Largemouth Bass", "Pink Salmon", "White Bass"] },
+      { location: "Costa Rica", mapId: "04_costa-rica", t: ["Dorado", "Roosterfish", "Tarpon"], c: ["Barracuda", "Blue Marlin", "Dorado", "Pompano", "Roosterfish", "Snook", "Tarpon", "Yellowfin Tuna"], d: ["Barracuda", "Dorado", "Pompano", "Roosterfish", "Snook", "Tarpon"] },
+      { location: "Alaska", mapId: "05_alaska", t: ["Coalfish", "Lancetfish", "Steelhead"], c: ["Arctic Char", "Dolly Varden", "Rougheye Rockfish", "Spiny Skate"], d: ["Humpback Salmon", "Rougheye Rockfish"] },
+      { location: "Australia", mapId: "06_australia", t: ["black-saddler coral grouper", "Common Stargazer", "Golden Trevally", "Spanish mackerel"], c: ["Carpet Shark", "John Dory", "Skipjack Tuna", "Swordfish", "Barramundi", "Tailor", "Giant Trevally", "Coral Trout", "Albacore", "black-saddler coral grouper", "Golden Trevally", "Queensland Grouper"], d: [] },
+      { location: "Scotland", mapId: "07_scotland", t: ["Allis Shad", "Carp", "European Whitefish", "Freshwater Bream", "Lamprey", "Rainbow Trout", "Rudd"], c: ["European Perch", "Tench", "Sea Trout", "European Eel", "Carp", "European Whitefish", "Freshwater Bream", "Rainbow Trout"], d: [] },
+      { location: "Thailand", mapId: "08_thailand", t: [], c: ["Bighead carp", "Malayan leaffish", "Giant freshwater whipray", "Giant siamese", "Bambusa", "Great snakehead", "Spotted sorubim", "Empurau"], d: [] },
+      { location: "Amazon", mapId: "09_amazon", t: [], c: ["Freshwater Barracuda", "Giant Trahira", "Red Piranha", "Zungaro", "Amazon Puffer", "Corvina", "Rock-bacu", "Cachama"], d: [] }
+    ];
+
+    const COLS = ["t", "c", "d"];
+    let lureRows = [];
+
+    function norm(v) {
+      return String(v || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+    }
+
+    async function loadDisplayMap(mapId) {
+      const res = await fetch(`./assets/maps/${mapId}/1_fish.json`);
+      if (!res.ok) return new Map();
+      const data = await res.json();
+      const byNorm = new Map();
+      data.forEach((f) => {
+        byNorm.set(norm(f.name), f.display || f.name || "");
+      });
+      return byNorm;
+    }
+
+    function classify(row) {
+      const count = new Map();
+      COLS.forEach((key) => {
+        const uniq = new Set(row[key] || []);
+        uniq.forEach((fish) => count.set(fish, (count.get(fish) || 0) + 1));
+      });
+      return count;
+    }
+
+    function renderCell(list, countMap) {
+      if (!list.length) return '<div class="fish-lines">-</div>';
+      return `<div class="fish-lines">${list.map((name) => {
+        const n = countMap.get(name) || 0;
+        const cls = n >= 3 ? "hit3" : (n === 2 ? "hit2" : "");
+        return `<span class="fish-line ${cls}">${name}</span>`;
+      }).join("")}</div>`;
+    }
+
+    function renderTable() {
+      const tbody = document.querySelector("#lureTable tbody");
+      tbody.innerHTML = lureRows.map((row) => {
+        const countMap = classify(row);
+        return `<tr><td>${row.location}</td><td>${renderCell(row.t, countMap)}</td><td>${renderCell(row.c, countMap)}</td><td>${renderCell(row.d, countMap)}</td></tr>`;
+      }).join("");
+    }
+
+    function wireTopTabs() {
+      const buttons = document.querySelectorAll(".tips-top-btn");
+      const sections = document.querySelectorAll("[data-tips-section]");
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const target = btn.dataset.section;
+          buttons.forEach((b) => b.classList.toggle("on", b === btn));
+          sections.forEach((sec) => {
+            sec.hidden = sec.dataset.tipsSection !== target;
+          });
+        });
+      });
+    }
+
+    async function buildRows() {
+      lureRows = await Promise.all(SOURCE_ROWS.map(async (row) => {
+        const displayMap = await loadDisplayMap(row.mapId);
+        const convert = (arr) => arr.map((name) => displayMap.get(norm(name)) || name);
+        return {
+          location: row.location,
+          t: convert(row.t),
+          c: convert(row.c),
+          d: convert(row.d)
+        };
+      }));
+    }
+
+    (async () => {
+      wireTopTabs();
+      await buildRows();
+      renderTable();
+    })();
+  </script>
+</body>
+</html>

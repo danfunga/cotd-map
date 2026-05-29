@@ -14,7 +14,11 @@ const detailSheet = document.getElementById("detailSheet");
 const detailBody = document.getElementById("detailBody");
 const detailClose = document.getElementById("detailClose");
 const detailBackdrop = document.getElementById("detailBackdrop");
+const controlsSection = document.getElementById("controls");
+const mapLayout = document.getElementById("mapLayout");
+const tipsLayout = document.getElementById("tipsLayout");
 const STORAGE_KEY = "cotd-map:user-state:v1";
+const TIPS_PAGE_ID = "__tips__";
 
 const defaults = {
     category: new Set(["fish", "creature", "item", "monster"]),
@@ -31,6 +35,7 @@ const filters = {
 };
 
 let currentMapId = mapOrder[0];
+let isTipsMode = false;
 let mapInstance = null;
 let markerLayer = null;
 let lastFilteredEntities = [];
@@ -90,6 +95,7 @@ function isCaught(entity, mapId = currentMapId) {
 function saveUserState() {
   const payload = {
     mapId: currentMapId,
+    isTipsMode,
     filters: {
       category: [...filters.category],
       time: [...filters.time],
@@ -110,6 +116,7 @@ function loadUserState() {
     if (!raw) return;
     const data = JSON.parse(raw);
     if (mapOrder.includes(data.mapId)) currentMapId = data.mapId;
+    isTipsMode = Boolean(data.isTipsMode);
     if (data.filters && typeof data.filters === "object") {
       for (const group of ["category", "time", "rarity", "availability"]) {
         const values = Array.isArray(data.filters[group]) ? data.filters[group] : null;
@@ -305,11 +312,28 @@ function buildPicker() {
     button.addEventListener("click", () => selectMap(mapInfo.id));
     mapPicker.appendChild(button);
   });
+  const tipsButton = document.createElement("button");
+  tipsButton.type = "button";
+  tipsButton.className = "map-chip tips-chip";
+  tipsButton.dataset.mapId = TIPS_PAGE_ID;
+  tipsButton.innerHTML = "<span>Tips</span>";
+  tipsButton.addEventListener("click", () => selectTipsPage());
+  mapPicker.appendChild(tipsButton);
 }
 
 function applyPickerState() {
   const chips = mapPicker.querySelectorAll(".map-chip");
-  chips.forEach((chip) => chip.classList.toggle("active", chip.dataset.mapId === currentMapId));
+  chips.forEach((chip) => {
+    const active = isTipsMode ? chip.dataset.mapId === TIPS_PAGE_ID : chip.dataset.mapId === currentMapId;
+    chip.classList.toggle("active", active);
+  });
+}
+
+function applyViewMode() {
+  document.body.classList.toggle("tips-mode", isTipsMode);
+  controlsSection.hidden = isTipsMode;
+  mapLayout.hidden = isTipsMode;
+  tipsLayout.hidden = !isTipsMode;
 }
 
 function applyFilterButtonState() {
@@ -768,10 +792,20 @@ function renderMap() {
 
 function selectMap(mapId) {
   closeDetail();
+  isTipsMode = false;
   currentMapId = mapId;
+  applyViewMode();
   applyPickerState();
   saveUserState();
   renderMap();
+}
+
+function selectTipsPage() {
+  closeDetail();
+  isTipsMode = true;
+  applyViewMode();
+  applyPickerState();
+  saveUserState();
 }
 
 function resetFilters() {
@@ -801,6 +835,7 @@ function clearFilterGroup(group) {
 document.addEventListener("DOMContentLoaded", () => {
   loadUserState();
   buildPicker();
+  applyViewMode();
   applyPickerState();
   createMapIfNeeded();
   applyFilterButtonState();
@@ -867,5 +902,6 @@ document.addEventListener("DOMContentLoaded", () => {
     openEntityDetail(entity);
     scheduleRenderMarkers();
   });
-  renderMap();
+  if (isTipsMode) selectTipsPage();
+  else renderMap();
 });
