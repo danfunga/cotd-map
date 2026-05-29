@@ -9,6 +9,7 @@ const entityList = document.getElementById("entityList");
 const showAllBtn = document.getElementById("showAllBtn");
 const hideAllBtn = document.getElementById("hideAllBtn");
 const caughtFilterAllBtn = document.getElementById("caughtFilterAllBtn");
+const todaySpotToggleBtn = document.getElementById("todaySpotToggleBtn");
 const panelToggleBtn = document.getElementById("panelToggleBtn");
 const detailSheet = document.getElementById("detailSheet");
 const detailBody = document.getElementById("detailBody");
@@ -60,6 +61,27 @@ const caughtFilterMode = {
   creature: "all",
   item: "all"
 };
+const MONSTER_ROTATION_MAP_IDS = new Set([
+  "02_paradise-island",
+  "03_great-lakes",
+  "04_costa-rica",
+  "05_alaska",
+  "06_australia",
+  "07_scotland",
+  "08_thailand",
+  "09_amazon"
+]);
+const MONSTER_ROTATION_CONFIG = {
+  "02_paradise-island": { startDate: "2024-05-01", rotation: [1, 3, 2, 2, 3, 1, 2, 3, 3, 2, 1, 3, 2, 3, 2, 3, 3, 2, 2, 2, 2, 2, 1, 1, 3, 3] },
+  "03_great-lakes": { startDate: "2024-05-01", rotation: [1, 4, 3, 3, 2, 4, 1, 4, 2, 4, 1, 2, 1, 3, 3, 2, 2, 3, 3, 1, 3, 3, 4, 3, 1, 3] },
+  "04_costa-rica": { startDate: "2024-05-01", rotation: [3, 1, 2, 2, 1, 3, 2, 1, 1, 2, 3, 1, 2, 1, 2, 1, 1, 2, 2, 2, 2, 2, 3, 3, 1, 1] },
+  "05_alaska": { startDate: "2024-05-01", rotation: [3, 4, 1, 1, 2, 4, 3, 4, 2, 4, 3, 2, 3, 1, 1, 2, 2, 1, 1, 3, 1, 1, 4, 1, 3, 1] },
+  "06_australia": { startDate: "2024-05-01", rotation: [3, 4, 1, 1, 2, 4, 3, 4, 2, 4, 3, 2, 3, 1, 1, 2, 2, 1, 1, 3, 1, 1, 4, 1, 3, 1] },
+  "07_scotland": { startDate: "2024-05-01", rotation: [1, 5, 2, 2, 5, 6, 2, 5, 5, 4, 1, 5, 2, 3, 2, 5, 5, 2, 2, 2, 2, 2, 6, 1, 3, 3] },
+  "08_thailand": { startDate: "2026-04-03", rotation: [3, 2, 1, 1, 4, 2, 3, 2, 4, 2, 3, 4, 3, 1, 1, 4, 4, 1, 1, 3, 1, 1, 2, 1, 3, 1] },
+  "09_amazon": { startDate: "2024-05-01", rotation: [3, 4, 1, 1, 2, 4, 3, 4, 2, 4, 3, 2, 3, 1, 1, 2, 2, 1, 1, 3, 1, 1, 4, 1, 3, 1] }
+};
+let monsterRotationRevealed = false;
 
 function nextCaughtMode(mode) {
   if (mode === "all") return "caught";
@@ -150,25 +172,68 @@ function label(entity) {
   return entity.display && entity.display.trim() !== "" ? entity.display : entity.name;
 }
 
+function isMonsterRotationMap(mapId = currentMapId) {
+  return MONSTER_ROTATION_MAP_IDS.has(mapId);
+}
+
+function parseYmdLocal(ymd) {
+  if (!ymd || typeof ymd !== "string") return null;
+  const [y, m, d] = ymd.trim().split("-").map((v) => Number(v));
+  if (!Number.isFinite(y) || !Number.isFinite(m) || !Number.isFinite(d)) return null;
+  return new Date(y, m - 1, d);
+}
+
+function monsterGameDayMidnightLocal() {
+  const now = new Date();
+  const shifted = new Date(now.getTime() - 4 * 60 * 60 * 1000);
+  return new Date(shifted.getFullYear(), shifted.getMonth(), shifted.getDate());
+}
+
+function getMonsterRotationActiveIndex(entity, mapId = currentMapId) {
+  if (!entity || entity.category !== "monster" || !isMonsterRotationMap(mapId)) return null;
+  const cfg = MONSTER_ROTATION_CONFIG[mapId];
+  if (!cfg || !Array.isArray(cfg.rotation) || cfg.rotation.length === 0) return null;
+  const locs = Array.isArray(entity.locations) ? entity.locations : [];
+  if (locs.length <= 1) return null;
+  const start = parseYmdLocal(cfg.startDate);
+  if (!start) return null;
+  const today = monsterGameDayMidnightLocal();
+  const dayOffset = Math.floor((today.getTime() - start.getTime()) / 86400000);
+  if (dayOffset < 0) return null;
+  const raw = Number(cfg.rotation[dayOffset % cfg.rotation.length]);
+  if (!Number.isFinite(raw)) return null;
+  if (raw >= 1 && raw <= locs.length) return raw - 1;
+  if (raw >= 0 && raw < locs.length) return Math.floor(raw);
+  return null;
+}
+
 function markerIcon(entity, isPrimary = false, markerIndex = 0) {
   const rarityKey = entity.rarity;
   const categoryKey = entity.category || "fish";
   const caught = isCaught(entity);
   const caughtClass = caught ? "caught" : "";
   const markerNumber = categoryKey === "monster" ? (markerIndex + 1) : null;
+  const activeMonsterIndex = getMonsterRotationActiveIndex(entity);
+  const shouldDimByRotation =
+    categoryKey === "monster" &&
+    isMonsterRotationMap() &&
+    monsterRotationRevealed &&
+    activeMonsterIndex !== null &&
+    markerIndex !== activeMonsterIndex;
+  const rotationDimClass = shouldDimByRotation ? "rotation-dim" : "";
 
   // console.log(getImagePath(entity));
   return L.divIcon({
     className: "photo-marker-wrap",
     html: `
       <div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}" ></div>
-      <img class="photo-marker rarity-${rarityKey} ${isPrimary ? "primary-location" : ""} ${caughtClass}"
+      <img class="photo-marker rarity-${rarityKey} ${rotationDimClass} ${isPrimary ? "primary-location" : ""} ${caughtClass}"
         src="${getImagePath(entity)}"
         alt="${label(entity)}"
         onerror="this.style.display='none';this.previousElementSibling.style.display='block';"
       >
-      ${markerNumber ? `<span class="marker-number">${markerNumber}</span>` : ""}
-      ${caught ? '<span class="caught-v marker-v">✓</span>' : ""}
+      ${markerNumber ? `<span class="marker-number ${rotationDimClass}">${markerNumber}</span>` : ""}
+      ${caught ? `<span class="caught-v marker-v ${rotationDimClass}">✓</span>` : ""}
     `,
     iconSize: [30, 30],
     iconAnchor: [15, 15],
@@ -177,7 +242,8 @@ function markerIcon(entity, isPrimary = false, markerIndex = 0) {
 }
 
 function markerVisualSignature(entity, isPrimary) {
-  return `${entity.rarity}|${entity.category}|${isPrimary ? "1" : "0"}|${isCaught(entity) ? "1" : "0"}`;
+  const activeMonsterIndex = getMonsterRotationActiveIndex(entity);
+  return `${entity.rarity}|${entity.category}|${isPrimary ? "1" : "0"}|${isCaught(entity) ? "1" : "0"}|${monsterRotationRevealed ? "1" : "0"}|${activeMonsterIndex ?? "x"}`;
 }
 
 function getMarkerBundle(mapId, entity) {
@@ -336,6 +402,17 @@ function applyViewMode() {
   controlsSection.hidden = isTipsMode;
   mapLayout.hidden = isTipsMode;
   tipsLayout.hidden = !isTipsMode;
+  updateTodaySpotToggleButton();
+}
+
+function updateTodaySpotToggleButton() {
+  if (!todaySpotToggleBtn) return;
+  const visible = !isTipsMode && isMonsterRotationMap();
+  todaySpotToggleBtn.hidden = !visible;
+  if (!visible) return;
+  todaySpotToggleBtn.classList.toggle("on", monsterRotationRevealed);
+  todaySpotToggleBtn.setAttribute("aria-pressed", monsterRotationRevealed ? "true" : "false");
+  todaySpotToggleBtn.textContent = monsterRotationRevealed ? "스팟 ON" : "스팟 OFF";
 }
 
 function applyFilterButtonState() {
@@ -757,6 +834,7 @@ function toggleEntityPanel() {
 function renderMap() {
   const mapInfo = mapsById[currentMapId];
   const bounds = [[0, 0], [mapInfo.imageHeight, mapInfo.imageWidth]];
+  updateTodaySpotToggleButton();
 
   mapInstance.eachLayer((layer) => {
     if (!(layer instanceof L.TileLayer) && layer !== markerLayer) mapInstance.removeLayer(layer);
@@ -843,6 +921,7 @@ document.addEventListener("DOMContentLoaded", () => {
   applyFilterButtonState();
   applyFishOnlyState();
   syncCaughtFilterAllButton();
+  updateTodaySpotToggleButton();
 
   filterButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -882,6 +961,12 @@ document.addEventListener("DOMContentLoaded", () => {
     scheduleRenderMarkers();
   });
   panelToggleBtn.addEventListener("click", toggleEntityPanel);
+  todaySpotToggleBtn?.addEventListener("click", () => {
+    if (!isMonsterRotationMap()) return;
+    monsterRotationRevealed = !monsterRotationRevealed;
+    updateTodaySpotToggleButton();
+    scheduleRenderMarkers(false);
+  });
   detailClose.addEventListener("click", closeDetail);
   detailBackdrop.addEventListener("click", closeDetail);
   detailSheet.addEventListener("click", (event) => {
