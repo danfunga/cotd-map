@@ -1095,7 +1095,7 @@
   {
     "id": "422",
     "name": "queensland grouper",
-    "display": "퀸즐랜드자이언트그루퍼",
+    "display": "대왕바리",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
@@ -1280,7 +1280,7 @@
   {
     "id": "426",
     "name": "giant trevally",
-    "display": "거대 트레발리",
+    "display": "무명갈전갱이",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
@@ -1292,13 +1292,11 @@
       },
       {
         "no": 2,
-        "x": 355.5,
-        "y": 117
+        "x": 401, "y": 105
       },
       {
         "no": 3,
-        "x": 800.4448763031718,
-        "y": 109.60155108391486
+        "x": 850, "y": 144
       }
     ],
     "notes": "",
