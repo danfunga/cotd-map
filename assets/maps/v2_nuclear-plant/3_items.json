@@ -5,7 +5,6 @@
     "display": "볼링공",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -31,7 +30,6 @@
     "display": "볼링 핀",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -57,7 +55,6 @@
     "display": "볼링화",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -83,7 +80,6 @@
     "display": "죽은 배터리",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -114,7 +110,6 @@
     "display": "\"캣아이\" 안경",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -140,7 +135,6 @@
     "display": "개밥 캔",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -171,7 +165,6 @@
     "display": "할머니의 설탕에 절인 과일",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -197,7 +190,6 @@
     "display": "햄버거",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -223,7 +215,6 @@
     "display": "'ATOM의 이해' 책",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -249,7 +240,6 @@
     "display": "독특한 과학 포수",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -275,7 +265,6 @@
     "display": "실험실 냉장고",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -301,7 +290,6 @@
     "display": "VHS 테이프 '머드맥스'",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -327,7 +315,6 @@
     "display": "플로피 디스크 “POND”",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -353,7 +340,6 @@
     "display": "펀치 카드",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -384,7 +370,6 @@
     "display": "열 가열 장치",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -410,7 +395,6 @@
     "display": "로켓 콜라 병",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -436,7 +420,6 @@
     "display": "캔디 디스펜서",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -462,7 +445,6 @@
     "display": "제어 칩",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -488,7 +470,6 @@
     "display": "도시락",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -514,7 +495,6 @@
     "display": "도시락 열쇠",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -540,7 +520,6 @@
     "display": "레트로 TV",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -566,7 +545,6 @@
     "display": "우라늄 용기",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -592,7 +570,6 @@
     "display": "우라노판",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -623,7 +600,6 @@
     "display": "진공청소기",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -649,7 +625,6 @@
     "display": "레트로 세탁기",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

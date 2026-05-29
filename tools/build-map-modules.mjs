@@ -217,7 +217,6 @@ for (const map of MAPS) {
       display: toKoreanDisplay(entity?.names?.en || entity?.name || ''),
       category,
       rarity,
-      isMonster: entity === clover.monster,
       timeBand: toTimeBand(entity),
       locations,
       notes: entity?.snippet || '',

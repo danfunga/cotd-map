@@ -701,7 +701,7 @@ function getOrCreateEntityRow(entity) {
 }
 
 function updateEntityRow(rowUi, entity) {
-  const rarityKey = entity.isMonster ? "monster" : entity.rarity;
+  const rarityKey =  entity.rarity;
   rowUi.row.className = `entity-row rarity-${rarityKey} ${hiddenEntityIds.has(entity.id) ? "off" : ""} ${isCaught(entity) ? "caught" : ""}`;
   const count = Array.isArray(entity.locations) ? entity.locations.length : 0;
   rowUi.countEl.textContent = String(count);

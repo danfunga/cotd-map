@@ -5,7 +5,6 @@
     "display": "붉은 불가사리",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -50,7 +49,6 @@
     "display": "진주 홍합",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -90,7 +88,6 @@
     "display": "해삼류",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -130,7 +127,6 @@
     "display": "작은부레관해파리",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -169,7 +165,6 @@
     "display": "분홍색 성게",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -214,7 +209,6 @@
     "display": "호주 은바치 해파리",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -279,7 +273,6 @@
     "display": "말미잘",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -329,7 +322,6 @@
     "display": "콜리플라워 산호",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -374,7 +366,6 @@
     "display": "듀공",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -412,7 +403,6 @@
     "display": "바닷악어",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -452,7 +442,6 @@
     "display": "거대 오징어",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -490,7 +479,6 @@
     "display": "푸른 고리 문어",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

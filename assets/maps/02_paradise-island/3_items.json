@@ -5,7 +5,6 @@
     "display": "빈 병",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -30,7 +29,6 @@
     "display": "비닐 봉지",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -55,7 +53,6 @@
     "display": "마스크",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -85,7 +82,6 @@
     "display": "플라스틱 병",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -110,7 +106,6 @@
     "display": "병 속의 메시지",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -135,7 +130,6 @@
     "display": "생선 통조림",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -160,7 +154,6 @@
     "display": "밀짚 모자",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -185,7 +178,6 @@
     "display": "장비",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -210,7 +202,6 @@
     "display": "피나콜라다 음료",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -235,7 +226,6 @@
     "display": "오래된 핸드폰",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -260,7 +250,6 @@
     "display": "해초",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -290,7 +279,6 @@
     "display": "다시마",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -315,7 +303,6 @@
     "display": "쪼리",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -345,7 +332,6 @@
     "display": "캔",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -375,7 +361,6 @@
     "display": "감자칩",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -400,7 +385,6 @@
     "display": "도시락 상자",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -425,7 +409,6 @@
     "display": "해골 열쇠",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -450,7 +433,6 @@
     "display": "상자",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -475,7 +457,6 @@
     "display": "윌슨 공",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -500,7 +481,6 @@
     "display": "고무 오리",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -525,7 +505,6 @@
     "display": "냉장고 자석",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

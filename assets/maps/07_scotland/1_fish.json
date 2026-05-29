@@ -5,7 +5,6 @@
     "display": "잉어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -58,7 +57,6 @@
     "display": "바다 송어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -100,7 +98,6 @@
     "display": "회색 송어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -148,7 +145,6 @@
     "display": "트와이트 샤드",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -190,7 +186,6 @@
     "display": "포완",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -232,7 +227,6 @@
     "display": "민물도미",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -274,7 +268,6 @@
     "display": "가시가 세 개인 큰가시등",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -327,7 +320,6 @@
     "display": "처브",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -374,7 +366,6 @@
     "display": "텐치",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -431,7 +422,6 @@
     "display": "알리스 청어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -494,7 +484,6 @@
     "display": "노던 파이크",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -542,7 +531,6 @@
     "display": "무지개 송어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -589,7 +577,6 @@
     "display": "잘 속는 사람",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -632,7 +619,6 @@
     "display": "벤다스",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -685,7 +671,6 @@
     "display": "바퀴벌레",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -747,7 +732,6 @@
     "display": "러드",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -819,7 +803,6 @@
     "display": "칠성장어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -896,7 +879,6 @@
     "display": "유럽 ​​농어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -949,7 +931,6 @@
     "display": "황어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -1017,7 +998,6 @@
     "display": "유럽의 빙어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -1070,7 +1050,6 @@
     "display": "유럽 ​​장어",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -1122,7 +1101,6 @@
     "display": "유럽의 회색빛",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -1174,7 +1152,6 @@
     "display": "유럽 ​​흰살생선",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1221,7 +1198,6 @@
     "display": "황소 송어",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1268,7 +1244,6 @@
     "display": "스코틀랜드 연어",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -1315,7 +1290,6 @@
     "display": "철갑상어",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -1367,7 +1341,6 @@
     "display": "네시",
     "category": "monster",
     "rarity": "monster",
-    "isMonster": true,
     "timeBand": "both",
     "locations": [
       {

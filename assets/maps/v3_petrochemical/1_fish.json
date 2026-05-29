@@ -5,7 +5,6 @@
     "display": "Swinklet",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -47,7 +46,6 @@
     "display": "Pavonyx",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -89,7 +87,6 @@
     "display": "Grungletide",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -131,7 +128,6 @@
     "display": "Harefin",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -173,7 +169,6 @@
     "display": "Balloonflare",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -211,7 +206,6 @@
     "display": "Shooloop",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -253,7 +247,6 @@
     "display": "Meliglow",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -291,7 +284,6 @@
     "display": "Moosecarver",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -333,7 +325,6 @@
     "display": "Harmonelle",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -375,7 +366,6 @@
     "display": "Mooline",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -417,7 +407,6 @@
     "display": "Olexis",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -459,7 +448,6 @@
     "display": "Punkflare",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -501,7 +489,6 @@
     "display": "Cresthorn",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -543,7 +530,6 @@
     "display": "Garlite",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -585,7 +571,6 @@
     "display": "Cirquelight",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -627,7 +612,6 @@
     "display": "Hartspike",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -674,7 +658,6 @@
     "display": "Arakelle",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -712,7 +695,6 @@
     "display": "Globulett",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -754,7 +736,6 @@
     "display": "Taurfin",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -792,7 +773,6 @@
     "display": "Speartide",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -830,7 +810,6 @@
     "display": "Elephara",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -868,7 +847,6 @@
     "display": "Ladybelle",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -906,7 +884,6 @@
     "display": "Giraffine",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -944,7 +921,6 @@
     "display": "Rhynorid",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -982,7 +958,6 @@
     "display": "Tailtress",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

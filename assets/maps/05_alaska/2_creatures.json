@@ -5,7 +5,6 @@
     "display": "알래스카 새우",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -70,7 +69,6 @@
     "display": "자이언트 캘리포니아 해삼",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -120,7 +118,6 @@
     "display": "보름달물해파리",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -190,7 +187,6 @@
     "display": "아메리카대왕 오징어",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -233,7 +229,6 @@
     "display": "커먼 썬스타",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -298,7 +293,6 @@
     "display": "면도칼 조개",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -343,7 +337,6 @@
     "display": "바다코끼리",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -393,7 +386,6 @@
     "display": "왕게",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -458,7 +450,6 @@
     "display": "횐곰",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -501,7 +492,6 @@
     "display": "벨루가",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -544,7 +534,6 @@
     "display": "나왈",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -587,7 +576,6 @@
     "display": "아델리펭귄",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -627,7 +615,6 @@
     "display": "항구 인감",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -672,7 +659,6 @@
     "display": "범고래",
     "category": "creature",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

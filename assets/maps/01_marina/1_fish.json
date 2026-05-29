@@ -5,7 +5,6 @@
     "display": "멸치",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -62,7 +61,6 @@
     "display": "정어리",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -149,7 +147,6 @@
     "display": "멸치류",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -191,7 +188,6 @@
     "display": "도미",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -233,7 +229,6 @@
     "display": "줄무늬 양태",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -290,7 +285,6 @@
     "display": "망둥어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -337,7 +331,6 @@
     "display": "은치",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -384,7 +377,6 @@
     "display": "블롭피쉬",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

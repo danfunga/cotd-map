@@ -5,7 +5,6 @@
     "display": "파란색 카세트",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -30,7 +29,6 @@
     "display": "고장난 어군탐지기",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -70,7 +68,6 @@
     "display": "감자칩 봉지",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -105,7 +102,6 @@
     "display": "나침반",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -130,7 +126,6 @@
     "display": "낚싯줄",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -175,7 +170,6 @@
     "display": "얼은 도토리",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -210,7 +204,6 @@
     "display": "얼어붙은 상자",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -250,7 +243,6 @@
     "display": "얼어붙은 열쇠",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -295,7 +287,6 @@
     "display": "기름 배럴",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -320,7 +311,6 @@
     "display": "금 덩어리",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -345,7 +335,6 @@
     "display": "금 냄비",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -370,7 +359,6 @@
     "display": "햄 통조림",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -395,7 +383,6 @@
     "display": "작살",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -420,7 +407,6 @@
     "display": "내장 튜브",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -450,7 +436,6 @@
     "display": "구명조끼",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -485,7 +470,6 @@
     "display": "운석",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -510,7 +494,6 @@
     "display": "큰사슴 뿔",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -545,7 +528,6 @@
     "display": "스키",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -570,7 +552,6 @@
     "display": "눈삽",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -605,7 +586,6 @@
     "display": "눈사람 모자",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -645,7 +625,6 @@
     "display": "설피",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -670,7 +649,6 @@
     "display": "테릭스 플로피 디스크",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -720,7 +698,6 @@
     "display": "비디오 테이프",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -750,7 +727,6 @@
     "display": "바이킹 헬멧",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -775,7 +751,6 @@
     "display": "LP판",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -825,7 +800,6 @@
     "display": "바다코끼리 엄니",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -855,7 +829,6 @@
     "display": "냉장고 자석",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

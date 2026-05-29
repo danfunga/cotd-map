@@ -5,7 +5,6 @@
     "display": "바다 달팽이",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -45,7 +44,6 @@
     "display": "불성게",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -85,7 +83,6 @@
     "display": "벌레조개",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -140,7 +137,6 @@
     "display": "유럽불가사리",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -180,7 +176,6 @@
     "display": "소라게",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -255,7 +250,6 @@
     "display": "롱스파인 성게",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -295,7 +289,6 @@
     "display": "카리비안 크랩",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -340,7 +333,6 @@
     "display": "소라게",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

@@ -5,7 +5,6 @@
     "display": "와이어바이퍼",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -48,7 +47,6 @@
     "display": "롤슬러그",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -91,7 +89,6 @@
     "display": "블로우슬러그",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -134,7 +131,6 @@
     "display": "철투구 거북",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -177,7 +173,6 @@
     "display": "루미나젤리",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -220,7 +215,6 @@
     "display": "줄무늬뱀",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -263,7 +257,6 @@
     "display": "게 전화",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -306,7 +299,6 @@
     "display": "거대고래",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -345,7 +337,6 @@
     "display": "메가플러그토푸스",
     "category": "creature",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

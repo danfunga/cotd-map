@@ -5,7 +5,6 @@
     "display": "아마존 송풍관",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -30,7 +29,6 @@
     "display": "아마존 꿀",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -60,7 +58,6 @@
     "display": "발사 목재",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -90,7 +87,6 @@
     "display": "뼈",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -120,7 +116,6 @@
     "display": "보사노바 비닐 레코드",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -145,7 +140,6 @@
     "display": "브라질 카샤카",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -170,7 +164,6 @@
     "display": "브라질 드럼",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -195,7 +188,6 @@
     "display": "브라질 해먹",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -220,7 +212,6 @@
     "display": "카니발 의상",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -245,7 +236,6 @@
     "display": "\"고양이 발톱\" 리아나",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -275,7 +265,6 @@
     "display": "커피빈백",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -305,7 +294,6 @@
     "display": "커피나무 가지",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -340,7 +328,6 @@
     "display": "장식된 가슴",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -370,7 +357,6 @@
     "display": "깃털",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -400,7 +386,6 @@
     "display": "축구 컵",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -425,7 +410,6 @@
     "display": "축구 유니폼",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -465,7 +449,6 @@
     "display": "녹색 캔",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -495,7 +478,6 @@
     "display": "카카오",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -535,7 +517,6 @@
     "display": "마라카스",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -565,7 +546,6 @@
     "display": "녹슨 도끼 머리",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -590,7 +570,6 @@
     "display": "녹슨 통",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -620,7 +599,6 @@
     "display": "축구공",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -645,7 +623,6 @@
     "display": "돌 열쇠",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -680,7 +657,6 @@
     "display": "돌파괴자 잎",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -710,7 +686,6 @@
     "display": "나무 조각상",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -735,7 +710,6 @@
     "display": "녹색 노란색 디스크",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -765,7 +739,6 @@
     "display": "오래된 금화",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -800,7 +773,6 @@
     "display": "냉장고 자석",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

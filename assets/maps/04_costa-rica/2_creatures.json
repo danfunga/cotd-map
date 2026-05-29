@@ -5,7 +5,6 @@
     "display": "야광원양해파리",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -50,7 +49,6 @@
     "display": "바다달팽이",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -95,7 +93,6 @@
     "display": "바다거북",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -135,7 +132,6 @@
     "display": "바다뱀",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -175,7 +171,6 @@
     "display": "붉은 게",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -220,7 +215,6 @@
     "display": "할로윈 게",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -275,7 +269,6 @@
     "display": "해삼",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -325,7 +318,6 @@
     "display": "아메리카 악어",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -368,7 +360,6 @@
     "display": "푸른 바다 용",
     "category": "creature",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

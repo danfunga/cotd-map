@@ -5,7 +5,6 @@
     "display": "엉겅퀴 훈장",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -30,7 +29,6 @@
     "display": "갑옷",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -55,7 +53,6 @@
     "display": "백 파이프",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -80,7 +77,6 @@
     "display": "블랙 푸딩",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -110,7 +106,6 @@
     "display": "카버",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -135,7 +130,6 @@
     "display": "가마솥",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -165,7 +159,6 @@
     "display": "체스 조각",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -190,7 +183,6 @@
     "display": "칩백",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -215,7 +207,6 @@
     "display": "플로피 디스크 5.25 블루",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -255,7 +246,6 @@
     "display": "골프 공",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -280,7 +270,6 @@
     "display": "골프 클럽",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -305,7 +294,6 @@
     "display": "골프 클럽 가방",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -330,7 +318,6 @@
     "display": "하기스",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -355,7 +342,6 @@
     "display": "킬트",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -380,7 +366,6 @@
     "display": "중세의 가슴",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -410,7 +395,6 @@
     "display": "중세의 열쇠",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -450,7 +434,6 @@
     "display": "중세 머그잔",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -475,7 +458,6 @@
     "display": "겨우살이",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -505,7 +487,6 @@
     "display": "오래된 부츠",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -545,7 +526,6 @@
     "display": "로비는 시를 불태운다",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -580,7 +560,6 @@
     "display": "스코틀랜드 모자",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -615,7 +594,6 @@
     "display": "가죽 주머니",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -650,7 +628,6 @@
     "display": "돌 블록",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -685,7 +662,6 @@
     "display": "차 남비",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -715,7 +691,6 @@
     "display": "유니콘 경적",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -740,7 +715,6 @@
     "display": "비닐 레코드",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -765,7 +739,6 @@
     "display": "위스키 스카치 병",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -795,7 +768,6 @@
     "display": "나무통",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -820,7 +792,6 @@
     "display": "관광 카메라",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -845,7 +816,6 @@
     "display": "이상한 돌",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -870,7 +840,6 @@
     "display": "네시 장난감",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -895,7 +864,6 @@
     "display": "오래된 미니 노란 잠수함",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -920,7 +888,6 @@
     "display": "황금 사과",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -945,7 +912,6 @@
     "display": "엑스칼리버",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -970,7 +936,6 @@
     "display": "냉장고 자석",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

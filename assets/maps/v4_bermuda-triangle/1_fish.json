@@ -5,7 +5,6 @@
     "display": "디플라칸투스",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -47,7 +46,6 @@
     "display": "유스테노프테론",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -89,7 +87,6 @@
     "display": "판징샤니아",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -127,7 +124,6 @@
     "display": "고고나소스",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -169,7 +165,6 @@
     "display": "굴루공기아",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -211,7 +206,6 @@
     "display": "자이라칸타이드",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -254,7 +248,6 @@
     "display": "하이쿠이크티스",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -292,7 +285,6 @@
     "display": "히네리아",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -330,7 +322,6 @@
     "display": "이쉬나칸투스",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -372,7 +363,6 @@
     "display": "라티메리아",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -415,7 +405,6 @@
     "display": "대식세포종",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -457,7 +446,6 @@
     "display": "모소니아",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -495,7 +483,6 @@
     "display": "파렉서스",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -537,7 +524,6 @@
     "display": "프로토스피라에나",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -579,7 +565,6 @@
     "display": "스테타칸투스",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -622,7 +607,6 @@
     "display": "소드 레이",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -664,7 +648,6 @@
     "display": "틱타알릭",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -706,7 +689,6 @@
     "display": "제나칸투스",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -748,7 +730,6 @@
     "display": "백상아리",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -790,7 +771,6 @@
     "display": "리드식티스",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -828,7 +808,6 @@
     "display": "화려한 송사리",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -871,7 +850,6 @@
     "display": "던클레오스테우스",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -909,7 +887,6 @@
     "display": "온초프리스티스",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -952,7 +929,6 @@
     "display": "헬리코프리온",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -990,7 +966,6 @@
     "display": "메갈로돈",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

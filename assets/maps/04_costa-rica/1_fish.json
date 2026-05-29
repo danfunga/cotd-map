@@ -5,7 +5,6 @@
     "display": "큰꼬치고기",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -67,7 +66,6 @@
     "display": "물고기 수탉",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -114,7 +112,6 @@
     "display": "만새기",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -176,7 +173,6 @@
     "display": "플로리다 폼파노",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -228,7 +224,6 @@
     "display": "꼬치삼치",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -281,7 +276,6 @@
     "display": "백미돔",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -328,7 +322,6 @@
     "display": "대서양타폰",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -375,7 +368,6 @@
     "display": "황다랑어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -432,7 +424,6 @@
     "display": "퍼시픽 시에라",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -479,7 +470,6 @@
     "display": "돛새치",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -527,7 +517,6 @@
     "display": "크레발레 잭",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -574,7 +563,6 @@
     "display": "쿠바 도미",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -626,7 +614,6 @@
     "display": "맹그로브 잠바리아과",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -683,7 +670,6 @@
     "display": "스눅",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -731,7 +717,6 @@
     "display": "대서양녹새치",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -774,7 +759,6 @@
     "display": "청새치",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -821,7 +805,6 @@
     "display": "대서양수염상어",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -869,7 +852,6 @@
     "display": "백새치",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -912,7 +894,6 @@
     "display": "황소상어",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -950,7 +931,6 @@
     "display": "홍살귀상어",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -992,7 +972,6 @@
     "display": "고래상어",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -1030,7 +1009,6 @@
     "display": "장완홍상어",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1078,7 +1056,6 @@
     "display": "돈 페드로",
     "category": "monster",
     "rarity": "monster",
-    "isMonster": true,
     "timeBand": "night",
     "locations": [
       {

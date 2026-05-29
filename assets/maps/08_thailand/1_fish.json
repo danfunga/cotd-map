@@ -5,7 +5,6 @@
     "display": "플라카드 끈팬티",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -48,7 +47,6 @@
     "display": "쌀장어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -91,7 +89,6 @@
     "display": "큰머리 잉어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -139,7 +136,6 @@
     "display": "알리게이터 가르",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -183,7 +179,6 @@
     "display": "더럽혀진 소루빔",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -232,7 +227,6 @@
     "display": "대리석 모래 망둥이",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -275,7 +269,6 @@
     "display": "타파",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -324,7 +317,6 @@
     "display": "붉은꼬리호랑이메기",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -373,7 +365,6 @@
     "display": "거대 악마 메기",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -421,7 +412,6 @@
     "display": "엠푸라우",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -464,7 +454,6 @@
     "display": "대단한 독사",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -507,7 +496,6 @@
     "display": "노란색 미스투스",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -555,7 +543,6 @@
     "display": "왈라고",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -614,7 +601,6 @@
     "display": "검은 귀 메기",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -671,7 +657,6 @@
     "display": "로후",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -730,7 +715,6 @@
     "display": "찢어진 메기",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -777,7 +761,6 @@
     "display": "말레이잎고기",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -830,7 +813,6 @@
     "display": "밤부사",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -883,7 +865,6 @@
     "display": "불 장어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -926,7 +907,6 @@
     "display": "거대한 담수 채찍가오리",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -969,7 +949,6 @@
     "display": "줄무늬 메기",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -1011,7 +990,6 @@
     "display": "거대 판가시우스",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1063,7 +1041,6 @@
     "display": "메콩 거대 메기",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -1105,7 +1082,6 @@
     "display": "줄리앙의 황금상 잉어",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -1148,7 +1124,6 @@
     "display": "거대한 샴",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1190,7 +1165,6 @@
     "display": "나가",
     "category": "monster",
     "rarity": "monster",
-    "isMonster": true,
     "timeBand": "both",
     "locations": [
       {

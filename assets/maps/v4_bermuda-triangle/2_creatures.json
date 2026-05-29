@@ -5,7 +5,6 @@
     "display": "암모니아과",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -45,7 +44,6 @@
     "display": "아르켈론",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -85,7 +83,6 @@
     "display": "두족류",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -125,7 +122,6 @@
     "display": "디플로카울루스",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -165,7 +161,6 @@
     "display": "어룡",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -205,7 +200,6 @@
     "display": "오도베노케톱스",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -245,7 +239,6 @@
     "display": "오파비니아",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -283,7 +276,6 @@
     "display": "오르토케라스",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -323,7 +315,6 @@
     "display": "페이토이아",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -361,7 +352,6 @@
     "display": "펠로네스테스",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -401,7 +391,6 @@
     "display": "플레시오사우루스",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -441,7 +430,6 @@
     "display": "크로노사우루스",
     "category": "creature",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

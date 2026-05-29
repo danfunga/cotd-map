@@ -5,7 +5,6 @@
     "display": "반딧불",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -69,7 +68,6 @@
     "display": "앵커스케일",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -118,7 +116,6 @@
     "display": "라즈베리피쉬",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -167,7 +164,6 @@
     "display": "앤빌피쉬",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -216,7 +212,6 @@
     "display": "복어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -265,7 +260,6 @@
     "display": "좀비핀",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -314,7 +308,6 @@
     "display": "크툴루 잉어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -357,7 +350,6 @@
     "display": "찻주전자",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -406,7 +398,6 @@
     "display": "나이론피쉬",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -455,7 +446,6 @@
     "display": "텔레베이스",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -504,7 +494,6 @@
     "display": "긴 불꽃",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -553,7 +542,6 @@
     "display": "썩어가는 죽은 물고기",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -602,7 +590,6 @@
     "display": "불타오르는 비늘",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -651,7 +638,6 @@
     "display": "구운 냄비",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -700,7 +686,6 @@
     "display": "버블핀",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -749,7 +734,6 @@
     "display": "루미네이터",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -798,7 +782,6 @@
     "display": "독어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -852,7 +835,6 @@
     "display": "어안",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -901,7 +883,6 @@
     "display": "갉아먹는 것",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -950,7 +931,6 @@
     "display": "추파카브라피쉬",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1004,7 +984,6 @@
     "display": "점액 손톱",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -1068,7 +1047,6 @@
     "display": "휠리프",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1127,7 +1105,6 @@
     "display": "배럴테일",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1186,7 +1163,6 @@
     "display": "독성 연어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1250,7 +1226,6 @@
     "display": "사악한 잉어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1299,7 +1274,6 @@
     "display": "병길",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1348,7 +1322,6 @@
     "display": "캔트라우트",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1397,7 +1370,6 @@
     "display": "크리스탈 핀",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1446,7 +1418,6 @@
     "display": "유독 복어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1495,7 +1466,6 @@
     "display": "식물 급수기",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1544,7 +1514,6 @@
     "display": "좀비 천재",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1593,7 +1562,6 @@
     "display": "인산염",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1642,7 +1610,6 @@
     "display": "글로우 퍼프볼",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1691,7 +1658,6 @@
     "display": "얼룩덜룩한 윈드체이서",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1740,7 +1706,6 @@
     "display": "편평한 턱",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1789,7 +1754,6 @@
     "display": "은도금된 아멜리늄",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1838,7 +1802,6 @@
     "display": "녹슨 뮤탕",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1887,7 +1850,6 @@
     "display": "메뚜기",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1936,7 +1898,6 @@
     "display": "플리퍼 스니커즈",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1985,7 +1946,6 @@
     "display": "우라늄 장어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2034,7 +1994,6 @@
     "display": "강판",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2083,7 +2042,6 @@
     "display": "손가락 장갑고기",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2132,7 +2090,6 @@
     "display": "폭격기",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2181,7 +2138,6 @@
     "display": "부패한 죽은 물고기",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2230,7 +2186,6 @@
     "display": "밴조 연주자",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2279,7 +2234,6 @@
     "display": "톱상어",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2338,7 +2292,6 @@
     "display": "가스미스트 수영선수",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2397,7 +2350,6 @@
     "display": "기타핀",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2446,7 +2398,6 @@
     "display": "뼈에 물린",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -2515,7 +2466,6 @@
     "display": "뇌어",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2574,7 +2524,6 @@
     "display": "껴안고 싶은 물고기",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2628,7 +2577,6 @@
     "display": "현악기",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2671,7 +2619,6 @@
     "display": "축구 물고기",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2720,7 +2667,6 @@
     "display": "스웨그피쉬",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2769,7 +2715,6 @@
     "display": "둥근 관고기",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2812,7 +2757,6 @@
     "display": "폴란드어 가자미",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2861,7 +2805,6 @@
     "display": "해마 혐오스러운 것",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2910,7 +2853,6 @@
     "display": "갈비뼈가 있는 해물",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -2955,7 +2897,6 @@
     "display": "악몽",
     "category": "monster",
     "rarity": "monster",
-    "isMonster": true,
     "timeBand": "both",
     "locations": [
       {

@@ -5,7 +5,6 @@
     "display": "아마존 펠로나",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -68,7 +67,6 @@
     "display": "투쿠나레",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -110,7 +108,6 @@
     "display": "쿠림바타",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -152,7 +149,6 @@
     "display": "코르비나",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -194,7 +190,6 @@
     "display": "자투아라나",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -237,7 +232,6 @@
     "display": "붉은꼬리 메기",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -279,7 +273,6 @@
     "display": "타이거 소루빔",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -321,7 +314,6 @@
     "display": "레드훅 마일레우스",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -368,7 +360,6 @@
     "display": "공작배스",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -410,7 +401,6 @@
     "display": "람바리",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -453,7 +443,6 @@
     "display": "준가로",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -501,7 +490,6 @@
     "display": "파쿠",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -548,7 +536,6 @@
     "display": "거대한 트라히라",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -601,7 +588,6 @@
     "display": "적목 피라냐",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -664,7 +650,6 @@
     "display": "빨간 피라냐",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -712,7 +697,6 @@
     "display": "얼룩덜룩 한 파본",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -769,7 +753,6 @@
     "display": "민물 바라쿠다",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -812,7 +795,6 @@
     "display": "비쿠다",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -859,7 +841,6 @@
     "display": "아로와나",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -916,7 +897,6 @@
     "display": "아마존 복어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -964,7 +944,6 @@
     "display": "피라피팅가",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -1016,7 +995,6 @@
     "display": "전기뱀장어",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -1059,7 +1037,6 @@
     "display": "평수염 메기",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -1101,7 +1078,6 @@
     "display": "라우 라우",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1139,7 +1115,6 @@
     "display": "락바쿠",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -1181,7 +1156,6 @@
     "display": "카차마",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1223,7 +1197,6 @@
     "display": "아라파이마",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -1261,7 +1234,6 @@
     "display": "파야라",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -1303,7 +1275,6 @@
     "display": "보이우나",
     "category": "monster",
     "rarity": "monster",
-    "isMonster": true,
     "timeBand": "day",
     "locations": [
       {

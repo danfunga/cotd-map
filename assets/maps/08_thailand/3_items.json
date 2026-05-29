@@ -5,7 +5,6 @@
     "display": "고대 동상",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -30,7 +29,6 @@
     "display": "대나무",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -55,7 +53,6 @@
     "display": "바나나 잎",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -80,7 +77,6 @@
     "display": "밥 한 그릇",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -105,7 +101,6 @@
     "display": "부바 검프 캡",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -130,7 +125,6 @@
     "display": "양탄자",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -155,7 +149,6 @@
     "display": "차케",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -180,7 +173,6 @@
     "display": "칠리 고추",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -205,7 +197,6 @@
     "display": "빈 캔",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -230,7 +221,6 @@
     "display": "쿵웡야이 스틱",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -255,7 +245,6 @@
     "display": "마사지 오일 병",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -280,7 +269,6 @@
     "display": "마사지 스톤",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -305,7 +293,6 @@
     "display": "무에타이 모자",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -330,7 +317,6 @@
     "display": "오래된 낚시 그물",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -355,7 +341,6 @@
     "display": "동양의 가슴",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -380,7 +365,6 @@
     "display": "오리엔탈 키",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -410,7 +394,6 @@
     "display": "플라스틱 물병",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -435,7 +418,6 @@
     "display": "새우스틱",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -465,7 +447,6 @@
     "display": "실크 태피스트리",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -490,7 +471,6 @@
     "display": "노래하는 그릇",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -515,7 +495,6 @@
     "display": "스티로폼 그릇",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -540,7 +519,6 @@
     "display": "태국 풀레인 신발",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -565,7 +543,6 @@
     "display": "\"스위트 파이터\" 디스크",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -590,7 +567,6 @@
     "display": "금 목걸이",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -615,7 +591,6 @@
     "display": "냉장고 자석",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

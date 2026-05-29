@@ -5,7 +5,6 @@
     "display": "~할 수 있다",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -42,7 +41,6 @@
     "display": "탄약통",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -74,7 +72,6 @@
     "display": "바",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -106,7 +103,6 @@
     "display": "가이거 계수기",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -138,7 +134,6 @@
     "display": "빛나는 크리스탈",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -164,7 +159,6 @@
     "display": "활톱",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -196,7 +190,6 @@
     "display": "히터",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -228,7 +221,6 @@
     "display": "높은 방사선 표시",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -260,7 +252,6 @@
     "display": "실험실 장비",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -292,7 +283,6 @@
     "display": "맨홀 뚜껑",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -324,7 +314,6 @@
     "display": "돌연변이된 말꼬리",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -356,7 +345,6 @@
     "display": "닌자 피자 상자",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -388,7 +376,6 @@
     "display": "닌자 피자 조각",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -420,7 +407,6 @@
     "display": "오래된 배터리",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -452,7 +438,6 @@
     "display": "살충제",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -484,7 +469,6 @@
     "display": "인",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -516,7 +500,6 @@
     "display": "파이프",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -558,7 +541,6 @@
     "display": "파이프 렌치",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -590,7 +572,6 @@
     "display": "교수 플럭스의 노트",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -632,7 +613,6 @@
     "display": "보호 마스크",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -664,7 +644,6 @@
     "display": "보호복",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -696,7 +675,6 @@
     "display": "방사성 돌",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -728,7 +706,6 @@
     "display": "빨간 밸브",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -780,7 +757,6 @@
     "display": "연구 파일 vol.1",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -812,7 +788,6 @@
     "display": "연구 파일 vol.2",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -844,7 +819,6 @@
     "display": "연구 파일 vol.3",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -876,7 +850,6 @@
     "display": "연구 파일 vol.4",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -908,7 +881,6 @@
     "display": "사이 칼",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -940,7 +912,6 @@
     "display": "스케이트보드",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -972,7 +943,6 @@
     "display": "징후",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1004,7 +974,6 @@
     "display": "독성 조류",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1041,7 +1010,6 @@
     "display": "독성 가지",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1073,7 +1041,6 @@
     "display": "독성 배럴",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1105,7 +1072,6 @@
     "display": "금성 파리통",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1137,7 +1103,6 @@
     "display": "물병",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1194,7 +1159,6 @@
     "display": "풍력 터빈 프로펠러 블레이드",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1226,7 +1190,6 @@
     "display": "풍력 터빈 프로펠러 허브",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -1263,7 +1226,6 @@
     "display": "풍력 터빈 프로펠러 발전기",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

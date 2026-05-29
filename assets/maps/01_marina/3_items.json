@@ -5,7 +5,6 @@
     "display": "소라 껍질",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -30,7 +29,6 @@
     "display": "일반적인 바다 조개",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -65,7 +63,6 @@
     "display": "범선용 밧줄",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -95,7 +92,6 @@
     "display": "오래된 판자",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -130,7 +126,6 @@
     "display": "아주 작은 분홍색 조개",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -165,7 +160,6 @@
     "display": "성게 껍데기",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -200,7 +194,6 @@
     "display": "줄무늬 해변 조개",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -245,7 +238,6 @@
     "display": "고래 뼈",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -275,7 +267,6 @@
     "display": "해초",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -315,7 +306,6 @@
     "display": "회색 바위",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -355,7 +345,6 @@
     "display": "조타륜",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -380,7 +369,6 @@
     "display": "수수께끼의 열쇠",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -405,7 +393,6 @@
     "display": "나무상자",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -430,7 +417,6 @@
     "display": "관광 안내 책자(Paradise)",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -455,7 +441,6 @@
     "display": "관광 안내 책자(Great Lakes)",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -480,7 +465,6 @@
     "display": "관광 안내 책자(Costa rica)",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -505,7 +489,6 @@
     "display": "관광 안내 책자(Alaska)",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -530,7 +513,6 @@
     "display": "관광 안내 책자(Australia)",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -555,7 +537,6 @@
     "display": "관광 안내 책자(Scotland)",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -580,7 +561,6 @@
     "display": "관광 안내 책자(Thailand)",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -605,7 +585,6 @@
     "display": "관광 안내 책자(Amazon)",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -630,7 +609,6 @@
     "display": "냉장고 자석",
     "category": "item",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

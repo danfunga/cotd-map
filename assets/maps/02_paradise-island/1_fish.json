@@ -5,7 +5,6 @@
     "display": "파란농어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -52,7 +51,6 @@
     "display": "복어",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -99,7 +97,6 @@
     "display": "무점매가리",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -146,7 +143,6 @@
     "display": "가자미",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -193,7 +189,6 @@
     "display": "트레발리",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -240,7 +235,6 @@
     "display": "여을멸",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -298,7 +292,6 @@
     "display": "통골 참치",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -345,7 +338,6 @@
     "display": "주황흰동가리",
     "category": "fish",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -383,7 +375,6 @@
     "display": "범프헤드비늘돔",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -441,7 +432,6 @@
     "display": "독투스투나",
     "category": "fish",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -489,7 +479,6 @@
     "display": "원양 가오리",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -546,7 +535,6 @@
     "display": "태평양 축구 물고기",
     "category": "fish",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -599,7 +587,6 @@
     "display": "파쇄기",
     "category": "monster",
     "rarity": "monster",
-    "isMonster": true,
     "timeBand": "both",
     "locations": [
       {

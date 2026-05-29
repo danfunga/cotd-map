@@ -5,7 +5,6 @@
     "display": "Snipcerra",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -45,7 +44,6 @@
     "display": "Nimbusjelly",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -87,7 +85,6 @@
     "display": "Brineling",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -125,7 +122,6 @@
     "display": "Clangcrab",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -167,7 +163,6 @@
     "display": "V-Mouse",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -210,7 +205,6 @@
     "display": "Styrophyl",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -253,7 +247,6 @@
     "display": "Ferrashark",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -295,7 +288,6 @@
     "display": "Minethorn",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -333,7 +325,6 @@
     "display": "Sharokyle",
     "category": "creature",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

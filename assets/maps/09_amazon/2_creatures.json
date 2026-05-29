@@ -5,7 +5,6 @@
     "display": "거대한 수달",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -50,7 +49,6 @@
     "display": "카피바라",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -90,7 +88,6 @@
     "display": "거대한 달팽이",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -130,7 +127,6 @@
     "display": "녹색 아나콘다",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -170,7 +166,6 @@
     "display": "마타마타 거북이",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -210,7 +205,6 @@
     "display": "강 거북",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -250,7 +244,6 @@
     "display": "독 다트 개구리",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -288,7 +281,6 @@
     "display": "거대잎개구리",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -326,7 +318,6 @@
     "display": "아홀로틀",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -369,7 +360,6 @@
     "display": "검은 카이만",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -407,7 +397,6 @@
     "display": "아마존 매너티",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -455,7 +444,6 @@
     "display": "아마존 강 돌고래",
     "category": "creature",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {

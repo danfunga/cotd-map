@@ -5,7 +5,6 @@
     "display": "무지개 물뱀",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -45,7 +44,6 @@
     "display": "녹색 논 개구리",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -83,7 +81,6 @@
     "display": "태국 거대 개구리",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -123,7 +120,6 @@
     "display": "중국 물 용",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -163,7 +159,6 @@
     "display": "물전갈",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -201,7 +196,6 @@
     "display": "태국 악마 게",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "night",
     "locations": [
       {
@@ -239,7 +233,6 @@
     "display": "포마시아",
     "category": "creature",
     "rarity": "common",
-    "isMonster": false,
     "timeBand": "both",
     "locations": [
       {
@@ -277,7 +270,6 @@
     "display": "거대한 아시아 연못 거북",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -332,7 +324,6 @@
     "display": "아시아 작은발톱수달",
     "category": "creature",
     "rarity": "rare",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
@@ -372,7 +363,6 @@
     "display": "이라와디 돌고래",
     "category": "creature",
     "rarity": "epic",
-    "isMonster": false,
     "timeBand": "day",
     "locations": [
       {
