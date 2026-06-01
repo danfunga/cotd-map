@@ -74,7 +74,7 @@
   {
     "id": "T5-1",
     "name": "aussie rule ball",
-    "display": "호주 규칙 공",
+    "display": "오스트레일리아 룰볼",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -663,7 +663,7 @@
   {
     "id": "T5-22",
     "name": "vegetime",
-    "display": "야채",
+    "display": "vegetime",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
