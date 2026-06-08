@@ -2,7 +2,8 @@
   {
     "id": "c5-0",
     "name": "common toad",
-    "display": "일반적인 두꺼비",
+    "display": "유럽두꺼비",
+    "latin": "Bufo bufo",
     "category": "creature",
     "rarity": "common",
     "timeBand": "day",
@@ -29,7 +30,6 @@
       }
     ],
     "notes": "",
-    "latin": "Bufo bufo",
     "difficulty": 0,
     "seasons": [
       true,
@@ -57,6 +57,7 @@
     "id": "c5-1",
     "name": "otter",
     "display": "수달",
+    "latin": "Lutra lutra",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
@@ -78,7 +79,6 @@
       }
     ],
     "notes": "",
-    "latin": "Lutra lutra",
     "difficulty": 0,
     "seasons": [
       true,
@@ -105,7 +105,8 @@
   {
     "id": "c5-2",
     "name": "signal crayfish",
-    "display": "신호 가재",
+    "display": "시그널 가재",
+    "latin": "Pacifastacus leniusculus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
@@ -132,7 +133,6 @@
       }
     ],
     "notes": "",
-    "latin": "Pacifastacus leniusculus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -262,7 +262,8 @@
   {
     "id": "c5-5",
     "name": "freshwater pearl mussels",
-    "display": "담수 진주 홍합",
+    "display": "강 진주 조개속",
+    "latin": "Margaritifera margaritifera",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
@@ -279,7 +280,6 @@
       }
     ],
     "notes": "",
-    "latin": "Margaritifera margaritifera",
     "difficulty": 0,
     "seasons": [
       true,
@@ -306,7 +306,8 @@
   {
     "id": "c5-6",
     "name": "water vole",
-    "display": "물쥐",
+    "display": "유럽물밭쥐",
+    "latin": "Arvicola amphibius",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
@@ -323,7 +324,6 @@
       }
     ],
     "notes": "",
-    "latin": "Arvicola amphibius",
     "difficulty": 0,
     "seasons": [
       true,
@@ -350,7 +350,8 @@
   {
     "id": "c5-7",
     "name": "adder",
-    "display": "가산기",
+    "display": "독사 같은 사람",
+    "latin": "Vipera berus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
@@ -372,7 +373,6 @@
       }
     ],
     "notes": "",
-    "latin": "Vipera berus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -399,7 +399,8 @@
   {
     "id": "c5-8",
     "name": "common frog",
-    "display": "일반적인 개구리",
+    "display": "산개구리",
+    "latin": "Rana temporaria",
     "category": "creature",
     "rarity": "common",
     "timeBand": "day",
@@ -421,7 +422,6 @@
       }
     ],
     "notes": "",
-    "latin": "Rana temporaria",
     "difficulty": 0,
     "seasons": [
       true,
@@ -448,7 +448,8 @@
   {
     "id": "c5-9",
     "name": "slow worm",
-    "display": "느린 벌레",
+    "display": "굼벵이무족도마뱀",
+    "latin": "Anguis fragilis",
     "category": "creature",
     "rarity": "common",
     "timeBand": "day",
@@ -480,7 +481,6 @@
       }
     ],
     "notes": "",
-    "latin": "Anguis fragilis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -507,7 +507,8 @@
   {
     "id": "c5-10",
     "name": "water shrew",
-    "display": "물뒤쥐",
+    "display": "갯첨서",
+    "latin": "Neomys fodiens",
     "category": "creature",
     "rarity": "rare",
     "timeBand": "both",
@@ -544,7 +545,6 @@
       }
     ],
     "notes": "",
-    "latin": "Neomys fodiens",
     "difficulty": 0,
     "seasons": [
       true,

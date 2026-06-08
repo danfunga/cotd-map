@@ -214,7 +214,7 @@
   {
     "id": "T5-6",
     "name": "cork hat",
-    "display": "코르크 모자",
+    "display": "코크 모자",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -574,8 +574,8 @@
     "locations": [
       {
         "no": 1,
-        "x": 124.44930586383545,
-        "y": 248.90158697766472
+        "x": 161,
+        "y": 270
       }
     ],
     "notes": "",
@@ -718,13 +718,8 @@
     "locations": [
       {
         "no": 1,
-        "x": 298.5,
-        "y": 526
-      },
-      {
-        "no": 2,
-        "x": 156,
-        "y": 100.5
+        "x": 177,
+        "y": 115
       }
     ],
     "notes": "",
@@ -771,8 +766,8 @@
     "locations": [
       {
         "no": 1,
-        "x": 644.5,
-        "y": 806
+        "x": 655,
+        "y": 849
       }
     ],
     "notes": "perception elixir",

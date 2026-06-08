@@ -2,7 +2,7 @@
   {
     "id": "T6-35",
     "name": "thistle",
-    "display": "엉겅퀴 훈장",
+    "display": "시스",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -50,7 +50,7 @@
   {
     "id": "T6-2",
     "name": "bag pipes",
-    "display": "백 파이프",
+    "display": "배관기",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -127,7 +127,7 @@
   {
     "id": "T6-5",
     "name": "cauldron",
-    "display": "가마솥",
+    "display": "그릇",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -156,7 +156,7 @@
   {
     "id": "T6-6",
     "name": "chess piece",
-    "display": "체스 조각",
+    "display": "체스 말",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -204,7 +204,7 @@
   {
     "id": "T6-8",
     "name": "floppy disk 5.25 blue",
-    "display": "플로피 디스크 5.25 블루",
+    "display": "5.25 블루 플로피 디스크",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -392,7 +392,7 @@
   {
     "id": "T6-15",
     "name": "medieval key",
-    "display": "중세의 열쇠",
+    "display": "중세 열쇠",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -455,7 +455,7 @@
   {
     "id": "T6-17",
     "name": "mistletoe",
-    "display": "겨우살이",
+    "display": "겨울맞이꽃",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -523,7 +523,7 @@
   {
     "id": "T6-19",
     "name": "robby burns poetry",
-    "display": "로비는 시를 불태운다",
+    "display": "로비 번즈 시",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -591,7 +591,7 @@
   {
     "id": "T6-21",
     "name": "sporran",
-    "display": "가죽 주머니",
+    "display": "스포런",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -765,7 +765,7 @@
   {
     "id": "T6-27",
     "name": "wooden barel",
-    "display": "나무통",
+    "display": "나무 맥주통",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",

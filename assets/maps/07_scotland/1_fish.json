@@ -3,6 +3,7 @@
     "id": "523",
     "name": "carp",
     "display": "잉어",
+    "latin": "Cyprinus carpio",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -24,7 +25,6 @@
       }
     ],
     "notes": "",
-    "latin": "Cyprinus carpio",
     "difficulty": 0,
     "seasons": [
       true,
@@ -142,7 +142,8 @@
   {
     "id": "526",
     "name": "twaite shad",
-    "display": "트와이트 샤드",
+    "display": "숭어",
+    "latin": "Alosa fallax",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
@@ -154,7 +155,6 @@
       }
     ],
     "notes": "",
-    "latin": "Alosa fallax",
     "difficulty": 0,
     "seasons": [
       true,
@@ -184,6 +184,7 @@
     "id": "527",
     "name": "powan",
     "display": "포완",
+    "latin": "Coregonus clupeoides",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -195,7 +196,6 @@
       }
     ],
     "notes": "",
-    "latin": "Coregonus clupeoides",
     "difficulty": 0,
     "seasons": [
       true,
@@ -265,7 +265,8 @@
   {
     "id": "52",
     "name": "three-spined stickleback",
-    "display": "가시가 세 개인 큰가시등",
+    "display": "삼각조기",
+    "latin": "Gasterosteus aculeatus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
@@ -292,7 +293,6 @@
       }
     ],
     "notes": "",
-    "latin": "Gasterosteus aculeatus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -317,7 +317,8 @@
   {
     "id": "53",
     "name": "chub",
-    "display": "처브",
+    "display": "도미",
+    "latin": "Squalius cephalus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -334,7 +335,6 @@
       }
     ],
     "notes": "",
-    "latin": "Squalius cephalus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -364,6 +364,7 @@
     "id": "54",
     "name": "tench",
     "display": "텐치",
+    "latin": "Tinca tinca",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -390,7 +391,6 @@
       }
     ],
     "notes": "",
-    "latin": "Tinca tinca",
     "difficulty": 0,
     "seasons": [
       false,
@@ -528,7 +528,8 @@
   {
     "id": "57",
     "name": "rainbow trout",
-    "display": "무지개 송어",
+    "display": "무지개송어",
+    "latin": "Oncorhynchus mykiss",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -545,7 +546,6 @@
       }
     ],
     "notes": "",
-    "latin": "Oncorhynchus mykiss",
     "difficulty": 0,
     "seasons": [
       true,
@@ -616,7 +616,8 @@
   {
     "id": "59",
     "name": "vendace",
-    "display": "벤다스",
+    "display": "벤데이스",
+    "latin": "Coregonus albula",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
@@ -638,7 +639,6 @@
       }
     ],
     "notes": "",
-    "latin": "Coregonus albula",
     "difficulty": 0,
     "seasons": [
       true,
@@ -668,7 +668,8 @@
   {
     "id": "510",
     "name": "roach",
-    "display": "바퀴벌레",
+    "display": "붕어",
+    "latin": "Rutilus rutilus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
@@ -700,7 +701,6 @@
       }
     ],
     "notes": "",
-    "latin": "Rutilus rutilus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -729,7 +729,8 @@
   {
     "id": "511",
     "name": "rudd",
-    "display": "러드",
+    "display": "올갱이",
+    "latin": "Scardinius erythrophthalmus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -771,7 +772,6 @@
       }
     ],
     "notes": "",
-    "latin": "Scardinius erythrophthalmus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -800,7 +800,7 @@
   {
     "id": "512",
     "name": "lamprey",
-    "display": "칠성장어",
+    "display": "양태",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -876,7 +876,8 @@
   {
     "id": "513",
     "name": "european perch",
-    "display": "유럽 ​​농어",
+    "display": "유라시아민물농어",
+    "latin": "Perca fluviatilis",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -898,7 +899,6 @@
       }
     ],
     "notes": "",
-    "latin": "Perca fluviatilis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -928,7 +928,8 @@
   {
     "id": "514",
     "name": "dace",
-    "display": "황어",
+    "display": "댐서리",
+    "latin": "Leuciscus leuciscus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
@@ -965,7 +966,6 @@
       }
     ],
     "notes": "",
-    "latin": "Leuciscus leuciscus",
     "difficulty": 0,
     "seasons": [
       false,
@@ -995,7 +995,7 @@
   {
     "id": "515",
     "name": "european smelt",
-    "display": "유럽의 빙어",
+    "display": "구피",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
@@ -1047,20 +1047,20 @@
   {
     "id": "516",
     "name": "european eel",
-    "display": "유럽 ​​장어",
+    "display": "유럽 뱀장어",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "night",
     "locations": [
       {
         "no": 1,
-        "x": 507,
-        "y": 99
+        "x": 512,
+        "y": 118
       },
       {
         "no": 2,
-        "x": 786.3041043356878,
-        "y": 973.6860376938758
+        "x": 779,
+        "y": 1016
       },
       {
         "no": 3,
@@ -1098,20 +1098,20 @@
   {
     "id": "517",
     "name": "european grayling",
-    "display": "유럽의 회색빛",
+    "display": "유럽그레이링",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "day",
     "locations": [
       {
         "no": 1,
-        "x": 656.0012272280104,
-        "y": 979
+        "x": 656,
+        "y": 1004
       },
       {
         "no": 2,
-        "x": 508.5,
-        "y": 130
+        "x": 389,
+        "y": 121
       },
       {
         "no": 3,
@@ -1149,7 +1149,7 @@
   {
     "id": "518",
     "name": "european whitefish",
-    "display": "유럽 ​​흰살생선",
+    "display": "유럽 흰살생선",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
@@ -1207,8 +1207,8 @@
       },
       {
         "no": 2,
-        "x": 263.999123408564,
-        "y": 1010
+        "x": 220,
+        "y": 1017
       }
     ],
     "notes": "",
@@ -1248,13 +1248,13 @@
     "locations": [
       {
         "no": 1,
-        "x": 683,
-        "y": 1001
+        "x": 651,
+        "y": 1020
       },
       {
         "no": 2,
-        "x": 1991,
-        "y": 712
+        "x": 1005,
+        "y": 733
       }
     ],
     "notes": "",
@@ -1294,8 +1294,8 @@
     "locations": [
       {
         "no": 1,
-        "x": 192.34130221986075,
-        "y": 472.3492567891923
+        "x": 155,
+        "y": 503
       },
       {
         "no": 2,
@@ -1304,8 +1304,8 @@
       },
       {
         "no": 3,
-        "x": 523.2590180780452,
-        "y": 176.06958851545033
+        "x": 494,
+        "y": 209
       }
     ],
     "notes": "",

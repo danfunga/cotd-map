@@ -2,7 +2,8 @@
   {
     "id": "a2",
     "name": "glowfish",
-    "display": "반딧불",
+    "display": "글로우피쉬",
+    "latin": "Lucipisces fulgens",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -19,7 +20,6 @@
       }
     ],
     "notes": "",
-    "latin": "Lucipisces fulgens",
     "difficulty": 3,
     "seasons": [
       true,
@@ -929,6 +929,7 @@
     "id": "a1",
     "name": "chupakabrafish",
     "display": "추파카브라피쉬",
+    "latin": "Palustrivenator",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -940,7 +941,6 @@
       }
     ],
     "notes": "",
-    "latin": "Palustrivenator",
     "difficulty": 3,
     "seasons": [
       true,
@@ -981,7 +981,8 @@
   {
     "id": "a3",
     "name": "slimesnail",
-    "display": "점액 손톱",
+    "display": "슬라임달팽이",
+    "latin": "Limaceoglutinosa",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
@@ -998,7 +999,6 @@
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -1044,7 +1044,8 @@
   {
     "id": "a5",
     "name": "wheelreef",
-    "display": "휠리프",
+    "display": "휠리프 표류자",
+    "latin": "Rotaereefus Vagator",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -1061,7 +1062,6 @@
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -1102,7 +1102,8 @@
   {
     "id": "a7",
     "name": "barreltail",
-    "display": "배럴테일",
+    "display": "배럴배 스웰",
+    "latin": "Cylindroventris tumidus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -1119,7 +1120,6 @@
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -1160,7 +1160,8 @@
   {
     "id": "a9",
     "name": "toxic salmon",
-    "display": "독성 연어",
+    "display": "톡식 연어",
+    "latin": "Salmo toxicus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -1177,7 +1178,6 @@
       }
     ],
     "notes": "",
-    "latin": "Salmo toxicus",
     "difficulty": 3,
     "seasons": [
       true,

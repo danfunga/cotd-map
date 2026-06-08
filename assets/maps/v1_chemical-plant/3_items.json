@@ -2,7 +2,7 @@
   {
     "id": "T9-1",
     "name": "can",
-    "display": "~할 수 있다",
+    "display": "캔",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -69,7 +69,7 @@
   {
     "id": "T9-3",
     "name": "crowbar",
-    "display": "바",
+    "display": "쇠지렛대",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -569,7 +569,7 @@
   {
     "id": "T9-19",
     "name": "prof. flux's notes",
-    "display": "교수 플럭스의 노트",
+    "display": "플럭스 교수의 노트",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -940,7 +940,7 @@
   {
     "id": "T9-30",
     "name": "sign",
-    "display": "징후",
+    "display": "표지판",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -971,7 +971,7 @@
   {
     "id": "T9-31",
     "name": "toxic algae",
-    "display": "독성 조류",
+    "display": "유독성 조류",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
@@ -1007,7 +1007,7 @@
   {
     "id": "T9-32",
     "name": "toxic branch",
-    "display": "독성 가지",
+    "display": "유독성 가지",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
