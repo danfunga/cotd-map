@@ -524,7 +524,7 @@ main { padding: 0; }
   filter: grayscale(0.95);
 }
 .photo-marker.primary-location {
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.85);
+  box-shadow: 0 0 0 2px rgba(243, 35, 35, 0.85);
 }
 .marker-v {
   position: absolute;

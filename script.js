@@ -213,6 +213,9 @@ function markerIcon(entity, isPrimary = false, markerIndex = 0) {
   const caught = isCaught(entity);
   const caughtClass = caught ? "caught" : "";
   const markerNumber = categoryKey === "monster" ? (markerIndex + 1) : null;
+  if( categoryKey === "monster" ){
+    isPrimary =false;
+  } 
   const activeMonsterIndex = getMonsterRotationActiveIndex(entity);
   const shouldDimByRotation =
     categoryKey === "monster" &&
