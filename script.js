@@ -11,6 +11,7 @@ const hideAllBtn = document.getElementById("hideAllBtn");
 const caughtFilterAllBtn = document.getElementById("caughtFilterAllBtn");
 const todaySpotToggleBtn = document.getElementById("todaySpotToggleBtn");
 const panelToggleBtn = document.getElementById("panelToggleBtn");
+const fullscreenToggleBtn = document.getElementById("fullscreenToggleBtn");
 const detailSheet = document.getElementById("detailSheet");
 const detailBody = document.getElementById("detailBody");
 const detailClose = document.getElementById("detailClose");
@@ -18,6 +19,10 @@ const detailBackdrop = document.getElementById("detailBackdrop");
 const controlsSection = document.getElementById("controls");
 const mapLayout = document.getElementById("mapLayout");
 const tipsLayout = document.getElementById("tipsLayout");
+const controlsHome = {
+  parent: controlsSection.parentElement,
+  nextSibling: controlsSection.nextSibling
+};
 const STORAGE_KEY = "cotd-map:user-state:v1";
 const TIPS_PAGE_ID = "__tips__";
 
@@ -37,6 +42,7 @@ const filters = {
 
 let currentMapId = mapOrder[0];
 let isTipsMode = false;
+let isMapFullscreen = false;
 let mapInstance = null;
 let markerLayer = null;
 let lastFilteredEntities = [];
@@ -118,6 +124,7 @@ function saveUserState() {
   const payload = {
     mapId: currentMapId,
     isTipsMode,
+    isMapFullscreen,
     filters: {
       category: [...filters.category],
       time: [...filters.time],
@@ -139,6 +146,7 @@ function loadUserState() {
     const data = JSON.parse(raw);
     if (mapOrder.includes(data.mapId)) currentMapId = data.mapId;
     isTipsMode = Boolean(data.isTipsMode);
+    isMapFullscreen = Boolean(data.isMapFullscreen);
     if (data.filters && typeof data.filters === "object") {
       for (const group of ["category", "time", "rarity", "availability"]) {
         const values = Array.isArray(data.filters[group]) ? data.filters[group] : null;
@@ -405,8 +413,54 @@ function applyViewMode() {
   controlsSection.hidden = isTipsMode;
   mapLayout.hidden = isTipsMode;
   tipsLayout.hidden = !isTipsMode;
+  if (isTipsMode && isMapFullscreen) exitMapFullscreen();
   updateTodaySpotToggleButton();
 }
+
+function syncMapFullscreenState(active) {
+  const useMobileOverlay = active && window.matchMedia("(max-width: 860px)").matches;
+  isMapFullscreen = active;
+  document.body.classList.toggle("map-fullscreen", active);
+  mapLayout.classList.toggle("map-layout-fullscreen", active);
+  controlsSection.classList.toggle("map-filter-overlay", useMobileOverlay);
+  fullscreenToggleBtn?.classList.toggle("on", active);
+  fullscreenToggleBtn?.setAttribute("aria-pressed", active ? "true" : "false");
+  if (fullscreenToggleBtn) fullscreenToggleBtn.textContent = active ? "닫기" : "전체화면";
+
+  if (useMobileOverlay) {
+    mapLayout.appendChild(controlsSection);
+  } else {
+    controlsHome.parent.insertBefore(controlsSection, controlsHome.nextSibling);
+    controlsSection.hidden = isTipsMode;
+  }
+
+  requestAnimationFrame(() => {
+    mapInstance?.invalidateSize();
+  });
+  saveUserState();
+}
+
+function enterMapFullscreen() {
+  if (isTipsMode) return;
+  syncMapFullscreenState(true);
+  fitCurrentMapBounds();
+}
+
+function exitMapFullscreen() {
+  syncMapFullscreenState(false);
+  fitCurrentMapBounds();
+}
+
+function toggleMapFullscreen() {
+  if (isMapFullscreen) exitMapFullscreen();
+  else enterMapFullscreen();
+}
+
+function handleViewportChange() {
+  if (isMapFullscreen) syncMapFullscreenState(true);
+}
+
+window.addEventListener("resize", handleViewportChange);
 
 function updateTodaySpotToggleButton() {
   if (!todaySpotToggleBtn) return;
@@ -478,9 +532,10 @@ function createMapIfNeeded() {
     crs: L.CRS.Simple,
     minZoom: -3,
     maxZoom: 2,
-    zoomSnap: 0.25,
+    zoomSnap: 0.05,
     preferCanvas: true,
     zoomControl: false,
+    attributionControl: false,
     zoomAnimation: false,
     fadeAnimation: false,
     doubleClickZoom: true
@@ -505,10 +560,16 @@ function buildDetailHtml(entity) {
   return `
       <div class="fish-popup detail-theme">
         <div class="detail-title-row">
+          <div class="detail-title-text">
             <h3>${label(entity)}</h3>
+          </div>
+          <div class="detail-sub-name">
             ${entity.name}
+          </div>
+          <div class="detail-title-actions">
             <button class="caught-toggle ${caught ? "on" : ""}" data-action="toggle-caught" data-id="${entity.id}" data-category="${entity.category}" type="button">${caught ? "잡음 ✓" : "미획득"}</button>
             <button class="detail-close-inline" type="button" aria-label="닫기"> 닫기 </button>
+          </div>
         </div>
               
         <div class="detail-layout">
@@ -827,16 +888,31 @@ function closeDetail() {
 
 function toggleEntityPanel() {
   const isMobile = window.matchMedia("(max-width: 860px)").matches;
-  if (!isMobile) return;
+  if (!isMobile && !isMapFullscreen) return;
   const panel = document.getElementById("entityPanel");
   const nextOpen = !panel.classList.contains("open");
   panel.classList.toggle("open", nextOpen);
   panelToggleBtn.textContent = nextOpen ? "목록 닫기" : "목록 열기";
 }
 
+function fitCurrentMapBounds() {
+  if (!mapInstance) return;
+  const mapInfo = mapsById[currentMapId];
+  const bounds = [[0, 0], [mapInfo.imageHeight, mapInfo.imageWidth]];
+  mapInstance.invalidateSize();
+  requestAnimationFrame(() => {
+    mapInstance.fitBounds(bounds, {
+      padding: [0, 0],
+      animate: false
+    });
+  });
+}
 function renderMap() {
   const mapInfo = mapsById[currentMapId];
   const bounds = [[0, 0], [mapInfo.imageHeight, mapInfo.imageWidth]];
+  if (mapInfo.imageWidth && mapInfo.imageHeight) {
+    mapLayout.style.setProperty("--active-map-aspect", mapInfo.imageWidth / mapInfo.imageHeight);
+  }
   updateTodaySpotToggleButton();
 
   mapInstance.eachLayer((layer) => {
@@ -844,10 +920,7 @@ function renderMap() {
   });
 
   L.imageOverlay(mapInfo.imagePath, bounds).addTo(mapInstance);
-  mapInstance.fitBounds(bounds, {
-    padding: [0, 0],
-    animate: false
-  });
+  fitCurrentMapBounds();
 
   // 여기서 부터 클릭 부분==================
   mapInstance.off("click");
@@ -964,6 +1037,7 @@ document.addEventListener("DOMContentLoaded", () => {
     scheduleRenderMarkers();
   });
   panelToggleBtn.addEventListener("click", toggleEntityPanel);
+  fullscreenToggleBtn?.addEventListener("click", toggleMapFullscreen);
   todaySpotToggleBtn?.addEventListener("click", () => {
     if (!isMonsterRotationMap()) return;
     monsterRotationRevealed = !monsterRotationRevealed;
@@ -993,5 +1067,13 @@ document.addEventListener("DOMContentLoaded", () => {
     scheduleRenderMarkers();
   });
   if (isTipsMode) selectTipsPage();
-  else renderMap();
+  else {
+    renderMap();
+    if (isMapFullscreen) {
+      requestAnimationFrame(() => {
+        syncMapFullscreenState(true);
+        fitCurrentMapBounds();
+      });
+    }
+  }
 });
