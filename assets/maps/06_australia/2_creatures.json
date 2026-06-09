@@ -3,23 +3,21 @@
     "id": "c4-0",
     "name": "biscuit seastar",
     "display": "붉은 불가사리",
+    "latin": "Pentagonaster dubeni",
     "category": "creature",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 500,
         "y": 154
       },
       {
-        "no": 2,
         "x": 831.5575746753798,
         "y": 466.6904755831213
       }
     ],
     "notes": "",
-    "latin": "Pentagonaster dubeni",
     "difficulty": 0,
     "seasons": [
       true,
@@ -47,18 +45,17 @@
     "id": "c4-1",
     "name": "pinctada",
     "display": "진주 홍합",
+    "latin": "Pinctada maxima",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 540,
         "y": 909.5
       }
     ],
     "notes": "",
-    "latin": "Pinctada maxima",
     "difficulty": 0,
     "seasons": [
       true,
@@ -86,18 +83,17 @@
     "id": "c4-2",
     "name": "sand cucumber",
     "display": "해삼류",
+    "latin": "Holothuria scabra",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 300.5203820042827,
         "y": 500.6316010800756
       }
     ],
     "notes": "",
-    "latin": "Holothuria scabra",
     "difficulty": 0,
     "seasons": [
       true,
@@ -125,18 +121,17 @@
     "id": "c4-3",
     "name": "portuguese man o'war",
     "display": "작은부레관해파리",
+    "latin": "Physalia physalis",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 168,
         "y": 302
       }
     ],
     "notes": "",
-    "latin": "Physalia physalis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -164,23 +159,21 @@
     "id": "c4-4",
     "name": "purple sea urchin",
     "display": "분홍색 성게",
+    "latin": "Heliocidaris erythrogramma",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 354.2604973744603,
         "y": 365.57420587344507
       },
       {
-        "no": 2,
         "x": 866,
         "y": 492
       }
     ],
     "notes": "",
-    "latin": "Heliocidaris erythrogramma",
     "difficulty": 0,
     "seasons": [
       true,
@@ -208,43 +201,37 @@
     "id": "c4-5",
     "name": "box jelly fish",
     "display": "호주 은바치 해파리",
+    "latin": "Carassius auratus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 322.5,
         "y": 110.5
       },
       {
-        "no": 2,
         "x": 575.5,
         "y": 151.5
       },
       {
-        "no": 3,
         "x": 638.5174234114523,
         "y": 555.0788232314397
       },
       {
-        "no": 4,
         "x": 568.5138520739841,
         "y": 436.28488399209976
       },
       {
-        "no": 5,
         "x": 688.7220048756973,
         "y": 439.82041789803253
       },
       {
-        "no": 6,
         "x": 853.4778848921628,
         "y": 474.46865017617336
       }
     ],
     "notes": "",
-    "latin": "Carassius auratus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -272,28 +259,25 @@
     "id": "c4-6",
     "name": "sand anemone",
     "display": "말미잘",
+    "latin": "Oulactis muscosa",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 525.5,
         "y": 636
       },
       {
-        "no": 2,
         "x": 713.5,
         "y": 782.5
       },
       {
-        "no": 3,
         "x": 309.5,
         "y": 66.5
       }
     ],
     "notes": "",
-    "latin": "Oulactis muscosa",
     "difficulty": 0,
     "seasons": [
       true,
@@ -321,23 +305,21 @@
     "id": "c4-7",
     "name": "cauliflower coral",
     "display": "콜리플라워 산호",
+    "latin": "Pocillopora meandrina",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 842.9987727719897,
         "y": 494
       },
       {
-        "no": 2,
         "x": 605.9905114768712,
         "y": 519.7234841721124
       }
     ],
     "notes": "",
-    "latin": "Pocillopora meandrina",
     "difficulty": 0,
     "seasons": [
       true,
@@ -365,18 +347,17 @@
     "id": "c4-8",
     "name": "sea cow",
     "display": "듀공",
+    "latin": "Dugong dugon",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 364.15999231107196,
         "y": 106.06601717798212
       }
     ],
     "notes": "",
-    "latin": "Dugong dugon",
     "difficulty": 1,
     "seasons": [
       true,
@@ -402,18 +383,17 @@
     "id": "c4-9",
     "name": "saltwater crocodile",
     "display": "바닷악어",
+    "latin": "Crocodylus acutus",
     "category": "creature",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 181,
         "y": 667.5
       }
     ],
     "notes": "",
-    "latin": "Crocodylus acutus",
     "difficulty": 2,
     "seasons": [
       true,
@@ -441,18 +421,17 @@
     "id": "c4-10",
     "name": "giant cuttlefish",
     "display": "거대 오징어",
+    "latin": "Sepia apama",
     "category": "creature",
     "rarity": "rare",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 771,
         "y": 468
       }
     ],
     "notes": "",
-    "latin": "Sepia apama",
     "difficulty": 0,
     "seasons": [
       true,
@@ -478,18 +457,17 @@
     "id": "c4-11",
     "name": "blue ringed octopus",
     "display": "파란고리문어속",
+    "latin": "Hapalochlaena lunulata",
     "category": "creature",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 684.8329175791712,
         "y": 243.24473272817232
       }
     ],
     "notes": "",
-    "latin": "Hapalochlaena lunulata",
     "difficulty": 0,
     "seasons": [
       true,

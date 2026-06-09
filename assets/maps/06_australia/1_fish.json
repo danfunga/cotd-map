@@ -3,23 +3,21 @@
     "id": "40",
     "name": "black bream",
     "display": "블루노즈",
+    "latin": "Acanthopagrus butcheri",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 229.45398104191418,
         "y": 242.18407255639252
       },
       {
-        "no": 2,
         "x": 173.94764832814198,
         "y": 89.09545442950498
       }
     ],
     "notes": "",
-    "latin": "Acanthopagrus butcheri",
     "difficulty": 0,
     "seasons": [
       true,
@@ -49,28 +47,25 @@
     "id": "41",
     "name": "dusky flathead",
     "display": "플랫헤드",
+    "latin": "Platycephalus fuscus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 399.51533137039934,
         "y": 827.3149339882606
       },
       {
-        "no": 2,
         "x": 781.352993211135,
         "y": 135.05739520663056
       },
       {
-        "no": 3,
         "x": 334.5,
         "y": 81
       }
     ],
     "notes": "",
-    "latin": "Platycephalus fuscus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -100,28 +95,25 @@
     "id": "42",
     "name": "red emperor snapper",
     "display": "레드 엠퍼러 스냅퍼",
+    "latin": "Lutjanus sebae",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 222.9951023356293,
         "y": 258.5
       },
       {
-        "no": 2,
         "x": 420,
         "y": 120
       },
       {
-        "no": 3,
         "x": 551.543289325507,
         "y": 78.48885271170677
       }
     ],
     "notes": "",
-    "latin": "Lutjanus sebae",
     "difficulty": 0,
     "seasons": [
       true,
@@ -152,28 +144,25 @@
     "id": "43",
     "name": "shortfin mako shark",
     "display": "청상아리",
+    "latin": "Isurus oxyrinchus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 901.561146012848,
         "y": 542.3509011700819
       },
       {
-        "no": 2,
         "x": 883.5,
         "y": 852.5
       },
       {
-        "no": 3,
         "x": 878,
         "y": 257
       }
     ],
     "notes": "",
-    "latin": "Isurus oxyrinchus",
     "difficulty": 1,
     "seasons": [
       true,
@@ -203,18 +192,17 @@
     "id": "44",
     "name": "carpet shark",
     "display": "카펫상어",
+    "latin": "Ginglymostoma cirratum",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 564.9783181680515,
         "y": 648.4169183480641
       }
     ],
     "notes": "",
-    "latin": "Ginglymostoma cirratum",
     "difficulty": 0,
     "seasons": [
       true,
@@ -245,18 +233,17 @@
     "id": "45",
     "name": "port jackson shark",
     "display": "포트 잭슨 상어",
+    "latin": "Heterodontus portusjacksoni",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 413,
         "y": 863
       }
     ],
     "notes": "",
-    "latin": "Heterodontus portusjacksoni",
     "difficulty": 1,
     "seasons": [
       false,
@@ -282,33 +269,29 @@
     "id": "46",
     "name": "spanish mackerel",
     "display": "동갈삼치",
+    "latin": "Scomberomorus commerson",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 195.1663185401444,
         "y": 177.5154592216139
       },
       {
-        "no": 2,
         "x": 349,
         "y": 894.5
       },
       {
-        "no": 3,
         "x": 841.1035162213983,
         "y": 377.9485745442097
       },
       {
-        "no": 4,
         "x": 303,
         "y": 456
       }
     ],
     "notes": "",
-    "latin": "Scomberomorus commerson",
     "difficulty": 0,
     "seasons": [
       false,
@@ -339,33 +322,29 @@
     "id": "47",
     "name": "albacore",
     "display": "날개다랑어",
+    "latin": "Thunnus alalunga",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 849.2352442050435,
         "y": 547.3006486383878
       },
       {
-        "no": 2,
         "x": 651,
         "y": 896
       },
       {
-        "no": 3,
         "x": 870.44844764064,
         "y": 895.1971849821691
       },
       {
-        "no": 4,
         "x": 416.48589411887644,
         "y": 335.87572106361006
       }
     ],
     "notes": "",
-    "latin": "Thunnus alalunga",
     "difficulty": 0,
     "seasons": [
       false,
@@ -395,28 +374,25 @@
     "id": "48",
     "name": "barramundi",
     "display": "큰입선농어",
+    "latin": "Lates calcarifer",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 451.5,
         "y": 693
       },
       {
-        "no": 2,
         "x": 316.07673119038674,
         "y": 487.90367901871775
       },
       {
-        "no": 3,
         "x": 391,
         "y": 883
       }
     ],
     "notes": "",
-    "latin": "Lates calcarifer",
     "difficulty": 0,
     "seasons": [
       false,
@@ -446,23 +422,21 @@
     "id": "49",
     "name": "unicorn leatherjacket",
     "display": "우스바하기",
+    "latin": "Aluterus monoceros",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 266.5792565073284,
         "y": 867.6200205158938
       },
       {
-        "no": 2,
         "x": 333.04754738332474,
         "y": 217.79005502590425
       }
     ],
     "notes": "",
-    "latin": "Aluterus monoceros",
     "difficulty": 0,
     "seasons": [
       true,
@@ -492,28 +466,25 @@
     "id": "410",
     "name": "tailor",
     "display": "파란농어",
+    "latin": "Pomatomus saltatrix",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 383.5,
         "y": 611.5
       },
       {
-        "no": 2,
         "x": 536.0005310750362,
         "y": 472.0078547524919
       },
       {
-        "no": 3,
         "x": 272.94321753800733,
         "y": 478.7112908632926
       }
     ],
     "notes": "",
-    "latin": "Pomatomus saltatrix",
     "difficulty": 0,
     "seasons": [
       false,
@@ -544,23 +515,21 @@
     "id": "411",
     "name": "leafy seadragon",
     "display": "나뭇잎해룡",
+    "latin": "Phycodurus eques",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 250,
         "y": 470.5
       },
       {
-        "no": 2,
         "x": 587.605735166021,
         "y": 655.4879861599295
       }
     ],
     "notes": "",
-    "latin": "Phycodurus eques",
     "difficulty": 0,
     "seasons": [
       true,
@@ -586,28 +555,25 @@
     "id": "412",
     "name": "rock flagtail",
     "display": "락 베이스",
+    "latin": "Kuhlia rupestris",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 373.3523804664971,
         "y": 847.1139238614838
       },
       {
-        "no": 2,
         "x": 535.2798333582165,
         "y": 671.0443353460336
       },
       {
-        "no": 3,
         "x": 897.5,
         "y": 909
       }
     ],
     "notes": "",
-    "latin": "Kuhlia rupestris",
     "difficulty": 0,
     "seasons": [
       true,
@@ -637,23 +603,21 @@
     "id": "413",
     "name": "black-saddler coral grouper",
     "display": "산호하타",
+    "latin": "Mycteroperca xenarcha",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 300,
         "y": 569.43
       },
       {
-        "no": 2,
         "x": 550,
         "y": 799.2
       }
     ],
     "notes": "",
-    "latin": "Mycteroperca xenarcha",
     "difficulty": 0,
     "seasons": [
       true,
@@ -683,33 +647,29 @@
     "id": "414",
     "name": "common stargazer",
     "display": "몽상가",
+    "latin": "Kathetostoma laeve",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 845.5,
         "y": 898
       },
       {
-        "no": 2,
         "x": 329,
         "y": 858
       },
       {
-        "no": 3,
         "x": 596,
         "y": 89
       },
       {
-        "no": 4,
         "x": 904,
         "y": 274
       }
     ],
     "notes": "",
-    "latin": "Kathetostoma laeve",
     "difficulty": 0,
     "seasons": [
       false,
@@ -739,23 +699,21 @@
     "id": "415",
     "name": "skipjack tuna",
     "display": "가다랑어",
+    "latin": "Thunnus tonggol",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 360.5,
         "y": 881
       },
       {
-        "no": 2,
         "x": 246.99982468171277,
         "y": 383
       }
     ],
     "notes": "",
-    "latin": "Thunnus tonggol",
     "difficulty": 0,
     "seasons": [
       true,
@@ -785,23 +743,21 @@
     "id": "416",
     "name": "fingermark",
     "display": "황금 도미",
+    "latin": "Lutjanus johnii",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 347,
         "y": 841
       },
       {
-        "no": 2,
         "x": 559.3214639185591,
         "y": 703.5712472806148
       }
     ],
     "notes": "",
-    "latin": "Lutjanus johnii",
     "difficulty": 0,
     "seasons": [
       true,
@@ -832,28 +788,25 @@
     "id": "417",
     "name": "coral trout",
     "display": "스지아라",
+    "latin": "Plectropomus leopardus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 851,
         "y": 173
       },
       {
-        "no": 2,
         "x": 545.1793282948281,
         "y": 653.3666658163698
       },
       {
-        "no": 3,
         "x": 725.4926732161454,
         "y": 375.4737008100567
       }
     ],
     "notes": "",
-    "latin": "Plectropomus leopardus",
     "difficulty": 0,
     "seasons": [
       false,
@@ -883,43 +836,37 @@
     "id": "418",
     "name": "john dory",
     "display": "달고기",
+    "latin": "Zeus faber",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 887,
         "y": 880.5
       },
       {
-        "no": 2,
         "x": 846.0008765914359,
         "y": 571
       },
       {
-        "no": 3,
         "x": 516.5,
         "y": 162
       },
       {
-        "no": 4,
         "x": 542.3509011700819,
         "y": 690.1362184380704
       },
       {
-        "no": 5,
         "x": 894,
         "y": 239.5
       },
       {
-        "no": 6,
         "x": 354.5,
         "y": 223
       }
     ],
     "notes": "",
-    "latin": "Zeus faber",
     "difficulty": 0,
     "seasons": [
       true,
@@ -949,28 +896,25 @@
     "id": "419",
     "name": "luderick",
     "display": "루데릭 피쉬",
+    "latin": "Girella tricuspidata",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 743.5,
         "y": 791.5
       },
       {
-        "no": 2,
         "x": 883.1763697019978,
         "y": 138.5929291125633
       },
       {
-        "no": 3,
         "x": 370,
         "y": 210.5
       }
     ],
     "notes": "",
-    "latin": "Girella tricuspidata",
     "difficulty": 0,
     "seasons": [
       false,
@@ -1000,28 +944,25 @@
     "id": "420",
     "name": "mangrove jack",
     "display": "고마후에다이",
+    "latin": "Caranx hippos",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 597.5052301026326,
         "y": 690.8433252192569
       },
       {
-        "no": 2,
         "x": 865.5,
         "y": 825.5
       },
       {
-        "no": 3,
         "x": 295.57063453597686,
         "y": 475.88286373854646
       }
     ],
     "notes": "",
-    "latin": "Caranx hippos",
     "difficulty": 0,
     "seasons": [
       true,
@@ -1051,23 +992,21 @@
     "id": "421",
     "name": "golden trevally",
     "display": "골든트레블리",
+    "latin": "Gnathanodon speciosus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 481.53971798803883,
         "y": 166.17009357883865
       },
       {
-        "no": 2,
         "x": 598.0424270255012,
         "y": 69
       }
     ],
     "notes": "",
-    "latin": "Gnathanodon speciosus",
     "difficulty": 0,
     "seasons": [
       false,
@@ -1097,28 +1036,25 @@
     "id": "422",
     "name": "queensland grouper",
     "display": "대왕바리",
+    "latin": "Epinephelus lanceolatus",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 685.9733516203464,
         "y": 412
       },
       {
-        "no": 2,
         "x": 806.8088373338506,
         "y": 154.8563850798539
       },
       {
-        "no": 3,
         "x": 598.9194436650057,
         "y": 671.7514421272201
       }
     ],
     "notes": "",
-    "latin": "Epinephelus lanceolatus",
     "difficulty": 2,
     "seasons": [
       true,
@@ -1148,33 +1084,29 @@
     "id": "423",
     "name": "smooth oreo dory",
     "display": "오레오도리",
+    "latin": "Pseudocyttus maculatus",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 901,
         "y": 901
       },
       {
-        "no": 2,
         "x": 898,
         "y": 579
       },
       {
-        "no": 3,
         "x": 857,
         "y": 269
       },
       {
-        "no": 4,
         "x": 757,
         "y": 365
       }
     ],
     "notes": "",
-    "latin": "Pseudocyttus maculatus",
     "difficulty": 1,
     "seasons": [
       true,
@@ -1204,23 +1136,21 @@
     "id": "424",
     "name": "swordfish",
     "display": "황새치",
+    "latin": "Xiphias gladius",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 900,
         "y": 582
       },
       {
-        "no": 2,
         "x": 350,
         "y": 200
       }
     ],
     "notes": "",
-    "latin": "Xiphias gladius",
     "difficulty": 2,
     "seasons": [
       true,
@@ -1250,18 +1180,17 @@
     "id": "425",
     "name": "spotted handfish",
     "display": "점박이손고기",
+    "latin": "Brachionichthys hirsutus",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 504,
         "y": 196
       }
     ],
     "notes": "",
-    "latin": "Brachionichthys hirsutus",
     "difficulty": 1,
     "seasons": [
       true,
@@ -1287,28 +1216,25 @@
     "id": "426",
     "name": "giant trevally",
     "display": "무명갈전갱이",
+    "latin": "Caranx ignobilis",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 373.3523804664971,
         "y": 823.0722933011413
       },
       {
-        "no": 2,
         "x": 401,
         "y": 105
       },
       {
-        "no": 3,
         "x": 850,
         "y": 144
       }
     ],
     "notes": "",
-    "latin": "Caranx ignobilis",
     "difficulty": 1,
     "seasons": [
       true,
@@ -1339,23 +1265,21 @@
     "id": "427",
     "name": "tiger shark",
     "display": "뱀상어",
+    "latin": "Galeocerdo cuvier",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 905,
         "y": 601
       },
       {
-        "no": 2,
         "x": 700.5,
         "y": 903.5
       }
     ],
     "notes": "",
-    "latin": "Galeocerdo cuvier",
     "difficulty": 2,
     "seasons": [
       true,
@@ -1386,23 +1310,21 @@
     "id": "428",
     "name": "manta ray",
     "display": "만타 가오리",
+    "latin": "Manta birostris",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 551,
         "y": 702
       },
       {
-        "no": 2,
         "x": 744,
         "y": 517
       }
     ],
     "notes": "",
-    "latin": "Manta birostris",
     "difficulty": 2,
     "seasons": [
       true,
@@ -1428,23 +1350,21 @@
     "id": "429",
     "name": "hoodwinker sunfish",
     "display": "후드윙커 개복치",
+    "latin": "Mola tecta",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 709,
         "y": 116
       },
       {
-        "no": 2,
         "x": 910.5,
         "y": 889.5
       }
     ],
     "notes": "",
-    "latin": "Mola tecta",
     "difficulty": 2,
     "seasons": [
       true,
@@ -1470,33 +1390,29 @@
     "id": "430",
     "name": "bunyip",
     "display": "버닙",
+    "latin": "",
     "category": "monster",
     "rarity": "monster",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 577.7062402294093,
         "y": 473.05443661380025
       },
       {
-        "no": 2,
         "x": 645,
         "y": 630.5
       },
       {
-        "no": 3,
         "x": 670,
         "y": 492
       },
       {
-        "no": 4,
         "x": 627.5,
         "y": 162
       }
     ],
     "notes": "Map monster.",
-    "latin": "",
     "difficulty": 2,
     "seasons": [
       true,

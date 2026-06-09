@@ -3,18 +3,17 @@
     "id": "c18",
     "name": "Swinklet",
     "display": "Swinklet",
+    "latin": "Susichthys rotundus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1380,
         "y": 1950
       }
     ],
     "notes": "",
-    "latin": "Susichthys rotundus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -44,18 +43,17 @@
     "id": "c17",
     "name": "Pavonyx",
     "display": "Pavonyx",
+    "latin": "Pavonichthys splendens",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1680.0000000000002,
         "y": 2580
       }
     ],
     "notes": "",
-    "latin": "Pavonichthys splendens",
     "difficulty": 0,
     "seasons": [
       true,
@@ -85,18 +83,17 @@
     "id": "c12",
     "name": "Grungletide",
     "display": "Grungletide",
+    "latin": "Rudichthys sordidus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2220,
         "y": 2280
       }
     ],
     "notes": "",
-    "latin": "Rudichthys sordidus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -126,18 +123,17 @@
     "id": "c21",
     "name": "Harefin",
     "display": "Harefin",
+    "latin": "Leporichthys saltans",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 540,
         "y": 1290
       }
     ],
     "notes": "",
-    "latin": "Leporichthys saltans",
     "difficulty": 0,
     "seasons": [
       true,
@@ -167,18 +163,17 @@
     "id": "c01",
     "name": "Balloonflare",
     "display": "Balloonflare",
+    "latin": "Pneumichthys globulus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2010.0000000000002,
         "y": 1709.9999999999998
       }
     ],
     "notes": "",
-    "latin": "Pneumichthys globulus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -204,18 +199,17 @@
     "id": "c23",
     "name": "Shooloop",
     "display": "Shooloop",
+    "latin": "Calceichthys deformis",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 510.00000000000006,
         "y": 1680.0000000000002
       }
     ],
     "notes": "",
-    "latin": "Calceichthys deformis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -245,18 +239,17 @@
     "id": "c02",
     "name": "Meliglow",
     "display": "Meliglow",
+    "latin": "Apichthys melissa",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2310,
         "y": 720
       }
     ],
     "notes": "",
-    "latin": "Apichthys melissa",
     "difficulty": 0,
     "seasons": [
       true,
@@ -282,18 +275,17 @@
     "id": "c15",
     "name": "Moosecarver",
     "display": "Moosecarver",
+    "latin": "Alcescyprinus magnus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 990,
         "y": 1830
       }
     ],
     "notes": "",
-    "latin": "Alcescyprinus magnus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -323,18 +315,17 @@
     "id": "c13",
     "name": "Harmonelle",
     "display": "Harmonelle",
+    "latin": "Concordichthys sonorus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 390,
         "y": 1920
       }
     ],
     "notes": "",
-    "latin": "Concordichthys sonorus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -364,18 +355,17 @@
     "id": "c06",
     "name": "Mooline",
     "display": "Mooline",
+    "latin": "Bovinichthys placidus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1380,
         "y": 1950
       }
     ],
     "notes": "",
-    "latin": "Bovinichthys placidus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -405,18 +395,17 @@
     "id": "c16",
     "name": "Olexis",
     "display": "Olexis",
+    "latin": "Oleichthys lubricus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 810,
         "y": 840.0000000000001
       }
     ],
     "notes": "",
-    "latin": "Oleichthys lubricus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -446,18 +435,17 @@
     "id": "c20",
     "name": "Punkflare",
     "display": "Punkflare",
+    "latin": "Punkichthys erectus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2220,
         "y": 2310
       }
     ],
     "notes": "",
-    "latin": "Punkichthys erectus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -487,18 +475,17 @@
     "id": "c05",
     "name": "Cresthorn",
     "display": "Cresthorn",
+    "latin": "Gallochthys crestatus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1380,
         "y": 1920
       }
     ],
     "notes": "",
-    "latin": "Gallochthys crestatus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -528,18 +515,17 @@
     "id": "c09",
     "name": "Garlite",
     "display": "Garlite",
+    "latin": "Gariorhynchus acutus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 960,
         "y": 270
       }
     ],
     "notes": "",
-    "latin": "Gariorhynchus acutus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -569,18 +555,17 @@
     "id": "c04",
     "name": "Cirquelight",
     "display": "Cirquelight",
+    "latin": "Circichthys ludicus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 360,
         "y": 2670
       }
     ],
     "notes": "",
-    "latin": "Circichthys ludicus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -610,23 +595,21 @@
     "id": "c07",
     "name": "Hartspike",
     "display": "Hartspike",
+    "latin": "Cervoesox gracilis",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1230,
         "y": 2700
       },
       {
-        "no": 2,
         "x": 1739.9999999999998,
         "y": 2610
       }
     ],
     "notes": "",
-    "latin": "Cervoesox gracilis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -656,18 +639,17 @@
     "id": "c25",
     "name": "Arakelle",
     "display": "Arakelle",
+    "latin": "Araneichthys longipes",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2640,
         "y": 1350
       }
     ],
     "notes": "",
-    "latin": "Araneichthys longipes",
     "difficulty": 0,
     "seasons": [
       true,
@@ -693,18 +675,17 @@
     "id": "c11",
     "name": "Globulett",
     "display": "Globulett",
+    "latin": "Globopterus inflatus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 450,
         "y": 1860
       }
     ],
     "notes": "",
-    "latin": "Globopterus inflatus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -734,18 +715,17 @@
     "id": "c03",
     "name": "Taurfin",
     "display": "Taurfin",
+    "latin": "Taurichthys robustus",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1560,
         "y": 1290
       }
     ],
     "notes": "",
-    "latin": "Taurichthys robustus",
     "difficulty": 3,
     "seasons": [
       true,
@@ -771,18 +751,17 @@
     "id": "c24",
     "name": "Speartide",
     "display": "Speartide",
+    "latin": "Hastasalmo aculeatus",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1739.9999999999998,
         "y": 540
       }
     ],
     "notes": "",
-    "latin": "Hastasalmo aculeatus",
     "difficulty": 3,
     "seasons": [
       true,
@@ -808,18 +787,17 @@
     "id": "c08",
     "name": "Elephara",
     "display": "Elephara",
+    "latin": "Elephasichthys nasocornis",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1260,
         "y": 2160
       }
     ],
     "notes": "",
-    "latin": "Elephasichthys nasocornis",
     "difficulty": 3,
     "seasons": [
       true,
@@ -845,18 +823,17 @@
     "id": "c14",
     "name": "Ladybelle",
     "display": "Ladybelle",
+    "latin": "Coccinellichthys punctatus",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2280,
         "y": 750
       }
     ],
     "notes": "",
-    "latin": "Coccinellichthys punctatus",
     "difficulty": 3,
     "seasons": [
       true,
@@ -882,18 +859,17 @@
     "id": "c10",
     "name": "Giraffine",
     "display": "Giraffine",
+    "latin": "Giraffichthys alticollis",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2190,
         "y": 2220
       }
     ],
     "notes": "",
-    "latin": "Giraffichthys alticollis",
     "difficulty": 3,
     "seasons": [
       true,
@@ -919,18 +895,17 @@
     "id": "c22",
     "name": "Rhynorid",
     "display": "Rhynorid",
+    "latin": "Rhinichthys cornutus",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 480,
         "y": 840.0000000000001
       }
     ],
     "notes": "",
-    "latin": "Rhinichthys cornutus",
     "difficulty": 3,
     "seasons": [
       true,
@@ -956,18 +931,17 @@
     "id": "c19",
     "name": "Tailtress",
     "display": "Tailtress",
+    "latin": "Caudichthys funiculus",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2580,
         "y": 1440
       }
     ],
     "notes": "",
-    "latin": "Caudichthys funiculus",
     "difficulty": 3,
     "seasons": [
       true,

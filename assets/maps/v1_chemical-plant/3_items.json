@@ -3,23 +3,21 @@
     "id": "T9-1",
     "name": "can",
     "display": "캔",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 840,
         "y": 228
       },
       {
-        "no": 2,
         "x": 360,
         "y": 1080
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -29,7 +27,6 @@
     "mapCategory": "Can",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 911.4606409494597,
         "y": 185.969083452062
       }
@@ -39,18 +36,17 @@
     "id": "T9-2",
     "name": "cartridge",
     "display": "탄약통",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 420,
         "y": 948
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -60,7 +56,6 @@
     "mapCategory": "Cartridge",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 461.03362133362896,
         "y": 958.8367952889583
       }
@@ -70,18 +65,17 @@
     "id": "T9-3",
     "name": "crowbar",
     "display": "쇠지렛대",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 432,
         "y": 396
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -91,7 +85,6 @@
     "mapCategory": "Crowbar",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 435.5777772109133,
         "y": 408.70771952582453
       }
@@ -101,18 +94,17 @@
     "id": "T9-4",
     "name": "geiger counter",
     "display": "가이거 계수기",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 768,
         "y": 960
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -122,7 +114,6 @@
     "mapCategory": "Geiger Counter",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 755.1900423072327,
         "y": 963.0794359760777
       }
@@ -132,18 +123,17 @@
     "id": "T9-5",
     "name": "glowing cristal",
     "display": "빛나는 크리스탈",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 624,
         "y": 936
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -157,18 +147,17 @@
     "id": "T9-6",
     "name": "hacksaw",
     "display": "활톱",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 348,
         "y": 852
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -178,7 +167,6 @@
     "mapCategory": "Hacksaw",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 377.5950211536164,
         "y": 816.001225489276
       }
@@ -188,18 +176,17 @@
     "id": "T9-7",
     "name": "heater",
     "display": "히터",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 516,
         "y": 1068
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -209,7 +196,6 @@
     "mapCategory": "Heater",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 510.5310960166873,
         "y": 1067.7312395916867
       }
@@ -219,18 +205,17 @@
     "id": "T9-8",
     "name": "high radiation sign",
     "display": "높은 방사선 표시",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 612,
         "y": 948
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -240,7 +225,6 @@
     "mapCategory": "High Radiation Sign",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 585.4844148224613,
         "y": 970.8576105691296
       }
@@ -250,18 +234,17 @@
     "id": "T9-9",
     "name": "laboratory equipment",
     "display": "실험실 장비",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 516,
         "y": 1068
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -271,7 +254,6 @@
     "mapCategory": "Laboratory Equipment",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 276.47875144394004,
         "y": 661.1448404094219
       }
@@ -281,18 +263,17 @@
     "id": "T9-10",
     "name": "manhole cover",
     "display": "맨홀 뚜껑",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 192,
         "y": 1044
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -302,7 +283,6 @@
     "mapCategory": "Manhole Cover",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 362.74577874869885,
         "y": 1087.53022946491
       }
@@ -312,18 +292,17 @@
     "id": "T9-11",
     "name": "mutated horsetail",
     "display": "돌연변이된 말꼬리",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 132,
         "y": 672.0000000000001
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -333,7 +312,6 @@
     "mapCategory": "Mutated Horsetail",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 125.86500705120545,
         "y": 741.7550134646883
       }
@@ -343,18 +321,17 @@
     "id": "T9-12",
     "name": "ninja pizza box",
     "display": "닌자 피자 상자",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 708,
         "y": 1056
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -364,7 +341,6 @@
     "mapCategory": "Ninja Pizza Box",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 654.0737725975564,
         "y": 1045.8109293749037
       }
@@ -374,18 +350,17 @@
     "id": "T9-13",
     "name": "ninja pizza slice",
     "display": "닌자 피자 조각",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 708,
         "y": 1056
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -395,7 +370,6 @@
     "mapCategory": "Ninja Pizza Slice",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 642.0529573173851,
         "y": 1074.0952006223656
       }
@@ -405,18 +379,17 @@
     "id": "T9-14",
     "name": "old battery",
     "display": "오래된 배터리",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 156,
         "y": 900
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -426,7 +399,6 @@
     "mapCategory": "Old Battery",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 169.70562748477138,
         "y": 889.5403307326767
       }
@@ -436,18 +408,17 @@
     "id": "T9-15",
     "name": "pesticides",
     "display": "살충제",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 516,
         "y": 1068
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -457,7 +428,6 @@
     "mapCategory": "Pesticides",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 424.2640687119285,
         "y": 1056.417531092702
       }
@@ -467,18 +437,17 @@
     "id": "T9-16",
     "name": "phosphorus",
     "display": "인",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 648,
         "y": 732
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -488,7 +457,6 @@
     "mapCategory": "Phosphorus",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 644.8813844421313,
         "y": 700.7428201558686
       }
@@ -498,18 +466,17 @@
     "id": "T9-17",
     "name": "pipe",
     "display": "파이프",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 756,
         "y": 360
       }
     ],
     "notes": "toxic fishing rod",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -519,17 +486,14 @@
     "mapCategory": "Pipe",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 909.3393206059002,
         "y": 219.20310216782974
       },
       {
-        "no": 2,
         "x": 1038.032754781852,
         "y": 224.85995641732214
       },
       {
-        "no": 3,
         "x": 784.8885271170677,
         "y": 325.97622612699837
       }
@@ -539,18 +503,17 @@
     "id": "T9-18",
     "name": "pipe wrench",
     "display": "파이프 렌치",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 983.9999999999999,
         "y": 588
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -560,7 +523,6 @@
     "mapCategory": "Pipe Wrench",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 207,
         "y": 168
       }
@@ -570,23 +532,21 @@
     "id": "T9-19",
     "name": "prof. flux's notes",
     "display": "플럭스 교수의 노트",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 840,
         "y": 228
       },
       {
-        "no": 2,
         "x": 360,
         "y": 1080
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -596,12 +556,10 @@
     "mapCategory": "Prof. Flux’s Notes",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 557.2001435749995,
         "y": 499.212660928468
       },
       {
-        "no": 2,
         "x": 842.8712831743647,
         "y": 200.81832585697953
       }
@@ -611,18 +569,17 @@
     "id": "T9-20",
     "name": "protective mask",
     "display": "보호 마스크",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 936,
         "y": 108
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -632,7 +589,6 @@
     "mapCategory": "Protective Mask",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 963.0794359760778,
         "y": 91.8909158522651
       }
@@ -642,18 +598,17 @@
     "id": "T9-21",
     "name": "protective suit",
     "display": "보호복",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 516,
         "y": 588
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -663,7 +618,6 @@
     "mapCategory": "Protective Suit",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 511.94530957906045,
         "y": 558.6032481473883
       }
@@ -673,18 +627,17 @@
     "id": "T9-22",
     "name": "radioactive stone",
     "display": "방사성 돌",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 708,
         "y": 936
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -694,7 +647,6 @@
     "mapCategory": "Radioactive Stone",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 692.2575387816299,
         "y": 905.8037866999673
       }
@@ -704,23 +656,21 @@
     "id": "T9-23",
     "name": "red valve",
     "display": "빨간 밸브",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 612,
         "y": 528
       },
       {
-        "no": 2,
         "x": 528,
         "y": 252
       }
     ],
     "notes": "toxic fishing rod",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -730,22 +680,18 @@
     "mapCategory": "Red Valve",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 535.2798333582165,
         "y": 247.48737341529161
       },
       {
-        "no": 2,
         "x": 382.5447686219222,
         "y": 358.5031380615796
       },
       {
-        "no": 3,
         "x": 959,
         "y": 604
       },
       {
-        "no": 4,
         "x": 610.2331521639904,
         "y": 533.1585130146568
       }
@@ -755,18 +701,17 @@
     "id": "T9-24",
     "name": "research files vol.1",
     "display": "연구 파일 vol.1",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 504,
         "y": 168.00000000000003
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -776,7 +721,6 @@
     "mapCategory": "Research Files Vol.1",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 526.0874452027913,
         "y": 161.22034611053283
       }
@@ -786,18 +730,17 @@
     "id": "T9-25",
     "name": "research files vol.2",
     "display": "연구 파일 vol.2",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 144,
         "y": 252
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -807,7 +750,6 @@
     "mapCategory": "Research Files Vol.2",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 145.6639969244288,
         "y": 268.70057685088807
       }
@@ -817,18 +759,17 @@
     "id": "T9-26",
     "name": "research files vol.3",
     "display": "연구 파일 vol.3",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 888,
         "y": 312
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -838,7 +779,6 @@
     "mapCategory": "Research Files Vol.3",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 899.4398256692884,
         "y": 317.49094475275984
       }
@@ -848,18 +788,17 @@
     "id": "T9-27",
     "name": "research files vol.4",
     "display": "연구 파일 vol.4",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 780,
         "y": 1068
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -869,7 +808,6 @@
     "mapCategory": "Research Files Vol.4",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 794.7880220536794,
         "y": 1028.13325984524
       }
@@ -879,18 +817,17 @@
     "id": "T9-28",
     "name": "sai knive",
     "display": "사이 칼",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 672.0000000000001,
         "y": 948
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -900,7 +837,6 @@
     "mapCategory": "Sai Knive",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 632.1534623807735,
         "y": 915.7032816365789
       }
@@ -910,18 +846,17 @@
     "id": "T9-29",
     "name": "skateboard",
     "display": "스케이트보드",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 588,
         "y": 948
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -931,7 +866,6 @@
     "mapCategory": "Skateboard",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 545.8864350760147,
         "y": 942.5733393216677
       }
@@ -941,18 +875,17 @@
     "id": "T9-30",
     "name": "sign",
     "display": "표지판",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 780,
         "y": 168.00000000000003
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -962,7 +895,6 @@
     "mapCategory": "Sign",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 781.352993211135,
         "y": 171.1198410471445
       }
@@ -972,18 +904,17 @@
     "id": "T9-31",
     "name": "toxic algae",
     "display": "유독성 조류",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 420,
         "y": 924
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -993,12 +924,10 @@
     "mapCategory": "Toxic Algae",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 127.27922061357856,
         "y": 939.0378054157352
       },
       {
-        "no": 2,
         "x": 717.0062761231592,
         "y": 1028.8403666264267
       }
@@ -1008,18 +937,17 @@
     "id": "T9-32",
     "name": "toxic branch",
     "display": "유독성 가지",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 516,
         "y": 180
       }
     ],
     "notes": "toxic fishing rod",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -1029,7 +957,6 @@
     "mapCategory": "Toxic Branch",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 485.0752518939716,
         "y": 164.04877323527901
       }
@@ -1039,18 +966,17 @@
     "id": "T9-33",
     "name": "toxic barrel",
     "display": "독성 배럴",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 168.00000000000003,
         "y": 900
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -1060,7 +986,6 @@
     "mapCategory": "Toxic Barrel",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 168.29141392239833,
         "y": 848.5281374238571
       }
@@ -1070,18 +995,17 @@
     "id": "T9-34",
     "name": "venus flytrap",
     "display": "금성 파리통",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 708,
         "y": 1044
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -1091,7 +1015,6 @@
     "mapCategory": "Venus Flytrap",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 715.5920625607861,
         "y": 1002.6774157225243
       }
@@ -1101,28 +1024,25 @@
     "id": "T9-35",
     "name": "water bottle",
     "display": "물병",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 612,
         "y": 540
       },
       {
-        "no": 2,
         "x": 1044,
         "y": 216
       },
       {
-        "no": 3,
         "x": 180,
         "y": 120
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -1132,22 +1052,18 @@
     "mapCategory": "Water Bottle",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 1088.5,
         "y": 226.5
       },
       {
-        "no": 2,
         "x": 175.3624817342638,
         "y": 123.03657992645928
       },
       {
-        "no": 3,
         "x": 98.99494936611666,
         "y": 954.5941546018393
       },
       {
-        "no": 4,
         "x": 629.6785886466205,
         "y": 536.3404935299963
       }
@@ -1157,18 +1073,17 @@
     "id": "T9-36",
     "name": "wind turbine propeller blade",
     "display": "풍력 터빈 프로펠러 블레이드",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1044,
         "y": 444
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -1178,7 +1093,6 @@
     "mapCategory": "Wind Turbine Propeller Blade",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 1034,
         "y": 517
       }
@@ -1188,18 +1102,17 @@
     "id": "T9-37",
     "name": "wind turbine propeller hub",
     "display": "풍력 터빈 프로펠러 허브",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 120,
         "y": 288
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -1209,12 +1122,10 @@
     "mapCategory": "Wind Turbine Propeller Hub",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 172.53405460951763,
         "y": 321.0264786586926
       },
       {
-        "no": 2,
         "x": 997,
         "y": 110
       }
@@ -1224,18 +1135,17 @@
     "id": "T9-38",
     "name": "wind turbine propeller dynamo",
     "display": "풍력 터빈 프로펠러 발전기",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 708,
         "y": 612
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,

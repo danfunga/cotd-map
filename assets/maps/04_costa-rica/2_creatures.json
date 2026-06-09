@@ -3,23 +3,21 @@
     "id": "c2-1",
     "name": "pink jellyfish",
     "display": "야광원양해파리",
+    "latin": "Pelagia noctiluca",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 492,
         "y": 448
       },
       {
-        "no": 2,
         "x": 1414.213562373095,
         "y": 428.50670939904785
       }
     ],
     "notes": "",
-    "latin": "Pelagia noctiluca",
     "difficulty": 0,
     "seasons": [
       true,
@@ -47,23 +45,21 @@
     "id": "c2-2",
     "name": "nudibranch",
     "display": "바다달팽이",
+    "latin": "Roboastra leonis",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 320,
         "y": 794
       },
       {
-        "no": 2,
         "x": 1757.8674580297572,
         "y": 1817.2644276494273
       }
     ],
     "notes": "",
-    "latin": "Roboastra leonis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -91,18 +87,17 @@
     "id": "c2-3",
     "name": "olive ridley sea turtle",
     "display": "바다거북",
+    "latin": "Lepidochelys olivacea",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 982.8784258493012,
         "y": 1838.4776310850236
       }
     ],
     "notes": "",
-    "latin": "Lepidochelys olivacea",
     "difficulty": 0,
     "seasons": [
       true,
@@ -130,18 +125,17 @@
     "id": "c2-4",
     "name": "yellow-bellied sea snake",
     "display": "바다뱀",
+    "latin": "Hydrophis platurus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1408.5608126233817,
         "y": 1462.2968234937805
       }
     ],
     "notes": "",
-    "latin": "Hydrophis platurus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -169,23 +163,21 @@
     "id": "c2-5",
     "name": "red-ridged clinging crab",
     "display": "붉은 게",
+    "latin": "Mithraculus forceps",
     "category": "creature",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 1792,
         "y": 1756
       },
       {
-        "no": 2,
         "x": 951.7559792901181,
         "y": 203.6467529817257
       }
     ],
     "notes": "",
-    "latin": "Mithraculus forceps",
     "difficulty": 0,
     "seasons": [
       true,
@@ -213,33 +205,29 @@
     "id": "c2-6",
     "name": "pacific land crab",
     "display": "할로윈 게",
+    "latin": "Gecarcinus quadratus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 1762,
         "y": 1472
       },
       {
-        "no": 2,
         "x": 1728,
         "y": 1756
       },
       {
-        "no": 3,
         "x": 1216.2122162824066,
         "y": 355.1611069538317
       },
       {
-        "no": 4,
         "x": 888.1261171703036,
         "y": 172.5340546095176
       }
     ],
     "notes": "",
-    "latin": "Gecarcinus quadratus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -267,28 +255,25 @@
     "id": "c2-7",
     "name": "brown sea cucumber",
     "display": "해삼",
+    "latin": "Isostichopus fuscus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 832,
         "y": 316
       },
       {
-        "no": 2,
         "x": 1848.013060438322,
         "y": 316
       },
       {
-        "no": 3,
         "x": 1792,
         "y": 514
       }
     ],
     "notes": "",
-    "latin": "Isostichopus fuscus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -316,23 +301,21 @@
     "id": "c2-8",
     "name": "american crocodile",
     "display": "아메리카 악어",
+    "latin": "Crocodylus acutus",
     "category": "creature",
     "rarity": "rare",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 796.1965919288566,
         "y": 261.6295090390226
       },
       {
-        "no": 2,
         "x": 558,
         "y": 235
       }
     ],
     "notes": "",
-    "latin": "Crocodylus acutus",
     "difficulty": 1,
     "seasons": [
       true,
@@ -358,18 +341,17 @@
     "id": "c2-9",
     "name": "blue sea dragon",
     "display": "파란갯민숭달팽이",
+    "latin": "Glaucus atlanticus",
     "category": "creature",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1898,
         "y": 322
       }
     ],
     "notes": "",
-    "latin": "Glaucus atlanticus",
     "difficulty": 1,
     "seasons": [
       true,

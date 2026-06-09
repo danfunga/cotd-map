@@ -3,18 +3,17 @@
     "id": "c6-0",
     "name": "rainbow water snake",
     "display": "무지개 물뱀",
+    "latin": "Enhydris enhydris",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1027.0000064775568,
         "y": 777.9781799080183
       }
     ],
     "notes": "",
-    "latin": "Enhydris enhydris",
     "difficulty": 0,
     "seasons": [
       true,
@@ -42,18 +41,17 @@
     "id": "c6-1",
     "name": "green paddy frog",
     "display": "녹색 논 개구리",
+    "latin": "Hylarana erythraea",
     "category": "creature",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 205.9998315835249,
         "y": 904.9967064012103
       }
     ],
     "notes": "",
-    "latin": "Hylarana erythraea",
     "difficulty": 0,
     "seasons": [
       true,
@@ -79,18 +77,17 @@
     "id": "c6-2",
     "name": "thai giant frog",
     "display": "태국 거대 개구리",
+    "latin": "Limnonectes blythii",
     "category": "creature",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 249.02743468986728,
         "y": 905.4091740848172
       }
     ],
     "notes": "",
-    "latin": "Limnonectes blythii",
     "difficulty": 0,
     "seasons": [
       true,
@@ -118,18 +115,17 @@
     "id": "c6-3",
     "name": "chinese water dragon",
     "display": "중국 물 용",
+    "latin": "Physignathus cocincinus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 282.52788811883875,
         "y": 671.3585350034257
       }
     ],
     "notes": "",
-    "latin": "Physignathus cocincinus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -157,18 +153,17 @@
     "id": "c6-4",
     "name": "water scorpion",
     "display": "물전갈",
+    "latin": "Lethocerus indicus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 931.5277780003743,
         "y": 429.3692391994922
       }
     ],
     "notes": "",
-    "latin": "Lethocerus indicus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -194,18 +189,17 @@
     "id": "c6-8",
     "name": "thai devil crab",
     "display": "태국 악마 게",
+    "latin": "Cardisoma carnifex",
     "category": "creature",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 477.00001943267023,
         "y": 795.9962947013616
       }
     ],
     "notes": "",
-    "latin": "Cardisoma carnifex",
     "difficulty": 1,
     "seasons": [
       true,
@@ -231,18 +225,17 @@
     "id": "c6-9",
     "name": "pomacea",
     "display": "포마시아",
+    "latin": "Pomacea canaliculata",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 227.99985749375182,
         "y": 905.4897075037823
       }
     ],
     "notes": "",
-    "latin": "Pomacea canaliculata",
     "difficulty": 0,
     "seasons": [
       true,
@@ -268,28 +261,25 @@
     "id": "c6-5",
     "name": "giant asian pond turtle",
     "display": "거대한 아시아 연못 거북",
+    "latin": "Heosemys grandis",
     "category": "creature",
     "rarity": "rare",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 853,
         "y": 82
       },
       {
-        "no": 2,
         "x": 898,
         "y": 435
       },
       {
-        "no": 3,
         "x": 518,
         "y": 356
       }
     ],
     "notes": "",
-    "latin": "Heosemys grandis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -317,18 +307,17 @@
     "id": "c6-6",
     "name": "asian small-clawed otter",
     "display": "아시아 작은발톱수달",
+    "latin": "Aonyx cinereus",
     "category": "creature",
     "rarity": "rare",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 816,
         "y": 987
       }
     ],
     "notes": "",
-    "latin": "Aonyx cinereus",
     "difficulty": 1,
     "seasons": [
       true,
@@ -356,18 +345,17 @@
     "id": "c6-7",
     "name": "irrawady dolphin",
     "display": "이라와디 돌고래",
+    "latin": "Orcaella brevirostris",
     "category": "creature",
     "rarity": "epic",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 463,
         "y": 322
       }
     ],
     "notes": "",
-    "latin": "Orcaella brevirostris",
     "difficulty": 2,
     "seasons": [
       true,

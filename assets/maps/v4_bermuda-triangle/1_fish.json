@@ -3,18 +3,17 @@
     "id": "D-5",
     "name": "Diplacanthus",
     "display": "디플라칸투스",
+    "latin": "Diplacanthus crassisimus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2010.0000000000002,
         "y": 1380
       }
     ],
     "notes": "",
-    "latin": "Diplacanthus crassisimus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -44,18 +43,17 @@
     "id": "D-6",
     "name": "Eusthenopteron",
     "display": "유스테노프테론",
+    "latin": "Eusthenopteron foordi",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1020.0000000000001,
         "y": 2490
       }
     ],
     "notes": "",
-    "latin": "Eusthenopteron foordi",
     "difficulty": 0,
     "seasons": [
       true,
@@ -85,18 +83,17 @@
     "id": "D-7",
     "name": "Fanjingshania",
     "display": "판징샤니아",
+    "latin": "Fanjingshania renovata",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 990,
         "y": 960
       }
     ],
     "notes": "",
-    "latin": "Fanjingshania renovata",
     "difficulty": 0,
     "seasons": [
       true,
@@ -122,18 +119,17 @@
     "id": "D-8",
     "name": "Gogonasus",
     "display": "고고나소스",
+    "latin": "Gogonasus andersoni",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1230,
         "y": 570
       }
     ],
     "notes": "",
-    "latin": "Gogonasus andersoni",
     "difficulty": 0,
     "seasons": [
       true,
@@ -163,18 +159,17 @@
     "id": "D-9",
     "name": "Gooloogongia",
     "display": "굴루공기아",
+    "latin": "Gooloogongia loomesi",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1230,
         "y": 1860
       }
     ],
     "notes": "",
-    "latin": "Gooloogongia loomesi",
     "difficulty": 0,
     "seasons": [
       true,
@@ -204,18 +199,17 @@
     "id": "D-11",
     "name": "Gyracanthides",
     "display": "자이라칸타이드",
+    "latin": "Gyracanthides murrayi",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1920,
         "y": 2190
       }
     ],
     "notes": "",
-    "latin": "Gyracanthides murrayi",
     "difficulty": 0,
     "seasons": [
       true,
@@ -246,18 +240,17 @@
     "id": "D-12",
     "name": "Haikouichthys",
     "display": "하이쿠이크티스",
+    "latin": "Haikouichthys ercaicunensis",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2190,
         "y": 1950
       }
     ],
     "notes": "",
-    "latin": "Haikouichthys ercaicunensis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -283,18 +276,17 @@
     "id": "D-13",
     "name": "Hyneria",
     "display": "히네리아",
+    "latin": "Hyneria lindae",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 990,
         "y": 2220
       }
     ],
     "notes": "",
-    "latin": "Hyneria lindae",
     "difficulty": 3,
     "seasons": [
       true,
@@ -320,18 +312,17 @@
     "id": "D-14",
     "name": "Ischnacanthus",
     "display": "이쉬나칸투스",
+    "latin": "Ischnacanthus gracilis",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1709.9999999999998,
         "y": 2670
       }
     ],
     "notes": "",
-    "latin": "Ischnacanthus gracilis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -361,18 +352,17 @@
     "id": "D-15",
     "name": "Latimeria",
     "display": "라티메리아",
+    "latin": "Latimeria chalumnae",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 690,
         "y": 1560
       }
     ],
     "notes": "",
-    "latin": "Latimeria chalumnae",
     "difficulty": 0,
     "seasons": [
       true,
@@ -403,18 +393,17 @@
     "id": "D-17",
     "name": "Macropoma",
     "display": "대식세포종",
+    "latin": "Macropoma lewesiensis",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 990,
         "y": 570
       }
     ],
     "notes": "",
-    "latin": "Macropoma lewesiensis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -444,18 +433,17 @@
     "id": "D-18",
     "name": "Mawsonia",
     "display": "모소니아",
+    "latin": "Mawsonia gigas",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 660,
         "y": 1830
       }
     ],
     "notes": "",
-    "latin": "Mawsonia gigas",
     "difficulty": 3,
     "seasons": [
       true,
@@ -481,18 +469,17 @@
     "id": "D-20",
     "name": "Parexus",
     "display": "파렉서스",
+    "latin": "Parexus recurvus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2220,
         "y": 960
       }
     ],
     "notes": "",
-    "latin": "Parexus recurvus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -522,18 +509,17 @@
     "id": "D-21",
     "name": "Protosphyraena",
     "display": "프로토스피라에나",
+    "latin": "Protosphyraena ferox",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2580,
         "y": 2310
       }
     ],
     "notes": "",
-    "latin": "Protosphyraena ferox",
     "difficulty": 0,
     "seasons": [
       true,
@@ -563,18 +549,17 @@
     "id": "D-23",
     "name": "Stethacanthus",
     "display": "스테타칸투스",
+    "latin": "Stethacanthus altonensis",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 510.00000000000006,
         "y": 2460
       }
     ],
     "notes": "",
-    "latin": "Stethacanthus altonensis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -605,18 +590,17 @@
     "id": "D-24",
     "name": "Sword ray",
     "display": "소드 레이",
+    "latin": "Ensisorays gladius",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 420.00000000000006,
         "y": 1440
       }
     ],
     "notes": "",
-    "latin": "Ensisorays gladius",
     "difficulty": 3,
     "seasons": [
       true,
@@ -646,18 +630,17 @@
     "id": "D-25",
     "name": "Tiktaalik",
     "display": "틱타알릭",
+    "latin": "Tiktaalik roseae",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2640,
         "y": 1500
       }
     ],
     "notes": "",
-    "latin": "Tiktaalik roseae",
     "difficulty": 0,
     "seasons": [
       true,
@@ -687,18 +670,17 @@
     "id": "D-26",
     "name": "Xenacanthus",
     "display": "제나칸투스",
+    "latin": "Xenacanthus decheni",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2550,
         "y": 450
       }
     ],
     "notes": "",
-    "latin": "Xenacanthus decheni",
     "difficulty": 0,
     "seasons": [
       true,
@@ -728,18 +710,17 @@
     "id": "D-10",
     "name": "Great white shark",
     "display": "백상아리",
+    "latin": "Carcharodon carcharias",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1500,
         "y": 2100
       }
     ],
     "notes": "",
-    "latin": "Carcharodon carcharias",
     "difficulty": 3,
     "seasons": [
       true,
@@ -769,18 +750,17 @@
     "id": "D-16",
     "name": "Leedsichthys",
     "display": "리드식티스",
+    "latin": "Leedsichthys problematicus",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2070,
         "y": 2580
       }
     ],
     "notes": "",
-    "latin": "Leedsichthys problematicus",
     "difficulty": 3,
     "seasons": [
       true,
@@ -806,18 +786,17 @@
     "id": "D-22",
     "name": "Splendid killifish",
     "display": "화려한 송사리",
+    "latin": "Aphyosemion splendopleure",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1800,
         "y": 540
       }
     ],
     "notes": "",
-    "latin": "Aphyosemion splendopleure",
     "difficulty": 3,
     "seasons": [
       true,
@@ -848,18 +827,17 @@
     "id": "D-27",
     "name": "Dunkleosteus",
     "display": "던클레오스테우스",
+    "latin": "Dunkleosteus terrelli",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1590,
         "y": 930
       }
     ],
     "notes": "",
-    "latin": "Dunkleosteus terrelli",
     "difficulty": 3,
     "seasons": [
       true,
@@ -885,18 +863,17 @@
     "id": "D-19",
     "name": "Onchopristis",
     "display": "온초프리스티스",
+    "latin": "Onchopristis numidus",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2220,
         "y": 960
       }
     ],
     "notes": "",
-    "latin": "Onchopristis numidus",
     "difficulty": 3,
     "seasons": [
       true,
@@ -927,18 +904,17 @@
     "id": "D-28",
     "name": "Helicoprion",
     "display": "헬리코프리온",
+    "latin": "Helicoprion bessonowi",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 570,
         "y": 810
       }
     ],
     "notes": "",
-    "latin": "Helicoprion bessonowi",
     "difficulty": 3,
     "seasons": [
       true,
@@ -964,18 +940,17 @@
     "id": "D-29",
     "name": "Megalodon",
     "display": "메갈로돈",
+    "latin": "Otodus megalodon",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2220,
         "y": 1950
       }
     ],
     "notes": "",
-    "latin": "Otodus megalodon",
     "difficulty": 3,
     "seasons": [
       true,

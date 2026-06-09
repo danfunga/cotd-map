@@ -3,38 +3,33 @@
     "id": "704",
     "name": "amazon pellona",
     "display": "아마존 펠로나",
+    "latin": "Pellona castelnaeana",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 2380.000531075036,
         "y": 1369.9970544678156
       },
       {
-        "no": 2,
         "x": 1250.164789137816,
         "y": 1453.8115421195416
       },
       {
-        "no": 3,
         "x": 716,
         "y": 1504
       },
       {
-        "no": 4,
         "x": 585.4844148224613,
         "y": 2104.349780811165
       },
       {
-        "no": 5,
         "x": 1158.2409075835649,
         "y": 1912.723843109611
       }
     ],
     "notes": "",
-    "latin": "Pellona castelnaeana",
     "difficulty": 0,
     "seasons": [
       true,
@@ -65,18 +60,17 @@
     "id": "759",
     "name": "tucunaré",
     "display": "투쿠나레",
+    "latin": "",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 1962.9284245738559,
         "y": 707.1067811865474
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -106,18 +100,17 @@
     "id": "760",
     "name": "curimbata",
     "display": "쿠림바타",
+    "latin": "Prochilodus lineatus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 1824,
         "y": 1404
       }
     ],
     "notes": "",
-    "latin": "Prochilodus lineatus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -147,18 +140,17 @@
     "id": "709",
     "name": "corvina",
     "display": "코르비나",
+    "latin": "Plagioscion squamosissimus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1700,
         "y": 1340
       }
     ],
     "notes": "",
-    "latin": "Plagioscion squamosissimus",
     "difficulty": 0,
     "seasons": [
       false,
@@ -188,18 +180,17 @@
     "id": "713",
     "name": "jatuarana",
     "display": "자투아라나",
+    "latin": "Brycon melanopterus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 1144.0069039754708,
         "y": 1854.0049092203076
       }
     ],
     "notes": "",
-    "latin": "Brycon melanopterus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -230,18 +221,17 @@
     "id": "758",
     "name": "redtail catfish",
     "display": "붉은꼬리 메기",
+    "latin": "Ictalurus punctatus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 1773.423807215861,
         "y": 364.8670990922585
       }
     ],
     "notes": "",
-    "latin": "Ictalurus punctatus",
     "difficulty": 1,
     "seasons": [
       true,
@@ -271,18 +261,17 @@
     "id": "725",
     "name": "tiger sorubim",
     "display": "타이거 소루빔",
+    "latin": "Pseudoplatystoma tigrinum",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 1706.9557697843259,
         "y": 352.1391770309007
       }
     ],
     "notes": "",
-    "latin": "Pseudoplatystoma tigrinum",
     "difficulty": 0,
     "seasons": [
       true,
@@ -312,23 +301,21 @@
     "id": "703",
     "name": "redhook myleus",
     "display": "레드훅 마일레우스",
+    "latin": "Myloplus rubripinnis",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 313.9554108468271,
         "y": 1233.1942263893388
       },
       {
-        "no": 2,
         "x": 382,
         "y": 1842.0007663650877
       }
     ],
     "notes": "",
-    "latin": "Myloplus rubripinnis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -358,18 +345,17 @@
     "id": "724",
     "name": "peacock bass",
     "display": "공작배스",
+    "latin": "Cichla ocellaris",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 1821.5070683365464,
         "y": 726.9057710597708
       }
     ],
     "notes": "",
-    "latin": "Cichla ocellaris",
     "difficulty": 0,
     "seasons": [
       true,
@@ -399,23 +385,21 @@
     "id": "721",
     "name": "lambari",
     "display": "람바리",
+    "latin": "Astyanax ajuricaba",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1564,
         "y": 2480
       },
       {
-        "no": 2,
         "x": 1155.997875699855,
         "y": 1973.9891997153236
       }
     ],
     "notes": "",
-    "latin": "Astyanax ajuricaba",
     "difficulty": 0,
     "seasons": [
       true,
@@ -441,23 +425,21 @@
     "id": "710",
     "name": "zungaro",
     "display": "준가로",
+    "latin": "Zungaro zungaro",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2496,
         "y": 1048
       },
       {
-        "no": 2,
         "x": 1637.6593052280439,
         "y": 330.92597359530424
       }
     ],
     "notes": "",
-    "latin": "Zungaro zungaro",
     "difficulty": 1,
     "seasons": [
       false,
@@ -488,23 +470,21 @@
     "id": "714",
     "name": "pacu",
     "display": "파쿠",
+    "latin": "Piaractus mesopotamicus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1108,
         "y": 1920
       },
       {
-        "no": 2,
         "x": 1346.3313113791864,
         "y": 1371.7871555019021
       }
     ],
     "notes": "",
-    "latin": "Piaractus mesopotamicus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -534,28 +514,25 @@
     "id": "706",
     "name": "giant trahira",
     "display": "거대한 트라히라",
+    "latin": "Hoplias macrophthalmus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1425.5272708720797,
         "y": 418.6072144624361
       },
       {
-        "no": 2,
         "x": 1736.6542545941606,
         "y": 296.9848480983499
       },
       {
-        "no": 3,
         "x": 1736.6542545941606,
         "y": 1714.0268375961912
       }
     ],
     "notes": "",
-    "latin": "Hoplias macrophthalmus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -586,38 +563,33 @@
     "id": "702",
     "name": "redeye piranha",
     "display": "적목 피라냐",
+    "latin": "Serrasalmus rhombeus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 390.3229432149742,
         "y": 1357.645019878171
       },
       {
-        "no": 2,
         "x": 2373.995220324674,
         "y": 1447.9941089356312
       },
       {
-        "no": 3,
         "x": 658,
         "y": 1532
       },
       {
-        "no": 4,
         "x": 372,
         "y": 1756
       },
       {
-        "no": 5,
         "x": 2400,
         "y": 300
       }
     ],
     "notes": "",
-    "latin": "Serrasalmus rhombeus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -648,23 +620,21 @@
     "id": "705",
     "name": "red piranha",
     "display": "빨간 피라냐",
+    "latin": "Pygocentrus nattereri",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 469.51890270786754,
         "y": 1309.561758757486
       },
       {
-        "no": 2,
         "x": 393.1513703397204,
         "y": 1965.756851698602
       }
     ],
     "notes": "",
-    "latin": "Pygocentrus nattereri",
     "difficulty": 0,
     "seasons": [
       false,
@@ -695,33 +665,29 @@
     "id": "723",
     "name": "speckled pavon",
     "display": "얼룩덜룩 한 파본",
+    "latin": "Cichla temensis",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 1532,
         "y": 972
       },
       {
-        "no": 2,
         "x": 2476,
         "y": 360
       },
       {
-        "no": 3,
         "x": 1212.0053107503622,
         "y": 1948.0117821287379
       },
       {
-        "no": 4,
         "x": 610.940258945177,
         "y": 2316.4818151671298
       }
     ],
     "notes": "",
-    "latin": "Cichla temensis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -751,23 +717,21 @@
     "id": "711",
     "name": "freshwater barracuda",
     "display": "민물 바라쿠다",
+    "latin": "Ctenolucius hujeta",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1076.004779675326,
         "y": 1873.9921452475082
       },
       {
-        "no": 2,
         "x": 766.5037508062175,
         "y": 1312.3901858822321
       }
     ],
     "notes": "",
-    "latin": "Ctenolucius hujeta",
     "difficulty": 0,
     "seasons": [
       true,
@@ -793,23 +757,21 @@
     "id": "715",
     "name": "bicuda",
     "display": "비쿠다",
+    "latin": "Boulengerella cuvieri",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 1485.9973446248189,
         "y": 2428.0157095049835
       },
       {
-        "no": 2,
         "x": 612,
         "y": 1564
       }
     ],
     "notes": "",
-    "latin": "Boulengerella cuvieri",
     "difficulty": 0,
     "seasons": [
       false,
@@ -839,33 +801,29 @@
     "id": "761",
     "name": "arowana",
     "display": "아로와나",
+    "latin": "",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 272,
         "y": 880
       },
       {
-        "no": 2,
         "x": 648,
         "y": 840
       },
       {
-        "no": 3,
         "x": 2156,
         "y": 384
       },
       {
-        "no": 4,
         "x": 1200,
         "y": 1896
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       false,
@@ -895,28 +853,25 @@
     "id": "712",
     "name": "amazon puffer",
     "display": "아마존 복어",
+    "latin": "Colomesus asellus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 715.5920625607861,
         "y": 2090.2076451874345
       },
       {
-        "no": 2,
         "x": 2056.26651969048,
         "y": 2460.7315985291852
       },
       {
-        "no": 3,
         "x": 1310,
         "y": 2207
       }
     ],
     "notes": "",
-    "latin": "Colomesus asellus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -942,28 +897,25 @@
     "id": "701",
     "name": "pirapitinga",
     "display": "피라피팅가",
+    "latin": "Piaractus brachypomus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 407.29350596345137,
         "y": 1216.2236636408616
       },
       {
-        "no": 2,
         "x": 2306.007966125543,
         "y": 1412.017673193107
       },
       {
-        "no": 3,
         "x": 472,
         "y": 1780
       }
     ],
     "notes": "",
-    "latin": "Piaractus brachypomus",
     "difficulty": 1,
     "seasons": [
       true,
@@ -993,18 +945,17 @@
     "id": "717",
     "name": "electric eel",
     "display": "전기뱀장어",
+    "latin": "Electrophorus electricus",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 1022,
         "y": 1611
       }
     ],
     "notes": "",
-    "latin": "Electrophorus electricus",
     "difficulty": 2,
     "seasons": [
       true,
@@ -1035,18 +986,17 @@
     "id": "757",
     "name": "flatwhiskered catfish",
     "display": "평수염 메기",
+    "latin": "Pinirampus pirinampu",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 1828,
         "y": 262
       }
     ],
     "notes": "",
-    "latin": "Pinirampus pirinampu",
     "difficulty": 2,
     "seasons": [
       true,
@@ -1076,18 +1026,17 @@
     "id": "720",
     "name": "lau lau",
     "display": "라우 라우",
+    "latin": "Brachyplatystoma filamentosum",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1887,
         "y": 1437
       }
     ],
     "notes": "",
-    "latin": "Brachyplatystoma filamentosum",
     "difficulty": 1,
     "seasons": [
       true,
@@ -1113,18 +1062,17 @@
     "id": "716",
     "name": "rock-bacu",
     "display": "락바쿠",
+    "latin": "Lithodoras dorsalis",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 1544,
         "y": 2464
       }
     ],
     "notes": "",
-    "latin": "Lithodoras dorsalis",
     "difficulty": 1,
     "seasons": [
       true,
@@ -1154,18 +1102,17 @@
     "id": "722",
     "name": "cachama",
     "display": "카차마",
+    "latin": "Colossoma macropomum",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 427,
         "y": 1847
       }
     ],
     "notes": "",
-    "latin": "Colossoma macropomum",
     "difficulty": 2,
     "seasons": [
       true,
@@ -1195,18 +1142,17 @@
     "id": "718",
     "name": "arapaima",
     "display": "아라파이마",
+    "latin": "Arapaima gigas",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 692.9646455628165,
         "y": 1623.517169604313
       }
     ],
     "notes": "",
-    "latin": "Arapaima gigas",
     "difficulty": 2,
     "seasons": [
       true,
@@ -1232,18 +1178,17 @@
     "id": "719",
     "name": "payara",
     "display": "파야라",
+    "latin": "Hydrolycus scomberoides",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 1990,
         "y": 1926
       }
     ],
     "notes": "",
-    "latin": "Hydrolycus scomberoides",
     "difficulty": 1,
     "seasons": [
       true,
@@ -1273,33 +1218,29 @@
     "id": "777",
     "name": "boiuna",
     "display": "보이우나",
+    "latin": "",
     "category": "monster",
     "rarity": "monster",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 2133,
         "y": 1363
       },
       {
-        "no": 2,
         "x": 2413,
         "y": 863
       },
       {
-        "no": 3,
         "x": 1829,
         "y": 830
       },
       {
-        "no": 4,
         "x": 2169,
         "y": 511
       }
     ],
     "notes": "The spot changes everyday. Check Discord to know the current spot.",
-    "latin": "",
     "difficulty": 2,
     "seasons": [
       true,

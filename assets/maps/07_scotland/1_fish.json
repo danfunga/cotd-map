@@ -9,17 +9,14 @@
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 998.4341551916563,
         "y": 896.6113985445422
       },
       {
-        "no": 2,
         "x": 347.0038570023183,
         "y": 342
       },
       {
-        "no": 3,
         "x": 1015,
         "y": 545
       }
@@ -55,18 +52,17 @@
     "id": "524",
     "name": "sea trout",
     "display": "바다 송어",
+    "latin": "Salmo trutta",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1012,
         "y": 746
       }
     ],
     "notes": "",
-    "latin": "Salmo trutta",
     "difficulty": 0,
     "seasons": [
       false,
@@ -96,23 +92,21 @@
     "id": "525",
     "name": "grey trout",
     "display": "회색 송어",
+    "latin": "Salvelinus namaycush",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 679.0005259548616,
         "y": 978
       },
       {
-        "no": 2,
         "x": 537,
         "y": 112.5
       }
     ],
     "notes": "",
-    "latin": "Salvelinus namaycush",
     "difficulty": 0,
     "seasons": [
       true,
@@ -149,7 +143,6 @@
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 1022,
         "y": 422
       }
@@ -190,7 +183,6 @@
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 140,
         "y": 663.5
       }
@@ -225,18 +217,17 @@
     "id": "51",
     "name": "freshwater bream",
     "display": "민물도미",
+    "latin": "Abramis brama",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 621.5508100155108,
         "y": 180.31443143865937
       }
     ],
     "notes": "",
-    "latin": "Abramis brama",
     "difficulty": 0,
     "seasons": [
       false,
@@ -272,22 +263,18 @@
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 898,
         "y": 271
       },
       {
-        "no": 2,
         "x": 303,
         "y": 521.5
       },
       {
-        "no": 3,
         "x": 698.0003506365744,
         "y": 548
       },
       {
-        "no": 4,
         "x": 392.44426355853386,
         "y": 126.57211383239199
       }
@@ -324,12 +311,10 @@
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 515.0010519097232,
         "y": 879
       },
       {
-        "no": 2,
         "x": 944.6940398214788,
         "y": 307.59144981614816
       }
@@ -370,22 +355,18 @@
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 687.9978961805537,
         "y": 569
       },
       {
-        "no": 2,
         "x": 878.226622233692,
         "y": 261.6295090390226
       },
       {
-        "no": 3,
         "x": 284.0212135127506,
         "y": 109
       },
       {
-        "no": 4,
         "x": 304.00438295717987,
         "y": 545
       }
@@ -420,38 +401,33 @@
     "id": "55",
     "name": "allis shad",
     "display": "알리스 청어",
+    "latin": "Alosa alosa",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 981,
         "y": 726
       },
       {
-        "no": 2,
         "x": 665.9926366319378,
         "y": 1015
       },
       {
-        "no": 3,
         "x": 88,
         "y": 426.5
       },
       {
-        "no": 4,
         "x": 249.60770200885335,
         "y": 1010.4555903155764
       },
       {
-        "no": 5,
         "x": 569.9280656363572,
         "y": 88.38834764831843
       }
     ],
     "notes": "",
-    "latin": "Alosa alosa",
     "difficulty": 0,
     "seasons": [
       true,
@@ -482,23 +458,21 @@
     "id": "56",
     "name": "northern pike",
     "display": "노던 파이크",
+    "latin": "Esox lucius",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 114.99947404513841,
         "y": 752
       },
       {
-        "no": 2,
         "x": 565.6854249492379,
         "y": 110.30865786510141
       }
     ],
     "notes": "",
-    "latin": "Esox lucius",
     "difficulty": 0,
     "seasons": [
       false,
@@ -535,12 +509,10 @@
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 102.52994472397634,
         "y": 425.6876417776831
       },
       {
-        "no": 2,
         "x": 975.5,
         "y": 425
       }
@@ -575,23 +547,21 @@
     "id": "58",
     "name": "gudgeon",
     "display": "잘 속는 사람",
+    "latin": "Gobio gobio",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 302.64170234784234,
         "y": 101.82337649086284
       },
       {
-        "no": 2,
         "x": 557.2001435749994,
         "y": 67.88225099390856
       }
     ],
     "notes": "",
-    "latin": "Gobio gobio",
     "difficulty": 0,
     "seasons": [
       true,
@@ -623,17 +593,14 @@
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 159.80613254815972,
         "y": 642.7600640985717
       },
       {
-        "no": 2,
         "x": 132.5,
         "y": 491
       },
       {
-        "no": 3,
         "x": 236.8807716974934,
         "y": 341.5325753131024
       }
@@ -675,27 +642,22 @@
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 951.7486197896285,
         "y": 316.7838379715733
       },
       {
-        "no": 2,
         "x": 529.9866758101732,
         "y": 871
       },
       {
-        "no": 3,
         "x": 273,
         "y": 539
       },
       {
-        "no": 4,
         "x": 254.5584412271571,
         "y": 114.55129855222069
       },
       {
-        "no": 5,
         "x": 647.7098115668775,
         "y": 1022.4764055957477
       }
@@ -736,37 +698,30 @@
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 586.1915216036479,
         "y": 606.6976182580578
       },
       {
-        "no": 2,
         "x": 673.9977208622664,
         "y": 395
       },
       {
-        "no": 3,
         "x": 350.72496346852756,
         "y": 729.0270914033305
       },
       {
-        "no": 4,
         "x": 276.47875144394004,
         "y": 96.16652224137046
       },
       {
-        "no": 5,
         "x": 783.4779038751815,
         "y": 952.494581339666
       },
       {
-        "no": 6,
         "x": 477.29707730091957,
         "y": 865.4987001723341
       },
       {
-        "no": 7,
         "x": 511.9453095790604,
         "y": 77.07463914933368
       }
@@ -801,53 +756,45 @@
     "id": "512",
     "name": "lamprey",
     "display": "양태",
+    "latin": "Petromyzon marinus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 550.8361825443205,
         "y": 610.940258945177
       },
       {
-        "no": 2,
         "x": 671,
         "y": 412
       },
       {
-        "no": 3,
         "x": 120,
         "y": 641.5
       },
       {
-        "no": 4,
         "x": 282.13560569343247,
         "y": 123.03657992645925
       },
       {
-        "no": 5,
         "x": 1019,
         "y": 711
       },
       {
-        "no": 6,
         "x": 347.89653634378135,
         "y": 704.9854608429878
       },
       {
-        "no": 7,
         "x": 814.597603372339,
         "y": 960.26642450396
       },
       {
-        "no": 8,
         "x": 992.0708140047261,
         "y": 987.8281733176068
       }
     ],
     "notes": "",
-    "latin": "Petromyzon marinus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -883,17 +830,14 @@
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 560.0285706997456,
         "y": 641.3458505361986
       },
       {
-        "no": 2,
         "x": 98.2878425849301,
         "y": 662.559053971795
       },
       {
-        "no": 3,
         "x": 726.9651116608482,
         "y": 841
       }
@@ -935,32 +879,26 @@
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 331.9905328124915,
         "y": 343
       },
       {
-        "no": 2,
         "x": 802.998246817128,
         "y": 950
       },
       {
-        "no": 3,
         "x": 484,
         "y": 79.5
       },
       {
-        "no": 4,
         "x": 911.4606409494597,
         "y": 295.57063453597686
       },
       {
-        "no": 5,
         "x": 576.9991334482228,
         "y": 666.8016946589142
       },
       {
-        "no": 6,
         "x": 141.42135623730948,
         "y": 226.98127676088174
       }
@@ -996,33 +934,29 @@
     "id": "515",
     "name": "european smelt",
     "display": "구피",
+    "latin": "Osmerus eperlanus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 120,
         "y": 426
       },
       {
-        "no": 2,
         "x": 643.5,
         "y": 998
       },
       {
-        "no": 3,
         "x": 215.0007012731488,
         "y": 1007
       },
       {
-        "no": 4,
         "x": 536.6940469205896,
         "y": 89.09545442950498
       }
     ],
     "notes": "",
-    "latin": "Osmerus eperlanus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -1048,28 +982,25 @@
     "id": "516",
     "name": "european eel",
     "display": "유럽 뱀장어",
+    "latin": "Anguilla anguilla",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 512,
         "y": 118
       },
       {
-        "no": 2,
         "x": 779,
         "y": 1016
       },
       {
-        "no": 3,
         "x": 231.93102422918759,
         "y": 112.42997820866105
       }
     ],
     "notes": "",
-    "latin": "Anguilla anguilla",
     "difficulty": 1,
     "seasons": [
       false,
@@ -1099,28 +1030,25 @@
     "id": "517",
     "name": "european grayling",
     "display": "유럽그레이링",
+    "latin": "Thymallus thymallus",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 656,
         "y": 1004
       },
       {
-        "no": 2,
         "x": 389,
         "y": 121
       },
       {
-        "no": 3,
         "x": 1001.5,
         "y": 397
       }
     ],
     "notes": "",
-    "latin": "Thymallus thymallus",
     "difficulty": 1,
     "seasons": [
       false,
@@ -1150,23 +1078,21 @@
     "id": "518",
     "name": "european whitefish",
     "display": "유럽 흰살생선",
+    "latin": "Coregonus lavaretus",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 468.8193355997034,
         "y": 221.32304611383321
       },
       {
-        "no": 2,
         "x": 195.17403772919124,
         "y": 449.7055983000607
       }
     ],
     "notes": "",
-    "latin": "Coregonus lavaretus",
     "difficulty": 1,
     "seasons": [
       true,
@@ -1196,23 +1122,21 @@
     "id": "519",
     "name": "bull trout",
     "display": "황소 송어",
+    "latin": "Salvelinus confluentus",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 479,
         "y": 115.5
       },
       {
-        "no": 2,
         "x": 220,
         "y": 1017
       }
     ],
     "notes": "",
-    "latin": "Salvelinus confluentus",
     "difficulty": 1,
     "seasons": [
       true,
@@ -1242,23 +1166,21 @@
     "id": "520",
     "name": "scotish salmon",
     "display": "스코틀랜드 연어",
+    "latin": "Oncorhynchus gorbuscha",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 651,
         "y": 1020
       },
       {
-        "no": 2,
         "x": 1005,
         "y": 733
       }
     ],
     "notes": "",
-    "latin": "Oncorhynchus gorbuscha",
     "difficulty": 2,
     "seasons": [
       false,
@@ -1288,28 +1210,25 @@
     "id": "521",
     "name": "common sturgeon",
     "display": "철갑상어",
+    "latin": "Acipenser sturio",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 155,
         "y": 503
       },
       {
-        "no": 2,
         "x": 449.7199128346442,
         "y": 844.2854967367377
       },
       {
-        "no": 3,
         "x": 494,
         "y": 209
       }
     ],
     "notes": "",
-    "latin": "Acipenser sturio",
     "difficulty": 1,
     "seasons": [
       true,
@@ -1339,43 +1258,37 @@
     "id": "522",
     "name": "nessie",
     "display": "네시",
+    "latin": "",
     "category": "monster",
     "rarity": "monster",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 198.99964936342562,
         "y": 407
       },
       {
-        "no": 2,
         "x": 129,
         "y": 496
       },
       {
-        "no": 3,
         "x": 182.00035063657438,
         "y": 764
       },
       {
-        "no": 4,
         "x": 228,
         "y": 833
       },
       {
-        "no": 5,
         "x": 584,
         "y": 979
       },
       {
-        "no": 6,
         "x": 767,
         "y": 980
       }
     ],
     "notes": "Map monster.",
-    "latin": "",
     "difficulty": 2,
     "seasons": [
       true,

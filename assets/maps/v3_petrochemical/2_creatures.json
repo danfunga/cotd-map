@@ -3,18 +3,17 @@
     "id": "cc05",
     "name": "Snipcerra",
     "display": "Snipcerra",
+    "latin": "Forficulocarcinus incisus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2640,
         "y": 1410
       }
     ],
     "notes": "",
-    "latin": "Forficulocarcinus incisus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -42,18 +41,17 @@
     "id": "cc02",
     "name": "Nimbusjelly",
     "display": "Nimbusjelly",
+    "latin": "Nubimedusa vaporosa",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2580,
         "y": 1440
       }
     ],
     "notes": "",
-    "latin": "Nubimedusa vaporosa",
     "difficulty": 0,
     "seasons": [
       true,
@@ -83,18 +81,17 @@
     "id": "cc04",
     "name": "Brineling",
     "display": "Brineling",
+    "latin": "Acharipiscis crispulus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2610,
         "y": 1320
       }
     ],
     "notes": "",
-    "latin": "Acharipiscis crispulus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -120,18 +117,17 @@
     "id": "cc01",
     "name": "Clangcrab",
     "display": "Clangcrab",
+    "latin": "Campanocarcinus alertus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1770,
         "y": 2580
       }
     ],
     "notes": "",
-    "latin": "Campanocarcinus alertus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -161,23 +157,21 @@
     "id": "cc09",
     "name": "V-Mouse",
     "display": "V-Mouse",
+    "latin": "Vermus musculinus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2250,
         "y": 2310
       },
       {
-        "no": 2,
         "x": 390,
         "y": 869.9999999999999
       }
     ],
     "notes": "",
-    "latin": "Vermus musculinus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -203,23 +197,21 @@
     "id": "cc08",
     "name": "Styrophyl",
     "display": "Styrophyl",
+    "latin": "Polyfragma levitans",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2010.0000000000002,
         "y": 1680.0000000000002
       },
       {
-        "no": 2,
         "x": 2610,
         "y": 1350
       }
     ],
     "notes": "",
-    "latin": "Polyfragma levitans",
     "difficulty": 0,
     "seasons": [
       true,
@@ -245,18 +237,17 @@
     "id": "cc03",
     "name": "Ferrashark",
     "display": "Ferrashark",
+    "latin": "Ferricarcharias durus",
     "category": "creature",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1140,
         "y": 1170
       }
     ],
     "notes": "",
-    "latin": "Ferricarcharias durus",
     "difficulty": 3,
     "seasons": [
       true,
@@ -286,18 +277,17 @@
     "id": "cc06",
     "name": "Minethorn",
     "display": "Minethorn",
+    "latin": "Minaspina titanica",
     "category": "creature",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1800,
         "y": 390
       }
     ],
     "notes": "",
-    "latin": "Minaspina titanica",
     "difficulty": 3,
     "seasons": [
       true,
@@ -323,18 +313,17 @@
     "id": "cc07",
     "name": "Sharokyle",
     "display": "Sharokyle",
+    "latin": "Crococarcharias hybridus",
     "category": "creature",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1080,
         "y": 2130
       }
     ],
     "notes": "",
-    "latin": "Crococarcharias hybridus",
     "difficulty": 3,
     "seasons": [
       true,

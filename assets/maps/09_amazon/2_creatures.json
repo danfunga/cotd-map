@@ -3,23 +3,21 @@
     "id": "c-700",
     "name": "giant otter",
     "display": "거대한 수달",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 1451.6056477987383,
         "y": 2100.433612870349
       },
       {
-        "no": 2,
         "x": 2158.0898961813427,
         "y": 2667.206778635657
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -47,18 +45,17 @@
     "id": "c-701",
     "name": "capybara",
     "display": "카피바라",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 998.434775035405,
         "y": 452.5483399593904
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -86,18 +83,17 @@
     "id": "c-702",
     "name": "giant snail",
     "display": "거대한 달팽이",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 616.7105519773968,
         "y": 717.8914220675861
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -125,18 +121,17 @@
     "id": "c-703",
     "name": "green anaconda",
     "display": "녹색 아나콘다",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 888,
         "y": 992
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 1,
     "seasons": [
       true,
@@ -164,18 +159,17 @@
     "id": "c-704",
     "name": "matamata turtle",
     "display": "마타마타 거북이",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 2159.5208461853117,
         "y": 2446.351548717231
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -203,18 +197,17 @@
     "id": "c-705",
     "name": "river turtle",
     "display": "강 거북",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2185.998476617723,
         "y": 2498.003794874133
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -242,18 +235,17 @@
     "id": "c-706",
     "name": "poison dart frog",
     "display": "독 다트 개구리",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1360.627180316967,
         "y": 2129.7072912047893
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -279,18 +271,17 @@
     "id": "c-707",
     "name": "giant leaf frog",
     "display": "거대잎개구리",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 2117.5106903034643,
         "y": 2496.0360998049555
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -316,23 +307,21 @@
     "id": "c-708",
     "name": "axolotl",
     "display": "아홀로틀",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2240.1240464947273,
         "y": 2435.267423183342
       },
       {
-        "no": 2,
         "x": 1548,
         "y": 1998
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -358,18 +347,17 @@
     "id": "c-709",
     "name": "black caiman",
     "display": "검은 카이만",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 948.0419549278613,
         "y": 2418.0098184406147
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 1,
     "seasons": [
       true,
@@ -395,23 +383,21 @@
     "id": "c-710",
     "name": "amazonian manatee",
     "display": "아마존 매너티",
+    "latin": "",
     "category": "creature",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1218,
         "y": 823
       },
       {
-        "no": 2,
         "x": 2316,
         "y": 1164
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 1,
     "seasons": [
       true,
@@ -437,18 +423,17 @@
     "id": "c-711",
     "name": "amazon river dolphin",
     "display": "아마존 강 돌고래",
+    "latin": "",
     "category": "creature",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1132.0890285456785,
         "y": 1287.5137674427388
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 1,
     "seasons": [
       true,

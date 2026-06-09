@@ -9,7 +9,6 @@
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 360,
         "y": 120
       }
@@ -39,12 +38,10 @@
     "mapCategory": "Toxurtle",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 306.88434303496166,
         "y": 90.50966799187809
       },
       {
-        "no": 2,
         "x": 751.6545084013,
         "y": 1035.911434438292
       }
@@ -54,23 +51,21 @@
     "id": "c7-1",
     "name": "lemon puffrog",
     "display": "레몬 퍼프로그",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 144,
         "y": 756
       },
       {
-        "no": 2,
         "x": 1032,
         "y": 804
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 3,
     "seasons": [
       true,
@@ -105,7 +100,6 @@
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 624,
         "y": 516
       }
@@ -135,17 +129,14 @@
     "mapCategory": "Shrimpster",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 603.8691911333116,
         "y": 454.66966030295004
       },
       {
-        "no": 2,
         "x": 969.4433970067566,
         "y": 142.12846301849603
       },
       {
-        "no": 3,
         "x": 547.3006486383878,
         "y": 980.0499987245548
       }
@@ -155,18 +146,17 @@
     "id": "c7-3",
     "name": "crystalcrab",
     "display": "수정게",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1032,
         "y": 491.99999999999994
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -191,7 +181,6 @@
     "mapCategory": "Crystalcrab",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 1039,
         "y": 478
       }
@@ -207,7 +196,6 @@
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 564,
         "y": 156
       }
@@ -237,7 +225,6 @@
     "mapCategory": "Slimy",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 554.3717164502532,
         "y": 203.64675298172568
       }
@@ -253,7 +240,6 @@
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 624,
         "y": 516
       }
@@ -283,7 +269,6 @@
     "mapCategory": "Bottlopus",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 638,
         "y": 476
       }
@@ -293,18 +278,17 @@
     "id": "c7-6",
     "name": "cybersquid",
     "display": "사이버 오징어",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1032,
         "y": 491.99999999999994
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 3,
     "seasons": [
       true,
@@ -329,7 +313,6 @@
     "mapCategory": "Cybersquid",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 1083,
         "y": 492
       }
@@ -339,18 +322,17 @@
     "id": "c7-7",
     "name": "firetopus",
     "display": "불토퍼스",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 660,
         "y": 936
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 3,
     "seasons": [
       true,
@@ -375,7 +357,6 @@
     "mapCategory": "Firetopus",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 660,
         "y": 962
       }
@@ -385,18 +366,17 @@
     "id": "c7-8",
     "name": "plasmaturtle",
     "display": "플라즈마 터틀",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 180,
         "y": 1056
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 3,
     "seasons": [
       true,
@@ -421,7 +401,6 @@
     "mapCategory": "Plasmaturtle",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 180,
         "y": 1077
       }
@@ -431,18 +410,17 @@
     "id": "c7-9",
     "name": "sewage fungus",
     "display": "하수 곰팡이",
+    "latin": "Fungus cloacae",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 804,
         "y": 768
       }
     ],
     "notes": "",
-    "latin": "Fungus cloacae",
     "difficulty": 0,
     "seasons": [
       true,
@@ -467,7 +445,6 @@
     "mapCategory": "Sewage Fungus",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 135,
         "y": 302
       }
@@ -477,18 +454,17 @@
     "id": "c7-10",
     "name": "discoshell",
     "display": "디스코셸",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 696,
         "y": 1044
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -513,7 +489,6 @@
     "mapCategory": "Discoshell",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 689,
         "y": 1023
       }
@@ -523,18 +498,17 @@
     "id": "c7-11",
     "name": "tubesnail",
     "display": "튜브네일",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1068,
         "y": 324
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -559,7 +533,6 @@
     "mapCategory": "Tubesnail",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 1083,
         "y": 288
       }
@@ -569,18 +542,17 @@
     "id": "c7-12",
     "name": "jellydusa",
     "display": "젤리두사",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 924,
         "y": 624
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -605,7 +577,6 @@
     "mapCategory": "Jellydusa",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 918,
         "y": 633
       }
@@ -621,17 +592,14 @@
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 827.9999999999999,
         "y": 240
       },
       {
-        "no": 2,
         "x": 348,
         "y": 840
       },
       {
-        "no": 3,
         "x": 108,
         "y": 432
       }
@@ -661,17 +629,14 @@
     "mapCategory": "Neon Frogson",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 819,
         "y": 219
       },
       {
-        "no": 2,
         "x": 117,
         "y": 416
       },
       {
-        "no": 3,
         "x": 349,
         "y": 831
       }
@@ -681,23 +646,21 @@
     "id": "c7-14",
     "name": "armored mutoclam",
     "display": "기갑 뮤토클람",
+    "latin": "",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 324,
         "y": 456
       },
       {
-        "no": 2,
         "x": 491.99999999999994,
         "y": 624
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": 0,
     "seasons": [
       true,
@@ -722,12 +685,10 @@
     "mapCategory": "Armored Mutoclam",
     "legacyLocations": [
       {
-        "no": 1,
         "x": 498,
         "y": 599
       },
       {
-        "no": 2,
         "x": 338,
         "y": 431
       }

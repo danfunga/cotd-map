@@ -3,18 +3,17 @@
     "id": "T7-1",
     "name": "ancient statue",
     "display": "고대 동상",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 825.0272079753815,
         "y": 97.38858909238161
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -27,18 +26,17 @@
     "id": "T7-2",
     "name": "bamboo",
     "display": "대나무",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 790.0270849018036,
         "y": 140.40958578466586
       }
     ],
     "notes": "bamboo rod",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -51,18 +49,17 @@
     "id": "T7-3",
     "name": "banana leaf",
     "display": "바나나 잎",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 823.779386341355,
         "y": 488.25897910384015
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -75,18 +72,17 @@
     "id": "T7-4",
     "name": "bowl of rice",
     "display": "밥 한 그릇",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 89.09539946561348,
         "y": 395.98503754805364
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -99,18 +95,17 @@
     "id": "T7-5",
     "name": "bubba gump cap",
     "display": "부바 검프 캡",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 96.8735740586655,
         "y": 369.11789102051324
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -123,18 +118,17 @@
     "id": "T7-6",
     "name": "carpet",
     "display": "양탄자",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1030.3046921002929,
         "y": 152.27532776622292
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -147,18 +141,17 @@
     "id": "T7-7",
     "name": "chakhe",
     "display": "차케",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 695.1235643719012,
         "y": 848.1042210789439
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -171,18 +164,17 @@
     "id": "T7-8",
     "name": "chili pepper",
     "display": "칠리 고추",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 194,
         "y": 535
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -195,18 +187,17 @@
     "id": "T7-9",
     "name": "empty can",
     "display": "빈 캔",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 118.08676833361332,
         "y": 147.79405074063357
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -219,18 +210,17 @@
     "id": "T7-12",
     "name": "kwong wong yai stick",
     "display": "쿵웡야이 스틱",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 156.9775313710904,
         "y": 548.0054264935355
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -243,18 +233,17 @@
     "id": "T7-13",
     "name": "massage oil bottle",
     "display": "마사지 오일 병",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 143.581804874708,
         "y": 123.91827758005167
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -267,18 +256,17 @@
     "id": "T7-14",
     "name": "massage stone",
     "display": "마사지 스톤",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1015.4023625338883,
         "y": 541.6437943888953
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -291,18 +279,17 @@
     "id": "T7-15",
     "name": "muay thai headgear",
     "display": "무에타이 모자",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 202.26886455472422,
         "y": 573.7942284592888
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -315,18 +302,17 @@
     "id": "T7-16",
     "name": "old fishing net",
     "display": "오래된 낚시 그물",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 309.7081027430748,
         "y": 120.21420895095989
       }
     ],
     "notes": "Repair Kit",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -339,18 +325,17 @@
     "id": "T7-17",
     "name": "oriental chest",
     "display": "동양의 가슴",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 480,
         "y": 323
       }
     ],
     "notes": "Collect 4 different chests",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -363,23 +348,21 @@
     "id": "T7-18",
     "name": "oriental key",
     "display": "오리엔탈 키",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 637,
         "y": 171
       },
       {
-        "no": 2,
         "x": 523,
         "y": 314
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -392,18 +375,17 @@
     "id": "T7-19",
     "name": "plastic water bottle",
     "display": "플라스틱 물병",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 213,
         "y": 570
       }
     ],
     "notes": "Collect 50 plastic bottles",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -416,23 +398,21 @@
     "id": "T7-20",
     "name": "shrimp stick",
     "display": "새우스틱",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 823.113217082103,
         "y": 965.6656029869291
       },
       {
-        "no": 2,
         "x": 555.1551750233758,
         "y": 135.48046844065826
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -445,18 +425,17 @@
     "id": "T7-21",
     "name": "silk tapestry",
     "display": "실크 태피스트리",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 212.8724982223806,
         "y": 1001.0025883663885
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -469,18 +448,17 @@
     "id": "T7-22",
     "name": "singing bowl",
     "display": "노래하는 그릇",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 907.2600599637268,
         "y": 667.437995118492
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -493,18 +471,17 @@
     "id": "T7-23",
     "name": "styrofoam bowl",
     "display": "스티로폼 그릇",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 103.02710433447379,
         "y": 209.1777987698414
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -517,18 +494,17 @@
     "id": "T7-25",
     "name": "thai poulaine shoes",
     "display": "태국 풀레인 신발",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 952.0373647843421,
         "y": 414.9647535643932
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -541,18 +517,17 @@
     "id": "T7-24",
     "name": "\"sweet fighter\" disk",
     "display": "\"스위트 파이터\" 디스크",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 309.7127701597078,
         "y": 352.13917703090067
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -565,18 +540,17 @@
     "id": "T7-11",
     "name": "gold necklace",
     "display": "금 목걸이",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 495,
         "y": 294
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -589,18 +563,17 @@
     "id": "T7-10",
     "name": "fridge magnet",
     "display": "냉장고 자석",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 350.72101411599203,
         "y": 104.65070249756418
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,

@@ -3,23 +3,21 @@
     "id": "c1-1",
     "name": "north american river otter",
     "display": "북아메리카 수달",
+    "latin": "Lontra canadensis",
     "category": "creature",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 231,
         "y": 1634
       },
       {
-        "no": 2,
         "x": 1706,
         "y": 1320
       }
     ],
     "notes": "",
-    "latin": "Lontra canadensis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -47,23 +45,21 @@
     "id": "c1-2",
     "name": "chinese mystery snail",
     "display": "검은 달팽이",
+    "latin": "Cipangopaludina chinensis",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 678.8225099390855,
         "y": 299.8132752230961
       },
       {
-        "no": 2,
         "x": 194,
         "y": 359
       }
     ],
     "notes": "",
-    "latin": "Cipangopaludina chinensis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -91,18 +87,17 @@
     "id": "c1-3",
     "name": "beaver",
     "display": "아메리카 비버",
+    "latin": "Castor canadensis",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 852,
         "y": 2062
       }
     ],
     "notes": "",
-    "latin": "Castor canadensis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -130,23 +125,21 @@
     "id": "c1-4",
     "name": "bullfrog",
     "display": "황소개구리",
+    "latin": "Lithobates catesbeianus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2072,
         "y": 1482
       },
       {
-        "no": 2,
         "x": 1940.2784328271025,
         "y": 639.224530192639
       }
     ],
     "notes": "",
-    "latin": "Lithobates catesbeianus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -174,18 +167,17 @@
     "id": "c1-5",
     "name": "eastern massasauga rattlesnake",
     "display": "꼬마방울뱀",
+    "latin": "Sistrurus catenatus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 1538,
         "y": 1520
       }
     ],
     "notes": "",
-    "latin": "Sistrurus catenatus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -213,18 +205,17 @@
     "id": "c1-6",
     "name": "common musk turtle",
     "display": "냄새거북",
+    "latin": "Sternotherus odoratus",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2132,
         "y": 1406
       }
     ],
     "notes": "",
-    "latin": "Sternotherus odoratus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -252,33 +243,29 @@
     "id": "c1-7",
     "name": "quagga mussels",
     "display": "콰가 홍합",
+    "latin": "Dreissena rostriformis",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 955.9509051673068,
         "y": 1057.8317446550752
       },
       {
-        "no": 2,
         "x": 1784.7375157148458,
         "y": 989.9494936611665
       },
       {
-        "no": 3,
         "x": 857.0134187980956,
         "y": 1329.3607486307092
       },
       {
-        "no": 4,
         "x": 1951.614716074871,
         "y": 565.6854249492379
       }
     ],
     "notes": "",
-    "latin": "Dreissena rostriformis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -306,33 +293,29 @@
     "id": "c1-8",
     "name": "zebra mussels",
     "display": "말조개",
+    "latin": "Dreissena polymorpha",
     "category": "creature",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 790,
         "y": 1394
       },
       {
-        "no": 2,
         "x": 1996.1624432896235,
         "y": 613.0615792887367
       },
       {
-        "no": 3,
         "x": 972,
         "y": 1002
       },
       {
-        "no": 4,
         "x": 2186,
         "y": 1480
       }
     ],
     "notes": "",
-    "latin": "Dreissena polymorpha",
     "difficulty": 0,
     "seasons": [
       true,
@@ -360,33 +343,29 @@
     "id": "c1-9",
     "name": "queen snake",
     "display": "퀸 스네이크",
+    "latin": "Regina septemvittata",
     "category": "creature",
     "rarity": "rare",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 1726,
         "y": 1248
       },
       {
-        "no": 2,
         "x": 2046,
         "y": 1866
       },
       {
-        "no": 3,
         "x": 1968.5852788233485,
         "y": 700.0357133746821
       },
       {
-        "no": 4,
         "x": 1024,
         "y": 1026
       }
     ],
     "notes": "",
-    "latin": "Regina septemvittata",
     "difficulty": 0,
     "seasons": [
       true,

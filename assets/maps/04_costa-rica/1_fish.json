@@ -3,38 +3,33 @@
     "id": "21",
     "name": "barracuda",
     "display": "큰꼬치고기",
+    "latin": "Sphyraena barracuda",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1326,
         "y": 1468
       },
       {
-        "no": 2,
         "x": 1405.8369539929088,
         "y": 684
       },
       {
-        "no": 3,
         "x": 169.99824681712806,
         "y": 872
       },
       {
-        "no": 4,
         "x": 1290.0105190972317,
         "y": 312
       },
       {
-        "no": 5,
         "x": 592.5,
         "y": 294.5
       }
     ],
     "notes": "abundant, easy to catch, relatively good selling price, the barracuda is a fish you should appreciate! It has 4 effective spots on the map, in addition to being rather easy to recognize: average size shadow, relatively fast, aggressive on the cork, that's the barracuda! Howeve…",
-    "latin": "Sphyraena barracuda",
     "difficulty": 0,
     "seasons": [
       true,
@@ -64,23 +59,21 @@
     "id": "22",
     "name": "roosterfish",
     "display": "물고기 수탉",
+    "latin": "Nematistius pectoralis",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 229.10259710444137,
         "y": 1137.0277041479683
       },
       {
-        "no": 2,
         "x": 924.1889349170668,
         "y": 234.05234457274722
       }
     ],
     "notes": "",
-    "latin": "Nematistius pectoralis",
     "difficulty": 0,
     "seasons": [
       true,
@@ -110,38 +103,33 @@
     "id": "23",
     "name": "dorado",
     "display": "만새기",
+    "latin": "Coryphaena hippurus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1532,
         "y": 996
       },
       {
-        "no": 2,
         "x": 1675.8430714121175,
         "y": 230.51681066681448
       },
       {
-        "no": 3,
         "x": 1284,
         "y": 204
       },
       {
-        "no": 4,
         "x": 1819.7685798609027,
         "y": 1704
       },
       {
-        "no": 5,
         "x": 504.00140254629764,
         "y": 912
       }
     ],
     "notes": "",
-    "latin": "Coryphaena hippurus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -171,28 +159,25 @@
     "id": "24",
     "name": "pompano",
     "display": "플로리다 폼파노",
+    "latin": "Trachinotus carolinus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1330.7739360681378,
         "y": 1108.7434329005066
       },
       {
-        "no": 2,
         "x": 1822.9935132233738,
         "y": 574
       },
       {
-        "no": 3,
         "x": 680,
         "y": 960
       }
     ],
     "notes": "",
-    "latin": "Trachinotus carolinus",
     "difficulty": 0,
     "seasons": [
       true,
@@ -222,28 +207,25 @@
     "id": "25",
     "name": "wahoo",
     "display": "꼬치삼치",
+    "latin": "Acanthocybium solandri",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 200,
         "y": 296
       },
       {
-        "no": 2,
         "x": 772,
         "y": 322
       },
       {
-        "no": 3,
         "x": 1816,
         "y": 974
       }
     ],
     "notes": "",
-    "latin": "Acanthocybium solandri",
     "difficulty": 1,
     "seasons": [
       true,
@@ -274,23 +256,21 @@
     "id": "26",
     "name": "tripletail",
     "display": "백미돔",
+    "latin": "Lobotes surinamensis",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 274.35743110038044,
         "y": 1126.5145084075377
       },
       {
-        "no": 2,
         "x": 936.2090063847396,
         "y": 277.89296500631315
       }
     ],
     "notes": "",
-    "latin": "Lobotes surinamensis",
     "difficulty": 0,
     "seasons": [
       false,
@@ -320,23 +300,21 @@
     "id": "27",
     "name": "tarpon",
     "display": "대서양타폰",
+    "latin": "Megalops atlanticus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 752.3616151824865,
         "y": 1335.0176028802016
       },
       {
-        "no": 2,
         "x": 712,
         "y": 896
       }
     ],
     "notes": "",
-    "latin": "Megalops atlanticus",
     "difficulty": 1,
     "seasons": [
       true,
@@ -366,33 +344,29 @@
     "id": "28",
     "name": "yellowfin tuna",
     "display": "황다랑어",
+    "latin": "Thunnus albacares",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1752,
         "y": 1148
       },
       {
-        "no": 2,
         "x": 964.489545038672,
         "y": 1285.5201281971435
       },
       {
-        "no": 3,
         "x": 258.8010819142764,
         "y": 256.6797615707167
       },
       {
-        "no": 4,
         "x": 1762.0455081142543,
         "y": 1648.8647078263732
       }
     ],
     "notes": "",
-    "latin": "Thunnus albacares",
     "difficulty": 0,
     "seasons": [
       true,
@@ -422,23 +396,21 @@
     "id": "29",
     "name": "sierra mackerel",
     "display": "퍼시픽 시에라",
+    "latin": "Scomberomorus sierra",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 390.01718119214513,
         "y": 702
       },
       {
-        "no": 2,
         "x": 1267.0012272280105,
         "y": 1391
       }
     ],
     "notes": "",
-    "latin": "Scomberomorus sierra",
     "difficulty": 0,
     "seasons": [
       true,
@@ -468,23 +440,21 @@
     "id": "210",
     "name": "pacific sailfish",
     "display": "돛새치",
+    "latin": "Istiophorus platypterus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 353.5533905932738,
         "y": 1781.9090885900998
       },
       {
-        "no": 2,
         "x": 1460.88137024391,
         "y": 199.4041122946064
       }
     ],
     "notes": "",
-    "latin": "Istiophorus platypterus",
     "difficulty": 1,
     "seasons": [
       true,
@@ -515,23 +485,21 @@
     "id": "211",
     "name": "jack crevalle",
     "display": "크레발레 잭",
+    "latin": "Caranx hippos",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 632,
         "y": 318
       },
       {
-        "no": 2,
         "x": 292,
         "y": 1052
       }
     ],
     "notes": "",
-    "latin": "Caranx hippos",
     "difficulty": 0,
     "seasons": [
       false,
@@ -561,28 +529,25 @@
     "id": "212",
     "name": "cubera snapper",
     "display": "쿠바 도미",
+    "latin": "Lutjanus cyanopterus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 404,
         "y": 1736
       },
       {
-        "no": 2,
         "x": 1227.9989480902768,
         "y": 1426
       },
       {
-        "no": 3,
         "x": 1848,
         "y": 552
       }
     ],
     "notes": "",
-    "latin": "Lutjanus cyanopterus",
     "difficulty": 0,
     "seasons": [
       false,
@@ -612,33 +577,29 @@
     "id": "213",
     "name": "broomtail grouper",
     "display": "맹그로브 잠바리아과",
+    "latin": "Mycteroperca xenarcha",
     "category": "fish",
     "rarity": "common",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 955.3002696330278,
         "y": 250.3158005400378
       },
       {
-        "no": 2,
         "x": 232.09817824082916,
         "y": 996
       },
       {
-        "no": 3,
         "x": 1759.9825860822375,
         "y": 800
       },
       {
-        "no": 4,
         "x": 197.28279195104673,
         "y": 391.7371567773473
       }
     ],
     "notes": "",
-    "latin": "Mycteroperca xenarcha",
     "difficulty": 0,
     "seasons": [
       true,
@@ -668,23 +629,21 @@
     "id": "214",
     "name": "snook",
     "display": "스눅",
+    "latin": "Centropomus undecimalis",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1198.0024544560208,
         "y": 634
       },
       {
-        "no": 2,
         "x": 879.6408357960652,
         "y": 1842.720271772143
       }
     ],
     "notes": "",
-    "latin": "Centropomus undecimalis",
     "difficulty": 0,
     "seasons": [
       false,
@@ -715,23 +674,21 @@
     "id": "215",
     "name": "blue marlin",
     "display": "대서양녹새치",
+    "latin": "Makaira nigricans",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 290.0197626453222,
         "y": 1604.0033129843848
       },
       {
-        "no": 2,
         "x": 1800,
         "y": 1072
       }
     ],
     "notes": "",
-    "latin": "Makaira nigricans",
     "difficulty": 2,
     "seasons": [
       false,
@@ -757,23 +714,21 @@
     "id": "216",
     "name": "striped marlin",
     "display": "청새치",
+    "latin": "Kajikia audax",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 349.9800137152598,
         "y": 1581
       },
       {
-        "no": 2,
         "x": 1767.7776964118368,
         "y": 1030
       }
     ],
     "notes": "",
-    "latin": "Kajikia audax",
     "difficulty": 2,
     "seasons": [
       true,
@@ -803,23 +758,21 @@
     "id": "217",
     "name": "nurse shark",
     "display": "대서양수염상어",
+    "latin": "Ginglymostoma cirratum",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 506,
         "y": 1816
       },
       {
-        "no": 2,
         "x": 913.9274182291012,
         "y": 472
       }
     ],
     "notes": "",
-    "latin": "Ginglymostoma cirratum",
     "difficulty": 1,
     "seasons": [
       true,
@@ -850,23 +803,21 @@
     "id": "218",
     "name": "black marlin",
     "display": "백새치",
+    "latin": "Istiompax indica",
     "category": "fish",
     "rarity": "rare",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 363.4528855298854,
         "y": 1395.8287860622447
       },
       {
-        "no": 2,
         "x": 1868,
         "y": 1028
       }
     ],
     "notes": "",
-    "latin": "Istiompax indica",
     "difficulty": 2,
     "seasons": [
       false,
@@ -892,18 +843,17 @@
     "id": "219",
     "name": "bull shark",
     "display": "황소상어",
+    "latin": "Carcharhinus leucas",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 301.0255267502078,
         "y": 1790.0025425229
       }
     ],
     "notes": "",
-    "latin": "Carcharhinus leucas",
     "difficulty": 2,
     "seasons": [
       false,
@@ -929,18 +879,17 @@
     "id": "220",
     "name": "hammerhead shark",
     "display": "홍살귀상어",
+    "latin": "Sphyrna lewini",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 327.01207717214135,
         "y": 1848.0007704614848
       }
     ],
     "notes": "",
-    "latin": "Sphyrna lewini",
     "difficulty": 2,
     "seasons": [
       true,
@@ -970,18 +919,17 @@
     "id": "221",
     "name": "whale shark",
     "display": "고래상어",
+    "latin": "Rhincodon typus",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "day",
     "locations": [
       {
-        "no": 1,
         "x": 458,
         "y": 1740
       }
     ],
     "notes": "The whale shark is rather difficult to find, but with a bit of patience and the right method, you will be able to catch it!",
-    "latin": "Rhincodon typus",
     "difficulty": 2,
     "seasons": [
       false,
@@ -1007,23 +955,21 @@
     "id": "222",
     "name": "whitetip shark",
     "display": "장완홍상어",
+    "latin": "Carcharhinus longimanus",
     "category": "fish",
     "rarity": "epic",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 359.01015580384615,
         "y": 1816.000308184594
       },
       {
-        "no": 2,
         "x": 614,
         "y": 1842
       }
     ],
     "notes": "",
-    "latin": "Carcharhinus longimanus",
     "difficulty": 2,
     "seasons": [
       true,
@@ -1054,28 +1000,25 @@
     "id": "223",
     "name": "don pedro",
     "display": "돈 페드로",
+    "latin": "",
     "category": "monster",
     "rarity": "monster",
     "timeBand": "night",
     "locations": [
       {
-        "no": 1,
         "x": 259.9927442009323,
         "y": 280
       },
       {
-        "no": 2,
         "x": 568.5138520739843,
         "y": 274.35743110038044
       },
       {
-        "no": 3,
         "x": 879.6408357960652,
         "y": 287.08535316173834
       }
     ],
     "notes": "The spot changes everyday. Check Discord to know the current spot.",
-    "latin": "",
     "difficulty": 2,
     "seasons": [
       true,

@@ -3,18 +3,17 @@
     "id": "T0-1",
     "name": "turban shell",
     "display": "소라 껍질",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 209.65716062181133,
         "y": 562.5034444338985
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -27,28 +26,25 @@
     "id": "T0-2",
     "name": "common seashell",
     "display": "일반적인 바다 조개",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 181.37288937434943,
         "y": 561.0892308715254
       },
       {
-        "no": 2,
         "x": 488.5,
         "y": 128
       },
       {
-        "no": 3,
         "x": 535.5,
         "y": 255
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -61,23 +57,21 @@
     "id": "T0-22",
     "name": "sailing rope",
     "display": "범선용 밧줄",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 358,
         "y": 422
       },
       {
-        "no": 2,
         "x": 171,
         "y": 148.5
       }
     ],
     "notes": "Repair Kit",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -90,28 +84,25 @@
     "id": "T0-3",
     "name": "old plank",
     "display": "오래된 판자",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 648.5,
         "y": 296
       },
       {
-        "no": 2,
         "x": 613.5,
         "y": 517.5
       },
       {
-        "no": 3,
         "x": 471.5,
         "y": 532.5
       }
     ],
     "notes": "Repair Kit",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -124,28 +115,25 @@
     "id": "T0-4",
     "name": "tiny pink shell",
     "display": "아주 작은 분홍색 조개",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 500,
         "y": 158
       },
       {
-        "no": 2,
         "x": 295.5,
         "y": 64.5
       },
       {
-        "no": 3,
         "x": 152.5,
         "y": 171.5
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -158,28 +146,25 @@
     "id": "T0-5",
     "name": "urchin shell",
     "display": "성게 껍데기",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 558.5,
         "y": 251.5
       },
       {
-        "no": 2,
         "x": 156,
         "y": 293
       },
       {
-        "no": 3,
         "x": 635.5,
         "y": 274.5
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -192,38 +177,33 @@
     "id": "T0-6",
     "name": "striped beach shell",
     "display": "줄무늬 해변 조개",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 594,
         "y": 375.5
       },
       {
-        "no": 2,
         "x": 149,
         "y": 313
       },
       {
-        "no": 3,
         "x": 133,
         "y": 172
       },
       {
-        "no": 4,
         "x": 590.5,
         "y": 531.5
       },
       {
-        "no": 5,
         "x": 460.5,
         "y": 510
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -236,23 +216,21 @@
     "id": "T0-7",
     "name": "whale bone",
     "display": "고래 뼈",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 657.5,
         "y": 512
       },
       {
-        "no": 2,
         "x": 445.5,
         "y": 528.5
       }
     ],
     "notes": "suspended bridge in the waste museum",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -265,33 +243,29 @@
     "id": "T0-8",
     "name": "sea grass",
     "display": "해초",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 639,
         "y": 497
       },
       {
-        "no": 2,
         "x": 494,
         "y": 538.5
       },
       {
-        "no": 3,
         "x": 296,
         "y": 413.5
       },
       {
-        "no": 4,
         "x": 663,
         "y": 272
       }
     ],
     "notes": "Decoration in the central part of the aquarium",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -304,33 +278,29 @@
     "id": "T0-9",
     "name": "grey rock",
     "display": "회색 바위",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 366.5,
         "y": 400
       },
       {
-        "no": 2,
         "x": 580,
         "y": 392
       },
       {
-        "no": 3,
         "x": 512,
         "y": 247
       },
       {
-        "no": 4,
         "x": 482,
         "y": 147
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -343,18 +313,17 @@
     "id": "T0-10",
     "name": "steering wheel",
     "display": "조타륜",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 395.5,
         "y": 401
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -367,18 +336,17 @@
     "id": "T0-11",
     "name": "mysterious key",
     "display": "수수께끼의 열쇠",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 200.46477246638622,
         "y": 578.7669004011891
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -391,18 +359,17 @@
     "id": "T0-12",
     "name": "wooden chest",
     "display": "나무상자",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 578.5,
         "y": 356.5
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -415,18 +382,17 @@
     "id": "T0-13",
     "name": "tourist brochure (paradise)",
     "display": "관광 안내 책자(Paradise)",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 114,
         "y": 154
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -439,18 +405,17 @@
     "id": "T0-14",
     "name": "tourist brochure (great lakes)",
     "display": "관광 안내 책자(Great Lakes)",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 319.5,
         "y": 86.5
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -463,18 +428,17 @@
     "id": "T0-15",
     "name": "tourist brochure (costa rica)",
     "display": "관광 안내 책자(Costa rica)",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 555,
         "y": 235
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -487,18 +451,17 @@
     "id": "T0-16",
     "name": "tourist brochure (alaska)",
     "display": "관광 안내 책자(Alaska)",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 133.5,
         "y": 290.5
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -511,18 +474,17 @@
     "id": "T0-17",
     "name": "tourist brochure (australia)",
     "display": "관광 안내 책자(Australia)",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 392,
         "y": 425
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -535,18 +497,17 @@
     "id": "T0-18",
     "name": "tourist brochure (scotland)",
     "display": "관광 안내 책자(Scotland)",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 538.5,
         "y": 399.5
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -559,18 +520,17 @@
     "id": "T0-19",
     "name": "tourist brochure (thailand)",
     "display": "관광 안내 책자(Thailand)",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 672,
         "y": 296.5
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -583,18 +543,17 @@
     "id": "T0-20",
     "name": "tourist brochure (amazon)",
     "display": "관광 안내 책자(Amazon)",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 658,
         "y": 540
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -607,18 +566,17 @@
     "id": "T0-21",
     "name": "fridge magnet",
     "display": "냉장고 자석",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 142,
         "y": 140
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,

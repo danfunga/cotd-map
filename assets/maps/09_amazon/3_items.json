@@ -3,18 +3,17 @@
     "id": "T8-1",
     "name": "amazonian blowpipe",
     "display": "아마존 송풍관",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2592,
         "y": 542
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -27,23 +26,21 @@
     "id": "T8-2",
     "name": "amazonian honey",
     "display": "아마존 꿀",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2596.4961005170026,
         "y": 489.3178925810909
       },
       {
-        "no": 2,
         "x": 1400,
         "y": 2300
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -56,23 +53,21 @@
     "id": "T8-3",
     "name": "balsa timber",
     "display": "발사 목재",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1772,
         "y": 1016
       },
       {
-        "no": 2,
         "x": 1510.155944000242,
         "y": 1203.3822003384994
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -85,23 +80,21 @@
     "id": "T8-4",
     "name": "boné",
     "display": "뼈",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 277.1858582251266,
         "y": 2381.5356390362917
       },
       {
-        "no": 2,
         "x": 672,
         "y": 2256
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -114,18 +107,17 @@
     "id": "T8-5",
     "name": "bossa nova vinyl record",
     "display": "보사노바 비닐 레코드",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1872,
         "y": 1328
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -138,18 +130,17 @@
     "id": "T8-6",
     "name": "brazil cachaca",
     "display": "브라질 카샤카",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2576.6971106437795,
         "y": 1011.162697096763
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -162,18 +153,17 @@
     "id": "T8-7",
     "name": "brazil drums",
     "display": "브라질 드럼",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2593.6676733922563,
         "y": 868.3271272970803
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -186,18 +176,17 @@
     "id": "T8-8",
     "name": "brazil hammock",
     "display": "브라질 해먹",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2520.1285681488553,
         "y": 922.0672426672579
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -210,18 +199,17 @@
     "id": "T8-9",
     "name": "carnival costume",
     "display": "카니발 의상",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 947.5230867899736,
         "y": 1815.850214087054
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -234,23 +222,21 @@
     "id": "T8-10",
     "name": "\"cat's claw\" liana",
     "display": "\"고양이 발톱\" 리아나",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1609.9925649494928,
         "y": 2186.0412374505822
       },
       {
-        "no": 2,
         "x": 436,
         "y": 1720
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -263,23 +249,21 @@
     "id": "T8-11",
     "name": "coffee bean bag",
     "display": "커피빈백",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1910,
         "y": 234
       },
       {
-        "no": 2,
         "x": 2240,
         "y": 444
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -292,28 +276,25 @@
     "id": "T8-12",
     "name": "coffee tree branch",
     "display": "커피나무 가지",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2132.6340520586273,
         "y": 1685.7425663487293
       },
       {
-        "no": 2,
         "x": 1982.2812777087897,
         "y": 2577.8583947083216
       },
       {
-        "no": 3,
         "x": 2440,
         "y": 220
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -326,23 +307,21 @@
     "id": "T8-13",
     "name": "decorated chest",
     "display": "장식된 가슴",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1256,
         "y": 960
       },
       {
-        "no": 2,
         "x": 2115.995220324674,
         "y": 1055.9950907796926
       }
     ],
     "notes": "Collect 4 different chests",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -355,23 +334,21 @@
     "id": "T8-14",
     "name": "feather",
     "display": "깃털",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2225.9721471752514,
         "y": 511.9453095790604
       },
       {
-        "no": 2,
         "x": 1781.9984067748915,
         "y": 1083.9931270915695
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -384,18 +361,17 @@
     "id": "T8-15",
     "name": "football cup",
     "display": "축구 컵",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1886.002124300145,
         "y": 814
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -408,33 +384,29 @@
     "id": "T8-16",
     "name": "football jersey",
     "display": "축구 유니폼",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 672,
         "y": 2332
       },
       {
-        "no": 2,
         "x": 1918.294554584695,
         "y": 2607.2859796204734
       },
       {
-        "no": 3,
         "x": 1684.2908370594416,
         "y": 1988.9825898054737
       },
       {
-        "no": 4,
         "x": 1208,
         "y": 856
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -447,23 +419,21 @@
     "id": "T8-17",
     "name": "green can",
     "display": "녹색 캔",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1168.0084972005795,
         "y": 2466.02650978966
       },
       {
-        "no": 2,
         "x": 748.0042486002898,
         "y": 1739.9852723390777
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -476,33 +446,29 @@
     "id": "T8-18",
     "name": "kakao",
     "display": "카카오",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 762,
         "y": 2256
       },
       {
-        "no": 2,
         "x": 387.9867231240945,
         "y": 2393.998036311877
       },
       {
-        "no": 3,
         "x": 1862,
         "y": 2635.994108935631
       },
       {
-        "no": 4,
         "x": 1348.1793113018357,
         "y": 1936.9570618598748
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -515,23 +481,21 @@
     "id": "T8-19",
     "name": "maracas",
     "display": "마라카스",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 924.8956697920041,
         "y": 1764.9385258416225
       },
       {
-        "no": 2,
         "x": 675.9940828143394,
         "y": 1858.2766209582467
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -544,18 +508,17 @@
     "id": "T8-20",
     "name": "rusty axe head",
     "display": "녹슨 도끼 머리",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2039.9638868975371,
         "y": 2541.97349021034
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -568,23 +531,21 @@
     "id": "T8-21",
     "name": "rusty barrel",
     "display": "녹슨 통",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 456,
         "y": 1888
       },
       {
-        "no": 2,
         "x": 2418,
         "y": 458
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -597,18 +558,17 @@
     "id": "T8-22",
     "name": "soccer ball",
     "display": "축구공",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2042,
         "y": 752
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -621,28 +581,25 @@
     "id": "T8-23",
     "name": "stone key",
     "display": "돌 열쇠",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 818,
         "y": 2280
       },
       {
-        "no": 2,
         "x": 1568.1713451762923,
         "y": 2243.87704974549
       },
       {
-        "no": 3,
         "x": 2516,
         "y": 288
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -655,23 +612,21 @@
     "id": "T8-24",
     "name": "stonebreaker leaf",
     "display": "돌파괴자 잎",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1780,
         "y": 1288
       },
       {
-        "no": 2,
         "x": 1904,
         "y": 336
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -684,18 +639,17 @@
     "id": "T8-25",
     "name": "wooden figurine",
     "display": "나무 조각상",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 776,
         "y": 2336
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -708,23 +662,21 @@
     "id": "T8-26",
     "name": "green yellow disk",
     "display": "녹색 노란색 디스크",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 619.4255403194156,
         "y": 1912.0167363284245
       },
       {
-        "no": 2,
         "x": 1951.614716074871,
         "y": 922.0672426672579
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -737,28 +689,25 @@
     "id": "T8-27",
     "name": "old gold coins",
     "display": "오래된 금화",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 856,
         "y": 2348
       },
       {
-        "no": 2,
         "x": 1804.536505588069,
         "y": 905.0966799187808
       },
       {
-        "no": 3,
         "x": 1384,
         "y": 740
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -771,18 +720,17 @@
     "id": "T8-28",
     "name": "fridge magnet",
     "display": "냉장고 자석",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2460.7315985291852,
         "y": 1425.5272708720797
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,

@@ -3,18 +3,17 @@
     "id": "DT-1",
     "name": "Aviator Cap",
     "display": "에비에이터 캡",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1320,
         "y": 2040.0000000000002
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -27,18 +26,17 @@
     "id": "DT-2",
     "name": "12V Battery",
     "display": "12V 배터리",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 510.00000000000006,
         "y": 2370
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -51,18 +49,17 @@
     "id": "DT-3",
     "name": "Damaged CRT Monitor",
     "display": "손상된 CRT 모니터",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2460,
         "y": 840.0000000000001
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -75,18 +72,17 @@
     "id": "DT-4",
     "name": "Car Keys",
     "display": "자동차 열쇠",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1170,
         "y": 869.9999999999999
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -99,18 +95,17 @@
     "id": "DT-5",
     "name": "Chair",
     "display": "의자",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2670,
         "y": 2340
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -123,18 +118,17 @@
     "id": "DT-6",
     "name": "Toy Dinosaur",
     "display": "장난감 공룡",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1830,
         "y": 2310
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -147,18 +141,17 @@
     "id": "DT-7",
     "name": "VHS “The Found Ones”",
     "display": "VHS “찾은 것들”",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 420.00000000000006,
         "y": 1860
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -171,18 +164,17 @@
     "id": "DT-8",
     "name": "Glasses",
     "display": "안경",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2100,
         "y": 2580
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -195,18 +187,17 @@
     "id": "DT-9",
     "name": "3D Glasses",
     "display": "3D 안경",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1860,
         "y": 390
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -219,18 +210,17 @@
     "id": "DT-10",
     "name": "Golden Pocket Watch",
     "display": "황금 회중시계",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2250,
         "y": 2070
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -243,18 +233,17 @@
     "id": "DT-11",
     "name": "Heart-shaped Necklace",
     "display": "하트 모양의 목걸이",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 660,
         "y": 1560
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -267,18 +256,17 @@
     "id": "DT-12",
     "name": "Lifebuoy",
     "display": "구명 부표",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2760,
         "y": 2070
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -291,18 +279,17 @@
     "id": "DT-13",
     "name": "Magnet",
     "display": "자석",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2490,
         "y": 420.00000000000006
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -315,18 +302,17 @@
     "id": "DT-14",
     "name": "Old Sock",
     "display": "오래된 양말",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1800,
         "y": 510.00000000000006
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -339,18 +325,17 @@
     "id": "DT-15",
     "name": "Portable Toilet",
     "display": "휴대용 화장실",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1650.0000000000002,
         "y": 1380
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -363,18 +348,17 @@
     "id": "DT-16",
     "name": "Rubber Toy",
     "display": "고무장난감",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1320,
         "y": 1170
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -387,18 +371,17 @@
     "id": "DT-17",
     "name": "Sextant",
     "display": "육분의",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2760,
         "y": 2070
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -411,18 +394,17 @@
     "id": "DT-18",
     "name": "Suitcase",
     "display": "여행가방",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1950,
         "y": 1050
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -435,18 +417,17 @@
     "id": "DT-19",
     "name": "Suitcase Key",
     "display": "여행가방 열쇠",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1470,
         "y": 2340
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -459,18 +440,17 @@
     "id": "DT-20",
     "name": "TV Remote",
     "display": "TV 리모콘",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1950,
         "y": 2700
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -483,18 +463,17 @@
     "id": "DT-21",
     "name": "Wallet",
     "display": "지갑",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 990,
         "y": 600
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -507,18 +486,17 @@
     "id": "DT-22",
     "name": "Old Washing Machine",
     "display": "오래된 세탁기",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1470,
         "y": 720
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -531,18 +509,17 @@
     "id": "DT-23",
     "name": "Toilet Brush",
     "display": "화장실 솔",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 1920,
         "y": 1410
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -555,18 +532,17 @@
     "id": "DT-24",
     "name": "Winter Glove",
     "display": "겨울 장갑",
+    "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "no": 1,
         "x": 2550,
         "y": 450
       }
     ],
     "notes": "",
-    "latin": "",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
