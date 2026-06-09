@@ -105,7 +105,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 1019, "y": 918
+        "x": 1019,
+        "y": 918
       }
     ],
     "notes": "",
@@ -127,7 +128,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 880, "y": 438
+        "x": 880,
+        "y": 438
       }
     ],
     "notes": "",
@@ -194,7 +196,6 @@
     "rarity": "common",
     "timeBand": "both",
     "locations": [
-
       {
         "x": 439.8204178980326,
         "y": 417.19300090006305
@@ -311,7 +312,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 106, "y": 647
+        "x": 106,
+        "y": 647
       }
     ],
     "notes": "",
@@ -333,7 +335,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 698, "y": 391
+        "x": 698,
+        "y": 391
       }
     ],
     "notes": "Collect 4 different chests",
@@ -413,7 +416,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 977, "y": 746
+        "x": 977,
+        "y": 746
       }
     ],
     "notes": "",
@@ -435,7 +439,8 @@
     "timeBand": "both",
     "locations": [
       {
-       "x": 747, "y": 229
+        "x": 747,
+        "y": 229
       }
     ],
     "notes": "",
@@ -457,7 +462,8 @@
     "timeBand": "both",
     "locations": [
       {
-       "x": 602, "y": 829
+        "x": 602,
+        "y": 829
       }
     ],
     "notes": "",
@@ -479,7 +485,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 160, "y": 662
+        "x": 160,
+        "y": 662
       }
     ],
     "notes": "",
@@ -501,7 +508,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 972, "y": 218
+        "x": 972,
+        "y": 218
       }
     ],
     "notes": "",
@@ -539,15 +547,15 @@
   {
     "id": "T6-23",
     "name": "tea pot",
-    "display": "차 남비",
+    "display": "차 주전자",
     "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "x": 275.064537881567,
-        "y": 855.5992052357225
+        "x": 306,
+        "y": 890
       },
       {
         "x": 323.85490578343877,
@@ -566,7 +574,7 @@
   {
     "id": "T6-24",
     "name": "unicorn horn",
-    "display": "유니콘 경적",
+    "display": "유니콘 뿔",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -589,7 +597,7 @@
   {
     "id": "T6-25",
     "name": "vinyl record",
-    "display": "비닐 레코드",
+    "display": "LP판",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -619,12 +627,12 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 154.25,
-        "y": 183.75
-      },
-      {
         "x": 794.5,
         "y": 213
+      },
+      {
+        "x": 154.25,
+        "y": 183.75
       }
     ],
     "notes": "fuel booster",
@@ -761,6 +769,10 @@
     "timeBand": "both",
     "locations": [
       {
+        "x": 160,
+        "y": 225
+      },
+      {
         "x": 249.98246817128052,
         "y": 222
       }
@@ -784,8 +796,7 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 1007.5,
-        "y": 193
+        "x": 983, "y": 209
       }
     ],
     "notes": "",
@@ -807,8 +818,7 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 767.2628308958045,
-        "y": 574.4019411129029
+        "x": 721, "y": 575
       }
     ],
     "notes": "",
