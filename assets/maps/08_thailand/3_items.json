@@ -216,8 +216,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 156.9775313710904,
-        "y": 548.0054264935355
+        "x": 211,
+        "y": 563
       }
     ],
     "notes": "",
@@ -239,8 +239,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 143.581804874708,
-        "y": 123.91827758005167
+        "x": 858,
+        "y": 108
       }
     ],
     "notes": "",
@@ -308,8 +308,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 309.7081027430748,
-        "y": 120.21420895095989
+        "x": 131,
+        "y": 141
       }
     ],
     "notes": "Repair Kit",
@@ -324,7 +324,7 @@
   {
     "id": "T7-17",
     "name": "oriental chest",
-    "display": "동양의 가슴",
+    "display": "동양의 상자",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -347,19 +347,19 @@
   {
     "id": "T7-18",
     "name": "oriental key",
-    "display": "오리엔탈 키",
+    "display": "오리엔탈 엘쇠",
     "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "x": 637,
-        "y": 171
+        "x": 473,
+        "y": 342
       },
       {
-        "x": 523,
-        "y": 314
+        "x": 637,
+        "y": 171
       }
     ],
     "notes": "",
@@ -569,8 +569,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 350.72101411599203,
-        "y": 104.65070249756418
+        "x": 340,
+        "y": 145
       }
     ],
     "notes": "",
