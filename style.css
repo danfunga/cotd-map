@@ -204,7 +204,8 @@ main { padding: 0; }
 }
 .map-stage {
   position: relative;
-  height: var(--map-h);
+  height: calc(var(--map-h) - 50px);
+  /*height: var(--map-h);*/
   min-width: 0;
 }
 #map {
@@ -921,14 +922,18 @@ body.map-fullscreen {
     top: calc(max(12px, env(safe-area-inset-top)) );
     right: max(14px, env(safe-area-inset-right));
   }
+  #mapLayout.map-layout-fullscreen .fullscreen-toggle-btn {
+  left: max(14px, env(safe-area-inset-right));
+  bottom: max(62px, env(safe-area-inset-bottom));
+}
   #mapLayout.map-layout-fullscreen #entityPanel {
     position: absolute;
     right: max(8px, env(safe-area-inset-right));
     top: calc(max(12px, env(safe-area-inset-top)) + 40px);
     width: min(82vw, 320px);
     height: auto;
-    min-height: calc(100% - 55px);
-    max-height: calc(100% - 55px);
+    min-height: calc(100% - 105px);
+    max-height: calc(100% - 105px);
     z-index: 1300;
     display: none;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
@@ -943,8 +948,8 @@ body.map-fullscreen {
     top: calc(max(12px, env(safe-area-inset-top)) + 40px);
     width: min(82vw, 320px);
     height: auto;
-    min-height: calc(var(--map-h) - 50px);
-    max-height: calc(var(--map-h) - 50px);
+    min-height: calc(var(--map-h) - 105px);
+    max-height: calc(var(--map-h) - 105px);
     z-index: 1300;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
     display: none;
