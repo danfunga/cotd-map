@@ -499,7 +499,7 @@ main { padding: 0; }
 }
 .today-spot-toggle-btn {
   position: absolute;
-  left: 0;
+  left: 8px;
   top: 8px;
   z-index: 1200;
   border: 1px solid #0d729c;
@@ -968,8 +968,6 @@ body.map-fullscreen {
     display: inline-block;
   }
   .today-spot-toggle-btn {
-    left: 8px;
-    top: 8px;
     padding: 8px 10px;
     font-size: 12px;
   }
