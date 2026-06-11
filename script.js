@@ -10,6 +10,7 @@ const showAllBtn = document.getElementById("showAllBtn");
 const hideAllBtn = document.getElementById("hideAllBtn");
 const caughtFilterAllBtn = document.getElementById("caughtFilterAllBtn");
 const todaySpotToggleBtn = document.getElementById("todaySpotToggleBtn");
+const alwaysShowBossBtn =  document.getElementById("alwaysShowBossBtn");
 const panelToggleBtn = document.getElementById("panelToggleBtn");
 const fullscreenToggleBtn = document.getElementById("fullscreenToggleBtn");
 const detailSheet = document.getElementById("detailSheet");
@@ -88,6 +89,7 @@ const MONSTER_ROTATION_CONFIG = {
   "09_amazon": { startDate: "2024-05-01", rotation: [3, 4, 1, 1, 2, 4, 3, 4, 2, 4, 3, 2, 3, 1, 1, 2, 2, 1, 1, 3, 1, 1, 4, 1, 3, 1] }
 };
 let monsterRotationRevealed = false;
+let alwaysShowBoss = false;
 
 function nextCaughtMode(mode) {
   if (mode === "all") return "caught";
@@ -125,6 +127,8 @@ function saveUserState() {
     mapId: currentMapId,
     isTipsMode,
     isMapFullscreen,
+    monsterRotationRevealed,   // 추가
+    alwaysShowBoss,
     filters: {
       category: [...filters.category],
       time: [...filters.time],
@@ -147,6 +151,9 @@ function loadUserState() {
     if (mapOrder.includes(data.mapId)) currentMapId = data.mapId;
     isTipsMode = Boolean(data.isTipsMode);
     isMapFullscreen = Boolean(data.isMapFullscreen);
+    monsterRotationRevealed = Boolean(data.monsterRotationRevealed);
+    alwaysShowBoss = Boolean(data.alwaysShowBoss);
+
     if (data.filters && typeof data.filters === "object") {
       for (const group of ["category", "time", "rarity", "availability"]) {
         const values = Array.isArray(data.filters[group]) ? data.filters[group] : null;
@@ -478,7 +485,15 @@ function updateTodaySpotToggleButton() {
   if (!visible) return;
   todaySpotToggleBtn.classList.toggle("on", monsterRotationRevealed);
   todaySpotToggleBtn.setAttribute("aria-pressed", monsterRotationRevealed ? "true" : "false");
-  todaySpotToggleBtn.textContent = monsterRotationRevealed ? "스팟 ON" : "스팟 OFF";
+  todaySpotToggleBtn.textContent = "오늘 스팟"
+}
+
+function updateAlwaysShowBossButton() {
+  if (!alwaysShowBossBtn) return;
+
+  alwaysShowBossBtn.classList.toggle("on", alwaysShowBoss);
+  alwaysShowBossBtn.setAttribute("aria-pressed", alwaysShowBoss ? "true" : "false");
+  alwaysShowBossBtn.textContent = "보스 항상";
 }
 
 function applyFilterButtonState() {
@@ -655,7 +670,9 @@ async function renderMarkers(refreshPanel = true) {
 
   const nextActiveKeys = new Set();
   filtered.forEach((entity) => {
-    if (hiddenEntityIds.has(entity.id)) return;
+    if (!checkAlreadyBossRendering(entity)) {
+      return;
+    }
     const locs = Array.isArray(entity.locations) ? entity.locations : [];
     if (locs.length === 0) return;
     const bundle = getMarkerBundle(currentMapId, entity);
@@ -676,6 +693,13 @@ async function renderMarkers(refreshPanel = true) {
 
   activeMarkerKeys.clear();
   nextActiveKeys.forEach((key) => activeMarkerKeys.add(key));
+}
+
+function checkAlreadyBossRendering(entity) {
+  if (entity.category === "monster") {
+    return alwaysShowBoss || !hiddenEntityIds.has(entity.id);
+  }
+  return !hiddenEntityIds.has(entity.id);
 }
 
 function renderEntityPanel() {
@@ -1009,6 +1033,7 @@ document.addEventListener("DOMContentLoaded", () => {
   applyFishOnlyState();
   syncCaughtFilterAllButton();
   updateTodaySpotToggleButton();
+  updateAlwaysShowBossButton();
 
   filterButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -1052,9 +1077,18 @@ document.addEventListener("DOMContentLoaded", () => {
   todaySpotToggleBtn?.addEventListener("click", () => {
     if (!isMonsterRotationMap()) return;
     monsterRotationRevealed = !monsterRotationRevealed;
+    saveUserState(); // 추가
     updateTodaySpotToggleButton();
     scheduleRenderMarkers(false);
   });
+
+  alwaysShowBossBtn?.addEventListener("click", () => {
+    alwaysShowBoss = !alwaysShowBoss;
+    saveUserState();
+    updateAlwaysShowBossButton();
+    scheduleRenderMarkers(false);
+  });
+
   detailClose.addEventListener("click", closeDetail);
   detailBackdrop.addEventListener("click", closeDetail);
   detailSheet.addEventListener("click", (event) => {
