@@ -311,6 +311,15 @@ function getFigureImage(entity) {
   return `./assets/maps/${currentMapId}/portraits/${entity.category}/figure/${entity.id}W.png`;
 }
 
+function getLabelWithCategory(value) {
+  const map = {
+    fish: "물고기",
+    creature: "생명체",
+    item: "아이템",
+  };
+  return map[value] || "알수없음";
+}
+
 function availabilityTimeLabel(values) {
   if (!values || values.length === 0) return "종일";
   const map = { "day": "낮", "night": "밤", "both": "종일" };
@@ -560,11 +569,13 @@ function buildDetailHtml(entity) {
   return `
       <div class="fish-popup detail-theme">
         <div class="detail-title-row">
-          <div class="detail-title-text">
-            <h3>${label(entity)}</h3>
-          </div>
-          <div class="detail-sub-name">
-            ${entity.name}
+          <div class="detail-name-row">
+            <div class="detail-title-display-name">
+              <h3>${label(entity)}</h3>          
+            </div>
+            <div class="detail-title-origin-name">
+              ${entity.name}
+            </div>
           </div>
           <div class="detail-title-actions">
             <button class="caught-toggle ${caught ? "on" : ""}" data-action="toggle-caught" data-id="${entity.id}" data-category="${entity.category}" type="button">${caught ? "잡음 ✓" : "미획득"}</button>
@@ -574,7 +585,7 @@ function buildDetailHtml(entity) {
               
         <div class="detail-layout">
           <div class="detail-info">
-            <p><strong>분류:</strong> ${entity.category}</p>
+            <p><strong>분류:</strong> ${getLabelWithCategory(entity.category)}</p>
             <p><strong>활성 시간:</strong> ${availabilityTimeLabel([entity.timeBand])}</p>
             <p><strong>희귀도:</strong> <span class="rarity-pill rarity-${entity.rarity}">${entity.rarity}</span></p>
             <p><strong>그림자 크기:</strong> ${shadowSizeLabel(entity.shadowSizes)}</p>
