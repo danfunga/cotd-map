@@ -642,6 +642,7 @@ async function loadMapEntities(mapId) {
 
 function passesCurrentFilters(entity) {
   if (entity.category === "monster") {
+    if( alwaysShowBoss ) return true;
     if (!filters.category.has("fish")) return false;
     if (!filters.rarity.has("epic")) return false;
   } else {
@@ -670,7 +671,9 @@ async function renderMarkers(refreshPanel = true) {
 
   const nextActiveKeys = new Set();
   filtered.forEach((entity) => {
-    if (!checkAlreadyBossRendering(entity)) {
+
+    if (!isAlwaysShowBossEnabled(entity) &&
+        hiddenEntityIds.has(entity.id)) {
       return;
     }
     const locs = Array.isArray(entity.locations) ? entity.locations : [];
@@ -695,11 +698,8 @@ async function renderMarkers(refreshPanel = true) {
   nextActiveKeys.forEach((key) => activeMarkerKeys.add(key));
 }
 
-function checkAlreadyBossRendering(entity) {
-  if (entity.category === "monster") {
-    return alwaysShowBoss || !hiddenEntityIds.has(entity.id);
-  }
-  return !hiddenEntityIds.has(entity.id);
+function isAlwaysShowBossEnabled(entity) {
+    return entity.category === "monster" && alwaysShowBoss;
 }
 
 function renderEntityPanel() {
