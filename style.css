@@ -614,6 +614,26 @@ body.map-fullscreen {
   border: 3px solid #fff;
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.50);
 }
+.time-dim {
+  opacity: 0.6;
+  filter: grayscale(60%);
+}
+
+.entity-thumb-wrap {
+  position: relative;
+}
+.entity-thumb-wrap {
+  position: relative;
+}
+.time-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  z-index: 5;
+  font-size: 12px;
+  display: none;
+}
+
 .photo-marker.rarity-common { border-color: #ffffff; }
 .photo-marker.rarity-rare { border-color: #ffd400; }
 .photo-marker.rarity-epic { border-color: #b57bff; }

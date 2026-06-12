@@ -9,8 +9,10 @@ const entityList = document.getElementById("entityList");
 const showAllBtn = document.getElementById("showAllBtn");
 const hideAllBtn = document.getElementById("hideAllBtn");
 const caughtFilterAllBtn = document.getElementById("caughtFilterAllBtn");
-const todaySpotToggleBtn = document.getElementById("todaySpotToggleBtn");
 const alwaysShowBossBtn =  document.getElementById("alwaysShowBossBtn");
+const todaySpotToggleBtn = document.getElementById("todaySpotToggleBtn");
+const realtimeTimeToggleBtn = document.getElementById("realtimeTimeToggleBtn");
+
 const panelToggleBtn = document.getElementById("panelToggleBtn");
 const fullscreenToggleBtn = document.getElementById("fullscreenToggleBtn");
 const detailSheet = document.getElementById("detailSheet");
@@ -88,8 +90,10 @@ const MONSTER_ROTATION_CONFIG = {
   "08_thailand": { startDate: "2026-04-03", rotation: [3, 2, 1, 1, 4, 2, 3, 2, 4, 2, 3, 4, 3, 1, 1, 4, 4, 1, 1, 3, 1, 1, 2, 1, 3, 1] },
   "09_amazon": { startDate: "2024-05-01", rotation: [3, 4, 1, 1, 2, 4, 3, 4, 2, 4, 3, 2, 3, 1, 1, 2, 2, 1, 1, 3, 1, 1, 4, 1, 3, 1] }
 };
-let monsterRotationRevealed = false;
+// Toolbar
 let alwaysShowBoss = false;
+let monsterRotationRevealed = false;
+let realtimeTimeFilterEnabled = false;
 
 function nextCaughtMode(mode) {
   if (mode === "all") return "caught";
@@ -129,6 +133,7 @@ function saveUserState() {
     isMapFullscreen,
     monsterRotationRevealed,   // 추가
     alwaysShowBoss,
+    realtimeTimeFilterEnabled,
     filters: {
       category: [...filters.category],
       time: [...filters.time],
@@ -153,6 +158,7 @@ function loadUserState() {
     isMapFullscreen = Boolean(data.isMapFullscreen);
     monsterRotationRevealed = Boolean(data.monsterRotationRevealed);
     alwaysShowBoss = Boolean(data.alwaysShowBoss);
+    realtimeTimeFilterEnabled = Boolean(data.realtimeTimeFilterEnabled);
 
     if (data.filters && typeof data.filters === "object") {
       for (const group of ["category", "time", "rarity", "availability"]) {
@@ -239,19 +245,19 @@ function markerIcon(entity, isPrimary = false, markerIndex = 0) {
     activeMonsterIndex !== null &&
     markerIndex !== activeMonsterIndex;
   const rotationDimClass = shouldDimByRotation ? "rotation-dim" : "";
-
+  const timeDimClass = shouldDimByRealtimeTime(entity) ? "time-dim" : "";
   // console.log(getImagePath(entity));
   return L.divIcon({
     className: "photo-marker-wrap",
     html: `
       <div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}" ></div>
-      <img class="photo-marker rarity-${rarityKey} ${rotationDimClass} ${isPrimary ? "primary-location" : ""} ${caughtClass}"
+      <img class="photo-marker rarity-${rarityKey} ${rotationDimClass} ${timeDimClass} ${isPrimary ? "primary-location" : ""} ${caughtClass}"
         src="${getImagePath(entity)}"
         alt="${label(entity)}"
         onerror="this.style.display='none';this.previousElementSibling.style.display='block';"
       >
-      ${markerNumber ? `<span class="marker-number ${rotationDimClass}">${markerNumber}</span>` : ""}
-      ${caught ? `<span class="caught-v marker-v ${rotationDimClass}">✓</span>` : ""}
+      ${markerNumber ? `<span class="marker-number ${rotationDimClass} ${timeDimClass}">${markerNumber}</span>` : ""}
+      ${caught ? `<span class="caught-v marker-v ${rotationDimClass}" ${timeDimClass} >✓</span>` : ""}
     `,
     iconSize: [30, 30],
     iconAnchor: [15, 15],
@@ -261,7 +267,7 @@ function markerIcon(entity, isPrimary = false, markerIndex = 0) {
 
 function markerVisualSignature(entity, isPrimary) {
   const activeMonsterIndex = getMonsterRotationActiveIndex(entity);
-  return `${entity.rarity}|${entity.category}|${isPrimary ? "1" : "0"}|${isCaught(entity) ? "1" : "0"}|${monsterRotationRevealed ? "1" : "0"}|${activeMonsterIndex ?? "x"}`;
+  return `${entity.rarity}|${entity.category}|${isPrimary ? "1" : "0"}|${isCaught(entity) ? "1" : "0"}|${monsterRotationRevealed ? "1" : "0"}|${activeMonsterIndex ?? "x"}|${shouldDimByRealtimeTime(entity) ? "D" : "N"}`;
 }
 
 function getMarkerBundle(mapId, entity) {
@@ -496,6 +502,12 @@ function updateAlwaysShowBossButton() {
   if (!alwaysShowBossBtn) return;
   alwaysShowBossBtn.classList.toggle("on", alwaysShowBoss);
   alwaysShowBossBtn.setAttribute("aria-pressed", alwaysShowBoss ? "true" : "false");
+}
+
+function updateRealtimeTimeToggleButton() {
+  if (!realtimeTimeToggleBtn) return;
+  realtimeTimeToggleBtn.classList.toggle("on", realtimeTimeFilterEnabled);
+  realtimeTimeToggleBtn.setAttribute("aria-pressed", realtimeTimeFilterEnabled ? "true" : "false");
 }
 
 function applyFilterButtonState() {
@@ -838,7 +850,8 @@ function getOrCreateEntityRow(entity) {
   row.innerHTML = `
     <span class="entity-left">
       <span class="entity-thumb-wrap">
-        <img class="entity-thumb" alt="">
+        <img class="entity-thumb"  alt="">
+        <span class="time-badge">🌙</span>
       </span>
       <span class="entity-texts">
         <span class="entity-name"></span>
@@ -898,6 +911,16 @@ function updateEntityRow(rowUi, entity) {
   rowUi.thumb.alt = label(entity);
   rowUi.thumb.onerror = function onThumbError() { this.style.display = "none"; };
   rowUi.thumb.style.display = "";
+  const wrap = rowUi.thumb.parentElement;
+  const dimmed = shouldDimByRealtimeTime(entity);
+  const badge = wrap.querySelector(".time-badge");
+  badge.style.display = dimmed ? "block" : "none";
+  rowUi.thumb.classList.toggle("time-dim", dimmed);
+  if (entity.timeBand === "night") {
+    badge.textContent = "🌙";
+  } else if (entity.timeBand === "day") {
+    badge.textContent = "🔆";
+  }
 }
 
 function updateGroupHeaderState(category) {
@@ -1028,6 +1051,19 @@ function clearFilterGroup(group) {
   scheduleRenderMarkers();
 }
 
+function isRealtimeDayTime() {
+  const h = new Date().getHours();
+  return h >= 4 && h < 20;
+}
+
+function shouldDimByRealtimeTime(entity) {
+  if (!realtimeTimeFilterEnabled) return false;
+  if (entity.timeBand === "both") return false;
+  const isDay = isRealtimeDayTime();
+  return (isDay && entity.timeBand === "night") ||
+      (!isDay && entity.timeBand === "day");
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   loadUserState();
   buildPicker();
@@ -1037,8 +1073,9 @@ document.addEventListener("DOMContentLoaded", () => {
   applyFilterButtonState();
   applyFishOnlyState();
   syncCaughtFilterAllButton();
-  updateTodaySpotToggleButton();
   updateAlwaysShowBossButton();
+  updateTodaySpotToggleButton();
+  updateRealtimeTimeToggleButton();
 
   filterButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -1081,8 +1118,14 @@ document.addEventListener("DOMContentLoaded", () => {
     saveUserState();
     scheduleRenderMarkers();
   });
-  panelToggleBtn.addEventListener("click", toggleEntityPanel);
-  fullscreenToggleBtn?.addEventListener("click", toggleMapFullscreen);
+  /*Tool Bar*/
+  alwaysShowBossBtn?.addEventListener("click", () => {
+    alwaysShowBoss = !alwaysShowBoss;
+    saveUserState();
+    updateAlwaysShowBossButton();
+    scheduleRenderMarkers(false);
+  });
+
   todaySpotToggleBtn?.addEventListener("click", () => {
     monsterRotationRevealed = !monsterRotationRevealed;
     saveUserState(); // 추가
@@ -1090,12 +1133,17 @@ document.addEventListener("DOMContentLoaded", () => {
     refreshMonsterMarkers();
   });
 
-  alwaysShowBossBtn?.addEventListener("click", () => {
-    alwaysShowBoss = !alwaysShowBoss;
+  panelToggleBtn.addEventListener("click", toggleEntityPanel);
+
+  realtimeTimeToggleBtn?.addEventListener("click", () => {
+    realtimeTimeFilterEnabled = !realtimeTimeFilterEnabled;
     saveUserState();
-    updateAlwaysShowBossButton();
-    scheduleRenderMarkers(false);
+    updateRealtimeTimeToggleButton();
+    scheduleRenderMarkers(true);
   });
+
+  fullscreenToggleBtn?.addEventListener("click", toggleMapFullscreen);
+  /*Tool Bar*/
 
   detailClose.addEventListener("click", closeDetail);
   detailBackdrop.addEventListener("click", closeDetail);
