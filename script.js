@@ -753,8 +753,7 @@ function renderEntityPanel() {
         const groupItems = grouped[category];
         const ui = getOrCreateGroupUi(category, categoryLabel[category]);
         const allHidden = groupItems.length > 0 && groupItems.every((e) => hiddenEntityIds.has(e.id));
-        ui.toggleBtn.textContent = allHidden ? "X" : "O";
-        ui.toggleBtn.style.color = allHidden ? "#e6e2e2" : "#ffd24f";
+        ui.toggleBtn.textContent = allHidden ? "🚫" : "👁";
         ui.caughtFilterBtn.textContent = caughtModeLabel(caughtFilterMode[category]);
         ui.metaEl.textContent = String(groupItems.length);
         ui.arrowEl.textContent = panelFoldState[category] ? "▾" : "▸";
@@ -788,8 +787,8 @@ function getOrCreateGroupUi(category, labelText) {
     header.setAttribute("tabindex", "0");
     header.innerHTML = `
       <span>${labelText}</span>
-      <button type="button" class="group-toggle-btn" data-category="${category}"></button>
       <button type="button" class="caught-filter-btn" data-category="${category}"></button>
+      <button type="button" class="group-toggle-btn" data-category="${category}"></button>
       <span class="entity-group-meta"></span>
       <span class="entity-group-arrow"></span>
   `;
@@ -934,8 +933,7 @@ function updateGroupHeaderState(category) {
     if (!ui) return;
     const group = lastFilteredEntities.filter((ent) => ent.category === category);
     const allHidden = group.length > 0 && group.every((ent) => hiddenEntityIds.has(ent.id));
-    ui.toggleBtn.textContent = allHidden ? "X" : "O";
-    ui.toggleBtn.style.color = allHidden ? "#e6e2e2" : "#ffd24f";
+    ui.toggleBtn.textContent = allHidden ? "🚫" : "👁";
 }
 
 function openDetail(html) {
