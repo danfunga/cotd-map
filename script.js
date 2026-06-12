@@ -230,7 +230,7 @@ function markerIcon(entity, isPrimary = false, markerIndex = 0) {
   const markerNumber = categoryKey === "monster" ? (markerIndex + 1) : null;
   if( categoryKey === "monster" ){
     isPrimary =false;
-  } 
+  }
   const activeMonsterIndex = getMonsterRotationActiveIndex(entity);
   const shouldDimByRotation =
     categoryKey === "monster" &&
@@ -309,6 +309,15 @@ function scheduleRenderMarkers(refreshPanel = true) {
     void renderMarkers(shouldRefreshPanel);
   });
 }
+function refreshMonsterMarkers() {
+  const entities = lastFilteredEntities.filter(
+    (entity) => entity.category === "monster"
+  );
+  entities.forEach((entity) => {
+    const bundle = getMarkerBundle(currentMapId, entity);
+    updateMarkerBundleIcons(bundle, entity);
+  });
+}
 
 
 function getImagePath(entity) {
@@ -323,6 +332,7 @@ function getLabelWithCategory(value) {
     fish: "물고기",
     creature: "생명체",
     item: "아이템",
+    monster: "몬스터",
   };
   return map[value] || "알수없음";
 }
@@ -441,8 +451,6 @@ function syncMapFullscreenState(active) {
   controlsSection.classList.toggle("map-filter-overlay", useMobileOverlay);
   fullscreenToggleBtn?.classList.toggle("on", active);
   fullscreenToggleBtn?.setAttribute("aria-pressed", active ? "true" : "false");
-  if (fullscreenToggleBtn) fullscreenToggleBtn.textContent = active ? "닫기" : "전체화면";
-
   if (useMobileOverlay) {
     mapLayout.appendChild(controlsSection);
   } else {
@@ -480,20 +488,14 @@ window.addEventListener("resize", handleViewportChange);
 
 function updateTodaySpotToggleButton() {
   if (!todaySpotToggleBtn) return;
-  const visible = !isTipsMode && isMonsterRotationMap();
-  todaySpotToggleBtn.hidden = !visible;
-  if (!visible) return;
   todaySpotToggleBtn.classList.toggle("on", monsterRotationRevealed);
   todaySpotToggleBtn.setAttribute("aria-pressed", monsterRotationRevealed ? "true" : "false");
-  todaySpotToggleBtn.textContent = "오늘 스팟"
 }
 
 function updateAlwaysShowBossButton() {
   if (!alwaysShowBossBtn) return;
-
   alwaysShowBossBtn.classList.toggle("on", alwaysShowBoss);
   alwaysShowBossBtn.setAttribute("aria-pressed", alwaysShowBoss ? "true" : "false");
-  alwaysShowBossBtn.textContent = "보스 항상";
 }
 
 function applyFilterButtonState() {
@@ -642,13 +644,15 @@ async function loadMapEntities(mapId) {
 
 function passesCurrentFilters(entity) {
   if (entity.category === "monster") {
-    if( alwaysShowBoss ) return true;
-    if (!filters.category.has("fish")) return false;
-    if (!filters.rarity.has("epic")) return false;
-  } else {
+    return alwaysShowBoss;
+  }
+  //   if( alwaysShowBoss ) return true;
+  //   if (!filters.category.has("fish")) return false;
+  //   if (!filters.rarity.has("epic")) return false;
+  // } else {
     if (!filters.category.has(entity.category)) return false;
     if (!filters.rarity.has(entity.rarity)) return false;
-  }
+  // }
   if (!hitFishTimeFilter(entity)) return false;
   const availableNow = isSeasonAvailable(entity);
   const availabilityKey = availableNow ? "available" : "unavailable";
@@ -672,10 +676,13 @@ async function renderMarkers(refreshPanel = true) {
   const nextActiveKeys = new Set();
   filtered.forEach((entity) => {
 
-    if (!isAlwaysShowBossEnabled(entity) &&
-        hiddenEntityIds.has(entity.id)) {
+    if (hiddenEntityIds.has(entity.id)) {
       return;
     }
+    // if (!isAlwaysShowBossEnabled(entity) &&
+    //     hiddenEntityIds.has(entity.id)) {
+    //   return;
+    // }
     const locs = Array.isArray(entity.locations) ? entity.locations : [];
     if (locs.length === 0) return;
     const bundle = getMarkerBundle(currentMapId, entity);
@@ -698,9 +705,9 @@ async function renderMarkers(refreshPanel = true) {
   nextActiveKeys.forEach((key) => activeMarkerKeys.add(key));
 }
 
-function isAlwaysShowBossEnabled(entity) {
-    return entity.category === "monster" && alwaysShowBoss;
-}
+// function isAlwaysShowBossEnabled(entity) {
+//     return entity.category === "monster" && alwaysShowBoss;
+// }
 
 function renderEntityPanel() {
   syncCaughtFilterAllButton();
@@ -718,7 +725,8 @@ function renderEntityPanel() {
   });
 
   const grouped = {
-    fish: sorted.filter((e) => e.category === "fish" || e.category === "monster"),
+    // fish: sorted.filter((e) => e.category === "fish" || e.category === "monster"),
+    fish: sorted.filter((e) => e.category === "fish" ),
     creature: sorted.filter((e) => e.category === "creature"),
     item: sorted.filter((e) => e.category === "item")
   };
@@ -798,9 +806,8 @@ function getOrCreateGroupUi(category, labelText) {
   });
   ui.toggleBtn.addEventListener("click", (e) => {
     e.stopPropagation();
-    const group = lastFilteredEntities.filter((ent) => category === "fish"
-      ? (ent.category === "fish" || ent.category === "monster")
-      : ent.category === category);
+    const group = lastFilteredEntities.filter((ent) => ent.category === category);
+
     const allHidden = group.length > 0 && group.every((ent) => hiddenEntityIds.has(ent.id));
     group.forEach((ent) => {
       if (allHidden) hiddenEntityIds.delete(ent.id);
@@ -896,9 +903,7 @@ function updateEntityRow(rowUi, entity) {
 function updateGroupHeaderState(category) {
   const ui = groupUiCache.get(category);
   if (!ui) return;
-  const group = lastFilteredEntities.filter((ent) => category === "fish"
-    ? (ent.category === "fish" || ent.category === "monster")
-    : ent.category === category);
+  const group = lastFilteredEntities.filter((ent) => ent.category===category);
   const allHidden = group.length > 0 && group.every((ent) => hiddenEntityIds.has(ent.id));
   ui.toggleBtn.textContent = allHidden ? "X" : "O";
   ui.toggleBtn.style.color = allHidden ? "#e6e2e2" : "#ffd24f";
@@ -926,8 +931,8 @@ function toggleEntityPanel() {
   if (!isMobile && !isMapFullscreen) return;
   const panel = document.getElementById("entityPanel");
   const nextOpen = !panel.classList.contains("open");
+  panelToggleBtn.classList.toggle("on", nextOpen);
   panel.classList.toggle("open", nextOpen);
-  panelToggleBtn.textContent = nextOpen ? "목록 닫기" : "목록 열기";
 }
 
 function fitCurrentMapBounds() {
@@ -1058,7 +1063,11 @@ document.addEventListener("DOMContentLoaded", () => {
     scheduleRenderMarkers();
   });
   hideAllBtn.addEventListener("click", () => {
-    lastFilteredEntities.forEach((e) => hiddenEntityIds.add(e.id));
+    lastFilteredEntities.forEach((e) => {
+      if (e.category !== "monster") {
+        hiddenEntityIds.add(e.id);
+      }
+    });
     saveUserState();
     scheduleRenderMarkers();
   });
@@ -1075,11 +1084,10 @@ document.addEventListener("DOMContentLoaded", () => {
   panelToggleBtn.addEventListener("click", toggleEntityPanel);
   fullscreenToggleBtn?.addEventListener("click", toggleMapFullscreen);
   todaySpotToggleBtn?.addEventListener("click", () => {
-    if (!isMonsterRotationMap()) return;
     monsterRotationRevealed = !monsterRotationRevealed;
     saveUserState(); // 추가
     updateTodaySpotToggleButton();
-    scheduleRenderMarkers(false);
+    refreshMonsterMarkers();
   });
 
   alwaysShowBossBtn?.addEventListener("click", () => {

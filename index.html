@@ -84,16 +84,27 @@
 
   <main id="mapLayout">
     <div id="mapStage" class="map-stage">
+      <div class="map-top-toolbar">
+
+        <div class="map-top-left">
+          <button id="alwaysShowBossBtn" class="map-toolbar-button" type="button">보스 표시</button>
+          <button id="todaySpotToggleBtn" class="map-toolbar-button" type="button">보스 위치</button>
+        </div>
+        <div class="map-top-right">
+          <button id="panelToggleBtn" class="map-toolbar-button" type="button">필터 목록</button>
+        </div>
+      </div>
       <div id="map"></div>
-      <button id="fullscreenToggleBtn" class="fullscreen-toggle-btn" type="button" aria-pressed="false">전체화면</button>
-      <button id="todaySpotToggleBtn" class="today-spot-toggle-btn" type="button" hidden aria-pressed="false">오늘의 스팟 보기</button>
-      <button id="alwaysShowBossBtn" class="allways-show-boss-btn" type="button"> Boss OFF</button>
+
+      <div class="map-bottom-toolbar">
+        <button id="fullscreenToggleBtn" class="map-toolbar-button" type="button">전체 화면</button>
+      </div>
     </div>
-    <button id="panelToggleBtn" class="panel-toggle-btn" type="button">목록 열기</button>
+
     <aside id="entityPanel">
       <div class="panel-head">
         <div class="panel-title-wrap">
-          <strong>필터 항목</strong>
+          <strong>필터 목록</strong>
           <button id="caughtFilterAllBtn" class="caught-filter-btn" type="button">전체</button>
         </div>
         <div class="panel-actions">
