@@ -2,134 +2,138 @@
 <html lang="ko">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
-  <title>크리쳐스 MAP</title>
+    <title>크리쳐스 MAP</title>
 
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="./favicon.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-  <link rel="stylesheet" href="./style.css">
-  <!-- Open Graph
-  <meta property="og:title" content="크리쳐스 오브 더 딥 MAP">
-  <meta property="og:description" content="물고기, 생명체, 아이템 위치 및 클로버 정보">
-  <meta property="og:image" content="https://danfunga.github.io/cotd-map/thumbnail.png">
-  <meta property="og:url" content="https://danfunga.github.io/cotd-map/">
-  <meta property="og:type" content="website">
-  -->
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Open Graph
+    <meta property="og:title" content="크리쳐스 오브 더 딥 MAP">
+    <meta property="og:description" content="물고기, 생명체, 아이템 위치 및 클로버 정보">
+    <meta property="og:image" content="https://danfunga.github.io/cotd-map/thumbnail.png">
+    <meta property="og:url" content="https://danfunga.github.io/cotd-map/">
+    <meta property="og:type" content="website">
+    -->
 
-  <!-- Twitter/X
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="크리쳐스 오브 더 딥 MAP">
-  <meta name="twitter:description" content="물고기, 생명체, 아이템 위치 및 클로버 정보">
-  <meta name="twitter:image" content="https://danfunga.github.io/cotd-map/thumbnail.png">
-  -->
+    <!-- Twitter/X
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="크리쳐스 오브 더 딥 MAP">
+    <meta name="twitter:description" content="물고기, 생명체, 아이템 위치 및 클로버 정보">
+    <meta name="twitter:image" content="https://danfunga.github.io/cotd-map/thumbnail.png">
+    -->
 </head>
 
 <body>
-  <header>
+<header>
     <h1>크리쳐스 오드 더 딥</h1>
     <p>Creatures position + Clover detail</p>
-  </header>
-  <section id="mapPickerSection">
+</header>
+<section id="mapPickerSection">
     <div class="section-title">MAPS</div>
     <div id="mapPicker" aria-label="Map selector"></div>
-  </section>
+</section>
 
-  <section id="controls">
+<section id="controls">
     <div class="filter-grid">
-      <div class="filter-card" id="categoryCard">
-        <div class="filter-headline"><span class="filter-title">CATEGORY</span></div>
-        <div class="filter-row" data-group="category">
-          <button class="filter-btn" data-group="category" data-value="fish" type="button">물고기</button>
-          <button class="filter-btn" data-group="category" data-value="creature" type="button">생명체</button>
-          <button class="filter-btn" data-group="category" data-value="item" type="button">아이템</button>
-          <button class="clear-btn clear-btn-inline" data-clear-group="category" type="button">×</button>
+        <div class="filter-card" id="categoryCard">
+            <div class="filter-headline"><span class="filter-title">CATEGORY</span></div>
+            <div class="filter-row" data-group="category">
+                <button class="filter-btn" data-group="category" data-value="fish" type="button">물고기</button>
+                <button class="filter-btn" data-group="category" data-value="creature" type="button">생명체</button>
+                <button class="filter-btn" data-group="category" data-value="item" type="button">아이템</button>
+                <button class="clear-btn clear-btn-inline" data-clear-group="category" type="button">×</button>
+            </div>
         </div>
-      </div>
 
-      <div class="filter-card" id="timeCard">
-        <div class="filter-headline"><span class="filter-title">DAY & NIGHT</span></div>
-        <div class="filter-row" data-group="time">
-          <button class="filter-btn" data-group="time" data-value="day" type="button">낮</button>
-          <button class="filter-btn" data-group="time" data-value="night" type="button">밤</button>
-          <button class="filter-btn" data-group="time" data-value="both" type="button">종일</button>
-          <button class="clear-btn clear-btn-inline" data-clear-group="time" type="button">×</button>
+        <div class="filter-card" id="timeCard">
+            <div class="filter-headline"><span class="filter-title">DAY & NIGHT</span></div>
+            <div class="filter-row" data-group="time">
+                <button class="filter-btn" data-group="time" data-value="day" type="button">낮</button>
+                <button class="filter-btn" data-group="time" data-value="night" type="button">밤</button>
+                <button class="filter-btn" data-group="time" data-value="both" type="button">종일</button>
+                <button class="clear-btn clear-btn-inline" data-clear-group="time" type="button">×</button>
+            </div>
         </div>
-      </div>
 
-      <div class="filter-card" id="rarityCard">
-        <div class="filter-headline"><span class="filter-title">RARITY</span></div>
-        <div class="filter-row" data-group="rarity">
-          <button class="filter-btn" data-group="rarity" data-value="common" type="button">보통</button>
-          <button class="filter-btn" data-group="rarity" data-value="rare" type="button">희귀</button>
-          <button class="filter-btn" data-group="rarity" data-value="epic" type="button">에픽</button>
-          <button class="clear-btn clear-btn-inline" data-clear-group="rarity" type="button">×</button>
+        <div class="filter-card" id="rarityCard">
+            <div class="filter-headline"><span class="filter-title">RARITY</span></div>
+            <div class="filter-row" data-group="rarity">
+                <button class="filter-btn" data-group="rarity" data-value="common" type="button">보통</button>
+                <button class="filter-btn" data-group="rarity" data-value="rare" type="button">희귀</button>
+                <button class="filter-btn" data-group="rarity" data-value="epic" type="button">에픽</button>
+                <button class="clear-btn clear-btn-inline" data-clear-group="rarity" type="button">×</button>
+            </div>
         </div>
-      </div>
 
-      <div class="filter-card" id="availabilityCard">
-        <div class="filter-headline"><span class="filter-title">SEASON</span></div>
-        <div class="filter-row" data-group="availability">
-          <button class="filter-btn" data-group="availability" data-value="available" type="button">현재 시즌</button>
-          <button class="filter-btn" data-group="availability" data-value="unavailable" type="button">시즌 아님</button>
-          <button class="clear-btn clear-btn-inline" data-clear-group="availability" type="button">×</button>
+        <div class="filter-card" id="availabilityCard">
+            <div class="filter-headline"><span class="filter-title">SEASON</span></div>
+            <div class="filter-row" data-group="availability">
+                <button class="filter-btn" data-group="availability" data-value="available" type="button">현재 시즌</button>
+                <button class="filter-btn" data-group="availability" data-value="unavailable" type="button">시즌 아님
+                </button>
+                <button class="clear-btn clear-btn-inline" data-clear-group="availability" type="button">×</button>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <main id="mapLayout">
+<main id="mapLayout">
     <div id="mapStage" class="map-stage">
-      <div class="map-top-toolbar">
+        <div class="map-top-toolbar">
 
-        <div class="map-top-left">
-          <button id="alwaysShowBossBtn" class="map-toolbar-button" type="button">보스 표시</button>
-          <button id="todaySpotToggleBtn" class="map-toolbar-button" type="button">보스 위치</button>
-          <button id="realtimeTimeToggleBtn" class="map-toolbar-button" type="button">실시간</button>
+            <div class="map-top-left">
+                <button id="alwaysShowBossBtn" class="map-toolbar-button" type="button">보스 표시</button>
+                <button id="todaySpotToggleBtn" class="map-toolbar-button" type="button">보스 위치</button>
+                <button id="realtimeTimeToggleBtn" class="map-toolbar-button" type="button">실시간</button>
+            </div>
+            <div class="map-top-right">
+                <button id="panelToggleBtn" class="map-toolbar-button" type="button">필터 목록</button>
+            </div>
         </div>
-        <div class="map-top-right">
-          <button id="panelToggleBtn" class="map-toolbar-button" type="button">필터 목록</button>
-        </div>
-      </div>
-      <div id="map"></div>
+        <div id="map"></div>
 
-      <div class="map-bottom-toolbar">
-        <button id="fullscreenToggleBtn" class="map-toolbar-button" type="button">전체 화면</button>
-      </div>
+        <div class="map-bottom-toolbar">
+            <button id="fullscreenToggleBtn" class="map-toolbar-button" type="button">전체 화면</button>
+        </div>
     </div>
 
     <aside id="entityPanel">
-      <div class="panel-head">
-        <div class="panel-title-wrap">
-          <strong>필터 목록</strong>
-          <button id="caughtFilterAllBtn" class="caught-filter-btn" type="button">전체</button>
+        <div class="panel-head">
+            <div class="panel-title-wrap">
+                <strong>필터 목록</strong>
+                <button id="caughtFilterAllBtn" class="caught-filter-btn" type="button">전체</button>
+            </div>
+            <div class="panel-actions">
+                <button id="showAllBtn" class="icon-btn" type="button" title="Show All" aria-label="Show All">◉</button>
+                <button id="hideAllBtn" class="icon-btn" type="button" title="Hide All" aria-label="Hide All">⊘</button>
+            </div>
         </div>
-        <div class="panel-actions">
-          <button id="showAllBtn" class="icon-btn" type="button" title="Show All" aria-label="Show All">◉</button>
-          <button id="hideAllBtn" class="icon-btn" type="button" title="Hide All" aria-label="Hide All">⊘</button>
-        </div>
-      </div>
-      <div id="entityList" class="entity-list"></div>
+        <div id="entityList" class="entity-list"></div>
     </aside>
-  </main>
+</main>
 
-  <main id="tipsLayout" hidden>
+<main id="tipsLayout" hidden>
     <iframe id="tipsFrame" src="./tips.html" title="Tips 페이지"></iframe>
-  </main>
+</main>
 
-  <section id="detailSheet" class="detail-sheet" aria-hidden="true">
+<section id="detailSheet" class="detail-sheet" aria-hidden="true">
     <div id="detailBackdrop" class="detail-backdrop"></div>
     <article class="detail-panel" role="dialog" aria-modal="true" aria-label="상세 정보">
-      <button id="detailClose" class="detail-close" type="button">닫기</button>
-      <div id="detailBody" class="detail-body"></div>
+        <button id="detailClose" class="detail-close" type="button">닫기</button>
+        <div id="detailBody" class="detail-body"></div>
     </article>
-  </section>
+</section>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script type="module" src="script.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin="">
+</script>
+<script type="module" src="script.js"></script>
 </body>
 </html>

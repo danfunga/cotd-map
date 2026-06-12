@@ -625,13 +625,12 @@ body.map-fullscreen {
 .entity-thumb-wrap {
   position: relative;
 }
-.time-badge {
+.entity-wrong-time-badge {
   position: absolute;
   top: -4px;
   right: -4px;
   z-index: 5;
   font-size: 12px;
-  display: none;
 }
 
 .photo-marker.rarity-common { border-color: #ffffff; }
