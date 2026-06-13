@@ -1,4 +1,4 @@
-import {mapOrder, mapsById} from './content/index.js';
+import { mapOrder, mapsById } from './content/index.js';
 
 const mapPicker = document.getElementById("mapPicker");
 const timeCard = document.getElementById("timeCard");
@@ -165,7 +165,7 @@ function saveUserState() {
             availability: [...filters.availability]
         },
         caught: [...caughtEntityKeys],
-        caughtFilterMode: {...caughtFilterMode},
+        caughtFilterMode: { ...caughtFilterMode },
         hiddenEntityIds: [...hiddenEntityIds]
     };
     localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
@@ -305,7 +305,7 @@ function getMarkerBundle(mapId, entity) {
 
     const locs = Array.isArray(entity.locations) ? entity.locations : [];
     const markers = locs.map((l, idx) => {
-        const marker = L.marker([l.y, l.x], {icon: markerIcon(entity, idx === 0, idx)});
+        const marker = L.marker([l.y, l.x], { icon: markerIcon(entity, idx === 0, idx) });
         marker.on("click", () => openEntityDetail(entity));
         return marker;
     });
@@ -369,21 +369,21 @@ function getLabelWithCategory(value) {
 
 function availabilityTimeLabel(values) {
     if (!values || values.length === 0) return "종일";
-    const map = {"day": "낮", "night": "밤", "both": "종일"};
+    const map = { "day": "낮", "night": "밤", "both": "종일" };
     const labels = values.map((v) => map[v]).filter(Boolean);
     return labels.length ? labels.join(", ") : "종일";
 }
 
 function shadowSizeLabel(values) {
     if (!values || values.length === 0) return "없음";
-    const map = {0: "작음", 1: "보통", 2: "중형", 3: "대형"};
+    const map = { 0: "작음", 1: "보통", 2: "중형", 3: "대형" };
     const labels = values.map((v) => map[v]).filter(Boolean);
     return labels.length ? labels.join(", ") : "없음";
 }
 
 function shadowSpeedLabel(values) {
     if (!values || values.length === 0) return "없음";
-    const map = {0: "정지", 1: "보통", 2: "빠름"};
+    const map = { 0: "정지", 1: "보통", 2: "빠름" };
     const labels = values.map((v) => map[v]).filter(Boolean);
     return labels.length ? labels.join(", ") : "없음";
 }
@@ -398,21 +398,21 @@ function seasonBar(entity) {
     if (entity.seasons.every((v) => v === true)) return "";
     const currentMonth = new Date().getMonth();
     const blocks = entity.seasons
-    .map((ok, idx) => {
-        const active = ok ? "on" : "off";
-        const now = idx === currentMonth ? "now" : "";
-        return `<span class="mcell ${active} ${now}">${idx + 1}</span>`;
-    })
-    .join("");
+        .map((ok, idx) => {
+            const active = ok ? "on" : "off";
+            const now = idx === currentMonth ? "now" : "";
+            return `<span class="mcell ${active} ${now}">${idx + 1}</span>`;
+        })
+        .join("");
     return `<div class="season-wrap"><div class="season-grid">${blocks}</div><div class="season-now">현재 달: ${currentMonth + 1}월</div></div>`;
 }
 
 function minigameMeta(entity) {
     const d = entity.difficulty;
-    if (d === null || d === undefined || d === 0) return {label: "없음", cls: "none"};
-    if (d === 1) return {label: "고정", cls: "fixed"};
-    if (d === 2) return {label: "움직임", cls: "moving"};
-    return {label: "회전", cls: "rotate"};
+    if (d === null || d === undefined || d === 0) return { label: "없음", cls: "none" };
+    if (d === 1) return { label: "고정", cls: "fixed" };
+    if (d === 2) return { label: "움직임", cls: "moving" };
+    return { label: "회전", cls: "rotate" };
 }
 
 function hitFishTimeFilter(entity) {
@@ -530,12 +530,6 @@ function applyFilterButtonState() {
     });
 }
 
-function applyFishOnlyState() {
-    const hasFish = filters.category.has("fish");
-    timeCard.classList.toggle("disabled", !hasFish);
-    rarityCard.classList.remove("disabled");
-}
-
 // 모바일에서 한 손가락 더블탭으로 확대, 두 손가락 더블탭으로 축소 기능을 구현합니다.
 // iOS Safari의 경우 페이지 전체의 핀치/더블탭 줌이 방해될 수 있어,
 //  map 영역 외에서는 300ms 이내의 터치가 발생하면 기본 동작을 막도록 했습니다.
@@ -556,7 +550,7 @@ function installSingleFingerDoubleTapZoomIn() {
             return;
         }
         lastTap = now;
-    }, {passive: false});
+    }, { passive: false });
 }
 
 function installTwoFingerDoubleTapZoomOut() {
@@ -574,7 +568,7 @@ function installTwoFingerDoubleTapZoomOut() {
             return;
         }
         lastTwoFingerTapAt = now;
-    }, {passive: false});
+    }, { passive: false });
 }
 
 function createMapIfNeeded() {
@@ -728,9 +722,9 @@ async function renderMarkers(refreshPanel = true) {
 
 function renderEntityPanel() {
     syncCaughtFilterAllButton();
-    const categoryRank = {fish: 0, creature: 1, item: 2};
-    const categoryLabel = {fish: "물고기", creature: "생명체", item: "아이템"};
-    const rarityRank = {common: 0, rare: 1, epic: 2, monster: 3};
+    const categoryRank = { fish: 0, creature: 1, item: 2 };
+    const categoryLabel = { fish: "물고기", creature: "생명체", item: "아이템" };
+    const rarityRank = { common: 0, rare: 1, epic: 2, monster: 3 };
     const sorted = [...lastFilteredEntities].sort((a, b) => {
         const ca = categoryRank[a.category] ?? 9;
         const cb = categoryRank[b.category] ?? 9;
@@ -1039,7 +1033,7 @@ function clearFilterGroup(group) {
         filters[group] = new Set(defaults[group]);
     }
     applyFilterButtonState();
-    applyFishOnlyState();
+    // applyFishOnlyState();
     saveUserState();
     scheduleRenderMarkers();
 }
@@ -1064,7 +1058,6 @@ document.addEventListener("DOMContentLoaded", () => {
     applyPickerState();
     createMapIfNeeded();
     applyFilterButtonState();
-    applyFishOnlyState();
     syncCaughtFilterAllButton();
     updateAlwaysShowBossButton();
     updateTodaySpotToggleButton();
@@ -1078,7 +1071,6 @@ document.addEventListener("DOMContentLoaded", () => {
             if (set.has(value)) set.delete(value);
             else set.add(value);
             applyFilterButtonState();
-            applyFishOnlyState();
             saveUserState();
             scheduleRenderMarkers();
         });
@@ -1137,6 +1129,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     fullscreenToggleBtn?.addEventListener("click", toggleMapFullscreen);
     /*Tool Bar*/
+    document.addEventListener("keydown", (event) => {
+        if (event.key !== "Escape") return;
+        if (isMapFullscreen) {
+            exitMapFullscreen();
+        }
+        if (detailSheet.classList.contains("open")) {
+            closeDetail();
+        }
+    });
 
     detailClose.addEventListener("click", closeDetail);
     detailBackdrop.addEventListener("click", closeDetail);

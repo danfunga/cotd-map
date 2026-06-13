@@ -128,8 +128,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 800,
-        "y": 963
+        "x": 771,
+        "y": 1007
       }
     ],
     "notes": "Intelligence potion",
@@ -197,8 +197,7 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 562.0070127314877,
-        "y": 650
+        "x": 643, "y": 620
       }
     ],
     "notes": "charisma potions",
@@ -320,8 +319,7 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 661.8519471906086,
-        "y": 441.2346314604057
+        "x": 697, "y": 514
       },
       {
         "x": 282,
@@ -439,8 +437,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 174,
-        "y": 488
+        "x": 133,
+        "y": 561
       }
     ],
     "notes": "",
