@@ -1139,6 +1139,15 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    mapPicker?.addEventListener('wheel', (event) => {
+        // 기본 세로 스크롤 동작을 막습니다.
+        event.preventDefault();
+        // 휠을 위/아래로 굴릴 때 가로(왼쪽/오른쪽)로 스크롤되도록 설정합니다.
+        // event.deltaY 값을 scrollLeft에 더해줌으로써 부드럽게 이동합니다.
+        mapPicker.scrollLeft += event.deltaY;
+    }, { passive: false }); // preventDefault()를 사용하기 위해 passive를 false로 설정합니다.
+
+
     detailClose.addEventListener("click", closeDetail);
     detailBackdrop.addEventListener("click", closeDetail);
     detailSheet.addEventListener("click", (event) => {

@@ -68,10 +68,10 @@ header p {
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
-/* 
+
 .mapPicker::-webkit-scrollbar {
     display: none;
-} */
+}
 
 .map-chip {
     border: 1px solid #0e6f95;
