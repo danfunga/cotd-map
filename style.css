@@ -646,7 +646,7 @@ body.map-fullscreen {
             100vw,
             calc((100vh * var(--active-map-aspect)) + var(--panel-w))
     );
-    height: calc(100dvh - 50px);
+    height: calc(100dvh - 70px);
     max-width: none;
     margin: 0;
     padding: 0;
