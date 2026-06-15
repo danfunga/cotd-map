@@ -500,9 +500,16 @@ function toggleMapFullscreen() {
 
 function handleViewportChange() {
     if (isMapFullscreen) syncMapFullscreenState(true);
+    fitCurrentMapBounds();
 }
 
 window.addEventListener("resize", handleViewportChange);
+window.addEventListener("orientationchange", () => {
+    setTimeout(() => {
+        mapInstance?.invalidateSize();
+        fitCurrentMapBounds();
+    }, 300);
+});
 
 function updateTodaySpotToggleButton() {
     if (!todaySpotToggleBtn) return;
