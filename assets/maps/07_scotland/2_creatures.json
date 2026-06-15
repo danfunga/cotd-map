@@ -136,7 +136,7 @@
   {
     "id": "c5-3",
     "name": "palmate newt",
-    "display": "손바닥 모양의 영원",
+    "display": "크레스티드 뉴트",
     "latin": "Lissotriton helveticus",
     "category": "creature",
     "rarity": "common",
@@ -224,7 +224,7 @@
   {
     "id": "c5-5",
     "name": "freshwater pearl mussels",
-    "display": "강 진주 조개속",
+    "display": "강진주조개속",
     "latin": "Margaritifera margaritifera",
     "category": "creature",
     "rarity": "common",
@@ -516,7 +516,7 @@
   {
     "id": "c5-12",
     "name": "great crested newt",
-    "display": "위대한 볏 영원",
+    "display": "노스 뉴트",
     "latin": "Triturus cristatus",
     "category": "creature",
     "rarity": "rare",

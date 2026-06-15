@@ -136,7 +136,7 @@
   {
     "id": "526",
     "name": "twaite shad",
-    "display": "숭어",
+    "display": "작은 숭어",
     "latin": "Alosa fallax",
     "category": "fish",
     "rarity": "common",
@@ -396,7 +396,7 @@
   {
     "id": "55",
     "name": "allis shad",
-    "display": "알리스 청어",
+    "display": "숭어",
     "latin": "Alosa alosa",
     "category": "fish",
     "rarity": "common",
@@ -445,7 +445,7 @@
   {
     "id": "56",
     "name": "northern pike",
-    "display": "노던 파이크",
+    "display": "강꼬치고기",
     "latin": "Esox lucius",
     "category": "fish",
     "rarity": "common",
