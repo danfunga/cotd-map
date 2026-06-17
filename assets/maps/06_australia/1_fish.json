@@ -1155,7 +1155,7 @@
   {
     "id": "425",
     "name": "spotted handfish",
-    "display": "점박이손고기",
+    "display": "핸드피쉬",
     "latin": "Brachionichthys hirsutus",
     "category": "fish",
     "rarity": "rare",
@@ -1166,7 +1166,7 @@
         "y": 196
       }
     ],
-    "notes": "",
+    "notes": "핸드피쉬는 밤에 가장 활발하게 활동하며, 남쪽 섬 근처의 바위가 많은 바닥을 이동합니다.",
     "difficulty": 1,
     "seasons": [
       true,
