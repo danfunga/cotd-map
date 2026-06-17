@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +12,15 @@
       background: transparent;
       color: #e7f6ff;
     }
-    * { box-sizing: border-box; }
+
+    * {
+      box-sizing: border-box;
+    }
+
     .tips-page {
       padding: 8px;
     }
+
     .tips-hero {
       border: 1px solid rgba(112, 232, 200, 0.4);
       border-radius: 14px;
@@ -22,8 +28,19 @@
       background: linear-gradient(140deg, rgba(7, 61, 74, 0.92), rgba(9, 44, 83, 0.9));
       margin-bottom: 10px;
     }
-    .tips-hero h2 { margin: 0 0 6px; color: #8fffe7; font-size: 24px; }
-    .tips-hero p { margin: 0; color: #d6f7ff; font-size: 14px; }
+
+    .tips-hero h2 {
+      margin: 0 0 6px;
+      color: #8fffe7;
+      font-size: 24px;
+    }
+
+    .tips-hero p {
+      margin: 0;
+      color: #d6f7ff;
+      font-size: 14px;
+    }
+
     .tips-top-nav {
       display: flex;
       gap: 8px;
@@ -31,6 +48,7 @@
       max-width: 900px;
       flex-wrap: wrap;
     }
+
     .tips-top-btn {
       border: 1px solid #0d729c;
       background: #01344a;
@@ -41,10 +59,12 @@
       font-weight: 700;
       cursor: pointer;
     }
+
     .tips-top-btn.on {
       border-color: #34c7ff;
       color: #ffd24f;
     }
+
     .tips-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -52,6 +72,7 @@
       max-width: 900px;
       margin: 0 auto;
     }
+
     .tips-card {
       border: 1px solid rgba(71, 188, 245, 0.35);
       border-radius: 12px;
@@ -61,19 +82,58 @@
       margin: 0 auto;
       width: 100%;
     }
-    .tips-card h3 { margin: 0 0 8px; font-size: 16px; color: #9dddff; }
-    .tips-card p { margin: 0 0 8px; font-size: 13px; line-height: 1.45; }
-    .tips-card a { color: #ffd24f; font-weight: 700; }
-    .skill-tree-mini { display: grid; gap: 10px; }
+
+    .tips-card h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+      color: #9dddff;
+    }
+
+    .tips-card p {
+      margin: 0 0 8px;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .tips-card a {
+      color: #ffd24f;
+      font-weight: 700;
+    }
+
+    .skill-tree-mini {
+      display: grid;
+      gap: 10px;
+    }
+
     .skill-branch {
       border: 1px solid rgba(143, 220, 255, 0.24);
       border-radius: 10px;
       padding: 8px;
       background: rgba(1, 62, 87, 0.35);
     }
-    .skill-branch h4 { margin: 0 0 6px; color: #8fffe7; font-size: 14px; }
-    .skill-branch ul { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 5px; }
-    .skill-branch li { display: flex; align-items: center; gap: 6px; font-size: 12px; line-height: 1.35; }
+
+    .skill-branch h4 {
+      margin: 0 0 6px;
+      color: #8fffe7;
+      font-size: 14px;
+    }
+
+    .skill-branch ul {
+      margin: 0;
+      padding-left: 0;
+      list-style: none;
+      display: grid;
+      gap: 5px;
+    }
+
+    .skill-branch li {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
     .skill-branch img {
       width: 24px;
       height: 24px;
@@ -81,13 +141,19 @@
       border: 1px solid rgba(71, 188, 245, 0.45);
       object-fit: cover;
     }
-    .tips-table-wrap { overflow-x: auto; margin: 8px 0 10px; }
+
+    .tips-table-wrap {
+      overflow-x: auto;
+      margin: 8px 0 10px;
+    }
+
     .tips-table {
       width: 100%;
       min-width: 760px;
       border-collapse: collapse;
       font-size: 12px;
     }
+
     .tips-table th,
     .tips-table td {
       border: 1px solid rgba(71, 188, 245, 0.35);
@@ -95,21 +161,52 @@
       vertical-align: top;
       line-height: 1.4;
     }
-    .tips-table th { background: rgba(7, 91, 123, 0.55); color: #9dddff; text-align: left; }
-    .tips-table td:first-child { white-space: nowrap; font-weight: 700; color: #8fffe7; }
-    .fish-lines { white-space: normal; }
+
+    .tips-table th {
+      background: rgba(7, 91, 123, 0.55);
+      color: #9dddff;
+      text-align: left;
+    }
+
+    .tips-table td:first-child {
+      white-space: nowrap;
+      font-weight: 700;
+      color: #8fffe7;
+    }
+
+    .fish-lines {
+      white-space: normal;
+    }
+
     .fish-line {
       display: block;
       font-size: 14px;
       line-height: 1.5;
       font-weight: 600;
     }
-    .fish-line.hit3 { color: #ff5f5f; font-weight: 800; }
-    .fish-line.hit2 { color: #6fb8ff; font-weight: 800; }
-    .tips-map-figure { margin: 0; }
-    .tips-map-figure img { width: 100%; border-radius: 10px; border: 1px solid rgba(71, 188, 245, 0.45); }
+
+    .fish-line.hit3 {
+      color: #ff5f5f;
+      font-weight: 800;
+    }
+
+    .fish-line.hit2 {
+      color: #6fb8ff;
+      font-weight: 800;
+    }
+
+    .tips-map-figure {
+      margin: 0;
+    }
+
+    .tips-map-figure img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid rgba(71, 188, 245, 0.45);
+    }
   </style>
 </head>
+
 <body>
   <main class="tips-page">
     <section class="tips-hero">
@@ -120,6 +217,7 @@
       <button type="button" class="tips-top-btn on" data-section="skills">SKILLS</button>
       <button type="button" class="tips-top-btn" data-section="lures">Lures</button>
       <button type="button" class="tips-top-btn" data-section="aquarium">Aquarium</button>
+      <button type="button" class="tips-top-btn" data-section="chemical">Chemical Plant</button>
     </div>
 
     <section class="tips-grid">
@@ -131,52 +229,78 @@
           <section class="skill-branch">
             <h4>운 (LUCK)</h4>
             <ul>
-              <li><strong>Lv2</strong> <img src="./assets/tips/skills/luck_gift_of_fate.jpg" alt="Gift of Fate"> 큰 개체 출현 확률 증가</li>
-              <li><strong>Lv5</strong> <img src="./assets/tips/skills/luck_potion_of_luck.jpg" alt="Potion of Luck"> 미끼의 유인 확률 증가</li>
-              <li><strong>Lv6</strong> <img src="./assets/tips/skills/luck_epic_catch.jpg" alt="Epic Catch"> 희귀/에픽 확률 증가</li>
-              <li><strong>Lv7</strong> <img src="./assets/tips/skills/luck_four_leaf_clover.jpg" alt="Four Leaf Power"> 클로버 효과 지속시간 2배</li>
-              <li><strong>Lv8</strong> <img src="./assets/tips/skills/luck_smile_of_fate.jpg" alt="Smile of Fate"> 정말 멋진 대형 어종 확률 증가</li>
+              <li><strong>Lv2</strong> <img src="./assets/tips/skills/luck_gift_of_fate.jpg" alt="Gift of Fate"> 큰 개체 출현
+                확률 증가</li>
+              <li><strong>Lv5</strong> <img src="./assets/tips/skills/luck_potion_of_luck.jpg" alt="Potion of Luck"> 미끼의
+                유인 확률 증가</li>
+              <li><strong>Lv6</strong> <img src="./assets/tips/skills/luck_epic_catch.jpg" alt="Epic Catch"> 희귀/에픽 확률 증가
+              </li>
+              <li><strong>Lv7</strong> <img src="./assets/tips/skills/luck_four_leaf_clover.jpg" alt="Four Leaf Power">
+                클로버 효과 지속시간 2배</li>
+              <li><strong>Lv8</strong> <img src="./assets/tips/skills/luck_smile_of_fate.jpg" alt="Smile of Fate"> 정말 멋진
+                대형 어종 확률 증가</li>
             </ul>
           </section>
           <section class="skill-branch">
             <h4>힘 (Strength)</h4>
             <ul>
-              <li><strong>Lv2</strong> <img src="./assets/tips/skills/strength_strong_hand.jpg" alt="Strong Hands"> 일반 어종 릴링 속도 증가</li>
-              <li><strong>Lv3</strong> <img src="./assets/tips/skills/strength_titans_harm.jpg" alt="Titan's Arms"> 캐스팅 속도 증가</li>
-              <li><strong>Lv4</strong> <img src="./assets/tips/skills/strength_iron_grip.jpg" alt="Iron Grip"> 격력한 싸움시 릴링 속도 증가</li>
-              <li><strong>Lv5</strong> <img src="./assets/tips/skills/strength_touch_of_luck.jpg" alt="Touch of Luck"> 10% 확률로 전투 없이 희귀 어종 획득</li>
-              <li><strong>Lv6</strong> <img src="./assets/tips/skills/strength_steel_line.jpg" alt="Steel Line"> 라인 내구/저항 증가</li>
+              <li><strong>Lv2</strong> <img src="./assets/tips/skills/strength_strong_hand.jpg" alt="Strong Hands"> 일반
+                어종 릴링 속도 증가</li>
+              <li><strong>Lv3</strong> <img src="./assets/tips/skills/strength_titans_harm.jpg" alt="Titan's Arms"> 캐스팅
+                속도 증가</li>
+              <li><strong>Lv4</strong> <img src="./assets/tips/skills/strength_iron_grip.jpg" alt="Iron Grip"> 격력한 싸움시
+                릴링 속도 증가</li>
+              <li><strong>Lv5</strong> <img src="./assets/tips/skills/strength_touch_of_luck.jpg" alt="Touch of Luck">
+                10% 확률로 전투 없이 희귀 어종 획득</li>
+              <li><strong>Lv6</strong> <img src="./assets/tips/skills/strength_steel_line.jpg" alt="Steel Line"> 라인
+                내구/저항 증가</li>
             </ul>
           </section>
           <section class="skill-branch">
             <h4>반사 (Reflex)</h4>
             <ul>
-              <li><strong>Lv2</strong> <img src="./assets/tips/skills/reflex_master_of_reaction.jpg" alt="Master of Reaction"> 찌 반응 입력 여유 시간 증가</li>
-              <li><strong>Lv3</strong> <img src="./assets/tips/skills/reflex_durable_gear.jpg" alt="Durable Gear"> 낚시대 내구성 증가</li>
-              <li><strong>Lv4</strong> <img src="./assets/tips/skills/reflex_pure_focus.jpg" alt="Pure Focus"> 강한 개체 전투 난이도 완화</li>
-              <li><strong>Lv5</strong> <img src="./assets/tips/skills/reflex_persistent_grip.jpg" alt="Persistent Grip"> 물고기 피로 누적 속도 증가</li>
-              <li><strong>Lv6</strong> <img src="./assets/tips/skills/reflex_marathoner.jpg" alt="Marathoner"> 이동 속도 증가</li>
+              <li><strong>Lv2</strong> <img src="./assets/tips/skills/reflex_master_of_reaction.jpg"
+                  alt="Master of Reaction"> 찌 반응 입력 여유 시간 증가</li>
+              <li><strong>Lv3</strong> <img src="./assets/tips/skills/reflex_durable_gear.jpg" alt="Durable Gear"> 낚시대
+                내구성 증가</li>
+              <li><strong>Lv4</strong> <img src="./assets/tips/skills/reflex_pure_focus.jpg" alt="Pure Focus"> 강한 개체 전투
+                난이도 완화</li>
+              <li><strong>Lv5</strong> <img src="./assets/tips/skills/reflex_persistent_grip.jpg" alt="Persistent Grip">
+                물고기 피로 누적 속도 증가</li>
+              <li><strong>Lv6</strong> <img src="./assets/tips/skills/reflex_marathoner.jpg" alt="Marathoner"> 이동 속도 증가
+              </li>
             </ul>
           </section>
           <section class="skill-branch">
             <h4>지각 (Perception)</h4>
             <ul>
-              <li><strong>Lv2</strong> <img src="./assets/tips/skills/perception_sharp_vision.jpg" alt="Sharp Vision"> 물고기 때 가시성 향상</li>
-              <li><strong>Lv3</strong> <img src="./assets/tips/skills/perception_fish_magnet.jpg" alt="Fish Magnet"> 보트 주변 물고기 수 증가</li>
-              <li><strong>Lv4</strong> <img src="./assets/tips/skills/perception_eyes_of_the_night.jpg" alt="Eyes of the Night"> 야간 시야 향상</li>
-              <li><strong>Lv5</strong> <img src="./assets/tips/skills/perception_whisper_of_the_depths.jpg" alt="Whisper of the Depths"> 희귀/에픽 근처 사운드 힌트</li>
-              <li><strong>Lv6</strong> <img src="./assets/tips/skills/perception_eye_of_rarity.jpg" alt="Eye of Rarity"> 희귀/에픽 그림자 구분</li>
+              <li><strong>Lv2</strong> <img src="./assets/tips/skills/perception_sharp_vision.jpg" alt="Sharp Vision">
+                물고기 때 가시성 향상</li>
+              <li><strong>Lv3</strong> <img src="./assets/tips/skills/perception_fish_magnet.jpg" alt="Fish Magnet"> 보트
+                주변 물고기 수 증가</li>
+              <li><strong>Lv4</strong> <img src="./assets/tips/skills/perception_eyes_of_the_night.jpg"
+                  alt="Eyes of the Night"> 야간 시야 향상</li>
+              <li><strong>Lv5</strong> <img src="./assets/tips/skills/perception_whisper_of_the_depths.jpg"
+                  alt="Whisper of the Depths"> 희귀/에픽 근처 사운드 힌트</li>
+              <li><strong>Lv6</strong> <img src="./assets/tips/skills/perception_eye_of_rarity.jpg" alt="Eye of Rarity">
+                희귀/에픽 그림자 구분</li>
             </ul>
           </section>
           <section class="skill-branch">
             <h4>카리스마 (Carisma / Charisma)</h4>
             <ul>
-              <li><strong>Lv1</strong> <img src="./assets/tips/skills/charisma_vip_transfer.jpg" alt="VIP Transfer"> 어디서나 VIP 이동</li>
-              <li><strong>Lv2</strong> <img src="./assets/tips/skills/charisma_trader_of_the_year.jpg" alt="Trader of the Year"> 판매 보너스</li>
-              <li><strong>Lv4</strong> <img src="./assets/tips/skills/charisma_local_favorite.jpg" alt="Local Favorite"> NPC XP 보상 증가</li>
-              <li><strong>Lv6</strong> <img src="./assets/tips/skills/charisma_negotiator.jpg" alt="Negotiator"> 상점 가격 할인</li>
-              <li><strong>Lv8</strong> <img src="./assets/tips/skills/charisma_creature_charmer.jpg" alt="Creature Charmer"> 생명체 포획 확률 증가</li>
-              <li><strong>Lv10</strong> <img src="./assets/tips/skills/charisma_aura_of_dread.jpg" alt="Aura of Dread"> 미끼 몬스터 소환 확률 증가</li>
+              <li><strong>Lv1</strong> <img src="./assets/tips/skills/charisma_vip_transfer.jpg" alt="VIP Transfer">
+                어디서나 VIP 이동</li>
+              <li><strong>Lv2</strong> <img src="./assets/tips/skills/charisma_trader_of_the_year.jpg"
+                  alt="Trader of the Year"> 판매 보너스</li>
+              <li><strong>Lv4</strong> <img src="./assets/tips/skills/charisma_local_favorite.jpg" alt="Local Favorite">
+                NPC XP 보상 증가</li>
+              <li><strong>Lv6</strong> <img src="./assets/tips/skills/charisma_negotiator.jpg" alt="Negotiator"> 상점 가격
+                할인</li>
+              <li><strong>Lv8</strong> <img src="./assets/tips/skills/charisma_creature_charmer.jpg"
+                  alt="Creature Charmer"> 생명체 포획 확률 증가</li>
+              <li><strong>Lv10</strong> <img src="./assets/tips/skills/charisma_aura_of_dread.jpg" alt="Aura of Dread">
+                미끼 몬스터 소환 확률 증가</li>
             </ul>
           </section>
         </div>
@@ -188,7 +312,12 @@
         <div class="tips-table-wrap">
           <table class="tips-table" id="lureTable">
             <thead>
-              <tr><th>지역</th><th>토너먼트</th><th>클랜 챌린지</th><th>듀얼</th></tr>
+              <tr>
+                <th>지역</th>
+                <th>토너먼트</th>
+                <th>클랜 챌린지</th>
+                <th>듀얼</th>
+              </tr>
             </thead>
             <tbody></tbody>
           </table>
@@ -201,6 +330,126 @@
         <figure class="tips-map-figure">
           <img src="./assets/tips/aquarium.png" alt="아쿠아리움 지도">
         </figure>
+      </article>
+      <article class="tips-card" data-tips-section="chemical" hidden>
+        <h3>4) 지역 퀘스트 준비 목록</h3>
+        <p>각 Zone 진행 전 미리 준비해두면 이동 횟수를 줄일 수 있습니다.</p>
+        <section class="tips-subsection">
+          <h4>첫 번째 여행</h4>
+          <table class="tips-table">
+            <thead>
+              <tr>
+                <th>지역</th>
+                <th>준비물</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Paradise Island</td>
+                <td>플라스틱 병 ×3</td>
+              </tr>
+              <tr>
+                <td>Great Lakes</td>
+                <td>은연어(Coho Salmon) ×3</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>→ Zone 1 (남부) 퀘스트</p>
+        </section>
+        <section class="tips-subsection">
+          <h4>두 번째 여행</h4>
+          <table class="tips-table">
+            <thead>
+              <tr>
+                <th>지역</th>
+                <th>준비물</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Costa Rica</td>
+                <td>야자 잎 ×3</td>
+              </tr>
+              <tr>
+                <td>Alaska</td>
+                <td>나침반 ×1</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>→ Zone 2 (서부) 퀘스트</p>
+        </section>
+        <section class="tips-subsection">
+          <h4>세 번째 여행</h4>
+          <p>→ Zone 2 (서부) 2일차 퀘스트 진행</p>
+        </section>
+        <section class="tips-subsection">
+          <h4>네 번째 여행</h4>
+          <table class="tips-table">
+            <thead>
+              <tr>
+                <th>지역</th>
+                <th>준비물</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Scotland</td>
+                <td>잉어 ×3</td>
+              </tr>
+              <tr>
+                <td>Great Lakes</td>
+                <td>황소개구리 ×2</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>→ Zone 3 (동부) 퀘스트</p>
+          <h5>돌아올 때 가져오기</h5>
+          <ul>
+            <li>풍력 터빈 다이너모 ×1</li>
+            <li>풍력 터빈 프로펠러 블레이드 ×2</li>
+            <li>풍력 터빈 프로펠러 허브 ×1</li>
+          </ul>
+        </section>
+        <section class="tips-subsection">
+          <h4>다섯 번째 여행</h4>
+          <table class="tips-table">
+            <thead>
+              <tr>
+                <th>지역</th>
+                <th>준비물</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>제작하기</td>
+                <td>풍력 터빈 ×1</td>
+              </tr>
+              <tr>
+                <td>Australia</td>
+                <td>호주식 크리켓 배트 ×1</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>→ Zone 3 (동부) 퀘스트</p>
+        </section>
+        <section class="tips-subsection">
+          <h4>여섯 번째 여행</h4>
+          <table class="tips-table">
+            <thead>
+              <tr>
+                <th>지역</th>
+                <th>준비물</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Scotland</td>
+                <td>시스(Thistle) ×4</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>→ Zone 4 (북부) 퀘스트</p>
+        </section>
       </article>
     </section>
   </main>
@@ -295,4 +544,5 @@
     })();
   </script>
 </body>
+
 </html>
