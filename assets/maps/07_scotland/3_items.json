@@ -416,6 +416,10 @@
     "timeBand": "both",
     "locations": [
       {
+        "x": 731,
+        "y": 901
+      },
+      {
         "x": 977,
         "y": 746
       }
@@ -796,7 +800,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 983, "y": 209
+        "x": 983,
+        "y": 209
       }
     ],
     "notes": "",
@@ -818,7 +823,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 721, "y": 575
+        "x": 721,
+        "y": 575
       }
     ],
     "notes": "",
