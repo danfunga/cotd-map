@@ -120,9 +120,12 @@ let monsterRotationRevealed = false;
 let realtimeTimeFilterEnabled = false;
 
 function nextCaughtMode(mode) {
-    if (mode === "all") return "caught";
-    if (mode === "caught") return "uncaught";
+    if (mode === "all") return "uncaught";
+    if (mode === "uncaught") return "all";
     return "all";
+    // if (mode === "all") return "caught";
+    // if (mode === "caught") return "uncaught";
+    // return "all";
 }
 
 function caughtModeLabel(mode) {
@@ -132,7 +135,7 @@ function caughtModeLabel(mode) {
 }
 
 function getGroupCaughtMode(category) {
-    return category === "monster" ? caughtFilterMode.fish : (caughtFilterMode[category] || "all");
+    return caughtFilterMode[category] || "all";
 }
 
 function syncCaughtFilterAllButton() {
@@ -430,7 +433,7 @@ function buildPicker() {
         button.type = "button";
         button.className = "map-chip";
         button.dataset.mapId = mapInfo.id;
-        button.innerHTML = `<img src="${mapInfo.imagePath}" alt="${mapInfo.name}"><span>${mapInfo.name}</span>`;
+        button.innerHTML = `<img src="${mapInfo.thumbnailPath}" alt="${mapInfo.name}"><span>${mapInfo.name}</span>`;
         button.addEventListener("click", () => selectMap(mapInfo.id));
         mapPicker.appendChild(button);
     });
@@ -524,6 +527,10 @@ function updateAlwaysShowBossButton() {
 }
 
 function updateRealtimeTimeToggleButton() {
+
+    const isDay = isRealtimeDayTime();
+    realtimeTimeToggleBtn.textContent = isDay?" 실시간 ☀️️":"실시간 🌙"
+
     if (!realtimeTimeToggleBtn) return;
     realtimeTimeToggleBtn.classList.toggle("on", realtimeTimeFilterEnabled);
     realtimeTimeToggleBtn.setAttribute("aria-pressed", realtimeTimeFilterEnabled ? "true" : "false");
@@ -856,7 +863,7 @@ function getOrCreateEntityRow(entity) {
     <span class="entity-left">
       <span class="entity-thumb-wrap">
         <img class="entity-thumb"  alt="" src="">
-        <span class="entity-wrong-time-badge">X</span>
+        <span class="entity-available-time-badge">∞</span>
       </span>
       <span class="entity-texts">
         <span class="entity-name"></span>
@@ -872,7 +879,7 @@ function getOrCreateEntityRow(entity) {
         row,
         thumb: row.querySelector(".entity-thumb"),
         thumbWrap: row.querySelector(".entity-thumb-wrap"),
-        wrongTimeBadge: row.querySelector(".entity-wrong-time-badge"),
+        timeIconBadge: row.querySelector(".entity-available-time-badge"),
         nameEl: row.querySelector(".entity-name"),
         subNameEl: row.querySelector(".entity-sub-name"),
         countEl: row.querySelector(".entity-count"),
@@ -922,10 +929,14 @@ function updateEntityRow(rowUi, entity) {
     const dimmed = shouldDimByRealtimeTime(entity);
     rowUi.thumb.style.display = "";
     rowUi.thumb.classList.toggle("time-dim", dimmed);
-
-    rowUi.wrongTimeBadge.style.display = dimmed ? "block" : "none";
-    if (dimmed) {
-        rowUi.wrongTimeBadge.textContent = entity.timeBand === "night" ? "🌙" : "🔆";
+    rowUi.timeIconBadge.classList.toggle("time-dim", dimmed);
+    if (entity.category === "item") {
+        rowUi.timeIconBadge.textContent = ""
+    } else {
+        rowUi.timeIconBadge.textContent = {
+            day: "☀️", // 해
+            night: "🌙" // 달
+        }[entity.timeBand] ?? "∞";// 종일
     }
 }
 
@@ -1127,6 +1138,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     panelToggleBtn.addEventListener("click", toggleEntityPanel);
 
+    const isDay = isRealtimeDayTime();
+    realtimeTimeToggleBtn.textContent = isDay?" 실시간 ☀️️":"실시간 🌙"
     realtimeTimeToggleBtn?.addEventListener("click", () => {
         realtimeTimeFilterEnabled = !realtimeTimeFilterEnabled;
         saveUserState();

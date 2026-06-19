@@ -762,16 +762,19 @@ body.map-fullscreen {
     position: relative;
 }
 
-.entity-thumb-wrap {
-    position: relative;
+.entity-available-time-badge {
+    position: absolute;
+    display: block;
+    top: -8px;
+    right: -5px;
+    z-index: 5;
+    font-size: 17px;
 }
 
-.entity-wrong-time-badge {
-    position: absolute;
-    top: -4px;
-    right: -4px;
-    z-index: 5;
-    font-size: 12px;
+.entity-available-time-badge.time-dim {
+    top: -3px;
+    right: -1px;
+    font-size: 8px;
 }
 
 .photo-marker.rarity-common {
