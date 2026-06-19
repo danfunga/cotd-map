@@ -209,7 +209,7 @@
   {
     "id": "T4-11",
     "name": "gold nugget",
-    "display": "금 덩어리",
+    "display": "금덩이",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -232,7 +232,7 @@
   {
     "id": "T4-12",
     "name": "gold pan",
-    "display": "금 냄비",
+    "display": "사금 접시",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -243,7 +243,7 @@
         "y": 459.25
       }
     ],
-    "notes": "",
+    "notes": "사금 접시는 금광산 근방에서 떨어져 있을 거에요. 외롭게! 이차가운 계절에!",
     "difficulty": null,
     "seasons": [],
     "minigame": null,

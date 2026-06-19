@@ -167,7 +167,7 @@
   {
     "id": "T6-7",
     "name": "chip bag",
-    "display": "칩백",
+    "display": "감자칩 봉지",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -386,7 +386,7 @@
   {
     "id": "T6-16",
     "name": "medieval mug",
-    "display": "중세 머그잔",
+    "display": "중세시대 맥주",
     "latin": "",
     "category": "item",
     "rarity": "common",
