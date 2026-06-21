@@ -51,7 +51,7 @@
   {
     "id": "524",
     "name": "sea trout",
-    "display": "바다 송어",
+    "display": "바다송어",
     "latin": "Salmo trutta",
     "category": "fish",
     "rarity": "common",
@@ -136,7 +136,7 @@
   {
     "id": "526",
     "name": "twaite shad",
-    "display": "작은 숭어",
+    "display": "미꾸라지",
     "latin": "Alosa fallax",
     "category": "fish",
     "rarity": "common",
@@ -941,7 +941,7 @@
   {
     "id": "517",
     "name": "european grayling",
-    "display": "유럽그레이링",
+    "display": "유럽 가자미",
     "latin": "Thymallus thymallus",
     "category": "fish",
     "rarity": "rare",
@@ -989,7 +989,7 @@
   {
     "id": "518",
     "name": "european whitefish",
-    "display": "유럽 흰살생선",
+    "display": "유럽 백어",
     "latin": "Coregonus lavaretus",
     "category": "fish",
     "rarity": "rare",
