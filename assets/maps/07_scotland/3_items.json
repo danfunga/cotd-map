@@ -71,7 +71,7 @@
   {
     "id": "T6-3",
     "name": "black pudding",
-    "display": "블랙 푸딩",
+    "display": "검은 물고기 적절한 금액",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -105,11 +105,11 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 1019,
-        "y": 918
+        "x": 978,
+        "y": 953
       }
     ],
-    "notes": "",
+    "notes": "오래된 참나무 근처, 북동쪽 바닥에 있어",
     "difficulty": null,
     "seasons": [],
     "minigame": null,

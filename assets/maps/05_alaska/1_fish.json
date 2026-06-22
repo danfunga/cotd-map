@@ -964,7 +964,7 @@
   {
     "id": "322",
     "name": "king salmon",
-    "display": "왕 연어",
+    "display": "왕연어",
     "latin": "Oncorhynchus tshawytscha",
     "category": "fish",
     "rarity": "epic",
@@ -975,7 +975,7 @@
         "y": 720
       }
     ],
-    "notes": "",
+    "notes": "왕연어 무리는 착률 지점의 남서쪽에 있는 오래된 어업 기지 해안을 선호합니다.",
     "difficulty": 1,
     "seasons": [
       false,

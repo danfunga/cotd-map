@@ -94,7 +94,7 @@
   {
     "id": "T5-2",
     "name": "australian cricket bat",
-    "display": "호주 크리켓 방망이",
+    "display": "오스트레일리아 크리켓 배트",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -432,7 +432,7 @@
   {
     "id": "T5-16",
     "name": "plastic barrel",
-    "display": "플라스틱 통",
+    "display": "플라스틱 드럼",
     "latin": "",
     "category": "item",
     "rarity": "common",
