@@ -761,7 +761,7 @@ function renderEntityPanel() {
         const groupItems = grouped[category];
         const ui = getOrCreateGroupUi(category, categoryLabel[category]);
         const allHidden = groupItems.length > 0 && groupItems.every((e) => hiddenEntityIds.has(e.id));
-        ui.toggleBtn.textContent = allHidden ? "🚫" : "👁";
+        ui.toggleBtn.textContent = allHidden ? "🚫" : "👁️";
         ui.caughtFilterBtn.textContent = caughtModeLabel(caughtFilterMode[category]);
         ui.metaEl.textContent = String(groupItems.length);
         ui.arrowEl.textContent = panelFoldState[category] ? "▾" : "▸";
