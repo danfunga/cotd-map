@@ -74,7 +74,7 @@
   {
     "id": "62",
     "name": "bighead carp",
-    "display": "큰머리 잉어",
+    "display": "대두어",
     "latin": "Hypophthalmichthys nobilis",
     "category": "fish",
     "rarity": "common",
@@ -119,7 +119,7 @@
   {
     "id": "625",
     "name": "aligator gar",
-    "display": "알리게이터 가르",
+    "display": "앨리게이터가아",
     "latin": "Atractosteus spatula",
     "category": "fish",
     "rarity": "common",
@@ -161,7 +161,7 @@
   {
     "id": "619",
     "name": "spotted sorubim",
-    "display": "얼룩무늬 소루빔",
+    "display": "스팟티드 소러빔",
     "latin": "Pseudoplatystoma corruscans",
     "category": "fish",
     "rarity": "common",
@@ -207,7 +207,7 @@
   {
     "id": "612",
     "name": "marbled sand goby",
-    "display": "대리석 모래 망둥이",
+    "display": "말레이고비",
     "latin": "Oxyeleotris marmorata",
     "category": "fish",
     "rarity": "common",
@@ -248,7 +248,7 @@
   {
     "id": "621",
     "name": "tapah",
-    "display": "타파",
+    "display": "그레이트 타파",
     "latin": "Wallago leerii",
     "category": "fish",
     "rarity": "common",
@@ -336,7 +336,7 @@
   {
     "id": "65",
     "name": "giant devil catfish",
-    "display": "거대 악마 메기",
+    "display": "거대한 메기",
     "latin": "Bagarius yarrelli",
     "category": "fish",
     "rarity": "common",
@@ -418,7 +418,7 @@
   {
     "id": "69",
     "name": "great snakehead",
-    "display": "대단한 독사",
+    "display": "거대 애더헤드",
     "latin": "Channa marulius",
     "category": "fish",
     "rarity": "common",
@@ -429,7 +429,7 @@
         "y": 852.7707781109763
       }
     ],
-    "notes": "",
+    "notes": "착륙지 북동쪽에 있는 돌해변 지역에 살아.",
     "difficulty": 1,
     "seasons": [
       false,
@@ -503,7 +503,7 @@
   {
     "id": "623",
     "name": "wallago",
-    "display": "왈라고",
+    "display": "합계 왈라고",
     "latin": "Wallago attu",
     "category": "fish",
     "rarity": "common",
@@ -545,8 +545,8 @@
   {
     "id": "618",
     "name": "black ear catfish",
-    "display": "검은 귀 메기",
-    "latin": "Ictalurus punctatus",
+    "display": "블랙 이어 메기",
+    "latin": "Pangasius larnaudii",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
@@ -679,7 +679,7 @@
   {
     "id": "611",
     "name": "malayan leaffish",
-    "display": "말레이잎고기",
+    "display": "말레이 잎 물고기",
     "latin": "Pristolepis fasciata",
     "category": "fish",
     "rarity": "common",
@@ -719,7 +719,7 @@
   {
     "id": "61",
     "name": "bambusa",
-    "display": "밤부사",
+    "display": "강유이",
     "latin": "Elopichthys bambusa",
     "category": "fish",
     "rarity": "common",
@@ -768,7 +768,7 @@
   {
     "id": "64",
     "name": "fire eel",
-    "display": "불 장어",
+    "display": "파이어 일",
     "latin": "Mastacembelus erythrotaenia",
     "category": "fish",
     "rarity": "common",
@@ -933,7 +933,7 @@
   {
     "id": "613",
     "name": "mekong giant catfish",
-    "display": "메콩 거대 메기",
+    "display": "메콩 메기",
     "latin": "Pangasianodon gigas",
     "category": "fish",
     "rarity": "epic",
@@ -944,7 +944,7 @@
         "y": 138
       }
     ],
-    "notes": "",
+    "notes": "메콩메기는 거대한 크기에 도달합니다. 싶은 물에서 야행성입니다.",
     "difficulty": 2,
     "seasons": [
       true,

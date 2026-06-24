@@ -117,7 +117,7 @@
   {
     "id": "T7-6",
     "name": "carpet",
-    "display": "양탄자",
+    "display": "카펫",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -128,7 +128,7 @@
         "y": 152.27532776622292
       }
     ],
-    "notes": "",
+    "notes": "남동쪽에는 관광객들이 오랜 시간 머무는 인기있는 장소가 있씁니다. 데크의자로 쉽게 알수 있습니다.",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -424,7 +424,7 @@
   {
     "id": "T7-21",
     "name": "silk tapestry",
-    "display": "실크 태피스트리",
+    "display": "비단 태피스트리",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -435,7 +435,7 @@
         "y": 1001.0025883663885
       }
     ],
-    "notes": "",
+    "notes": "북쪽에 만들어졌지요. 현지 주민들은 해변 가장자리에 그것들을 걸어놓아요. 코끼리 무늬를 찾으세요",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -458,7 +458,7 @@
         "y": 667.437995118492
       }
     ],
-    "notes": "",
+    "notes": "착륙 지점 동쪽에 있는 높은 석회암 바위를 찾아봐라.",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
