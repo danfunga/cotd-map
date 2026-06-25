@@ -328,12 +328,16 @@
   {
     "id": "T6-14",
     "name": "medieval chest",
-    "display": "중세의 상자",
+    "display": "중세 상자",
     "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
+      {
+        "x": 484,
+        "y": 508
+      },
       {
         "x": 698,
         "y": 391

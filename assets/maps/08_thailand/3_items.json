@@ -2,7 +2,7 @@
   {
     "id": "T7-1",
     "name": "ancient statue",
-    "display": "고대 동상",
+    "display": "고대의 조각상",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -163,7 +163,7 @@
   {
     "id": "T7-8",
     "name": "chili pepper",
-    "display": "칠리 고추",
+    "display": "고추",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -209,7 +209,7 @@
   {
     "id": "T7-12",
     "name": "kwong wong yai stick",
-    "display": "쿵웡야이 스틱",
+    "display": "꽝 웡 야이 스틱",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -278,7 +278,7 @@
   {
     "id": "T7-15",
     "name": "muay thai headgear",
-    "display": "무에타이 모자",
+    "display": "무에타이 헤드기어",
     "latin": "",
     "category": "item",
     "rarity": "common",

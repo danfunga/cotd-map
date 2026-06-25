@@ -41,11 +41,27 @@ header h1 {
     font-size: 18px;
 }
 
-header p {
-    margin: 0 0 0 auto;
-    opacity: 0.75;
+.state-actions {
+    margin-left: auto;
+    display: flex;
+    gap: 6px;
+}
+
+.state-action-btn {
+    border: 1px solid #0d729c;
+    background: #01344a;
+    color: #d8f2ff;
+    border-radius: 7px;
+    padding: 5px 9px;
     font-size: 12px;
-    text-align: right;
+    font-weight: 800;
+    line-height: 1;
+    touch-action: manipulation;
+    user-select: none;
+}
+
+.state-action-btn:active {
+    transform: translateY(1px);
 }
 
 #mapPickerSection {
@@ -1460,4 +1476,133 @@ body.map-fullscreen #mapPickerSection {
 
 body.map-fullscreen #mapPickerSection .section-title {
     display: none;
+}
+
+/*Imported 관련*/
+dialog#importStateDialog {
+
+    width: min(720px, 90vw);
+
+    padding: 20px;
+
+    border: 1px solid #2aa8d8;
+
+    border-radius: 12px;
+
+    background: #0c2534;
+
+    color: #e8f7ff;
+
+    box-shadow: 0 12px 40px rgba(0,0,0,.55);
+
+}
+
+dialog#importStateDialog::backdrop {
+
+    background: rgba(0,0,0,.6);
+
+    backdrop-filter: blur(2px);
+
+}
+
+#importStateDialog h3 {
+
+    margin: 0 0 16px;
+
+    font-size: 20px;
+
+    color: #fff;
+
+}
+
+#importStateText {
+
+    width: 100%;
+
+    height: 320px;
+
+    resize: vertical;
+
+    box-sizing: border-box;
+
+    padding: 12px;
+
+    background: #082130;
+
+    color: #d8f4ff;
+
+    border: 1px solid #2aa8d8;
+
+    border-radius: 8px;
+
+    font-family: Consolas, Monaco, monospace;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+
+}
+
+#importStateText:focus {
+
+    outline: none;
+
+    border-color: #ffd24a;
+
+    box-shadow: 0 0 10px rgba(255,210,74,.45);
+
+}
+
+#importStateText::placeholder {
+
+    color: #7ea9ba;
+
+}
+
+#importStateDialog .button-area {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: 10px;
+
+    margin-top: 16px;
+
+}
+
+#importStateDialog button {
+
+    min-width: 100px;
+
+    height: 38px;
+
+    border-radius: 8px;
+
+    border: 1px solid #c89d22;
+
+    background: linear-gradient(#665116,#4b3910);
+
+    color: #ffe88b;
+
+    cursor: pointer;
+
+    font-weight: 600;
+
+}
+
+#importStateDialog button:hover {
+
+    filter: brightness(1.15);
+
+}
+
+#importStateDialog button.secondary {
+
+    background: #15384d;
+
+    border: 1px solid #2aa8d8;
+
+    color: #d5f6ff;
+
 }

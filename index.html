@@ -31,12 +31,26 @@
 <body>
 <header>
     <h1>크리쳐스 오드 더 딥</h1>
-    <p>Creatures position + Clover detail</p>
+    <div class="state-actions">
+        <button id="exportStateBtn" class="state-action-btn" type="button">Export</button>
+        <button id="importStateBtn" class="state-action-btn" type="button">Import</button>
+        <!--        <input id="importStateInput" type="file" accept="application/json,.json" hidden>-->
+    </div>
 </header>
 <section id="mapPickerSection">
     <div class="section-title">MAPS</div>
     <div id="mapPicker" aria-label="Map selector"></div>
 </section>
+
+<dialog id="importStateDialog">
+    <h3>설정 가져오기</h3>
+    <textarea id="importStateText" placeholder="내보낸 JSON을 여기에 붙여넣으세요."></textarea>
+    <div class="button-area">
+        <button class="secondary" id="btnPaste">📋 붙여넣기</button>
+        <button class="secondary" id="btnImportCancel">취소</button>
+        <button id="btnImportOk">가져오기</button>
+    </div>
+</dialog>
 
 <section id="controls">
     <div class="filter-grid">

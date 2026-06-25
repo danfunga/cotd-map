@@ -1,4 +1,4 @@
-import { mapOrder, mapsById } from './content/index.js';
+import {mapOrder, mapsById} from './content/index.js';
 
 const mapPicker = document.getElementById("mapPicker");
 const timeCard = document.getElementById("timeCard");
@@ -9,6 +9,11 @@ const entityList = document.getElementById("entityList");
 const showAllBtn = document.getElementById("showAllBtn");
 const hideAllBtn = document.getElementById("hideAllBtn");
 const caughtFilterAllBtn = document.getElementById("caughtFilterAllBtn");
+const exportStateBtn = document.getElementById("exportStateBtn");
+const importStateBtn = document.getElementById("importStateBtn");
+const importedStateDialog = document.getElementById("importStateDialog");
+const importedTextContents = document.getElementById("importStateText");
+
 const alwaysShowBossBtn = document.getElementById("alwaysShowBossBtn");
 const todaySpotToggleBtn = document.getElementById("todaySpotToggleBtn");
 const realtimeTimeToggleBtn = document.getElementById("realtimeTimeToggleBtn");
@@ -57,8 +62,10 @@ const groupUiCache = new Map();
 let renderRequestId = 0;
 let renderScheduled = false;
 let scheduledRefreshPanel = false;
+let resetActiveOnNextRender = false;
 let currentDetailEntity = null;
-const hiddenEntityIds = new Set();
+const activeEntityKeys = new Set();
+const initializedActiveMapIds = new Set();
 const caughtEntityKeys = new Set();
 const panelFoldState = {
     fish: true,
@@ -149,12 +156,66 @@ function entityKey(entity, mapId = currentMapId) {
     return `${mapId}:${entity.category}:${entity.id}`;
 }
 
+function currentMapKeyPrefix(mapId = currentMapId) {
+    return `${mapId}:`;
+}
+
+function addActiveEntityKey(mapId, category, id) {
+    activeEntityKeys.add(`${mapId}:${category}:${id}`);
+}
+
+function addCaughtEntityKey(mapId, category, id) {
+    caughtEntityKeys.add(`${mapId}:${category}:${id}`);
+}
+
+function emptyCategorizedEntityMap() {
+    return { fish: [], creature: [], item: [], monster: [] };
+}
+
+function serializeEntityKeysByMap(entityKeys, mapIds = []) {
+    const byMap = {};
+    mapIds.forEach((mapId) => {
+        byMap[mapId] = emptyCategorizedEntityMap();
+    });
+    entityKeys.forEach((key) => {
+        const [mapId, category, id] = key.split(":");
+        if (!mapId || !category || !id) return;
+        if (!byMap[mapId]) byMap[mapId] = emptyCategorizedEntityMap();
+        if (!Array.isArray(byMap[mapId][category])) byMap[mapId][category] = [];
+        byMap[mapId][category].push(id);
+    });
+    return byMap;
+}
+
+function serializeActiveEntitiesByMap() {
+    return serializeEntityKeysByMap(activeEntityKeys, initializedActiveMapIds);
+}
+
+function serializeCaughtEntitiesByMap() {
+    return serializeEntityKeysByMap(caughtEntityKeys);
+}
+
+function resetActiveEntitiesForMap(entities, mapId = currentMapId) {
+    const prefix = currentMapKeyPrefix(mapId);
+    activeEntityKeys.forEach((key) => {
+        if (key.startsWith(prefix)) activeEntityKeys.delete(key);
+    });
+    entities.forEach((entity) => activeEntityKeys.add(entityKey(entity, mapId)));
+    initializedActiveMapIds.add(mapId);
+}
+
+function isEntityActive(entity, mapId = currentMapId) {
+    if (!initializedActiveMapIds.has(mapId)) return true;
+    return activeEntityKeys.has(entityKey(entity, mapId));
+}
+
 function isCaught(entity, mapId = currentMapId) {
     return caughtEntityKeys.has(entityKey(entity, mapId));
 }
 
-function saveUserState() {
-    const payload = {
+function buildUserStatePayload() {
+    return {
+        version: 2,
         mapId: currentMapId,
         isTipsMode,
         isMapFullscreen,
@@ -167,11 +228,69 @@ function saveUserState() {
             rarity: [...filters.rarity],
             availability: [...filters.availability]
         },
-        caught: [...caughtEntityKeys],
-        caughtFilterMode: { ...caughtFilterMode },
-        hiddenEntityIds: [...hiddenEntityIds]
+        caughtEntitiesByMap: serializeCaughtEntitiesByMap(),
+        caughtFilterMode: {...caughtFilterMode},
+        activeEntitiesByMap: serializeActiveEntitiesByMap()
     };
+}
+
+function saveUserState() {
+    const payload = buildUserStatePayload();
     localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+}
+
+function isPlainObject(value) {
+    return Boolean(value) && typeof value === "object" && !Array.isArray(value);
+}
+
+function clearUserStateMemory() {
+    activeEntityKeys.clear();
+    initializedActiveMapIds.clear();
+    caughtEntityKeys.clear();
+}
+
+function loadEntityKeysByMap(value, addKey, markMap = null) {
+    if (!isPlainObject(value)) return false;
+    Object.entries(value).forEach(([mapId, categoryMap]) => {
+        if (!mapOrder.includes(mapId) || !isPlainObject(categoryMap)) return;
+        Object.entries(categoryMap).forEach(([category, ids]) => {
+            if (!Array.isArray(ids)) return;
+            ids.forEach((id) => {
+                if (typeof id === "string") addKey(mapId, category, id);
+            });
+        });
+        if (markMap) markMap(mapId);
+    });
+    return true;
+}
+
+function applyUserState(data) {
+    if (!isPlainObject(data)) throw new Error("가져올 수 없는 파일입니다.");
+
+    clearUserStateMemory();
+    currentMapId = mapOrder.includes(data.mapId) ? data.mapId : mapOrder[0];
+    isTipsMode = Boolean(data.isTipsMode);
+    isMapFullscreen = Boolean(data.isMapFullscreen);
+    monsterRotationRevealed = Boolean(data.monsterRotationRevealed);
+    alwaysShowBoss = Boolean(data.alwaysShowBoss);
+    realtimeTimeFilterEnabled = Boolean(data.realtimeTimeFilterEnabled);
+
+    for (const group of ["category", "time", "rarity", "availability"]) {
+        const values = data.filters && Array.isArray(data.filters[group]) ? data.filters[group] : [...defaults[group]];
+        filters[group] = new Set(values);
+    }
+
+    for (const category of ["fish", "creature", "item"]) {
+        const mode = data.caughtFilterMode?.[category];
+        caughtFilterMode[category] = mode === "all" || mode === "caught" || mode === "uncaught" ? mode : "all";
+    }
+
+    loadEntityKeysByMap(data.caughtEntitiesByMap, addCaughtEntityKey);
+    loadEntityKeysByMap(
+        data.activeEntitiesByMap,
+        addActiveEntityKey,
+        (mapId) => initializedActiveMapIds.add(mapId)
+    );
 }
 
 function loadUserState() {
@@ -179,41 +298,57 @@ function loadUserState() {
         const raw = localStorage.getItem(STORAGE_KEY);
         if (!raw) return;
         const data = JSON.parse(raw);
-        if (mapOrder.includes(data.mapId)) currentMapId = data.mapId;
-        isTipsMode = Boolean(data.isTipsMode);
-        isMapFullscreen = Boolean(data.isMapFullscreen);
-        monsterRotationRevealed = Boolean(data.monsterRotationRevealed);
-        alwaysShowBoss = Boolean(data.alwaysShowBoss);
-        realtimeTimeFilterEnabled = Boolean(data.realtimeTimeFilterEnabled);
-
-        if (data.filters && typeof data.filters === "object") {
-            for (const group of ["category", "time", "rarity", "availability"]) {
-                const values = Array.isArray(data.filters[group]) ? data.filters[group] : null;
-                if (values) filters[group] = new Set(values);
-            }
-        }
-        if (Array.isArray(data.caught)) {
-            data.caught.forEach((key) => {
-                if (typeof key === "string") caughtEntityKeys.add(key);
-            });
-        }
-        if (Array.isArray(data.hiddenEntityIds)) {
-            data.hiddenEntityIds.forEach((id) => {
-                if (typeof id === "string") hiddenEntityIds.add(id);
-            });
-        }
-        if (data.caughtFilterMode && typeof data.caughtFilterMode === "object") {
-            for (const category of ["fish", "creature", "item"]) {
-                const mode = data.caughtFilterMode[category];
-                if (mode === "all" || mode === "caught" || mode === "uncaught") {
-                    caughtFilterMode[category] = mode;
-                }
-            }
-        }
+        applyUserState(data);
     } catch {
         // Ignore invalid local state
     }
 }
+
+async function exportUserState() {
+    saveUserState();
+    const json = JSON.stringify(buildUserStatePayload(), null, 2);
+    try {
+        await navigator.clipboard.writeText(json);
+        alert("설정 JSON이 클립보드에 복사되었습니다.");
+    } catch (e) {
+        prompt("아래 JSON을 복사하세요.", json);
+    }
+}
+
+function showImportUserStateDialog() {
+    importedTextContents.value = "";
+    importedStateDialog.showModal();
+}
+function importUserStateFile(jsonText) {
+    try {
+        const data = JSON.parse(jsonText);
+        applyUserState(data);
+        saveUserState();
+        refreshUiFromUserState();
+        alert("가져오기가 완료되었습니다.");
+    } catch (error) {
+        alert(error instanceof Error ? error.message : "가져오기에 실패했습니다.");
+    }
+}
+
+function refreshUiFromUserState() {
+    closeDetail();
+    applyViewMode();
+    applyPickerState();
+    applyFilterButtonState();
+    syncCaughtFilterAllButton();
+    updateAlwaysShowBossButton();
+    updateTodaySpotToggleButton();
+    updateRealtimeTimeToggleButton();
+    activeMarkerKeys.clear();
+    if (isTipsMode) {
+        selectTipsPage();
+    } else {
+        renderMap();
+    }
+}
+
+
 
 function label(entity) {
     return entity.display && entity.display.trim() !== "" ? entity.display : entity.name;
@@ -308,7 +443,7 @@ function getMarkerBundle(mapId, entity) {
 
     const locs = Array.isArray(entity.locations) ? entity.locations : [];
     const markers = locs.map((l, idx) => {
-        const marker = L.marker([l.y, l.x], { icon: markerIcon(entity, idx === 0, idx) });
+        const marker = L.marker([l.y, l.x], {icon: markerIcon(entity, idx === 0, idx)});
         marker.on("click", () => openEntityDetail(entity));
         return marker;
     });
@@ -372,21 +507,21 @@ function getLabelWithCategory(value) {
 
 function availabilityTimeLabel(values) {
     if (!values || values.length === 0) return "종일";
-    const map = { "day": "낮", "night": "밤", "both": "종일" };
+    const map = {"day": "낮", "night": "밤", "both": "종일"};
     const labels = values.map((v) => map[v]).filter(Boolean);
     return labels.length ? labels.join(", ") : "종일";
 }
 
 function shadowSizeLabel(values) {
     if (!values || values.length === 0) return "없음";
-    const map = { 0: "작음", 1: "보통", 2: "중형", 3: "대형" };
+    const map = {0: "작음", 1: "보통", 2: "중형", 3: "대형"};
     const labels = values.map((v) => map[v]).filter(Boolean);
     return labels.length ? labels.join(", ") : "없음";
 }
 
 function shadowSpeedLabel(values) {
     if (!values || values.length === 0) return "없음";
-    const map = { 0: "정지", 1: "보통", 2: "빠름" };
+    const map = {0: "정지", 1: "보통", 2: "빠름"};
     const labels = values.map((v) => map[v]).filter(Boolean);
     return labels.length ? labels.join(", ") : "없음";
 }
@@ -401,21 +536,21 @@ function seasonBar(entity) {
     if (entity.seasons.every((v) => v === true)) return "";
     const currentMonth = new Date().getMonth();
     const blocks = entity.seasons
-        .map((ok, idx) => {
-            const active = ok ? "on" : "off";
-            const now = idx === currentMonth ? "now" : "";
-            return `<span class="mcell ${active} ${now}">${idx + 1}</span>`;
-        })
-        .join("");
+    .map((ok, idx) => {
+        const active = ok ? "on" : "off";
+        const now = idx === currentMonth ? "now" : "";
+        return `<span class="mcell ${active} ${now}">${idx + 1}</span>`;
+    })
+    .join("");
     return `<div class="season-wrap"><div class="season-grid">${blocks}</div><div class="season-now">현재 달: ${currentMonth + 1}월</div></div>`;
 }
 
 function minigameMeta(entity) {
     const d = entity.difficulty;
-    if (d === null || d === undefined || d === 0) return { label: "없음", cls: "none" };
-    if (d === 1) return { label: "고정", cls: "fixed" };
-    if (d === 2) return { label: "움직임", cls: "moving" };
-    return { label: "회전", cls: "rotate" };
+    if (d === null || d === undefined || d === 0) return {label: "없음", cls: "none"};
+    if (d === 1) return {label: "고정", cls: "fixed"};
+    if (d === 2) return {label: "움직임", cls: "moving"};
+    return {label: "회전", cls: "rotate"};
 }
 
 function hitFishTimeFilter(entity) {
@@ -529,7 +664,7 @@ function updateAlwaysShowBossButton() {
 function updateRealtimeTimeToggleButton() {
 
     const isDay = isRealtimeDayTime();
-    realtimeTimeToggleBtn.textContent = isDay?" 실시간 ☀️️":"실시간 🌙"
+    realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
 
     if (!realtimeTimeToggleBtn) return;
     realtimeTimeToggleBtn.classList.toggle("on", realtimeTimeFilterEnabled);
@@ -564,7 +699,7 @@ function installSingleFingerDoubleTapZoomIn() {
             return;
         }
         lastTap = now;
-    }, { passive: false });
+    }, {passive: false});
 }
 
 function installTwoFingerDoubleTapZoomOut() {
@@ -582,7 +717,7 @@ function installTwoFingerDoubleTapZoomOut() {
             return;
         }
         lastTwoFingerTapAt = now;
-    }, { passive: false });
+    }, {passive: false});
 }
 
 function createMapIfNeeded() {
@@ -704,12 +839,19 @@ async function renderMarkers(refreshPanel = true) {
     const filtered = entities.filter((entity) => passesCurrentFilters(entity));
 
     lastFilteredEntities = filtered;
+    let activeStateChanged = false;
+    if (resetActiveOnNextRender || !initializedActiveMapIds.has(currentMapId)) {
+        resetActiveEntitiesForMap(filtered);
+        resetActiveOnNextRender = false;
+        activeStateChanged = true;
+    }
     if (refreshPanel) renderEntityPanel();
+    if (activeStateChanged) saveUserState();
 
     const nextActiveKeys = new Set();
     filtered.forEach((entity) => {
 
-        if (hiddenEntityIds.has(entity.id)) {
+        if (!isEntityActive(entity)) {
             return;
         }
         const locs = Array.isArray(entity.locations) ? entity.locations : [];
@@ -736,9 +878,9 @@ async function renderMarkers(refreshPanel = true) {
 
 function renderEntityPanel() {
     syncCaughtFilterAllButton();
-    const categoryRank = { fish: 0, creature: 1, item: 2 };
-    const categoryLabel = { fish: "물고기", creature: "생명체", item: "아이템" };
-    const rarityRank = { common: 0, rare: 1, epic: 2, monster: 3 };
+    const categoryRank = {fish: 0, creature: 1, item: 2};
+    const categoryLabel = {fish: "물고기", creature: "생명체", item: "아이템"};
+    const rarityRank = {common: 0, rare: 1, epic: 2, monster: 3};
     const sorted = [...lastFilteredEntities].sort((a, b) => {
         const ca = categoryRank[a.category] ?? 9;
         const cb = categoryRank[b.category] ?? 9;
@@ -760,8 +902,8 @@ function renderEntityPanel() {
     const sections = visibleCategories.map((category) => {
         const groupItems = grouped[category];
         const ui = getOrCreateGroupUi(category, categoryLabel[category]);
-        const allHidden = groupItems.length > 0 && groupItems.every((e) => hiddenEntityIds.has(e.id));
-        ui.toggleBtn.textContent = allHidden ? "🚫" : "👁️";
+        const allActive = groupItems.length > 0 && groupItems.every((e) => isEntityActive(e));
+        ui.toggleBtn.textContent = allActive ? "🚫" : "👁️";
         ui.caughtFilterBtn.textContent = caughtModeLabel(caughtFilterMode[category]);
         ui.metaEl.textContent = String(groupItems.length);
         ui.arrowEl.textContent = panelFoldState[category] ? "▾" : "▸";
@@ -832,11 +974,13 @@ function getOrCreateGroupUi(category, labelText) {
         e.stopPropagation();
         const group = lastFilteredEntities.filter((ent) => ent.category === category);
 
-        const allHidden = group.length > 0 && group.every((ent) => hiddenEntityIds.has(ent.id));
+        const allActive = group.length > 0 && group.every((ent) => isEntityActive(ent));
         group.forEach((ent) => {
-            if (allHidden) hiddenEntityIds.delete(ent.id);
-            else hiddenEntityIds.add(ent.id);
+            const key = entityKey(ent);
+            if (allActive) activeEntityKeys.delete(key);
+            else activeEntityKeys.add(key);
         });
+        initializedActiveMapIds.add(currentMapId);
         saveUserState();
         scheduleRenderMarkers();
         renderEntityPanel();
@@ -887,8 +1031,10 @@ function getOrCreateEntityRow(entity) {
     };
 
     row.addEventListener("click", () => {
-        if (hiddenEntityIds.has(entity.id)) hiddenEntityIds.delete(entity.id);
-        else hiddenEntityIds.add(entity.id);
+        const key = entityKey(entity);
+        if (activeEntityKeys.has(key)) activeEntityKeys.delete(key);
+        else activeEntityKeys.add(key);
+        initializedActiveMapIds.add(currentMapId);
         updateEntityRow(rowUi, entity);
         const categoryKey = entity.category === "monster" ? "fish" : entity.category;
         updateGroupHeaderState(categoryKey);
@@ -914,7 +1060,7 @@ function getOrCreateEntityRow(entity) {
 
 function updateEntityRow(rowUi, entity) {
     const rarityKey = entity.rarity;
-    rowUi.row.className = `entity-row rarity-${rarityKey} ${hiddenEntityIds.has(entity.id) ? "off" : ""} ${isCaught(entity) ? "caught" : ""}`;
+    rowUi.row.className = `entity-row rarity-${rarityKey} ${isEntityActive(entity) ? "" : "off"} ${isCaught(entity) ? "caught" : ""}`;
     const count = Array.isArray(entity.locations) ? entity.locations.length : 0;
     rowUi.countEl.textContent = String(count);
     rowUi.countVEl.className = `caught-v count-v ${isCaught(entity) ? "on" : "off"}`;
@@ -944,8 +1090,8 @@ function updateGroupHeaderState(category) {
     const ui = groupUiCache.get(category);
     if (!ui) return;
     const group = lastFilteredEntities.filter((ent) => ent.category === category);
-    const allHidden = group.length > 0 && group.every((ent) => hiddenEntityIds.has(ent.id));
-    ui.toggleBtn.textContent = allHidden ? "🚫" : "👁";
+    const allActive = group.length > 0 && group.every((ent) => isEntityActive(ent));
+    ui.toggleBtn.textContent = allActive ? "🚫" : "👁";
 }
 
 function openDetail(html) {
@@ -1052,6 +1198,7 @@ function clearFilterGroup(group) {
     }
     applyFilterButtonState();
     // applyFishOnlyState();
+    resetActiveOnNextRender = true;
     saveUserState();
     scheduleRenderMarkers();
 }
@@ -1089,6 +1236,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (set.has(value)) set.delete(value);
             else set.add(value);
             applyFilterButtonState();
+            resetActiveOnNextRender = true;
             saveUserState();
             scheduleRenderMarkers();
         });
@@ -1097,17 +1245,46 @@ document.addEventListener("DOMContentLoaded", () => {
     clearButtons.forEach((btn) => {
         btn.addEventListener("click", () => clearFilterGroup(btn.dataset.clearGroup));
     });
+    exportStateBtn?.addEventListener("click", exportUserState);
+    importStateBtn?.addEventListener("click", () => showImportUserStateDialog());
+
+    document.getElementById("btnPaste").addEventListener("click", async () => {
+        try {
+            const text = await navigator.clipboard.readText();
+            if (!text.trim()) {
+                alert("클립보드가 비어 있습니다.");
+                return;
+            }
+            importedTextContents.value = text;
+            importedTextContents.focus();
+        } catch (e) {
+            alert("클립보드 접근이 거부되었거나 지원되지 않습니다.");
+        }
+
+    });
+    document.getElementById("btnImportCancel").addEventListener("click", () => {
+        importedStateDialog.close();
+    });
+
+    document.getElementById("btnImportOk").addEventListener("click", () => {
+        importUserStateFile(importedTextContents.value);
+        importedStateDialog.close();
+    });
+
     showAllBtn.addEventListener("click", () => {
-        hiddenEntityIds.clear();
+        resetActiveEntitiesForMap(lastFilteredEntities);
         saveUserState();
         scheduleRenderMarkers();
     });
     hideAllBtn.addEventListener("click", () => {
-        lastFilteredEntities.forEach((e) => {
-            if (e.category !== "monster") {
-                hiddenEntityIds.add(e.id);
-            }
+        const prefix = currentMapKeyPrefix();
+        activeEntityKeys.forEach((key) => {
+            if (key.startsWith(prefix)) activeEntityKeys.delete(key);
         });
+        lastFilteredEntities.forEach((e) => {
+            if (e.category === "monster") activeEntityKeys.add(entityKey(e));
+        });
+        initializedActiveMapIds.add(currentMapId);
         saveUserState();
         scheduleRenderMarkers();
     });
@@ -1139,7 +1316,7 @@ document.addEventListener("DOMContentLoaded", () => {
     panelToggleBtn.addEventListener("click", toggleEntityPanel);
 
     const isDay = isRealtimeDayTime();
-    realtimeTimeToggleBtn.textContent = isDay?" 실시간 ☀️️":"실시간 🌙"
+    realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
     realtimeTimeToggleBtn?.addEventListener("click", () => {
         realtimeTimeFilterEnabled = !realtimeTimeFilterEnabled;
         saveUserState();
@@ -1165,8 +1342,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // 휠을 위/아래로 굴릴 때 가로(왼쪽/오른쪽)로 스크롤되도록 설정합니다.
         // event.deltaY 값을 scrollLeft에 더해줌으로써 부드럽게 이동합니다.
         mapPicker.scrollLeft += event.deltaY;
-    }, { passive: false }); // preventDefault()를 사용하기 위해 passive를 false로 설정합니다.
-
+    }, {passive: false}); // preventDefault()를 사용하기 위해 passive를 false로 설정합니다.
 
     detailClose.addEventListener("click", closeDetail);
     detailBackdrop.addEventListener("click", closeDetail);
