@@ -903,7 +903,7 @@ function renderEntityPanel() {
         const groupItems = grouped[category];
         const ui = getOrCreateGroupUi(category, categoryLabel[category]);
         const allActive = groupItems.length > 0 && groupItems.every((e) => isEntityActive(e));
-        ui.toggleBtn.textContent = allActive ? "🚫" : "👁️";
+        ui.toggleBtn.textContent = allActive ? "🚫" : "👁️";// 눈  숨김
         ui.caughtFilterBtn.textContent = caughtModeLabel(caughtFilterMode[category]);
         ui.metaEl.textContent = String(groupItems.length);
         ui.arrowEl.textContent = panelFoldState[category] ? "▾" : "▸";
@@ -1091,7 +1091,7 @@ function updateGroupHeaderState(category) {
     if (!ui) return;
     const group = lastFilteredEntities.filter((ent) => ent.category === category);
     const allActive = group.length > 0 && group.every((ent) => isEntityActive(ent));
-    ui.toggleBtn.textContent = allActive ? "🚫" : "👁";
+    ui.toggleBtn.textContent = allActive ? "🚫" : "👁️";// 눈  숨김
 }
 
 function openDetail(html) {

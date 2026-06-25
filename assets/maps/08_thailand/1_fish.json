@@ -2,8 +2,8 @@
   {
     "id": "63",
     "name": "pla-kad thong",
-    "display": "플라카드",
-    "latin": "",
+    "display": "블랙나이프",
+    "latin": "Notopterus notopterus",
     "category": "fish",
     "rarity": "common",
     "timeBand": "night",
@@ -377,8 +377,8 @@
   {
     "id": "622",
     "name": "empurau",
-    "display": "엠푸라우",
-    "latin": "",
+    "display": "탐브로데스",
+    "latin": " Tor tambroides",
     "category": "fish",
     "rarity": "common",
     "timeBand": "both",
