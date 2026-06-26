@@ -1248,20 +1248,20 @@ document.addEventListener("DOMContentLoaded", () => {
     exportStateBtn?.addEventListener("click", exportUserState);
     importStateBtn?.addEventListener("click", () => showImportUserStateDialog());
 
-    document.getElementById("btnPaste").addEventListener("click", async () => {
-        try {
-            const text = await navigator.clipboard.readText();
-            if (!text.trim()) {
-                alert("클립보드가 비어 있습니다.");
-                return;
-            }
-            importedTextContents.value = text;
-            importedTextContents.focus();
-        } catch (e) {
-            alert("클립보드 접근이 거부되었거나 지원되지 않습니다.");
-        }
-
-    });
+    // document.getElementById("btnPaste").addEventListener("click", async () => {
+    //     try {
+    //         const text = await navigator.clipboard.readText();
+    //         if (!text.trim()) {
+    //             alert("클립보드가 비어 있습니다.");
+    //             return;
+    //         }
+    //         importedTextContents.value = text;
+    //         importedTextContents.focus();
+    //     } catch (e) {
+    //         alert("클립보드 접근이 거부되었거나 지원되지 않습니다.");
+    //     }
+    //
+    // });
     document.getElementById("btnImportCancel").addEventListener("click", () => {
         importedStateDialog.close();
     });
