@@ -1,8 +1,6 @@
 import {mapOrder, mapsById} from './content/index.js';
 
 const mapPicker = document.getElementById("mapPicker");
-const timeCard = document.getElementById("timeCard");
-const rarityCard = document.getElementById("rarityCard");
 const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
 const clearButtons = document.querySelectorAll(".clear-btn[data-clear-group]");
 const entityList = document.getElementById("entityList");
@@ -892,7 +890,6 @@ function renderEntityPanel() {
     });
 
     const grouped = {
-        // fish: sorted.filter((e) => e.category === "fish" || e.category === "monster"),
         fish: sorted.filter((e) => e.category === "fish"),
         creature: sorted.filter((e) => e.category === "creature"),
         item: sorted.filter((e) => e.category === "item")
@@ -1036,7 +1033,7 @@ function getOrCreateEntityRow(entity) {
         else activeEntityKeys.add(key);
         initializedActiveMapIds.add(currentMapId);
         updateEntityRow(rowUi, entity);
-        const categoryKey = entity.category === "monster" ? "fish" : entity.category;
+        const categoryKey = entity.category;
         updateGroupHeaderState(categoryKey);
         saveUserState();
         scheduleRenderMarkers(false);
@@ -1248,20 +1245,6 @@ document.addEventListener("DOMContentLoaded", () => {
     exportStateBtn?.addEventListener("click", exportUserState);
     importStateBtn?.addEventListener("click", () => showImportUserStateDialog());
 
-    // document.getElementById("btnPaste").addEventListener("click", async () => {
-    //     try {
-    //         const text = await navigator.clipboard.readText();
-    //         if (!text.trim()) {
-    //             alert("클립보드가 비어 있습니다.");
-    //             return;
-    //         }
-    //         importedTextContents.value = text;
-    //         importedTextContents.focus();
-    //     } catch (e) {
-    //         alert("클립보드 접근이 거부되었거나 지원되지 않습니다.");
-    //     }
-    //
-    // });
     document.getElementById("btnImportCancel").addEventListener("click", () => {
         importedStateDialog.close();
     });

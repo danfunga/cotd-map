@@ -300,15 +300,15 @@
   {
     "id": "C-M06",
     "name": "hermit crab",
-    "display": "소라게",
+    "display": "소라게(깡통)",
     "latin": "Dardanus calidus",
     "category": "creature",
     "rarity": "rare",
     "timeBand": "both",
     "locations": [
       {
-        "x": 204,
-        "y": 586
+        "x": 170,
+        "y": 519
       }
     ],
     "notes": "",
