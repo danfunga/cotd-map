@@ -43,7 +43,7 @@
   {
     "id": "759",
     "name": "tucunaré",
-    "display": "투쿠나레",
+    "display": "배스 투나카레",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -54,7 +54,7 @@
         "y": 707.1067811865474
       }
     ],
-    "notes": "",
+    "notes": "bass tunacre????? 이름이 뭐냐",
     "difficulty": 0,
     "seasons": [
       true,
@@ -204,7 +204,7 @@
   {
     "id": "758",
     "name": "redtail catfish",
-    "display": "붉은꼬리 메기",
+    "display": "레드테일 캣피쉬",
     "latin": "Ictalurus punctatus",
     "category": "fish",
     "rarity": "common",
@@ -284,7 +284,7 @@
   {
     "id": "703",
     "name": "redhook myleus",
-    "display": "레드훅 마일레우스",
+    "display": "레드훅 마일러스",
     "latin": "Myloplus rubripinnis",
     "category": "fish",
     "rarity": "common",
@@ -324,7 +324,7 @@
   {
     "id": "724",
     "name": "peacock bass",
-    "display": "공작배스",
+    "display": "피콕 배스",
     "latin": "Cichla ocellaris",
     "category": "fish",
     "rarity": "common",
@@ -493,7 +493,7 @@
   {
     "id": "706",
     "name": "giant trahira",
-    "display": "거대한 트라히라",
+    "display": "자이언트 트라히라",
     "latin": "Hoplias macrophthalmus",
     "category": "fish",
     "rarity": "common",
@@ -538,7 +538,7 @@
   {
     "id": "702",
     "name": "redeye piranha",
-    "display": "적목 피라냐",
+    "display": "레드아이 피라냐",
     "latin": "Serrasalmus rhombeus",
     "category": "fish",
     "rarity": "common",
@@ -583,7 +583,7 @@
   {
     "id": "705",
     "name": "red piranha",
-    "display": "빨간 피라냐",
+    "display": "레드 피라냐",
     "latin": "Pygocentrus nattereri",
     "category": "fish",
     "rarity": "common",
@@ -628,7 +628,7 @@
   {
     "id": "723",
     "name": "speckled pavon",
-    "display": "얼룩덜룩 한 파본",
+    "display": "스펙클드 파본",
     "latin": "Cichla temensis",
     "category": "fish",
     "rarity": "common",
@@ -668,7 +668,7 @@
   {
     "id": "711",
     "name": "freshwater barracuda",
-    "display": "민물 바라쿠다",
+    "display": "담수 바라쿠다",
     "latin": "Ctenolucius hujeta",
     "category": "fish",
     "rarity": "common",
@@ -744,7 +744,7 @@
   {
     "id": "761",
     "name": "arowana",
-    "display": "아로와나",
+    "display": "아라와나",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -784,7 +784,7 @@
   {
     "id": "712",
     "name": "amazon puffer",
-    "display": "아마존 복어",
+    "display": "아마존 퍼퍼",
     "latin": "Colomesus asellus",
     "category": "fish",
     "rarity": "common",
@@ -864,7 +864,7 @@
   {
     "id": "717",
     "name": "electric eel",
-    "display": "전기뱀장어",
+    "display": "일렉트릭 일",
     "latin": "Electrophorus electricus",
     "category": "fish",
     "rarity": "rare",
@@ -905,7 +905,7 @@
   {
     "id": "757",
     "name": "flatwhiskered catfish",
-    "display": "평수염 메기",
+    "display": "플랫휘스커드 캣피쉬",
     "latin": "Pinirampus pirinampu",
     "category": "fish",
     "rarity": "rare",
@@ -981,7 +981,7 @@
   {
     "id": "716",
     "name": "rock-bacu",
-    "display": "락바쿠",
+    "display": "록-바쿠",
     "latin": "Lithodoras dorsalis",
     "category": "fish",
     "rarity": "rare",
@@ -1137,7 +1137,7 @@
   {
     "id": "777",
     "name": "boiuna",
-    "display": "보이우나",
+    "display": "보이우나(Boiúna)",
     "latin": "",
     "category": "monster",
     "rarity": "monster",
@@ -1160,7 +1160,7 @@
         "y": 511
       }
     ],
-    "notes": "The spot changes everyday. Check Discord to know the current spot.",
+    "notes": "Boiúna The spot changes everyday. Check Discord to know the current spot.",
     "difficulty": 2,
     "seasons": [
       true,

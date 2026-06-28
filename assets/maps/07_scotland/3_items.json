@@ -678,7 +678,7 @@
   {
     "id": "T6-28",
     "name": "toursit camera",
-    "display": "관광 카메라",
+    "display": "관광지 카메라",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -747,7 +747,7 @@
   {
     "id": "T6-31",
     "name": "old mini yellow submarine",
-    "display": "오래된 미니 노란 잠수함",
+    "display": "오래된 미니 노란 어뢰",
     "latin": "",
     "category": "item",
     "rarity": "common",

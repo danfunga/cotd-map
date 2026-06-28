@@ -2,7 +2,7 @@
   {
     "id": "c-700",
     "name": "giant otter",
-    "display": "거대한 수달",
+    "display": "자이언트 오타",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -82,7 +82,7 @@
   {
     "id": "c-702",
     "name": "giant snail",
-    "display": "거대한 달팽이",
+    "display": "자이언트스네일",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -120,7 +120,7 @@
   {
     "id": "c-703",
     "name": "green anaconda",
-    "display": "녹색 아나콘다",
+    "display": "그린아나콘다",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -158,7 +158,7 @@
   {
     "id": "c-704",
     "name": "matamata turtle",
-    "display": "마타마타 거북이",
+    "display": "마타마타거북",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -196,7 +196,7 @@
   {
     "id": "c-705",
     "name": "river turtle",
-    "display": "강 거북",
+    "display": "사우스아메리칸리버터틀",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -234,7 +234,7 @@
   {
     "id": "c-706",
     "name": "poison dart frog",
-    "display": "독 다트 개구리",
+    "display": "포이즌 다트 프로그",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -270,7 +270,7 @@
   {
     "id": "c-707",
     "name": "giant leaf frog",
-    "display": "거대잎개구리",
+    "display": "자이언트 리프 프로그",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -306,7 +306,7 @@
   {
     "id": "c-708",
     "name": "axolotl",
-    "display": "아홀로틀",
+    "display": "악솔로틀",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -346,7 +346,7 @@
   {
     "id": "c-709",
     "name": "black caiman",
-    "display": "검은 카이만",
+    "display": "블랙 카이만",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -422,7 +422,7 @@
   {
     "id": "c-711",
     "name": "amazon river dolphin",
-    "display": "아마존 강 돌고래",
+    "display": "아마존리버돌핀",
     "latin": "",
     "category": "creature",
     "rarity": "epic",

@@ -534,7 +534,7 @@
   {
     "id": "58",
     "name": "gudgeon",
-    "display": "잘 속는 사람",
+    "display": "미꾸리",
     "latin": "Gobio gobio",
     "category": "fish",
     "rarity": "common",
@@ -1033,7 +1033,7 @@
   {
     "id": "519",
     "name": "bull trout",
-    "display": "황소 송어",
+    "display": "황소 메기",
     "latin": "Salvelinus confluentus",
     "category": "fish",
     "rarity": "epic",

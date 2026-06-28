@@ -40,7 +40,7 @@
   {
     "id": "c6-1",
     "name": "green paddy frog",
-    "display": "녹색 논 개구리",
+    "display": "일반적인 녹색 개구리",
     "latin": "Hylarana erythraea",
     "category": "creature",
     "rarity": "common",
@@ -186,7 +186,7 @@
   {
     "id": "c6-8",
     "name": "thai devil crab",
-    "display": "태국 악마 게",
+    "display": "골리앗크랩",
     "latin": "Cardisoma carnifex",
     "category": "creature",
     "rarity": "common",
@@ -222,7 +222,7 @@
   {
     "id": "c6-9",
     "name": "pomacea",
-    "display": "포마시아",
+    "display": "왕우렁이",
     "latin": "Pomacea canaliculata",
     "category": "creature",
     "rarity": "common",
@@ -341,7 +341,7 @@
   {
     "id": "c6-7",
     "name": "irrawady dolphin",
-    "display": "이라와디 돌고래",
+    "display": "강거두고래속",
     "latin": "Orcaella brevirostris",
     "category": "creature",
     "rarity": "epic",

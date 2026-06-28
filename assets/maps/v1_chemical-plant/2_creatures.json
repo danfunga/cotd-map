@@ -50,7 +50,7 @@
   {
     "id": "c7-1",
     "name": "lemon puffrog",
-    "display": "레몬 퍼프로그",
+    "display": "레몬 부푼 개구리",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -145,7 +145,7 @@
   {
     "id": "c7-3",
     "name": "crystalcrab",
-    "display": "수정게",
+    "display": "크리스탈게",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -277,7 +277,7 @@
   {
     "id": "c7-6",
     "name": "cybersquid",
-    "display": "사이버 오징어",
+    "display": "사이버문어",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -321,7 +321,7 @@
   {
     "id": "c7-7",
     "name": "firetopus",
-    "display": "불토퍼스",
+    "display": "불문어",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -365,7 +365,7 @@
   {
     "id": "c7-8",
     "name": "plasmaturtle",
-    "display": "플라즈마 터틀",
+    "display": "플라즈마거북",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -409,7 +409,7 @@
   {
     "id": "c7-9",
     "name": "sewage fungus",
-    "display": "하수 곰팡이",
+    "display": "하수구버섯",
     "latin": "Fungus cloacae",
     "category": "creature",
     "rarity": "common",
@@ -497,7 +497,7 @@
   {
     "id": "c7-11",
     "name": "tubesnail",
-    "display": "튜브네일",
+    "display": "튜브달팽이",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -645,7 +645,7 @@
   {
     "id": "c7-14",
     "name": "armored mutoclam",
-    "display": "기갑 뮤토클람",
+    "display": "장갑 돌연변이 조개",
     "latin": "",
     "category": "creature",
     "rarity": "common",

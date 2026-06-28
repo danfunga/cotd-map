@@ -60,7 +60,7 @@
   {
     "id": "a8",
     "name": "anchorscale",
-    "display": "앵커스케일",
+    "display": "앵커비늘 기어가는 자",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -152,7 +152,7 @@
   {
     "id": "a11",
     "name": "anvilfish",
-    "display": "앤빌피쉬",
+    "display": "모루물고기",
     "latin": "Incusmarinus robustus",
     "category": "fish",
     "rarity": "common",
@@ -244,7 +244,7 @@
   {
     "id": "a19",
     "name": "zombifin",
-    "display": "좀비핀",
+    "display": "해골 물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -290,7 +290,7 @@
   {
     "id": "a20",
     "name": "cthulu carp",
-    "display": "크툴루 잉어",
+    "display": "크툴루카프",
     "latin": "Cyprinus carpio",
     "category": "fish",
     "rarity": "common",
@@ -331,7 +331,7 @@
   {
     "id": "a12",
     "name": "teapotfish",
-    "display": "찻주전자",
+    "display": "주전자물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -377,7 +377,7 @@
   {
     "id": "a21",
     "name": "nylonfish",
-    "display": "나이론피쉬",
+    "display": "나일론물고기",
     "latin": "Nylonichthys syntheticus",
     "category": "fish",
     "rarity": "common",
@@ -423,7 +423,7 @@
   {
     "id": "a22",
     "name": "telebass",
-    "display": "텔레베이스",
+    "display": "텔레바스 물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -561,7 +561,7 @@
   {
     "id": "a25",
     "name": "fireborn scales",
-    "display": "불타오르는 비늘",
+    "display": "불꽃비늘물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -653,7 +653,7 @@
   {
     "id": "a27",
     "name": "bubblefin",
-    "display": "버블핀",
+    "display": "거품물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -795,7 +795,7 @@
   {
     "id": "a29",
     "name": "fish-eye",
-    "display": "어안",
+    "display": "물고기눈",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -1161,7 +1161,7 @@
   {
     "id": "a31",
     "name": "wicked carp",
-    "display": "사악한 잉어",
+    "display": "사악한붕어",
     "latin": "Cyprinus carpio",
     "category": "fish",
     "rarity": "common",
@@ -1207,7 +1207,7 @@
   {
     "id": "a6",
     "name": "bottlegill",
-    "display": "병길",
+    "display": "병아가미 수영자",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -1253,7 +1253,7 @@
   {
     "id": "a4",
     "name": "cantrout",
-    "display": "캔트라우트",
+    "display": "틴핀 돌연변이",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -1299,7 +1299,7 @@
   {
     "id": "a13",
     "name": "crystal fin",
-    "display": "크리스탈 핀",
+    "display": "크리스티안핀물고기",
     "latin": "Diodon hystrix",
     "category": "fish",
     "rarity": "common",
@@ -1391,7 +1391,7 @@
   {
     "id": "a14",
     "name": "plant waterer",
-    "display": "식물 급수기",
+    "display": "식물관수물고기",
     "latin": "Plantus toxicus",
     "category": "fish",
     "rarity": "common",
@@ -1529,7 +1529,7 @@
   {
     "id": "a46",
     "name": "glow puffball",
-    "display": "글로우 퍼프볼",
+    "display": "반딧불버섯물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -1575,7 +1575,7 @@
   {
     "id": "a47",
     "name": "spotted windchaser",
-    "display": "얼룩덜룩한 윈드체이서",
+    "display": "얼룩바람물고기",
     "latin": "Brachionichthys hirsutus",
     "category": "fish",
     "rarity": "common",
@@ -1621,7 +1621,7 @@
   {
     "id": "a48",
     "name": "flatjaw",
-    "display": "편평한 턱",
+    "display": "펑펑턱물고기",
     "latin": "Platygnathus compressus",
     "category": "fish",
     "rarity": "common",
@@ -1667,7 +1667,7 @@
   {
     "id": "a49",
     "name": "silvered amelinium",
-    "display": "은도금된 아멜리늄",
+    "display": "도금알루미늄물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -1713,7 +1713,7 @@
   {
     "id": "a50",
     "name": "rusty mutang",
-    "display": "녹슨 뮤탕",
+    "display": "녹슨돌연변이물고기",
     "latin": "Mutangus ferrugineus",
     "category": "fish",
     "rarity": "common",
@@ -2127,7 +2127,7 @@
   {
     "id": "a34",
     "name": "sawfish",
-    "display": "톱상어",
+    "display": "톱물고기",
     "latin": "Serrator aqua",
     "category": "fish",
     "rarity": "rare",
@@ -2235,7 +2235,7 @@
   {
     "id": "a35",
     "name": "guitarfin",
-    "display": "기타핀",
+    "display": "기타 물고기",
     "latin": "",
     "category": "fish",
     "rarity": "rare",
@@ -2343,7 +2343,7 @@
   {
     "id": "a36",
     "name": "brainfish",
-    "display": "뇌어",
+    "display": "뇌물고기",
     "latin": "Cerebralis piscatorius",
     "category": "fish",
     "rarity": "rare",
@@ -2488,7 +2488,7 @@
   {
     "id": "a39",
     "name": "soccerfish",
-    "display": "축구 물고기",
+    "display": "축구물고기",
     "latin": "",
     "category": "fish",
     "rarity": "rare",
@@ -2580,7 +2580,7 @@
   {
     "id": "a41",
     "name": "round tubefish",
-    "display": "둥근 관고기",
+    "display": "둥근관물고기",
     "latin": "Prosopium cylindraceum",
     "category": "fish",
     "rarity": "epic",
@@ -2713,7 +2713,7 @@
   {
     "id": "a58",
     "name": "ribbed bonefish",
-    "display": "갈비뼈가 있는 해물",
+    "display": "갈비뼈물고기",
     "latin": "Albula vulpes",
     "category": "fish",
     "rarity": "epic",

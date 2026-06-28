@@ -71,7 +71,7 @@
   {
     "id": "T7-4",
     "name": "bowl of rice",
-    "display": "밥 한 그릇",
+    "display": "쌀 그릇",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -94,7 +94,7 @@
   {
     "id": "T7-5",
     "name": "bubba gump cap",
-    "display": "부바 검프 캡",
+    "display": "버버 검프 모자",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -255,7 +255,7 @@
   {
     "id": "T7-14",
     "name": "massage stone",
-    "display": "마사지 스톤",
+    "display": "마사지 돌",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -493,7 +493,7 @@
   {
     "id": "T7-25",
     "name": "thai poulaine shoes",
-    "display": "태국 풀레인 신발",
+    "display": "태국 푸레인 신발",
     "latin": "",
     "category": "item",
     "rarity": "common",

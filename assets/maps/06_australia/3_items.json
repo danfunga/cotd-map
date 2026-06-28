@@ -282,7 +282,7 @@
   {
     "id": "T5-10",
     "name": "explorer diary",
-    "display": "탐험가 일기",
+    "display": "탐험가의 일기",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -486,7 +486,7 @@
   {
     "id": "T5-18",
     "name": "rock with aboriginal painting",
-    "display": "원주민 그림이 있는 바위",
+    "display": "원시인 그림이 그려진 바위",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -623,7 +623,7 @@
   {
     "id": "T5-24",
     "name": "kangaroo road sign",
-    "display": "캥거루 도로 표지판",
+    "display": "캥거루 도로 표지",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -646,7 +646,7 @@
   {
     "id": "T5-25",
     "name": "maori jewelery",
-    "display": "마오리 보석",
+    "display": "마오리 보석용품",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -669,7 +669,7 @@
   {
     "id": "T5-26",
     "name": "giant shark tooth",
-    "display": "거대한 상어 이빨",
+    "display": "거대한 상어의 치아",
     "latin": "",
     "category": "item",
     "rarity": "common",

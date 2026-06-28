@@ -915,7 +915,7 @@
   {
     "id": "321",
     "name": "wolf eel",
-    "display": "늑대 장어",
+    "display": "늑대장어",
     "latin": "Anarrhichthys ocellatus",
     "category": "fish",
     "rarity": "rare",
@@ -1005,7 +1005,7 @@
   {
     "id": "323",
     "name": "salmon shark",
-    "display": "연어상어",
+    "display": "악상어",
     "latin": "Lamna ditropis",
     "category": "fish",
     "rarity": "epic",

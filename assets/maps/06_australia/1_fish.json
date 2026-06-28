@@ -42,7 +42,7 @@
   {
     "id": "41",
     "name": "dusky flathead",
-    "display": "플랫헤드",
+    "display": "플랫 헤드",
     "latin": "Platycephalus fuscus",
     "category": "fish",
     "rarity": "common",
@@ -1285,7 +1285,7 @@
   {
     "id": "428",
     "name": "manta ray",
-    "display": "만타 가오리",
+    "display": "대왕쥐가오리",
     "latin": "Manta birostris",
     "category": "fish",
     "rarity": "epic",
@@ -1325,7 +1325,7 @@
   {
     "id": "429",
     "name": "hoodwinker sunfish",
-    "display": "후드윙커 개복치",
+    "display": "개복치속",
     "latin": "Mola tecta",
     "category": "fish",
     "rarity": "epic",

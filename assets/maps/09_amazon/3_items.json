@@ -2,7 +2,7 @@
   {
     "id": "T8-1",
     "name": "amazonian blowpipe",
-    "display": "아마존 송풍관",
+    "display": "아마존 블로우파이프",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -79,7 +79,7 @@
   {
     "id": "T8-4",
     "name": "boné",
-    "display": "보니",
+    "display": "보네",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -106,7 +106,7 @@
   {
     "id": "T8-5",
     "name": "bossa nova vinyl record",
-    "display": "보사노바 LP판",
+    "display": "보사 노바 비닐 레코드",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -198,7 +198,7 @@
   {
     "id": "T8-9",
     "name": "carnival costume",
-    "display": "축제 의상",
+    "display": "카니발 의상",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -221,7 +221,7 @@
   {
     "id": "T8-10",
     "name": "\"cat's claw\" liana",
-    "display": "\"고양이 발톱\" 리아나",
+    "display": "\"캣츠클로\" 덩굴",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -248,7 +248,7 @@
   {
     "id": "T8-11",
     "name": "coffee bean bag",
-    "display": "커피빈백",
+    "display": "커피 콩 가방",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -383,7 +383,7 @@
   {
     "id": "T8-16",
     "name": "football jersey",
-    "display": "축구 유니폼",
+    "display": "축구 저지",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -514,7 +514,7 @@
   {
     "id": "T8-21",
     "name": "rusty barrel",
-    "display": "녹슨 통",
+    "display": "녹슨 배럴",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -595,7 +595,7 @@
   {
     "id": "T8-24",
     "name": "stonebreaker leaf",
-    "display": "돌파괴자 잎",
+    "display": "돌깨는풀 잎",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -622,7 +622,7 @@
   {
     "id": "T8-25",
     "name": "wooden figurine",
-    "display": "나무 조각상",
+    "display": "목각 인형",
     "latin": "",
     "category": "item",
     "rarity": "common",

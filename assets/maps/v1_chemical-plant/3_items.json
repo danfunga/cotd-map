@@ -35,7 +35,7 @@
   {
     "id": "T9-2",
     "name": "cartridge",
-    "display": "탄약통",
+    "display": "카트리지",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -146,7 +146,7 @@
   {
     "id": "T9-6",
     "name": "hacksaw",
-    "display": "활톱",
+    "display": "쇠톱",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -204,7 +204,7 @@
   {
     "id": "T9-8",
     "name": "high radiation sign",
-    "display": "높은 방사선 표시",
+    "display": "고방사선 표시판",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -233,7 +233,7 @@
   {
     "id": "T9-9",
     "name": "laboratory equipment",
-    "display": "실험실 장비",
+    "display": "실험 장비",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -291,7 +291,7 @@
   {
     "id": "T9-11",
     "name": "mutated horsetail",
-    "display": "돌연변이된 말꼬리",
+    "display": "돌연변이 물꼬리",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -816,7 +816,7 @@
   {
     "id": "T9-28",
     "name": "sai knive",
-    "display": "사이 칼",
+    "display": "사이 나이프",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -965,7 +965,7 @@
   {
     "id": "T9-33",
     "name": "toxic barrel",
-    "display": "독성 배럴",
+    "display": "유독성 배럴",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -994,7 +994,7 @@
   {
     "id": "T9-34",
     "name": "venus flytrap",
-    "display": "금성 파리통",
+    "display": "파리지옥",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -1134,7 +1134,7 @@
   {
     "id": "T9-38",
     "name": "wind turbine propeller dynamo",
-    "display": "풍력 터빈 프로펠러 발전기",
+    "display": "풍력 터빈 발전기",
     "latin": "",
     "category": "item",
     "rarity": "common",

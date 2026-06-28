@@ -38,7 +38,7 @@
   {
     "id": "614",
     "name": "rice eel",
-    "display": "쌀장어",
+    "display": "드렁허리",
     "latin": "Monopterus albus",
     "category": "fish",
     "rarity": "common",
@@ -809,7 +809,7 @@
   {
     "id": "66",
     "name": "giant freshwater whipray",
-    "display": "거대한 담수 채찍가오리",
+    "display": "거대한 민물 가오리",
     "latin": "Urogymnus polylepis",
     "category": "fish",
     "rarity": "rare",
@@ -845,7 +845,7 @@
   {
     "id": "620",
     "name": "striped catfish",
-    "display": "줄무늬 메기",
+    "display": "가이양",
     "latin": "Pangasianodon hypophthalmus",
     "category": "fish",
     "rarity": "rare",
@@ -885,7 +885,7 @@
   {
     "id": "67",
     "name": "giant pangasius",
-    "display": "거대 판가시우스",
+    "display": "징기스칸",
     "latin": "Pangasius sanitwongsei",
     "category": "fish",
     "rarity": "rare",
@@ -973,7 +973,7 @@
   {
     "id": "610",
     "name": "jullien's golden prize carp",
-    "display": "줄리앙의 황금상 잉어",
+    "display": "쥴리에니",
     "latin": "Gnathanodon speciosus",
     "category": "fish",
     "rarity": "epic",
@@ -1014,7 +1014,7 @@
   {
     "id": "68",
     "name": "giant siamese",
-    "display": "거대한 샴",
+    "display": "자이언트 잉어",
     "latin": "Catlocarpio siamensis",
     "category": "fish",
     "rarity": "epic",

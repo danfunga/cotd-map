@@ -328,7 +328,7 @@
   {
     "id": "c3-9",
     "name": "polar bear",
-    "display": "횐곰",
+    "display": "북극곰",
     "latin": "Ursus maritimus",
     "category": "creature",
     "rarity": "rare",
@@ -368,7 +368,7 @@
   {
     "id": "c3-10",
     "name": "beluga",
-    "display": "벨루가",
+    "display": "흰돌고래",
     "latin": "Delphinapterus leucas",
     "category": "creature",
     "rarity": "rare",
@@ -404,7 +404,7 @@
   {
     "id": "c3-11",
     "name": "narwal",
-    "display": "나왈",
+    "display": "외뿔고래",
     "latin": "",
     "category": "creature",
     "rarity": "rare",
@@ -482,7 +482,7 @@
   {
     "id": "c3-13",
     "name": "harbor seal",
-    "display": "항구 인감",
+    "display": "물범속",
     "latin": "Phoca vitulina",
     "category": "creature",
     "rarity": "rare",
