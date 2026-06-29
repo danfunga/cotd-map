@@ -2,121 +2,101 @@ const maps = [
     {
         id: "01_marina",
         name: "Marina",
-        imagePath: "./assets/maps/01_marina/background.jpg",
-        thumbnailPath:"./assets/maps/01_marina/thumbnail.png",
+        dataPath: "./assets/maps/01_marina",
         imageWidth: 720,
-        imageHeight: 720,
-        dataPath: "./assets/maps/01_marina"
+        imageHeight: 720
     },
     {
         id: "02_paradise-island",
         name: "Paradise Island",
-        imagePath: "./assets/maps/02_paradise-island/background.jpg",
-        thumbnailPath:"./assets/maps/02_paradise-island/thumbnail.png",
+        dataPath: "./assets/maps/02_paradise-island",
         imageWidth: 1134,
-        imageHeight: 1125,
-        dataPath: "./assets/maps/02_paradise-island"
+        imageHeight: 1125
     },
     {
         id: "03_great-lakes",
         name: "Great Lakes",
-        imagePath: "./assets/maps/03_great-lakes/background.jpg",
-        thumbnailPath:"./assets/maps/03_great-lakes/thumbnail.png",
+        dataPath: "./assets/maps/03_great-lakes",
         imageWidth: 2477,
-        imageHeight: 2475,
-        dataPath: "./assets/maps/03_great-lakes"
+        imageHeight: 2475
     },
     {
         id: "04_costa-rica",
         name: "Costa Rica",
-        imagePath: "./assets/maps/04_costa-rica/background.jpg",
-        thumbnailPath:"./assets/maps/04_costa-rica/thumbnail.png",
+        dataPath: "./assets/maps/04_costa-rica",
         imageWidth: 2048,
-        imageHeight: 2048,
-        dataPath: "./assets/maps/04_costa-rica"
+        imageHeight: 2048
     },
     {
         id: "05_alaska",
         name: "Alaska",
-        imagePath: "./assets/maps/05_alaska/background.jpg",
-        thumbnailPath:"./assets/maps/05_alaska/thumbnail.png",
+        dataPath: "./assets/maps/05_alaska",
         imageWidth: 2048,
-        imageHeight: 2048,
-        dataPath: "./assets/maps/05_alaska"
+        imageHeight: 2048
     },
     {
         id: "06_australia",
         name: "Australia",
-        imagePath: "./assets/maps/06_australia/background.jpg",
-        thumbnailPath:"./assets/maps/06_australia/thumbnail.png",
+        dataPath: "./assets/maps/06_australia",
         imageWidth: 1000,
-        imageHeight: 999,
-        dataPath: "./assets/maps/06_australia"
+        imageHeight: 999
     },
     {
         id: "07_scotland",
         name: "Scotland",
-        imagePath: "./assets/maps/07_scotland/background.jpg",
-        thumbnailPath:"./assets/maps/07_scotland/thumbnail.png",
+        dataPath: "./assets/maps/07_scotland",
         imageWidth: 1125,
-        imageHeight: 1125,
-        dataPath: "./assets/maps/07_scotland"
+        imageHeight: 1125
     },
     {
         id: "08_thailand",
         name: "Thailand",
-        imagePath: "./assets/maps/08_thailand/background.jpg",
-        thumbnailPath:"./assets/maps/08_thailand/thumbnail.png",
+        dataPath: "./assets/maps/08_thailand",
         imageWidth: 1128,
-        imageHeight: 1125,
-        dataPath: "./assets/maps/08_thailand"
+        imageHeight: 1125
     },
     {
         id: "09_amazon",
         name: "Amazon",
-        imagePath: "./assets/maps/09_amazon/background.jpg",
-        thumbnailPath:"./assets/maps/09_amazon/thumbnail.png",
+        dataPath: "./assets/maps/09_amazon",
         imageWidth: 3000,
-        imageHeight: 3000,
-        dataPath: "./assets/maps/09_amazon"
+        imageHeight: 3000
     },
     {
         id: "v1_chemical-plant",
         name: "Chemical Plant",
-        imagePath: "./assets/maps/v1_chemical-plant/background.jpg",
-        thumbnailPath:"./assets/maps/v1_chemical-plant/thumbnail.png",
+        dataPath: "./assets/maps/v1_chemical-plant",
         imageWidth: 1200,
-        imageHeight: 1200,
-        dataPath: "./assets/maps/v1_chemical-plant"
+        imageHeight: 1200
     },
     {
         id: "v2_nuclear-plant",
         name: "Nuclear Plant",
-        imagePath: "./assets/maps/v2_nuclear-plant/background.jpg",
-        thumbnailPath:"./assets/maps/v2_nuclear-plant/thumbnail.png",
+        dataPath: "./assets/maps/v2_nuclear-plant",
         imageWidth: 3000,
-        imageHeight: 3000,
-        dataPath: "./assets/maps/v2_nuclear-plant"
+        imageHeight: 3000
     },
     {
         id: "v3_petrochemical",
         name: "Petrochemical",
-        imagePath: "./assets/maps/v3_petrochemical/background.jpg",
-        thumbnailPath:"./assets/maps/v3_petrochemical/thumbnail.png",
+        dataPath: "./assets/maps/v3_petrochemical",
         imageWidth: 3000,
-        imageHeight: 3000,
-        dataPath: "./assets/maps/v3_petrochemical"
+        imageHeight: 3000
     },
     {
         id: "v4_bermuda-triangle",
         name: "Bermuda Triangle",
-        imagePath: "./assets/maps/v4_bermuda-triangle/background.jpg",
-        thumbnailPath:"./assets/maps/v4_bermuda-triangle/thumbnail.png",
+        dataPath: "./assets/maps/v4_bermuda-triangle",
         imageWidth: 3000,
-        imageHeight: 3000,
-        dataPath: "./assets/maps/v4_bermuda-triangle"
+        imageHeight: 3000
     }
 ];
 
-export const mapOrder = maps.map((map) => map.id);
-export const mapsById = Object.fromEntries(maps.map((map) => [map.id, map]));
+const mapsWithPaths = maps.map((map) => ({
+    ...map,
+    imagePath: `${map.dataPath}/background.jpg`,
+    thumbnailPath: `${map.dataPath}/thumbnail.png`
+}));
+
+export const mapOrder = mapsWithPaths.map((map) => map.id);
+export const mapsById = Object.fromEntries(mapsWithPaths.map((map) => [map.id, map]));

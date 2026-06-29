@@ -128,9 +128,6 @@ function nextCaughtMode(mode) {
     if (mode === "all") return "uncaught";
     if (mode === "uncaught") return "all";
     return "all";
-    // if (mode === "all") return "caught";
-    // if (mode === "caught") return "uncaught";
-    // return "all";
 }
 
 function caughtModeLabel(mode) {
