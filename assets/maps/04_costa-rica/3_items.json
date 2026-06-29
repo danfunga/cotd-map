@@ -1,7 +1,7 @@
 [
   {
     "id": "T3-1",
-    "name": "anchor",
+    "name": "Anchor",
     "display": "닻",
     "latin": "",
     "category": "item",
@@ -23,12 +23,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-1.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Anchor"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-2",
-    "name": "key with a chain",
+    "name": "Key with a chain",
     "display": "사슬이 달린 열쇠",
     "latin": "",
     "category": "item",
@@ -50,12 +49,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-2.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Key with a Chain"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-3",
-    "name": "bicycle frame",
+    "name": "Bicycle Frame",
     "display": "자전거 프레임",
     "latin": "",
     "category": "item",
@@ -73,12 +71,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-3.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Bicycle Frame"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-4",
-    "name": "bikini top",
+    "name": "Bikini Top",
     "display": "비키니 상의",
     "latin": "",
     "category": "item",
@@ -100,13 +97,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-4.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Bikini Top"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-5",
-    "name": "bottle santa maria",
-    "display": "병 산타 마리아",
+    "name": "Bottle Santa Maria",
+    "display": "산타 마리아 병",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -123,12 +119,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-5.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Bottle Santa Maria"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-6",
-    "name": "broken coral",
+    "name": "Broken coral",
     "display": "부서진 산호",
     "latin": "",
     "category": "item",
@@ -146,12 +141,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-6.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Broken Coral"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-7",
-    "name": "chip bag",
+    "name": "Chip Bag",
     "display": "감자칩 봉지",
     "latin": "",
     "category": "item",
@@ -173,12 +167,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-7.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Chip Bag"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-8",
-    "name": "coconut",
+    "name": "Coconut",
     "display": "코코넛",
     "latin": "",
     "category": "item",
@@ -196,12 +189,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-8.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Coconut"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-9",
-    "name": "costa rican vase",
+    "name": "Costa Rican Vase",
     "display": "코스타리카 꽃병",
     "latin": "",
     "category": "item",
@@ -219,12 +211,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-9.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Costa Rican Vase"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-10",
-    "name": "fish can",
+    "name": "Fish Can",
     "display": "생선 통조림",
     "latin": "",
     "category": "item",
@@ -246,12 +237,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-10.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Fish Can"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-11",
-    "name": "flipper",
+    "name": "Flipper",
     "display": "오리발",
     "latin": "",
     "category": "item",
@@ -273,8 +263,7 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Flipper"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-13",
@@ -296,12 +285,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-13.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Inflatable Flamingo"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-15",
-    "name": "oil barrel",
+    "name": "Oil Barrel",
     "display": "기름 배럴",
     "latin": "",
     "category": "item",
@@ -327,12 +315,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-15.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Oil Barrel"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-16",
-    "name": "orange cassette",
+    "name": "Orange Cassette",
     "display": "오렌지 카세트",
     "latin": "",
     "category": "item",
@@ -350,12 +337,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-16.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Orange Cassette"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-17",
-    "name": "oxcart wheel",
+    "name": "Oxcart Wheel",
     "display": "소달구지 바퀴",
     "latin": "",
     "category": "item",
@@ -373,12 +359,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-17.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Oxcart Wheel"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-18",
-    "name": "palm leaf",
+    "name": "Palm Leaf",
     "display": "야자 잎",
     "latin": "",
     "category": "item",
@@ -396,12 +381,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-18.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Palm Leaf"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-19",
-    "name": "pirate hat",
+    "name": "Pirate Hat",
     "display": "해적 모자",
     "latin": "",
     "category": "item",
@@ -423,12 +407,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-19.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Pirate Hat"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-20",
-    "name": "pirate spyglass",
+    "name": "Pirate Spyglass",
     "display": "해적 망원경",
     "latin": "",
     "category": "item",
@@ -446,12 +429,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-20.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Pirate Spyglass"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-21",
-    "name": "rubber crocodile",
+    "name": "Rubber Crocodile",
     "display": "고무 악어",
     "latin": "",
     "category": "item",
@@ -469,12 +451,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-21.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Rubber Crocodile"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-22",
-    "name": "scuba diver mask",
+    "name": "Scuba Diver Mask",
     "display": "스쿠버 다이빙 마스크",
     "latin": "",
     "category": "item",
@@ -496,13 +477,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-22.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Scuba Diver Mask"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-23",
-    "name": "ship bell from santa maria",
-    "display": "산타마리아의 선박 종",
+    "name": "Ship Bell from Santa Maria",
+    "display": "산타 마리아의 선박 종",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -519,12 +499,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-23.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Ship Bell from Santa Maria"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-24",
-    "name": "steel hook",
+    "name": "Steel Hook",
     "display": "철제 갈고리",
     "latin": "",
     "category": "item",
@@ -542,12 +521,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-24.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Steel Hook"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-25",
-    "name": "surfboard",
+    "name": "Surfboard",
     "display": "서핑보드",
     "latin": "",
     "category": "item",
@@ -569,12 +547,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-25.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Surfboard"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-26",
-    "name": "treasure chest",
+    "name": "Treasure Chest",
     "display": "보물 상자",
     "latin": "",
     "category": "item",
@@ -600,12 +577,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-26.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Treasure Chest"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-27",
-    "name": "volcanic rock",
+    "name": "Volcanic Rock",
     "display": "화강암",
     "latin": "",
     "category": "item",
@@ -627,12 +603,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-27.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Volcanic Rock"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-28",
-    "name": "watermelon vinyl record",
+    "name": "Watermelon Vinyl Record",
     "display": "수박 LP판",
     "latin": "",
     "category": "item",
@@ -650,12 +625,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-28.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Watermelon Vinyl Record"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-29",
-    "name": "waterproof watch",
+    "name": "Waterproof Watch",
     "display": "방수 시계",
     "latin": "",
     "category": "item",
@@ -677,12 +651,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-29.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Waterproof Watch"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-30",
-    "name": "white bottle",
+    "name": "White Bottle",
     "display": "흰색 병",
     "latin": "",
     "category": "item",
@@ -704,12 +677,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-30.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "White Bottle"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-31",
-    "name": "wooden leg",
+    "name": "Wooden Leg",
     "display": "나무 다리",
     "latin": "",
     "category": "item",
@@ -727,12 +699,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-31.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Wooden Leg"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-32",
-    "name": "yellow floppy disk 5.25",
+    "name": "Yellow Floppy Disk 5.25",
     "display": "노란색 플로피 디스크 5.25",
     "latin": "",
     "category": "item",
@@ -750,13 +721,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-32.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Yellow Floppy Disk 5.25"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-14",
-    "name": "mysterious stone sphere",
-    "display": "신비한 돌 구체",
+    "name": "Mysterious Stone Sphere",
+    "display": "미스터리한 돌 구체",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -777,12 +747,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-14.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Mysterious Stone Sphere"
+    "shadowSpeeds": []
   },
   {
     "id": "T3-12",
-    "name": "fridge magnet",
+    "name": "Fridge Magnet",
     "display": "냉장고 자석",
     "latin": "",
     "category": "item",
@@ -800,7 +769,6 @@
     "minigame": null,
     "image": "./assets/portraits/item/T3-12.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Fridge Magnet"
+    "shadowSpeeds": []
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "id": "a2",
-    "name": "glowfish",
+    "name": "Glowfish",
     "display": "글로우피쉬",
     "latin": "Lucipisces fulgens",
     "category": "fish",
@@ -41,7 +41,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Glowfish",
     "legacyLocations": [
       {
         "x": 581,
@@ -59,7 +58,7 @@
   },
   {
     "id": "a8",
-    "name": "anchorscale",
+    "name": "Anchorscale",
     "display": "앵커비늘 기어가는 자",
     "latin": "",
     "category": "fish",
@@ -95,7 +94,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Anchorscale",
     "legacyLocations": [
       {
         "x": 552.2503961066935,
@@ -105,8 +103,8 @@
   },
   {
     "id": "a18",
-    "name": "raspberryfish",
-    "display": "라즈베리피쉬",
+    "name": "Raspberryfish",
+    "display": "산딸기물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -141,7 +139,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Raspberryfish",
     "legacyLocations": [
       {
         "x": 108,
@@ -151,7 +148,7 @@
   },
   {
     "id": "a11",
-    "name": "anvilfish",
+    "name": "Anvilfish",
     "display": "모루물고기",
     "latin": "Incusmarinus robustus",
     "category": "fish",
@@ -187,7 +184,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Anvilfish",
     "legacyLocations": [
       {
         "x": 475.17575695735997,
@@ -197,8 +193,8 @@
   },
   {
     "id": "a10",
-    "name": "bootfish",
-    "display": "복어",
+    "name": "Bootfish",
+    "display": "솔워커 떼",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -233,7 +229,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Bootfish",
     "legacyLocations": [
       {
         "x": 379.0092347159895,
@@ -243,8 +238,8 @@
   },
   {
     "id": "a19",
-    "name": "zombifin",
-    "display": "해골 물고기",
+    "name": "Zombifin",
+    "display": "좀비물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -279,7 +274,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Zombifin",
     "legacyLocations": [
       {
         "x": 157,
@@ -289,7 +283,7 @@
   },
   {
     "id": "a20",
-    "name": "cthulu carp",
+    "name": "Cthulhu Carp",
     "display": "크툴루카프",
     "latin": "Cyprinus carpio",
     "category": "fish",
@@ -325,12 +319,11 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "",
     "legacyLocations": []
   },
   {
     "id": "a12",
-    "name": "teapotfish",
+    "name": "Teapotfish",
     "display": "주전자물고기",
     "latin": "",
     "category": "fish",
@@ -366,7 +359,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Teapotfish",
     "legacyLocations": [
       {
         "x": 253.14422766478404,
@@ -376,7 +368,7 @@
   },
   {
     "id": "a21",
-    "name": "nylonfish",
+    "name": "Nylonfish",
     "display": "나일론물고기",
     "latin": "Nylonichthys syntheticus",
     "category": "fish",
@@ -412,7 +404,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Nylonfish",
     "legacyLocations": [
       {
         "x": 1084.701802340164,
@@ -422,7 +413,7 @@
   },
   {
     "id": "a22",
-    "name": "telebass",
+    "name": "Telebass",
     "display": "텔레바스 물고기",
     "latin": "",
     "category": "fish",
@@ -458,7 +449,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Telebass",
     "legacyLocations": [
       {
         "x": 898.0256121069154,
@@ -468,8 +458,8 @@
   },
   {
     "id": "a23",
-    "name": "long sparker",
-    "display": "긴 불꽃",
+    "name": "Long Sparker",
+    "display": "긴전기물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -504,7 +494,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Long Sparker",
     "legacyLocations": [
       {
         "x": 848,
@@ -514,8 +503,8 @@
   },
   {
     "id": "a24",
-    "name": "rotting deadfish",
-    "display": "썩어가는 죽은 물고기",
+    "name": "Rotting Deadfish",
+    "display": "썩은시체물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -550,7 +539,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Rotting Deadfish",
     "legacyLocations": [
       {
         "x": 905.0966799187809,
@@ -560,7 +548,7 @@
   },
   {
     "id": "a25",
-    "name": "fireborn scales",
+    "name": "Fireborn Scales",
     "display": "불꽃비늘물고기",
     "latin": "",
     "category": "fish",
@@ -596,7 +584,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Fireborn Scales",
     "legacyLocations": [
       {
         "x": 1030.9616869699864,
@@ -606,8 +593,8 @@
   },
   {
     "id": "a26",
-    "name": "burned potfish",
-    "display": "구운 냄비",
+    "name": "Burned Potfish",
+    "display": "탄냄비물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -642,7 +629,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Burned Potfish",
     "legacyLocations": [
       {
         "x": 1028.1332598452402,
@@ -652,7 +638,7 @@
   },
   {
     "id": "a27",
-    "name": "bubblefin",
+    "name": "Bubblefin",
     "display": "거품물고기",
     "latin": "",
     "category": "fish",
@@ -688,7 +674,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Bubblefin",
     "legacyLocations": [
       {
         "x": 1055.003317530329,
@@ -698,8 +683,8 @@
   },
   {
     "id": "a28",
-    "name": "luminator",
-    "display": "루미네이터",
+    "name": "Luminator",
+    "display": "빛물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -734,7 +719,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Luminator",
     "legacyLocations": [
       {
         "x": 879.6408357960652,
@@ -744,8 +728,8 @@
   },
   {
     "id": "a15",
-    "name": "biterfish",
-    "display": "독어",
+    "name": "Biterfish",
+    "display": "깨무는물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -780,7 +764,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Biterfish",
     "legacyLocations": [
       {
         "x": 268,
@@ -794,7 +777,7 @@
   },
   {
     "id": "a29",
-    "name": "fish-eye",
+    "name": "Fish-Eye",
     "display": "물고기눈",
     "latin": "",
     "category": "fish",
@@ -830,7 +813,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Fish-eye",
     "legacyLocations": [
       {
         "x": 130.10764773832474,
@@ -840,8 +822,8 @@
   },
   {
     "id": "a30",
-    "name": "gnawfish",
-    "display": "갉아먹는 것",
+    "name": "Gnawfish",
+    "display": "깨무는물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -876,7 +858,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Gnawfish",
     "legacyLocations": [
       {
         "x": 322,
@@ -886,7 +867,7 @@
   },
   {
     "id": "a1",
-    "name": "chupakabrafish",
+    "name": "Chupakabrafish",
     "display": "추파카브라피쉬",
     "latin": "Palustrivenator",
     "category": "fish",
@@ -922,7 +903,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Chupakabrafish",
     "legacyLocations": [
       {
         "x": 596.0910165402595,
@@ -936,7 +916,7 @@
   },
   {
     "id": "a3",
-    "name": "slimesnail",
+    "name": "Slimesnail",
     "display": "슬라임달팽이",
     "latin": "Limaceoglutinosa",
     "category": "fish",
@@ -976,7 +956,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Slimesnail",
     "legacyLocations": [
       {
         "x": 621,
@@ -994,7 +973,7 @@
   },
   {
     "id": "a5",
-    "name": "wheelreef",
+    "name": "Wheelreef",
     "display": "휠리프 표류자",
     "latin": "Rotaereefus Vagator",
     "category": "fish",
@@ -1034,7 +1013,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Wheelreef",
     "legacyLocations": [
       {
         "x": 735.3910524340095,
@@ -1048,7 +1026,7 @@
   },
   {
     "id": "a7",
-    "name": "barreltail",
+    "name": "Barreltail",
     "display": "배럴배 스웰",
     "latin": "Cylindroventris tumidus",
     "category": "fish",
@@ -1088,7 +1066,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Barreltail",
     "legacyLocations": [
       {
         "x": 940.4520189781083,
@@ -1102,7 +1079,7 @@
   },
   {
     "id": "a9",
-    "name": "toxic salmon",
+    "name": "Toxic Salmon",
     "display": "톡식 연어",
     "latin": "Salmo toxicus",
     "category": "fish",
@@ -1142,7 +1119,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Toxic Salmon",
     "legacyLocations": [
       {
         "x": 330.9259735953043,
@@ -1160,7 +1136,7 @@
   },
   {
     "id": "a31",
-    "name": "wicked carp",
+    "name": "Wicked Carp",
     "display": "사악한붕어",
     "latin": "Cyprinus carpio",
     "category": "fish",
@@ -1196,7 +1172,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Wicked Carp",
     "legacyLocations": [
       {
         "x": 240.41630560342617,
@@ -1206,7 +1181,7 @@
   },
   {
     "id": "a6",
-    "name": "bottlegill",
+    "name": "Bottlegill",
     "display": "병아가미 수영자",
     "latin": "",
     "category": "fish",
@@ -1242,7 +1217,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Bottlegill",
     "legacyLocations": [
       {
         "x": 871.1555544218267,
@@ -1252,7 +1226,7 @@
   },
   {
     "id": "a4",
-    "name": "cantrout",
+    "name": "Cantrout",
     "display": "틴핀 돌연변이",
     "latin": "",
     "category": "fish",
@@ -1288,7 +1262,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Cantrout",
     "legacyLocations": [
       {
         "x": 609,
@@ -1298,7 +1271,7 @@
   },
   {
     "id": "a13",
-    "name": "crystal fin",
+    "name": "Crystal Fin",
     "display": "크리스티안핀물고기",
     "latin": "Diodon hystrix",
     "category": "fish",
@@ -1334,7 +1307,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Crystal Fin",
     "legacyLocations": [
       {
         "x": 234,
@@ -1344,8 +1316,8 @@
   },
   {
     "id": "a32",
-    "name": "toxic puffer",
-    "display": "유독 복어",
+    "name": "Toxic Puffer",
+    "display": "독성 복어",
     "latin": "Toxicus fumosus",
     "category": "fish",
     "rarity": "common",
@@ -1380,7 +1352,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Toxic Puffer",
     "legacyLocations": [
       {
         "x": 107.48023074035524,
@@ -1390,7 +1361,7 @@
   },
   {
     "id": "a14",
-    "name": "plant waterer",
+    "name": "Plant Waterer",
     "display": "식물관수물고기",
     "latin": "Plantus toxicus",
     "category": "fish",
@@ -1426,7 +1397,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Plant Waterer",
     "legacyLocations": [
       {
         "x": 293,
@@ -1436,8 +1406,8 @@
   },
   {
     "id": "a44",
-    "name": "zombie genius",
-    "display": "좀비 천재",
+    "name": "Zombie Genius",
+    "display": "좀비천재",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -1472,7 +1442,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Zombie Genius",
     "legacyLocations": [
       {
         "x": 145,
@@ -1482,8 +1451,8 @@
   },
   {
     "id": "a45",
-    "name": "phosphorite",
-    "display": "인산염",
+    "name": "Phosphorite",
+    "display": "인광물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -1518,7 +1487,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Phosphorite",
     "legacyLocations": [
       {
         "x": 626,
@@ -1528,7 +1496,7 @@
   },
   {
     "id": "a46",
-    "name": "glow puffball",
+    "name": "Glow Puffball",
     "display": "반딧불버섯물고기",
     "latin": "",
     "category": "fish",
@@ -1564,7 +1532,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Glow Puffball",
     "legacyLocations": [
       {
         "x": 704,
@@ -1574,7 +1541,7 @@
   },
   {
     "id": "a47",
-    "name": "spotted windchaser",
+    "name": "Spotted Windchaser",
     "display": "얼룩바람물고기",
     "latin": "Brachionichthys hirsutus",
     "category": "fish",
@@ -1610,7 +1577,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Spotted Windchaser",
     "legacyLocations": [
       {
         "x": 788,
@@ -1620,8 +1586,8 @@
   },
   {
     "id": "a48",
-    "name": "flatjaw",
-    "display": "펑펑턱물고기",
+    "name": "Flatjaw",
+    "display": "평평턱물고기",
     "latin": "Platygnathus compressus",
     "category": "fish",
     "rarity": "common",
@@ -1656,7 +1622,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Flatjaw",
     "legacyLocations": [
       {
         "x": 768,
@@ -1666,7 +1631,7 @@
   },
   {
     "id": "a49",
-    "name": "silvered amelinium",
+    "name": "Silvered Amelinium",
     "display": "도금알루미늄물고기",
     "latin": "",
     "category": "fish",
@@ -1702,7 +1667,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Silvered Amelinium",
     "legacyLocations": [
       {
         "x": 230,
@@ -1712,7 +1676,7 @@
   },
   {
     "id": "a50",
-    "name": "rusty mutang",
+    "name": "Rusty Mutang",
     "display": "녹슨돌연변이물고기",
     "latin": "Mutangus ferrugineus",
     "category": "fish",
@@ -1748,7 +1712,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Rusty Mutang",
     "legacyLocations": [
       {
         "x": 674,
@@ -1758,8 +1721,8 @@
   },
   {
     "id": "a51",
-    "name": "mailfish",
-    "display": "메뚜기",
+    "name": "Mailfish",
+    "display": "알림물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -1794,7 +1757,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Mailfish",
     "legacyLocations": [
       {
         "x": 742,
@@ -1804,8 +1766,8 @@
   },
   {
     "id": "a52",
-    "name": "flipper sneaker",
-    "display": "플리퍼 스니커즈",
+    "name": "Flipper Sneaker",
+    "display": "지느러미테니스화물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -1840,7 +1802,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Flipper Sneaker",
     "legacyLocations": [
       {
         "x": 346,
@@ -1850,8 +1811,8 @@
   },
   {
     "id": "a53",
-    "name": "uranium eel",
-    "display": "우라늄 장어",
+    "name": "Uranium Eel",
+    "display": "우라늄장어",
     "latin": "Anguilla rostrata",
     "category": "fish",
     "rarity": "common",
@@ -1886,7 +1847,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Uranium Eel",
     "legacyLocations": [
       {
         "x": 664,
@@ -1896,8 +1856,8 @@
   },
   {
     "id": "a54",
-    "name": "graterfin",
-    "display": "강판",
+    "name": "Graterfin",
+    "display": "거친지느러미물고기",
     "latin": "",
     "category": "fish",
     "rarity": "common",
@@ -1932,7 +1892,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Graterfin",
     "legacyLocations": [
       {
         "x": 542,
@@ -1942,8 +1901,8 @@
   },
   {
     "id": "a55",
-    "name": "fingered glovefish",
-    "display": "손가락 장갑고기",
+    "name": "Fingered Glovefish",
+    "display": "장갑물고기",
     "latin": "",
     "category": "fish",
     "rarity": "rare",
@@ -1978,7 +1937,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Fingered Glovefish",
     "legacyLocations": [
       {
         "x": 492,
@@ -1988,8 +1946,8 @@
   },
   {
     "id": "a56",
-    "name": "bomberfish",
-    "display": "폭격기",
+    "name": "Bomberfish",
+    "display": "메가알리폭탄",
     "latin": "",
     "category": "fish",
     "rarity": "rare",
@@ -2024,7 +1982,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Bomberfish",
     "legacyLocations": [
       {
         "x": 386,
@@ -2034,8 +1991,8 @@
   },
   {
     "id": "a57",
-    "name": "stale deadfish",
-    "display": "부패한 죽은 물고기",
+    "name": "Stale Deadfish",
+    "display": "곰팡이시체물고기",
     "latin": "",
     "category": "fish",
     "rarity": "rare",
@@ -2070,7 +2027,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Stale Deadfish",
     "legacyLocations": [
       {
         "x": 523.9661248592316,
@@ -2080,8 +2036,8 @@
   },
   {
     "id": "a33",
-    "name": "banjoplayer",
-    "display": "밴조 연주자",
+    "name": "Banjoplayer",
+    "display": "반조물고기",
     "latin": "",
     "category": "fish",
     "rarity": "rare",
@@ -2116,7 +2072,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Banjoplayer",
     "legacyLocations": [
       {
         "x": 1033,
@@ -2126,7 +2081,7 @@
   },
   {
     "id": "a34",
-    "name": "sawfish",
+    "name": "Sawfish",
     "display": "톱물고기",
     "latin": "Serrator aqua",
     "category": "fish",
@@ -2166,7 +2121,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Sawfish",
     "legacyLocations": [
       {
         "x": 280,
@@ -2181,7 +2135,7 @@
   {
     "id": "a16",
     "name": "Gasmist Swimmer",
-    "display": "가스미스트 수영선수",
+    "display": "독가스 물고기",
     "latin": "",
     "category": "fish",
     "rarity": "rare",
@@ -2220,7 +2174,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Gasmist Swimmer",
     "legacyLocations": [
       {
         "x": 474,
@@ -2234,7 +2187,7 @@
   },
   {
     "id": "a35",
-    "name": "guitarfin",
+    "name": "Guitarfin",
     "display": "기타 물고기",
     "latin": "",
     "category": "fish",
@@ -2270,7 +2223,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Guitarfin",
     "legacyLocations": [
       {
         "x": 734,
@@ -2280,8 +2232,8 @@
   },
   {
     "id": "a17",
-    "name": "bonebite",
-    "display": "뼈에 물린",
+    "name": "Bonebite",
+    "display": "해골 물고기",
     "latin": "",
     "category": "fish",
     "rarity": "rare",
@@ -2324,7 +2276,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Bonebite",
     "legacyLocations": [
       {
         "x": 960,
@@ -2342,7 +2293,7 @@
   },
   {
     "id": "a36",
-    "name": "brainfish",
+    "name": "Brainfish",
     "display": "뇌물고기",
     "latin": "Cerebralis piscatorius",
     "category": "fish",
@@ -2382,7 +2333,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Brainfish",
     "legacyLocations": [
       {
         "x": 278,
@@ -2396,8 +2346,8 @@
   },
   {
     "id": "a37",
-    "name": "cuddlyfish",
-    "display": "껴안고 싶은 물고기",
+    "name": "Cuddlyfish",
+    "display": "작은물고기",
     "latin": "",
     "category": "fish",
     "rarity": "rare",
@@ -2432,7 +2382,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Cuddlyfish",
     "legacyLocations": [
       {
         "x": 846,
@@ -2446,8 +2395,8 @@
   },
   {
     "id": "a38",
-    "name": "stringed guitarfish",
-    "display": "현악기",
+    "name": "Stringed Guitarfish",
+    "display": "기타물고기",
     "latin": "",
     "category": "fish",
     "rarity": "rare",
@@ -2482,12 +2431,11 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "",
     "legacyLocations": []
   },
   {
     "id": "a39",
-    "name": "soccerfish",
+    "name": "Soccerfish",
     "display": "축구물고기",
     "latin": "",
     "category": "fish",
@@ -2523,7 +2471,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Soccerfish",
     "legacyLocations": [
       {
         "x": 148,
@@ -2533,8 +2480,8 @@
   },
   {
     "id": "a40",
-    "name": "swagfish",
-    "display": "스웨그피쉬",
+    "name": "Swagfish",
+    "display": "화려한물고기",
     "latin": "",
     "category": "fish",
     "rarity": "rare",
@@ -2569,7 +2516,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Swagfish",
     "legacyLocations": [
       {
         "x": 922,
@@ -2579,7 +2525,7 @@
   },
   {
     "id": "a41",
-    "name": "round tubefish",
+    "name": "Round Tubefish",
     "display": "둥근관물고기",
     "latin": "Prosopium cylindraceum",
     "category": "fish",
@@ -2615,13 +2561,12 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "",
     "legacyLocations": []
   },
   {
     "id": "a42",
-    "name": "polish spudfish",
-    "display": "폴란드어 가자미",
+    "name": "Polish Spudfish",
+    "display": "감자물고기",
     "latin": "",
     "category": "fish",
     "rarity": "epic",
@@ -2656,7 +2601,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Polish Spudfish",
     "legacyLocations": [
       {
         "x": 138,
@@ -2666,8 +2610,8 @@
   },
   {
     "id": "a43",
-    "name": "seahorse abomination",
-    "display": "해마 혐오스러운 것",
+    "name": "Seahorse Abomination",
+    "display": "돌연변이 해마",
     "latin": "",
     "category": "fish",
     "rarity": "epic",
@@ -2702,7 +2646,6 @@
     "shadowSpeeds": [
       1
     ],
-    "mapCategory": "Seahorse Abomination",
     "legacyLocations": [
       {
         "x": 295,
@@ -2712,7 +2655,7 @@
   },
   {
     "id": "a58",
-    "name": "ribbed bonefish",
+    "name": "Ribbed Bonefish",
     "display": "갈비뼈물고기",
     "latin": "Albula vulpes",
     "category": "fish",
@@ -2744,7 +2687,6 @@
     "image": "./assets/portraits/fish/a58.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Ribbed Bonefish",
     "legacyLocations": [
       {
         "x": 168,
@@ -2755,7 +2697,7 @@
   {
     "id": "b23",
     "name": "Nightmary",
-    "display": "악몽",
+    "display": "악몽(Nightmary)",
     "latin": "",
     "category": "monster",
     "rarity": "monster",
@@ -2786,7 +2728,6 @@
     "image": "./assets/portraits/fish/b23.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Nightmary",
     "legacyLocations": [
       {
         "x": 1048,

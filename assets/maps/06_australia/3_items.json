@@ -19,12 +19,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-30.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Vinyl Record"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-31",
-    "name": "chips bag",
+    "name": "Bag of Chips",
     "display": "칩 한 봉지",
     "latin": "",
     "category": "item",
@@ -42,12 +41,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-31.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "T5-29",
-    "name": "didgeridoo Flute",
+    "name": "Didgeridoo flute",
     "display": "디저리두 플루트",
     "latin": "",
     "category": "item",
@@ -65,12 +63,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-29.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Didgeridoo Flute"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-1",
-    "name": "aussie rule ball",
+    "name": "Aussie Rule Ball",
     "display": "오스트레일리아 룰볼",
     "latin": "",
     "category": "item",
@@ -88,8 +85,7 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-1.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Aussie Rule Ball"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-2",
@@ -111,12 +107,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-2.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Australian Cricket Bat"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-3",
-    "name": "beer can",
+    "name": "Beer can",
     "display": "맥주 캔",
     "latin": "",
     "category": "item",
@@ -138,12 +133,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-3.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Beer Can"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-4",
-    "name": "boomerang",
+    "name": "Boomerang",
     "display": "부메랑",
     "latin": "",
     "category": "item",
@@ -161,12 +155,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-4.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Boomerang"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-5",
-    "name": "bottle of suntan oil",
+    "name": "Bottle of suntan oil",
     "display": "선자오일 병",
     "latin": "",
     "category": "item",
@@ -184,12 +177,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-5.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Bottle of Suntan Oil"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-6",
-    "name": "cork hat",
+    "name": "Cork hat",
     "display": "코크 모자",
     "latin": "",
     "category": "item",
@@ -207,12 +199,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-6.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Cork Hat"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-7",
-    "name": "crocodile crate",
+    "name": "Crocodile crate",
     "display": "악어 상자",
     "latin": "",
     "category": "item",
@@ -230,12 +221,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-7.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Crocodile Crate"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-8",
-    "name": "crocodile key",
+    "name": "Crocodile Key",
     "display": "악어 열쇠",
     "latin": "",
     "category": "item",
@@ -253,12 +243,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-8.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Crocodile Key"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-9",
-    "name": "eucalyptus branch",
+    "name": "Eucalyptus branch",
     "display": "이유칼립투스 나뭇가지",
     "latin": "",
     "category": "item",
@@ -276,12 +265,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-9.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Eucalyptus Branch"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-10",
-    "name": "explorer diary",
+    "name": "Explorer diary",
     "display": "탐험가의 일기",
     "latin": "",
     "category": "item",
@@ -299,12 +287,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-10.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Explorer Diary"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-11",
-    "name": "koala hat",
+    "name": "Koala hat",
     "display": "코알라 모자",
     "latin": "",
     "category": "item",
@@ -322,12 +309,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Koala Hat"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-12",
-    "name": "lawn chair",
+    "name": "Lawn chair",
     "display": "관광 의자",
     "latin": "",
     "category": "item",
@@ -345,12 +331,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-12.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Lawn Chair"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-13",
-    "name": "marine trap",
+    "name": "Marine trap",
     "display": "해양 함정",
     "latin": "",
     "category": "item",
@@ -368,12 +353,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-13.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Marine Trap"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-14",
-    "name": "parrot feather",
+    "name": "Parrot feather",
     "display": "앵무새 깃털",
     "latin": "",
     "category": "item",
@@ -399,12 +383,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-14.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Parrot Feather"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-15",
-    "name": "pearl",
+    "name": "Pearl",
     "display": "진주",
     "latin": "",
     "category": "item",
@@ -426,12 +409,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-15.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Pearl"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-16",
-    "name": "plastic barrel",
+    "name": "Plastic barrel",
     "display": "플라스틱 드럼",
     "latin": "",
     "category": "item",
@@ -453,12 +435,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-16.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Plastic Barrel"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-17",
-    "name": "plastic \"Dory\" fish",
+    "name": "Plastic \"Dory\" fish",
     "display": "플라스틱 \"도리\" 물고기",
     "latin": "",
     "category": "item",
@@ -480,8 +461,7 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-17.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Plastic \"Dory\" Fish"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-18",
@@ -503,12 +483,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-18.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Rock with Aboriginal Painting"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-19",
-    "name": "sunglasses",
+    "name": "Sunglasses",
     "display": "선글라스",
     "latin": "",
     "category": "item",
@@ -526,8 +505,7 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-19.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Sunglasses"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-20",
@@ -549,12 +527,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-20.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Surfboard"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-21",
-    "name": "turtlegrass",
+    "name": "Turtlegrass",
     "display": "거북이가지",
     "latin": "",
     "category": "item",
@@ -572,20 +549,20 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-21.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Turtlegrass"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-22",
-    "name": "vegetime",
-    "display": "vegetime",
+    "name": "Vegetime",
+    "display": "Vegetime",
     "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "x": 454, "y": 461
+        "x": 454,
+        "y": 461
       }
     ],
     "notes": "",
@@ -594,12 +571,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-22.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Vegetime"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-23",
-    "name": "wooden crate",
+    "name": "Wooden crate",
     "display": "나무 상자",
     "latin": "",
     "category": "item",
@@ -617,12 +593,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-23.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Wooden Crate"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-24",
-    "name": "kangaroo road sign",
+    "name": "Kangaroo road sign",
     "display": "캥거루 도로 표지",
     "latin": "",
     "category": "item",
@@ -640,12 +615,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-24.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Kangaroo Road Sign"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-25",
-    "name": "maori jewelery",
+    "name": "Maori jewelery",
     "display": "마오리 보석용품",
     "latin": "",
     "category": "item",
@@ -663,12 +637,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-25.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Maori Jewelery"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-26",
-    "name": "giant shark tooth",
+    "name": "Giant shark tooth",
     "display": "거대한 상어의 치아",
     "latin": "",
     "category": "item",
@@ -686,12 +659,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-26.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Giant Shark Tooth"
+    "shadowSpeeds": []
   },
   {
     "id": "T5-27",
-    "name": "floppy disk",
+    "name": "Floppy disc",
     "display": "플로피 디스크",
     "latin": "",
     "category": "item",
@@ -709,12 +681,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-27.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "T5-28",
-    "name": "fridge magnet",
+    "name": "Fridge Magnet",
     "display": "냉장고 자석",
     "latin": "",
     "category": "item",
@@ -732,7 +703,6 @@
     "minigame": null,
     "image": "./assets/portraits/item/T5-28.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Fridge Magnet"
+    "shadowSpeeds": []
   }
 ]

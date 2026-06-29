@@ -36,8 +36,7 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-6",
@@ -76,8 +75,7 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-7",
@@ -112,8 +110,7 @@
     "minigame": null,
     "image": "./assets/portraits/fish/D-7.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "D-8",
@@ -152,8 +149,7 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-9",
@@ -192,13 +188,12 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-11",
     "name": "Gyracanthides",
-    "display": "자이라칸타이드",
+    "display": "기라칸티데스",
     "latin": "Gyracanthides murrayi",
     "category": "fish",
     "rarity": "common",
@@ -233,13 +228,12 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-12",
     "name": "Haikouichthys",
-    "display": "하이쿠이크티스",
+    "display": "하이커우익티스",
     "latin": "Haikouichthys ercaicunensis",
     "category": "fish",
     "rarity": "common",
@@ -269,13 +263,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/D-12.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "D-13",
     "name": "Hyneria",
-    "display": "히네리아",
+    "display": "하이네리아",
     "latin": "Hyneria lindae",
     "category": "fish",
     "rarity": "common",
@@ -305,13 +298,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/D-13.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "D-14",
     "name": "Ischnacanthus",
-    "display": "이쉬나칸투스",
+    "display": "이스크나칸투스",
     "latin": "Ischnacanthus gracilis",
     "category": "fish",
     "rarity": "common",
@@ -345,13 +337,12 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-15",
     "name": "Latimeria",
-    "display": "라티메리아",
+    "display": "실러캔스",
     "latin": "Latimeria chalumnae",
     "category": "fish",
     "rarity": "common",
@@ -386,13 +377,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-17",
     "name": "Macropoma",
-    "display": "대식세포종",
+    "display": "마크로포마",
     "latin": "Macropoma lewesiensis",
     "category": "fish",
     "rarity": "common",
@@ -426,13 +416,12 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-18",
     "name": "Mawsonia",
-    "display": "모소니아",
+    "display": "모우소니아",
     "latin": "Mawsonia gigas",
     "category": "fish",
     "rarity": "common",
@@ -462,8 +451,7 @@
     "minigame": null,
     "image": "./assets/portraits/fish/D-18.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "D-20",
@@ -502,13 +490,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-21",
     "name": "Protosphyraena",
-    "display": "프로토스피라에나",
+    "display": "프로토스피라이나",
     "latin": "Protosphyraena ferox",
     "category": "fish",
     "rarity": "common",
@@ -542,8 +529,7 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-23",
@@ -583,8 +569,7 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-24",
@@ -623,8 +608,7 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-25",
@@ -663,8 +647,7 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-26",
@@ -703,8 +686,7 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-10",
@@ -743,13 +725,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-16",
     "name": "Leedsichthys",
-    "display": "리드식티스",
+    "display": "리즈익티스",
     "latin": "Leedsichthys problematicus",
     "category": "fish",
     "rarity": "rare",
@@ -779,13 +760,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/D-16.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "D-22",
     "name": "Splendid killifish",
-    "display": "화려한 송사리",
+    "display": "스플렌디드 킬리피시",
     "latin": "Aphyosemion splendopleure",
     "category": "fish",
     "rarity": "rare",
@@ -820,13 +800,12 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-27",
     "name": "Dunkleosteus",
-    "display": "던클레오스테우스",
+    "display": "덩클레오스테우스",
     "latin": "Dunkleosteus terrelli",
     "category": "fish",
     "rarity": "rare",
@@ -856,13 +835,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/D-27.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "D-19",
     "name": "Onchopristis",
-    "display": "온초프리스티스",
+    "display": "온코프리스티스",
     "latin": "Onchopristis numidus",
     "category": "fish",
     "rarity": "epic",
@@ -897,8 +875,7 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "D-28",
@@ -933,8 +910,7 @@
     "minigame": null,
     "image": "./assets/portraits/fish/D-28.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "D-29",
@@ -969,7 +945,6 @@
     "minigame": null,
     "image": "./assets/portraits/fish/D-29.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   }
 ]

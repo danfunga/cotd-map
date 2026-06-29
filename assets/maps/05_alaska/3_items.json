@@ -1,7 +1,7 @@
 [
   {
     "id": "T4-1",
-    "name": "blue cassette",
+    "name": "Blue Cassette",
     "display": "파란색 카세트",
     "latin": "",
     "category": "item",
@@ -19,13 +19,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-1.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Blue Cassette"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-2",
-    "name": "broken fish finder",
-    "display": "고장난 어군탐지기",
+    "name": "Broken Fish Finder",
+    "display": "고장난 어군 탐지기",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -42,8 +41,7 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-2.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Broken Fish Finder"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-3",
@@ -65,12 +63,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-3.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Chip Bag"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-4",
-    "name": "compass",
+    "name": "Compass",
     "display": "나침반",
     "latin": "",
     "category": "item",
@@ -88,12 +85,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-4.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Compass"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-5",
-    "name": "fishing line",
+    "name": "Fishing Line",
     "display": "낚싯줄",
     "latin": "",
     "category": "item",
@@ -111,12 +107,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-5.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Fishing Line"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-7",
-    "name": "frozen acorn",
+    "name": "Frozen Acorn",
     "display": "얼은 도토리",
     "latin": "",
     "category": "item",
@@ -134,12 +129,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-7.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Frozen Acorn"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-8",
-    "name": "frozen chest",
+    "name": "Frozen Chest",
     "display": "얼어붙은 상자",
     "latin": "",
     "category": "item",
@@ -157,12 +151,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-8.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Frozen Chest"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-9",
-    "name": "frozen key",
+    "name": "Frozen Key",
     "display": "얼어붙은 열쇠",
     "latin": "",
     "category": "item",
@@ -180,12 +173,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-9.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Frozen Key"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-10",
-    "name": "fuel barrel",
+    "name": "Fuel Barrel",
     "display": "기름 배럴",
     "latin": "",
     "category": "item",
@@ -203,12 +195,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-10.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Fuel Barrel"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-11",
-    "name": "gold nugget",
+    "name": "Gold Nugget",
     "display": "금덩이",
     "latin": "",
     "category": "item",
@@ -226,12 +217,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Gold Nugget"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-12",
-    "name": "gold pan",
+    "name": "Gold Pan",
     "display": "사금 접시",
     "latin": "",
     "category": "item",
@@ -249,12 +239,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-12.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Gold Pan"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-13",
-    "name": "ham can",
+    "name": "Ham Can",
     "display": "햄 통조림",
     "latin": "",
     "category": "item",
@@ -272,12 +261,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-13.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Ham Can"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-14",
-    "name": "harpoon",
+    "name": "Harpoon",
     "display": "작살",
     "latin": "",
     "category": "item",
@@ -295,12 +283,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-14.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Harpoon"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-15",
-    "name": "innertube",
+    "name": "Innertube",
     "display": "내장 튜브",
     "latin": "",
     "category": "item",
@@ -326,12 +313,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-15.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Inner Tube"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-16",
-    "name": "life jacket",
+    "name": "Life Jacket",
     "display": "구명조끼",
     "latin": "",
     "category": "item",
@@ -357,12 +343,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-16.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Life Jacket"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-17",
-    "name": "meteorite",
+    "name": "Meteorite",
     "display": "운석",
     "latin": "",
     "category": "item",
@@ -380,13 +365,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-17.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Meteorite"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-18",
-    "name": "moose antler",
-    "display": "큰사슴 뿔",
+    "name": "Moose Antler",
+    "display": "무스 뿔",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -407,12 +391,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-18.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Moose Antler"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-19",
-    "name": "ski",
+    "name": "Ski",
     "display": "스키",
     "latin": "",
     "category": "item",
@@ -430,12 +413,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-19.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Ski"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-20",
-    "name": "snow shovel",
+    "name": "Snow Shovel",
     "display": "눈삽",
     "latin": "",
     "category": "item",
@@ -461,12 +443,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-20.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Snow Shovel"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-21",
-    "name": "snowman hat",
+    "name": "Snowman Hat",
     "display": "눈사람 모자",
     "latin": "",
     "category": "item",
@@ -496,12 +477,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-21.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Snowman Hat"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-22",
-    "name": "snowshoe",
+    "name": "Snowshoe",
     "display": "설피",
     "latin": "",
     "category": "item",
@@ -519,12 +499,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-22.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Snowshoe"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-23",
-    "name": "terix floppy disk",
+    "name": "Tetrix Floppy Disk 3.5",
     "display": "테트리스 플로피 디스크 3.5",
     "latin": "",
     "category": "item",
@@ -562,8 +541,7 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-23.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "T4-24",
@@ -589,12 +567,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-24.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Video Cassette"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-25",
-    "name": "viking helmet",
+    "name": "Viking Helmet",
     "display": "바이킹 헬멧",
     "latin": "",
     "category": "item",
@@ -612,8 +589,7 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-25.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Viking Helmet"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-26",
@@ -635,12 +611,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-26.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Vinyl Record"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-27",
-    "name": "walrus tusk",
+    "name": "Walrus Tusk",
     "display": "바다코끼리 엄니",
     "latin": "",
     "category": "item",
@@ -658,12 +633,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-27.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Walrus Tusk"
+    "shadowSpeeds": []
   },
   {
     "id": "T4-6",
-    "name": "fridge magnet",
+    "name": "Fridge Magnet",
     "display": "냉장고 자석",
     "latin": "",
     "category": "item",
@@ -685,7 +659,6 @@
     "minigame": null,
     "image": "./assets/portraits/item/T4-6.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Fridge Magnet"
+    "shadowSpeeds": []
   }
 ]

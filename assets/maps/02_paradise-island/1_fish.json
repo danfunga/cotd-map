@@ -1,7 +1,7 @@
 [
   {
     "id": "01",
-    "name": "bluefish",
+    "name": "Bluefish",
     "display": "파란농어",
     "latin": "Pomatomus saltatrix",
     "category": "fish",
@@ -40,12 +40,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Bluefish"
+    ]
   },
   {
     "id": "02",
-    "name": "spot-fin porcupinefish",
+    "name": "Spot-fin Porcupinefish",
     "display": "복어",
     "latin": "Diodon hystrix",
     "category": "fish",
@@ -84,12 +83,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Spot-Fin Porcupinefish"
+    ]
   },
   {
     "id": "03",
-    "name": "snubnose pompano",
+    "name": "Snubnose Pompano",
     "display": "무점매가리",
     "latin": "Trachinotus blochii",
     "category": "fish",
@@ -128,12 +126,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Snubnose Pompano"
+    ]
   },
   {
     "id": "04",
-    "name": "largetooth flounder",
+    "name": "Largetooth Flounder",
     "display": "가자미",
     "latin": "Pseudorhombus arsius",
     "category": "fish",
@@ -172,12 +169,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Largetooth Flounder"
+    ]
   },
   {
     "id": "05",
-    "name": "blue trevally",
+    "name": "Blue Trevally",
     "display": "트레발리",
     "latin": "Carangoides ferdau",
     "category": "fish",
@@ -216,12 +212,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Blue Trevally"
+    ]
   },
   {
     "id": "06",
-    "name": "bonefish",
+    "name": "Bonefish",
     "display": "여을멸",
     "latin": "Albula vulpes",
     "category": "fish",
@@ -269,12 +264,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Bonefish"
+    ]
   },
   {
     "id": "07",
-    "name": "longtail tuna",
+    "name": "Longtail Tuna",
     "display": "통골 참치",
     "latin": "Thunnus tonggol",
     "category": "fish",
@@ -313,12 +307,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Longtail Tuna"
+    ]
   },
   {
     "id": "08",
-    "name": "clownfish",
+    "name": "Clownfish",
     "display": "주황흰동가리",
     "latin": "Amphiprion percula",
     "category": "fish",
@@ -349,12 +342,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/08.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Clownfish"
+    "shadowSpeeds": []
   },
   {
     "id": "09",
-    "name": "green humphead parrotfish",
+    "name": "Green Humphead Parrotfish",
     "display": "범프헤드비늘돔",
     "latin": "Bolbometopon muricatum",
     "category": "fish",
@@ -398,12 +390,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Green Humphead Parrotfish"
+    ]
   },
   {
     "id": "010",
-    "name": "white-tuna",
+    "name": "White Tuna",
     "display": "독투스투나",
     "latin": "Gymnosarda unicolor",
     "category": "fish",
@@ -443,12 +434,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "White Tuna"
+    ]
   },
   {
     "id": "011",
-    "name": "pelagic stingray",
+    "name": "Pelagic Stingray",
     "display": "원양 가오리",
     "latin": "Pteroplatytrygon violacea",
     "category": "fish",
@@ -460,7 +450,8 @@
         "y": 988
       },
       {
-        "x": 910, "y": 155
+        "x": 910,
+        "y": 155
       }
     ],
     "notes": "",
@@ -486,12 +477,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Pelagic Stingray"
+    ]
   },
   {
     "id": "012",
-    "name": "pacific footballfish",
+    "name": "Pacific Footballfish",
     "display": "태평양 축구 물고기",
     "latin": "Himantolophus sagamius",
     "category": "fish",
@@ -499,7 +489,8 @@
     "timeBand": "night",
     "locations": [
       {
-        "x": 945, "y": 964
+        "x": 945,
+        "y": 964
       },
       {
         "x": 115,
@@ -529,13 +520,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/012.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Pacific Footballfish"
+    "shadowSpeeds": []
   },
   {
     "id": "013",
     "name": "shredder",
-    "display": "파쇄기",
+    "display": "파쇄기(슈레더)",
     "latin": "",
     "category": "monster",
     "rarity": "monster",
@@ -573,7 +563,6 @@
     "minigame": null,
     "image": "./assets/portraits/fish/013.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Shredder"
+    "shadowSpeeds": []
   }
 ]

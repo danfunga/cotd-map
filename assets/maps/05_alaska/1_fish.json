@@ -1,7 +1,7 @@
 [
   {
     "id": "31",
-    "name": "arctic char",
+    "name": "Arctic Char",
     "display": "북극곤돌매기",
     "latin": "Salvelinus alpinus",
     "category": "fish",
@@ -44,12 +44,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Arctic Char"
+    ]
   },
   {
     "id": "32",
-    "name": "atka mackerel",
+    "name": "Atka Mackerel",
     "display": "고등어",
     "latin": "Pleurogrammus monopterygius",
     "category": "fish",
@@ -92,12 +91,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Atka Mackerel"
+    ]
   },
   {
     "id": "33",
-    "name": "yellow irish lord",
+    "name": "Yellow Irish Lord",
     "display": "노란 물고기",
     "latin": "Hemilepidotus jordani",
     "category": "fish",
@@ -132,12 +130,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Yellow Irish Lord"
+    ]
   },
   {
     "id": "34",
-    "name": "lancetfish",
+    "name": "Lancetfish",
     "display": "돛란도어",
     "latin": "",
     "category": "fish",
@@ -172,12 +169,11 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": "Lancetfish"
+    ]
   },
   {
     "id": "35",
-    "name": "steelhead",
+    "name": "Steelhead",
     "display": "무지개송어",
     "latin": "Oncorhynchus mykiss",
     "category": "fish",
@@ -221,12 +217,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Steelhead"
+    ]
   },
   {
     "id": "36",
-    "name": "silver salmon",
+    "name": "Silver Salmon",
     "display": "은 연어",
     "latin": "Oncorhynchus kisutch",
     "category": "fish",
@@ -270,13 +265,12 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Silver Salmon"
+    ]
   },
   {
     "id": "37",
-    "name": "rougheye rockfish",
-    "display": "흥어 물고기",
+    "name": "Rougheye Rockfish",
+    "display": "홍어 물고기",
     "latin": "Sebastes aleutianus",
     "category": "fish",
     "rarity": "common",
@@ -319,12 +313,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Rougheye Rockfish"
+    ]
   },
   {
     "id": "38",
-    "name": "pacific herring",
+    "name": "Pacific Herring",
     "display": "청어",
     "latin": "Clupea pallasii",
     "category": "fish",
@@ -355,12 +348,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/38.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Pacific Herring"
+    "shadowSpeeds": []
   },
   {
     "id": "39",
-    "name": "sockeye salmon",
+    "name": "Sockeye Salmon",
     "display": "홍연어",
     "latin": "Oncorhynchus gorbuscha",
     "category": "fish",
@@ -408,12 +400,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Sockeye Salmon"
+    ]
   },
   {
     "id": "310",
-    "name": "dolly varden",
+    "name": "Dolly Varden",
     "display": "곤들매기속",
     "latin": "Salvelinus malma",
     "category": "fish",
@@ -452,12 +443,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Dolly Varden"
+    ]
   },
   {
     "id": "311",
-    "name": "coalfish",
+    "name": "Coalfish",
     "display": "은대구",
     "latin": "Anoplopoma fimbria",
     "category": "fish",
@@ -500,12 +490,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Coalfish"
+    ]
   },
   {
     "id": "312",
-    "name": "chum salmon",
+    "name": "Chum Salmon",
     "display": "연어",
     "latin": "Oncorhynchus keta",
     "category": "fish",
@@ -544,12 +533,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Chum Salmon"
+    ]
   },
   {
     "id": "313",
-    "name": "capelin",
+    "name": "Capelin",
     "display": "열빙어",
     "latin": "Mallotus villosus",
     "category": "fish",
@@ -592,12 +580,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/313.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Capelin"
+    "shadowSpeeds": []
   },
   {
     "id": "314",
-    "name": "burbot",
+    "name": "Burbot",
     "display": "모오케",
     "latin": "Lota lota",
     "category": "fish",
@@ -633,12 +620,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Burbot"
+    ]
   },
   {
     "id": "315",
-    "name": "bigmouth sculpin",
+    "name": "Bigmouth Sculpin",
     "display": "큰 입 볼락",
     "latin": "Hemitripterus bolini",
     "category": "fish",
@@ -673,12 +659,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Bigmouth Sculpin"
+    ]
   },
   {
     "id": "316",
-    "name": "arctic greyling",
+    "name": "Arctic Greyling",
     "display": "아틱그레이링",
     "latin": "Thymallus arcticus",
     "category": "fish",
@@ -726,12 +711,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Arctic Greyling"
+    ]
   },
   {
     "id": "317",
-    "name": "humpback salmon",
+    "name": "Humpback Salmon",
     "display": "곱사 연어",
     "latin": "Oncorhynchus gorbuscha",
     "category": "fish",
@@ -767,12 +751,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Humpback Salmon"
+    ]
   },
   {
     "id": "318",
-    "name": "halibut",
+    "name": "Halibut",
     "display": "마설가자미",
     "latin": "Hippoglossus stenolepis",
     "category": "fish",
@@ -811,12 +794,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Halibut"
+    ]
   },
   {
     "id": "319",
-    "name": "blue lingcod",
+    "name": "Blue Lingcod",
     "display": "블루링코드",
     "latin": "Ophiodon elongatus",
     "category": "fish",
@@ -860,12 +842,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Blue Lingcod"
+    ]
   },
   {
     "id": "320",
-    "name": "spiny skate",
+    "name": "Spiny Skate",
     "display": "흰가오리",
     "latin": "Bathyraja spinosissima",
     "category": "fish",
@@ -909,12 +890,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Spiny Skate"
+    ]
   },
   {
     "id": "321",
-    "name": "wolf eel",
+    "name": "Wolf Eel",
     "display": "늑대장어",
     "latin": "Anarrhichthys ocellatus",
     "category": "fish",
@@ -958,12 +938,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Wolf Eel"
+    ]
   },
   {
     "id": "322",
-    "name": "king salmon",
+    "name": "King Salmon",
     "display": "왕연어",
     "latin": "Oncorhynchus tshawytscha",
     "category": "fish",
@@ -999,12 +978,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "King Salmon"
+    ]
   },
   {
     "id": "323",
-    "name": "salmon shark",
+    "name": "Salmon Shark",
     "display": "악상어",
     "latin": "Lamna ditropis",
     "category": "fish",
@@ -1043,12 +1021,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Salmon Shark"
+    ]
   },
   {
     "id": "324",
-    "name": "pacific sleeper shark",
+    "name": "Pacific Sleeper Shark",
     "display": "태평양슬리퍼상어",
     "latin": "Somniosus pacificus",
     "category": "fish",
@@ -1091,13 +1068,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Pacific Sleeper Shark"
+    ]
   },
   {
     "id": "325",
-    "name": "sunfish",
-    "display": "개복치",
+    "name": "Ocean Sunfish",
+    "display": "개복치속",
     "latin": "Lepomis microlophus",
     "category": "fish",
     "rarity": "epic",
@@ -1131,13 +1107,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/325.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "326",
-    "name": "kraken",
-    "display": "크라켄",
+    "name": "Kraken",
+    "display": "크라켄(Kraken)",
     "latin": "",
     "category": "monster",
     "rarity": "monster",
@@ -1179,7 +1154,6 @@
     "minigame": null,
     "image": "./assets/portraits/fish/326.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Kraken"
+    "shadowSpeeds": []
   }
 ]

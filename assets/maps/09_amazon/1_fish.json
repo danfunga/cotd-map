@@ -1,7 +1,7 @@
 [
   {
     "id": "704",
-    "name": "amazon pellona",
+    "name": "Amazon pellona",
     "display": "아마존 펠로나",
     "latin": "Pellona castelnaeana",
     "category": "fish",
@@ -37,12 +37,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Amazon Pellona"
+    ]
   },
   {
     "id": "759",
-    "name": "tucunaré",
+    "name": "Tucunaré",
     "display": "배스 투나카레",
     "latin": "",
     "category": "fish",
@@ -77,12 +76,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Tucunaré"
+    ]
   },
   {
     "id": "760",
-    "name": "curimbata",
+    "name": "Curimbata",
     "display": "쿠림바타",
     "latin": "Prochilodus lineatus",
     "category": "fish",
@@ -117,12 +115,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Curimbata"
+    ]
   },
   {
     "id": "709",
-    "name": "corvina",
+    "name": "Corvina",
     "display": "코르비나",
     "latin": "Plagioscion squamosissimus",
     "category": "fish",
@@ -157,12 +154,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Corvina"
+    ]
   },
   {
     "id": "713",
-    "name": "jatuarana",
+    "name": "Jatuarana",
     "display": "자투아라나",
     "latin": "Brycon melanopterus",
     "category": "fish",
@@ -198,12 +194,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Jatuarana"
+    ]
   },
   {
     "id": "758",
-    "name": "redtail catfish",
+    "name": "Redtail catfish",
     "display": "레드테일 캣피쉬",
     "latin": "Ictalurus punctatus",
     "category": "fish",
@@ -238,12 +233,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Redtail Catfish"
+    ]
   },
   {
     "id": "725",
-    "name": "tiger sorubim",
+    "name": "Tiger sorubim",
     "display": "타이거 소루빔",
     "latin": "Pseudoplatystoma tigrinum",
     "category": "fish",
@@ -278,12 +272,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Tiger Sorubim"
+    ]
   },
   {
     "id": "703",
-    "name": "redhook myleus",
+    "name": "Redhook myleus",
     "display": "레드훅 마일러스",
     "latin": "Myloplus rubripinnis",
     "category": "fish",
@@ -318,12 +311,11 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": "Redhook Myleus"
+    ]
   },
   {
     "id": "724",
-    "name": "peacock bass",
+    "name": "Peacock bass",
     "display": "피콕 배스",
     "latin": "Cichla ocellaris",
     "category": "fish",
@@ -358,12 +350,11 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": "Peacock Bass"
+    ]
   },
   {
     "id": "721",
-    "name": "lambari",
+    "name": "Lambari",
     "display": "람바리",
     "latin": "Astyanax ajuricaba",
     "category": "fish",
@@ -398,12 +389,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/721.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Lambari"
+    "shadowSpeeds": []
   },
   {
     "id": "710",
-    "name": "zungaro",
+    "name": "Zungaro",
     "display": "준가로",
     "latin": "Zungaro zungaro",
     "category": "fish",
@@ -443,12 +433,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Zungaro"
+    ]
   },
   {
     "id": "714",
-    "name": "pacu",
+    "name": "Pacu",
     "display": "파쿠",
     "latin": "Piaractus mesopotamicus",
     "category": "fish",
@@ -487,12 +476,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Pacu"
+    ]
   },
   {
     "id": "706",
-    "name": "giant trahira",
+    "name": "Giant trahira",
     "display": "자이언트 트라히라",
     "latin": "Hoplias macrophthalmus",
     "category": "fish",
@@ -532,12 +520,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Giant Trahira"
+    ]
   },
   {
     "id": "702",
-    "name": "redeye piranha",
+    "name": "Redeye piranha",
     "display": "레드아이 피라냐",
     "latin": "Serrasalmus rhombeus",
     "category": "fish",
@@ -577,12 +564,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Redeye Piranha"
+    ]
   },
   {
     "id": "705",
-    "name": "red piranha",
+    "name": "Red piranha",
     "display": "레드 피라냐",
     "latin": "Pygocentrus nattereri",
     "category": "fish",
@@ -622,12 +608,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Red Piranha"
+    ]
   },
   {
     "id": "723",
-    "name": "speckled pavon",
+    "name": "Speckled pavon",
     "display": "스펙클드 파본",
     "latin": "Cichla temensis",
     "category": "fish",
@@ -662,12 +647,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Speckled Pavon"
+    ]
   },
   {
     "id": "711",
-    "name": "freshwater barracuda",
+    "name": "Freshwater Barracuda",
     "display": "담수 바라쿠다",
     "latin": "Ctenolucius hujeta",
     "category": "fish",
@@ -698,12 +682,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/711.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Freshwater Barracuda"
+    "shadowSpeeds": []
   },
   {
     "id": "715",
-    "name": "bicuda",
+    "name": "Bicuda",
     "display": "비쿠다",
     "latin": "Boulengerella cuvieri",
     "category": "fish",
@@ -738,12 +721,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Bicuda"
+    ]
   },
   {
     "id": "761",
-    "name": "arowana",
+    "name": "Arowana",
     "display": "아라와나",
     "latin": "",
     "category": "fish",
@@ -778,12 +760,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Arowana"
+    ]
   },
   {
     "id": "712",
-    "name": "amazon puffer",
+    "name": "Amazon puffer",
     "display": "아마존 퍼퍼",
     "latin": "Colomesus asellus",
     "category": "fish",
@@ -818,12 +799,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/712.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Amazon Puffer"
+    "shadowSpeeds": []
   },
   {
     "id": "701",
-    "name": "pirapitinga",
+    "name": "Pirapitinga",
     "display": "피라피팅가",
     "latin": "Piaractus brachypomus",
     "category": "fish",
@@ -858,12 +838,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Pirapitinga"
+    ]
   },
   {
     "id": "717",
-    "name": "electric eel",
+    "name": "Electric eel",
     "display": "일렉트릭 일",
     "latin": "Electrophorus electricus",
     "category": "fish",
@@ -899,12 +878,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Electric Eel"
+    ]
   },
   {
     "id": "757",
-    "name": "flatwhiskered catfish",
+    "name": "Flatwhiskered catfish",
     "display": "플랫휘스커드 캣피쉬",
     "latin": "Pinirampus pirinampu",
     "category": "fish",
@@ -939,12 +917,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Flatwhiskered Catfish"
+    ]
   },
   {
     "id": "720",
-    "name": "lau lau",
+    "name": "Lau Lau",
     "display": "라우 라우",
     "latin": "Brachyplatystoma filamentosum",
     "category": "fish",
@@ -975,12 +952,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/720.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Lau Lau"
+    "shadowSpeeds": []
   },
   {
     "id": "716",
-    "name": "rock-bacu",
+    "name": "Rock-bacu",
     "display": "록-바쿠",
     "latin": "Lithodoras dorsalis",
     "category": "fish",
@@ -1015,12 +991,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Rock-Bacu"
+    ]
   },
   {
     "id": "722",
-    "name": "cachama",
+    "name": "Cachama",
     "display": "카차마",
     "latin": "Colossoma macropomum",
     "category": "fish",
@@ -1055,12 +1030,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Cachama"
+    ]
   },
   {
     "id": "718",
-    "name": "arapaima",
+    "name": "Arapaima",
     "display": "아라파이마",
     "latin": "Arapaima gigas",
     "category": "fish",
@@ -1091,12 +1065,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/718.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Arapaima"
+    "shadowSpeeds": []
   },
   {
     "id": "719",
-    "name": "payara",
+    "name": "Payara",
     "display": "파야라",
     "latin": "Hydrolycus scomberoides",
     "category": "fish",
@@ -1131,12 +1104,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Payara"
+    ]
   },
   {
     "id": "777",
-    "name": "boiuna",
+    "name": "Boiúna",
     "display": "보이우나(Boiúna)",
     "latin": "",
     "category": "monster",
@@ -1179,7 +1151,6 @@
     "minigame": null,
     "image": "./assets/portraits/fish/777.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   }
 ]

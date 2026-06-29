@@ -2,7 +2,7 @@
   {
     "id": "DC-1",
     "name": "Ammonoidea",
-    "display": "암모니아과",
+    "display": "암모나이트",
     "latin": "Acanthoceras rotomagensis",
     "category": "creature",
     "rarity": "common",
@@ -34,8 +34,7 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "DC-2",
@@ -72,13 +71,12 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "DC-3",
     "name": "Cephalaspis",
-    "display": "두족류",
+    "display": "케팔라스피스",
     "latin": "Cephalaspis lyelli",
     "category": "creature",
     "rarity": "common",
@@ -110,8 +108,7 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "DC-4",
@@ -148,13 +145,12 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "DC-5",
     "name": "Ichthyosaurus",
-    "display": "어룡",
+    "display": "익티오사우루스",
     "latin": "Ichthyosaurus communis",
     "category": "creature",
     "rarity": "common",
@@ -186,8 +182,7 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "DC-7",
@@ -224,8 +219,7 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "DC-8",
@@ -260,13 +254,12 @@
     "minigame": null,
     "image": "./assets/portraits/creature/DC-8.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "DC-9",
     "name": "Orthoceras",
-    "display": "오르토케라스",
+    "display": "오르소케라스",
     "latin": "Orthoceras regulare",
     "category": "creature",
     "rarity": "common",
@@ -298,8 +291,7 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "DC-11",
@@ -334,13 +326,12 @@
     "minigame": null,
     "image": "./assets/portraits/creature/DC-11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "DC-10",
     "name": "Peloneustes",
-    "display": "펠로네스테스",
+    "display": "펠로뉴스테스",
     "latin": "Peloneustes philarchus",
     "category": "creature",
     "rarity": "rare",
@@ -372,8 +363,7 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "DC-12",
@@ -410,8 +400,7 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "DC-6",
@@ -448,7 +437,6 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   }
 ]

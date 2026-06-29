@@ -1,7 +1,7 @@
 [
   {
     "id": "c1-1",
-    "name": "north american river otter",
+    "name": "North American River Otter",
     "display": "북아메리카 수달",
     "latin": "Lontra canadensis",
     "category": "creature",
@@ -38,12 +38,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "North American River Otter"
+    "shadowSpeeds": []
   },
   {
     "id": "c1-2",
-    "name": "chinese mystery snail",
+    "name": "Chinese Mystery Snail",
     "display": "검은 달팽이",
     "latin": "Cipangopaludina chinensis",
     "category": "creature",
@@ -76,13 +75,12 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Chinese Mystery Snail"
+    "shadowSpeeds": []
   },
   {
     "id": "c1-3",
-    "name": "beaver",
-    "display": "아메리카 비버",
+    "name": "Beaver",
+    "display": "아메리카비버",
     "latin": "Castor canadensis",
     "category": "creature",
     "rarity": "common",
@@ -114,12 +112,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Beaver"
+    "shadowSpeeds": []
   },
   {
     "id": "c1-4",
-    "name": "bullfrog",
+    "name": "Bullfrog",
     "display": "황소개구리",
     "latin": "Lithobates catesbeianus",
     "category": "creature",
@@ -156,12 +153,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Bullfrog"
+    "shadowSpeeds": []
   },
   {
     "id": "c1-5",
-    "name": "eastern massasauga rattlesnake",
+    "name": "Eastern Massasauga Rattlesnake",
     "display": "꼬마방울뱀",
     "latin": "Sistrurus catenatus",
     "category": "creature",
@@ -194,12 +190,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Eastern Massasauga Rattlesnake"
+    "shadowSpeeds": []
   },
   {
     "id": "c1-6",
-    "name": "common musk turtle",
+    "name": "Common Musk Turtle",
     "display": "냄새거북",
     "latin": "Sternotherus odoratus",
     "category": "creature",
@@ -232,12 +227,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Common Musk Turtle"
+    "shadowSpeeds": []
   },
   {
     "id": "c1-7",
-    "name": "quagga mussels",
+    "name": "Quagga Mussels",
     "display": "콰가 홍합",
     "latin": "Dreissena rostriformis",
     "category": "creature",
@@ -274,12 +268,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Quagga Mussels"
+    "shadowSpeeds": []
   },
   {
     "id": "c1-8",
-    "name": "zebra mussels",
+    "name": "Zebra Mussels",
     "display": "말조개",
     "latin": "Dreissena polymorpha",
     "category": "creature",
@@ -324,12 +317,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Zebra Mussels"
+    "shadowSpeeds": []
   },
   {
     "id": "c1-9",
-    "name": "queen snake",
+    "name": "Queen Snake",
     "display": "퀸 스네이크",
     "latin": "Regina septemvittata",
     "category": "creature",
@@ -366,7 +358,6 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Queen Snake"
+    "shadowSpeeds": []
   }
 ]

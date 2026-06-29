@@ -1,7 +1,7 @@
 [
   {
     "id": "M01",
-    "name": "anchovy",
+    "name": "Anchovy",
     "display": "멸치",
     "latin": "Engraulis encrasicolus",
     "category": "fish",
@@ -40,12 +40,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Anchovy"
+    ]
   },
   {
     "id": "M02",
-    "name": "sardine",
+    "name": "Sardine",
     "display": "정어리",
     "latin": "Sardina pilchardus",
     "category": "fish",
@@ -88,12 +87,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Sardine"
+    ]
   },
   {
     "id": "M03",
-    "name": "brisling",
+    "name": "Brisling",
     "display": "멸치류",
     "latin": "Sprattus sprattus",
     "category": "fish",
@@ -128,12 +126,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Brisling"
+    ]
   },
   {
     "id": "M04",
-    "name": "gilt-head bream",
+    "name": "Gilt-head bream",
     "display": "도미",
     "latin": "Sparus aurata",
     "category": "fish",
@@ -168,13 +165,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Gilt-Head Bream"
+    ]
   },
   {
     "id": "M05",
-    "name": "striped red mullet",
-    "display": "줄무늬 양태",
+    "name": "Striped Red Mullet",
+    "display": "줄무늬양태",
     "latin": "Mullus surmuletus",
     "category": "fish",
     "rarity": "common",
@@ -220,12 +216,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Striped Red Mullet"
+    ]
   },
   {
     "id": "M06",
-    "name": "mudskipper",
+    "name": "Mudskipper",
     "display": "망둥어",
     "latin": "Oxudercinae",
     "category": "fish",
@@ -264,12 +259,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Mudskipper"
+    ]
   },
   {
     "id": "M08",
-    "name": "hardyhead silverside",
+    "name": "Hardyhead silverside",
     "display": "은치",
     "latin": "Atherinomorus lacunosus",
     "category": "fish",
@@ -304,12 +298,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Hardyhead Silverside"
+    ]
   },
   {
     "id": "M07",
-    "name": "blobfish",
+    "name": "Blobfish",
     "display": "블롭피쉬",
     "latin": "Psychrolutes marcidus",
     "category": "fish",
@@ -346,7 +339,6 @@
     "shadowSizes": [],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Blobfish"
+    ]
   }
 ]

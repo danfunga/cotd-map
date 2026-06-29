@@ -1,7 +1,7 @@
 [
   {
     "id": "c0-1",
-    "name": "peacock mantis shrimp",
+    "name": "Peacock Mantis Shrimp",
     "display": "광대사마귀 새우",
     "latin": "Odontodactylus scyllarus",
     "category": "creature",
@@ -42,12 +42,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Peacock Mantis Shrimp"
+    "shadowSpeeds": []
   },
   {
     "id": "c0-2",
-    "name": "flower tube sea anemona",
+    "name": "Flower Tube Sea Anemone",
     "display": "꽃관 말미잘",
     "latin": "Cerianthus filiformis",
     "category": "creature",
@@ -80,12 +79,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "c0-3",
-    "name": "red starfish",
+    "name": "Red Starfish",
     "display": "빨간 불가사리",
     "latin": "Fromia indica",
     "category": "creature",
@@ -122,12 +120,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Red Starfish"
+    "shadowSpeeds": []
   },
   {
     "id": "c0-4",
-    "name": "sand striker",
+    "name": "Sand Striker",
     "display": "왕털갯지렁이",
     "latin": "Eunice aphroditois",
     "category": "creature",
@@ -164,12 +161,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Sand Striker"
+    "shadowSpeeds": []
   },
   {
     "id": "c0-5",
-    "name": "mimic octopus",
+    "name": "Sand Striker",
     "display": "흉내문어",
     "latin": "Thaumoctopus mimicus",
     "category": "creature",
@@ -202,7 +198,6 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Mimic Octopus"
+    "shadowSpeeds": []
   }
 ]

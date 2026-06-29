@@ -19,13 +19,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc21.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "tc22",
     "name": "Tomato Seedling",
-    "display": "Tomato Seedling",
+    "display": "토마토 묘목",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -46,13 +45,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc22.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tomato Seedling"
+    "shadowSpeeds": []
   },
   {
     "id": "tc07",
     "name": "Nerd Glasses",
-    "display": "Nerd Glasses",
+    "display": "범생이 안경",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -69,13 +67,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc07.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Nerd Glasses"
+    "shadowSpeeds": []
   },
   {
     "id": "tc14",
     "name": "Black Water Lily",
-    "display": "Black Water Lily",
+    "display": "검은 수련",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -92,13 +89,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc14.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Black Water Lily"
+    "shadowSpeeds": []
   },
   {
     "id": "tc11",
     "name": "Jar of Sand",
-    "display": "Jar of Sand",
+    "display": "모래 병",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -115,13 +111,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Jar of Sand"
+    "shadowSpeeds": []
   },
   {
     "id": "tc06",
     "name": "FIN-MAN Floppy Disk",
-    "display": "FIN-MAN Floppy Disk",
+    "display": "FIN-MAN 플로피 디스크",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -138,13 +133,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc06.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "FIN-MAN Floppy Disk"
+    "shadowSpeeds": []
   },
   {
     "id": "tc19",
     "name": "Sail&Fish Console",
-    "display": "Sail&Fish Console",
+    "display": "Sail&Fish 콘솔",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -161,13 +155,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc19.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Sail & Fish Console"
+    "shadowSpeeds": []
   },
   {
     "id": "tc01",
     "name": "Four-pack Holder",
-    "display": "Four-pack Holder",
+    "display": "사팩 홀더",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -192,13 +185,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc01.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Four-Pack Holder"
+    "shadowSpeeds": []
   },
   {
     "id": "tc12",
     "name": "Laboratory Glassware",
-    "display": "Laboratory Glassware",
+    "display": "실험용 유리",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -215,13 +207,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc12.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Laboratory Glassware"
+    "shadowSpeeds": []
   },
   {
     "id": "tc20",
     "name": "Tamagotchi",
-    "display": "Tamagotchi",
+    "display": "다마고치",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -238,13 +229,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc20.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tamagotchi"
+    "shadowSpeeds": []
   },
   {
     "id": "tc02",
     "name": "Bebop’s Glasses",
-    "display": "Bebop’s Glasses",
+    "display": "비밥의 안경",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -261,13 +251,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc02.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Bebop’s Glasses"
+    "shadowSpeeds": []
   },
   {
     "id": "tc04",
     "name": "Broken Bottle",
-    "display": "Broken Bottle",
+    "display": "깨진병",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -288,13 +277,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc04.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Broken Bottle"
+    "shadowSpeeds": []
   },
   {
     "id": "tc18",
     "name": "Research Notes",
-    "display": "Research Notes",
+    "display": "연구 노트",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -311,13 +299,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc18.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Research Notes"
+    "shadowSpeeds": []
   },
   {
     "id": "tc15",
     "name": "Telephone",
-    "display": "Telephone",
+    "display": "전화기",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -334,13 +321,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc15.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Telephone"
+    "shadowSpeeds": []
   },
   {
     "id": "tc05",
     "name": "Damaged Crate",
-    "display": "Damaged Crate",
+    "display": "부서진 상자",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -361,13 +347,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc05.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Damaged Crate"
+    "shadowSpeeds": []
   },
   {
     "id": "tc03",
     "name": "Pager",
-    "display": "Pager",
+    "display": "호출기",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -384,13 +369,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc03.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Pager"
+    "shadowSpeeds": []
   },
   {
     "id": "tc23",
     "name": "Old Safe",
-    "display": "Old Safe",
+    "display": "오래된 금고",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -407,13 +391,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc23.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Old Safe"
+    "shadowSpeeds": []
   },
   {
     "id": "tc17",
     "name": "Sludge",
-    "display": "Sludge",
+    "display": "슬러지",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -434,13 +417,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc17.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Sludge"
+    "shadowSpeeds": []
   },
   {
     "id": "tc09",
     "name": "Warning Sign",
-    "display": "Warning Sign",
+    "display": "경고 표지판",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -457,13 +439,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc09.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Warning Sign"
+    "shadowSpeeds": []
   },
   {
     "id": "tc13",
     "name": "Leaky Canister",
-    "display": "Leaky Canister",
+    "display": "샌 누출 통",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -480,13 +461,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc13.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Leaky Canister"
+    "shadowSpeeds": []
   },
   {
     "id": "tc10",
     "name": "Headphones",
-    "display": "Headphones",
+    "display": "헤드폰",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -503,13 +483,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc10.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Headphones"
+    "shadowSpeeds": []
   },
   {
     "id": "tc25",
     "name": "Television",
-    "display": "Television",
+    "display": "텔레비전",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -526,13 +505,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc25.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Television"
+    "shadowSpeeds": []
   },
   {
     "id": "tc16",
     "name": "Old Radiator",
-    "display": "Old Radiator",
+    "display": "오래된 라디에이터",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -549,13 +527,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc16.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Old Radiator"
+    "shadowSpeeds": []
   },
   {
     "id": "tc08",
     "name": "Hairspray",
-    "display": "Hairspray",
+    "display": "헤어 스프레이",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -572,13 +549,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc08.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Hairspray"
+    "shadowSpeeds": []
   },
   {
     "id": "tc24",
     "name": "Safe Code",
-    "display": "Safe Code",
+    "display": "금고 비밀번호",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -595,13 +571,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc24.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Safe Code"
+    "shadowSpeeds": []
   },
   {
     "id": "tc26",
     "name": "Walkman",
-    "display": "Walkman",
+    "display": "워크맨",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -622,7 +597,6 @@
     "minigame": null,
     "image": "./assets/portraits/item/tc26.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Walkman"
+    "shadowSpeeds": []
   }
 ]

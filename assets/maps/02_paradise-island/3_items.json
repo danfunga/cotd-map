@@ -1,7 +1,7 @@
 [
   {
     "id": "T1-1",
-    "name": "empty bottle",
+    "name": "Empty Bottle",
     "display": "빈 병",
     "latin": "",
     "category": "item",
@@ -19,12 +19,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-1.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Empty Bottle"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-2",
-    "name": "plastic bag",
+    "name": "Plastic Bag",
     "display": "비닐 봉지",
     "latin": "",
     "category": "item",
@@ -42,12 +41,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-2.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Plastic Bag"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-3",
-    "name": "mask",
+    "name": "Mask",
     "display": "마스크",
     "latin": "",
     "category": "item",
@@ -69,12 +67,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-3.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Mask"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-4",
-    "name": "plastic bottle",
+    "name": "Plastic Bottle",
     "display": "플라스틱 병",
     "latin": "",
     "category": "item",
@@ -92,12 +89,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-4.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Plastic Bottle"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-5",
-    "name": "message in a bottle",
+    "name": "Message In A Bottle",
     "display": "병 속의 메시지",
     "latin": "",
     "category": "item",
@@ -115,12 +111,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-5.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Message In A Bottle"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-6",
-    "name": "can fish",
+    "name": "Can Fish",
     "display": "생선 통조림",
     "latin": "",
     "category": "item",
@@ -138,12 +133,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-6.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Can Fish"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-7",
-    "name": "straw hat",
+    "name": "Straw Hat",
     "display": "밀짚 모자",
     "latin": "",
     "category": "item",
@@ -161,12 +155,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-7.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Straw Hat"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-8",
-    "name": "gear",
+    "name": "Gear",
     "display": "장비",
     "latin": "",
     "category": "item",
@@ -184,12 +177,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-8.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Gear"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-9",
-    "name": "pinacolada drink",
+    "name": "Pinacolada Drink",
     "display": "피나콜라다 음료",
     "latin": "",
     "category": "item",
@@ -197,7 +189,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 643, "y": 620
+        "x": 643,
+        "y": 620
       }
     ],
     "notes": "charisma potions",
@@ -206,12 +199,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-9.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Pinacolada Drink"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-10",
-    "name": "old phone",
+    "name": "Old Phone",
     "display": "오래된 핸드폰",
     "latin": "",
     "category": "item",
@@ -229,12 +221,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-10.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Old Phone"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-11",
-    "name": "sea weed",
+    "name": "Sea Weed",
     "display": "해초",
     "latin": "",
     "category": "item",
@@ -256,12 +247,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Sea Weed"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-12",
-    "name": "kelp leaf",
+    "name": "Kelp Leaf",
     "display": "다시마",
     "latin": "",
     "category": "item",
@@ -279,12 +269,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-12.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Kelp Leaf"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-13",
-    "name": "flip flops",
+    "name": "Flip Flops",
     "display": "쪼리",
     "latin": "",
     "category": "item",
@@ -306,12 +295,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-13.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Flip Flops"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-14",
-    "name": "can",
+    "name": "Can",
     "display": "캔",
     "latin": "",
     "category": "item",
@@ -319,7 +307,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 697, "y": 514
+        "x": 697,
+        "y": 514
       },
       {
         "x": 282,
@@ -332,12 +321,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-14.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Can"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-15",
-    "name": "chips",
+    "name": "Chips",
     "display": "감자칩",
     "latin": "",
     "category": "item",
@@ -355,12 +343,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-15.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Chips"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-16",
-    "name": "lunch box",
+    "name": "Lunch Box",
     "display": "도시락 상자",
     "latin": "",
     "category": "item",
@@ -378,12 +365,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-16.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Lunch Box"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-17",
-    "name": "key with a skull",
+    "name": "Key With A Skull",
     "display": "해골 열쇠",
     "latin": "",
     "category": "item",
@@ -401,12 +387,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-17.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Key With A Skull"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-18",
-    "name": "chest with a skull",
+    "name": "Chest With A Skull",
     "display": "상자",
     "latin": "",
     "category": "item",
@@ -424,12 +409,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-18.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Chest With A Skull"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-19",
-    "name": "wilson ball",
+    "name": "Wilson ball",
     "display": "윌슨 공",
     "latin": "",
     "category": "item",
@@ -447,12 +431,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-19.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Wilson Ball"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-20",
-    "name": "rubber duck",
+    "name": "Rubber Duck",
     "display": "고무 오리",
     "latin": "",
     "category": "item",
@@ -470,12 +453,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-20.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Rubber Duck"
+    "shadowSpeeds": []
   },
   {
     "id": "T1-21",
-    "name": "fridge magnet",
+    "name": "Fridge Magnet",
     "display": "냉장고 자석",
     "latin": "",
     "category": "item",
@@ -497,7 +479,6 @@
     "minigame": null,
     "image": "./assets/portraits/item/T1-21.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Fridge Magnet"
+    "shadowSpeeds": []
   }
 ]

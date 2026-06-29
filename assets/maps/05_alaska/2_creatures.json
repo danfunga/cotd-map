@@ -1,7 +1,7 @@
 [
   {
     "id": "c3-1",
-    "name": "spot prawn",
+    "name": "Spot Prawn",
     "display": "알래스카 새우",
     "latin": "Pandalus platyceros",
     "category": "creature",
@@ -34,12 +34,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Spot Prawn"
+    "shadowSpeeds": []
   },
   {
     "id": "c3-2",
-    "name": "california sea cucumber",
+    "name": "California Sea Cucumber",
     "display": "자이언트 캘리포니아 해삼",
     "latin": "Apostichopus californicus",
     "category": "creature",
@@ -72,12 +71,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "California Sea Cucumber"
+    "shadowSpeeds": []
   },
   {
     "id": "c3-3",
-    "name": "moon jelly",
+    "name": "Moon Jelly",
     "display": "보름달물해파리",
     "latin": "Aurelia labiata",
     "category": "creature",
@@ -114,12 +112,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Moon Jelly"
+    "shadowSpeeds": []
   },
   {
     "id": "c3-4",
-    "name": "humboldt squid",
+    "name": "Humboldt Squid",
     "display": "아메리카대왕 오징어",
     "latin": "Dosidicus gigas",
     "category": "creature",
@@ -154,12 +151,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c3-4.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Humboldt Squid"
+    "shadowSpeeds": []
   },
   {
     "id": "c3-5",
-    "name": "rose star",
+    "name": "Rose Star",
     "display": "커먼 썬스타",
     "latin": "Crossaster papposus",
     "category": "creature",
@@ -192,12 +188,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Rose Star"
+    "shadowSpeeds": []
   },
   {
     "id": "c3-6",
-    "name": "razor clam",
+    "name": "Razor Clam",
     "display": "태평양 맛조개",
     "latin": "Siliqua patula",
     "category": "creature",
@@ -234,12 +229,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Razor Clam"
+    "shadowSpeeds": []
   },
   {
     "id": "c3-7",
-    "name": "walrus",
+    "name": "Walrus",
     "display": "바다코끼리",
     "latin": "Odobenus rosmarus",
     "category": "creature",
@@ -280,12 +274,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Walrus"
+    "shadowSpeeds": []
   },
   {
     "id": "c3-8",
-    "name": "red king crab",
+    "name": "Red King Crab",
     "display": "왕게",
     "latin": "Paralithodes camtschaticus",
     "category": "creature",
@@ -322,12 +315,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Red King Crab"
+    "shadowSpeeds": []
   },
   {
     "id": "c3-9",
-    "name": "polar bear",
+    "name": "Polar Bear",
     "display": "북극곰",
     "latin": "Ursus maritimus",
     "category": "creature",
@@ -362,12 +354,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c3-9.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Polar Bear"
+    "shadowSpeeds": []
   },
   {
     "id": "c3-10",
-    "name": "beluga",
+    "name": "Beluga Whale",
     "display": "흰돌고래",
     "latin": "Delphinapterus leucas",
     "category": "creature",
@@ -398,12 +389,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c3-10.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "c3-11",
-    "name": "narwal",
+    "name": "Narwhal",
     "display": "외뿔고래",
     "latin": "",
     "category": "creature",
@@ -438,12 +428,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c3-11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "c3-12",
-    "name": "adélie penguin",
+    "name": "Adélie Penguin",
     "display": "아델리펭귄",
     "latin": "Pygoscelis adeliae",
     "category": "creature",
@@ -476,12 +465,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Adélie Penguin"
+    "shadowSpeeds": []
   },
   {
     "id": "c3-13",
-    "name": "harbor seal",
+    "name": "Harbor Seal",
     "display": "물범속",
     "latin": "Phoca vitulina",
     "category": "creature",
@@ -518,12 +506,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Harbor Seal"
+    "shadowSpeeds": []
   },
   {
     "id": "c3-14",
-    "name": "killer whale",
+    "name": "Killer Whale",
     "display": "범고래",
     "latin": "Rhincodon typus",
     "category": "creature",
@@ -558,7 +545,6 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c3-14.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Killer Whale"
+    "shadowSpeeds": []
   }
 ]

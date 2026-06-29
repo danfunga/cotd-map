@@ -1,7 +1,7 @@
 [
   {
     "id": "c5-0",
-    "name": "common toad",
+    "name": "Common Toad",
     "display": "유럽두꺼비",
     "latin": "Bufo bufo",
     "category": "creature",
@@ -38,12 +38,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Common Toad"
+    "shadowSpeeds": []
   },
   {
     "id": "c5-1",
-    "name": "otter",
+    "name": "Otter",
     "display": "수달",
     "latin": "Lutra lutra",
     "category": "creature",
@@ -80,12 +79,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Otter"
+    "shadowSpeeds": []
   },
   {
     "id": "c5-2",
-    "name": "signal crayfish",
+    "name": "Signal crayfish",
     "display": "시그널 가재",
     "latin": "Pacifastacus leniusculus",
     "category": "creature",
@@ -130,12 +128,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Signal Crayfish"
+    "shadowSpeeds": []
   },
   {
     "id": "c5-3",
-    "name": "palmate newt",
+    "name": "Palmate Newt",
     "display": "크레스티드 뉴트",
     "latin": "Lissotriton helveticus",
     "category": "creature",
@@ -176,12 +173,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Palmate Newt"
+    "shadowSpeeds": []
   },
   {
     "id": "c5-4",
-    "name": "eurasian beaver",
+    "name": "Eurasian Beaver",
     "display": "유럽 비버",
     "latin": "Castor fiber",
     "category": "creature",
@@ -218,12 +214,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Eurasian Beaver"
+    "shadowSpeeds": []
   },
   {
     "id": "c5-5",
-    "name": "freshwater pearl mussels",
+    "name": "Freshwater Pearl Mussels",
     "display": "강진주조개속",
     "latin": "Margaritifera margaritifera",
     "category": "creature",
@@ -260,12 +255,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Freshwater Pearl Mussels"
+    "shadowSpeeds": []
   },
   {
     "id": "c5-6",
-    "name": "water vole",
+    "name": "Water Vole",
     "display": "유럽물밭쥐",
     "latin": "Arvicola amphibius",
     "category": "creature",
@@ -302,12 +296,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Water Vole"
+    "shadowSpeeds": []
   },
   {
     "id": "c5-7",
-    "name": "adder",
+    "name": "Adder",
     "display": "독사 같은 사람",
     "latin": "Vipera berus",
     "category": "creature",
@@ -344,12 +337,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Adder"
+    "shadowSpeeds": []
   },
   {
     "id": "c5-8",
-    "name": "common frog",
+    "name": "Common Frog",
     "display": "산개구리",
     "latin": "Rana temporaria",
     "category": "creature",
@@ -386,12 +378,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Common Frog"
+    "shadowSpeeds": []
   },
   {
     "id": "c5-9",
-    "name": "slow worm",
+    "name": "Slow Worm",
     "display": "굼벵이무족도마뱀",
     "latin": "Anguis fragilis",
     "category": "creature",
@@ -428,12 +419,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Slow Worm"
+    "shadowSpeeds": []
   },
   {
     "id": "c5-10",
-    "name": "water shrew",
+    "name": "Water Shrew",
     "display": "갯첨서",
     "latin": "Neomys fodiens",
     "category": "creature",
@@ -474,12 +464,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Water Shrew"
+    "shadowSpeeds": []
   },
   {
     "id": "c5-11",
-    "name": "natterjack toad",
+    "name": "Natterjack Toad",
     "display": "내터잭 두꺼비",
     "latin": "Epidalea calamita",
     "category": "creature",
@@ -510,12 +499,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c5-11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Natterjack Toad"
+    "shadowSpeeds": []
   },
   {
     "id": "c5-12",
-    "name": "great crested newt",
+    "name": "Great Crested Newt",
     "display": "노스 뉴트",
     "latin": "Triturus cristatus",
     "category": "creature",
@@ -554,7 +542,6 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c5-12.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Great Crested Newt"
+    "shadowSpeeds": []
   }
 ]

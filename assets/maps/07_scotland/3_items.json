@@ -1,7 +1,7 @@
 [
   {
     "id": "T6-35",
-    "name": "thistle",
+    "name": "Thistle",
     "display": "시스",
     "latin": "",
     "category": "item",
@@ -19,12 +19,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-35.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Thistle"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-1",
-    "name": "armor",
+    "name": "Armor",
     "display": "갑옷",
     "latin": "",
     "category": "item",
@@ -42,12 +41,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-1.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Armor"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-2",
-    "name": "bag pipes",
+    "name": "Bag Pipes",
     "display": "배관기",
     "latin": "",
     "category": "item",
@@ -65,12 +63,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-2.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Bag Pipes"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-3",
-    "name": "black pudding",
+    "name": "Black Pudding",
     "display": "검은 물고기 적절한 금액",
     "latin": "",
     "category": "item",
@@ -92,12 +89,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-3.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Black Pudding"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-4",
-    "name": "caber",
+    "name": "Caber",
     "display": "캐버",
     "latin": "",
     "category": "item",
@@ -115,12 +111,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-4.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Caber"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-5",
-    "name": "cauldron",
+    "name": "Cauldron",
     "display": "그릇",
     "latin": "",
     "category": "item",
@@ -138,12 +133,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-5.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Cauldron"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-6",
-    "name": "chess piece",
+    "name": "Chess piece",
     "display": "체스 말",
     "latin": "",
     "category": "item",
@@ -161,8 +155,7 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-6.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Chess Piece"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-7",
@@ -184,12 +177,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-7.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Chip Bag"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-8",
-    "name": "floppy disk 5.25 blue",
+    "name": "Floppy Disk 5.25 Blue",
     "display": "5.25 블루 플로피 디스크",
     "latin": "",
     "category": "item",
@@ -207,12 +199,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-8.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Floppy Disk 5.25 Blue"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-9",
-    "name": "golf ball",
+    "name": "Golf Ball",
     "display": "골프 공",
     "latin": "",
     "category": "item",
@@ -230,12 +221,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-9.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Golf Ball"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-10",
-    "name": "golf club",
+    "name": "Golf Club",
     "display": "골프 클럽",
     "latin": "",
     "category": "item",
@@ -253,12 +243,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-10.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Golf Club"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-11",
-    "name": "golf clubs bag",
+    "name": "Golf Clubs Bag",
     "display": "골프 클럽 가방",
     "latin": "",
     "category": "item",
@@ -276,12 +265,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Golf Clubs Bag"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-12",
-    "name": "haggis",
+    "name": "Haggis",
     "display": "하기스",
     "latin": "",
     "category": "item",
@@ -299,12 +287,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-12.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Haggis"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-13",
-    "name": "kilt",
+    "name": "Kilt",
     "display": "킬트",
     "latin": "",
     "category": "item",
@@ -322,12 +309,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-13.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Kilt"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-14",
-    "name": "medieval chest",
+    "name": "Medieval Chest",
     "display": "중세 상자",
     "latin": "",
     "category": "item",
@@ -349,12 +335,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-14.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Medieval Chest"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-15",
-    "name": "medieval key",
+    "name": "Medieval Key",
     "display": "중세 열쇠",
     "latin": "",
     "category": "item",
@@ -384,12 +369,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-15.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Medieval Key"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-16",
-    "name": "medieval mug",
+    "name": "Medieval Mug",
     "display": "중세시대 맥주",
     "latin": "",
     "category": "item",
@@ -407,12 +391,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-16.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Medieval Mug"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-17",
-    "name": "mistletoe",
+    "name": "Mistletoe",
     "display": "겨울맞이꽃",
     "latin": "",
     "category": "item",
@@ -434,12 +417,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-17.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Mistletoe"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-18",
-    "name": "old boot",
+    "name": "Old Boot",
     "display": "오래된 부츠",
     "latin": "",
     "category": "item",
@@ -457,12 +439,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-18.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Old Boot"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-19",
-    "name": "robby burns poetry",
+    "name": "Robby Burns Poetry",
     "display": "로비 번즈 시",
     "latin": "",
     "category": "item",
@@ -480,12 +461,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-19.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Robby Burns Poetry"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-20",
-    "name": "scottish hat",
+    "name": "Scottish Hat",
     "display": "스코틀랜드 모자",
     "latin": "",
     "category": "item",
@@ -503,12 +483,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-20.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Scottish Hat"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-21",
-    "name": "sporran",
+    "name": "Sporran",
     "display": "스포런",
     "latin": "",
     "category": "item",
@@ -526,12 +505,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-21.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Sporran"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-22",
-    "name": "stone block",
+    "name": "Stone Block",
     "display": "돌 블록",
     "latin": "",
     "category": "item",
@@ -549,12 +527,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-22.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Stone Block"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-23",
-    "name": "tea pot",
+    "name": "Tea Pot",
     "display": "차 타자",
     "latin": "",
     "category": "item",
@@ -576,12 +553,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-23.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tea Pot"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-24",
-    "name": "unicorn horn",
+    "name": "Unicorn Horn",
     "display": "유니콘 뿔",
     "latin": "",
     "category": "item",
@@ -599,8 +575,7 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-24.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Unicorn Horn"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-25",
@@ -622,12 +597,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-25.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Vinyl Record"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-26",
-    "name": "whisky scotch bottle",
+    "name": "Whisky Scotch Bottle",
     "display": "위스키 스칼트 병",
     "latin": "",
     "category": "item",
@@ -649,12 +623,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-26.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Whisky Scotch Bottle"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-27",
-    "name": "wooden barel",
+    "name": "Wooden Barrel",
     "display": "나무 맥주통",
     "latin": "",
     "category": "item",
@@ -672,12 +645,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-27.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "T6-28",
-    "name": "toursit camera",
+    "name": "Tourist Camera",
     "display": "관광지 카메라",
     "latin": "",
     "category": "item",
@@ -695,12 +667,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-28.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "T6-29",
-    "name": "weird stone",
+    "name": "Weird Stone",
     "display": "이상한 돌",
     "latin": "",
     "category": "item",
@@ -718,12 +689,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-29.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Weird Stone"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-30",
-    "name": "nessie toy",
+    "name": "Nessie Toy",
     "display": "네시 장난감",
     "latin": "",
     "category": "item",
@@ -741,12 +711,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-30.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Nessie Toy"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-31",
-    "name": "old mini yellow submarine",
+    "name": "Old mini yellow submarine",
     "display": "오래된 미니 노란 어뢰",
     "latin": "",
     "category": "item",
@@ -764,12 +733,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-31.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Old mini yellow submarine"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-32",
-    "name": "golden apple",
+    "name": "Golden Apple",
     "display": "황금 사과",
     "latin": "",
     "category": "item",
@@ -791,12 +759,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-32.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Golden Apple"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-33",
-    "name": "excalibur",
+    "name": "Excalibur",
     "display": "엑스칼리버",
     "latin": "",
     "category": "item",
@@ -814,12 +781,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-33.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Excalibur"
+    "shadowSpeeds": []
   },
   {
     "id": "T6-34",
-    "name": "fridge magnet",
+    "name": "Fridge Magnet",
     "display": "냉장고 자석",
     "latin": "",
     "category": "item",
@@ -837,7 +803,6 @@
     "minigame": null,
     "image": "./assets/portraits/item/T6-34.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Fridge Magnet"
+    "shadowSpeeds": []
   }
 ]

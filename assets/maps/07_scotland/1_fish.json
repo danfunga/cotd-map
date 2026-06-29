@@ -1,7 +1,7 @@
 [
   {
     "id": "523",
-    "name": "carp",
+    "name": "Carp",
     "display": "잉어",
     "latin": "Cyprinus carpio",
     "category": "fish",
@@ -45,12 +45,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Carp"
+    ]
   },
   {
     "id": "524",
-    "name": "sea trout",
+    "name": "Sea Trout",
     "display": "바다송어",
     "latin": "Salmo trutta",
     "category": "fish",
@@ -85,12 +84,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Sea Trout"
+    ]
   },
   {
     "id": "525",
-    "name": "grey trout",
+    "name": "Grey Trout",
     "display": "회붕어",
     "latin": "Salvelinus namaycush",
     "category": "fish",
@@ -130,12 +128,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Grey Trout"
+    ]
   },
   {
     "id": "526",
-    "name": "twaite shad",
+    "name": "Twaite Shad",
     "display": "미꾸라지",
     "latin": "Alosa fallax",
     "category": "fish",
@@ -170,12 +167,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Twaite Shad"
+    ]
   },
   {
     "id": "527",
-    "name": "powan",
+    "name": "Powan",
     "display": "포완",
     "latin": "Coregonus clupeoides",
     "category": "fish",
@@ -210,12 +206,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Powan"
+    ]
   },
   {
     "id": "51",
-    "name": "freshwater bream",
+    "name": "Freshwater Bream",
     "display": "민물도미",
     "latin": "Abramis brama",
     "category": "fish",
@@ -250,12 +245,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Freshwater Bream"
+    ]
   },
   {
     "id": "52",
-    "name": "three-spined stickleback",
+    "name": "Three-spined Stickleback",
     "display": "삼각조기",
     "latin": "Gasterosteus aculeatus",
     "category": "fish",
@@ -294,12 +288,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/52.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Three-spined Stickleback"
+    "shadowSpeeds": []
   },
   {
     "id": "53",
-    "name": "chub",
+    "name": "Chub",
     "display": "도미",
     "latin": "Squalius cephalus",
     "category": "fish",
@@ -338,12 +331,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Chub"
+    ]
   },
   {
     "id": "54",
-    "name": "tench",
+    "name": "Tench",
     "display": "텐치",
     "latin": "Tinca tinca",
     "category": "fish",
@@ -390,12 +382,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Tench"
+    ]
   },
   {
     "id": "55",
-    "name": "allis shad",
+    "name": "Allis Shad",
     "display": "숭어",
     "latin": "Alosa alosa",
     "category": "fish",
@@ -439,12 +430,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Allis Shad"
+    ]
   },
   {
     "id": "56",
-    "name": "northern pike",
+    "name": "Northern Pike",
     "display": "강꼬치고기",
     "latin": "Esox lucius",
     "category": "fish",
@@ -484,12 +474,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Northern Pike"
+    ]
   },
   {
     "id": "57",
-    "name": "rainbow trout",
+    "name": "Rainbow Trout",
     "display": "무지개송어",
     "latin": "Oncorhynchus mykiss",
     "category": "fish",
@@ -528,12 +517,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Rainbow Trout"
+    ]
   },
   {
     "id": "58",
-    "name": "gudgeon",
+    "name": "Gudgeon",
     "display": "미꾸리",
     "latin": "Gobio gobio",
     "category": "fish",
@@ -564,12 +552,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/58.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Gudgeon"
+    "shadowSpeeds": []
   },
   {
     "id": "59",
-    "name": "vendace",
+    "name": "Vendace",
     "display": "벤데이스",
     "latin": "Coregonus albula",
     "category": "fish",
@@ -613,12 +600,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Vendace"
+    ]
   },
   {
     "id": "510",
-    "name": "roach",
+    "name": "Roach",
     "display": "붕어",
     "latin": "Rutilus rutilus",
     "category": "fish",
@@ -661,12 +647,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Roach"
+    ]
   },
   {
     "id": "511",
-    "name": "rudd",
+    "name": "Rudd",
     "display": "올갱이",
     "latin": "Scardinius erythrophthalmus",
     "category": "fish",
@@ -709,12 +694,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Rudd"
+    ]
   },
   {
     "id": "512",
-    "name": "lamprey",
+    "name": "Lamprey",
     "display": "양태",
     "latin": "Petromyzon marinus",
     "category": "fish",
@@ -749,12 +733,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Lamprey"
+    ]
   },
   {
     "id": "513",
-    "name": "european perch",
+    "name": "European Perch",
     "display": "유라시아민물농어",
     "latin": "Perca fluviatilis",
     "category": "fish",
@@ -798,12 +781,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "European Perch"
+    ]
   },
   {
     "id": "514",
-    "name": "dace",
+    "name": "Dace",
     "display": "댐서리",
     "latin": "Leuciscus leuciscus",
     "category": "fish",
@@ -847,12 +829,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Dace"
+    ]
   },
   {
     "id": "515",
-    "name": "european smelt",
+    "name": "European Smelt",
     "display": "구피",
     "latin": "Osmerus eperlanus",
     "category": "fish",
@@ -887,12 +868,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/515.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "European Smelt"
+    "shadowSpeeds": []
   },
   {
     "id": "516",
-    "name": "european eel",
+    "name": "European Eel",
     "display": "유럽 뱀장어",
     "latin": "Anguilla anguilla",
     "category": "fish",
@@ -935,12 +915,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "European Eel"
+    ]
   },
   {
     "id": "517",
-    "name": "european grayling",
+    "name": "European Grayling",
     "display": "유럽 가자미",
     "latin": "Thymallus thymallus",
     "category": "fish",
@@ -983,12 +962,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "European Grayling"
+    ]
   },
   {
     "id": "518",
-    "name": "european whitefish",
+    "name": "European Whitefish",
     "display": "유럽 백어",
     "latin": "Coregonus lavaretus",
     "category": "fish",
@@ -1027,13 +1005,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "European Whitefish"
+    ]
   },
   {
     "id": "519",
-    "name": "bull trout",
-    "display": "황소 메기",
+    "name": "Bull Trout",
+    "display": "황소메기",
     "latin": "Salvelinus confluentus",
     "category": "fish",
     "rarity": "epic",
@@ -1071,12 +1048,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Bull Trout"
+    ]
   },
   {
     "id": "520",
-    "name": "scotish salmon",
+    "name": "Scottish Salmon",
     "display": "스코틀랜드 연어",
     "latin": "Oncorhynchus gorbuscha",
     "category": "fish",
@@ -1115,12 +1091,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "521",
-    "name": "common sturgeon",
+    "name": "Common Sturgeon",
     "display": "철갑상어",
     "latin": "Acipenser sturio",
     "category": "fish",
@@ -1163,13 +1138,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Common Sturgeon"
+    ]
   },
   {
     "id": "522",
-    "name": "nessie",
-    "display": "네시",
+    "name": "Nessie",
+    "display": "네시(Nessie)",
     "latin": "",
     "category": "monster",
     "rarity": "monster",
@@ -1219,7 +1193,6 @@
     "minigame": null,
     "image": "./assets/portraits/fish/522.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Nessie"
+    "shadowSpeeds": []
   }
 ]

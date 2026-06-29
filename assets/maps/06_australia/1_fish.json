@@ -1,7 +1,7 @@
 [
   {
     "id": "40",
-    "name": "black bream",
+    "name": "Black Bream",
     "display": "블루노즈",
     "latin": "Acanthopagrus butcheri",
     "category": "fish",
@@ -36,12 +36,11 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": "Black Bream"
+    ]
   },
   {
     "id": "41",
-    "name": "dusky flathead",
+    "name": "Dusky flathead",
     "display": "플랫 헤드",
     "latin": "Platycephalus fuscus",
     "category": "fish",
@@ -84,12 +83,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Dusky Flathead"
+    ]
   },
   {
     "id": "42",
-    "name": "red emperor snapper",
+    "name": "Red Emperor Snapper",
     "display": "레드 엠퍼러 스냅퍼",
     "latin": "Lutjanus sebae",
     "category": "fish",
@@ -133,12 +131,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Red Emperor Snapper"
+    ]
   },
   {
     "id": "43",
-    "name": "shortfin mako shark",
+    "name": "Shortfin Mako Shark",
     "display": "청상아리",
     "latin": "Isurus oxyrinchus",
     "category": "fish",
@@ -181,13 +178,12 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Shortfin Mako Shark"
+    ]
   },
   {
     "id": "44",
-    "name": "carpet shark",
-    "display": "카펫상어",
+    "name": "Carpet Shark",
+    "display": "카펫 상어",
     "latin": "Ginglymostoma cirratum",
     "category": "fish",
     "rarity": "common",
@@ -222,12 +218,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Carpet Shark"
+    ]
   },
   {
     "id": "45",
-    "name": "port jackson shark",
+    "name": "Port Jackson Shark",
     "display": "포트 잭슨 상어",
     "latin": "Heterodontus portusjacksoni",
     "category": "fish",
@@ -258,12 +253,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/45.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Port Jackson Shark"
+    "shadowSpeeds": []
   },
   {
     "id": "46",
-    "name": "spanish mackerel",
+    "name": "Spanish Mackerel",
     "display": "동갈삼치",
     "latin": "Scomberomorus commerson",
     "category": "fish",
@@ -311,12 +305,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Spanish Mackerel"
+    ]
   },
   {
     "id": "47",
-    "name": "albacore",
+    "name": "Albacore",
     "display": "날개다랑어",
     "latin": "Thunnus alalunga",
     "category": "fish",
@@ -363,12 +356,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Albacore"
+    ]
   },
   {
     "id": "48",
-    "name": "barramundi",
+    "name": "Barramundi",
     "display": "큰입선농어",
     "latin": "Lates calcarifer",
     "category": "fish",
@@ -415,12 +407,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Barramundi"
+    ]
   },
   {
     "id": "49",
-    "name": "unicorn leatherjacket",
+    "name": "Unicorn Leatherjacket",
     "display": "우스바하기",
     "latin": "Aluterus monoceros",
     "category": "fish",
@@ -455,12 +446,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Unicorn Leatherjacket"
+    ]
   },
   {
     "id": "410",
-    "name": "tailor",
+    "name": "Tailor",
     "display": "파란농어",
     "latin": "Pomatomus saltatrix",
     "category": "fish",
@@ -504,12 +494,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Tailor"
+    ]
   },
   {
     "id": "411",
-    "name": "leafy seadragon",
+    "name": "Leafy Seadragon",
     "display": "나뭇잎해룡",
     "latin": "Phycodurus eques",
     "category": "fish",
@@ -544,12 +533,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/411.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Leafy Seadragon"
+    "shadowSpeeds": []
   },
   {
     "id": "412",
-    "name": "rock flagtail",
+    "name": "Rock Flagtail",
     "display": "락 베이스",
     "latin": "Kuhlia rupestris",
     "category": "fish",
@@ -592,12 +580,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Rock Flagtail"
+    ]
   },
   {
     "id": "413",
-    "name": "black-saddler coral grouper",
+    "name": "Black-saddled Coral Grouper",
     "display": "산호하타",
     "latin": "Mycteroperca xenarcha",
     "category": "fish",
@@ -640,12 +627,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": ""
+    ]
   },
   {
     "id": "414",
-    "name": "common stargazer",
+    "name": "Common Stargazer",
     "display": "몽상가",
     "latin": "Kathetostoma laeve",
     "category": "fish",
@@ -684,12 +670,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Common Stargazer"
+    ]
   },
   {
     "id": "415",
-    "name": "skipjack tuna",
+    "name": "Skipjack Tuna",
     "display": "가다랑어",
     "latin": "Thunnus tonggol",
     "category": "fish",
@@ -736,12 +721,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Skipjack Tuna"
+    ]
   },
   {
     "id": "416",
-    "name": "fingermark",
+    "name": "Fingermark",
     "display": "황금 도미",
     "latin": "Lutjanus johnii",
     "category": "fish",
@@ -777,12 +761,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Fingermark"
+    ]
   },
   {
     "id": "417",
-    "name": "coral trout",
+    "name": "Coral trout",
     "display": "스지아라",
     "latin": "Plectropomus leopardus",
     "category": "fish",
@@ -825,12 +808,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Coral Trout"
+    ]
   },
   {
     "id": "418",
-    "name": "john dory",
+    "name": "John Dory",
     "display": "달고기",
     "latin": "Zeus faber",
     "category": "fish",
@@ -877,12 +859,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "John Dory"
+    ]
   },
   {
     "id": "419",
-    "name": "luderick",
+    "name": "Luderick",
     "display": "루데릭 피쉬",
     "latin": "Girella tricuspidata",
     "category": "fish",
@@ -917,12 +898,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Luderick"
+    ]
   },
   {
     "id": "420",
-    "name": "mangrove jack",
+    "name": "Mangrove jack",
     "display": "고마후에다이",
     "latin": "Caranx hippos",
     "category": "fish",
@@ -957,12 +937,11 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": "Mangrove Jack"
+    ]
   },
   {
     "id": "421",
-    "name": "golden trevally",
+    "name": "Golden Trevally",
     "display": "골든트레블리",
     "latin": "Gnathanodon speciosus",
     "category": "fish",
@@ -1005,12 +984,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Golden Trevally"
+    ]
   },
   {
     "id": "422",
-    "name": "queensland grouper",
+    "name": "Queensland grouper",
     "display": "대왕바리",
     "latin": "Epinephelus lanceolatus",
     "category": "fish",
@@ -1053,12 +1031,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Queensland Grouper"
+    ]
   },
   {
     "id": "423",
-    "name": "smooth oreo dory",
+    "name": "Smooth Oreo Dory",
     "display": "오레오 도리",
     "latin": "Pseudocyttus maculatus",
     "category": "fish",
@@ -1105,12 +1082,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Smooth Oreo Dory"
+    ]
   },
   {
     "id": "424",
-    "name": "swordfish",
+    "name": "Swordfish",
     "display": "황새치",
     "latin": "Xiphias gladius",
     "category": "fish",
@@ -1149,12 +1125,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Swordfish"
+    ]
   },
   {
     "id": "425",
-    "name": "spotted handfish",
+    "name": "Spotted handfish",
     "display": "핸드피쉬",
     "latin": "Brachionichthys hirsutus",
     "category": "fish",
@@ -1185,12 +1160,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/425.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Spotted Handfish"
+    "shadowSpeeds": []
   },
   {
     "id": "426",
-    "name": "giant trevally",
+    "name": "Giant Trevally",
     "display": "무명갈전갱이",
     "latin": "Caranx ignobilis",
     "category": "fish",
@@ -1234,12 +1208,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Giant Trevally"
+    ]
   },
   {
     "id": "427",
-    "name": "tiger shark",
+    "name": "Tiger Shark",
     "display": "뱀상어",
     "latin": "Galeocerdo cuvier",
     "category": "fish",
@@ -1279,12 +1252,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Tiger Shark"
+    ]
   },
   {
     "id": "428",
-    "name": "manta ray",
+    "name": "Manta ray",
     "display": "대왕쥐가오리",
     "latin": "Manta birostris",
     "category": "fish",
@@ -1319,12 +1291,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/428.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Manta Ray"
+    "shadowSpeeds": []
   },
   {
     "id": "429",
-    "name": "hoodwinker sunfish",
+    "name": "Hoodwinker sunfish",
     "display": "개복치속",
     "latin": "Mola tecta",
     "category": "fish",
@@ -1359,13 +1330,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/429.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Hoodwinker Sunfish"
+    "shadowSpeeds": []
   },
   {
     "id": "430",
-    "name": "bunyip",
-    "display": "버닙",
+    "name": "Bunyip",
+    "display": "버닙(Bunyip)",
     "latin": "",
     "category": "monster",
     "rarity": "monster",
@@ -1407,7 +1377,6 @@
     "minigame": null,
     "image": "./assets/portraits/fish/430.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Bunyip"
+    "shadowSpeeds": []
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "id": "c-700",
-    "name": "giant otter",
+    "name": "Giant Otter",
     "display": "자이언트 오타",
     "latin": "",
     "category": "creature",
@@ -38,12 +38,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Giant Otter"
+    "shadowSpeeds": []
   },
   {
     "id": "c-701",
-    "name": "capybara",
+    "name": "Capybara",
     "display": "카피바라",
     "latin": "",
     "category": "creature",
@@ -76,12 +75,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Capybara"
+    "shadowSpeeds": []
   },
   {
     "id": "c-702",
-    "name": "giant snail",
+    "name": "Giant Snail",
     "display": "자이언트스네일",
     "latin": "",
     "category": "creature",
@@ -114,12 +112,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Giant Snail"
+    "shadowSpeeds": []
   },
   {
     "id": "c-703",
-    "name": "green anaconda",
+    "name": "Green Anaconda",
     "display": "그린아나콘다",
     "latin": "",
     "category": "creature",
@@ -152,12 +149,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Green Anaconda"
+    "shadowSpeeds": []
   },
   {
     "id": "c-704",
-    "name": "matamata turtle",
+    "name": "Matamata turtle",
     "display": "마타마타거북",
     "latin": "",
     "category": "creature",
@@ -190,12 +186,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Matamata Turtle"
+    "shadowSpeeds": []
   },
   {
     "id": "c-705",
-    "name": "river turtle",
+    "name": "River Turtle",
     "display": "사우스아메리칸리버터틀",
     "latin": "",
     "category": "creature",
@@ -228,12 +223,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "River Turtle"
+    "shadowSpeeds": []
   },
   {
     "id": "c-706",
-    "name": "poison dart frog",
+    "name": "Poison Dart Frog",
     "display": "포이즌 다트 프로그",
     "latin": "",
     "category": "creature",
@@ -264,12 +258,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c-706.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Poison Dart Frog"
+    "shadowSpeeds": []
   },
   {
     "id": "c-707",
-    "name": "giant leaf frog",
+    "name": "Giant leaf frog",
     "display": "자이언트 리프 프로그",
     "latin": "",
     "category": "creature",
@@ -300,12 +293,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c-707.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Giant Leaf Frog"
+    "shadowSpeeds": []
   },
   {
     "id": "c-708",
-    "name": "axolotl",
+    "name": "Axolotl",
     "display": "악솔로틀",
     "latin": "",
     "category": "creature",
@@ -340,12 +332,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c-708.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Axolotl"
+    "shadowSpeeds": []
   },
   {
     "id": "c-709",
-    "name": "black caiman",
+    "name": "Black Caiman",
     "display": "블랙 카이만",
     "latin": "",
     "category": "creature",
@@ -376,12 +367,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c-709.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Black Caiman"
+    "shadowSpeeds": []
   },
   {
     "id": "c-710",
-    "name": "amazonian manatee",
+    "name": "Amazonian Manatee",
     "display": "아마존 매너티",
     "latin": "",
     "category": "creature",
@@ -416,13 +406,12 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c-710.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Amazonian Manatee"
+    "shadowSpeeds": []
   },
   {
     "id": "c-711",
-    "name": "amazon river dolphin",
-    "display": "아마존리버돌핀",
+    "name": "Amazon River Dolphin",
+    "display": "아마존 리버 돌핀",
     "latin": "",
     "category": "creature",
     "rarity": "epic",
@@ -452,7 +441,6 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c-711.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Amazon River Dolphin"
+    "shadowSpeeds": []
   }
 ]

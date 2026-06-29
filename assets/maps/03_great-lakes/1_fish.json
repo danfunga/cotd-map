@@ -1,7 +1,7 @@
 [
   {
     "id": "11",
-    "name": "alewife",
+    "name": "Alewife",
     "display": "에일와이프",
     "latin": "Alosa pseudoharengus",
     "category": "fish",
@@ -32,13 +32,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Alewife"
+    "shadowSpeeds": []
   },
   {
     "id": "12",
-    "name": "brook trout",
-    "display": "봄 송어",
+    "name": "Brook Trout",
+    "display": "봄송어",
     "latin": "Salvelinus fontinalis",
     "category": "fish",
     "rarity": "common",
@@ -76,13 +75,12 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": "Brook Trout"
+    ]
   },
   {
     "id": "13",
-    "name": "brown trout",
-    "display": "브라운 송어",
+    "name": "Brown Trout",
+    "display": "브라운송어",
     "latin": "Salmo trutta",
     "category": "fish",
     "rarity": "common",
@@ -121,12 +119,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Brown Trout"
+    ]
   },
   {
     "id": "14",
-    "name": "largemouth bass",
+    "name": "Largemouth Bass",
     "display": "큰입우럭",
     "latin": "Micropterus salmoides",
     "category": "fish",
@@ -165,12 +162,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Largemouth Bass"
+    ]
   },
   {
     "id": "15",
-    "name": "yellow perch",
+    "name": "Yellow Perch",
     "display": "엘로우퍼치",
     "latin": "Perca flavescens",
     "category": "fish",
@@ -210,12 +206,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Yellow Perch"
+    ]
   },
   {
     "id": "16",
-    "name": "white crappie",
+    "name": "White Crappie",
     "display": "실버 퍼치",
     "latin": "Pomoxis annularis",
     "category": "fish",
@@ -250,12 +245,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "White Crappie"
+    ]
   },
   {
     "id": "17",
-    "name": "white bass",
+    "name": "White Bass",
     "display": "화이트 베스",
     "latin": "Morone chrysops",
     "category": "fish",
@@ -295,12 +289,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "White Bass"
+    ]
   },
   {
     "id": "18",
-    "name": "walleye",
+    "name": "Walleye",
     "display": "월아이피시",
     "latin": "Sander vitreus",
     "category": "fish",
@@ -339,12 +332,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Walleye"
+    ]
   },
   {
     "id": "19",
-    "name": "sea lamprey",
+    "name": "Sea Lamprey",
     "display": "바다칠성장어",
     "latin": "Petromyzon marinus",
     "category": "fish",
@@ -387,13 +379,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Sea Lamprey"
+    ]
   },
   {
     "id": "110",
-    "name": "pink salmon",
-    "display": "곱사 연어",
+    "name": "Pink Salmon",
+    "display": "곱사연어",
     "latin": "Oncorhynchus gorbuscha",
     "category": "fish",
     "rarity": "common",
@@ -432,13 +423,12 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Pink Salmon"
+    ]
   },
   {
     "id": "111",
-    "name": "smallmouth bass",
-    "display": "작은입 우럭",
+    "name": "Smallmouth Bass",
+    "display": "작은입우럭",
     "latin": "Micropterus dolomieu",
     "category": "fish",
     "rarity": "common",
@@ -473,12 +463,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Smallmouth Bass"
+    ]
   },
   {
     "id": "112",
-    "name": "round whitefish",
+    "name": "Round Whitefish",
     "display": "둥근 흰살 생선",
     "latin": "Prosopium cylindraceum",
     "category": "fish",
@@ -513,12 +502,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Round Whitefish"
+    ]
   },
   {
     "id": "113",
-    "name": "redear sunfish",
+    "name": "Redear Sunfish",
     "display": "친애하는 물고기",
     "latin": "Lepomis microlophus",
     "category": "fish",
@@ -558,13 +546,12 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Redear Sunfish"
+    ]
   },
   {
     "id": "114",
-    "name": "channel catfish",
-    "display": "얼룩 메기",
+    "name": "Channel Catfish",
+    "display": "얼룩메기",
     "latin": "Ictalurus punctatus",
     "category": "fish",
     "rarity": "common",
@@ -606,12 +593,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Channel Catfish"
+    ]
   },
   {
     "id": "115",
-    "name": "bloater",
+    "name": "Bloater",
     "display": "송어",
     "latin": "Coregonus hoyi",
     "category": "fish",
@@ -642,13 +628,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/115.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Bloater"
+    "shadowSpeeds": []
   },
   {
     "id": "116",
-    "name": "coho salmon",
-    "display": "은 연어",
+    "name": "Coho Salmon",
+    "display": "은연어",
     "latin": "Oncorhynchus kisutch",
     "category": "fish",
     "rarity": "common",
@@ -690,13 +675,12 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Coho Salmon"
+    ]
   },
   {
     "id": "117",
-    "name": "chinook salmon",
-    "display": "왕 연어",
+    "name": "Chinook Salmon",
+    "display": "왕연어",
     "latin": "Oncorhynchus tshawytscha",
     "category": "fish",
     "rarity": "rare",
@@ -731,13 +715,12 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Chinook Salmon"
+    ]
   },
   {
     "id": "118",
-    "name": "muskie",
-    "display": "민물꼬치고기속",
+    "name": "Muskie",
+    "display": "민물꼬치고기",
     "latin": "Esox masquinongy",
     "category": "fish",
     "rarity": "rare",
@@ -772,12 +755,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Muskie"
+    ]
   },
   {
     "id": "119",
-    "name": "flathead catfish",
+    "name": "Flathead Catfish",
     "display": "납작머리 메기",
     "latin": "Pylodictis olivaris",
     "category": "fish",
@@ -821,13 +803,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Flathead Catfish"
+    ]
   },
   {
     "id": "120",
-    "name": "lake trout",
-    "display": "연못 송어",
+    "name": "Lake Trout",
+    "display": "연못송어",
     "latin": "Salvelinus namaycush",
     "category": "fish",
     "rarity": "rare",
@@ -840,7 +821,7 @@
       {
         "x": 2087,
         "y": 1607
-      },      
+      },
       {
         "x": 323,
         "y": 714
@@ -870,12 +851,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Lake Trout"
+    ]
   },
   {
     "id": "121",
-    "name": "longnose gar",
+    "name": "Longnose Gar",
     "display": "긴코가아",
     "latin": "Lepisosteus osseus",
     "category": "fish",
@@ -914,12 +894,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Longnose Gar"
+    ]
   },
   {
     "id": "122",
-    "name": "american eel",
+    "name": "American Eel",
     "display": "아메리카뱀장어",
     "latin": "Anguilla rostrata",
     "category": "fish",
@@ -954,12 +933,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "American Eel"
+    ]
   },
   {
     "id": "123",
-    "name": "goldfish",
+    "name": "Goldfish",
     "display": "금붕어",
     "latin": "Carassius auratus",
     "category": "fish",
@@ -990,12 +968,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/123.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Goldfish"
+    "shadowSpeeds": []
   },
   {
     "id": "124",
-    "name": "lake sturgeon",
+    "name": "Lake Sturgeon",
     "display": "호수 철갑상어",
     "latin": "Acipenser fulvescens",
     "category": "fish",
@@ -1030,13 +1007,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Lake Sturgeon"
+    ]
   },
   {
     "id": "125",
-    "name": "bessie",
-    "display": "베시",
+    "name": "Bessie",
+    "display": "베시(Bessie)",
     "latin": "",
     "category": "monster",
     "rarity": "monster",
@@ -1078,7 +1054,6 @@
     "minigame": null,
     "image": "./assets/portraits/fish/125.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Bessie"
+    "shadowSpeeds": []
   }
 ]

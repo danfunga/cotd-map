@@ -2,7 +2,7 @@
   {
     "id": "cc05",
     "name": "Snipcerra",
-    "display": "Snipcerra",
+    "display": "스닙세라",
     "latin": "Forficulocarcinus incisus",
     "category": "creature",
     "rarity": "common",
@@ -34,13 +34,12 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Snipcerra"
+    "shadowSpeeds": []
   },
   {
     "id": "cc02",
     "name": "Nimbusjelly",
-    "display": "Nimbusjelly",
+    "display": "님보젤리",
     "latin": "Nubimedusa vaporosa",
     "category": "creature",
     "rarity": "common",
@@ -74,13 +73,12 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Nimbusjelly"
+    ]
   },
   {
     "id": "cc04",
     "name": "Brineling",
-    "display": "Brineling",
+    "display": "브리넬링",
     "latin": "Acharipiscis crispulus",
     "category": "creature",
     "rarity": "common",
@@ -110,13 +108,12 @@
     "minigame": null,
     "image": "./assets/portraits/creature/cc04.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Brineling"
+    "shadowSpeeds": []
   },
   {
     "id": "cc01",
     "name": "Clangcrab",
-    "display": "Clangcrab",
+    "display": "클랭크랩",
     "latin": "Campanocarcinus alertus",
     "category": "creature",
     "rarity": "common",
@@ -150,13 +147,12 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Clangcrab"
+    ]
   },
   {
     "id": "cc09",
     "name": "V-Mouse",
-    "display": "V-Mouse",
+    "display": "V-마우스",
     "latin": "Vermus musculinus",
     "category": "creature",
     "rarity": "common",
@@ -190,13 +186,12 @@
     "minigame": null,
     "image": "./assets/portraits/creature/cc09.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "V-Mouse"
+    "shadowSpeeds": []
   },
   {
     "id": "cc08",
     "name": "Styrophyl",
-    "display": "Styrophyl",
+    "display": "스티로필",
     "latin": "Polyfragma levitans",
     "category": "creature",
     "rarity": "common",
@@ -230,13 +225,12 @@
     "minigame": null,
     "image": "./assets/portraits/creature/cc08.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Styrophyl"
+    "shadowSpeeds": []
   },
   {
     "id": "cc03",
     "name": "Ferrashark",
-    "display": "Ferrashark",
+    "display": "페라샤크",
     "latin": "Ferricarcharias durus",
     "category": "creature",
     "rarity": "rare",
@@ -270,13 +264,12 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Ferrashark"
+    ]
   },
   {
     "id": "cc06",
     "name": "Minethorn",
-    "display": "Minethorn",
+    "display": "마인쏜",
     "latin": "Minaspina titanica",
     "category": "creature",
     "rarity": "rare",
@@ -306,13 +299,12 @@
     "minigame": null,
     "image": "./assets/portraits/creature/cc06.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Minethorn"
+    "shadowSpeeds": []
   },
   {
     "id": "cc07",
     "name": "Sharokyle",
-    "display": "Sharokyle",
+    "display": "샤로카일",
     "latin": "Crococarcharias hybridus",
     "category": "creature",
     "rarity": "epic",
@@ -342,7 +334,6 @@
     "minigame": null,
     "image": "./assets/portraits/creature/cc07.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Sharokyle"
+    "shadowSpeeds": []
   }
 ]

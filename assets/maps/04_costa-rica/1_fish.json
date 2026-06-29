@@ -1,7 +1,7 @@
 [
   {
     "id": "21",
-    "name": "barracuda",
+    "name": "Barracuda",
     "display": "큰꼬치고기",
     "latin": "Sphyraena barracuda",
     "category": "fish",
@@ -48,12 +48,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Barracuda"
+    ]
   },
   {
     "id": "22",
-    "name": "roosterfish",
+    "name": "Roosterfish",
     "display": "물고기 수탉",
     "latin": "Nematistius pectoralis",
     "category": "fish",
@@ -92,12 +91,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Roosterfish"
+    ]
   },
   {
     "id": "23",
-    "name": "dorado",
+    "name": "Dorado",
     "display": "만새기",
     "latin": "Coryphaena hippurus",
     "category": "fish",
@@ -148,12 +146,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Dorado"
+    ]
   },
   {
     "id": "24",
-    "name": "pompano",
+    "name": "Pompano",
     "display": "플로리다 폼파노",
     "latin": "Trachinotus carolinus",
     "category": "fish",
@@ -196,12 +193,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Pompano"
+    ]
   },
   {
     "id": "25",
-    "name": "wahoo",
+    "name": "Wahoo",
     "display": "꼬치삼치",
     "latin": "Acanthocybium solandri",
     "category": "fish",
@@ -245,12 +241,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Wahoo"
+    ]
   },
   {
     "id": "26",
-    "name": "tripletail",
+    "name": "Tripletail",
     "display": "백미돔",
     "latin": "Lobotes surinamensis",
     "category": "fish",
@@ -289,12 +284,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Tripletail"
+    ]
   },
   {
     "id": "27",
-    "name": "tarpon",
+    "name": "Tarpon",
     "display": "대서양타폰",
     "latin": "Megalops atlanticus",
     "category": "fish",
@@ -333,12 +327,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Tarpon"
+    ]
   },
   {
     "id": "28",
-    "name": "yellowfin tuna",
+    "name": "Yellowfin Tuna",
     "display": "황다랑어",
     "latin": "Thunnus albacares",
     "category": "fish",
@@ -381,12 +374,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Yellowfin Tuna"
+    ]
   },
   {
     "id": "29",
-    "name": "sierra mackerel",
+    "name": "Sierra Mackerel",
     "display": "퍼시픽 시에라",
     "latin": "Scomberomorus sierra",
     "category": "fish",
@@ -425,12 +417,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Sierra Mackerel"
+    ]
   },
   {
     "id": "210",
-    "name": "pacific sailfish",
+    "name": "Pacific Sailfish",
     "display": "돛새치",
     "latin": "Istiophorus platypterus",
     "category": "fish",
@@ -470,12 +461,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Pacific Sailfish"
+    ]
   },
   {
     "id": "211",
-    "name": "jack crevalle",
+    "name": "Jack Crevalle",
     "display": "크레발레 잭",
     "latin": "Caranx hippos",
     "category": "fish",
@@ -518,12 +508,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Jack Crevalle"
+    ]
   },
   {
     "id": "212",
-    "name": "cubera snapper",
+    "name": "Cubera Snapper",
     "display": "쿠바 도미",
     "latin": "Lutjanus cyanopterus",
     "category": "fish",
@@ -562,13 +551,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Cubera Snapper"
+    ]
   },
   {
     "id": "213",
-    "name": "broomtail grouper",
-    "display": "맹그로브 잠바리아과",
+    "name": "Broomtail Grouper",
+    "display": "맹그로브 참바리아과",
     "latin": "Mycteroperca xenarcha",
     "category": "fish",
     "rarity": "common",
@@ -610,12 +598,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Broomtail Grouper"
+    ]
   },
   {
     "id": "214",
-    "name": "snook",
+    "name": "Snook",
     "display": "스눅",
     "latin": "Centropomus undecimalis",
     "category": "fish",
@@ -655,12 +642,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Snook"
+    ]
   },
   {
     "id": "215",
-    "name": "blue marlin",
+    "name": "Blue Marlin",
     "display": "대서양녹새치",
     "latin": "Makaira nigricans",
     "category": "fish",
@@ -703,12 +689,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/215.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Blue Marlin"
+    "shadowSpeeds": []
   },
   {
     "id": "216",
-    "name": "striped marlin",
+    "name": "Striped Marlin",
     "display": "청새치",
     "latin": "Kajikia audax",
     "category": "fish",
@@ -751,12 +736,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Striped Marlin"
+    ]
   },
   {
     "id": "217",
-    "name": "nurse shark",
+    "name": "Nurse Shark",
     "display": "대서양수염상어",
     "latin": "Ginglymostoma cirratum",
     "category": "fish",
@@ -796,12 +780,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Nurse Shark"
+    ]
   },
   {
     "id": "218",
-    "name": "black marlin",
+    "name": "Black Marlin",
     "display": "백새치",
     "latin": "Istiompax indica",
     "category": "fish",
@@ -840,12 +823,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/218.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Black Marlin"
+    "shadowSpeeds": []
   },
   {
     "id": "219",
-    "name": "bull shark",
+    "name": "Bull Shark",
     "display": "황소상어",
     "latin": "Carcharhinus leucas",
     "category": "fish",
@@ -880,12 +862,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/219.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Bull Shark"
+    "shadowSpeeds": []
   },
   {
     "id": "220",
-    "name": "hammerhead shark",
+    "name": "Hammerhead Shark",
     "display": "홍살귀상어",
     "latin": "Sphyrna lewini",
     "category": "fish",
@@ -924,12 +905,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Hammerhead Shark"
+    ]
   },
   {
     "id": "221",
-    "name": "whale shark",
+    "name": "Whale Shark",
     "display": "고래상어",
     "latin": "Rhincodon typus",
     "category": "fish",
@@ -960,13 +940,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/221.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Whale Shark"
+    "shadowSpeeds": []
   },
   {
     "id": "222",
-    "name": "whitetip shark",
-    "display": "장완홍상어",
+    "name": "Whitetip Shark",
+    "display": "장완흉상어",
     "latin": "Carcharhinus longimanus",
     "category": "fish",
     "rarity": "epic",
@@ -1005,13 +984,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Whitetip Shark"
+    ]
   },
   {
     "id": "223",
-    "name": "don pedro",
-    "display": "돈 페드로",
+    "name": "Don Pedro",
+    "display": "돈 페드로(Don Pedro)",
     "latin": "",
     "category": "monster",
     "rarity": "monster",
@@ -1049,7 +1027,6 @@
     "minigame": null,
     "image": "./assets/portraits/fish/223.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Don Pedro"
+    "shadowSpeeds": []
   }
 ]

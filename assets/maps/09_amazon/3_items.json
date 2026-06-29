@@ -1,7 +1,7 @@
 [
   {
     "id": "T8-1",
-    "name": "amazonian blowpipe",
+    "name": "Amazonian blowpipe",
     "display": "아마존 블로우파이프",
     "latin": "",
     "category": "item",
@@ -19,12 +19,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-1.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Amazonian Blowpipe"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-2",
-    "name": "amazonian honey",
+    "name": "Amazonian honey",
     "display": "아마존 꿀",
     "latin": "",
     "category": "item",
@@ -46,12 +45,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-2.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Amazonian Honey"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-3",
-    "name": "balsa timber",
+    "name": "Balsa timber",
     "display": "발사 목재",
     "latin": "",
     "category": "item",
@@ -73,12 +71,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-3.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Balsa Timber"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-4",
-    "name": "boné",
+    "name": "Boné",
     "display": "보네",
     "latin": "",
     "category": "item",
@@ -100,12 +97,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-4.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Boné"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-5",
-    "name": "bossa nova vinyl record",
+    "name": "Bossa nova vinyl record",
     "display": "보사 노바 비닐 레코드",
     "latin": "",
     "category": "item",
@@ -123,12 +119,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-5.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Bossa Nova Vinyl Record"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-6",
-    "name": "brazil cachaca",
+    "name": "Brazil cachaca",
     "display": "브라질 카샤카",
     "latin": "",
     "category": "item",
@@ -146,12 +141,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-6.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Brazil Cachaca"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-7",
-    "name": "brazil drums",
+    "name": "Brazil drums",
     "display": "브라질 드럼",
     "latin": "",
     "category": "item",
@@ -169,12 +163,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-7.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Brazil Drums"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-8",
-    "name": "brazil hammock",
+    "name": "Brazil hammock",
     "display": "브라질 해먹",
     "latin": "",
     "category": "item",
@@ -192,12 +185,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-8.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Brazil Hammock"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-9",
-    "name": "carnival costume",
+    "name": "Carnival costume",
     "display": "카니발 의상",
     "latin": "",
     "category": "item",
@@ -215,12 +207,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-9.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Carnival Costume"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-10",
-    "name": "\"cat's claw\" liana",
+    "name": "\"Cat's Claw\" Liana",
     "display": "\"캣츠클로\" 덩굴",
     "latin": "",
     "category": "item",
@@ -242,12 +233,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-10.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Cat's Claw Liana"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-11",
-    "name": "coffee bean bag",
+    "name": "Coffee bean bag",
     "display": "커피 콩 가방",
     "latin": "",
     "category": "item",
@@ -269,12 +259,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Coffee Bean Bag"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-12",
-    "name": "coffee tree branch",
+    "name": "Coffee tree branch",
     "display": "커피나무 가지",
     "latin": "",
     "category": "item",
@@ -300,12 +289,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-12.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Coffee Tree Branch"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-13",
-    "name": "decorated chest",
+    "name": "Decorated chest",
     "display": "장식된 상자",
     "latin": "",
     "category": "item",
@@ -327,12 +315,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-13.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Decorated Chest"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-14",
-    "name": "feather",
+    "name": "Feather",
     "display": "깃털",
     "latin": "",
     "category": "item",
@@ -354,12 +341,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-14.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Feather"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-15",
-    "name": "football cup",
+    "name": "Football cup",
     "display": "축구 컵",
     "latin": "",
     "category": "item",
@@ -377,12 +363,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-15.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Football Cup"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-16",
-    "name": "football jersey",
+    "name": "Football jersey",
     "display": "축구 저지",
     "latin": "",
     "category": "item",
@@ -404,12 +389,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-16.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Football Jersey"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-17",
-    "name": "green can",
+    "name": "Green can",
     "display": "녹색 캔",
     "latin": "",
     "category": "item",
@@ -431,12 +415,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-17.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Green Can"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-18",
-    "name": "kakao",
+    "name": "Kakao",
     "display": "카카오",
     "latin": "",
     "category": "item",
@@ -458,12 +441,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-18.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Kakao"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-19",
-    "name": "maracas",
+    "name": "Maracas",
     "display": "마라카스",
     "latin": "",
     "category": "item",
@@ -485,12 +467,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-19.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Maracas"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-20",
-    "name": "rusty axe head",
+    "name": "Rusty axe head",
     "display": "녹슨 도끼 머리",
     "latin": "",
     "category": "item",
@@ -508,12 +489,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-20.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Rusty Axe Head"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-21",
-    "name": "rusty barrel",
+    "name": "Rusty barrel",
     "display": "녹슨 배럴",
     "latin": "",
     "category": "item",
@@ -535,12 +515,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-21.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Rusty Barrel"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-22",
-    "name": "soccer ball",
+    "name": "Soccer ball",
     "display": "축구공",
     "latin": "",
     "category": "item",
@@ -558,12 +537,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-22.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Soccer Ball"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-23",
-    "name": "stone key",
+    "name": "Stone key",
     "display": "돌 열쇠",
     "latin": "",
     "category": "item",
@@ -589,12 +567,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-23.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Stone Key"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-24",
-    "name": "stonebreaker leaf",
+    "name": "Stonebreaker leaf",
     "display": "돌깨는풀 잎",
     "latin": "",
     "category": "item",
@@ -616,12 +593,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-24.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Stonebreaker Leaf"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-25",
-    "name": "wooden figurine",
+    "name": "Wooden figurine",
     "display": "목각 인형",
     "latin": "",
     "category": "item",
@@ -639,12 +615,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-25.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Wooden Figurine"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-26",
-    "name": "green yellow disk",
+    "name": "Green yellow disk",
     "display": "녹색 노란색 디스크",
     "latin": "",
     "category": "item",
@@ -666,12 +641,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-26.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Green Yellow Disk"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-27",
-    "name": "old gold coins",
+    "name": "Old gold coins",
     "display": "오래된 금화",
     "latin": "",
     "category": "item",
@@ -697,12 +671,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-27.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Old Gold Coins"
+    "shadowSpeeds": []
   },
   {
     "id": "T8-28",
-    "name": "fridge magnet",
+    "name": "Fridge Magnet",
     "display": "냉장고 자석",
     "latin": "",
     "category": "item",
@@ -720,7 +693,6 @@
     "minigame": null,
     "image": "./assets/portraits/item/T8-28.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Fridge Magnet"
+    "shadowSpeeds": []
   }
 ]

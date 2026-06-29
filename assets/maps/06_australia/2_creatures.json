@@ -1,7 +1,7 @@
 [
   {
     "id": "c4-0",
-    "name": "biscuit seastar",
+    "name": "Biscuit Seastar",
     "display": "붉은 불가사리",
     "latin": "Pentagonaster dubeni",
     "category": "creature",
@@ -38,12 +38,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Biscuit Seastar"
+    "shadowSpeeds": []
   },
   {
     "id": "c4-1",
-    "name": "pinctada",
+    "name": "Pinctada",
     "display": "진주 홍합",
     "latin": "Pinctada maxima",
     "category": "creature",
@@ -80,12 +79,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Pinctada"
+    "shadowSpeeds": []
   },
   {
     "id": "c4-2",
-    "name": "sand cucumber",
+    "name": "Sand Cucumber",
     "display": "해삼류",
     "latin": "Holothuria scabra",
     "category": "creature",
@@ -118,12 +116,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Sand Cucumber"
+    "shadowSpeeds": []
   },
   {
     "id": "c4-3",
-    "name": "portuguese man o'war",
+    "name": "Portuguese Man O' War",
     "display": "작은부레관해파리",
     "latin": "Physalia physalis",
     "category": "creature",
@@ -156,12 +153,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Portuguese Man O' War"
+    "shadowSpeeds": []
   },
   {
     "id": "c4-4",
-    "name": "purple sea urchin",
+    "name": "Purple Sea Urchin",
     "display": "분홍색 성게",
     "latin": "Heliocidaris erythrogramma",
     "category": "creature",
@@ -194,12 +190,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Purple Sea Urchin"
+    "shadowSpeeds": []
   },
   {
     "id": "c4-5",
-    "name": "box jelly fish",
+    "name": "Box Jelly Fish",
     "display": "호주 은바치 해파리",
     "latin": "Carassius auratus",
     "category": "creature",
@@ -252,12 +247,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Box Jelly Fish"
+    "shadowSpeeds": []
   },
   {
     "id": "c4-6",
-    "name": "sand anemone",
+    "name": "Sand Anemone",
     "display": "말미잘",
     "latin": "Oulactis muscosa",
     "category": "creature",
@@ -294,12 +288,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Sand Anemone"
+    "shadowSpeeds": []
   },
   {
     "id": "c4-7",
-    "name": "cauliflower coral",
+    "name": "Cauliflower Coral",
     "display": "콜리플라워 산호",
     "latin": "Pocillopora meandrina",
     "category": "creature",
@@ -336,12 +329,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Cauliflower Coral"
+    "shadowSpeeds": []
   },
   {
     "id": "c4-8",
-    "name": "sea cow",
+    "name": "Sea Cow",
     "display": "듀공",
     "latin": "Dugong dugon",
     "category": "creature",
@@ -372,12 +364,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c4-8.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Sea Cow"
+    "shadowSpeeds": []
   },
   {
     "id": "c4-9",
-    "name": "saltwater crocodile",
+    "name": "Saltwater crocodile",
     "display": "바다악어",
     "latin": "Crocodylus acutus",
     "category": "creature",
@@ -410,12 +401,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Saltwater Crocodile"
+    "shadowSpeeds": []
   },
   {
     "id": "c4-10",
-    "name": "giant cuttlefish",
+    "name": "Giant Cuttlefish",
     "display": "대왕오징어",
     "latin": "Sepia apama",
     "category": "creature",
@@ -454,12 +444,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c4-10.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Giant Cuttlefish"
+    "shadowSpeeds": []
   },
   {
     "id": "c4-11",
-    "name": "blue ringed octopus",
+    "name": "Blue ringed octopus",
     "display": "파란고리문어속",
     "latin": "Hapalochlaena lunulata",
     "category": "creature",
@@ -467,7 +456,8 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 690, "y": 274
+        "x": 690,
+        "y": 274
       }
     ],
     "notes": "",
@@ -489,7 +479,6 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c4-11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Blue Ringed Octopus"
+    "shadowSpeeds": []
   }
 ]

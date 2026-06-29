@@ -1,7 +1,7 @@
 [
   {
     "id": "T0-1",
-    "name": "turban shell",
+    "name": "Turban Shell",
     "display": "소라 껍질",
     "latin": "",
     "category": "item",
@@ -19,12 +19,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-1.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Turban Shell"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-2",
-    "name": "common seashell",
+    "name": "Common SeaShell",
     "display": "일반적인 바다 조개",
     "latin": "",
     "category": "item",
@@ -50,12 +49,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-2.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Common Seashell"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-22",
-    "name": "sailing rope",
+    "name": "Sailing Rope",
     "display": "범선용 밧줄",
     "latin": "",
     "category": "item",
@@ -77,12 +75,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-22.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Sailing Rope"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-3",
-    "name": "old plank",
+    "name": "Old Plank",
     "display": "오래된 판자",
     "latin": "",
     "category": "item",
@@ -108,12 +105,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-3.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Old Plank"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-4",
-    "name": "tiny pink shell",
+    "name": "Tiny Pink Shell",
     "display": "아주 작은 분홍색 조개",
     "latin": "",
     "category": "item",
@@ -139,12 +135,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-4.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tiny Pink Shell"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-5",
-    "name": "urchin shell",
+    "name": "Urchin Shell",
     "display": "성게 껍데기",
     "latin": "",
     "category": "item",
@@ -170,12 +165,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-5.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Urchin Shell"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-6",
-    "name": "striped beach shell",
+    "name": "Striped Beach Shell",
     "display": "줄무늬 해변 조개",
     "latin": "",
     "category": "item",
@@ -209,12 +203,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-6.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Striped Beach Seashell"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-7",
-    "name": "whale bone",
+    "name": "Whale Bone",
     "display": "고래 뼈",
     "latin": "",
     "category": "item",
@@ -236,12 +229,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-7.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Whale Bone"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-8",
-    "name": "sea grass",
+    "name": "Sea Grass",
     "display": "해초",
     "latin": "",
     "category": "item",
@@ -271,12 +263,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-8.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Sea Grass"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-9",
-    "name": "grey rock",
+    "name": "Grey Rock",
     "display": "회색 바위",
     "latin": "",
     "category": "item",
@@ -306,12 +297,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-9.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Grey Rock"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-10",
-    "name": "steering wheel",
+    "name": "Steering Wheel",
     "display": "조타륜",
     "latin": "",
     "category": "item",
@@ -329,12 +319,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-10.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Steering Wheel"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-11",
-    "name": "mysterious key",
+    "name": "Mysterious Key",
     "display": "수수께끼의 열쇠",
     "latin": "",
     "category": "item",
@@ -352,13 +341,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Mysterious Key"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-12",
-    "name": "wooden chest",
-    "display": "나무상자",
+    "name": "Wooden Chest",
+    "display": "나무 상자",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -375,12 +363,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-12.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Wooden Chest"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-13",
-    "name": "tourist brochure (paradise)",
+    "name": "Tourist Brochure (Paradise)",
     "display": "관광 안내 책자(Paradise)",
     "latin": "",
     "category": "item",
@@ -398,12 +385,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-13.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tourist Brochure-Paradise Island"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-14",
-    "name": "tourist brochure (great lakes)",
+    "name": "Tourist Brochure (Great lakes)",
     "display": "관광 안내 책자(Great Lakes)",
     "latin": "",
     "category": "item",
@@ -421,12 +407,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-14.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tourist Brochure-Great Lakes"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-15",
-    "name": "tourist brochure (costa rica)",
+    "name": "Tourist Brochure (Costa rica)",
     "display": "관광 안내 책자(Costa rica)",
     "latin": "",
     "category": "item",
@@ -444,12 +429,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-15.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tourist Brochure-Costa Rica"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-16",
-    "name": "tourist brochure (alaska)",
+    "name": "Tourist Brochure (Alaska)",
     "display": "관광 안내 책자(Alaska)",
     "latin": "",
     "category": "item",
@@ -467,12 +451,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-16.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tourist Brochure-Alaska"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-17",
-    "name": "tourist brochure (australia)",
+    "name": "Tourist Brochure (Australia)",
     "display": "관광 안내 책자(Australia)",
     "latin": "",
     "category": "item",
@@ -490,12 +473,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-17.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tourist Brochure-Austraila"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-18",
-    "name": "tourist brochure (scotland)",
+    "name": "Tourist Brochure (Scotland)",
     "display": "관광 안내 책자(Scotland)",
     "latin": "",
     "category": "item",
@@ -513,12 +495,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-18.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tourist Brochure-Scotland"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-19",
-    "name": "tourist brochure (thailand)",
+    "name": "Tourist Brochure (Thailand)",
     "display": "관광 안내 책자(Thailand)",
     "latin": "",
     "category": "item",
@@ -536,12 +517,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-19.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tourist Brochure-Thailand"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-20",
-    "name": "tourist brochure (amazon)",
+    "name": "Tourist Brochure (Amazon)",
     "display": "관광 안내 책자(Amazon)",
     "latin": "",
     "category": "item",
@@ -559,12 +539,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-20.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tourist Brochure-Amazon"
+    "shadowSpeeds": []
   },
   {
     "id": "T0-21",
-    "name": "fridge magnet",
+    "name": "Fridge Magnet",
     "display": "냉장고 자석",
     "latin": "",
     "category": "item",
@@ -582,7 +561,6 @@
     "minigame": null,
     "image": "./assets/portraits/item/T0-21.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Fridge Magnet"
+    "shadowSpeeds": []
   }
 ]

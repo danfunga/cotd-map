@@ -2,7 +2,7 @@
   {
     "id": "cb9",
     "name": "Wireviper",
-    "display": "와이어바이퍼",
+    "display": "전선살무사",
     "latin": "Vipera filamenta",
     "category": "creature",
     "rarity": "common",
@@ -37,7 +37,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Wireviper",
     "legacyLocations": []
   },
   {
@@ -78,7 +77,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Roll Slug",
     "legacyLocations": []
   },
   {
@@ -119,13 +117,12 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Blowslug",
     "legacyLocations": []
   },
   {
     "id": "cb4",
     "name": "Ironhelm Turtle",
-    "display": "철투구 거북",
+    "display": "철투구거북",
     "latin": "Testudo galeata",
     "category": "creature",
     "rarity": "common",
@@ -160,13 +157,12 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Ironhelm Turtle",
     "legacyLocations": []
   },
   {
     "id": "cb6",
     "name": "Luminajelly",
-    "display": "루미나젤리",
+    "display": "빛해파리",
     "latin": "Medusina phosphorata",
     "category": "creature",
     "rarity": "common",
@@ -201,7 +197,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Luminajelly",
     "legacyLocations": []
   },
   {
@@ -242,7 +237,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Stripeserpent",
     "legacyLocations": []
   },
   {
@@ -283,13 +277,12 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Crabphone",
     "legacyLocations": []
   },
   {
     "id": "cb5",
     "name": "Hulkwhale",
-    "display": "거대고래",
+    "display": "헐크고래",
     "latin": "Balaenorobustus viridis",
     "category": "creature",
     "rarity": "rare",
@@ -320,7 +313,6 @@
     "image": "./assets/portraits/creature/cb5.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Hulkwhale",
     "legacyLocations": []
   },
   {
@@ -361,7 +353,6 @@
     "image": "./assets/portraits/creature/cb2.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Megaplugtopus",
     "legacyLocations": []
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "id": "C-M01",
-    "name": "nudibranch",
+    "name": "Nudibranch",
     "display": "바다 달팽이",
     "latin": "Roboastra leonis",
     "category": "creature",
@@ -34,12 +34,11 @@
     "shadowSizes": [],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Nudibranch"
+    ]
   },
   {
     "id": "C-M02",
-    "name": "fire urchin",
+    "name": "Fire Urchin",
     "display": "불성게",
     "latin": "Asthenosoma varium",
     "category": "creature",
@@ -72,12 +71,11 @@
     "shadowSizes": [],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Fire Urchin"
+    ]
   },
   {
     "id": "C-M03",
-    "name": "worm snail",
+    "name": "Worm Snail",
     "display": "벌레조개",
     "latin": "Thylacodes squamigerus",
     "category": "creature",
@@ -118,12 +116,11 @@
     "shadowSizes": [],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Worm Snail"
+    ]
   },
   {
     "id": "C-M04",
-    "name": "common starfish",
+    "name": "Common Starfish",
     "display": "유럽불가사리",
     "latin": "Asterias rubens",
     "category": "creature",
@@ -156,12 +153,11 @@
     "shadowSizes": [],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Common Starfish"
+    ]
   },
   {
     "id": "C-M05",
-    "name": "hermit crab",
+    "name": "Hermit Crab",
     "display": "소라게",
     "latin": "Dardanus calidus",
     "category": "creature",
@@ -214,12 +210,11 @@
     "shadowSizes": [],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Hermit Crab"
+    ]
   },
   {
     "id": "C-M07",
-    "name": "longspine urchin",
+    "name": "Longspine Urchin",
     "display": "롱스파인 성게",
     "latin": "Astropyga Radiata",
     "category": "creature",
@@ -252,12 +247,11 @@
     "shadowSizes": [],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Longspine Urchin"
+    ]
   },
   {
     "id": "C-M08",
-    "name": "caribbean crab",
+    "name": "Caribbean Crab",
     "display": "카리비안 크랩",
     "latin": "Coenobita clypeatus",
     "category": "creature",
@@ -294,12 +288,11 @@
     "shadowSizes": [],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Caribbean Crab"
+    ]
   },
   {
     "id": "C-M06",
-    "name": "hermit crab",
+    "name": "Hermit Crab",
     "display": "소라게(깡통)",
     "latin": "Dardanus calidus",
     "category": "creature",
@@ -332,7 +325,6 @@
     "shadowSizes": [],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Hermit Crab Can"
+    ]
   }
 ]

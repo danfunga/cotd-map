@@ -1,7 +1,7 @@
 [
   {
     "id": "c6-0",
-    "name": "rainbow water snake",
+    "name": "Rainbow water snake",
     "display": "무지개 물뱀",
     "latin": "Enhydris enhydris",
     "category": "creature",
@@ -34,12 +34,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Rainbow Water Snake"
+    "shadowSpeeds": []
   },
   {
     "id": "c6-1",
-    "name": "green paddy frog",
+    "name": "Green Paddy Frog",
     "display": "일반적인 녹색 개구리",
     "latin": "Hylarana erythraea",
     "category": "creature",
@@ -47,7 +46,8 @@
     "timeBand": "night",
     "locations": [
       {
-        "x": 178, "y": 911
+        "x": 178,
+        "y": 911
       }
     ],
     "notes": "",
@@ -69,12 +69,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c6-1.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Green Paddy Frog"
+    "shadowSpeeds": []
   },
   {
     "id": "c6-2",
-    "name": "thai giant frog",
+    "name": "Thai Giant frog",
     "display": "태국 거대 개구리",
     "latin": "Limnonectes blythii",
     "category": "creature",
@@ -82,7 +81,8 @@
     "timeBand": "night",
     "locations": [
       {
-        "x": 182, "y": 908
+        "x": 182,
+        "y": 908
       }
     ],
     "notes": "",
@@ -106,12 +106,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Thai Giant Frog"
+    "shadowSpeeds": []
   },
   {
     "id": "c6-3",
-    "name": "chinese water dragon",
+    "name": "Chinese water dragon",
     "display": "차이니스 워터 드래곤",
     "latin": "Physignathus cocincinus",
     "category": "creature",
@@ -144,12 +143,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Chinese Water Dragon"
+    "shadowSpeeds": []
   },
   {
     "id": "c6-4",
-    "name": "water scorpion",
+    "name": "Water Scorpion",
     "display": "물벌레",
     "latin": "Lethocerus indicus",
     "category": "creature",
@@ -180,12 +178,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c6-4.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Water Scorpion"
+    "shadowSpeeds": []
   },
   {
     "id": "c6-8",
-    "name": "thai devil crab",
+    "name": "Thai Devil Crab",
     "display": "골리앗크랩",
     "latin": "Cardisoma carnifex",
     "category": "creature",
@@ -216,12 +213,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c6-8.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Thai Devil Crab"
+    "shadowSpeeds": []
   },
   {
     "id": "c6-9",
-    "name": "pomacea",
+    "name": "Pomacea",
     "display": "왕우렁이",
     "latin": "Pomacea canaliculata",
     "category": "creature",
@@ -252,12 +248,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c6-9.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Pomacea"
+    "shadowSpeeds": []
   },
   {
     "id": "c6-5",
-    "name": "giant asian pond turtle",
+    "name": "Giant asian pond turtle",
     "display": "아시아큰거북",
     "latin": "Heosemys grandis",
     "category": "creature",
@@ -265,7 +260,8 @@
     "timeBand": "day",
     "locations": [
       {
-        "x": 816, "y": 129
+        "x": 816,
+        "y": 129
       },
       {
         "x": 898,
@@ -297,12 +293,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Giant Asian Pond Turtle"
+    "shadowSpeeds": []
   },
   {
     "id": "c6-6",
-    "name": "asian small-clawed otter",
+    "name": "Asian small-clawed otter",
     "display": "작은발톱수달",
     "latin": "Aonyx cinereus",
     "category": "creature",
@@ -335,12 +330,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Asian Small-Clawed Otter"
+    "shadowSpeeds": []
   },
   {
     "id": "c6-7",
-    "name": "irrawady dolphin",
+    "name": "Irrawaddy Dolphin",
     "display": "강거두고래속",
     "latin": "Orcaella brevirostris",
     "category": "creature",
@@ -371,7 +365,6 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c6-7.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   }
 ]

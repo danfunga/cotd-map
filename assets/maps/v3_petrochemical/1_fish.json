@@ -2,7 +2,7 @@
   {
     "id": "c18",
     "name": "Swinklet",
-    "display": "Swinklet",
+    "display": "스윙클렛",
     "latin": "Susichthys rotundus",
     "category": "fish",
     "rarity": "common",
@@ -36,13 +36,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Swinklet"
+    ]
   },
   {
     "id": "c17",
     "name": "Pavonyx",
-    "display": "Pavonyx",
+    "display": "파보닉스",
     "latin": "Pavonichthys splendens",
     "category": "fish",
     "rarity": "common",
@@ -76,13 +75,12 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": "Pavonyx"
+    ]
   },
   {
     "id": "c12",
     "name": "Grungletide",
-    "display": "Grungletide",
+    "display": "그런지타이드",
     "latin": "Rudichthys sordidus",
     "category": "fish",
     "rarity": "common",
@@ -116,13 +114,12 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": "Grungletide"
+    ]
   },
   {
     "id": "c21",
     "name": "Harefin",
-    "display": "Harefin",
+    "display": "헤어핀",
     "latin": "Leporichthys saltans",
     "category": "fish",
     "rarity": "common",
@@ -156,13 +153,12 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": "Harefin"
+    ]
   },
   {
     "id": "c01",
     "name": "Balloonflare",
-    "display": "Balloonflare",
+    "display": "벌룬플레어",
     "latin": "Pneumichthys globulus",
     "category": "fish",
     "rarity": "common",
@@ -192,13 +188,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/c01.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Balloonflare"
+    "shadowSpeeds": []
   },
   {
     "id": "c23",
     "name": "Shooloop",
-    "display": "Shooloop",
+    "display": "슈루프",
     "latin": "Calceichthys deformis",
     "category": "fish",
     "rarity": "common",
@@ -232,13 +227,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Shooloop"
+    ]
   },
   {
     "id": "c02",
     "name": "Meliglow",
-    "display": "Meliglow",
+    "display": "멜리글로우",
     "latin": "Apichthys melissa",
     "category": "fish",
     "rarity": "common",
@@ -268,13 +262,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/c02.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Meliglow"
+    "shadowSpeeds": []
   },
   {
     "id": "c15",
     "name": "Moosecarver",
-    "display": "Moosecarver",
+    "display": "무스카버",
     "latin": "Alcescyprinus magnus",
     "category": "fish",
     "rarity": "common",
@@ -308,13 +301,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Moosecarver"
+    ]
   },
   {
     "id": "c13",
     "name": "Harmonelle",
-    "display": "Harmonelle",
+    "display": "하모넬",
     "latin": "Concordichthys sonorus",
     "category": "fish",
     "rarity": "common",
@@ -348,13 +340,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Harmonelle"
+    ]
   },
   {
     "id": "c06",
     "name": "Mooline",
-    "display": "Mooline",
+    "display": "무라인",
     "latin": "Bovinichthys placidus",
     "category": "fish",
     "rarity": "common",
@@ -388,13 +379,12 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Mooline"
+    ]
   },
   {
     "id": "c16",
     "name": "Olexis",
-    "display": "Olexis",
+    "display": "올렉시스",
     "latin": "Oleichthys lubricus",
     "category": "fish",
     "rarity": "common",
@@ -428,13 +418,12 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Olexis"
+    ]
   },
   {
     "id": "c20",
     "name": "Punkflare",
-    "display": "Punkflare",
+    "display": "펑크플레어",
     "latin": "Punkichthys erectus",
     "category": "fish",
     "rarity": "common",
@@ -468,13 +457,12 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": "Punkflare"
+    ]
   },
   {
     "id": "c05",
     "name": "Cresthorn",
-    "display": "Cresthorn",
+    "display": "크레스트혼",
     "latin": "Gallochthys crestatus",
     "category": "fish",
     "rarity": "common",
@@ -508,13 +496,12 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": "Cresthorn"
+    ]
   },
   {
     "id": "c09",
     "name": "Garlite",
-    "display": "Garlite",
+    "display": "가를리트",
     "latin": "Gariorhynchus acutus",
     "category": "fish",
     "rarity": "common",
@@ -548,13 +535,12 @@
     ],
     "shadowSpeeds": [
       2
-    ],
-    "mapCategory": "Garlite"
+    ]
   },
   {
     "id": "c04",
     "name": "Cirquelight",
-    "display": "Cirquelight",
+    "display": "서클라이트",
     "latin": "Circichthys ludicus",
     "category": "fish",
     "rarity": "common",
@@ -588,13 +574,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Cirquelight"
+    ]
   },
   {
     "id": "c07",
     "name": "Hartspike",
-    "display": "Hartspike",
+    "display": "하트스파이크",
     "latin": "Cervoesox gracilis",
     "category": "fish",
     "rarity": "common",
@@ -632,13 +617,12 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Hartspike"
+    ]
   },
   {
     "id": "c25",
     "name": "Arakelle",
-    "display": "Arakelle",
+    "display": "아라켈",
     "latin": "Araneichthys longipes",
     "category": "fish",
     "rarity": "common",
@@ -668,13 +652,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/c25.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "c11",
     "name": "Globulett",
-    "display": "Globulett",
+    "display": "글로뷰렛",
     "latin": "Globopterus inflatus",
     "category": "fish",
     "rarity": "common",
@@ -708,13 +691,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Globulett"
+    ]
   },
   {
     "id": "c03",
     "name": "Taurfin",
-    "display": "Taurfin",
+    "display": "타우르핀",
     "latin": "Taurichthys robustus",
     "category": "fish",
     "rarity": "rare",
@@ -744,13 +726,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/c03.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Taurfin"
+    "shadowSpeeds": []
   },
   {
     "id": "c24",
     "name": "Speartide",
-    "display": "Speartide",
+    "display": "스피어타이드",
     "latin": "Hastasalmo aculeatus",
     "category": "fish",
     "rarity": "rare",
@@ -780,13 +761,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/c24.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Speartide"
+    "shadowSpeeds": []
   },
   {
     "id": "c08",
     "name": "Elephara",
-    "display": "Elephara",
+    "display": "엘레파라",
     "latin": "Elephasichthys nasocornis",
     "category": "fish",
     "rarity": "rare",
@@ -816,13 +796,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/c08.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Elephara"
+    "shadowSpeeds": []
   },
   {
     "id": "c14",
     "name": "Ladybelle",
-    "display": "Ladybelle",
+    "display": "레이디벨",
     "latin": "Coccinellichthys punctatus",
     "category": "fish",
     "rarity": "rare",
@@ -852,13 +831,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/c14.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Ladybelle"
+    "shadowSpeeds": []
   },
   {
     "id": "c10",
     "name": "Giraffine",
-    "display": "Giraffine",
+    "display": "지라핀",
     "latin": "Giraffichthys alticollis",
     "category": "fish",
     "rarity": "epic",
@@ -888,13 +866,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/c10.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Giraffine"
+    "shadowSpeeds": []
   },
   {
     "id": "c22",
     "name": "Rhynorid",
-    "display": "Rhynorid",
+    "display": "리노리드",
     "latin": "Rhinichthys cornutus",
     "category": "fish",
     "rarity": "epic",
@@ -924,13 +901,12 @@
     "minigame": null,
     "image": "./assets/portraits/fish/c22.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Rhynorid"
+    "shadowSpeeds": []
   },
   {
     "id": "c19",
     "name": "Tailtress",
-    "display": "Tailtress",
+    "display": "테일트레스",
     "latin": "Caudichthys funiculus",
     "category": "fish",
     "rarity": "epic",
@@ -960,7 +936,6 @@
     "minigame": null,
     "image": "./assets/portraits/fish/c19.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tailtress"
+    "shadowSpeeds": []
   }
 ]

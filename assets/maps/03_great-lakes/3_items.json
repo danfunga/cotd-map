@@ -1,7 +1,7 @@
 [
   {
     "id": "T2-1",
-    "name": "baseball hat",
+    "name": "Baseball hat",
     "display": "야구 모자",
     "latin": "",
     "category": "item",
@@ -19,12 +19,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-1.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Baseball Hat"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-2",
-    "name": "al'capone cap",
+    "name": "Al'Capone cap",
     "display": "알 카포네 모자",
     "latin": "",
     "category": "item",
@@ -42,12 +41,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-2.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Al'Capone Cap"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-3",
-    "name": "beaver hat",
+    "name": "Beaver hat",
     "display": "비버 모자",
     "latin": "",
     "category": "item",
@@ -65,12 +63,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-3.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Beaver Hat"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-4",
-    "name": "colorful headdress",
+    "name": "Colorful headdress",
     "display": "인디언 머리 장식",
     "latin": "",
     "category": "item",
@@ -88,12 +85,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-4.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Colorful Headdress"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-5",
-    "name": "arrow",
+    "name": "Arrow",
     "display": "화살",
     "latin": "",
     "category": "item",
@@ -111,12 +107,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-5.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Arrow"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-6",
-    "name": "boom floppy disk",
+    "name": "Boom Floppy Disc",
     "display": "붐 플로피 디스크",
     "latin": "",
     "category": "item",
@@ -134,12 +129,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-6.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "T2-7",
-    "name": "basketball",
+    "name": "Basketball",
     "display": "농구공",
     "latin": "",
     "category": "item",
@@ -161,12 +155,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-7.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Basketball"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-8",
-    "name": "beverage can",
+    "name": "Beverage can",
     "display": "캔",
     "latin": "",
     "category": "item",
@@ -192,12 +185,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-8.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Beverage Can"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-9",
-    "name": "can soup",
+    "name": "Can Soup",
     "display": "수프 캔",
     "latin": "",
     "category": "item",
@@ -219,12 +211,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-9.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Can Soup"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-10",
-    "name": "chip bag",
+    "name": "Chip bag",
     "display": "감자칩 봉지",
     "latin": "",
     "category": "item",
@@ -250,12 +241,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-10.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Chip Bag"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-11",
-    "name": "cobra sunglass",
+    "name": "Cobra Sunglasses",
     "display": "코브라 선글라스",
     "latin": "",
     "category": "item",
@@ -277,12 +267,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-11.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "T2-12",
-    "name": "concrete shoe",
+    "name": "Concrete shoe",
     "display": "콘크리트 신발",
     "latin": "",
     "category": "item",
@@ -304,12 +293,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-12.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Concrete Shoe"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-13",
-    "name": "duct tape",
+    "name": "Duct Tape",
     "display": "덕트 테이프",
     "latin": "",
     "category": "item",
@@ -335,12 +323,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-13.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Duct Tape"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-14",
-    "name": "fish can",
+    "name": "Fish can",
     "display": "생선 통조림",
     "latin": "",
     "category": "item",
@@ -370,12 +357,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-14.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Fish Can"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-15",
-    "name": "glass bottle with XXX sign",
+    "name": "Glass bottle with XXX sign",
     "display": "XXX 사인이 있는 유리병",
     "latin": "",
     "category": "item",
@@ -393,12 +379,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-15.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Glass Bottle with XXX Sign"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-16",
-    "name": "green floppy disk",
+    "name": "Green floppy disc",
     "display": "초록색 플로피 디스크",
     "latin": "",
     "category": "item",
@@ -416,12 +401,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-16.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "T2-17",
-    "name": "grey cassette",
+    "name": "Grey Casette",
     "display": "회색 카세트",
     "latin": "",
     "category": "item",
@@ -443,12 +427,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-17.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "T2-18",
-    "name": "hot dog",
+    "name": "Hot Dog",
     "display": "핫도그",
     "latin": "",
     "category": "item",
@@ -466,12 +449,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-18.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Hot Dog"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-19",
-    "name": "meat can",
+    "name": "Meat Can",
     "display": "고기 통조림",
     "latin": "",
     "category": "item",
@@ -501,12 +483,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-19.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Meat Can"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-20",
-    "name": "old branch",
+    "name": "Old branch",
     "display": "낡은 나뭇가지",
     "latin": "",
     "category": "item",
@@ -532,12 +513,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-20.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Old Branch"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-21",
-    "name": "old tire",
+    "name": "Old tire",
     "display": "폐타이어",
     "latin": "",
     "category": "item",
@@ -563,13 +543,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-21.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Old Tire"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-22",
-    "name": "pipe",
-    "display": "곰방대",
+    "name": "Pipe",
+    "display": "파이프",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -586,8 +565,7 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-22.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Pipe"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-23",
@@ -613,13 +591,12 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-23.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Plastic Bottle"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-24",
-    "name": "toxic barrel",
-    "display": "독극물 배럴",
+    "name": "Toxic Barrel",
+    "display": "유독성 배럴",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -636,12 +613,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-24.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Toxic Barrel"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-25",
-    "name": "tribal chest",
+    "name": "Tribal Chest",
     "display": "부족 상자",
     "latin": "",
     "category": "item",
@@ -659,12 +635,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-25.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tribal Chest"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-26",
-    "name": "tribal key",
+    "name": "Tribal Key",
     "display": "부족 열쇠",
     "latin": "",
     "category": "item",
@@ -686,12 +661,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-26.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Tribal Key"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-27",
-    "name": "vegetable can",
+    "name": "Vegetable can",
     "display": "야채 통조림",
     "latin": "",
     "category": "item",
@@ -713,12 +687,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-27.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Vegetable Can"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-28",
-    "name": "video cassette",
+    "name": "Video Cassette",
     "display": "비디오 테이트",
     "latin": "",
     "category": "item",
@@ -736,12 +709,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-28.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Video Cassette"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-29",
-    "name": "vinyl record",
+    "name": "Vinyl Record",
     "display": "LP판",
     "latin": "",
     "category": "item",
@@ -759,12 +731,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-29.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Vinyl Record"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-30",
-    "name": "whited leaf",
+    "name": "Wilted leaf",
     "display": "시든 잎",
     "latin": "",
     "category": "item",
@@ -782,20 +753,20 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-30.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": ""
+    "shadowSpeeds": []
   },
   {
     "id": "T2-31",
-    "name": "mouse glove",
-    "display": "미키 마우스 장갑",
+    "name": "Mouse glove",
+    "display": "미키 마우스 글러브",
     "latin": "",
     "category": "item",
     "rarity": "common",
     "timeBand": "both",
     "locations": [
       {
-        "x": 1730, "y": 1233
+        "x": 1730,
+        "y": 1233
       }
     ],
     "notes": "",
@@ -804,12 +775,11 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-31.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Mouse Glove"
+    "shadowSpeeds": []
   },
   {
     "id": "T2-32",
-    "name": "fridge magnet",
+    "name": "Fridge Magnet",
     "display": "냉장고 자석",
     "latin": "",
     "category": "item",
@@ -827,7 +797,6 @@
     "minigame": null,
     "image": "./assets/portraits/item/T2-32.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Fridge Magnet"
+    "shadowSpeeds": []
   }
 ]

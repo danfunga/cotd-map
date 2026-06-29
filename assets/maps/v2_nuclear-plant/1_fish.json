@@ -2,7 +2,7 @@
   {
     "id": "b01",
     "name": "AppleGill",
-    "display": "사과길",
+    "display": "사과아가미",
     "latin": "Pomifex pisciculus",
     "category": "fish",
     "rarity": "common",
@@ -33,7 +33,6 @@
     "image": "./assets/portraits/fish/b01.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Applegill",
     "legacyLocations": [
       {
         "x": 362.0386719675123,
@@ -44,7 +43,7 @@
   {
     "id": "b02",
     "name": "Bat-eel",
-    "display": "박쥐장어",
+    "display": "배트장어",
     "latin": "Chiropteroanguilla nocturna",
     "category": "fish",
     "rarity": "common",
@@ -80,7 +79,6 @@
       1,
       2
     ],
-    "mapCategory": "Bat-eel",
     "legacyLocations": [
       {
         "x": 916.4103884177655,
@@ -127,7 +125,6 @@
       1,
       2
     ],
-    "mapCategory": "Bottlefin",
     "legacyLocations": [
       {
         "x": 1832.820776835531,
@@ -138,7 +135,7 @@
   {
     "id": "b04",
     "name": "Bread’n’Butterjaw",
-    "display": "브레드앤버터조",
+    "display": "빵과버터턱",
     "latin": "Panisbutyra piscis domesticus",
     "category": "fish",
     "rarity": "common",
@@ -173,7 +170,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Bread'n'Butterjaw",
     "legacyLocations": [
       {
         "x": 2716,
@@ -184,7 +180,7 @@
   {
     "id": "b05",
     "name": "Bulpgill",
-    "display": "불아가미",
+    "display": "전구아가미",
     "latin": "Bulbus aquatilis",
     "category": "fish",
     "rarity": "common",
@@ -215,7 +211,6 @@
     "image": "./assets/portraits/fish/b05.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Bulpgill",
     "legacyLocations": [
       {
         "x": 2300,
@@ -262,7 +257,6 @@
       1,
       2
     ],
-    "mapCategory": "Carrotfin",
     "legacyLocations": [
       {
         "x": 1452,
@@ -273,7 +267,7 @@
   {
     "id": "b07",
     "name": "Double Troutot",
-    "display": "더블송어",
+    "display": "이중송어톳",
     "latin": "Duplicatrotus absurdus",
     "category": "fish",
     "rarity": "common",
@@ -308,7 +302,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Double Troutot",
     "legacyLocations": [
       {
         "x": 1220,
@@ -319,7 +312,7 @@
   {
     "id": "b09",
     "name": "Forknose",
-    "display": "포크노즈",
+    "display": "포크코",
     "latin": "Tridentinasus forcipatus",
     "category": "fish",
     "rarity": "common",
@@ -354,7 +347,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Forknose",
     "legacyLocations": [
       {
         "x": 1800,
@@ -365,7 +357,7 @@
   {
     "id": "b10",
     "name": "Geigerfin",
-    "display": "가이거핀",
+    "display": "가이거지느러미",
     "latin": "Radiometrus piscis",
     "category": "fish",
     "rarity": "common",
@@ -400,7 +392,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Geigerfin",
     "legacyLocations": [
       {
         "x": 1227.5373721398464,
@@ -411,7 +402,7 @@
   {
     "id": "b12",
     "name": "Irradiated Cutfin",
-    "display": "조사된 컷핀",
+    "display": "방사선절단지느러미",
     "latin": "Xenoradiatus sectilis",
     "category": "fish",
     "rarity": "common",
@@ -446,7 +437,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "IrradiatedCutfin",
     "legacyLocations": [
       {
         "x": 2670.035205760403,
@@ -457,7 +447,7 @@
   {
     "id": "b13",
     "name": "Knifetail",
-    "display": "나이프테일",
+    "display": "칼꼬리",
     "latin": "Cultercauda acuta",
     "category": "fish",
     "rarity": "common",
@@ -492,7 +482,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Knifetail",
     "legacyLocations": [
       {
         "x": 1544.3212101114198,
@@ -503,7 +492,7 @@
   {
     "id": "b15",
     "name": "Oniongill",
-    "display": "양파길",
+    "display": "양파아가미",
     "latin": "Cepa marina lacrimosa",
     "category": "fish",
     "rarity": "common",
@@ -538,7 +527,6 @@
     "image": "./assets/portraits/fish/b15.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Oniongill",
     "legacyLocations": [
       {
         "x": 1555.6349186104044,
@@ -592,7 +580,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Potatofin",
     "legacyLocations": [
       {
         "x": 582.6559876977151,
@@ -606,8 +593,8 @@
   },
   {
     "id": "b17",
-    "name": "Rock'n'RollKingjaw",
-    "display": "Rock'n'Roll킹조",
+    "name": "Rock’n’ RollKingjaw",
+    "display": "록앤롤왕턱",
     "latin": "Roccus regnans rollifer",
     "category": "fish",
     "rarity": "common",
@@ -643,7 +630,6 @@
       1,
       2
     ],
-    "mapCategory": "Rock'n'RollKingjaw",
     "legacyLocations": [
       {
         "x": 537.4011537017761,
@@ -654,7 +640,7 @@
   {
     "id": "b18",
     "name": "Rug-ball-swimmer",
-    "display": "러그볼 수영선수",
+    "display": "러그볼수영꾼",
     "latin": "Tapetobolus piscis domesticus",
     "category": "fish",
     "rarity": "common",
@@ -689,7 +675,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Rug-Ball-Swimmer\t",
     "legacyLocations": [
       {
         "x": 429.92092296142084,
@@ -735,7 +720,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Sausagetail",
     "legacyLocations": [
       {
         "x": 1351.9881656286789,
@@ -781,7 +765,6 @@
     "shadowSpeeds": [
       0
     ],
-    "mapCategory": "Trianglegill",
     "legacyLocations": [
       {
         "x": 1431.1841251215722,
@@ -792,7 +775,7 @@
   {
     "id": "b08",
     "name": "Footsalmon",
-    "display": "연어",
+    "display": "발연어",
     "latin": "Pedosalmo ungulatus",
     "category": "fish",
     "rarity": "rare",
@@ -828,7 +811,6 @@
       1,
       2
     ],
-    "mapCategory": "Footsalmon",
     "legacyLocations": [
       {
         "x": 2302.3396795433987,
@@ -870,7 +852,6 @@
     "image": "./assets/portraits/fish/b14.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Magnetfin",
     "legacyLocations": [
       {
         "x": 2455.074744279693,
@@ -881,7 +862,7 @@
   {
     "id": "b21",
     "name": "Yellow Submarine Cod",
-    "display": "노란 잠수함 대구",
+    "display": "노란잠수함대구",
     "latin": "Submarinus flavomorpha",
     "category": "fish",
     "rarity": "rare",
@@ -912,7 +893,6 @@
     "image": "./assets/portraits/fish/b21.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "YellowSubmarineCod",
     "legacyLocations": [
       {
         "x": 1238.8510806388313,
@@ -922,8 +902,8 @@
   },
   {
     "id": "b22",
-    "name": "Devil mutanoid",
-    "display": "악마 돌연변이",
+    "name": "Devil Mutanoid",
+    "display": "악마뮤타노이드",
     "latin": "Devil mutanoid",
     "category": "fish",
     "rarity": "epic",
@@ -954,7 +934,6 @@
     "image": "./assets/portraits/fish/b22.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Devil Mutanoid",
     "legacyLocations": [
       {
         "x": 1849.7913395840083,
@@ -964,8 +943,8 @@
   },
   {
     "id": "b11",
-    "name": "Giant Bus Bass",
-    "display": "자이언트 버스 베이스",
+    "name": "GiantBusBass",
+    "display": "거대버스농어",
     "latin": "Omnibassus gigantarus",
     "category": "fish",
     "rarity": "epic",
@@ -996,7 +975,6 @@
     "image": "./assets/portraits/fish/b11.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Giant Bus Bass",
     "legacyLocations": [
       {
         "x": 786.3027406794408,

@@ -20,7 +20,6 @@
     "image": "./assets/portraits/item/tb1.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Bowling Ball",
     "legacyLocations": []
   },
   {
@@ -44,7 +43,6 @@
     "image": "./assets/portraits/item/tb2.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Bowling Pin",
     "legacyLocations": []
   },
   {
@@ -68,13 +66,12 @@
     "image": "./assets/portraits/item/tb3.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Bowling Shoe",
     "legacyLocations": []
   },
   {
     "id": "tb4",
     "name": "Dead Battery",
-    "display": "죽은 배터리",
+    "display": "방전된 배터리",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -96,12 +93,11 @@
     "image": "./assets/portraits/item/tb4.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Dead Battery",
     "legacyLocations": []
   },
   {
     "id": "tb5",
-    "name": "“Cat Eye” Glasses",
+    "name": "\"Cat Eye\" Glasses",
     "display": "\"캣아이\" 안경",
     "latin": "",
     "category": "item",
@@ -120,13 +116,12 @@
     "image": "./assets/portraits/item/tb5.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "“Cat Eye” Glasses",
     "legacyLocations": []
   },
   {
     "id": "tb6",
     "name": "Can of Dog Food",
-    "display": "개밥 캔",
+    "display": "강아지 사료 캔",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -148,13 +143,12 @@
     "image": "./assets/portraits/item/tb6.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Can of Dog Food",
     "legacyLocations": []
   },
   {
     "id": "tb7",
     "name": "Grandma’s Compote",
-    "display": "할머니의 설탕에 절인 과일",
+    "display": "할머니의 콩포트",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -172,7 +166,6 @@
     "image": "./assets/portraits/item/tb7.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Grandma’s Compote",
     "legacyLocations": []
   },
   {
@@ -196,13 +189,12 @@
     "image": "./assets/portraits/item/tb8.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Hamburger",
     "legacyLocations": []
   },
   {
     "id": "tb9",
-    "name": "Book “Understanding ATOM”",
-    "display": "'ATOM의 이해' 책",
+    "name": "Book \"Understanding ATOM\"",
+    "display": "책 \"원자 쉽게 배우기\"",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -220,13 +212,12 @@
     "image": "./assets/portraits/item/tb9.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Book “Understanding ATOM\"",
     "legacyLocations": []
   },
   {
     "id": "tb10",
     "name": "Unique Scientific Catcher",
-    "display": "독특한 과학 포수",
+    "display": "특수 과학 수집기",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -244,13 +235,12 @@
     "image": "./assets/portraits/item/tb10.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Unique Scientific Catcher",
     "legacyLocations": []
   },
   {
     "id": "tb11",
     "name": "Laboratory Fridge",
-    "display": "실험실 냉장고",
+    "display": "실험실용 냉장고",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -268,13 +258,12 @@
     "image": "./assets/portraits/item/tb11.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Laboratory Fridge",
     "legacyLocations": []
   },
   {
     "id": "tb12",
-    "name": "VHS Tape “Mudmax”",
-    "display": "VHS 테이프 '머드맥스'",
+    "name": "VHS Tape \"Mudmax\"",
+    "display": "VHS 테이프 \"Mudmax\"",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -292,7 +281,6 @@
     "image": "./assets/portraits/item/tb12.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "VHS Tape “Mudmax\"",
     "legacyLocations": []
   },
   {
@@ -316,13 +304,12 @@
     "image": "./assets/portraits/item/tb13.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Floppy Disk “POND\"",
     "legacyLocations": []
   },
   {
     "id": "tb14",
     "name": "Punch Card",
-    "display": "펀치 카드",
+    "display": "천공 카드",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -344,13 +331,12 @@
     "image": "./assets/portraits/item/tb14.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Punch Card",
     "legacyLocations": []
   },
   {
     "id": "tb25",
     "name": "Thermal heating device",
-    "display": "열 가열 장치",
+    "display": "열기 장치",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -368,7 +354,6 @@
     "image": "./assets/portraits/item/tb25.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Thermal Heating Device",
     "legacyLocations": []
   },
   {
@@ -392,13 +377,12 @@
     "image": "./assets/portraits/item/tb15.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Bottle of Rocket Cola",
     "legacyLocations": []
   },
   {
     "id": "tb16",
     "name": "Candy Dispenser",
-    "display": "캔디 디스펜서",
+    "display": "사탕 디스펜서",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -416,7 +400,6 @@
     "image": "./assets/portraits/item/tb16.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Candy Dispenser",
     "legacyLocations": []
   },
   {
@@ -440,13 +423,12 @@
     "image": "./assets/portraits/item/tb17.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Control Chip",
     "legacyLocations": []
   },
   {
     "id": "tb18",
     "name": "Lunchbox",
-    "display": "도시락",
+    "display": "도시락통",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -464,13 +446,12 @@
     "image": "./assets/portraits/item/tb18.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Lunchbox",
     "legacyLocations": []
   },
   {
     "id": "tb19",
     "name": "Lunchbox Key",
-    "display": "도시락 열쇠",
+    "display": "도시락통 열쇠",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -488,7 +469,6 @@
     "image": "./assets/portraits/item/tb19.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Lunchbox Key",
     "legacyLocations": []
   },
   {
@@ -512,7 +492,6 @@
     "image": "./assets/portraits/item/tb20.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Retro TV",
     "legacyLocations": []
   },
   {
@@ -536,7 +515,6 @@
     "image": "./assets/portraits/item/tb21.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Uranium Container",
     "legacyLocations": []
   },
   {
@@ -564,13 +542,12 @@
     "image": "./assets/portraits/item/tb22.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Uranophane",
     "legacyLocations": []
   },
   {
     "id": "tb23",
     "name": "Vacuum Cleaner",
-    "display": "진공청소기",
+    "display": "청소기",
     "latin": "",
     "category": "item",
     "rarity": "common",
@@ -588,7 +565,6 @@
     "image": "./assets/portraits/item/tb23.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Vacuum Cleaner",
     "legacyLocations": []
   },
   {
@@ -612,7 +588,6 @@
     "image": "./assets/portraits/item/tb24.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Retro Washing Machine",
     "legacyLocations": []
   }
 ]

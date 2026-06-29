@@ -24,7 +24,6 @@
     "image": "./assets/portraits/item/T9-1.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Can",
     "legacyLocations": [
       {
         "x": 911.4606409494597,
@@ -34,7 +33,7 @@
   },
   {
     "id": "T9-2",
-    "name": "cartridge",
+    "name": "Cartridge",
     "display": "카트리지",
     "latin": "",
     "category": "item",
@@ -53,7 +52,6 @@
     "image": "./assets/portraits/item/T9-2.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Cartridge",
     "legacyLocations": [
       {
         "x": 461.03362133362896,
@@ -63,7 +61,7 @@
   },
   {
     "id": "T9-3",
-    "name": "crowbar",
+    "name": "Crowbar",
     "display": "쇠지렛대",
     "latin": "",
     "category": "item",
@@ -82,7 +80,6 @@
     "image": "./assets/portraits/item/T9-3.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Crowbar",
     "legacyLocations": [
       {
         "x": 435.5777772109133,
@@ -92,7 +89,7 @@
   },
   {
     "id": "T9-4",
-    "name": "geiger counter",
+    "name": "Geiger Counter",
     "display": "가이거 계수기",
     "latin": "",
     "category": "item",
@@ -111,7 +108,6 @@
     "image": "./assets/portraits/item/T9-4.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Geiger Counter",
     "legacyLocations": [
       {
         "x": 755.1900423072327,
@@ -121,7 +117,7 @@
   },
   {
     "id": "T9-5",
-    "name": "glowing cristal",
+    "name": "Glowing Cristal",
     "display": "빛나는 크리스탈",
     "latin": "",
     "category": "item",
@@ -140,12 +136,11 @@
     "image": "./assets/portraits/item/T9-5.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "",
     "legacyLocations": []
   },
   {
     "id": "T9-6",
-    "name": "hacksaw",
+    "name": "Hacksaw",
     "display": "쇠톱",
     "latin": "",
     "category": "item",
@@ -164,7 +159,6 @@
     "image": "./assets/portraits/item/T9-6.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Hacksaw",
     "legacyLocations": [
       {
         "x": 377.5950211536164,
@@ -174,7 +168,7 @@
   },
   {
     "id": "T9-7",
-    "name": "heater",
+    "name": "Heater",
     "display": "히터",
     "latin": "",
     "category": "item",
@@ -193,7 +187,6 @@
     "image": "./assets/portraits/item/T9-7.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Heater",
     "legacyLocations": [
       {
         "x": 510.5310960166873,
@@ -203,7 +196,7 @@
   },
   {
     "id": "T9-8",
-    "name": "high radiation sign",
+    "name": "High Radiation Sign",
     "display": "고방사선 표시판",
     "latin": "",
     "category": "item",
@@ -222,7 +215,6 @@
     "image": "./assets/portraits/item/T9-8.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "High Radiation Sign",
     "legacyLocations": [
       {
         "x": 585.4844148224613,
@@ -232,7 +224,7 @@
   },
   {
     "id": "T9-9",
-    "name": "laboratory equipment",
+    "name": "Laboratory equipment",
     "display": "실험 장비",
     "latin": "",
     "category": "item",
@@ -251,7 +243,6 @@
     "image": "./assets/portraits/item/T9-9.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Laboratory Equipment",
     "legacyLocations": [
       {
         "x": 276.47875144394004,
@@ -261,7 +252,7 @@
   },
   {
     "id": "T9-10",
-    "name": "manhole cover",
+    "name": "Manhole Cover",
     "display": "맨홀 뚜껑",
     "latin": "",
     "category": "item",
@@ -280,7 +271,6 @@
     "image": "./assets/portraits/item/T9-10.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Manhole Cover",
     "legacyLocations": [
       {
         "x": 362.74577874869885,
@@ -290,7 +280,7 @@
   },
   {
     "id": "T9-11",
-    "name": "mutated horsetail",
+    "name": "Mutated horsetail",
     "display": "돌연변이 물꼬리",
     "latin": "",
     "category": "item",
@@ -309,7 +299,6 @@
     "image": "./assets/portraits/item/T9-11.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Mutated Horsetail",
     "legacyLocations": [
       {
         "x": 125.86500705120545,
@@ -319,7 +308,7 @@
   },
   {
     "id": "T9-12",
-    "name": "ninja pizza box",
+    "name": "Ninja Pizza Box",
     "display": "닌자 피자 상자",
     "latin": "",
     "category": "item",
@@ -338,7 +327,6 @@
     "image": "./assets/portraits/item/T9-12.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Ninja Pizza Box",
     "legacyLocations": [
       {
         "x": 654.0737725975564,
@@ -348,7 +336,7 @@
   },
   {
     "id": "T9-13",
-    "name": "ninja pizza slice",
+    "name": "Ninja Pizza Slice",
     "display": "닌자 피자 조각",
     "latin": "",
     "category": "item",
@@ -367,7 +355,6 @@
     "image": "./assets/portraits/item/T9-13.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Ninja Pizza Slice",
     "legacyLocations": [
       {
         "x": 642.0529573173851,
@@ -377,7 +364,7 @@
   },
   {
     "id": "T9-14",
-    "name": "old battery",
+    "name": "Old Battery",
     "display": "오래된 배터리",
     "latin": "",
     "category": "item",
@@ -396,7 +383,6 @@
     "image": "./assets/portraits/item/T9-14.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Old Battery",
     "legacyLocations": [
       {
         "x": 169.70562748477138,
@@ -406,7 +392,7 @@
   },
   {
     "id": "T9-15",
-    "name": "pesticides",
+    "name": "Pesticides",
     "display": "살충제",
     "latin": "",
     "category": "item",
@@ -425,7 +411,6 @@
     "image": "./assets/portraits/item/T9-15.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Pesticides",
     "legacyLocations": [
       {
         "x": 424.2640687119285,
@@ -435,7 +420,7 @@
   },
   {
     "id": "T9-16",
-    "name": "phosphorus",
+    "name": "Phosphorus",
     "display": "인",
     "latin": "",
     "category": "item",
@@ -454,7 +439,6 @@
     "image": "./assets/portraits/item/T9-16.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Phosphorus",
     "legacyLocations": [
       {
         "x": 644.8813844421313,
@@ -483,7 +467,6 @@
     "image": "./assets/portraits/item/T9-17.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Pipe",
     "legacyLocations": [
       {
         "x": 909.3393206059002,
@@ -501,7 +484,7 @@
   },
   {
     "id": "T9-18",
-    "name": "pipe wrench",
+    "name": "Pipe Wrench",
     "display": "파이프 렌치",
     "latin": "",
     "category": "item",
@@ -520,7 +503,6 @@
     "image": "./assets/portraits/item/T9-18.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Pipe Wrench",
     "legacyLocations": [
       {
         "x": 207,
@@ -530,7 +512,7 @@
   },
   {
     "id": "T9-19",
-    "name": "prof. flux's notes",
+    "name": "Prof. Flux's Notes",
     "display": "플럭스 교수의 노트",
     "latin": "",
     "category": "item",
@@ -553,7 +535,6 @@
     "image": "./assets/portraits/item/T9-19.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Prof. Flux’s Notes",
     "legacyLocations": [
       {
         "x": 557.2001435749995,
@@ -567,7 +548,7 @@
   },
   {
     "id": "T9-20",
-    "name": "protective mask",
+    "name": "Protective Mask",
     "display": "보호 마스크",
     "latin": "",
     "category": "item",
@@ -586,7 +567,6 @@
     "image": "./assets/portraits/item/T9-20.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Protective Mask",
     "legacyLocations": [
       {
         "x": 963.0794359760778,
@@ -596,7 +576,7 @@
   },
   {
     "id": "T9-21",
-    "name": "protective suit",
+    "name": "Protective suit",
     "display": "보호복",
     "latin": "",
     "category": "item",
@@ -615,7 +595,6 @@
     "image": "./assets/portraits/item/T9-21.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Protective Suit",
     "legacyLocations": [
       {
         "x": 511.94530957906045,
@@ -625,7 +604,7 @@
   },
   {
     "id": "T9-22",
-    "name": "radioactive stone",
+    "name": "Radioactive Stone",
     "display": "방사성 돌",
     "latin": "",
     "category": "item",
@@ -644,7 +623,6 @@
     "image": "./assets/portraits/item/T9-22.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Radioactive Stone",
     "legacyLocations": [
       {
         "x": 692.2575387816299,
@@ -654,7 +632,7 @@
   },
   {
     "id": "T9-23",
-    "name": "red valve",
+    "name": "Red valve",
     "display": "빨간 밸브",
     "latin": "",
     "category": "item",
@@ -677,7 +655,6 @@
     "image": "./assets/portraits/item/T9-23.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Red Valve",
     "legacyLocations": [
       {
         "x": 535.2798333582165,
@@ -699,7 +676,7 @@
   },
   {
     "id": "T9-24",
-    "name": "research files vol.1",
+    "name": "Research Files vol.1",
     "display": "연구 파일 vol.1",
     "latin": "",
     "category": "item",
@@ -718,7 +695,6 @@
     "image": "./assets/portraits/item/T9-24.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Research Files Vol.1",
     "legacyLocations": [
       {
         "x": 526.0874452027913,
@@ -728,7 +704,7 @@
   },
   {
     "id": "T9-25",
-    "name": "research files vol.2",
+    "name": "Research Files vol.2",
     "display": "연구 파일 vol.2",
     "latin": "",
     "category": "item",
@@ -747,7 +723,6 @@
     "image": "./assets/portraits/item/T9-25.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Research Files Vol.2",
     "legacyLocations": [
       {
         "x": 145.6639969244288,
@@ -757,7 +732,7 @@
   },
   {
     "id": "T9-26",
-    "name": "research files vol.3",
+    "name": "Research Files vol.3",
     "display": "연구 파일 vol.3",
     "latin": "",
     "category": "item",
@@ -776,7 +751,6 @@
     "image": "./assets/portraits/item/T9-26.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Research Files Vol.3",
     "legacyLocations": [
       {
         "x": 899.4398256692884,
@@ -786,7 +760,7 @@
   },
   {
     "id": "T9-27",
-    "name": "research files vol.4",
+    "name": "Research Files vol.4",
     "display": "연구 파일 vol.4",
     "latin": "",
     "category": "item",
@@ -805,7 +779,6 @@
     "image": "./assets/portraits/item/T9-27.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Research Files Vol.4",
     "legacyLocations": [
       {
         "x": 794.7880220536794,
@@ -815,7 +788,7 @@
   },
   {
     "id": "T9-28",
-    "name": "sai knive",
+    "name": "Sai Knife",
     "display": "사이 나이프",
     "latin": "",
     "category": "item",
@@ -834,7 +807,6 @@
     "image": "./assets/portraits/item/T9-28.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Sai Knive",
     "legacyLocations": [
       {
         "x": 632.1534623807735,
@@ -844,7 +816,7 @@
   },
   {
     "id": "T9-29",
-    "name": "skateboard",
+    "name": "Skateboard",
     "display": "스케이트보드",
     "latin": "",
     "category": "item",
@@ -863,7 +835,6 @@
     "image": "./assets/portraits/item/T9-29.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Skateboard",
     "legacyLocations": [
       {
         "x": 545.8864350760147,
@@ -873,7 +844,7 @@
   },
   {
     "id": "T9-30",
-    "name": "sign",
+    "name": "Sign",
     "display": "표지판",
     "latin": "",
     "category": "item",
@@ -892,7 +863,6 @@
     "image": "./assets/portraits/item/T9-30.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Sign",
     "legacyLocations": [
       {
         "x": 781.352993211135,
@@ -902,7 +872,7 @@
   },
   {
     "id": "T9-31",
-    "name": "toxic algae",
+    "name": "Toxic Algae",
     "display": "유독성 조류",
     "latin": "",
     "category": "item",
@@ -921,7 +891,6 @@
     "image": "./assets/portraits/item/T9-31.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Toxic Algae",
     "legacyLocations": [
       {
         "x": 127.27922061357856,
@@ -935,7 +904,7 @@
   },
   {
     "id": "T9-32",
-    "name": "toxic branch",
+    "name": "Toxic Branch",
     "display": "유독성 가지",
     "latin": "",
     "category": "item",
@@ -954,7 +923,6 @@
     "image": "./assets/portraits/item/T9-32.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Toxic Branch",
     "legacyLocations": [
       {
         "x": 485.0752518939716,
@@ -983,7 +951,6 @@
     "image": "./assets/portraits/item/T9-33.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Toxic Barrel",
     "legacyLocations": [
       {
         "x": 168.29141392239833,
@@ -993,7 +960,7 @@
   },
   {
     "id": "T9-34",
-    "name": "venus flytrap",
+    "name": "Venus Flytrap",
     "display": "파리지옥",
     "latin": "",
     "category": "item",
@@ -1012,7 +979,6 @@
     "image": "./assets/portraits/item/T9-34.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Venus Flytrap",
     "legacyLocations": [
       {
         "x": 715.5920625607861,
@@ -1022,7 +988,7 @@
   },
   {
     "id": "T9-35",
-    "name": "water bottle",
+    "name": "Water Bottle",
     "display": "물병",
     "latin": "",
     "category": "item",
@@ -1049,7 +1015,6 @@
     "image": "./assets/portraits/item/T9-35.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Water Bottle",
     "legacyLocations": [
       {
         "x": 1088.5,
@@ -1071,7 +1036,7 @@
   },
   {
     "id": "T9-36",
-    "name": "wind turbine propeller blade",
+    "name": "Wind Turbine Propeller Blade",
     "display": "풍력 터빈 프로펠러 블레이드",
     "latin": "",
     "category": "item",
@@ -1090,7 +1055,6 @@
     "image": "./assets/portraits/item/T9-36.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Wind Turbine Propeller Blade",
     "legacyLocations": [
       {
         "x": 1034,
@@ -1100,7 +1064,7 @@
   },
   {
     "id": "T9-37",
-    "name": "wind turbine propeller hub",
+    "name": "Wind Turbine Propeller Hub",
     "display": "풍력 터빈 프로펠러 허브",
     "latin": "",
     "category": "item",
@@ -1119,7 +1083,6 @@
     "image": "./assets/portraits/item/T9-37.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "Wind Turbine Propeller Hub",
     "legacyLocations": [
       {
         "x": 172.53405460951763,
@@ -1133,7 +1096,7 @@
   },
   {
     "id": "T9-38",
-    "name": "wind turbine propeller dynamo",
+    "name": "Wind Turbine Dynamo",
     "display": "풍력 터빈 발전기",
     "latin": "",
     "category": "item",
@@ -1152,7 +1115,6 @@
     "image": "./assets/portraits/item/T9-38.png",
     "shadowSizes": [],
     "shadowSpeeds": [],
-    "mapCategory": "",
     "legacyLocations": []
   }
 ]

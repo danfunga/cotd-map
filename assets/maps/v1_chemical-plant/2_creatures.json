@@ -1,7 +1,7 @@
 [
   {
     "id": "c7-0",
-    "name": "toxurtle",
+    "name": "Toxurtle",
     "display": "독거북",
     "latin": "Toxochelys venenata",
     "category": "creature",
@@ -35,7 +35,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Toxurtle",
     "legacyLocations": [
       {
         "x": 306.88434303496166,
@@ -49,7 +48,7 @@
   },
   {
     "id": "c7-1",
-    "name": "lemon puffrog",
+    "name": "Lemon Pufffrog",
     "display": "레몬 부푼 개구리",
     "latin": "",
     "category": "creature",
@@ -87,12 +86,11 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "",
     "legacyLocations": []
   },
   {
     "id": "c7-2",
-    "name": "shrimpster",
+    "name": "Shrimpster",
     "display": "새우친구",
     "latin": "Palaemonster",
     "category": "creature",
@@ -126,7 +124,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Shrimpster",
     "legacyLocations": [
       {
         "x": 603.8691911333116,
@@ -144,7 +141,7 @@
   },
   {
     "id": "c7-3",
-    "name": "crystalcrab",
+    "name": "Crystalcrab",
     "display": "크리스탈게",
     "latin": "",
     "category": "creature",
@@ -178,7 +175,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Crystalcrab",
     "legacyLocations": [
       {
         "x": 1039,
@@ -188,7 +184,7 @@
   },
   {
     "id": "c7-4",
-    "name": "slimy",
+    "name": "Slimy",
     "display": "달팽이",
     "latin": "Limax viscosus",
     "category": "creature",
@@ -222,7 +218,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Slimy",
     "legacyLocations": [
       {
         "x": 554.3717164502532,
@@ -232,7 +227,7 @@
   },
   {
     "id": "c7-5",
-    "name": "bottlopus",
+    "name": "Bottlopus",
     "display": "병문어",
     "latin": "Botulopus",
     "category": "creature",
@@ -266,7 +261,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Bottlopus",
     "legacyLocations": [
       {
         "x": 638,
@@ -276,7 +270,7 @@
   },
   {
     "id": "c7-6",
-    "name": "cybersquid",
+    "name": "Cybersquid",
     "display": "사이버문어",
     "latin": "",
     "category": "creature",
@@ -310,7 +304,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Cybersquid",
     "legacyLocations": [
       {
         "x": 1083,
@@ -320,7 +313,7 @@
   },
   {
     "id": "c7-7",
-    "name": "firetopus",
+    "name": "Firetopus",
     "display": "불문어",
     "latin": "",
     "category": "creature",
@@ -354,7 +347,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Firetopus",
     "legacyLocations": [
       {
         "x": 660,
@@ -364,7 +356,7 @@
   },
   {
     "id": "c7-8",
-    "name": "plasmaturtle",
+    "name": "Plasmaturtle",
     "display": "플라즈마거북",
     "latin": "",
     "category": "creature",
@@ -398,7 +390,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Plasmaturtle",
     "legacyLocations": [
       {
         "x": 180,
@@ -408,7 +399,7 @@
   },
   {
     "id": "c7-9",
-    "name": "sewage fungus",
+    "name": "Sewage Fungus",
     "display": "하수구버섯",
     "latin": "Fungus cloacae",
     "category": "creature",
@@ -442,7 +433,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Sewage Fungus",
     "legacyLocations": [
       {
         "x": 135,
@@ -452,8 +442,8 @@
   },
   {
     "id": "c7-10",
-    "name": "discoshell",
-    "display": "디스코셸",
+    "name": "Discoshell",
+    "display": "디스코거북",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -486,7 +476,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Discoshell",
     "legacyLocations": [
       {
         "x": 689,
@@ -496,7 +485,7 @@
   },
   {
     "id": "c7-11",
-    "name": "tubesnail",
+    "name": "Tubesnail",
     "display": "튜브달팽이",
     "latin": "",
     "category": "creature",
@@ -530,7 +519,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Tubesnail",
     "legacyLocations": [
       {
         "x": 1083,
@@ -540,8 +528,8 @@
   },
   {
     "id": "c7-12",
-    "name": "jellydusa",
-    "display": "젤리두사",
+    "name": "Jellydusa",
+    "display": "해파리왕",
     "latin": "",
     "category": "creature",
     "rarity": "common",
@@ -574,7 +562,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Jellydusa",
     "legacyLocations": [
       {
         "x": 918,
@@ -584,7 +571,7 @@
   },
   {
     "id": "c7-13",
-    "name": "neon frogson",
+    "name": "Neon Frogson",
     "display": "네온 프록슨",
     "latin": "Neon Ranafilus",
     "category": "creature",
@@ -626,7 +613,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Neon Frogson",
     "legacyLocations": [
       {
         "x": 819,
@@ -644,7 +630,7 @@
   },
   {
     "id": "c7-14",
-    "name": "armored mutoclam",
+    "name": "Armored Mutoclam",
     "display": "장갑 돌연변이 조개",
     "latin": "",
     "category": "creature",
@@ -682,7 +668,6 @@
       0
     ],
     "shadowSpeeds": [],
-    "mapCategory": "Armored Mutoclam",
     "legacyLocations": [
       {
         "x": 498,

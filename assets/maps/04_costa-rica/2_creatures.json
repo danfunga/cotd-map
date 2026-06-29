@@ -1,7 +1,7 @@
 [
   {
     "id": "c2-1",
-    "name": "pink jellyfish",
+    "name": "Pink Jellyfish",
     "display": "야광원양해파리",
     "latin": "Pelagia noctiluca",
     "category": "creature",
@@ -38,13 +38,12 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Pink Jellyfish"
+    "shadowSpeeds": []
   },
   {
     "id": "c2-2",
-    "name": "nudibranch",
-    "display": "바다달팽이",
+    "name": "Nudibranch",
+    "display": "바다 달팽이",
     "latin": "Roboastra leonis",
     "category": "creature",
     "rarity": "common",
@@ -80,12 +79,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Nudibranch"
+    "shadowSpeeds": []
   },
   {
     "id": "c2-3",
-    "name": "olive ridley sea turtle",
+    "name": "Olive Ridley Sea Turtle",
     "display": "바다거북",
     "latin": "Lepidochelys olivacea",
     "category": "creature",
@@ -118,12 +116,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Olive Ridley Sea Turtle"
+    "shadowSpeeds": []
   },
   {
     "id": "c2-4",
-    "name": "yellow-bellied sea snake",
+    "name": "Yellow-Bellied Sea Snake",
     "display": "바다뱀",
     "latin": "Hydrophis platurus",
     "category": "creature",
@@ -156,12 +153,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Yellow-bellied Sea Snake"
+    "shadowSpeeds": []
   },
   {
     "id": "c2-5",
-    "name": "red-ridged clinging crab",
+    "name": "Red-ridged Clinging Crab",
     "display": "붉은 게",
     "latin": "Mithraculus forceps",
     "category": "creature",
@@ -198,12 +194,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Red-ridged Clinging Crab"
+    "shadowSpeeds": []
   },
   {
     "id": "c2-6",
-    "name": "pacific land crab",
+    "name": "Pacific Land Crab",
     "display": "할로윈 게",
     "latin": "Gecarcinus quadratus",
     "category": "creature",
@@ -240,12 +235,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Pacific Land Crab"
+    "shadowSpeeds": []
   },
   {
     "id": "c2-7",
-    "name": "brown sea cucumber",
+    "name": "Brown Sea Cucumber",
     "display": "해삼",
     "latin": "Isostichopus fuscus",
     "category": "creature",
@@ -282,12 +276,11 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Brown Sea Cucumber"
+    "shadowSpeeds": []
   },
   {
     "id": "c2-8",
-    "name": "american crocodile",
+    "name": "American Crocodile",
     "display": "아메리카 악어",
     "latin": "Crocodylus acutus",
     "category": "creature",
@@ -322,12 +315,11 @@
     "minigame": null,
     "image": "./assets/portraits/creature/c2-8.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "American Crocodile"
+    "shadowSpeeds": []
   },
   {
     "id": "c2-9",
-    "name": "blue sea dragon",
+    "name": "Blue Sea Dragon",
     "display": "파란갯민숭달팽이",
     "latin": "Glaucus atlanticus",
     "category": "creature",
@@ -360,7 +352,6 @@
     "shadowSizes": [
       0
     ],
-    "shadowSpeeds": [],
-    "mapCategory": "Blue Sea Dragon"
+    "shadowSpeeds": []
   }
 ]

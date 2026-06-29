@@ -1,7 +1,7 @@
 [
   {
     "id": "63",
-    "name": "pla-kad thong",
+    "name": "Pla-kad thong",
     "display": "블랙나이프",
     "latin": "Notopterus notopterus",
     "category": "fish",
@@ -32,12 +32,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/63.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Pla-Kad Thong"
+    "shadowSpeeds": []
   },
   {
     "id": "614",
-    "name": "rice eel",
+    "name": "Rice eel",
     "display": "드렁허리",
     "latin": "Monopterus albus",
     "category": "fish",
@@ -68,12 +67,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/614.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Rice Eel"
+    "shadowSpeeds": []
   },
   {
     "id": "62",
-    "name": "bighead carp",
+    "name": "Bighead carp",
     "display": "대두어",
     "latin": "Hypophthalmichthys nobilis",
     "category": "fish",
@@ -113,12 +111,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Bighead Carp"
+    ]
   },
   {
     "id": "625",
-    "name": "aligator gar",
+    "name": "Aligator gar",
     "display": "앨리게이터가아",
     "latin": "Atractosteus spatula",
     "category": "fish",
@@ -155,12 +152,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Aligator Gar"
+    ]
   },
   {
     "id": "619",
-    "name": "spotted sorubim",
+    "name": "Spotted sorubim",
     "display": "스팟티드 소러빔",
     "latin": "Pseudoplatystoma corruscans",
     "category": "fish",
@@ -201,12 +197,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Spotted Sorubim"
+    ]
   },
   {
     "id": "612",
-    "name": "marbled sand goby",
+    "name": "Marbled sand goby",
     "display": "말레이고비",
     "latin": "Oxyeleotris marmorata",
     "category": "fish",
@@ -242,12 +237,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Marbled Sand Goby"
+    ]
   },
   {
     "id": "621",
-    "name": "tapah",
+    "name": "Tapah",
     "display": "그레이트 타파",
     "latin": "Wallago leerii",
     "category": "fish",
@@ -288,13 +282,12 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Tapah"
+    ]
   },
   {
     "id": "615",
-    "name": "red-tail tiger catfish",
-    "display": "붉은꼬리호랑이메기",
+    "name": "Red-tail tiger catfish",
+    "display": "아시아 레드테일 캣피쉬",
     "latin": "Hemibagrus wyckioides",
     "category": "fish",
     "rarity": "common",
@@ -330,12 +323,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Red-Tail Tiger Catfish"
+    ]
   },
   {
     "id": "65",
-    "name": "giant devil catfish",
+    "name": "Giant devil catfish",
     "display": "거대한 메기",
     "latin": "Bagarius yarrelli",
     "category": "fish",
@@ -371,12 +363,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Giant Devil Catfish"
+    ]
   },
   {
     "id": "622",
-    "name": "empurau",
+    "name": "Empurau",
     "display": "탐브로데스",
     "latin": " Tor tambroides",
     "category": "fish",
@@ -412,12 +403,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Empurau"
+    ]
   },
   {
     "id": "69",
-    "name": "great snakehead",
+    "name": "Great snakehead",
     "display": "거대 애더헤드",
     "latin": "Channa marulius",
     "category": "fish",
@@ -453,12 +443,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Great Snakehead"
+    ]
   },
   {
     "id": "624",
-    "name": "yellow mystus",
+    "name": "Yellow mystus",
     "display": "노란 메기",
     "latin": "Hemibagrus filamentus",
     "category": "fish",
@@ -497,12 +486,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/624.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Yellow Mystus"
+    "shadowSpeeds": []
   },
   {
     "id": "623",
-    "name": "wallago",
+    "name": "Wallago",
     "display": "합계 왈라고",
     "latin": "Wallago attu",
     "category": "fish",
@@ -539,12 +527,11 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Wallago"
+    ]
   },
   {
     "id": "618",
-    "name": "black ear catfish",
+    "name": "Black ear catfish",
     "display": "블랙 이어 메기",
     "latin": "Pangasius larnaudii",
     "category": "fish",
@@ -579,12 +566,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Black Ear Catfish"
+    ]
   },
   {
     "id": "617",
-    "name": "rohu",
+    "name": "Rohu",
     "display": "로후",
     "latin": "Labeo rohita",
     "category": "fish",
@@ -629,12 +615,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Rohu"
+    ]
   },
   {
     "id": "616",
-    "name": "ripsaw catfish",
+    "name": "Ripsaw catfish",
     "display": "찢어진 메기",
     "latin": "Oxydoras niger",
     "category": "fish",
@@ -673,12 +658,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Ripsaw Catfish"
+    ]
   },
   {
     "id": "611",
-    "name": "malayan leaffish",
+    "name": "Malayan leaffish",
     "display": "말레이 잎 물고기",
     "latin": "Pristolepis fasciata",
     "category": "fish",
@@ -713,12 +697,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/611.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Malayan Leaffish"
+    "shadowSpeeds": []
   },
   {
     "id": "61",
-    "name": "bambusa",
+    "name": "Bambusa",
     "display": "강유이",
     "latin": "Elopichthys bambusa",
     "category": "fish",
@@ -762,12 +745,11 @@
     "shadowSpeeds": [
       0,
       1
-    ],
-    "mapCategory": "Bambusa"
+    ]
   },
   {
     "id": "64",
-    "name": "fire eel",
+    "name": "Fire eel",
     "display": "파이어 일",
     "latin": "Mastacembelus erythrotaenia",
     "category": "fish",
@@ -803,13 +785,12 @@
     "shadowSpeeds": [
       1,
       2
-    ],
-    "mapCategory": "Fire Eel"
+    ]
   },
   {
     "id": "66",
-    "name": "giant freshwater whipray",
-    "display": "거대한 민물 가오리",
+    "name": "Giant freshwater whipray",
+    "display": "자이언트 민물 가오리",
     "latin": "Urogymnus polylepis",
     "category": "fish",
     "rarity": "rare",
@@ -839,12 +820,11 @@
     "minigame": null,
     "image": "./assets/portraits/fish/66.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Giant Freshwater Whipray"
+    "shadowSpeeds": []
   },
   {
     "id": "620",
-    "name": "striped catfish",
+    "name": "Striped catfish",
     "display": "가이양",
     "latin": "Pangasianodon hypophthalmus",
     "category": "fish",
@@ -879,12 +859,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Striped Catfish"
+    ]
   },
   {
     "id": "67",
-    "name": "giant pangasius",
+    "name": "Giant pangasius",
     "display": "징기스칸",
     "latin": "Pangasius sanitwongsei",
     "category": "fish",
@@ -927,12 +906,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Giant Pangasius"
+    ]
   },
   {
     "id": "613",
-    "name": "mekong giant catfish",
+    "name": "Mekong giant catfish",
     "display": "메콩 메기",
     "latin": "Pangasianodon gigas",
     "category": "fish",
@@ -967,12 +945,11 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Mekong Giant Catfish"
+    ]
   },
   {
     "id": "610",
-    "name": "jullien's golden prize carp",
+    "name": "Jullien's golden prize carp",
     "display": "쥴리에니",
     "latin": "Gnathanodon speciosus",
     "category": "fish",
@@ -1008,12 +985,11 @@
     ],
     "shadowSpeeds": [
       1
-    ],
-    "mapCategory": "Jullien's Golden Prize Carp"
+    ]
   },
   {
     "id": "68",
-    "name": "giant siamese",
+    "name": "Giant siamese",
     "display": "자이언트 잉어",
     "latin": "Catlocarpio siamensis",
     "category": "fish",
@@ -1048,13 +1024,12 @@
     ],
     "shadowSpeeds": [
       0
-    ],
-    "mapCategory": "Giant Siamese"
+    ]
   },
   {
     "id": "626",
-    "name": "naga",
-    "display": "나가",
+    "name": "Naga",
+    "display": "나가(Naga)",
     "latin": "",
     "category": "monster",
     "rarity": "monster",
@@ -1096,7 +1071,6 @@
     "minigame": null,
     "image": "./assets/portraits/fish/626.png",
     "shadowSizes": [],
-    "shadowSpeeds": [],
-    "mapCategory": "Naga"
+    "shadowSpeeds": []
   }
 ]
