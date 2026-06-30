@@ -964,10 +964,10 @@ body.map-fullscreen {
 }
 
 .mcell.now {
-    border-color: #ff0000;
-    color: #ff0000;
-    box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.45) inset;
-    background: #ffeaea;
+    border-color: #e1e809;
+    /*color: #ff0000;*/
+    box-shadow: 0 0 0 2px rgb(225, 232, 9) inset;
+    /*background: #ffeaea;*/
 }
 
 .season-now {
@@ -1277,12 +1277,18 @@ body.map-fullscreen {
 
 }
 
+#uncaughtOnlyBtn {
+    color: #B9DCEB;
+    font-size: 18px;
+}
 #showAllBtn {
+    font-size: 16px;
     color: #ffd24f;
 }
 
 #hideAllBtn {
-    color: #e6e2e2;
+    font-size: 18px;
+    color: #B9DCEB;
 }
 
 #tipsLayout {

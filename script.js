@@ -4,6 +4,7 @@ const mapPicker = document.getElementById("mapPicker");
 const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
 const clearButtons = document.querySelectorAll(".clear-btn[data-clear-group]");
 const entityList = document.getElementById("entityList");
+const uncaughtOnlyBtn = document.getElementById("uncaughtOnlyBtn");
 const showAllBtn = document.getElementById("showAllBtn");
 const hideAllBtn = document.getElementById("hideAllBtn");
 const caughtFilterAllBtn = document.getElementById("caughtFilterAllBtn");
@@ -164,7 +165,7 @@ function addCaughtEntityKey(mapId, category, id) {
 }
 
 function emptyCategorizedEntityMap() {
-    return { fish: [], creature: [], item: [], monster: [] };
+    return {fish: [], creature: [], item: [], monster: []};
 }
 
 function serializeEntityKeysByMap(entityKeys, mapIds = []) {
@@ -201,6 +202,7 @@ function resetActiveEntitiesForMap(entities, mapId = currentMapId) {
 
 function isEntityActive(entity, mapId = currentMapId) {
     if (!initializedActiveMapIds.has(mapId)) return true;
+    if( entity.category === "monster" && alwaysShowBoss) return true;
     return activeEntityKeys.has(entityKey(entity, mapId));
 }
 
@@ -314,6 +316,7 @@ function showImportUserStateDialog() {
     importedTextContents.value = "";
     importedStateDialog.showModal();
 }
+
 function importUserStateFile(jsonText) {
     try {
         const data = JSON.parse(jsonText);
@@ -342,8 +345,6 @@ function refreshUiFromUserState() {
         renderMap();
     }
 }
-
-
 
 function label(entity) {
     return entity.display && entity.display.trim() !== "" ? entity.display : entity.name;
@@ -528,7 +529,9 @@ function isSeasonAvailable(entity) {
 
 function seasonBar(entity) {
     if (!Array.isArray(entity.seasons) || entity.seasons.length !== 12) return "";
-    if (entity.seasons.every((v) => v === true)) return "";
+    if (entity.seasons.every((v) => v === true)) {
+        entity.seasons = [true, true, true, true, true, true, true, true, true, true, true, true];
+    }
     const currentMonth = new Date().getMonth();
     const blocks = entity.seasons
     .map((ok, idx) => {
@@ -809,13 +812,8 @@ function passesCurrentFilters(entity) {
     if (entity.category === "monster") {
         return alwaysShowBoss;
     }
-    //   if( alwaysShowBoss ) return true;
-    //   if (!filters.category.has("fish")) return false;
-    //   if (!filters.rarity.has("epic")) return false;
-    // } else {
     if (!filters.category.has(entity.category)) return false;
     if (!filters.rarity.has(entity.rarity)) return false;
-    // }
     if (!hitFishTimeFilter(entity)) return false;
     const availableNow = isSeasonAvailable(entity);
     const availabilityKey = availableNow ? "available" : "unavailable";
@@ -895,11 +893,13 @@ function renderEntityPanel() {
 
     const sections = visibleCategories.map((category) => {
         const groupItems = grouped[category];
+
         const ui = getOrCreateGroupUi(category, categoryLabel[category]);
         const allActive = groupItems.length > 0 && groupItems.every((e) => isEntityActive(e));
         ui.toggleBtn.textContent = allActive ? "🚫" : "👁️";// 눈  숨김
         ui.caughtFilterBtn.textContent = caughtModeLabel(caughtFilterMode[category]);
-        ui.metaEl.textContent = String(groupItems.length);
+        const activeCount = groupItems.filter((entry) => isEntityActive(entry)).length;
+        ui.metaEl.textContent = String(activeCount) + "/" + String(groupItems.length);
         ui.arrowEl.textContent = panelFoldState[category] ? "▾" : "▸";
         ui.body.className = `entity-group-body ${panelFoldState[category] ? "open" : "closed"}`;
 
@@ -1086,6 +1086,9 @@ function updateGroupHeaderState(category) {
     const group = lastFilteredEntities.filter((ent) => ent.category === category);
     const allActive = group.length > 0 && group.every((ent) => isEntityActive(ent));
     ui.toggleBtn.textContent = allActive ? "🚫" : "👁️";// 눈  숨김
+
+    const activeCount = group.filter((entry) => isEntityActive(entry)).length;
+    ui.metaEl.textContent = String(activeCount) + "/" + String(group.length);
 }
 
 function openDetail(html) {
@@ -1251,6 +1254,19 @@ document.addEventListener("DOMContentLoaded", () => {
         importedStateDialog.close();
     });
 
+    // uncatchOnlyBtn
+    uncaughtOnlyBtn.addEventListener("click", () => {
+
+        let uncaughtEntry = lastFilteredEntities.filter(entry => !isCaught(entry));
+        resetActiveEntitiesForMap(uncaughtEntry);
+
+        lastFilteredEntities.forEach((e) => {
+            if (e.category === "monster") activeEntityKeys.add(entityKey(e));
+        });
+
+        saveUserState();
+        scheduleRenderMarkers();
+    });
     showAllBtn.addEventListener("click", () => {
         resetActiveEntitiesForMap(lastFilteredEntities);
         saveUserState();
@@ -1317,11 +1333,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     mapPicker?.addEventListener('wheel', (event) => {
-        // 기본 세로 스크롤 동작을 막습니다.
-        event.preventDefault();
-        // 휠을 위/아래로 굴릴 때 가로(왼쪽/오른쪽)로 스크롤되도록 설정합니다.
-        // event.deltaY 값을 scrollLeft에 더해줌으로써 부드럽게 이동합니다.
-        mapPicker.scrollLeft += event.deltaY;
+        if (Math.abs(event.deltaY) > Math.abs(event.deltaX)) {
+            // 기본 세로 스크롤 동작을 막습니다.
+            event.preventDefault();
+            // 휠을 위/아래로 굴릴 때 가로(왼쪽/오른쪽)로 스크롤되도록 설정합니다.
+            // event.deltaY 값을 scrollLeft에 더해줌으로써 부드럽게 이동합니다.
+            mapPicker.scrollLeft += event.deltaY;
+        }
     }, {passive: false}); // preventDefault()를 사용하기 위해 passive를 false로 설정합니다.
 
     detailClose.addEventListener("click", closeDetail);
