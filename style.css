@@ -481,8 +481,11 @@ main {
     top: 0;
     z-index: 3;
 }
-
-.entity-group-meta {
+.entity-group-info{
+    color: #fefefe;
+    font-size: 14px;
+}
+.entity-group-count {
     margin-left: auto;
     color: #8fdcff;
     font-size: 14px;
@@ -760,12 +763,12 @@ body.map-fullscreen {
 }
 
 .photo-marker {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     object-fit: cover;
     background: transparent !important;
-    border: 3px solid #fff;
+    border: 2px solid #fff;
     box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.50);
 }
 

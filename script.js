@@ -168,7 +168,7 @@ function emptyCategorizedEntityMap() {
     return {fish: [], creature: [], item: [], monster: []};
 }
 
-function serializeEntityKeysByMap(entityKeys, mapIds = []) {
+function serializeEntityKeysByMap(entityKeys, mapIds = new Set()) {
     const byMap = {};
     mapIds.forEach((mapId) => {
         byMap[mapId] = emptyCategorizedEntityMap();
@@ -202,7 +202,7 @@ function resetActiveEntitiesForMap(entities, mapId = currentMapId) {
 
 function isEntityActive(entity, mapId = currentMapId) {
     if (!initializedActiveMapIds.has(mapId)) return true;
-    if( entity.category === "monster" && alwaysShowBoss) return true;
+    if (entity.category === "monster" && alwaysShowBoss) return true;
     return activeEntityKeys.has(entityKey(entity, mapId));
 }
 
@@ -803,9 +803,17 @@ async function loadMapEntities(mapId) {
             }
         })
     );
-    const entities = responses.flat();
-    mapEntitiesCache.set(mapId, entities);
-    return entities;
+    const all = responses.flat();
+    const cache = {
+        all,
+        byCategory: emptyCategorizedEntityMap()
+    };
+
+    for (const entity of all) {
+        cache.byCategory[entity.category].push(entity);
+    }
+    mapEntitiesCache.set(mapId, cache);
+    return cache;
 }
 
 function passesCurrentFilters(entity) {
@@ -826,10 +834,12 @@ function passesCurrentFilters(entity) {
 async function renderMarkers(refreshPanel = true) {
     const requestId = ++renderRequestId;
     const mapInfo = mapsById[currentMapId];
-    const entities = await loadMapEntities(currentMapId);
+    // const entities = await loadMapEntities(currentMapId);
+    const cache = await loadMapEntities(currentMapId);
+
     if (requestId !== renderRequestId || mapInfo.id !== currentMapId) return;
 
-    const filtered = entities.filter((entity) => passesCurrentFilters(entity));
+    const filtered = cache.all.filter((entity) => passesCurrentFilters(entity));
 
     lastFilteredEntities = filtered;
     let activeStateChanged = false;
@@ -883,23 +893,15 @@ function renderEntityPanel() {
         if (ra !== rb) return ra - rb;
         return label(a).localeCompare(label(b));
     });
-
-    const grouped = {
-        fish: sorted.filter((e) => e.category === "fish"),
-        creature: sorted.filter((e) => e.category === "creature"),
-        item: sorted.filter((e) => e.category === "item")
-    };
     const visibleCategories = ["fish", "creature", "item"].filter((category) => filters.category.has(category));
 
     const sections = visibleCategories.map((category) => {
-        const groupItems = grouped[category];
+        const groupItems = sorted.filter(e => e.category === category);
 
         const ui = getOrCreateGroupUi(category, categoryLabel[category]);
-        const allActive = groupItems.length > 0 && groupItems.every((e) => isEntityActive(e));
-        ui.toggleBtn.textContent = allActive ? "🚫" : "👁️";// 눈  숨김
         ui.caughtFilterBtn.textContent = caughtModeLabel(caughtFilterMode[category]);
-        const activeCount = groupItems.filter((entry) => isEntityActive(entry)).length;
-        ui.metaEl.textContent = String(activeCount) + "/" + String(groupItems.length);
+
+        updateGroupHeaderState( category);
         ui.arrowEl.textContent = panelFoldState[category] ? "▾" : "▸";
         ui.body.className = `entity-group-body ${panelFoldState[category] ? "open" : "closed"}`;
 
@@ -932,8 +934,9 @@ function getOrCreateGroupUi(category, labelText) {
     header.innerHTML = `
       <span>${labelText}</span>
       <button type="button" class="caught-filter-btn" data-category="${category}"></button>
+      <span class="entity-group-info"></span>
       <button type="button" class="group-toggle-btn" data-category="${category}"></button>
-      <span class="entity-group-meta"></span>
+      <span class="entity-group-count"></span>
       <span class="entity-group-arrow"></span>
   `;
     const body = document.createElement("div");
@@ -950,7 +953,8 @@ function getOrCreateGroupUi(category, labelText) {
         emptyEl,
         toggleBtn: header.querySelector(".group-toggle-btn"),
         caughtFilterBtn: header.querySelector(".caught-filter-btn"),
-        metaEl: header.querySelector(".entity-group-meta"),
+        infoEl: header.querySelector(".entity-group-info"),
+        countEl: header.querySelector(".entity-group-count"),
         arrowEl: header.querySelector(".entity-group-arrow")
     };
 
@@ -1083,12 +1087,17 @@ function updateEntityRow(rowUi, entity) {
 function updateGroupHeaderState(category) {
     const ui = groupUiCache.get(category);
     if (!ui) return;
-    const group = lastFilteredEntities.filter((ent) => ent.category === category);
-    const allActive = group.length > 0 && group.every((ent) => isEntityActive(ent));
+    const groupItems = lastFilteredEntities.filter((ent) => ent.category === category);
+    const allActive = groupItems.length > 0 && groupItems.every((ent) => isEntityActive(ent));
     ui.toggleBtn.textContent = allActive ? "🚫" : "👁️";// 눈  숨김
 
-    const activeCount = group.filter((entry) => isEntityActive(entry)).length;
-    ui.metaEl.textContent = String(activeCount) + "/" + String(group.length);
+    const cache = mapEntitiesCache.get(currentMapId);
+    const totalEntries = cache.byCategory[category];
+    const caughtCount = totalEntries.filter((entry) => isCaught(entry)).length;
+    ui.infoEl.textContent = String(caughtCount) + "/" + String(totalEntries.length);
+
+    const activeCount = groupItems.filter((entry) => isEntityActive(entry)).length;
+    ui.countEl.textContent = String(activeCount) + "/" + String(groupItems.length);
 }
 
 function openDetail(html) {
