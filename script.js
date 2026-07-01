@@ -933,9 +933,9 @@ function getOrCreateGroupUi(category, labelText) {
     header.setAttribute("tabindex", "0");
     header.innerHTML = `
       <span>${labelText}</span>
-      <button type="button" class="caught-filter-btn" data-category="${category}"></button>
       <span class="entity-group-info"></span>
-      <button type="button" class="group-toggle-btn" data-category="${category}"></button>
+      <button type="button" class="entity-group-caught-filter-btn" data-category="${category}"></button>
+      <button type="button" class="entity-group-show-toggle-btn" data-category="${category}"></button>
       <span class="entity-group-count"></span>
       <span class="entity-group-arrow"></span>
   `;
@@ -951,8 +951,8 @@ function getOrCreateGroupUi(category, labelText) {
         header,
         body,
         emptyEl,
-        toggleBtn: header.querySelector(".group-toggle-btn"),
-        caughtFilterBtn: header.querySelector(".caught-filter-btn"),
+        toggleBtn: header.querySelector(".entity-group-show-toggle-btn"),
+        caughtFilterBtn: header.querySelector(".entity-group-caught-filter-btn"),
         infoEl: header.querySelector(".entity-group-info"),
         countEl: header.querySelector(".entity-group-count"),
         arrowEl: header.querySelector(".entity-group-arrow")

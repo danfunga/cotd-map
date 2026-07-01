@@ -415,46 +415,6 @@ main {
     touch-action: manipulation;
 }
 
-.group-toggle-btn {
-    margin-left: 6px;
-    width: 22px;
-    height: 22px;
-    border: 1px solid #0d729c;
-    background: #01344a;
-    color: #ffd24f;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: 800;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    touch-action: manipulation;
-}
-
-.group-toggle-btn:active {
-    transform: translateY(1px);
-}
-
-.caught-filter-btn {
-    margin-left: 2px;
-    border: 1px solid #0d729c;
-    background: #01344a;
-    color: #9dddff;
-    border-radius: 6px;
-    font-size: 12px;
-    min-width: 60px;
-    text-align: center;
-    font-weight: 800;
-    padding: 2px 7px;
-    line-height: 1.2;
-    touch-action: manipulation;
-}
-
-.caught-filter-btn:active {
-    transform: translateY(1px);
-}
-
 .entity-group {
     display: grid;
     gap: 6px;
@@ -474,17 +434,58 @@ main {
     font-weight: 800;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     text-align: left;
     min-height: 46px;
     position: sticky;
     top: 0;
     z-index: 3;
 }
+
 .entity-group-info{
     color: #fefefe;
     font-size: 14px;
 }
+
+.entity-group-show-toggle-btn {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #0d729c;
+    background: #01344a;
+    color: #ffd24f;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    touch-action: manipulation;
+}
+
+.entity-group-show-toggle-btn:active {
+    transform: translateY(1px);
+}
+
+.entity-group-caught-filter-btn {
+    margin-left: 2px;
+    border: 1px solid #0d729c;
+    background: #01344a;
+    color: #9dddff;
+    border-radius: 6px;
+    font-size: 12px;
+    min-width: 50px;
+    text-align: center;
+    font-weight: 800;
+    padding: 2px 7px;
+    line-height: 1.2;
+    touch-action: manipulation;
+}
+
+.entity-group-caught-filter-btn:active {
+    transform: translateY(1px);
+}
+
 .entity-group-count {
     margin-left: auto;
     color: #8fdcff;
