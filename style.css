@@ -448,8 +448,8 @@ main {
 }
 
 .entity-group-show-toggle-btn {
-    width: 22px;
-    height: 22px;
+    width: 25px;
+    height: 25px;
     border: 1px solid #0d729c;
     background: #01344a;
     color: #ffd24f;
@@ -475,6 +475,7 @@ main {
     border-radius: 6px;
     font-size: 12px;
     min-width: 50px;
+    height: 25px;
     text-align: center;
     font-weight: 800;
     padding: 2px 7px;
