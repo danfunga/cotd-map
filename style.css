@@ -1061,7 +1061,20 @@ body.map-fullscreen {
     line-height: 1.45;
     color: #d4ecfa;
 }
+.monster-spot {
+    margin-top: 16px;
+}
 
+.monster-spot img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+
+    border-radius: 8px;
+    border: 1px solid #666;
+    box-sizing: border-box;
+}
 .detail-wide-row {
     margin-top: 10px;
     border-top: 1px solid rgba(71, 188, 245, 0.35);
