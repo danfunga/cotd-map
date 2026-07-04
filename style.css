@@ -1003,7 +1003,7 @@ body.map-fullscreen {
     left: 0;
     right: 0;
     bottom: 0;
-    max-height: none;
+    max-height: 60dvh;     
     overflow: auto;
     background: linear-gradient(180deg, #063349, #02273a);
     color: #d9f3ff;
