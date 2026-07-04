@@ -1010,8 +1010,14 @@ body.map-fullscreen {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     padding: 10px 12px 16px;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
+.detail-panel::-webkit-scrollbar {
+    display: none;
+}
 .detail-close {
     position: sticky;
     top: 0;
