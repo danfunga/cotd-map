@@ -1263,7 +1263,7 @@ function clearFilterGroup(group) {
     }
     applyFilterButtonState();
     // applyFishOnlyState();
-    resetActiveOnNextRender = true;
+    // resetActiveOnNextRender = true;
     saveUserState();
     scheduleRenderMarkers();
 }
@@ -1301,7 +1301,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (set.has(value)) set.delete(value);
             else set.add(value);
             applyFilterButtonState();
-            resetActiveOnNextRender = true;
+            // resetActiveOnNextRender = true;
             saveUserState();
             scheduleRenderMarkers();
         });
