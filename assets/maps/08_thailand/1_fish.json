@@ -801,7 +801,7 @@
         "y": 387
       }
     ],
-    "notes": "",
+    "notes": "첫 사진 왼쪽이 부처 머리",
     "difficulty": 2,
     "seasons": [
       true,
@@ -863,7 +863,7 @@
   },
   {
     "id": "67",
-    "name": "Giant pangasius",
+    "name": "Giant Pangasius",
     "display": "징기스칸",
     "latin": "Pangasius sanitwongsei",
     "category": "fish",
