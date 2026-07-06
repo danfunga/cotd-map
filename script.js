@@ -477,6 +477,15 @@ function syncMarkerBundleLayers(bundle, entity) {
     return hasVisibleMarker;
 }
 
+function removeOtherMapMarkersFromLayer(mapId) {
+    markerBundleCache.forEach((byMap, cachedMapId) => {
+        if (cachedMapId === mapId) return;
+        byMap.forEach((bundle) => {
+            bundle.markers.forEach((marker) => markerLayer.removeLayer(marker));
+        });
+    });
+}
+
 function scheduleRenderMarkers(refreshPanel = true) {
     if (refreshPanel) scheduledRefreshPanel = true;
     if (renderScheduled) return;
@@ -762,8 +771,8 @@ function buildDetailHtml(entity, spotIndex = null) {
     const noteHtml = entity.notes && entity.notes.trim() !== ""
         ? `<div class="detail-note"><strong>메모:</strong> ${entity.notes}</div>`
         : "";
-    const spotImages = getSpotImages(entity, spotIndex);
-    const spotHtml = spotImages.length > 0 ? buildSpotImagesHtml(spotImages) : "";
+    const spotImageBasePath = getSpotImageBasePath(entity, spotIndex);
+    const spotHtml = spotImageBasePath ? buildSpotImagesHtml(spotImageBasePath) : "";
 
     const caught = isCaught(entity);
     return `
@@ -805,44 +814,51 @@ function buildDetailHtml(entity, spotIndex = null) {
       </div>`;
 }
 
-function buildSpotImagesHtml(images) {
+function buildSpotImagesHtml(basePath) {
     return `
-        <div class="entity-spot" style="display:none;">
-            ${images.map((src) => `
-                <img
-                    src="${src}"
-                    onload="this.parentElement.style.display='flex';"
-                    onerror="this.remove();">
-            `).join("")}
-        </div>
+        <div class="entity-spot" data-base-path="${basePath}" data-max-variant="6" style="display:none;"></div>
     `;
 }
 
-function getSpotImages(entity, spotIndex = null) {
+function getSpotImageBasePath(entity, spotIndex = null) {
     if (entity.category === "monster") {
-        return spotIndex === null ? [] : getMonsterSpotImages(spotIndex);
+        return spotIndex === null ? null : getMonsterSpotImageBasePath(spotIndex);
     }
-    if (!["fish", "creature", "item"].includes(entity.category)) return [];
-    return getEntitySpotImages(entity);
+    if (!["fish", "creature", "item"].includes(entity.category)) return null;
+    return getEntitySpotImageBasePath(entity);
 }
 
-function getEntitySpotImages(entity) {
-    const basePath = `./assets/maps/${currentMapId}/portraits/${entity.category}/spot/${entity.id}P`;
-    return buildSpotImageCandidates(basePath);
+function getEntitySpotImageBasePath(entity) {
+    return `./assets/maps/${currentMapId}/portraits/${entity.category}/spot/${entity.id}P`;
 }
 
-function getMonsterSpotImages(index) {
+function getMonsterSpotImageBasePath(index) {
     const spotNumber = index + 1;
-    const basePath = `./assets/maps/${currentMapId}/portraits/monster/spot/spot${spotNumber}`;
-    return buildSpotImageCandidates(basePath);
+    return `./assets/maps/${currentMapId}/portraits/monster/spot/spot${spotNumber}`;
 }
 
-function buildSpotImageCandidates(basePath) {
-    const images = [`${basePath}.png`];
-    for (let variant = 1; variant <= 6; variant++) {
-        images.push(`${basePath}-${variant}.png`);
-    }
-    return images;
+function initializeSpotImages(root = document) {
+    root.querySelectorAll(".entity-spot[data-base-path]").forEach((container) => {
+        loadNextSpotImage(container, 0);
+    });
+}
+
+function loadNextSpotImage(container, variant) {
+    const basePath = container.dataset.basePath;
+    const maxVariant = Number(container.dataset.maxVariant || 0);
+    if (!basePath || variant > maxVariant) return;
+
+    const image = document.createElement("img");
+    image.onload = () => {
+        container.style.display = "flex";
+        loadNextSpotImage(container, variant + 1);
+    };
+    image.onerror = () => {
+        image.remove();
+        if (container.children.length === 0) container.style.display = "none";
+    };
+    image.src = variant === 0 ? `${basePath}.png` : `${basePath}-${variant}.png`;
+    container.appendChild(image);
 }
 
 async function loadMapEntities(mapId) {
@@ -1156,6 +1172,7 @@ function updateGroupHeaderState(category) {
 
 function openDetail(html) {
     detailBody.innerHTML = html;
+    initializeSpotImages(detailBody);
     detailSheet.classList.add("open");
     detailSheet.setAttribute("aria-hidden", "false");
 }
@@ -1227,7 +1244,7 @@ function renderMap() {
     requestAnimationFrame(() => {
         mapInstance.invalidateSize();
     });
-
+    removeOtherMapMarkersFromLayer(currentMapId);
     activeMarkerKeys.clear();
     scheduleRenderMarkers();
 }
