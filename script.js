@@ -385,6 +385,16 @@ function getMonsterRotationActiveIndex(entity, mapId = currentMapId) {
     return null;
 }
 
+function shouldHideMarkerByRotation(entity, markerIndex, mapId = currentMapId) {
+    const categoryKey = entity.category || "fish";
+    const activeMonsterIndex = getMonsterRotationActiveIndex(entity, mapId);
+    return categoryKey === "monster" &&
+        isMonsterRotationMap(mapId) &&
+        monsterRotationRevealed &&
+        activeMonsterIndex !== null &&
+        markerIndex !== activeMonsterIndex;
+}
+
 function markerIcon(entity, isPrimary = false, markerIndex = 0) {
     const rarityKey = entity.rarity;
     const categoryKey = entity.category || "fish";
@@ -394,27 +404,19 @@ function markerIcon(entity, isPrimary = false, markerIndex = 0) {
     if (categoryKey === "monster") {
         isPrimary = false;
     }
-    const activeMonsterIndex = getMonsterRotationActiveIndex(entity);
-    const shouldDimByRotation =
-        categoryKey === "monster" &&
-        isMonsterRotationMap() &&
-        monsterRotationRevealed &&
-        activeMonsterIndex !== null &&
-        markerIndex !== activeMonsterIndex;
-    const rotationDimClass = shouldDimByRotation ? "rotation-dim" : "";
     const timeDimClass = shouldDimByRealtimeTime(entity) ? "time-dim" : "";
     // console.log(getImagePath(entity));
     return L.divIcon({
         className: "photo-marker-wrap",
         html: `
       <div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}" ></div>
-      <img class="photo-marker rarity-${rarityKey} ${rotationDimClass} ${timeDimClass} ${isPrimary ? "primary-location" : ""} ${caughtClass}"
+      <img class="photo-marker rarity-${rarityKey} ${timeDimClass} ${isPrimary ? "primary-location" : ""} ${caughtClass}"
         src="${getImagePath(entity)}"
         alt="${label(entity)}"
         onerror="this.style.display='none';this.previousElementSibling.style.display='block';"
       >
-      ${markerNumber ? `<span class="marker-number ${rotationDimClass} ${timeDimClass}">${markerNumber}</span>` : ""}
-      ${caught ? `<span class="caught-v marker-v ${rotationDimClass} ${timeDimClass}">✓</span>` : ""}
+      ${markerNumber ? `<span class="marker-number ${timeDimClass}">${markerNumber}</span>` : ""}
+      ${caught ? `<span class="caught-v marker-v ${timeDimClass}">✓</span>` : ""}
     `,
         iconSize: [30, 30],
         iconAnchor: [15, 15],
@@ -459,6 +461,20 @@ function updateMarkerBundleIcons(bundle, entity) {
         marker.setIcon(markerIcon(entity, idx === 0, idx));
         bundle.iconSignatures[idx] = nextSig;
     });
+}
+
+function syncMarkerBundleLayers(bundle, entity) {
+    let hasVisibleMarker = false;
+    bundle.markers.forEach((marker, idx) => {
+        const shouldShow = !shouldHideMarkerByRotation(entity, idx);
+        if (shouldShow) {
+            hasVisibleMarker = true;
+            if (!markerLayer.hasLayer(marker)) markerLayer.addLayer(marker);
+        } else if (markerLayer.hasLayer(marker)) {
+            markerLayer.removeLayer(marker);
+        }
+    });
+    return hasVisibleMarker;
 }
 
 function scheduleRenderMarkers(refreshPanel = true) {
@@ -866,7 +882,6 @@ async function renderMarkers(refreshPanel = true) {
 
     const nextActiveKeys = new Set();
     filtered.forEach((entity) => {
-
         if (!isEntityActive(entity)) {
             return;
         }
@@ -874,10 +889,7 @@ async function renderMarkers(refreshPanel = true) {
         if (locs.length === 0) return;
         const bundle = getMarkerBundle(currentMapId, entity);
         updateMarkerBundleIcons(bundle, entity);
-        nextActiveKeys.add(bundle.key);
-        if (!activeMarkerKeys.has(bundle.key)) {
-            bundle.markers.forEach((marker) => markerLayer.addLayer(marker));
-        }
+        if (syncMarkerBundleLayers(bundle, entity)) nextActiveKeys.add(bundle.key);
     });
 
     activeMarkerKeys.forEach((key) => {
@@ -1328,7 +1340,7 @@ document.addEventListener("DOMContentLoaded", () => {
         monsterRotationRevealed = !monsterRotationRevealed;
         saveUserState(); // 추가
         updateTodaySpotToggleButton();
-        refreshMonsterMarkers();
+        scheduleRenderMarkers(false);
     });
 
     panelToggleBtn.addEventListener("click", toggleEntityPanel);
