@@ -764,10 +764,13 @@ function buildDetailHtml(entity, spotIndex = null) {
         : "";
     const monsterSpotHtml = entity.category === "monster" && spotIndex !== null
         ? `
-            <div class="monster-spot">
-                <img
-                    src="${getMonsterSpotImage(spotIndex)}"
-                    onerror="this.parentElement.style.display='none';">
+            <div class="monster-spot" style="display:none;">
+                ${getMonsterSpotImages(spotIndex).map((src) => `
+                    <img
+                        src="${src}"
+                        onload="this.parentElement.style.display='flex';"
+                        onerror="this.remove();">
+                `).join("")}
             </div>
         `
         : "";
@@ -812,8 +815,14 @@ function buildDetailHtml(entity, spotIndex = null) {
       </div>`;
 }
 
-function getMonsterSpotImage(index) {
-    return `./assets/maps/${currentMapId}/portraits/monster/spot/spot${index + 1}.png`;
+function getMonsterSpotImages(index) {
+    const spotNumber = index + 1;
+    const basePath = `./assets/maps/${currentMapId}/portraits/monster/spot/spot${spotNumber}`;
+    const images = [`${basePath}.png`];
+    for (let variant = 1; variant <= 6; variant++) {
+        images.push(`${basePath}-${variant}.png`);
+    }
+    return images;
 }
 
 async function loadMapEntities(mapId) {
