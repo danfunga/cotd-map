@@ -1118,7 +1118,10 @@ function updateEntityRow(rowUi, entity) {
     rowUi.nameEl.className = `entity-name rarity-${rarityKey}`;
     rowUi.nameEl.textContent = label(entity);
     rowUi.subNameEl.textContent = entity.name || "";
-    rowUi.thumb.src = getImagePath(entity);
+    const imagePath = getImagePath(entity);
+    if (rowUi.thumb.getAttribute("src") !== imagePath) {
+        rowUi.thumb.src = imagePath;
+    }
     rowUi.thumb.alt = label(entity);
     rowUi.thumb.onerror = function onThumbError() {
         this.style.display = "none";
@@ -1232,6 +1235,10 @@ function renderMap() {
 
 function selectMap(mapId) {
     closeDetail();
+    if (!isTipsMode && currentMapId === mapId) {
+        applyPickerState();
+        return;
+    }
     isTipsMode = false;
     currentMapId = mapId;
     applyViewMode();
