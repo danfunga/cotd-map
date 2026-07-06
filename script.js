@@ -762,18 +762,8 @@ function buildDetailHtml(entity, spotIndex = null) {
     const noteHtml = entity.notes && entity.notes.trim() !== ""
         ? `<div class="detail-note"><strong>메모:</strong> ${entity.notes}</div>`
         : "";
-    const monsterSpotHtml = entity.category === "monster" && spotIndex !== null
-        ? `
-            <div class="monster-spot" style="display:none;">
-                ${getMonsterSpotImages(spotIndex).map((src) => `
-                    <img
-                        src="${src}"
-                        onload="this.parentElement.style.display='flex';"
-                        onerror="this.remove();">
-                `).join("")}
-            </div>
-        `
-        : "";
+    const spotImages = getSpotImages(entity, spotIndex);
+    const spotHtml = spotImages.length > 0 ? buildSpotImagesHtml(spotImages) : "";
 
     const caught = isCaught(entity);
     return `
@@ -810,14 +800,44 @@ function buildDetailHtml(entity, spotIndex = null) {
           ${latinHtml}
           ${seasonHtml}
           ${noteHtml}
-          ${monsterSpotHtml}
+          ${spotHtml}
         </div>
       </div>`;
+}
+
+function buildSpotImagesHtml(images) {
+    return `
+        <div class="entity-spot" style="display:none;">
+            ${images.map((src) => `
+                <img
+                    src="${src}"
+                    onload="this.parentElement.style.display='flex';"
+                    onerror="this.remove();">
+            `).join("")}
+        </div>
+    `;
+}
+
+function getSpotImages(entity, spotIndex = null) {
+    if (entity.category === "monster") {
+        return spotIndex === null ? [] : getMonsterSpotImages(spotIndex);
+    }
+    if (!["fish", "creature", "item"].includes(entity.category)) return [];
+    return getEntitySpotImages(entity);
+}
+
+function getEntitySpotImages(entity) {
+    const basePath = `./assets/maps/${currentMapId}/portraits/${entity.category}/spot/${entity.id}P`;
+    return buildSpotImageCandidates(basePath);
 }
 
 function getMonsterSpotImages(index) {
     const spotNumber = index + 1;
     const basePath = `./assets/maps/${currentMapId}/portraits/monster/spot/spot${spotNumber}`;
+    return buildSpotImageCandidates(basePath);
+}
+
+function buildSpotImageCandidates(basePath) {
     const images = [`${basePath}.png`];
     for (let variant = 1; variant <= 6; variant++) {
         images.push(`${basePath}-${variant}.png`);

@@ -1068,14 +1068,14 @@ body.map-fullscreen {
     line-height: 1.45;
     color: #d4ecfa;
 }
-.monster-spot {
+.entity-spot {
     margin-top: 16px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.monster-spot img {
+.entity-spot img {
     display: block;
     width: 100%;
     height: auto;
