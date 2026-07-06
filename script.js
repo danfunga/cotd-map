@@ -405,7 +405,7 @@ function markerIcon(entity, isPrimary = false, markerIndex = 0) {
         isPrimary = false;
     }
     const timeDimClass = shouldDimByRealtimeTime(entity) ? "time-dim" : "";
-    // console.log(getImagePath(entity));
+
     return L.divIcon({
         className: "photo-marker-wrap",
         html: `
@@ -477,15 +477,6 @@ function syncMarkerBundleLayers(bundle, entity) {
     return hasVisibleMarker;
 }
 
-function removeOtherMapMarkersFromLayer(mapId) {
-    markerBundleCache.forEach((byMap, cachedMapId) => {
-        if (cachedMapId === mapId) return;
-        byMap.forEach((bundle) => {
-            bundle.markers.forEach((marker) => markerLayer.removeLayer(marker));
-        });
-    });
-}
-
 function scheduleRenderMarkers(refreshPanel = true) {
     if (refreshPanel) scheduledRefreshPanel = true;
     if (renderScheduled) return;
@@ -495,16 +486,6 @@ function scheduleRenderMarkers(refreshPanel = true) {
         const shouldRefreshPanel = scheduledRefreshPanel;
         scheduledRefreshPanel = false;
         void renderMarkers(shouldRefreshPanel);
-    });
-}
-
-function refreshMonsterMarkers() {
-    const entities = lastFilteredEntities.filter(
-        (entity) => entity.category === "monster"
-    );
-    entities.forEach((entity) => {
-        const bundle = getMarkerBundle(currentMapId, entity);
-        updateMarkerBundleIcons(bundle, entity);
     });
 }
 
@@ -939,7 +920,9 @@ async function renderMarkers(refreshPanel = true) {
 
     activeMarkerKeys.forEach((key) => {
         if (nextActiveKeys.has(key)) return;
-        const byMap = markerBundleCache.get(currentMapId);
+        const [mapId] = key.split(":");
+        const byMap = markerBundleCache.get(mapId);
+
         const bundle = byMap?.get(key);
         if (!bundle) return;
         bundle.markers.forEach((marker) => markerLayer.removeLayer(marker));
@@ -1219,7 +1202,7 @@ function renderMap() {
     updateTodaySpotToggleButton();
 
     mapInstance.eachLayer((layer) => {
-        if (!(layer instanceof L.TileLayer) && layer !== markerLayer) mapInstance.removeLayer(layer);
+        if (layer instanceof L.ImageOverlay) mapInstance.removeLayer(layer);
     });
 
     L.imageOverlay(mapInfo.imagePath, bounds).addTo(mapInstance);
@@ -1244,8 +1227,6 @@ function renderMap() {
     requestAnimationFrame(() => {
         mapInstance.invalidateSize();
     });
-    removeOtherMapMarkersFromLayer(currentMapId);
-    activeMarkerKeys.clear();
     scheduleRenderMarkers();
 }
 
