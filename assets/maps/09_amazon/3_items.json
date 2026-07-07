@@ -13,7 +13,7 @@
         "y": 542
       }
     ],
-    "notes": "",
+    "notes": "대부분의 자원은 남동쪽 리오 마을 근처에 있습니다.",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -65,7 +65,7 @@
         "y": 1203.3822003384994
       }
     ],
-    "notes": "",
+    "notes": "착륙지 남쪽의 작은 섬에서 튀어나온 나뭇가지 근처에서 찾을수 있습니다.",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -91,7 +91,7 @@
         "y": 2256
       }
     ],
-    "notes": "",
+    "notes": "망그로브 숲 가장자리 근처였죠.",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -219,15 +219,11 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 1601,
-        "y": 2264
-      },
-      {
-        "x": 436,
-        "y": 1720
+        "x": 1640,
+        "y": 2113
       }
     ],
-    "notes": "",
+    "notes": "북동쪽에서 자랍니다. 세 개의 작은 섬 사이에서.",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -273,17 +269,9 @@
       {
         "x": 2132.6340520586273,
         "y": 1685.7425663487293
-      },
-      {
-        "x": 1982.2812777087897,
-        "y": 2577.8583947083216
-      },
-      {
-        "x": 2440,
-        "y": 220
       }
     ],
-    "notes": "",
+    "notes": "폭포 근처의 돌출된 적별 위에 있습니다. 철벽 아래에서 분명히 몇 개의 가지를 찾을수 있을 거에요.",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -335,7 +323,7 @@
         "y": 1083.9931270915695
       }
     ],
-    "notes": "",
+    "notes": "남동쪽에 작은 섬이 있어요. 특이한 새들에게 천국 같은 곳이죠.",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
