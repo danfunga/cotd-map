@@ -1,4 +1,4 @@
-import { mapOrder, mapsById } from './content/index.js';
+import {mapOrder, mapsById} from './content/index.js';
 
 const mapPicker = document.getElementById("mapPicker");
 const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
@@ -165,7 +165,7 @@ function addCaughtEntityKey(mapId, category, id) {
 }
 
 function emptyCategorizedEntityMap() {
-    return { fish: [], creature: [], item: [], monster: [] };
+    return {fish: [], creature: [], item: [], monster: []};
 }
 
 function serializeEntityKeysByMap(entityKeys, mapIds = new Set()) {
@@ -226,7 +226,7 @@ function buildUserStatePayload() {
             availability: [...filters.availability]
         },
         caughtEntitiesByMap: serializeCaughtEntitiesByMap(),
-        caughtFilterMode: { ...caughtFilterMode },
+        caughtFilterMode: {...caughtFilterMode},
         activeEntitiesByMap: serializeActiveEntitiesByMap()
     };
 }
@@ -441,7 +441,7 @@ function getMarkerBundle(mapId, entity) {
 
     const locs = Array.isArray(entity.locations) ? entity.locations : [];
     const markers = locs.map((l, idx) => {
-        const marker = L.marker([l.y, l.x], { icon: markerIcon(entity, idx === 0, idx) });
+        const marker = L.marker([l.y, l.x], {icon: markerIcon(entity, idx === 0, idx)});
         marker.on("click", () => openEntityDetail(entity, idx));
         return marker;
     });
@@ -496,6 +496,7 @@ function getImagePath(entity) {
 function getFigureImage(entity) {
     return `./assets/maps/${currentMapId}/portraits/${entity.category}/figure/${entity.id}W.png`;
 }
+
 function getLabelWithCategory(value) {
     const map = {
         fish: "물고기",
@@ -508,21 +509,21 @@ function getLabelWithCategory(value) {
 
 function availabilityTimeLabel(values) {
     if (!values || values.length === 0) return "종일";
-    const map = { "day": "낮", "night": "밤", "both": "종일" };
+    const map = {"day": "낮", "night": "밤", "both": "종일"};
     const labels = values.map((v) => map[v]).filter(Boolean);
     return labels.length ? labels.join(", ") : "종일";
 }
 
 function shadowSizeLabel(values) {
     if (!values || values.length === 0) return "없음";
-    const map = { 0: "작음", 1: "보통", 2: "중형", 3: "대형" };
+    const map = {0: "작음", 1: "보통", 2: "중형", 3: "대형"};
     const labels = values.map((v) => map[v]).filter(Boolean);
     return labels.length ? labels.join(", ") : "없음";
 }
 
 function shadowSpeedLabel(values) {
     if (!values || values.length === 0) return "없음";
-    const map = { 0: "정지", 1: "보통", 2: "빠름" };
+    const map = {0: "정지", 1: "보통", 2: "빠름"};
     const labels = values.map((v) => map[v]).filter(Boolean);
     return labels.length ? labels.join(", ") : "없음";
 }
@@ -539,21 +540,21 @@ function seasonBar(entity) {
     }
     const currentMonth = new Date().getMonth();
     const blocks = entity.seasons
-        .map((ok, idx) => {
-            const active = ok ? "on" : "off";
-            const now = idx === currentMonth ? "now" : "";
-            return `<span class="mcell ${active} ${now}">${idx + 1}</span>`;
-        })
-        .join("");
+    .map((ok, idx) => {
+        const active = ok ? "on" : "off";
+        const now = idx === currentMonth ? "now" : "";
+        return `<span class="mcell ${active} ${now}">${idx + 1}</span>`;
+    })
+    .join("");
     return `<div class="season-wrap"><div class="season-grid">${blocks}</div><div class="season-now">현재 달: ${currentMonth + 1}월</div></div>`;
 }
 
 function minigameMeta(entity) {
     const d = entity.difficulty;
-    if (d === null || d === undefined || d === 0) return { label: "없음", cls: "none" };
-    if (d === 1) return { label: "고정", cls: "fixed" };
-    if (d === 2) return { label: "움직임", cls: "moving" };
-    return { label: "회전", cls: "rotate" };
+    if (d === null || d === undefined || d === 0) return {label: "없음", cls: "none"};
+    if (d === 1) return {label: "고정", cls: "fixed"};
+    if (d === 2) return {label: "움직임", cls: "moving"};
+    return {label: "회전", cls: "rotate"};
 }
 
 function hitFishTimeFilter(entity) {
@@ -702,7 +703,7 @@ function installSingleFingerDoubleTapZoomIn() {
             return;
         }
         lastTap = now;
-    }, { passive: false });
+    }, {passive: false});
 }
 
 function installTwoFingerDoubleTapZoomOut() {
@@ -720,7 +721,7 @@ function installTwoFingerDoubleTapZoomOut() {
             return;
         }
         lastTwoFingerTapAt = now;
-    }, { passive: false });
+    }, {passive: false});
 }
 
 function createMapIfNeeded() {
@@ -934,9 +935,9 @@ async function renderMarkers(refreshPanel = true) {
 
 function renderEntityPanel() {
     syncCaughtFilterAllButton();
-    const categoryRank = { fish: 0, creature: 1, item: 2 };
-    const categoryLabel = { fish: "물고기", creature: "생명체", item: "아이템" };
-    const rarityRank = { common: 0, rare: 1, epic: 2, monster: 3 };
+    const categoryRank = {fish: 0, creature: 1, item: 2};
+    const categoryLabel = {fish: "물고기", creature: "생명체", item: "아이템"};
+    const rarityRank = {common: 0, rare: 1, epic: 2, monster: 3};
     const sorted = [...lastFilteredEntities].sort((a, b) => {
         const ca = categoryRank[a.category] ?? 9;
         const cb = categoryRank[b.category] ?? 9;
@@ -1223,6 +1224,8 @@ function renderMap() {
 
         // 보기 쉽게 문자열 생성
         const text = `"x": ${point.x}, "y": ${point.y}`;
+        await navigator.clipboard.writeText(text);
+        showToast("Copy to clipboard: " + text);
         console.log(text);
     });
     // 클릭 끝 ==================
@@ -1231,6 +1234,26 @@ function renderMap() {
         mapInstance.invalidateSize();
     });
     scheduleRenderMarkers();
+}
+
+function showToast(message, duration = 1000) {
+    const toast = document.createElement("div");
+    toast.textContent = message;
+    toast.style.cssText = `
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 4px;
+    z-index: 9999;
+  `;
+    document.body.appendChild(toast);
+    setTimeout(() => {
+        toast.remove();
+    }, duration);
 }
 
 function selectMap(mapId) {
@@ -1408,7 +1431,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // event.deltaY 값을 scrollLeft에 더해줌으로써 부드럽게 이동합니다.
             mapPicker.scrollLeft += event.deltaY;
         }
-    }, { passive: false }); // preventDefault()를 사용하기 위해 passive를 false로 설정합니다.
+    }, {passive: false}); // preventDefault()를 사용하기 위해 passive를 false로 설정합니다.
 
     detailClose.addEventListener("click", closeDetail);
     detailBackdrop.addEventListener("click", closeDetail);
