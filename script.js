@@ -395,12 +395,13 @@ function shouldHideMarkerByRotation(entity, markerIndex, mapId = currentMapId) {
         markerIndex !== activeMonsterIndex;
 }
 
-function markerIcon(entity, isPrimary = false, markerIndex = 0) {
+function markerIcon(entity, isPrimary = false, markerIndex = 0, hintByBubble = false) {
     const rarityKey = entity.rarity;
     const categoryKey = entity.category || "fish";
     const caught = isCaught(entity);
     const caughtClass = caught ? "caught" : "";
     const markerNumber = categoryKey === "monster" ? (markerIndex + 1) : null;
+    const bubbleHintClass = hintByBubble ? "bubble-hint-marker" : "";
     if (categoryKey === "monster") {
         isPrimary = false;
     }
@@ -410,7 +411,7 @@ function markerIcon(entity, isPrimary = false, markerIndex = 0) {
         className: "photo-marker-wrap",
         html: `
       <div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}" ></div>
-      <img class="photo-marker rarity-${rarityKey} ${timeDimClass} ${isPrimary ? "primary-location" : ""} ${caughtClass}"
+      <img class="photo-marker rarity-${rarityKey} ${timeDimClass} ${bubbleHintClass} ${isPrimary ? "primary-location" : ""} ${caughtClass}"
         src="${getImagePath(entity)}"
         alt="${label(entity)}"
         onerror="this.style.display='none';this.previousElementSibling.style.display='block';"
@@ -441,7 +442,7 @@ function getMarkerBundle(mapId, entity) {
 
     const locs = Array.isArray(entity.locations) ? entity.locations : [];
     const markers = locs.map((l, idx) => {
-        const marker = L.marker([l.y, l.x], {icon: markerIcon(entity, idx === 0, idx)});
+        const marker = L.marker([l.y, l.x], {icon: markerIcon(entity, idx === 0, idx,l.hint_by_bubble)});
         marker.on("click", () => openEntityDetail(entity, idx));
         return marker;
     });
@@ -1223,7 +1224,7 @@ function renderMap() {
         };
 
         // 보기 쉽게 문자열 생성
-        const text = `"x": ${point.x}, "y": ${point.y}`;
+        const text = `"x": ${point.x}, "y": ${point.y}, "hint_by_bubble" : true`;
         await navigator.clipboard.writeText(text);
         showToast("Copy to clipboard: " + text);
         console.log(text);

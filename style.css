@@ -798,6 +798,12 @@ body.map-fullscreen {
     font-size: 8px;
 }
 
+
+.photo-marker.bubble-hint-marker {
+    width: 20px;
+    height: 20px;
+}
+
 .photo-marker.rarity-common {
     border-color: #ffffff;
 }
