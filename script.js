@@ -1473,6 +1473,23 @@ document.addEventListener("DOMContentLoaded", () => {
         openEntityDetail(entity);
         scheduleRenderMarkers();
     });
+
+    document.addEventListener("click", (event) => {
+        const isMobile = window.matchMedia("(max-width: 860px)").matches;
+        if (!isMobile) return;
+
+        const panel = document.getElementById("entityPanel");
+        if (!panel.classList.contains("open")) return;
+
+        // 패널 내부나 토글 버튼을 누른 경우는 무시
+        if (panel.contains(event.target) || panelToggleBtn.contains(event.target)) {
+            return;
+        }
+
+        panel.classList.remove("open");
+        panelToggleBtn.classList.remove("on");
+    });
+
     if (isTipsMode) selectTipsPage();
     else {
         renderMap();
