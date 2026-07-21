@@ -442,7 +442,7 @@ function getMarkerBundle(mapId, entity) {
 
     const locs = Array.isArray(entity.locations) ? entity.locations : [];
     const markers = locs.map((l, idx) => {
-        const marker = L.marker([l.y, l.x], {icon: markerIcon(entity, idx === 0, idx,l.hint_by_bubble)});
+        const marker = L.marker([l.y, l.x], {icon: markerIcon(entity, idx === 0, idx, l.hint_by_bubble)});
         marker.on("click", () => openEntityDetail(entity, idx));
         return marker;
     });
@@ -1305,12 +1305,29 @@ function shouldDimByRealtimeTime(entity) {
         (!isDay && entity.timeBand === "day");
 }
 
+function installPreventPageDoubleTapZoom() {
+    let lastTouchEnd = 0;
+    document.addEventListener("touchend", (event) => {
+        // map 영역은 제외
+        if (mapInstance?.getContainer()?.contains(event.target)) {
+            return;
+        }
+
+        const now = Date.now();
+        if (now - lastTouchEnd < 300) {
+            event.preventDefault();
+        }
+        lastTouchEnd = now;
+    }, {passive: false});
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     loadUserState();
     buildPicker();
     applyViewMode();
     applyPickerState();
     createMapIfNeeded();
+    installPreventPageDoubleTapZoom();
     applyFilterButtonState();
     syncCaughtFilterAllButton();
     updateAlwaysShowBossButton();

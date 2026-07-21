@@ -6,6 +6,10 @@ body {
     color: #e7f6ff;
 }
 
+html, body {
+    touch-action: manipulation;
+}
+
 *,
 *::before,
 *::after {
@@ -1304,9 +1308,9 @@ body.map-fullscreen {
     /*.panel-toggle-btn {*/
     /*  display: inline-block;*/
     /*}*/
-    html, body {
-        touch-action: manipulation;
-    }
+    /*html, body {*/
+    /*    touch-action: manipulation;*/
+    /*}*/
 
 }
 
