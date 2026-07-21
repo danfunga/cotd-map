@@ -2,7 +2,6 @@ import {mapOrder, mapsById} from './content/index.js';
 
 const mapPicker = document.getElementById("mapPicker");
 const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
-const clearButtons = document.querySelectorAll(".clear-btn[data-clear-group]");
 const entityList = document.getElementById("entityList");
 const uncaughtOnlyBtn = document.getElementById("uncaughtOnlyBtn");
 const showAllBtn = document.getElementById("showAllBtn");
@@ -1279,18 +1278,18 @@ function selectTipsPage() {
     saveUserState();
 }
 
-function clearFilterGroup(group) {
-    if (filters[group].size > 0) {
-        filters[group].clear();
-    } else {
-        filters[group] = new Set(defaults[group]);
-    }
-    applyFilterButtonState();
-    // applyFishOnlyState();
-    // resetActiveOnNextRender = true;
-    saveUserState();
-    scheduleRenderMarkers();
-}
+// function clearFilterGroup(group) {
+//     if (filters[group].size > 0) {
+//         filters[group].clear();
+//     } else {
+//         filters[group] = new Set(defaults[group]);
+//     }
+//     applyFilterButtonState();
+//     // applyFishOnlyState();
+//     // resetActiveOnNextRender = true;
+//     saveUserState();
+//     scheduleRenderMarkers();
+// }
 
 function isRealtimeDayTime() {
     const h = new Date().getHours();
@@ -1348,9 +1347,9 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    clearButtons.forEach((btn) => {
-        btn.addEventListener("click", () => clearFilterGroup(btn.dataset.clearGroup));
-    });
+    // clearButtons.forEach((btn) => {
+    //     btn.addEventListener("click", () => clearFilterGroup(btn.dataset.clearGroup));
+    // });
     exportStateBtn?.addEventListener("click", exportUserState);
     importStateBtn?.addEventListener("click", () => showImportUserStateDialog());
 
