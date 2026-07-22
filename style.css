@@ -371,9 +371,13 @@ main {
     overflow-y: auto;
     display: grid;
     gap: 5px;
-    scrollbar-gutter: stable both-edges;
     padding-right: 4px;
     touch-action: manipulation;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.entity-list::-webkit-scrollbar {
+    display: none;
 }
 
 .entity-group {
