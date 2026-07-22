@@ -156,10 +156,10 @@ header h1 {
 .filter-headline {
     position: absolute;
     left: 10px;
-    top: -4px;
+    top: -5px;
     margin: 0;
     padding: 0 4px;
-    background: rgba(2, 46, 65, 0.75);
+    background: rgb(2, 46, 65);
     border-radius: 0;
     max-width: calc(100% - 20px);
     overflow: hidden;
@@ -195,7 +195,6 @@ header h1 {
 .filter-btn {
     flex: 1 1 auto; /* 각 버튼이 같은 비율로 너비 차지 */
     min-width: 0; /* 내용 때문에 줄어들지 않는 문제 방지 */
-
     border: 1px solid #0d729c;
     background: #01344a;
     color: #d8f2ff;
@@ -207,28 +206,17 @@ header h1 {
     justify-content: center;
     line-height: 1;
     vertical-align: middle;
-
     /* 텍스트를 항상 한 줄로 유지 */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-
     /* 화면이 좁아질수록 글자 크기 자동 축소 */
-    font-size: clamp(9px, 1.9vw, 12px);
-    font-weight: 700;
+    font-size: clamp(9px, 1.9vw, 13px);
+    font-weight: 600;
     touch-action: manipulation;
     user-select: none;
 }
 
-.filter-btn {
-    border: 1px solid #0d729c;
-    background: #01344a;
-    color: #d8f2ff;
-    border-radius: 9px;
-    padding: 6px 10px;
-    font-size: 12px;
-    font-weight: 700;
-}
 
 .filter-btn.active {
     border-color: #34c7ff;
@@ -634,7 +622,7 @@ body.map-fullscreen {
     left: 50%;
     transform: translateX(-50%);
     z-index: 5000;
-    width: min(97dvw, calc((100vh + var(--panel-w))));
+    /*width: min(97dvw, calc((100vh + var(--panel-w))));*/
     height: calc(100dvh - 110px);
     max-width: none;
     margin: 0;
@@ -673,7 +661,7 @@ body.map-fullscreen {
 #controls.filter-fullscreen {
     margin-left: auto;
     margin-right: auto;
-    width: min(97dvw, calc((100vh + var(--panel-w))));
+    /*width: min(97dvw, calc((100vh + var(--panel-w))));*/
     padding: 0;
 }
 
@@ -688,6 +676,9 @@ body.map-fullscreen {
 #controls.filter-fullscreen .filter-headline,
 #controls.filter-fullscreen #availabilityCard {
     display: none;
+}
+#controls.filter-fullscreen .filter-btn{
+    height: 22px;
 }
 
 .photo-marker-wrap {
@@ -1304,6 +1295,8 @@ body.map-fullscreen {
 }
 
 .tips-card {
+    /*width: 100%;*/
+    min-width: 0;
     border: 1px solid rgba(71, 188, 245, 0.35);
     border-radius: 12px;
     padding: 12px;
@@ -1320,6 +1313,16 @@ body.map-fullscreen {
     margin: 0 0 8px;
     font-size: 13px;
     line-height: 1.45;
+}
+
+.tips-card a {
+    color: #ffd24f;
+    font-weight: 700;
+}
+
+.tips-card * {
+    min-width: 0;
+    overflow-wrap: break-word;
 }
 
 .skill-tree-mini {
@@ -1364,10 +1367,7 @@ body.map-fullscreen {
     object-fit: cover;
 }
 
-.tips-card a {
-    color: #ffd24f;
-    font-weight: 700;
-}
+
 
 .tips-table-wrap {
     overflow-x: auto;
@@ -1414,7 +1414,7 @@ body.map-fullscreen {
 }
 
 .tips-map-figure img {
-    width: 100%;
+    /*width: 100%;*/
     border-radius: 10px;
     border: 1px solid rgba(71, 188, 245, 0.45);
 }
@@ -1457,7 +1457,7 @@ body.map-fullscreen #mapPickerSection {
     padding: 8px 1px 1px;
     margin-left: auto;
     margin-right: auto;
-    width: min(97dvw, calc((100vh + var(--panel-w))));
+    /*width: min(100% - 16px, var(--layout-max));*/
 }
 
 body.map-fullscreen #mapPickerSection .section-title {
