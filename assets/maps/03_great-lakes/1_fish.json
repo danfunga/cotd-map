@@ -1016,7 +1016,7 @@
     "latin": "",
     "category": "monster",
     "rarity": "monster",
-    "timeBand": "day",
+    "timeBand": "both",
     "locations": [
       {
         "x": 1677.2669545369704,

@@ -993,7 +993,7 @@
     "latin": "",
     "category": "monster",
     "rarity": "monster",
-    "timeBand": "night",
+    "timeBand": "both",
     "locations": [
       {
         "x": 259.9927442009323,

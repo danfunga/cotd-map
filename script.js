@@ -25,10 +25,7 @@ const detailBackdrop = document.getElementById("detailBackdrop");
 const controlsSection = document.getElementById("controls");
 const mapLayout = document.getElementById("mapLayout");
 const tipsLayout = document.getElementById("tipsLayout");
-const controlsHome = {
-    parent: controlsSection.parentElement,
-    nextSibling: controlsSection.nextSibling
-};
+
 const STORAGE_KEY = "cotd-map:user-state:v1";
 const TIPS_PAGE_ID = "__tips__";
 
@@ -455,10 +452,11 @@ function getMarkerBundle(mapId, entity) {
 }
 
 function updateMarkerBundleIcons(bundle, entity) {
+    const locs = Array.isArray(entity.locations) ? entity.locations : [];
     bundle.markers.forEach((marker, idx) => {
         const nextSig = markerVisualSignature(entity, idx === 0);
         if (bundle.iconSignatures[idx] === nextSig) return;
-        marker.setIcon(markerIcon(entity, idx === 0, idx));
+        marker.setIcon(markerIcon(entity, idx === 0, idx, Boolean(locs[idx]?.hint_by_bubble)));
         bundle.iconSignatures[idx] = nextSig;
     });
 }
@@ -1421,8 +1419,8 @@ document.addEventListener("DOMContentLoaded", () => {
     realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
     realtimeTimeToggleBtn?.addEventListener("click", () => {
         realtimeTimeFilterEnabled = !realtimeTimeFilterEnabled;
-        saveUserState();
         updateRealtimeTimeToggleButton();
+        saveUserState();
         scheduleRenderMarkers(true);
     });
 
