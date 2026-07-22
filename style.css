@@ -167,7 +167,7 @@ header h1 {
 
 .filter-title {
     font-size: 11px;
-    letter-spacing: 1.4px;
+    letter-spacing: 2px;
     color: #8fdcff;
     font-weight: 900;
     border: none;
@@ -219,8 +219,6 @@ header h1 {
     touch-action: manipulation;
     user-select: none;
 }
-
-/*.filter-row { display: flex; flex-wrap: wrap; gap: 7px; }*/
 
 .filter-btn {
     border: 1px solid #0d729c;
