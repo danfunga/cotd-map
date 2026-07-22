@@ -211,7 +211,7 @@ header h1 {
     overflow: hidden;
     text-overflow: ellipsis;
     /* 화면이 좁아질수록 글자 크기 자동 축소 */
-    font-size: clamp(9px, 1.9vw, 13px);
+    font-size: clamp(11px, 1.9vw, 13px);
     font-weight: 600;
     touch-action: manipulation;
     user-select: none;
@@ -623,7 +623,7 @@ body.map-fullscreen {
     transform: translateX(-50%);
     z-index: 5000;
     /*width: min(97dvw, calc((100vh + var(--panel-w))));*/
-    height: calc(100dvh - 110px);
+    height: calc(100dvh - 90px);
     max-width: none;
     margin: 0;
     padding: 5px 0;
@@ -678,7 +678,7 @@ body.map-fullscreen {
     display: none;
 }
 #controls.filter-fullscreen .filter-btn{
-    height: 22px;
+    height: 25px;
 }
 
 .photo-marker-wrap {
