@@ -603,20 +603,18 @@ function applyViewMode() {
 }
 
 function syncMapFullscreenState(active) {
-    const useMobileOverlay = active && window.matchMedia("(max-width: 860px)").matches;
     isMapFullscreen = active;
     document.body.classList.toggle("map-fullscreen", active);
     mapLayout.classList.toggle("map-layout-fullscreen", active);
-    controlsSection.classList.toggle("map-filter-overlay", useMobileOverlay);
+    controlsSection.classList.toggle("filter-fullscreen", active);
     fullscreenToggleBtn.classList.toggle("on", active);
-
     fullscreenToggleBtn?.setAttribute("aria-pressed", active ? "true" : "false");
-    if (useMobileOverlay) {
-        mapLayout.appendChild(controlsSection);
-    } else {
-        controlsHome.parent.insertBefore(controlsSection, controlsHome.nextSibling);
-        controlsSection.hidden = isTipsMode;
-    }
+    // if (useMobileOverlay) {
+    //     mapLayout.appendChild(controlsSection);
+    // } else {
+    //     controlsHome.parent.insertBefore(controlsSection, controlsHome.nextSibling);
+    //     controlsSection.hidden = isTipsMode;
+    // }
 
     requestAnimationFrame(() => {
         mapInstance?.invalidateSize();

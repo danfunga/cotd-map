@@ -633,7 +633,8 @@ body.map-fullscreen {
 
 #mapLayout.map-layout-fullscreen {
     position: fixed;
-    top: 50px;
+    /*top: 50px;*/
+    top: 100px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -642,7 +643,8 @@ body.map-fullscreen {
             100vw,
             calc((100vh * var(--active-map-aspect)) + var(--panel-w))
     );
-    height: calc(100dvh - 70px);
+    /*height: calc(100dvh - 80px);*/
+    height: calc(100dvh - 130px);
     max-width: none;
     margin: 0;
     padding: 0;
@@ -677,34 +679,40 @@ body.map-fullscreen {
     min-height: 100%;
 }
 
-#controls.map-filter-overlay {
+#controls.filter-fullscreen {
     position: absolute;
+    top: 50px;
     left: max(8px, env(safe-area-inset-left));
     right: max(8px, env(safe-area-inset-right));
     bottom: calc(max(8px, env(safe-area-inset-bottom)) + 42px);
-    z-index: 1200;
-    width: auto;
+    z-index: 100000;
+    width: 97dvw;
     margin: 0;
     padding: 0;
     pointer-events: none;
 }
 
-#controls.map-filter-overlay .filter-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+#controls.filter-fullscreen .filter-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 6px;
     pointer-events: auto;
 }
 
-#controls.map-filter-overlay .filter-card {
+#controls.filter-fullscreen .filter-card {
+/*    !*border: 0;*!*/
     padding: 8px 6px;
-    border-color: rgba(71, 188, 245, 0.5);
-    background: rgba(0, 20, 30, 0.82);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.42);
-    backdrop-filter: blur(2px);
+/*    !*border-color: rgba(71, 188, 245, 0.5);*!*/
+/*    !*background: rgba(0, 20, 30, 0.82);*!*/
+/*    !*box-shadow: 0 2px 10px rgba(0, 0, 0, 0.42);*!*/
+/*    !*backdrop-filter: blur(2px);*!*/
 }
 
-#controls.map-filter-overlay .filter-headline {
-    background: rgba(0, 20, 30, 0.82);
+#controls.filter-fullscreen .filter-headline {
+    /*background: rgba(0, 20, 30, 0.82);*/
+    display: none;
+}
+#controls.filter-fullscreen #availabilityCard {
+    display: none;
 }
 
 .photo-marker-wrap {
@@ -1196,11 +1204,11 @@ body.map-fullscreen {
     }
 }
 
-@media (max-width: 860px) {
-    .filter-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
+/*@media (max-width: 860px) {*/
+/*    .filter-grid {*/
+/*        grid-template-columns: repeat(2, minmax(0, 1fr));*/
+/*    }*/
+/*}*/
 
 @media (max-width: 860px) {
     #map {
@@ -1478,10 +1486,15 @@ body.tips-mode #tipsLayout {
         grid-template-columns: 1fr;
     }
 }
-body.map-fullscreen header,
-body.map-fullscreen #controls{
+/*body.map-fullscreen header,*/
+/*body.map-fullscreen #controls{*/
+/*    display: none;*/
+/*}*/
+
+body.map-fullscreen header{
     display: none;
 }
+
 body.map-fullscreen #mapPickerSection {  
     margin-left: auto;
     margin-right: auto;
