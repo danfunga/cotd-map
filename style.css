@@ -120,8 +120,8 @@ header h1 {
 }
 
 .map-chip.active {
-    border-color: #35c7ff;
-    box-shadow: 0 0 0 1px rgba(53, 199, 255, 0.5) inset;
+    border-color: #ffd24f;
+    color: #ffe07a;
 }
 
 #controls {
@@ -219,8 +219,20 @@ header h1 {
 
 
 .filter-btn.active {
-    border-color: #34c7ff;
-    color: #ffd24f;
+    border-color: #ffd24f;
+    color: #ffe07a;
+}
+
+.filter-btn .filter-icon {
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+.filter-fullscreen .filter-btn .filter-icon {
+    display: block;
+}
+.filter-fullscreen .filter-btn .filter-label {
+    display: none;
 }
 
 main {
@@ -376,6 +388,7 @@ main {
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
+
 .entity-list::-webkit-scrollbar {
     display: none;
 }
@@ -1370,7 +1383,6 @@ body.map-fullscreen {
     border: 1px solid rgba(71, 188, 245, 0.45);
     object-fit: cover;
 }
-
 
 
 .tips-table-wrap {

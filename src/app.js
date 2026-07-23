@@ -525,12 +525,6 @@ function syncMapFullscreenState(active) {
     controlsSection.classList.toggle("filter-fullscreen", active);
     fullscreenToggleBtn.classList.toggle("on", active);
     fullscreenToggleBtn?.setAttribute("aria-pressed", active ? "true" : "false");
-    // if (useMobileOverlay) {
-    //     mapLayout.appendChild(controlsSection);
-    // } else {
-    //     controlsHome.parent.insertBefore(controlsSection, controlsHome.nextSibling);
-    //     controlsSection.hidden = state.isTipsMode;
-    // }
 
     requestAnimationFrame(() => {
         state.mapInstance?.invalidateSize();
@@ -1239,6 +1233,15 @@ document.addEventListener("DOMContentLoaded", () => {
     updateRealtimeTimeToggleButton();
 
     filterButtons.forEach((btn) => {
+
+        const img = document.createElement("img");
+        img.className = "filter-icon";
+        img.src = `./assets/icons/filter/${btn.dataset.value}.svg`;
+        const label = document.createElement("span");
+        label.className = "filter-label";
+        label.textContent = btn.textContent;
+        btn.replaceChildren(img, label);
+
         btn.addEventListener("click", () => {
             const group = btn.dataset.group;
             const value = btn.dataset.value;
