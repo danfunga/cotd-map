@@ -1,4 +1,7 @@
-import {mapOrder, mapsById} from './content/index.js';
+import {mapOrder, mapsById} from '../content/mapIndex.js';
+import {state} from "./state/state.js";
+import {FILTER_DEFAULTS, MONSTER_ROTATION_CONFIG, MONSTER_ROTATION_MAP_IDS} from "./constants/index.js";
+import ImageRepository from "./repository/imageRepository.js";
 
 const mapPicker = document.getElementById("mapPicker");
 const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
@@ -29,39 +32,8 @@ const tipsLayout = document.getElementById("tipsLayout");
 const STORAGE_KEY = "cotd-map:user-state:v1";
 const TIPS_PAGE_ID = "__tips__";
 
-const defaults = {
-    category: new Set(["fish", "creature", "item", "monster"]),
-    time: new Set(["day", "night", "both"]),
-    rarity: new Set(["common", "rare", "epic", "monster"]),
-    availability: new Set(["available", "unavailable"])
-};
+state.currentMapId = mapOrder[0];
 
-const filters = {
-    category: new Set(defaults.category),
-    time: new Set(defaults.time),
-    rarity: new Set(defaults.rarity),
-    availability: new Set(defaults.availability)
-};
-
-let currentMapId = mapOrder[0];
-let isTipsMode = false;
-let isMapFullscreen = false;
-let mapInstance = null;
-let markerLayer = null;
-let lastFilteredEntities = [];
-const mapEntitiesCache = new Map();
-const markerBundleCache = new Map();
-const activeMarkerKeys = new Set();
-const entityRowCache = new Map();
-const groupUiCache = new Map();
-let renderRequestId = 0;
-let renderScheduled = false;
-let scheduledRefreshPanel = false;
-let resetActiveOnNextRender = false;
-let currentDetailEntity = null;
-const activeEntityKeys = new Set();
-const initializedActiveMapIds = new Set();
-const caughtEntityKeys = new Set();
 const panelFoldState = {
     fish: true,
     creature: true,
@@ -72,54 +44,6 @@ const caughtFilterMode = {
     creature: "all",
     item: "all"
 };
-const MONSTER_ROTATION_MAP_IDS = new Set([
-    "02_paradise-island",
-    "03_great-lakes",
-    "04_costa-rica",
-    "05_alaska",
-    "06_australia",
-    "07_scotland",
-    "08_thailand",
-    "09_amazon"
-]);
-const MONSTER_ROTATION_CONFIG = {
-    "02_paradise-island": {
-        startDate: "2024-05-01",
-        rotation: [1, 3, 2, 2, 3, 1, 2, 3, 3, 2, 1, 3, 2, 3, 2, 3, 3, 2, 2, 2, 2, 2, 1, 1, 3, 3]
-    },
-    "03_great-lakes": {
-        startDate: "2024-05-01",
-        rotation: [1, 4, 3, 3, 2, 4, 1, 4, 2, 4, 1, 2, 1, 3, 3, 2, 2, 3, 3, 1, 3, 3, 4, 3, 1, 3]
-    },
-    "04_costa-rica": {
-        startDate: "2024-05-01",
-        rotation: [3, 1, 2, 2, 1, 3, 2, 1, 1, 2, 3, 1, 2, 1, 2, 1, 1, 2, 2, 2, 2, 2, 3, 3, 1, 1]
-    },
-    "05_alaska": {
-        startDate: "2024-05-01",
-        rotation: [3, 4, 1, 1, 2, 4, 3, 4, 2, 4, 3, 2, 3, 1, 1, 2, 2, 1, 1, 3, 1, 1, 4, 1, 3, 1]
-    },
-    "06_australia": {
-        startDate: "2024-05-01",
-        rotation: [3, 4, 1, 1, 2, 4, 3, 4, 2, 4, 3, 2, 3, 1, 1, 2, 2, 1, 1, 3, 1, 1, 4, 1, 3, 1]
-    },
-    "07_scotland": {
-        startDate: "2024-05-01",
-        rotation: [1, 5, 2, 2, 5, 6, 2, 5, 5, 4, 1, 5, 2, 3, 2, 5, 5, 2, 2, 2, 2, 2, 6, 1, 3, 3]
-    },
-    "08_thailand": {
-        startDate: "2026-04-03",
-        rotation: [3, 2, 1, 1, 4, 2, 3, 2, 4, 2, 3, 4, 3, 1, 1, 4, 4, 1, 1, 3, 1, 1, 2, 1, 3, 1]
-    },
-    "09_amazon": {
-        startDate: "2024-05-01",
-        rotation: [3, 4, 1, 1, 2, 4, 3, 4, 2, 4, 3, 2, 3, 1, 1, 2, 2, 1, 1, 3, 1, 1, 4, 1, 3, 1]
-    }
-};
-// Toolbar
-let alwaysShowBoss = false;
-let monsterRotationRevealed = false;
-let realtimeTimeFilterEnabled = false;
 
 function nextCaughtMode(mode) {
     if (mode === "all") return "uncaught";
@@ -144,20 +68,20 @@ function syncCaughtFilterAllButton() {
     caughtFilterAllBtn.textContent = same ? caughtModeLabel(modes[0]) : "혼합";
 }
 
-function entityKey(entity, mapId = currentMapId) {
+function entityKey(entity, mapId = state.currentMapId) {
     return `${mapId}:${entity.category}:${entity.id}`;
 }
 
-function currentMapKeyPrefix(mapId = currentMapId) {
+function currentMapKeyPrefix(mapId = state.currentMapId) {
     return `${mapId}:`;
 }
 
 function addActiveEntityKey(mapId, category, id) {
-    activeEntityKeys.add(`${mapId}:${category}:${id}`);
+    state.selection.activeEntityKeys.add(`${mapId}:${category}:${id}`);
 }
 
 function addCaughtEntityKey(mapId, category, id) {
-    caughtEntityKeys.add(`${mapId}:${category}:${id}`);
+    state.selection.caughtEntityKeys.add(`${mapId}:${category}:${id}`);
 }
 
 function emptyCategorizedEntityMap() {
@@ -180,47 +104,49 @@ function serializeEntityKeysByMap(entityKeys, mapIds = new Set()) {
 }
 
 function serializeActiveEntitiesByMap() {
-    return serializeEntityKeysByMap(activeEntityKeys, initializedActiveMapIds);
+    return serializeEntityKeysByMap(state.selection.activeEntityKeys, state.selection.initializedActiveMapIds);
 }
 
 function serializeCaughtEntitiesByMap() {
-    return serializeEntityKeysByMap(caughtEntityKeys);
+    return serializeEntityKeysByMap(state.selection.caughtEntityKeys);
 }
 
-function resetActiveEntitiesForMap(entities, mapId = currentMapId) {
+function resetActiveEntitiesForMap(entities, mapId = state.currentMapId) {
     const prefix = currentMapKeyPrefix(mapId);
-    activeEntityKeys.forEach((key) => {
-        if (key.startsWith(prefix)) activeEntityKeys.delete(key);
+    state.selection.activeEntityKeys.forEach((key) => {
+        if (key.startsWith(prefix)) state.selection.activeEntityKeys.delete(key);
     });
-    entities.forEach((entity) => activeEntityKeys.add(entityKey(entity, mapId)));
-    initializedActiveMapIds.add(mapId);
+    entities.forEach((entity) => state.selection.activeEntityKeys.add(entityKey(entity, mapId)));
+    state.selection.initializedActiveMapIds.add(mapId);
 }
 
-function isEntityActive(entity, mapId = currentMapId) {
-    if (!initializedActiveMapIds.has(mapId)) return true;
-    if (entity.category === "monster" && alwaysShowBoss) return true;
-    return activeEntityKeys.has(entityKey(entity, mapId));
+function isEntityActive(entity, mapId = state.currentMapId) {
+    if (!state.selection.initializedActiveMapIds.has(mapId)) return true;
+    if (entity.category === "monster" && state.alwaysShowBoss) return true;
+    return state.selection.activeEntityKeys.has(entityKey(entity, mapId));
 }
 
-function isCaught(entity, mapId = currentMapId) {
-    return caughtEntityKeys.has(entityKey(entity, mapId));
+function isCaught(entity, mapId = state.currentMapId) {
+    return state.selection.caughtEntityKeys.has(entityKey(entity, mapId));
 }
 
 function buildUserStatePayload() {
     return {
         version: 2,
-        mapId: currentMapId,
-        isTipsMode,
-        isMapFullscreen,
-        monsterRotationRevealed,   // 추가
-        alwaysShowBoss,
-        realtimeTimeFilterEnabled,
+        mapId: state.currentMapId,
+        isTipsMode: state.isTipsMode,
+        isMapFullscreen: state.isMapFullscreen,
+        monsterRotationRevealed: state.monsterRotationRevealed,
+        alwaysShowBoss: state.alwaysShowBoss,
+        realtimeTimeFilterEnabled: state.realtimeTimeFilterEnabled,
+
         filters: {
-            category: [...filters.category],
-            time: [...filters.time],
-            rarity: [...filters.rarity],
-            availability: [...filters.availability]
+            category: [...state.filters.category],
+            time: [...state.filters.time],
+            rarity: [...state.filters.rarity],
+            availability: [...state.filters.availability]
         },
+
         caughtEntitiesByMap: serializeCaughtEntitiesByMap(),
         caughtFilterMode: {...caughtFilterMode},
         activeEntitiesByMap: serializeActiveEntitiesByMap()
@@ -237,9 +163,9 @@ function isPlainObject(value) {
 }
 
 function clearUserStateMemory() {
-    activeEntityKeys.clear();
-    initializedActiveMapIds.clear();
-    caughtEntityKeys.clear();
+    state.selection.activeEntityKeys.clear();
+    state.selection.initializedActiveMapIds.clear();
+    state.selection.caughtEntityKeys.clear();
 }
 
 function loadEntityKeysByMap(value, addKey, markMap = null) {
@@ -261,16 +187,16 @@ function applyUserState(data) {
     if (!isPlainObject(data)) throw new Error("가져올 수 없는 파일입니다.");
 
     clearUserStateMemory();
-    currentMapId = mapOrder.includes(data.mapId) ? data.mapId : mapOrder[0];
-    isTipsMode = Boolean(data.isTipsMode);
-    isMapFullscreen = Boolean(data.isMapFullscreen);
-    monsterRotationRevealed = Boolean(data.monsterRotationRevealed);
-    alwaysShowBoss = Boolean(data.alwaysShowBoss);
-    realtimeTimeFilterEnabled = Boolean(data.realtimeTimeFilterEnabled);
+    state.currentMapId = mapOrder.includes(data.mapId) ? data.mapId : mapOrder[0];
+    state.isTipsMode = Boolean(data.isTipsMode);
+    state.isMapFullscreen = Boolean(data.isMapFullscreen);
+    state.monsterRotationRevealed = Boolean(data.monsterRotationRevealed);
+    state.alwaysShowBoss = Boolean(data.alwaysShowBoss);
+    state.realtimeTimeFilterEnabled = Boolean(data.realtimeTimeFilterEnabled);
 
     for (const group of ["category", "time", "rarity", "availability"]) {
-        const values = data.filters && Array.isArray(data.filters[group]) ? data.filters[group] : [...defaults[group]];
-        filters[group] = new Set(values);
+        const values = data.filters && Array.isArray(data.filters[group]) ? data.filters[group] : [...FILTER_DEFAULTS[group]];
+        state.filters[group] = new Set(values);
     }
 
     for (const category of ["fish", "creature", "item"]) {
@@ -282,7 +208,7 @@ function applyUserState(data) {
     loadEntityKeysByMap(
         data.activeEntitiesByMap,
         addActiveEntityKey,
-        (mapId) => initializedActiveMapIds.add(mapId)
+        (mapId) => state.selection.initializedActiveMapIds.add(mapId)
     );
 }
 
@@ -334,8 +260,8 @@ function refreshUiFromUserState() {
     updateAlwaysShowBossButton();
     updateTodaySpotToggleButton();
     updateRealtimeTimeToggleButton();
-    activeMarkerKeys.clear();
-    if (isTipsMode) {
+    state.selection.activeMarkerKeys.clear();
+    if (state.isTipsMode) {
         selectTipsPage();
     } else {
         renderMap();
@@ -346,7 +272,7 @@ function label(entity) {
     return entity.display && entity.display.trim() !== "" ? entity.display : entity.name;
 }
 
-function isMonsterRotationMap(mapId = currentMapId) {
+function isMonsterRotationMap(mapId = state.currentMapId) {
     return MONSTER_ROTATION_MAP_IDS.has(mapId);
 }
 
@@ -363,7 +289,7 @@ function monsterGameDayMidnightLocal() {
     return new Date(shifted.getFullYear(), shifted.getMonth(), shifted.getDate());
 }
 
-function getMonsterRotationActiveIndex(entity, mapId = currentMapId) {
+function getMonsterRotationActiveIndex(entity, mapId = state.currentMapId) {
     if (!entity || entity.category !== "monster" || !isMonsterRotationMap(mapId)) return null;
     const cfg = MONSTER_ROTATION_CONFIG[mapId];
     if (!cfg || !Array.isArray(cfg.rotation) || cfg.rotation.length === 0) return null;
@@ -381,12 +307,12 @@ function getMonsterRotationActiveIndex(entity, mapId = currentMapId) {
     return null;
 }
 
-function shouldHideMarkerByRotation(entity, markerIndex, mapId = currentMapId) {
+function shouldHideMarkerByRotation(entity, markerIndex, mapId = state.currentMapId) {
     const categoryKey = entity.category || "fish";
     const activeMonsterIndex = getMonsterRotationActiveIndex(entity, mapId);
     return categoryKey === "monster" &&
         isMonsterRotationMap(mapId) &&
-        monsterRotationRevealed &&
+        state.monsterRotationRevealed &&
         activeMonsterIndex !== null &&
         markerIndex !== activeMonsterIndex;
 }
@@ -408,7 +334,7 @@ function markerIcon(entity, isPrimary = false, markerIndex = 0, hintByBubble = f
         html: `
       <div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}" ></div>
       <img class="photo-marker rarity-${rarityKey} ${timeDimClass} ${bubbleHintClass} ${isPrimary ? "primary-location" : ""} ${caughtClass}"
-        src="${getImagePath(entity)}"
+        src="${ImageRepository.getPortrait(state.currentMapId, entity)}"
         alt="${label(entity)}"
         onerror="this.style.display='none';this.previousElementSibling.style.display='block';"
       >
@@ -423,15 +349,15 @@ function markerIcon(entity, isPrimary = false, markerIndex = 0, hintByBubble = f
 
 function markerVisualSignature(entity, isPrimary) {
     const activeMonsterIndex = getMonsterRotationActiveIndex(entity);
-    return `${entity.rarity}|${entity.category}|${isPrimary ? "1" : "0"}|${isCaught(entity) ? "1" : "0"}|${monsterRotationRevealed ? "1" : "0"}|${activeMonsterIndex ?? "x"}|${shouldDimByRealtimeTime(entity) ? "D" : "N"}`;
+    return `${entity.rarity}|${entity.category}|${isPrimary ? "1" : "0"}|${isCaught(entity) ? "1" : "0"}|${state.monsterRotationRevealed ? "1" : "0"}|${activeMonsterIndex ?? "x"}|${shouldDimByRealtimeTime(entity) ? "D" : "N"}`;
 }
 
 function getMarkerBundle(mapId, entity) {
     const key = entityKey(entity, mapId);
-    let byMap = markerBundleCache.get(mapId);
+    let byMap = state.cache.markerBundle.get(mapId);
     if (!byMap) {
         byMap = new Map();
-        markerBundleCache.set(mapId, byMap);
+        state.cache.markerBundle.set(mapId, byMap);
     }
     let bundle = byMap.get(key);
     if (bundle) return bundle;
@@ -467,32 +393,24 @@ function syncMarkerBundleLayers(bundle, entity) {
         const shouldShow = !shouldHideMarkerByRotation(entity, idx);
         if (shouldShow) {
             hasVisibleMarker = true;
-            if (!markerLayer.hasLayer(marker)) markerLayer.addLayer(marker);
-        } else if (markerLayer.hasLayer(marker)) {
-            markerLayer.removeLayer(marker);
+            if (!state.markerLayer.hasLayer(marker)) state.markerLayer.addLayer(marker);
+        } else if (state.markerLayer.hasLayer(marker)) {
+            state.markerLayer.removeLayer(marker);
         }
     });
     return hasVisibleMarker;
 }
 
 function scheduleRenderMarkers(refreshPanel = true) {
-    if (refreshPanel) scheduledRefreshPanel = true;
-    if (renderScheduled) return;
-    renderScheduled = true;
+    if (refreshPanel) state.scheduledRefreshPanel = true;
+    if (state.renderScheduled) return;
+    state.renderScheduled = true;
     requestAnimationFrame(() => {
-        renderScheduled = false;
-        const shouldRefreshPanel = scheduledRefreshPanel;
-        scheduledRefreshPanel = false;
+        state.renderScheduled = false;
+        const shouldRefreshPanel = state.scheduledRefreshPanel;
+        state.scheduledRefreshPanel = false;
         void renderMarkers(shouldRefreshPanel);
     });
-}
-
-function getImagePath(entity) {
-    return `./assets/maps/${currentMapId}/portraits/${entity.category}/${entity.id}.png`;
-}
-
-function getFigureImage(entity) {
-    return `./assets/maps/${currentMapId}/portraits/${entity.category}/figure/${entity.id}W.png`;
 }
 
 function getLabelWithCategory(value) {
@@ -556,9 +474,9 @@ function minigameMeta(entity) {
 }
 
 function hitFishTimeFilter(entity) {
-    if (entity.timeBand === "day") return filters.time.has("day");
-    if (entity.timeBand === "night") return filters.time.has("night");
-    if (entity.timeBand === "both") return filters.time.has("both");
+    if (entity.timeBand === "day") return state.filters.time.has("day");
+    if (entity.timeBand === "night") return state.filters.time.has("night");
+    if (entity.timeBand === "both") return state.filters.time.has("both");
     return false;
 }
 
@@ -586,22 +504,22 @@ function buildPicker() {
 function applyPickerState() {
     const chips = mapPicker.querySelectorAll(".map-chip");
     chips.forEach((chip) => {
-        const active = isTipsMode ? chip.dataset.mapId === TIPS_PAGE_ID : chip.dataset.mapId === currentMapId;
+        const active = state.isTipsMode ? chip.dataset.mapId === TIPS_PAGE_ID : chip.dataset.mapId === state.currentMapId;
         chip.classList.toggle("active", active);
     });
 }
 
 function applyViewMode() {
-    document.body.classList.toggle("tips-mode", isTipsMode);
-    controlsSection.hidden = isTipsMode;
-    mapLayout.hidden = isTipsMode;
-    tipsLayout.hidden = !isTipsMode;
-    if (isTipsMode && isMapFullscreen) exitMapFullscreen();
+    document.body.classList.toggle("tips-mode", state.isTipsMode);
+    controlsSection.hidden = state.isTipsMode;
+    mapLayout.hidden = state.isTipsMode;
+    tipsLayout.hidden = !state.isTipsMode;
+    if (state.isTipsMode && state.isMapFullscreen) exitMapFullscreen();
     updateTodaySpotToggleButton();
 }
 
 function syncMapFullscreenState(active) {
-    isMapFullscreen = active;
+    state.isMapFullscreen = active;
     document.body.classList.toggle("map-fullscreen", active);
     mapLayout.classList.toggle("map-layout-fullscreen", active);
     controlsSection.classList.toggle("filter-fullscreen", active);
@@ -611,17 +529,17 @@ function syncMapFullscreenState(active) {
     //     mapLayout.appendChild(controlsSection);
     // } else {
     //     controlsHome.parent.insertBefore(controlsSection, controlsHome.nextSibling);
-    //     controlsSection.hidden = isTipsMode;
+    //     controlsSection.hidden = state.isTipsMode;
     // }
 
     requestAnimationFrame(() => {
-        mapInstance?.invalidateSize();
+        state.mapInstance?.invalidateSize();
     });
     saveUserState();
 }
 
 function enterMapFullscreen() {
-    if (isTipsMode) return;
+    if (state.isTipsMode) return;
     syncMapFullscreenState(true);
     fitCurrentMapBounds();
 }
@@ -632,33 +550,33 @@ function exitMapFullscreen() {
 }
 
 function toggleMapFullscreen() {
-    if (isMapFullscreen) exitMapFullscreen();
+    if (state.isMapFullscreen) exitMapFullscreen();
     else enterMapFullscreen();
 }
 
 function handleViewportChange() {
-    if (isMapFullscreen) syncMapFullscreenState(true);
+    if (state.isMapFullscreen) syncMapFullscreenState(true);
     fitCurrentMapBounds();
 }
 
 window.addEventListener("resize", handleViewportChange);
 window.addEventListener("orientationchange", () => {
     setTimeout(() => {
-        mapInstance?.invalidateSize();
+        state.mapInstance?.invalidateSize();
         fitCurrentMapBounds();
     }, 300);
 });
 
 function updateTodaySpotToggleButton() {
     if (!todaySpotToggleBtn) return;
-    todaySpotToggleBtn.classList.toggle("on", monsterRotationRevealed);
-    todaySpotToggleBtn.setAttribute("aria-pressed", monsterRotationRevealed ? "true" : "false");
+    todaySpotToggleBtn.classList.toggle("on", state.monsterRotationRevealed);
+    todaySpotToggleBtn.setAttribute("aria-pressed", state.monsterRotationRevealed ? "true" : "false");
 }
 
 function updateAlwaysShowBossButton() {
     if (!alwaysShowBossBtn) return;
-    alwaysShowBossBtn.classList.toggle("on", alwaysShowBoss);
-    alwaysShowBossBtn.setAttribute("aria-pressed", alwaysShowBoss ? "true" : "false");
+    alwaysShowBossBtn.classList.toggle("on", state.alwaysShowBoss);
+    alwaysShowBossBtn.setAttribute("aria-pressed", state.alwaysShowBoss ? "true" : "false");
 }
 
 function updateRealtimeTimeToggleButton() {
@@ -667,15 +585,15 @@ function updateRealtimeTimeToggleButton() {
     realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
 
     if (!realtimeTimeToggleBtn) return;
-    realtimeTimeToggleBtn.classList.toggle("on", realtimeTimeFilterEnabled);
-    realtimeTimeToggleBtn.setAttribute("aria-pressed", realtimeTimeFilterEnabled ? "true" : "false");
+    realtimeTimeToggleBtn.classList.toggle("on", state.realtimeTimeFilterEnabled);
+    realtimeTimeToggleBtn.setAttribute("aria-pressed", state.realtimeTimeFilterEnabled ? "true" : "false");
 }
 
 function applyFilterButtonState() {
     filterButtons.forEach((btn) => {
         const group = btn.dataset.group;
         const value = btn.dataset.value;
-        btn.classList.toggle("active", filters[group].has(value));
+        btn.classList.toggle("active", state.filters[group].has(value));
     });
 }
 
@@ -684,7 +602,7 @@ function applyFilterButtonState() {
 //  map 영역 외에서는 300ms 이내의 터치가 발생하면 기본 동작을 막도록 했습니다.
 //  map 영역에서는 별도의 로직으로 처리합니다.
 function installSingleFingerDoubleTapZoomIn() {
-    const el = mapInstance.getContainer();
+    const el = state.mapInstance.getContainer();
     let lastTap = 0;
     el.addEventListener("touchstart", (event) => {
         // 한 손가락만
@@ -693,7 +611,7 @@ function installSingleFingerDoubleTapZoomIn() {
         }
         const now = Date.now();
         if (now - lastTap <= 300) {
-            mapInstance.zoomIn();
+            state.mapInstance.zoomIn();
             event.preventDefault();
             lastTap = 0;
             return;
@@ -703,7 +621,7 @@ function installSingleFingerDoubleTapZoomIn() {
 }
 
 function installTwoFingerDoubleTapZoomOut() {
-    const el = mapInstance.getContainer();
+    const el = state.mapInstance.getContainer();
     let lastTwoFingerTapAt = 0;
     el.addEventListener("touchstart", (event) => {
         if (event.touches.length !== 2) {
@@ -711,7 +629,7 @@ function installTwoFingerDoubleTapZoomOut() {
         }
         const now = Date.now();
         if (now - lastTwoFingerTapAt <= 300) {
-            mapInstance.zoomOut();
+            state.mapInstance.zoomOut();
             event.preventDefault();
             lastTwoFingerTapAt = 0;
             return;
@@ -721,8 +639,8 @@ function installTwoFingerDoubleTapZoomOut() {
 }
 
 function createMapIfNeeded() {
-    if (mapInstance) return;
-    mapInstance = L.map("map", {
+    if (state.mapInstance) return;
+    state.mapInstance = L.map("map", {
         crs: L.CRS.Simple,
         minZoom: -3,
         maxZoom: 2,
@@ -734,7 +652,7 @@ function createMapIfNeeded() {
         fadeAnimation: false,
         doubleClickZoom: true
     });
-    markerLayer = L.layerGroup().addTo(mapInstance);
+    state.markerLayer = L.layerGroup().addTo(state.mapInstance);
     installSingleFingerDoubleTapZoomIn();
     installTwoFingerDoubleTapZoomOut();
 }
@@ -749,7 +667,7 @@ function buildDetailHtml(entity, spotIndex = null) {
     const noteHtml = entity.notes && entity.notes.trim() !== ""
         ? `<div class="detail-note"><strong>메모:</strong> ${entity.notes}</div>`
         : "";
-    const spotImageBasePath = getSpotImageBasePath(entity, spotIndex);
+    const spotImageBasePath = resolveSpotImagePath(entity, spotIndex);
     const spotHtml = spotImageBasePath ? buildSpotImagesHtml(spotImageBasePath) : "";
 
     const caught = isCaught(entity);
@@ -780,7 +698,7 @@ function buildDetailHtml(entity, spotIndex = null) {
             ${miniHtml}
           </div>        
           <div class="detail-visual">
-              <img class="detail-entity-image" src="${getFigureImage(entity)}" alt="${label(entity)}" onerror="this.style.display='none';">
+              <img class="detail-entity-image" src="${ImageRepository.getFigure(state.currentMapId, entity)}" alt="${label(entity)}" onerror="this.style.display='none';">
           </div>
         </div>
         <div class="detail-bottom">
@@ -798,21 +716,12 @@ function buildSpotImagesHtml(basePath) {
     `;
 }
 
-function getSpotImageBasePath(entity, spotIndex = null) {
+function resolveSpotImagePath(entity, spotIndex = null) {
     if (entity.category === "monster") {
-        return spotIndex === null ? null : getMonsterSpotImageBasePath(spotIndex);
+        return spotIndex === null ? null : ImageRepository.getMonsterSpot(state.currentMapId, spotIndex);
     }
     if (!["fish", "creature", "item"].includes(entity.category)) return null;
-    return getEntitySpotImageBasePath(entity);
-}
-
-function getEntitySpotImageBasePath(entity) {
-    return `./assets/maps/${currentMapId}/portraits/${entity.category}/spot/${entity.id}P`;
-}
-
-function getMonsterSpotImageBasePath(index) {
-    const spotNumber = index + 1;
-    return `./assets/maps/${currentMapId}/portraits/monster/spot/spot${spotNumber}`;
+    return ImageRepository.getEntitySpot(state.currentMapId, entity);
 }
 
 function initializeSpotImages(root = document) {
@@ -840,7 +749,7 @@ function loadNextSpotImage(container, variant) {
 }
 
 async function loadMapEntities(mapId) {
-    if (mapEntitiesCache.has(mapId)) return mapEntitiesCache.get(mapId);
+    if (state.cache.mapEntities.has(mapId)) return state.cache.mapEntities.get(mapId);
     const basePath = mapsById[mapId]?.dataPath || `./assets/maps/${mapId}`;
     const targets = ["1_fish", "2_creatures", "3_items"];
     const responses = await Promise.all(
@@ -864,40 +773,40 @@ async function loadMapEntities(mapId) {
     for (const entity of all) {
         cache.byCategory[entity.category].push(entity);
     }
-    mapEntitiesCache.set(mapId, cache);
+    state.cache.mapEntities.set(mapId, cache);
     return cache;
 }
 
 function passesCurrentFilters(entity) {
     if (entity.category === "monster") {
-        return alwaysShowBoss;
+        return state.alwaysShowBoss;
     }
-    if (!filters.category.has(entity.category)) return false;
-    if (!filters.rarity.has(entity.rarity)) return false;
+    if (!state.filters.category.has(entity.category)) return false;
+    if (!state.filters.rarity.has(entity.rarity)) return false;
     if (!hitFishTimeFilter(entity)) return false;
     const availableNow = isSeasonAvailable(entity);
     const availabilityKey = availableNow ? "available" : "unavailable";
-    if (!filters.availability.has(availabilityKey)) return false;
+    if (!state.filters.availability.has(availabilityKey)) return false;
     const mode = getGroupCaughtMode(entity.category);
     if (mode === "caught" && !isCaught(entity)) return false;
     return !(mode === "uncaught" && isCaught(entity));
 }
 
 async function renderMarkers(refreshPanel = true) {
-    const requestId = ++renderRequestId;
-    const mapInfo = mapsById[currentMapId];
-    // const entities = await loadMapEntities(currentMapId);
-    const cache = await loadMapEntities(currentMapId);
+    const requestId = ++state.renderRequestId;
+    const mapInfo = mapsById[state.currentMapId];
+    // const entities = await loadMapEntities(state.currentMapId);
+    const cache = await loadMapEntities(state.currentMapId);
 
-    if (requestId !== renderRequestId || mapInfo.id !== currentMapId) return;
+    if (requestId !== state.renderRequestId || mapInfo.id !== state.currentMapId) return;
 
     const filtered = cache.all.filter((entity) => passesCurrentFilters(entity));
 
-    lastFilteredEntities = filtered;
+    state.lastFilteredEntities = filtered;
     let activeStateChanged = false;
-    if (resetActiveOnNextRender || !initializedActiveMapIds.has(currentMapId)) {
+    if (state.resetActiveOnNextRender || !state.selection.initializedActiveMapIds.has(state.currentMapId)) {
         resetActiveEntitiesForMap(filtered);
-        resetActiveOnNextRender = false;
+        state.resetActiveOnNextRender = false;
         activeStateChanged = true;
     }
     if (refreshPanel) renderEntityPanel();
@@ -910,23 +819,23 @@ async function renderMarkers(refreshPanel = true) {
         }
         const locs = Array.isArray(entity.locations) ? entity.locations : [];
         if (locs.length === 0) return;
-        const bundle = getMarkerBundle(currentMapId, entity);
+        const bundle = getMarkerBundle(state.currentMapId, entity);
         updateMarkerBundleIcons(bundle, entity);
         if (syncMarkerBundleLayers(bundle, entity)) nextActiveKeys.add(bundle.key);
     });
 
-    activeMarkerKeys.forEach((key) => {
+    state.selection.activeMarkerKeys.forEach((key) => {
         if (nextActiveKeys.has(key)) return;
         const [mapId] = key.split(":");
-        const byMap = markerBundleCache.get(mapId);
+        const byMap = state.cache.markerBundle.get(mapId);
 
         const bundle = byMap?.get(key);
         if (!bundle) return;
-        bundle.markers.forEach((marker) => markerLayer.removeLayer(marker));
+        bundle.markers.forEach((marker) => state.markerLayer.removeLayer(marker));
     });
 
-    activeMarkerKeys.clear();
-    nextActiveKeys.forEach((key) => activeMarkerKeys.add(key));
+    state.selection.activeMarkerKeys.clear();
+    nextActiveKeys.forEach((key) => state.selection.activeMarkerKeys.add(key));
 }
 
 function renderEntityPanel() {
@@ -934,7 +843,7 @@ function renderEntityPanel() {
     const categoryRank = {fish: 0, creature: 1, item: 2};
     const categoryLabel = {fish: "물고기", creature: "생명체", item: "아이템"};
     const rarityRank = {common: 0, rare: 1, epic: 2, monster: 3};
-    const sorted = [...lastFilteredEntities].sort((a, b) => {
+    const sorted = [...state.lastFilteredEntities].sort((a, b) => {
         const ca = categoryRank[a.category] ?? 9;
         const cb = categoryRank[b.category] ?? 9;
         if (ca !== cb) return ca - cb;
@@ -943,7 +852,7 @@ function renderEntityPanel() {
         if (ra !== rb) return ra - rb;
         return label(a).localeCompare(label(b));
     });
-    const visibleCategories = ["fish", "creature", "item"].filter((category) => filters.category.has(category));
+    const visibleCategories = ["fish", "creature", "item"].filter((category) => state.filters.category.has(category));
 
     const sections = visibleCategories.map((category) => {
         const groupItems = sorted.filter(e => e.category === category);
@@ -971,7 +880,7 @@ function renderEntityPanel() {
 }
 
 function getOrCreateGroupUi(category, labelText) {
-    const cached = groupUiCache.get(category);
+    const cached = state.cache.groupUi.get(category);
     if (cached) return cached;
 
     const section = document.createElement("section");
@@ -1020,15 +929,15 @@ function getOrCreateGroupUi(category, labelText) {
     });
     ui.toggleBtn.addEventListener("click", (e) => {
         e.stopPropagation();
-        const group = lastFilteredEntities.filter((ent) => ent.category === category);
+        const group = state.lastFilteredEntities.filter((ent) => ent.category === category);
 
         const allActive = group.length > 0 && group.every((ent) => isEntityActive(ent));
         group.forEach((ent) => {
             const key = entityKey(ent);
-            if (allActive) activeEntityKeys.delete(key);
-            else activeEntityKeys.add(key);
+            if (allActive) state.selection.activeEntityKeys.delete(key);
+            else state.selection.activeEntityKeys.add(key);
         });
-        initializedActiveMapIds.add(currentMapId);
+        state.selection.initializedActiveMapIds.add(state.currentMapId);
         saveUserState();
         scheduleRenderMarkers();
         renderEntityPanel();
@@ -1041,13 +950,13 @@ function getOrCreateGroupUi(category, labelText) {
         scheduleRenderMarkers();
     });
 
-    groupUiCache.set(category, ui);
+    state.cache.groupUi.set(category, ui);
     return ui;
 }
 
 function getOrCreateEntityRow(entity) {
     const key = entityKey(entity);
-    const cached = entityRowCache.get(key);
+    const cached = state.cache.entityRow.get(key);
     if (cached) return cached;
 
     const row = document.createElement("div");
@@ -1080,9 +989,9 @@ function getOrCreateEntityRow(entity) {
 
     row.addEventListener("click", () => {
         const key = entityKey(entity);
-        if (activeEntityKeys.has(key)) activeEntityKeys.delete(key);
-        else activeEntityKeys.add(key);
-        initializedActiveMapIds.add(currentMapId);
+        if (state.selection.activeEntityKeys.has(key)) state.selection.activeEntityKeys.delete(key);
+        else state.selection.activeEntityKeys.add(key);
+        state.selection.initializedActiveMapIds.add(state.currentMapId);
         updateEntityRow(rowUi, entity);
         const categoryKey = entity.category;
         updateGroupHeaderState(categoryKey);
@@ -1096,13 +1005,13 @@ function getOrCreateEntityRow(entity) {
     row.querySelector(".count-v-toggle").addEventListener("click", (event) => {
         event.stopPropagation();
         const keyByEntity = entityKey(entity);
-        if (caughtEntityKeys.has(keyByEntity)) caughtEntityKeys.delete(keyByEntity);
-        else caughtEntityKeys.add(keyByEntity);
+        if (state.selection.caughtEntityKeys.has(keyByEntity)) state.selection.caughtEntityKeys.delete(keyByEntity);
+        else state.selection.caughtEntityKeys.add(keyByEntity);
         saveUserState();
         scheduleRenderMarkers();
     });
 
-    entityRowCache.set(key, rowUi);
+    state.cache.entityRow.set(key, rowUi);
     return rowUi;
 }
 
@@ -1115,7 +1024,7 @@ function updateEntityRow(rowUi, entity) {
     rowUi.nameEl.className = `entity-name rarity-${rarityKey}`;
     rowUi.nameEl.textContent = label(entity);
     rowUi.subNameEl.textContent = entity.name || "";
-    const imagePath = getImagePath(entity);
+    const imagePath = ImageRepository.getPortrait(state.currentMapId, entity);
     if (rowUi.thumb.getAttribute("src") !== imagePath) {
         rowUi.thumb.src = imagePath;
     }
@@ -1138,13 +1047,13 @@ function updateEntityRow(rowUi, entity) {
 }
 
 function updateGroupHeaderState(category) {
-    const ui = groupUiCache.get(category);
+    const ui = state.cache.groupUi.get(category);
     if (!ui) return;
-    const groupItems = lastFilteredEntities.filter((ent) => ent.category === category);
+    const groupItems = state.lastFilteredEntities.filter((ent) => ent.category === category);
     const allActive = groupItems.length > 0 && groupItems.every((ent) => isEntityActive(ent));
     ui.toggleBtn.textContent = allActive ? "🚫" : "👁️";// 눈  숨김
 
-    const cache = mapEntitiesCache.get(currentMapId);
+    const cache = state.cache.mapEntities.get(state.currentMapId);
     const totalEntries = cache.byCategory[category];
     const caughtCount = totalEntries.filter((entry) => isCaught(entry)).length;
     ui.infoEl.textContent = String(caughtCount) + "/" + String(totalEntries.length);
@@ -1161,19 +1070,19 @@ function openDetail(html) {
 }
 
 function openEntityDetail(entity, spotIndex = null) {
-    currentDetailEntity = entity;
+    state.currentDetailEntity = entity;
     openDetail(buildDetailHtml(entity, spotIndex));
 }
 
 function closeDetail() {
     detailSheet.classList.remove("open");
     detailSheet.setAttribute("aria-hidden", "true");
-    currentDetailEntity = null;
+    state.currentDetailEntity = null;
 }
 
 function toggleEntityPanel() {
     const isMobile = window.matchMedia("(max-width: 860px)").matches;
-    if (!isMobile && !isMapFullscreen) return;
+    if (!isMobile && !state.isMapFullscreen) return;
     const panel = document.getElementById("entityPanel");
     const nextOpen = !panel.classList.contains("open");
     panelToggleBtn.classList.toggle("on", nextOpen);
@@ -1181,12 +1090,12 @@ function toggleEntityPanel() {
 }
 
 function fitCurrentMapBounds() {
-    if (!mapInstance) return;
-    const mapInfo = mapsById[currentMapId];
+    if (!state.mapInstance) return;
+    const mapInfo = mapsById[state.currentMapId];
     const bounds = [[0, 0], [mapInfo.imageHeight, mapInfo.imageWidth]];
-    mapInstance.invalidateSize();
+    state.mapInstance.invalidateSize();
     requestAnimationFrame(() => {
-        mapInstance.fitBounds(bounds, {
+        state.mapInstance.fitBounds(bounds, {
             padding: [0, 0],
             animate: false
         });
@@ -1194,23 +1103,23 @@ function fitCurrentMapBounds() {
 }
 
 function renderMap() {
-    const mapInfo = mapsById[currentMapId];
+    const mapInfo = mapsById[state.currentMapId];
     const bounds = [[0, 0], [mapInfo.imageHeight, mapInfo.imageWidth]];
     if (mapInfo.imageWidth && mapInfo.imageHeight) {
         mapLayout.style.setProperty("--active-map-aspect", mapInfo.imageWidth / mapInfo.imageHeight);
     }
     updateTodaySpotToggleButton();
 
-    mapInstance.eachLayer((layer) => {
-        if (layer instanceof L.ImageOverlay) mapInstance.removeLayer(layer);
+    state.mapInstance.eachLayer((layer) => {
+        if (layer instanceof L.ImageOverlay) state.mapInstance.removeLayer(layer);
     });
 
-    L.imageOverlay(mapInfo.imagePath, bounds).addTo(mapInstance);
+    L.imageOverlay(mapInfo.imagePath, bounds).addTo(state.mapInstance);
     fitCurrentMapBounds();
 
     // 여기서 부터 클릭 부분==================
-    mapInstance.off("click");
-    mapInstance.on("click", async (e) => {
+    state.mapInstance.off("click");
+    state.mapInstance.on("click", async (e) => {
         // ALT + 클릭만 동작
         if (!e.originalEvent.altKey) return;
         const point = {
@@ -1227,7 +1136,7 @@ function renderMap() {
     // 클릭 끝 ==================
 
     requestAnimationFrame(() => {
-        mapInstance.invalidateSize();
+        state.mapInstance.invalidateSize();
     });
     scheduleRenderMarkers();
 }
@@ -1254,12 +1163,12 @@ function showToast(message, duration = 1000) {
 
 function selectMap(mapId) {
     closeDetail();
-    if (!isTipsMode && currentMapId === mapId) {
+    if (!state.isTipsMode && state.currentMapId === mapId) {
         applyPickerState();
         return;
     }
-    isTipsMode = false;
-    currentMapId = mapId;
+    state.isTipsMode = false;
+    state.currentMapId = mapId;
     applyViewMode();
     applyPickerState();
     saveUserState();
@@ -1268,7 +1177,7 @@ function selectMap(mapId) {
 
 function selectTipsPage() {
     closeDetail();
-    isTipsMode = true;
+    state.isTipsMode = true;
     applyViewMode();
     applyPickerState();
     saveUserState();
@@ -1282,7 +1191,7 @@ function selectTipsPage() {
 //     }
 //     applyFilterButtonState();
 //     // applyFishOnlyState();
-//     // resetActiveOnNextRender = true;
+//     // state.resetActiveOnNextRender = true;
 //     saveUserState();
 //     scheduleRenderMarkers();
 // }
@@ -1293,7 +1202,7 @@ function isRealtimeDayTime() {
 }
 
 function shouldDimByRealtimeTime(entity) {
-    if (!realtimeTimeFilterEnabled) return false;
+    if (!state.realtimeTimeFilterEnabled) return false;
     if (entity.timeBand === "both") return false;
     const isDay = isRealtimeDayTime();
     return (isDay && entity.timeBand === "night") ||
@@ -1304,7 +1213,7 @@ function installPreventPageDoubleTapZoom() {
     let lastTouchEnd = 0;
     document.addEventListener("touchend", (event) => {
         // map 영역은 제외
-        if (mapInstance?.getContainer()?.contains(event.target)) {
+        if (state.mapInstance?.getContainer()?.contains(event.target)) {
             return;
         }
 
@@ -1333,11 +1242,11 @@ document.addEventListener("DOMContentLoaded", () => {
         btn.addEventListener("click", () => {
             const group = btn.dataset.group;
             const value = btn.dataset.value;
-            const set = filters[group];
+            const set = state.filters[group];
             if (set.has(value)) set.delete(value);
             else set.add(value);
             applyFilterButtonState();
-            // resetActiveOnNextRender = true;
+            // state.resetActiveOnNextRender = true;
             saveUserState();
             scheduleRenderMarkers();
         });
@@ -1361,30 +1270,30 @@ document.addEventListener("DOMContentLoaded", () => {
     // uncatchOnlyBtn
     uncaughtOnlyBtn.addEventListener("click", () => {
 
-        let uncaughtEntry = lastFilteredEntities.filter(entry => !isCaught(entry));
+        let uncaughtEntry = state.lastFilteredEntities.filter(entry => !isCaught(entry));
         resetActiveEntitiesForMap(uncaughtEntry);
 
-        lastFilteredEntities.forEach((e) => {
-            if (e.category === "monster") activeEntityKeys.add(entityKey(e));
+        state.lastFilteredEntities.forEach((e) => {
+            if (e.category === "monster") state.selection.activeEntityKeys.add(entityKey(e));
         });
 
         saveUserState();
         scheduleRenderMarkers();
     });
     showAllBtn.addEventListener("click", () => {
-        resetActiveEntitiesForMap(lastFilteredEntities);
+        resetActiveEntitiesForMap(state.lastFilteredEntities);
         saveUserState();
         scheduleRenderMarkers();
     });
     hideAllBtn.addEventListener("click", () => {
         const prefix = currentMapKeyPrefix();
-        activeEntityKeys.forEach((key) => {
-            if (key.startsWith(prefix)) activeEntityKeys.delete(key);
+        state.selection.activeEntityKeys.forEach((key) => {
+            if (key.startsWith(prefix)) state.selection.activeEntityKeys.delete(key);
         });
-        lastFilteredEntities.forEach((e) => {
-            if (e.category === "monster") activeEntityKeys.add(entityKey(e));
+        state.lastFilteredEntities.forEach((e) => {
+            if (e.category === "monster") state.selection.activeEntityKeys.add(entityKey(e));
         });
-        initializedActiveMapIds.add(currentMapId);
+        state.selection.initializedActiveMapIds.add(state.currentMapId);
         saveUserState();
         scheduleRenderMarkers();
     });
@@ -1400,14 +1309,14 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     /*Tool Bar*/
     alwaysShowBossBtn?.addEventListener("click", () => {
-        alwaysShowBoss = !alwaysShowBoss;
+        state.alwaysShowBoss = !state.alwaysShowBoss;
         saveUserState();
         updateAlwaysShowBossButton();
         scheduleRenderMarkers(false);
     });
 
     todaySpotToggleBtn?.addEventListener("click", () => {
-        monsterRotationRevealed = !monsterRotationRevealed;
+        state.monsterRotationRevealed = !state.monsterRotationRevealed;
         saveUserState(); // 추가
         updateTodaySpotToggleButton();
         scheduleRenderMarkers(false);
@@ -1418,7 +1327,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const isDay = isRealtimeDayTime();
     realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
     realtimeTimeToggleBtn?.addEventListener("click", () => {
-        realtimeTimeFilterEnabled = !realtimeTimeFilterEnabled;
+        state.realtimeTimeFilterEnabled = !state.realtimeTimeFilterEnabled;
         updateRealtimeTimeToggleButton();
         saveUserState();
         scheduleRenderMarkers(true);
@@ -1428,7 +1337,7 @@ document.addEventListener("DOMContentLoaded", () => {
     /*Tool Bar*/
     document.addEventListener("keydown", (event) => {
         if (event.key !== "Escape") return;
-        if (isMapFullscreen) {
+        if (state.isMapFullscreen) {
             exitMapFullscreen();
         }
         if (detailSheet.classList.contains("open")) {
@@ -1458,12 +1367,12 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!toggle) return;
         const id = toggle.dataset.id;
         const category = toggle.dataset.category;
-        const entity = currentDetailEntity;
+        const entity = state.currentDetailEntity;
         if (!entity) return;
         if (entity.id !== id || entity.category !== category) return;
         const key = entityKey(entity);
-        if (caughtEntityKeys.has(key)) caughtEntityKeys.delete(key);
-        else caughtEntityKeys.add(key);
+        if (state.selection.caughtEntityKeys.has(key)) state.selection.caughtEntityKeys.delete(key);
+        else state.selection.caughtEntityKeys.add(key);
         saveUserState();
         openEntityDetail(entity);
         scheduleRenderMarkers();
@@ -1485,10 +1394,10 @@ document.addEventListener("DOMContentLoaded", () => {
         panelToggleBtn.classList.remove("on");
     });
 
-    if (isTipsMode) selectTipsPage();
+    if (state.isTipsMode) selectTipsPage();
     else {
         renderMap();
-        if (isMapFullscreen) {
+        if (state.isMapFullscreen) {
             requestAnimationFrame(() => {
                 syncMapFullscreenState(true);
                 fitCurrentMapBounds();

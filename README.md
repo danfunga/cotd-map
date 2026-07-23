@@ -16,7 +16,7 @@ Creatures of the Deep 인터랙티브 지도 프로젝트.
 - `assets/maps/<map-slug>/data/clover/{fish,creatures,items,raw}.json`
 - `assets/maps/<map-slug>/data/creatures/` (소스 분리 저장용)
 - `content/maps/<map-slug>.js` (맵별 화면 로딩 데이터)
-- `content/index.js` (맵 순서/등록)
+- `content/mapIndex.js` (맵 순서/등록)
 - `tools/sync-resources.mjs` (리소스 동기화)
 - `tools/build-map-modules.mjs` (화면용 맵 모듈 생성)
 
