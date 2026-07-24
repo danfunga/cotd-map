@@ -1,7 +1,18 @@
-import {mapOrder, mapsById} from '../content/mapIndex.js';
-import {state} from "./state/state.js";
-import {FILTER_DEFAULTS, MONSTER_ROTATION_CONFIG, MONSTER_ROTATION_MAP_IDS} from "./constants/index.js";
+// data
+import { mapOrder, mapsById } from "../content/mapIndex.js";
+
+// state
+import { state, createEmptyCategorizedEntityMap } from "./state/state.js";
+import PersistedState from "./state/persistedState.js";
+
+// constants
+import { MONSTER_ROTATION_CONFIG, MONSTER_ROTATION_MAP_IDS } from "./constants/index.js";
+
+// repository
 import ImageRepository from "./repository/imageRepository.js";
+
+// ui
+import { showToast } from "./ui/toast.js";
 
 const mapPicker = document.getElementById("mapPicker");
 const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
@@ -29,21 +40,10 @@ const controlsSection = document.getElementById("controls");
 const mapLayout = document.getElementById("mapLayout");
 const tipsLayout = document.getElementById("tipsLayout");
 
-const STORAGE_KEY = "cotd-map:user-state:v1";
+
 const TIPS_PAGE_ID = "__tips__";
 
 state.currentMapId = mapOrder[0];
-
-const panelFoldState = {
-    fish: true,
-    creature: true,
-    item: true
-};
-const caughtFilterMode = {
-    fish: "all",
-    creature: "all",
-    item: "all"
-};
 
 function nextCaughtMode(mode) {
     if (mode === "all") return "uncaught";
@@ -58,12 +58,12 @@ function caughtModeLabel(mode) {
 }
 
 function getGroupCaughtMode(category) {
-    return caughtFilterMode[category] || "all";
+    return state.caughtFilterMode[category] || "all";
 }
 
 function syncCaughtFilterAllButton() {
     if (!caughtFilterAllBtn) return;
-    const modes = [caughtFilterMode.fish, caughtFilterMode.creature, caughtFilterMode.item];
+    const modes = [state.caughtFilterMode.fish, state.caughtFilterMode.creature, state.caughtFilterMode.item];
     const same = modes.every((mode) => mode === modes[0]);
     caughtFilterAllBtn.textContent = same ? caughtModeLabel(modes[0]) : "혼합";
 }
@@ -74,41 +74,6 @@ function entityKey(entity, mapId = state.currentMapId) {
 
 function currentMapKeyPrefix(mapId = state.currentMapId) {
     return `${mapId}:`;
-}
-
-function addActiveEntityKey(mapId, category, id) {
-    state.selection.activeEntityKeys.add(`${mapId}:${category}:${id}`);
-}
-
-function addCaughtEntityKey(mapId, category, id) {
-    state.selection.caughtEntityKeys.add(`${mapId}:${category}:${id}`);
-}
-
-function emptyCategorizedEntityMap() {
-    return {fish: [], creature: [], item: [], monster: []};
-}
-
-function serializeEntityKeysByMap(entityKeys, mapIds = new Set()) {
-    const byMap = {};
-    mapIds.forEach((mapId) => {
-        byMap[mapId] = emptyCategorizedEntityMap();
-    });
-    entityKeys.forEach((key) => {
-        const [mapId, category, id] = key.split(":");
-        if (!mapId || !category || !id) return;
-        if (!byMap[mapId]) byMap[mapId] = emptyCategorizedEntityMap();
-        if (!Array.isArray(byMap[mapId][category])) byMap[mapId][category] = [];
-        byMap[mapId][category].push(id);
-    });
-    return byMap;
-}
-
-function serializeActiveEntitiesByMap() {
-    return serializeEntityKeysByMap(state.selection.activeEntityKeys, state.selection.initializedActiveMapIds);
-}
-
-function serializeCaughtEntitiesByMap() {
-    return serializeEntityKeysByMap(state.selection.caughtEntityKeys);
 }
 
 function resetActiveEntitiesForMap(entities, mapId = state.currentMapId) {
@@ -130,125 +95,19 @@ function isCaught(entity, mapId = state.currentMapId) {
     return state.selection.caughtEntityKeys.has(entityKey(entity, mapId));
 }
 
-function buildUserStatePayload() {
-    return {
-        version: 2,
-        mapId: state.currentMapId,
-        isTipsMode: state.isTipsMode,
-        isMapFullscreen: state.isMapFullscreen,
-        monsterRotationRevealed: state.monsterRotationRevealed,
-        alwaysShowBoss: state.alwaysShowBoss,
-        realtimeTimeFilterEnabled: state.realtimeTimeFilterEnabled,
-
-        filters: {
-            category: [...state.filters.category],
-            time: [...state.filters.time],
-            rarity: [...state.filters.rarity],
-            availability: [...state.filters.availability]
-        },
-
-        caughtEntitiesByMap: serializeCaughtEntitiesByMap(),
-        caughtFilterMode: {...caughtFilterMode},
-        activeEntitiesByMap: serializeActiveEntitiesByMap()
-    };
-}
-
-function saveUserState() {
-    const payload = buildUserStatePayload();
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-}
-
-function isPlainObject(value) {
-    return Boolean(value) && typeof value === "object" && !Array.isArray(value);
-}
-
-function clearUserStateMemory() {
-    state.selection.activeEntityKeys.clear();
-    state.selection.initializedActiveMapIds.clear();
-    state.selection.caughtEntityKeys.clear();
-}
-
-function loadEntityKeysByMap(value, addKey, markMap = null) {
-    if (!isPlainObject(value)) return false;
-    Object.entries(value).forEach(([mapId, categoryMap]) => {
-        if (!mapOrder.includes(mapId) || !isPlainObject(categoryMap)) return;
-        Object.entries(categoryMap).forEach(([category, ids]) => {
-            if (!Array.isArray(ids)) return;
-            ids.forEach((id) => {
-                if (typeof id === "string") addKey(mapId, category, id);
-            });
-        });
-        if (markMap) markMap(mapId);
-    });
-    return true;
-}
-
-function applyUserState(data) {
-    if (!isPlainObject(data)) throw new Error("가져올 수 없는 파일입니다.");
-
-    clearUserStateMemory();
-    state.currentMapId = mapOrder.includes(data.mapId) ? data.mapId : mapOrder[0];
-    state.isTipsMode = Boolean(data.isTipsMode);
-    state.isMapFullscreen = Boolean(data.isMapFullscreen);
-    state.monsterRotationRevealed = Boolean(data.monsterRotationRevealed);
-    state.alwaysShowBoss = Boolean(data.alwaysShowBoss);
-    state.realtimeTimeFilterEnabled = Boolean(data.realtimeTimeFilterEnabled);
-
-    for (const group of ["category", "time", "rarity", "availability"]) {
-        const values = data.filters && Array.isArray(data.filters[group]) ? data.filters[group] : [...FILTER_DEFAULTS[group]];
-        state.filters[group] = new Set(values);
-    }
-
-    for (const category of ["fish", "creature", "item"]) {
-        const mode = data.caughtFilterMode?.[category];
-        caughtFilterMode[category] = mode === "all" || mode === "caught" || mode === "uncaught" ? mode : "all";
-    }
-
-    loadEntityKeysByMap(data.caughtEntitiesByMap, addCaughtEntityKey);
-    loadEntityKeysByMap(
-        data.activeEntitiesByMap,
-        addActiveEntityKey,
-        (mapId) => state.selection.initializedActiveMapIds.add(mapId)
-    );
-}
-
-function loadUserState() {
-    try {
-        const raw = localStorage.getItem(STORAGE_KEY);
-        if (!raw) return;
-        const data = JSON.parse(raw);
-        applyUserState(data);
-    } catch {
-        // Ignore invalid local state
-    }
-}
-
-async function exportUserState() {
-    saveUserState();
-    const json = JSON.stringify(buildUserStatePayload(), null, 2);
-    try {
-        await navigator.clipboard.writeText(json);
-        alert("설정 JSON이 클립보드에 복사되었습니다.");
-    } catch (e) {
-        prompt("아래 JSON을 복사하세요.", json);
-    }
-}
-
-function showImportUserStateDialog() {
-    importedTextContents.value = "";
-    importedStateDialog.showModal();
-}
-
 function importUserStateFile(jsonText) {
     try {
-        const data = JSON.parse(jsonText);
-        applyUserState(data);
-        saveUserState();
+
+        PersistedState.import(jsonText);
         refreshUiFromUserState();
         alert("가져오기가 완료되었습니다.");
     } catch (error) {
         alert(error instanceof Error ? error.message : "가져오기에 실패했습니다.");
     }
+}
+function showImportUserStateDialog() {
+    importedTextContents.value = "";
+    importedStateDialog.showModal();
 }
 
 function refreshUiFromUserState() {
@@ -529,7 +388,7 @@ function syncMapFullscreenState(active) {
     requestAnimationFrame(() => {
         state.mapInstance?.invalidateSize();
     });
-    saveUserState();
+    PersistedState.save();
 }
 
 function enterMapFullscreen() {
@@ -761,7 +620,7 @@ async function loadMapEntities(mapId) {
     const all = responses.flat();
     const cache = {
         all,
-        byCategory: emptyCategorizedEntityMap()
+        byCategory: createEmptyCategorizedEntityMap()
     };
 
     for (const entity of all) {
@@ -804,7 +663,7 @@ async function renderMarkers(refreshPanel = true) {
         activeStateChanged = true;
     }
     if (refreshPanel) renderEntityPanel();
-    if (activeStateChanged) saveUserState();
+    if (activeStateChanged) PersistedState.save();
 
     const nextActiveKeys = new Set();
     filtered.forEach((entity) => {
@@ -852,11 +711,11 @@ function renderEntityPanel() {
         const groupItems = sorted.filter(e => e.category === category);
 
         const ui = getOrCreateGroupUi(category, categoryLabel[category]);
-        ui.caughtFilterBtn.textContent = caughtModeLabel(caughtFilterMode[category]);
+        ui.caughtFilterBtn.textContent = caughtModeLabel(state.caughtFilterMode[category]);
 
         updateGroupHeaderState(category);
-        ui.arrowEl.textContent = panelFoldState[category] ? "▾" : "▸";
-        ui.body.className = `entity-group-body ${panelFoldState[category] ? "open" : "closed"}`;
+        ui.arrowEl.textContent = state.caughtFilterMode[category] ? "▾" : "▸";
+        ui.body.className = `entity-group-body ${state.caughtFilterMode[category] ? "open" : "closed"}`;
 
         const rowNodes = groupItems.map((entity) => {
             const rowUi = getOrCreateEntityRow(entity);
@@ -912,13 +771,13 @@ function getOrCreateGroupUi(category, labelText) {
     };
 
     header.addEventListener("click", () => {
-        panelFoldState[category] = !panelFoldState[category];
+        state.caughtFilterMode[category] = !state.caughtFilterMode[category];
         renderEntityPanel();
     });
     header.addEventListener("keydown", (event) => {
         if (event.key !== "Enter" && event.key !== " ") return;
         event.preventDefault();
-        panelFoldState[category] = !panelFoldState[category];
+        state.caughtFilterMode[category] = !state.caughtFilterMode[category];
         renderEntityPanel();
     });
     ui.toggleBtn.addEventListener("click", (e) => {
@@ -932,15 +791,17 @@ function getOrCreateGroupUi(category, labelText) {
             else state.selection.activeEntityKeys.add(key);
         });
         state.selection.initializedActiveMapIds.add(state.currentMapId);
-        saveUserState();
+        PersistedState.save();
+
         scheduleRenderMarkers();
         renderEntityPanel();
     });
     ui.caughtFilterBtn.addEventListener("click", (e) => {
         e.stopPropagation();
-        caughtFilterMode[category] = nextCaughtMode(caughtFilterMode[category]);
+        state.caughtFilterMode[category] = nextCaughtMode(state.caughtFilterMode[category]);
         syncCaughtFilterAllButton();
-        saveUserState();
+        PersistedState.save();
+        ;
         scheduleRenderMarkers();
     });
 
@@ -989,7 +850,7 @@ function getOrCreateEntityRow(entity) {
         updateEntityRow(rowUi, entity);
         const categoryKey = entity.category;
         updateGroupHeaderState(categoryKey);
-        saveUserState();
+        PersistedState.save();
         scheduleRenderMarkers(false);
     });
     rowUi.thumb.addEventListener("click", (event) => {
@@ -1001,7 +862,7 @@ function getOrCreateEntityRow(entity) {
         const keyByEntity = entityKey(entity);
         if (state.selection.caughtEntityKeys.has(keyByEntity)) state.selection.caughtEntityKeys.delete(keyByEntity);
         else state.selection.caughtEntityKeys.add(keyByEntity);
-        saveUserState();
+        PersistedState.save();
         scheduleRenderMarkers();
     });
 
@@ -1135,26 +996,6 @@ function renderMap() {
     scheduleRenderMarkers();
 }
 
-function showToast(message, duration = 1000) {
-    const toast = document.createElement("div");
-    toast.textContent = message;
-    toast.style.cssText = `
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #333;
-    color: #fff;
-    padding: 10px 16px;
-    border-radius: 4px;
-    z-index: 9999;
-  `;
-    document.body.appendChild(toast);
-    setTimeout(() => {
-        toast.remove();
-    }, duration);
-}
-
 function selectMap(mapId) {
     closeDetail();
     if (!state.isTipsMode && state.currentMapId === mapId) {
@@ -1165,7 +1006,7 @@ function selectMap(mapId) {
     state.currentMapId = mapId;
     applyViewMode();
     applyPickerState();
-    saveUserState();
+    PersistedState.save();
     renderMap();
 }
 
@@ -1174,21 +1015,8 @@ function selectTipsPage() {
     state.isTipsMode = true;
     applyViewMode();
     applyPickerState();
-    saveUserState();
+    PersistedState.save();
 }
-
-// function clearFilterGroup(group) {
-//     if (filters[group].size > 0) {
-//         filters[group].clear();
-//     } else {
-//         filters[group] = new Set(defaults[group]);
-//     }
-//     applyFilterButtonState();
-//     // applyFishOnlyState();
-//     // state.resetActiveOnNextRender = true;
-//     saveUserState();
-//     scheduleRenderMarkers();
-// }
 
 function isRealtimeDayTime() {
     const h = new Date().getHours();
@@ -1220,7 +1048,8 @@ function installPreventPageDoubleTapZoom() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    loadUserState();
+    PersistedState.load();
+
     buildPicker();
     applyViewMode();
     applyPickerState();
@@ -1250,7 +1079,7 @@ document.addEventListener("DOMContentLoaded", () => {
             else set.add(value);
             applyFilterButtonState();
             // state.resetActiveOnNextRender = true;
-            saveUserState();
+            PersistedState.save();
             scheduleRenderMarkers();
         });
     });
@@ -1258,7 +1087,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // clearButtons.forEach((btn) => {
     //     btn.addEventListener("click", () => clearFilterGroup(btn.dataset.clearGroup));
     // });
-    exportStateBtn?.addEventListener("click", exportUserState);
+    exportStateBtn?.addEventListener("click", PersistedState.export);
     importStateBtn?.addEventListener("click", () => showImportUserStateDialog());
 
     document.getElementById("btnImportCancel").addEventListener("click", () => {
@@ -1280,12 +1109,12 @@ document.addEventListener("DOMContentLoaded", () => {
             if (e.category === "monster") state.selection.activeEntityKeys.add(entityKey(e));
         });
 
-        saveUserState();
+        PersistedState.save();
         scheduleRenderMarkers();
     });
     showAllBtn.addEventListener("click", () => {
         resetActiveEntitiesForMap(state.lastFilteredEntities);
-        saveUserState();
+        PersistedState.save();
         scheduleRenderMarkers();
     });
     hideAllBtn.addEventListener("click", () => {
@@ -1297,30 +1126,30 @@ document.addEventListener("DOMContentLoaded", () => {
             if (e.category === "monster") state.selection.activeEntityKeys.add(entityKey(e));
         });
         state.selection.initializedActiveMapIds.add(state.currentMapId);
-        saveUserState();
+        PersistedState.save();
         scheduleRenderMarkers();
     });
     caughtFilterAllBtn?.addEventListener("click", () => {
-        const current = caughtFilterMode.fish;
+        const current = state.caughtFilterMode.fish;
         const next = nextCaughtMode(current);
-        caughtFilterMode.fish = next;
-        caughtFilterMode.creature = next;
-        caughtFilterMode.item = next;
+        state.caughtFilterMode.fish = next;
+        state.caughtFilterMode.creature = next;
+        state.caughtFilterMode.item = next;
         syncCaughtFilterAllButton();
-        saveUserState();
+        PersistedState.save();
         scheduleRenderMarkers();
     });
     /*Tool Bar*/
     alwaysShowBossBtn?.addEventListener("click", () => {
         state.alwaysShowBoss = !state.alwaysShowBoss;
-        saveUserState();
+        PersistedState.save();
         updateAlwaysShowBossButton();
         scheduleRenderMarkers(false);
     });
 
     todaySpotToggleBtn?.addEventListener("click", () => {
         state.monsterRotationRevealed = !state.monsterRotationRevealed;
-        saveUserState(); // 추가
+        PersistedState.save();
         updateTodaySpotToggleButton();
         scheduleRenderMarkers(false);
     });
@@ -1332,7 +1161,7 @@ document.addEventListener("DOMContentLoaded", () => {
     realtimeTimeToggleBtn?.addEventListener("click", () => {
         state.realtimeTimeFilterEnabled = !state.realtimeTimeFilterEnabled;
         updateRealtimeTimeToggleButton();
-        saveUserState();
+        PersistedState.save();
         scheduleRenderMarkers(true);
     });
 
@@ -1376,7 +1205,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const key = entityKey(entity);
         if (state.selection.caughtEntityKeys.has(key)) state.selection.caughtEntityKeys.delete(key);
         else state.selection.caughtEntityKeys.add(key);
-        saveUserState();
+        PersistedState.save();
+
         openEntityDetail(entity);
         scheduleRenderMarkers();
     });

@@ -1,5 +1,12 @@
 import {FILTER_DEFAULTS} from "../constants/filterDefaults.js";
 
+export const createEmptyCategorizedEntityMap = () => ({
+    fish: [],
+    creature: [],
+    item: [],
+    monster: []
+});
+
 export const state = {
     currentMapId: null,
     isTipsMode: false,
@@ -24,6 +31,16 @@ export const state = {
         markerBundle: new Map(),
         entityRow: new Map(),
         groupUi: new Map()
+    },
+    caughtFilterMode: {
+        fish: "all",
+        creature: "all",
+        item: "all"
+    },
+    panelFoldState: {
+        fish: true,
+        creature: true,
+        item: true
     },
 
     selection: {
