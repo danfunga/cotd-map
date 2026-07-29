@@ -1,18 +1,36 @@
 // data
-import { mapOrder, mapsById } from "../content/mapIndex.js";
+import {mapOrder, mapsById} from "../content/mapIndex.js";
 
 // state
-import { state, createEmptyCategorizedEntityMap } from "./state/state.js";
+import {createEmptyCategorizedEntityMap, state} from "./state/state.js";
 import PersistedState from "./state/persistedState.js";
 
 // constants
-import { MONSTER_ROTATION_CONFIG, MONSTER_ROTATION_MAP_IDS } from "./constants/index.js";
+import {MONSTER_ROTATION_CONFIG, MONSTER_ROTATION_MAP_IDS} from "./constants/index.js";
 
 // repository
 import ImageRepository from "./repository/imageRepository.js";
 
 // ui
-import { showToast } from "./ui/toast.js";
+import {showToast} from "./ui/toast.js";
+
+//map
+import MarkerManager from "./map/markerManager.js";
+
+MarkerManager.setDependencies({
+    loadMapEntities,
+    renderEntityPanel,
+    passesCurrentFilters,
+    resetActiveEntitiesForMap,
+    isEntityActive,
+    entityKey,
+    isCaught,
+    label,
+    shouldDimByRealtimeTime,
+    shouldHideMarkerByRotation,
+    getMonsterRotationActiveIndex,
+    openEntityDetail,
+});
 
 const mapPicker = document.getElementById("mapPicker");
 const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
@@ -39,7 +57,6 @@ const detailBackdrop = document.getElementById("detailBackdrop");
 const controlsSection = document.getElementById("controls");
 const mapLayout = document.getElementById("mapLayout");
 const tipsLayout = document.getElementById("tipsLayout");
-
 
 const TIPS_PAGE_ID = "__tips__";
 
@@ -105,6 +122,7 @@ function importUserStateFile(jsonText) {
         alert(error instanceof Error ? error.message : "가져오기에 실패했습니다.");
     }
 }
+
 function showImportUserStateDialog() {
     importedTextContents.value = "";
     importedStateDialog.showModal();
@@ -174,102 +192,6 @@ function shouldHideMarkerByRotation(entity, markerIndex, mapId = state.currentMa
         state.monsterRotationRevealed &&
         activeMonsterIndex !== null &&
         markerIndex !== activeMonsterIndex;
-}
-
-function markerIcon(entity, isPrimary = false, markerIndex = 0, hintByBubble = false) {
-    const rarityKey = entity.rarity;
-    const categoryKey = entity.category || "fish";
-    const caught = isCaught(entity);
-    const caughtClass = caught ? "caught" : "";
-    const markerNumber = categoryKey === "monster" ? (markerIndex + 1) : null;
-    const bubbleHintClass = hintByBubble ? "bubble-hint-marker" : "";
-    if (categoryKey === "monster") {
-        isPrimary = false;
-    }
-    const timeDimClass = shouldDimByRealtimeTime(entity) ? "time-dim" : "";
-
-    return L.divIcon({
-        className: "photo-marker-wrap",
-        html: `
-      <div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}" ></div>
-      <img class="photo-marker rarity-${rarityKey} ${timeDimClass} ${bubbleHintClass} ${isPrimary ? "primary-location" : ""} ${caughtClass}"
-        src="${ImageRepository.getPortrait(state.currentMapId, entity)}"
-        alt="${label(entity)}"
-        onerror="this.style.display='none';this.previousElementSibling.style.display='block';"
-      >
-      ${markerNumber ? `<span class="marker-number ${timeDimClass}">${markerNumber}</span>` : ""}
-      ${caught ? `<span class="caught-v marker-v ${timeDimClass}">✓</span>` : ""}
-    `,
-        iconSize: [30, 30],
-        iconAnchor: [15, 15],
-        popupAnchor: [0, -16]
-    });
-}
-
-function markerVisualSignature(entity, isPrimary) {
-    const activeMonsterIndex = getMonsterRotationActiveIndex(entity);
-    return `${entity.rarity}|${entity.category}|${isPrimary ? "1" : "0"}|${isCaught(entity) ? "1" : "0"}|${state.monsterRotationRevealed ? "1" : "0"}|${activeMonsterIndex ?? "x"}|${shouldDimByRealtimeTime(entity) ? "D" : "N"}`;
-}
-
-function getMarkerBundle(mapId, entity) {
-    const key = entityKey(entity, mapId);
-    let byMap = state.cache.markerBundle.get(mapId);
-    if (!byMap) {
-        byMap = new Map();
-        state.cache.markerBundle.set(mapId, byMap);
-    }
-    let bundle = byMap.get(key);
-    if (bundle) return bundle;
-
-    const locs = Array.isArray(entity.locations) ? entity.locations : [];
-    const markers = locs.map((l, idx) => {
-        const marker = L.marker([l.y, l.x], {icon: markerIcon(entity, idx === 0, idx, l.hint_by_bubble)});
-        marker.on("click", () => openEntityDetail(entity, idx));
-        return marker;
-    });
-    bundle = {
-        key,
-        markers,
-        iconSignatures: markers.map((_, idx) => markerVisualSignature(entity, idx === 0))
-    };
-    byMap.set(key, bundle);
-    return bundle;
-}
-
-function updateMarkerBundleIcons(bundle, entity) {
-    const locs = Array.isArray(entity.locations) ? entity.locations : [];
-    bundle.markers.forEach((marker, idx) => {
-        const nextSig = markerVisualSignature(entity, idx === 0);
-        if (bundle.iconSignatures[idx] === nextSig) return;
-        marker.setIcon(markerIcon(entity, idx === 0, idx, Boolean(locs[idx]?.hint_by_bubble)));
-        bundle.iconSignatures[idx] = nextSig;
-    });
-}
-
-function syncMarkerBundleLayers(bundle, entity) {
-    let hasVisibleMarker = false;
-    bundle.markers.forEach((marker, idx) => {
-        const shouldShow = !shouldHideMarkerByRotation(entity, idx);
-        if (shouldShow) {
-            hasVisibleMarker = true;
-            if (!state.markerLayer.hasLayer(marker)) state.markerLayer.addLayer(marker);
-        } else if (state.markerLayer.hasLayer(marker)) {
-            state.markerLayer.removeLayer(marker);
-        }
-    });
-    return hasVisibleMarker;
-}
-
-function scheduleRenderMarkers(refreshPanel = true) {
-    if (refreshPanel) state.scheduledRefreshPanel = true;
-    if (state.renderScheduled) return;
-    state.renderScheduled = true;
-    requestAnimationFrame(() => {
-        state.renderScheduled = false;
-        const shouldRefreshPanel = state.scheduledRefreshPanel;
-        state.scheduledRefreshPanel = false;
-        void renderMarkers(shouldRefreshPanel);
-    });
 }
 
 function getLabelWithCategory(value) {
@@ -645,52 +567,6 @@ function passesCurrentFilters(entity) {
     return !(mode === "uncaught" && isCaught(entity));
 }
 
-async function renderMarkers(refreshPanel = true) {
-    const requestId = ++state.renderRequestId;
-    const mapInfo = mapsById[state.currentMapId];
-    // const entities = await loadMapEntities(state.currentMapId);
-    const cache = await loadMapEntities(state.currentMapId);
-
-    if (requestId !== state.renderRequestId || mapInfo.id !== state.currentMapId) return;
-
-    const filtered = cache.all.filter((entity) => passesCurrentFilters(entity));
-
-    state.lastFilteredEntities = filtered;
-    let activeStateChanged = false;
-    if (state.resetActiveOnNextRender || !state.selection.initializedActiveMapIds.has(state.currentMapId)) {
-        resetActiveEntitiesForMap(filtered);
-        state.resetActiveOnNextRender = false;
-        activeStateChanged = true;
-    }
-    if (refreshPanel) renderEntityPanel();
-    if (activeStateChanged) PersistedState.save();
-
-    const nextActiveKeys = new Set();
-    filtered.forEach((entity) => {
-        if (!isEntityActive(entity)) {
-            return;
-        }
-        const locs = Array.isArray(entity.locations) ? entity.locations : [];
-        if (locs.length === 0) return;
-        const bundle = getMarkerBundle(state.currentMapId, entity);
-        updateMarkerBundleIcons(bundle, entity);
-        if (syncMarkerBundleLayers(bundle, entity)) nextActiveKeys.add(bundle.key);
-    });
-
-    state.selection.activeMarkerKeys.forEach((key) => {
-        if (nextActiveKeys.has(key)) return;
-        const [mapId] = key.split(":");
-        const byMap = state.cache.markerBundle.get(mapId);
-
-        const bundle = byMap?.get(key);
-        if (!bundle) return;
-        bundle.markers.forEach((marker) => state.markerLayer.removeLayer(marker));
-    });
-
-    state.selection.activeMarkerKeys.clear();
-    nextActiveKeys.forEach((key) => state.selection.activeMarkerKeys.add(key));
-}
-
 function renderEntityPanel() {
     syncCaughtFilterAllButton();
     const categoryRank = {fish: 0, creature: 1, item: 2};
@@ -793,7 +669,7 @@ function getOrCreateGroupUi(category, labelText) {
         state.selection.initializedActiveMapIds.add(state.currentMapId);
         PersistedState.save();
 
-        scheduleRenderMarkers();
+        MarkerManager.scheduleRender();
         renderEntityPanel();
     });
     ui.caughtFilterBtn.addEventListener("click", (e) => {
@@ -802,7 +678,7 @@ function getOrCreateGroupUi(category, labelText) {
         syncCaughtFilterAllButton();
         PersistedState.save();
         ;
-        scheduleRenderMarkers();
+        MarkerManager.scheduleRender();
     });
 
     state.cache.groupUi.set(category, ui);
@@ -851,7 +727,7 @@ function getOrCreateEntityRow(entity) {
         const categoryKey = entity.category;
         updateGroupHeaderState(categoryKey);
         PersistedState.save();
-        scheduleRenderMarkers(false);
+        MarkerManager.scheduleRender(false);
     });
     rowUi.thumb.addEventListener("click", (event) => {
         event.stopPropagation();
@@ -863,7 +739,7 @@ function getOrCreateEntityRow(entity) {
         if (state.selection.caughtEntityKeys.has(keyByEntity)) state.selection.caughtEntityKeys.delete(keyByEntity);
         else state.selection.caughtEntityKeys.add(keyByEntity);
         PersistedState.save();
-        scheduleRenderMarkers();
+        MarkerManager.scheduleRender();
     });
 
     state.cache.entityRow.set(key, rowUi);
@@ -993,7 +869,7 @@ function renderMap() {
     requestAnimationFrame(() => {
         state.mapInstance.invalidateSize();
     });
-    scheduleRenderMarkers();
+    MarkerManager.scheduleRender();
 }
 
 function selectMap(mapId) {
@@ -1080,7 +956,7 @@ document.addEventListener("DOMContentLoaded", () => {
             applyFilterButtonState();
             // state.resetActiveOnNextRender = true;
             PersistedState.save();
-            scheduleRenderMarkers();
+            MarkerManager.scheduleRender();
         });
     });
 
@@ -1110,12 +986,12 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         PersistedState.save();
-        scheduleRenderMarkers();
+        MarkerManager.scheduleRender();
     });
     showAllBtn.addEventListener("click", () => {
         resetActiveEntitiesForMap(state.lastFilteredEntities);
         PersistedState.save();
-        scheduleRenderMarkers();
+        MarkerManager.scheduleRender();
     });
     hideAllBtn.addEventListener("click", () => {
         const prefix = currentMapKeyPrefix();
@@ -1127,7 +1003,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
         state.selection.initializedActiveMapIds.add(state.currentMapId);
         PersistedState.save();
-        scheduleRenderMarkers();
+        MarkerManager.scheduleRender();
     });
     caughtFilterAllBtn?.addEventListener("click", () => {
         const current = state.caughtFilterMode.fish;
@@ -1137,21 +1013,21 @@ document.addEventListener("DOMContentLoaded", () => {
         state.caughtFilterMode.item = next;
         syncCaughtFilterAllButton();
         PersistedState.save();
-        scheduleRenderMarkers();
+        MarkerManager.scheduleRender();
     });
     /*Tool Bar*/
     alwaysShowBossBtn?.addEventListener("click", () => {
         state.alwaysShowBoss = !state.alwaysShowBoss;
         PersistedState.save();
         updateAlwaysShowBossButton();
-        scheduleRenderMarkers(false);
+        MarkerManager.scheduleRender(false);
     });
 
     todaySpotToggleBtn?.addEventListener("click", () => {
         state.monsterRotationRevealed = !state.monsterRotationRevealed;
         PersistedState.save();
         updateTodaySpotToggleButton();
-        scheduleRenderMarkers(false);
+        MarkerManager.scheduleRender(false);
     });
 
     panelToggleBtn.addEventListener("click", toggleEntityPanel);
@@ -1162,7 +1038,7 @@ document.addEventListener("DOMContentLoaded", () => {
         state.realtimeTimeFilterEnabled = !state.realtimeTimeFilterEnabled;
         updateRealtimeTimeToggleButton();
         PersistedState.save();
-        scheduleRenderMarkers(true);
+        MarkerManager.scheduleRender(true);
     });
 
     fullscreenToggleBtn?.addEventListener("click", toggleMapFullscreen);
@@ -1208,7 +1084,7 @@ document.addEventListener("DOMContentLoaded", () => {
         PersistedState.save();
 
         openEntityDetail(entity);
-        scheduleRenderMarkers();
+        MarkerManager.scheduleRender();
     });
 
     document.addEventListener("click", (event) => {
