@@ -40,20 +40,12 @@ EntityPanel.setDependencies({
     label,
     shouldDimByRealtimeTime,
     openEntityDetail,
-    syncCaughtFilterAllButton,
-    caughtModeLabel,
-    nextCaughtMode,
-    scheduleRender: (refreshPanel) => MarkerManager.scheduleRender(refreshPanel),
+    resetActiveEntitiesForMap,
     saveAndRender
-
 });
 const mapPicker = document.getElementById("mapPicker");
 const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
 
-const uncaughtOnlyBtn = document.getElementById("uncaughtOnlyBtn");
-const showAllBtn = document.getElementById("showAllBtn");
-const hideAllBtn = document.getElementById("hideAllBtn");
-const caughtFilterAllBtn = document.getElementById("caughtFilterAllBtn");
 const exportStateBtn = document.getElementById("exportStateBtn");
 const importStateBtn = document.getElementById("importStateBtn");
 const importedStateDialog = document.getElementById("importStateDialog");
@@ -63,7 +55,6 @@ const alwaysShowBossBtn = document.getElementById("alwaysShowBossBtn");
 const todaySpotToggleBtn = document.getElementById("todaySpotToggleBtn");
 const realtimeTimeToggleBtn = document.getElementById("realtimeTimeToggleBtn");
 
-const panelToggleBtn = document.getElementById("panelToggleBtn");
 const fullscreenToggleBtn = document.getElementById("fullscreenToggleBtn");
 const detailSheet = document.getElementById("detailSheet");
 const detailBody = document.getElementById("detailBody");
@@ -77,27 +68,8 @@ const TIPS_PAGE_ID = "__tips__";
 
 state.currentMapId = mapOrder[0];
 
-function nextCaughtMode(mode) {
-    if (mode === "all") return "uncaught";
-    if (mode === "uncaught") return "all";
-    return "all";
-}
-
-function caughtModeLabel(mode) {
-    if (mode === "caught") return "잡음";
-    if (mode === "uncaught") return "미획득";
-    return "전체";
-}
-
 function getGroupCaughtMode(category) {
     return state.caughtFilterMode[category] || "all";
-}
-
-function syncCaughtFilterAllButton() {
-    if (!caughtFilterAllBtn) return;
-    const modes = [state.caughtFilterMode.fish, state.caughtFilterMode.creature, state.caughtFilterMode.item];
-    const same = modes.every((mode) => mode === modes[0]);
-    caughtFilterAllBtn.textContent = same ? caughtModeLabel(modes[0]) : "혼합";
 }
 
 function entityKey(entity, mapId = state.currentMapId) {
@@ -129,7 +101,6 @@ function isCaught(entity, mapId = state.currentMapId) {
 
 function importUserStateFile(jsonText) {
     try {
-
         PersistedState.import(jsonText);
         refreshUiFromUserState();
         alert("가져오기가 완료되었습니다.");
@@ -148,7 +119,7 @@ function refreshUiFromUserState() {
     applyViewMode();
     applyPickerState();
     applyFilterButtonState();
-    syncCaughtFilterAllButton();
+    EntityPanel.syncCaughtFilterAllButton();
     updateAlwaysShowBossButton();
     updateTodaySpotToggleButton();
     updateRealtimeTimeToggleButton();
@@ -600,14 +571,7 @@ function closeDetail() {
     state.currentDetailEntity = null;
 }
 
-function toggleEntityPanel() {
-    const isMobile = window.matchMedia("(max-width: 860px)").matches;
-    if (!isMobile && !state.isMapFullscreen) return;
-    const panel = document.getElementById("entityPanel");
-    const nextOpen = !panel.classList.contains("open");
-    panelToggleBtn.classList.toggle("on", nextOpen);
-    panel.classList.toggle("open", nextOpen);
-}
+
 
 function fitCurrentMapBounds() {
     if (!state.mapInstance) return;
@@ -719,20 +683,18 @@ function saveAndRender(refreshPanel = true) {
 
 document.addEventListener("DOMContentLoaded", () => {
     PersistedState.load();
-
     buildPicker();
     applyViewMode();
     applyPickerState();
     createMapIfNeeded();
     installPreventPageDoubleTapZoom();
     applyFilterButtonState();
-    syncCaughtFilterAllButton();
+    EntityPanel.init();
     updateAlwaysShowBossButton();
     updateTodaySpotToggleButton();
     updateRealtimeTimeToggleButton();
 
     filterButtons.forEach((btn) => {
-
         const img = document.createElement("img");
         img.className = "filter-icon";
         img.src = `./assets/icons/filter/${btn.dataset.value}.svg`;
@@ -753,9 +715,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // clearButtons.forEach((btn) => {
-    //     btn.addEventListener("click", () => clearFilterGroup(btn.dataset.clearGroup));
-    // });
     exportStateBtn?.addEventListener("click", PersistedState.export);
     importStateBtn?.addEventListener("click", () => showImportUserStateDialog());
 
@@ -768,46 +727,6 @@ document.addEventListener("DOMContentLoaded", () => {
         importedStateDialog.close();
     });
 
-    // uncatchOnlyBtn
-    uncaughtOnlyBtn.addEventListener("click", () => {
-
-        let uncaughtEntry = state.lastFilteredEntities.filter(entry => !isCaught(entry));
-        resetActiveEntitiesForMap(uncaughtEntry);
-
-        state.lastFilteredEntities.forEach((e) => {
-            if (e.category === "monster") state.selection.activeEntityKeys.add(entityKey(e));
-        });
-
-        PersistedState.save();
-        MarkerManager.scheduleRender();
-    });
-    showAllBtn.addEventListener("click", () => {
-        resetActiveEntitiesForMap(state.lastFilteredEntities);
-        PersistedState.save();
-        MarkerManager.scheduleRender();
-    });
-    hideAllBtn.addEventListener("click", () => {
-        const prefix = currentMapKeyPrefix();
-        state.selection.activeEntityKeys.forEach((key) => {
-            if (key.startsWith(prefix)) state.selection.activeEntityKeys.delete(key);
-        });
-        state.lastFilteredEntities.forEach((e) => {
-            if (e.category === "monster") state.selection.activeEntityKeys.add(entityKey(e));
-        });
-        state.selection.initializedActiveMapIds.add(state.currentMapId);
-        PersistedState.save();
-        MarkerManager.scheduleRender();
-    });
-    caughtFilterAllBtn?.addEventListener("click", () => {
-        const current = state.caughtFilterMode.fish;
-        const next = nextCaughtMode(current);
-        state.caughtFilterMode.fish = next;
-        state.caughtFilterMode.creature = next;
-        state.caughtFilterMode.item = next;
-        syncCaughtFilterAllButton();
-        PersistedState.save();
-        MarkerManager.scheduleRender();
-    });
     /*Tool Bar*/
     alwaysShowBossBtn?.addEventListener("click", () => {
         state.alwaysShowBoss = !state.alwaysShowBoss;
@@ -823,7 +742,7 @@ document.addEventListener("DOMContentLoaded", () => {
         MarkerManager.scheduleRender(false);
     });
 
-    panelToggleBtn.addEventListener("click", toggleEntityPanel);
+
 
     const isDay = isRealtimeDayTime();
     realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
@@ -878,22 +797,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         openEntityDetail(entity);
         MarkerManager.scheduleRender();
-    });
-
-    document.addEventListener("click", (event) => {
-        const isMobile = window.matchMedia("(max-width: 860px)").matches;
-        if (!isMobile) return;
-
-        const panel = document.getElementById("entityPanel");
-        if (!panel.classList.contains("open")) return;
-
-        // 패널 내부나 토글 버튼을 누른 경우는 무시
-        if (panel.contains(event.target) || panelToggleBtn.contains(event.target)) {
-            return;
-        }
-
-        panel.classList.remove("open");
-        panelToggleBtn.classList.remove("on");
     });
 
     if (state.isTipsMode) selectTipsPage();

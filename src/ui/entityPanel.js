@@ -28,15 +28,64 @@ class EntityPanel {
         this.groupUi = new Map();
         this.entityRow = new Map();
         this.groupItems = new Map();
+
+        this.panel = document.getElementById("entityPanel");
+
+        this.caughtFilterAllBtn = document.getElementById("caughtFilterAllBtn");
+        this.uncaughtOnlyBtn = document.getElementById("uncaughtOnlyBtn");
+        this.showAllBtn = document.getElementById("showAllBtn");
+        this.hideAllBtn = document.getElementById("hideAllBtn");
+        this.panelToggleBtn = document.getElementById("panelToggleBtn");
+
     }
 
     setDependencies(deps) {
         this.deps = deps;
     }
 
+    init() {
+        this.registerEvents();
+        this.syncCaughtFilterAllButton();
+    }
+
+    registerEvents() {
+        this.caughtFilterAllBtn?.addEventListener("click", () => {
+            this.handleAllCaughtToggle();
+        });
+
+        // uncatchOnlyBtn
+        this.uncaughtOnlyBtn.addEventListener("click", () => {
+            this.handleShowUncaughtOnly();
+        });
+        this.showAllBtn.addEventListener("click", () => {
+            this.handleShowAllToggle();
+        });
+        this.hideAllBtn.addEventListener("click", () => {
+            this.handleHideAllToggle();
+        });
+
+        this.panelToggleBtn.addEventListener("click", () => {
+            this.toggleEntityPanel();
+        });
+
+        document.addEventListener("click", (event) => {
+            const isMobile = window.matchMedia("(max-width: 860px)").matches;
+            if (!isMobile) return;
+
+            if (!this.panel.classList.contains("open")) return;
+
+            // 패널 내부나 토글 버튼을 누른 경우는 무시
+            if (this.panel.contains(event.target) || this.panelToggleBtn.contains(event.target)) {
+                return;
+            }
+            this.closePanel();
+
+        });
+    }
+
     render() {
         this.groupItems.clear();
-        this.deps.syncCaughtFilterAllButton();
+        this.syncCaughtFilterAllButton();
         const sorted = this.sortEntities(state.lastFilteredEntities);
         const visibleCategories = ["fish", "creature", "item"].filter((category) => state.filters.category.has(category));
 
@@ -67,7 +116,7 @@ class EntityPanel {
         const ui = this.groupUi.get(category);
         if (!ui) return;
 
-        ui.groupCaughtToggleButton.textContent = this.deps.caughtModeLabel(state.caughtFilterMode[category]);
+        ui.groupCaughtToggleButton.textContent = this.caughtModeLabel(state.caughtFilterMode[category]);
         ui.arrowEl.textContent = state.panelFoldState[category] ? "▾" : "▸";
         ui.body.className = `entity-group-body ${state.panelFoldState[category] ? "open" : "closed"}`;
     }
@@ -186,13 +235,6 @@ class EntityPanel {
 
         rowUi.row.addEventListener("click", () => {
 
-            const key = this.deps.entityKey(entity);
-            if (state.selection.activeEntityKeys.has(key)) {
-                state.selection.activeEntityKeys.delete(key);
-            } else {
-                state.selection.activeEntityKeys.add(key);
-            }
-            state.selection.initializedActiveMapIds.add(state.currentMapId);
             this.handleSingleRowToggle(entity, rowUi);
         });
         rowUi.thumb.addEventListener("click", (event) => {
@@ -213,6 +255,18 @@ class EntityPanel {
 
         this.entityRow.set(key, rowUi);
         return rowUi;
+    }
+
+    nextCaughtMode(mode) {
+        if (mode === "all") return "uncaught";
+        if (mode === "uncaught") return "all";
+        return "all";
+    }
+
+    caughtModeLabel(mode) {
+        if (mode === "caught") return "잡음";
+        if (mode === "uncaught") return "미획득";
+        return "전체";
     }
 
     updateEntityRow(rowUi, entity) {
@@ -261,15 +315,46 @@ class EntityPanel {
         ui.countEl.textContent = String(activeCount) + "/" + String(groupItems.length);
     }
 
+    syncCaughtFilterAllButton() {
+        if (!this.caughtFilterAllBtn) return;
+        const modes = [state.caughtFilterMode.fish, state.caughtFilterMode.creature, state.caughtFilterMode.item];
+        const same = modes.every((mode) => mode === modes[0]);
+        this.caughtFilterAllBtn.textContent = same ? this.caughtModeLabel(modes[0]) : "혼합";
+    }
+
+    isPanelOpen() {
+        return this.panel.classList.contains("open");
+    }
+
+    openPanel() {
+        this.panel.classList.add("open");
+        this.panelToggleBtn.classList.add("on");
+    }
+
+    closePanel() {
+        this.panel.classList.remove("open");
+        this.panelToggleBtn.classList.remove("on");
+    }
+
     // Event listener
+    toggleEntityPanel() {
+        const isMobile = window.matchMedia("(max-width: 860px)").matches;
+        if (!isMobile && !state.isMapFullscreen) return;
+        if (this.isPanelOpen()) {
+            this.closePanel();
+        } else {
+            this.openPanel();
+        }
+    }
+
     handleGroupTitleFold(category) {
         state.panelFoldState[category] = !state.panelFoldState[category];
         this.updateGroupUi(category);
     }
 
     handleGroupCaughtToggle(category) {
-        state.caughtFilterMode[category] = this.deps.nextCaughtMode(state.caughtFilterMode[category]);
-        this.deps.syncCaughtFilterAllButton();
+        state.caughtFilterMode[category] = this.nextCaughtMode(state.caughtFilterMode[category]);
+        this.syncCaughtFilterAllButton();
         this.deps.saveAndRender(true);
     }
 
@@ -288,13 +373,57 @@ class EntityPanel {
     }
 
     handleSingleRowToggle(entity, rowUi) {
+        const key = this.deps.entityKey(entity);
+        if (state.selection.activeEntityKeys.has(key)) {
+            state.selection.activeEntityKeys.delete(key);
+        } else {
+            state.selection.activeEntityKeys.add(key);
+        }
+        state.selection.initializedActiveMapIds.add(state.currentMapId);
         this.updateEntityRow(rowUi, entity);
         const categoryKey = entity.category;
         this.updateGroupHeaderState(categoryKey);
         this.deps.saveAndRender(false);
     }
 
+    handleShowAllToggle() {
+        this.deps.resetActiveEntitiesForMap(state.lastFilteredEntities);
+        this.deps.saveAndRender(true);
+    }
+
+    handleHideAllToggle() {
+        const prefix = `${state.currentMapId}:`;
+        state.selection.activeEntityKeys.forEach((key) => {
+            if (key.startsWith(prefix)) state.selection.activeEntityKeys.delete(key);
+        });
+        state.lastFilteredEntities.forEach((e) => {
+            if (e.category === "monster") state.selection.activeEntityKeys.add(this.deps.entityKey(e));
+        });
+        state.selection.initializedActiveMapIds.add(state.currentMapId);
+        this.deps.saveAndRender(true);
+    }
+
+    handleAllCaughtToggle() {
+        const current = state.caughtFilterMode.fish;
+        const next = this.nextCaughtMode(current);
+        state.caughtFilterMode.fish = next;
+        state.caughtFilterMode.creature = next;
+        state.caughtFilterMode.item = next;
+        this.syncCaughtFilterAllButton();
+        this.deps.saveAndRender(true);
+    }
+
+    handleShowUncaughtOnly() {
+        let uncaughtEntry = state.lastFilteredEntities.filter(entry => !this.deps.isCaught(entry));
+        this.deps.resetActiveEntitiesForMap(uncaughtEntry);
+
+        state.lastFilteredEntities.forEach((e) => {
+            if (e.category === "monster") state.selection.activeEntityKeys.add(this.deps.entityKey(e));
+        });
+        this.deps.saveAndRender(true);
+    }
 }
 
-const entityPanel = new EntityPanel();
+const
+    entityPanel = new EntityPanel();
 export default entityPanel;
