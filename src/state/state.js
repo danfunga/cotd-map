@@ -29,8 +29,6 @@ export const state = {
     cache: {
         mapEntities: new Map(),
         markerBundle: new Map(),
-        entityRow: new Map(),
-        groupUi: new Map()
     },
     caughtFilterMode: {
         fish: "all",

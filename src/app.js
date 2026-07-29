@@ -16,10 +16,11 @@ import {showToast} from "./ui/toast.js";
 
 //map
 import MarkerManager from "./map/markerManager.js";
+import EntityPanel from "./ui/entityPanel.js";
 
 MarkerManager.setDependencies({
     loadMapEntities,
-    renderEntityPanel,
+    renderEntityPanel: (...args) => EntityPanel.render(...args),
     passesCurrentFilters,
     resetActiveEntitiesForMap,
     isEntityActive,
@@ -32,9 +33,23 @@ MarkerManager.setDependencies({
     openEntityDetail,
 });
 
+EntityPanel.setDependencies({
+    isEntityActive,
+    isCaught,
+    entityKey,
+    label,
+    shouldDimByRealtimeTime,
+    openEntityDetail,
+    syncCaughtFilterAllButton,
+    caughtModeLabel,
+    nextCaughtMode,
+    scheduleRender: (refreshPanel) => MarkerManager.scheduleRender(refreshPanel),
+    saveAndRender
+
+});
 const mapPicker = document.getElementById("mapPicker");
 const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
-const entityList = document.getElementById("entityList");
+
 const uncaughtOnlyBtn = document.getElementById("uncaughtOnlyBtn");
 const showAllBtn = document.getElementById("showAllBtn");
 const hideAllBtn = document.getElementById("hideAllBtn");
@@ -567,232 +582,6 @@ function passesCurrentFilters(entity) {
     return !(mode === "uncaught" && isCaught(entity));
 }
 
-function renderEntityPanel() {
-    syncCaughtFilterAllButton();
-    const categoryRank = {fish: 0, creature: 1, item: 2};
-    const categoryLabel = {fish: "물고기", creature: "생명체", item: "아이템"};
-    const rarityRank = {common: 0, rare: 1, epic: 2, monster: 3};
-    const sorted = [...state.lastFilteredEntities].sort((a, b) => {
-        const ca = categoryRank[a.category] ?? 9;
-        const cb = categoryRank[b.category] ?? 9;
-        if (ca !== cb) return ca - cb;
-        const ra = rarityRank[a.rarity] ?? 9;
-        const rb = rarityRank[b.rarity] ?? 9;
-        if (ra !== rb) return ra - rb;
-        return label(a).localeCompare(label(b));
-    });
-    const visibleCategories = ["fish", "creature", "item"].filter((category) => state.filters.category.has(category));
-
-    const sections = visibleCategories.map((category) => {
-        const groupItems = sorted.filter(e => e.category === category);
-
-        const ui = getOrCreateGroupUi(category, categoryLabel[category]);
-        ui.caughtFilterBtn.textContent = caughtModeLabel(state.caughtFilterMode[category]);
-
-        updateGroupHeaderState(category);
-        ui.arrowEl.textContent = state.caughtFilterMode[category] ? "▾" : "▸";
-        ui.body.className = `entity-group-body ${state.caughtFilterMode[category] ? "open" : "closed"}`;
-
-        const rowNodes = groupItems.map((entity) => {
-            const rowUi = getOrCreateEntityRow(entity);
-            updateEntityRow(rowUi, entity);
-            return rowUi.row;
-        });
-        if (rowNodes.length === 0) {
-            ui.body.replaceChildren(ui.emptyEl);
-        } else {
-            ui.body.replaceChildren(...rowNodes);
-        }
-        return ui.section;
-    });
-    entityList.replaceChildren(...sections);
-}
-
-function getOrCreateGroupUi(category, labelText) {
-    const cached = state.cache.groupUi.get(category);
-    if (cached) return cached;
-
-    const section = document.createElement("section");
-    section.className = "entity-group";
-
-    const header = document.createElement("div");
-    header.className = "entity-group-head";
-    header.setAttribute("role", "button");
-    header.setAttribute("tabindex", "0");
-    header.innerHTML = `
-      <span>${labelText}</span>
-      <span class="entity-group-info"></span>
-      <button type="button" class="entity-group-caught-filter-btn" data-category="${category}"></button>
-      <button type="button" class="entity-group-show-toggle-btn" data-category="${category}"></button>
-      <span class="entity-group-count"></span>
-      <span class="entity-group-arrow"></span>
-  `;
-    const body = document.createElement("div");
-    body.className = "entity-group-body open";
-    const emptyEl = document.createElement("div");
-    emptyEl.className = "entity-empty";
-    emptyEl.textContent = "표시할 항목 없음";
-
-    section.append(header, body);
-    const ui = {
-        section,
-        header,
-        body,
-        emptyEl,
-        toggleBtn: header.querySelector(".entity-group-show-toggle-btn"),
-        caughtFilterBtn: header.querySelector(".entity-group-caught-filter-btn"),
-        infoEl: header.querySelector(".entity-group-info"),
-        countEl: header.querySelector(".entity-group-count"),
-        arrowEl: header.querySelector(".entity-group-arrow")
-    };
-
-    header.addEventListener("click", () => {
-        state.caughtFilterMode[category] = !state.caughtFilterMode[category];
-        renderEntityPanel();
-    });
-    header.addEventListener("keydown", (event) => {
-        if (event.key !== "Enter" && event.key !== " ") return;
-        event.preventDefault();
-        state.caughtFilterMode[category] = !state.caughtFilterMode[category];
-        renderEntityPanel();
-    });
-    ui.toggleBtn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        const group = state.lastFilteredEntities.filter((ent) => ent.category === category);
-
-        const allActive = group.length > 0 && group.every((ent) => isEntityActive(ent));
-        group.forEach((ent) => {
-            const key = entityKey(ent);
-            if (allActive) state.selection.activeEntityKeys.delete(key);
-            else state.selection.activeEntityKeys.add(key);
-        });
-        state.selection.initializedActiveMapIds.add(state.currentMapId);
-        PersistedState.save();
-
-        MarkerManager.scheduleRender();
-        renderEntityPanel();
-    });
-    ui.caughtFilterBtn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        state.caughtFilterMode[category] = nextCaughtMode(state.caughtFilterMode[category]);
-        syncCaughtFilterAllButton();
-        PersistedState.save();
-        ;
-        MarkerManager.scheduleRender();
-    });
-
-    state.cache.groupUi.set(category, ui);
-    return ui;
-}
-
-function getOrCreateEntityRow(entity) {
-    const key = entityKey(entity);
-    const cached = state.cache.entityRow.get(key);
-    if (cached) return cached;
-
-    const row = document.createElement("div");
-    row.innerHTML = `
-    <span class="entity-left">
-      <span class="entity-thumb-wrap">
-        <img class="entity-thumb"  alt="" src="">
-        <span class="entity-available-time-badge">∞</span>
-      </span>
-      <span class="entity-texts">
-        <span class="entity-name"></span>
-        <span class="entity-sub-name"></span>
-      </span>
-    </span>
-    <span class="entity-count"></span>
-    <button class="count-v-toggle" type="button" aria-label="획득 토글">
-      <span class="caught-v count-v off">✓</span>
-    </button>
-  `;
-    const rowUi = {
-        row,
-        thumb: row.querySelector(".entity-thumb"),
-        thumbWrap: row.querySelector(".entity-thumb-wrap"),
-        timeIconBadge: row.querySelector(".entity-available-time-badge"),
-        nameEl: row.querySelector(".entity-name"),
-        subNameEl: row.querySelector(".entity-sub-name"),
-        countEl: row.querySelector(".entity-count"),
-        countVEl: row.querySelector(".count-v")
-    };
-
-    row.addEventListener("click", () => {
-        const key = entityKey(entity);
-        if (state.selection.activeEntityKeys.has(key)) state.selection.activeEntityKeys.delete(key);
-        else state.selection.activeEntityKeys.add(key);
-        state.selection.initializedActiveMapIds.add(state.currentMapId);
-        updateEntityRow(rowUi, entity);
-        const categoryKey = entity.category;
-        updateGroupHeaderState(categoryKey);
-        PersistedState.save();
-        MarkerManager.scheduleRender(false);
-    });
-    rowUi.thumb.addEventListener("click", (event) => {
-        event.stopPropagation();
-        openEntityDetail(entity);
-    });
-    row.querySelector(".count-v-toggle").addEventListener("click", (event) => {
-        event.stopPropagation();
-        const keyByEntity = entityKey(entity);
-        if (state.selection.caughtEntityKeys.has(keyByEntity)) state.selection.caughtEntityKeys.delete(keyByEntity);
-        else state.selection.caughtEntityKeys.add(keyByEntity);
-        PersistedState.save();
-        MarkerManager.scheduleRender();
-    });
-
-    state.cache.entityRow.set(key, rowUi);
-    return rowUi;
-}
-
-function updateEntityRow(rowUi, entity) {
-    const rarityKey = entity.rarity;
-    rowUi.row.className = `entity-row rarity-${rarityKey} ${isEntityActive(entity) ? "" : "off"} ${isCaught(entity) ? "caught" : ""}`;
-    const count = Array.isArray(entity.locations) ? entity.locations.length : 0;
-    rowUi.countEl.textContent = String(count);
-    rowUi.countVEl.className = `caught-v count-v ${isCaught(entity) ? "on" : "off"}`;
-    rowUi.nameEl.className = `entity-name rarity-${rarityKey}`;
-    rowUi.nameEl.textContent = label(entity);
-    rowUi.subNameEl.textContent = entity.name || "";
-    const imagePath = ImageRepository.getPortrait(state.currentMapId, entity);
-    if (rowUi.thumb.getAttribute("src") !== imagePath) {
-        rowUi.thumb.src = imagePath;
-    }
-    rowUi.thumb.alt = label(entity);
-    rowUi.thumb.onerror = function onThumbError() {
-        this.style.display = "none";
-    };
-    const dimmed = shouldDimByRealtimeTime(entity);
-    rowUi.thumb.style.display = "";
-    rowUi.thumb.classList.toggle("time-dim", dimmed);
-    rowUi.timeIconBadge.classList.toggle("time-dim", dimmed);
-    if (entity.category === "item") {
-        rowUi.timeIconBadge.textContent = ""
-    } else {
-        rowUi.timeIconBadge.textContent = {
-            day: "☀️", // 해
-            night: "🌙" // 달
-        }[entity.timeBand] ?? "∞";// 종일
-    }
-}
-
-function updateGroupHeaderState(category) {
-    const ui = state.cache.groupUi.get(category);
-    if (!ui) return;
-    const groupItems = state.lastFilteredEntities.filter((ent) => ent.category === category);
-    const allActive = groupItems.length > 0 && groupItems.every((ent) => isEntityActive(ent));
-    ui.toggleBtn.textContent = allActive ? "🚫" : "👁️";// 눈  숨김
-
-    const cache = state.cache.mapEntities.get(state.currentMapId);
-    const totalEntries = cache.byCategory[category];
-    const caughtCount = totalEntries.filter((entry) => isCaught(entry)).length;
-    ui.infoEl.textContent = String(caughtCount) + "/" + String(totalEntries.length);
-
-    const activeCount = groupItems.filter((entry) => isEntityActive(entry)).length;
-    ui.countEl.textContent = String(activeCount) + "/" + String(groupItems.length);
-}
-
 function openDetail(html) {
     detailBody.innerHTML = html;
     initializeSpotImages(detailBody);
@@ -923,6 +712,11 @@ function installPreventPageDoubleTapZoom() {
     }, {passive: false});
 }
 
+function saveAndRender(refreshPanel = true) {
+    PersistedState.save();
+    MarkerManager.scheduleRender(refreshPanel);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     PersistedState.load();
 
@@ -955,8 +749,7 @@ document.addEventListener("DOMContentLoaded", () => {
             else set.add(value);
             applyFilterButtonState();
             // state.resetActiveOnNextRender = true;
-            PersistedState.save();
-            MarkerManager.scheduleRender();
+            saveAndRender();
         });
     });
 
