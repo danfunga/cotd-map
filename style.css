@@ -741,8 +741,8 @@ body.map-fullscreen {
 }
 
 .time-dim {
-    opacity: 0.6;
-    filter: grayscale(60%);
+    opacity: 0.2;
+    filter: grayscale(70%);
 }
 
 .entity-thumb-wrap {
