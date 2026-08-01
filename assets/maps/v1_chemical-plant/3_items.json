@@ -148,11 +148,15 @@
     "timeBand": "both",
     "locations": [
       {
+        "x": 402,
+        "y": 786
+      },
+      {
         "x": 348,
         "y": 852
       }
     ],
-    "notes": "",
+    "notes": "북쪽 울타리 근처에 있을거야",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -716,7 +720,7 @@
         "y": 252
       }
     ],
-    "notes": "",
+    "notes": "남쪽의 이상한 버섯이 있는 들판 근처에서 떠다니는것을 봤어.",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
