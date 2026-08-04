@@ -30,16 +30,16 @@ class MarkerManager {
         const requestId = ++state.renderRequestId;
         const mapInfo = mapsById[state.currentMapId];
         // const entities = await loadMapEntities(state.currentMapId);
-        const cache = await this.deps.loadMapEntities(state.currentMapId);
+        const cache = await this.deps.entityManager.loadMapEntities(state.currentMapId);
 
         if (requestId !== state.renderRequestId || mapInfo.id !== state.currentMapId) return;
 
-        const filtered = cache.all.filter((entity) => this.deps.passesCurrentFilters(entity));
+        const filtered = cache.all.filter((entity) => this.deps.entityManager.passesCurrentFilters(entity));
 
         state.lastFilteredEntities = filtered;
         let activeStateChanged = false;
         if (state.resetActiveOnNextRender || !state.selection.initializedActiveMapIds.has(state.currentMapId)) {
-            this.deps.resetActiveEntitiesForMap(filtered);
+            this.deps.entityManager.resetActiveEntitiesForMap(filtered);
             state.resetActiveOnNextRender = false;
             activeStateChanged = true;
         }
@@ -48,7 +48,7 @@ class MarkerManager {
 
         const nextActiveKeys = new Set();
         filtered.forEach((entity) => {
-            if (!this.deps.isEntityActive(entity)) {
+            if (!this.deps.entityManager.isEntityActive(entity)) {
                 return;
             }
             const locs = Array.isArray(entity.locations) ? entity.locations : [];
@@ -73,7 +73,7 @@ class MarkerManager {
     }
 
     getMarkerBundle(mapId, entity) {
-        const key = this.deps.entityKey(entity, mapId);
+        const key = this.deps.entityManager.entityKey(entity, mapId);
         let byMap = state.cache.markerBundle.get(mapId);
         if (!byMap) {
             byMap = new Map();
@@ -136,7 +136,7 @@ class MarkerManager {
     markerIcon(entity, isPrimary = false, markerIndex = 0, hintByBubble = false) {
         const rarityKey = entity.rarity;
         const categoryKey = entity.category || "fish";
-        const caught = this.deps.isCaught(entity);
+        const caught = this.deps.entityManager.isCaught(entity);
         const caughtClass = caught ? "caught" : "";
         const markerNumber = categoryKey === "monster" ? (markerIndex + 1) : null;
         const bubbleHintClass = hintByBubble ? "bubble-hint-marker" : "";
@@ -151,7 +151,7 @@ class MarkerManager {
       <div class="marker-fallback-dot rarity-${rarityKey} category-${categoryKey}" ></div>
       <img class="photo-marker rarity-${rarityKey} ${timeDimClass} ${bubbleHintClass} ${isPrimary ? "primary-location" : ""} ${caughtClass}"
         src="${ImageRepository.getPortrait(state.currentMapId, entity)}"
-        alt="${this.deps.label(entity)}"
+        alt="${this.deps.entityManager.label(entity)}"
       >
       ${markerNumber ? `<span class="marker-number ${timeDimClass}">${markerNumber}</span>` : ""}
       ${caught ? `<span class="caught-v marker-v ${timeDimClass}">✓</span>` : ""}
@@ -164,7 +164,7 @@ class MarkerManager {
 
     markerVisualSignature(entity, isPrimary) {
         const activeMonsterIndex = this.deps.getMonsterRotationActiveIndex(entity);
-        return `${entity.rarity}|${entity.category}|${isPrimary ? "1" : "0"}|${this.deps.isCaught(entity) ? "1" : "0"}|${state.monsterRotationRevealed ? "1" : "0"}|${activeMonsterIndex ?? "x"}|${this.deps.shouldDimByRealtimeTime(entity) ? "D" : "N"}`;
+        return `${entity.rarity}|${entity.category}|${isPrimary ? "1" : "0"}|${this.deps.entityManager.isCaught(entity) ? "1" : "0"}|${state.monsterRotationRevealed ? "1" : "0"}|${activeMonsterIndex ?? "x"}|${this.deps.shouldDimByRealtimeTime(entity) ? "D" : "N"}`;
     }
 
 }

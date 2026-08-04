@@ -1,31 +1,22 @@
 // data
 import {mapOrder, mapsById} from "../content/mapIndex.js";
-
 // state
-import {createEmptyCategorizedEntityMap, state} from "./state/state.js";
+import {state} from "./state/state.js";
 import PersistedState from "./state/persistedState.js";
-
 // constants
 import {MONSTER_ROTATION_CONFIG, MONSTER_ROTATION_MAP_IDS} from "./constants/index.js";
-
 // repository
 // ui
 import {showToast} from "./ui/toast.js";
-
 //map
 import MarkerManager from "./map/markerManager.js";
+import EntityManager from "./manager/entityManager.js";
 import EntityPanel from "./ui/entityPanel.js";
 import DetailPanel from "./ui/detailPanel.js";
 
 MarkerManager.setDependencies({
-    loadMapEntities,
     renderEntityPanel: (...args) => EntityPanel.render(...args),
-    passesCurrentFilters,
-    resetActiveEntitiesForMap,
-    isEntityActive,
-    entityKey,
-    isCaught,
-    label,
+    entityManager: EntityManager,
     shouldDimByRealtimeTime,
     shouldHideMarkerByRotation,
     getMonsterRotationActiveIndex,
@@ -33,78 +24,35 @@ MarkerManager.setDependencies({
         DetailPanel.openEntityDetail(...args)
     },
 });
-
 EntityPanel.setDependencies({
-    isEntityActive,
-    isCaught,
-    entityKey,
-    label,
+    entityManager: EntityManager,
     shouldDimByRealtimeTime,
     openEntityDetail: (...args) => {
         DetailPanel.openEntityDetail(...args)
     },
-    resetActiveEntitiesForMap,
     saveAndRender
 });
-
 DetailPanel.setDependencies({
-    isCaught,
-    entityKey,
-    label,
-    toggleCaught
+    entityManager: EntityManager,
 });
-
+EntityManager.setDependencies({
+    saveAndRender
+});
 const mapPicker = document.getElementById("mapPicker");
 const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
-
 const exportStateBtn = document.getElementById("exportStateBtn");
 const importStateBtn = document.getElementById("importStateBtn");
 const importedStateDialog = document.getElementById("importStateDialog");
 const importedTextContents = document.getElementById("importStateText");
-
 const alwaysShowBossBtn = document.getElementById("alwaysShowBossBtn");
 const todaySpotToggleBtn = document.getElementById("todaySpotToggleBtn");
 const realtimeTimeToggleBtn = document.getElementById("realtimeTimeToggleBtn");
-
 const fullscreenToggleBtn = document.getElementById("fullscreenToggleBtn");
 const controlsSection = document.getElementById("controls");
 const mapLayout = document.getElementById("mapLayout");
 const tipsLayout = document.getElementById("tipsLayout");
-
 const TIPS_PAGE_ID = "__tips__";
-
 state.currentMapId = mapOrder[0];
-
-function getGroupCaughtMode(category) {
-    return state.caughtFilterMode[category] || "all";
-}
-
-function entityKey(entity, mapId = state.currentMapId) {
-    return `${mapId}:${entity.category}:${entity.id}`;
-}
-
-function currentMapKeyPrefix(mapId = state.currentMapId) {
-    return `${mapId}:`;
-}
-
-function resetActiveEntitiesForMap(entities, mapId = state.currentMapId) {
-    const prefix = currentMapKeyPrefix(mapId);
-    state.selection.activeEntityKeys.forEach((key) => {
-        if (key.startsWith(prefix)) state.selection.activeEntityKeys.delete(key);
-    });
-    entities.forEach((entity) => state.selection.activeEntityKeys.add(entityKey(entity, mapId)));
-    state.selection.initializedActiveMapIds.add(mapId);
-}
-
-function isEntityActive(entity, mapId = state.currentMapId) {
-    if (!state.selection.initializedActiveMapIds.has(mapId)) return true;
-    if (entity.category === "monster" && state.alwaysShowBoss) return true;
-    return state.selection.activeEntityKeys.has(entityKey(entity, mapId));
-}
-
-function isCaught(entity, mapId = state.currentMapId) {
-    return state.selection.caughtEntityKeys.has(entityKey(entity, mapId));
-}
 
 function importUserStateFile(jsonText) {
     try {
@@ -136,20 +84,6 @@ function refreshUiFromUserState() {
     } else {
         renderMap();
     }
-}
-
-function toggleCaught(entity) {
-    const key = entityKey(entity);
-    if (state.selection.caughtEntityKeys.has(key)) {
-        state.selection.caughtEntityKeys.delete(key);
-    } else {
-        state.selection.caughtEntityKeys.add(key);
-    }
-    saveAndRender(true);
-}
-
-function label(entity) {
-    return entity.display && entity.display.trim() !== "" ? entity.display : entity.name;
 }
 
 function isMonsterRotationMap(mapId = state.currentMapId) {
@@ -197,18 +131,6 @@ function shouldHideMarkerByRotation(entity, markerIndex, mapId = state.currentMa
         markerIndex !== activeMonsterIndex;
 }
 
-function isSeasonAvailable(entity) {
-    if (!Array.isArray(entity.seasons) || entity.seasons.length !== 12) return true;
-    return Boolean(entity.seasons[new Date().getMonth()]);
-}
-
-function hitFishTimeFilter(entity) {
-    if (entity.timeBand === "day") return state.filters.time.has("day");
-    if (entity.timeBand === "night") return state.filters.time.has("night");
-    if (entity.timeBand === "both") return state.filters.time.has("both");
-    return false;
-}
-
 function buildPicker() {
     mapPicker.innerHTML = "";
     mapOrder.forEach((mapId) => {
@@ -254,7 +176,6 @@ function syncMapFullscreenState(active) {
     controlsSection.classList.toggle("filter-fullscreen", active);
     fullscreenToggleBtn.classList.toggle("on", active);
     fullscreenToggleBtn?.setAttribute("aria-pressed", active ? "true" : "false");
-
     requestAnimationFrame(() => {
         state.mapInstance?.invalidateSize();
     });
@@ -303,10 +224,8 @@ function updateAlwaysShowBossButton() {
 }
 
 function updateRealtimeTimeToggleButton() {
-
     const isDay = isRealtimeDayTime();
     realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
-
     if (!realtimeTimeToggleBtn) return;
     realtimeTimeToggleBtn.classList.toggle("on", state.realtimeTimeFilterEnabled);
     realtimeTimeToggleBtn.setAttribute("aria-pressed", state.realtimeTimeFilterEnabled ? "true" : "false");
@@ -380,50 +299,6 @@ function createMapIfNeeded() {
     installTwoFingerDoubleTapZoomOut();
 }
 
-async function loadMapEntities(mapId) {
-    if (state.cache.mapEntities.has(mapId)) return state.cache.mapEntities.get(mapId);
-    const basePath = mapsById[mapId]?.dataPath || `./assets/maps/${mapId}`;
-    const targets = ["1_fish", "2_creatures", "3_items"];
-    const responses = await Promise.all(
-        targets.map(async (name) => {
-            try {
-                const res = await fetch(`${basePath}/${name}.json`);
-                if (!res.ok) return [];
-                const data = await res.json();
-                return Array.isArray(data) ? data : [];
-            } catch {
-                return [];
-            }
-        })
-    );
-    const all = responses.flat();
-    const cache = {
-        all,
-        byCategory: createEmptyCategorizedEntityMap()
-    };
-
-    for (const entity of all) {
-        cache.byCategory[entity.category].push(entity);
-    }
-    state.cache.mapEntities.set(mapId, cache);
-    return cache;
-}
-
-function passesCurrentFilters(entity) {
-    if (entity.category === "monster") {
-        return state.alwaysShowBoss;
-    }
-    if (!state.filters.category.has(entity.category)) return false;
-    if (!state.filters.rarity.has(entity.rarity)) return false;
-    if (!hitFishTimeFilter(entity)) return false;
-    const availableNow = isSeasonAvailable(entity);
-    const availabilityKey = availableNow ? "available" : "unavailable";
-    if (!state.filters.availability.has(availabilityKey)) return false;
-    const mode = getGroupCaughtMode(entity.category);
-    if (mode === "caught" && !isCaught(entity)) return false;
-    return !(mode === "uncaught" && isCaught(entity));
-}
-
 function fitCurrentMapBounds() {
     if (!state.mapInstance) return;
     const mapInfo = mapsById[state.currentMapId];
@@ -444,14 +319,11 @@ function renderMap() {
         mapLayout.style.setProperty("--active-map-aspect", mapInfo.imageWidth / mapInfo.imageHeight);
     }
     updateTodaySpotToggleButton();
-
     state.mapInstance.eachLayer((layer) => {
         if (layer instanceof L.ImageOverlay) state.mapInstance.removeLayer(layer);
     });
-
     L.imageOverlay(mapInfo.imagePath, bounds).addTo(state.mapInstance);
     fitCurrentMapBounds();
-
     // 여기서 부터 클릭 부분==================
     state.mapInstance.off("click");
     state.mapInstance.on("click", async (e) => {
@@ -461,7 +333,6 @@ function renderMap() {
             x: Math.round(e.latlng.lng),
             y: Math.round(e.latlng.lat),
         };
-
         // 보기 쉽게 문자열 생성
         const text = `"x": ${point.x}, "y": ${point.y}, "hint_by_bubble" : true`;
         await navigator.clipboard.writeText(text);
@@ -469,7 +340,6 @@ function renderMap() {
         console.log(text);
     });
     // 클릭 끝 ==================
-
     requestAnimationFrame(() => {
         state.mapInstance.invalidateSize();
     });
@@ -518,7 +388,6 @@ function installPreventPageDoubleTapZoom() {
         if (state.mapInstance?.getContainer()?.contains(event.target)) {
             return;
         }
-
         const now = Date.now();
         if (now - lastTouchEnd < 300) {
             event.preventDefault();
@@ -534,6 +403,7 @@ function saveAndRender(refreshPanel = true) {
 
 document.addEventListener("DOMContentLoaded", () => {
     PersistedState.load();
+    EntityManager.init();
     buildPicker();
     applyViewMode();
     applyPickerState();
@@ -545,7 +415,6 @@ document.addEventListener("DOMContentLoaded", () => {
     updateAlwaysShowBossButton();
     updateTodaySpotToggleButton();
     updateRealtimeTimeToggleButton();
-
     filterButtons.forEach((btn) => {
         const img = document.createElement("img");
         img.className = "filter-icon";
@@ -554,7 +423,6 @@ document.addEventListener("DOMContentLoaded", () => {
         label.className = "filter-label";
         label.textContent = btn.textContent;
         btn.replaceChildren(img, label);
-
         btn.addEventListener("click", () => {
             const group = btn.dataset.group;
             const value = btn.dataset.value;
@@ -566,19 +434,15 @@ document.addEventListener("DOMContentLoaded", () => {
             saveAndRender();
         });
     });
-
     exportStateBtn?.addEventListener("click", PersistedState.export);
     importStateBtn?.addEventListener("click", () => showImportUserStateDialog());
-
     document.getElementById("btnImportCancel").addEventListener("click", () => {
         importedStateDialog.close();
     });
-
     document.getElementById("btnImportOk").addEventListener("click", () => {
         importUserStateFile(importedTextContents.value);
         importedStateDialog.close();
     });
-
     /*Tool Bar*/
     alwaysShowBossBtn?.addEventListener("click", () => {
         state.alwaysShowBoss = !state.alwaysShowBoss;
@@ -586,14 +450,12 @@ document.addEventListener("DOMContentLoaded", () => {
         updateAlwaysShowBossButton();
         MarkerManager.scheduleRender(false);
     });
-
     todaySpotToggleBtn?.addEventListener("click", () => {
         state.monsterRotationRevealed = !state.monsterRotationRevealed;
         PersistedState.save();
         updateTodaySpotToggleButton();
         MarkerManager.scheduleRender(false);
     });
-
     const isDay = isRealtimeDayTime();
     realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
     realtimeTimeToggleBtn?.addEventListener("click", () => {
@@ -602,7 +464,6 @@ document.addEventListener("DOMContentLoaded", () => {
         PersistedState.save();
         MarkerManager.scheduleRender(true);
     });
-
     fullscreenToggleBtn?.addEventListener("click", toggleMapFullscreen);
     /*Tool Bar*/
     document.addEventListener("keydown", (event) => {
@@ -614,7 +475,6 @@ document.addEventListener("DOMContentLoaded", () => {
             DetailPanel.closeDetail();
         }
     });
-
     mapPicker?.addEventListener('wheel', (event) => {
         if (Math.abs(event.deltaY) > Math.abs(event.deltaX)) {
             // 기본 세로 스크롤 동작을 막습니다.
@@ -625,7 +485,6 @@ document.addEventListener("DOMContentLoaded", () => {
             mapPicker.scrollLeft += horizontalDelta;
         }
     }, {passive: false}); // preventDefault()를 사용하기 위해 passive를 false로 설정합니다.
-
     if (state.isTipsMode) selectTipsPage();
     else {
         renderMap();

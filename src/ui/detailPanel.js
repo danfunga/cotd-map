@@ -27,7 +27,6 @@ class DetailPanel {
         this.detailSheet.addEventListener("click", (event) => {
             if (!this.detailBody.contains(event.target)) this.closeDetail();
         });
-
         this.detailBody.addEventListener("click", (event) => {
             event.stopPropagation();
             if (event.target.classList.contains("detail-close-inline")) {
@@ -37,7 +36,6 @@ class DetailPanel {
             const toggle = event.target.closest("[data-action='toggle-caught']");
             if (!toggle) return;
             this.handleToggleCaught(toggle);
-
         });
     }
 
@@ -57,13 +55,12 @@ class DetailPanel {
             : "";
         const spotImageBasePath = this.resolveSpotImagePath(entity, spotIndex);
         const spotHtml = spotImageBasePath ? this.buildSpotImagesHtml(spotImageBasePath) : "";
-
         return `
       <div class="fish-popup detail-theme">
         <div class="detail-title-row">
           <div class="detail-name-row">
             <div class="detail-title-display-name">
-              <h3>${this.deps.label(entity)}</h3>          
+              <h3>${this.deps.entityManager.label(entity)}</h3>          
             </div>
             <div class="detail-title-origin-name">
               ${entity.name}
@@ -85,7 +82,7 @@ class DetailPanel {
             ${miniHtml}
           </div>        
           <div class="detail-visual">
-              <img class="detail-entity-image" src="${ImageRepository.getFigure(state.currentMapId, entity)}" alt="${this.deps.label(entity)}" >
+              <img class="detail-entity-image" src="${ImageRepository.getFigure(state.currentMapId, entity)}" alt="${this.deps.entityManager.label(entity)}" >
           </div>
         </div>
         <div class="detail-bottom">
@@ -98,7 +95,7 @@ class DetailPanel {
     }
 
     buildCaughtButton(entity) {
-        const caught = this.deps.isCaught(entity);
+        const caught = this.deps.entityManager.isCaught(entity);
         return `
         <button
             class="caught-toggle ${caught ? "on" : ""}"
@@ -190,7 +187,6 @@ class DetailPanel {
         const basePath = container.dataset.basePath;
         const maxVariant = Number(container.dataset.maxVariant || 0);
         if (!basePath || variant > maxVariant) return;
-
         const image = document.createElement("img");
         image.onload = () => {
             container.style.display = "flex";
@@ -235,7 +231,7 @@ class DetailPanel {
         if (!button) {
             return;
         }
-        const caught = this.deps.isCaught(entity);
+        const caught = this.deps.entityManager.isCaught(entity);
         button.classList.toggle("on", caught);
         button.textContent = caught ? "잡음 ✓" : "미획득";
     }
@@ -249,13 +245,12 @@ class DetailPanel {
         this.detailSheet.setAttribute("aria-hidden", "true");
     }
 
-    //
     handleToggleCaught(toggle) {
         const entity = state.currentDetailEntity;
         if (!entity) return;
         const {id, category} = toggle.dataset;
         if (entity.id !== id || entity.category !== category) return;
-        this.deps.toggleCaught(entity);
+        this.deps.entityManager.toggleCaught(entity);
         this.refreshCaughtButton();
     }
 }
