@@ -86,6 +86,18 @@ class MarkerManager {
         const markers = locs.map((l, idx) => {
             const marker = L.marker([l.y, l.x], {icon: this.markerIcon(entity, idx === 0, idx, l.hint_by_bubble)});
             marker.on("click", () => this.deps.openEntityDetail(entity, idx));
+            marker.on("add", () => {
+                const element = marker.getElement();
+                const image = element?.querySelector(".photo-marker");
+                const fallback = element?.querySelector(".marker-fallback-dot");
+                if (!image) return;
+                image.onerror = () => {
+                    image.style.display = "none";
+                    if (fallback) {
+                        fallback.style.display = "block";
+                    }
+                };
+            });
             return marker;
         });
         bundle = {
@@ -140,7 +152,6 @@ class MarkerManager {
       <img class="photo-marker rarity-${rarityKey} ${timeDimClass} ${bubbleHintClass} ${isPrimary ? "primary-location" : ""} ${caughtClass}"
         src="${ImageRepository.getPortrait(state.currentMapId, entity)}"
         alt="${this.deps.label(entity)}"
-        onerror="this.style.display='none';this.previousElementSibling.style.display='block';"
       >
       ${markerNumber ? `<span class="marker-number ${timeDimClass}">${markerNumber}</span>` : ""}
       ${caught ? `<span class="caught-v marker-v ${timeDimClass}">✓</span>` : ""}

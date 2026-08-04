@@ -9,14 +9,13 @@ import PersistedState from "./state/persistedState.js";
 import {MONSTER_ROTATION_CONFIG, MONSTER_ROTATION_MAP_IDS} from "./constants/index.js";
 
 // repository
-import ImageRepository from "./repository/imageRepository.js";
-
 // ui
 import {showToast} from "./ui/toast.js";
 
 //map
 import MarkerManager from "./map/markerManager.js";
 import EntityPanel from "./ui/entityPanel.js";
+import DetailPanel from "./ui/detailPanel.js";
 
 MarkerManager.setDependencies({
     loadMapEntities,
@@ -30,7 +29,9 @@ MarkerManager.setDependencies({
     shouldDimByRealtimeTime,
     shouldHideMarkerByRotation,
     getMonsterRotationActiveIndex,
-    openEntityDetail,
+    openEntityDetail: (...args) => {
+        DetailPanel.openEntityDetail(...args)
+    },
 });
 
 EntityPanel.setDependencies({
@@ -39,10 +40,20 @@ EntityPanel.setDependencies({
     entityKey,
     label,
     shouldDimByRealtimeTime,
-    openEntityDetail,
+    openEntityDetail: (...args) => {
+        DetailPanel.openEntityDetail(...args)
+    },
     resetActiveEntitiesForMap,
     saveAndRender
 });
+
+DetailPanel.setDependencies({
+    isCaught,
+    entityKey,
+    label,
+    toggleCaught
+});
+
 const mapPicker = document.getElementById("mapPicker");
 const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
 
@@ -56,10 +67,6 @@ const todaySpotToggleBtn = document.getElementById("todaySpotToggleBtn");
 const realtimeTimeToggleBtn = document.getElementById("realtimeTimeToggleBtn");
 
 const fullscreenToggleBtn = document.getElementById("fullscreenToggleBtn");
-const detailSheet = document.getElementById("detailSheet");
-const detailBody = document.getElementById("detailBody");
-const detailClose = document.getElementById("detailClose");
-const detailBackdrop = document.getElementById("detailBackdrop");
 const controlsSection = document.getElementById("controls");
 const mapLayout = document.getElementById("mapLayout");
 const tipsLayout = document.getElementById("tipsLayout");
@@ -115,7 +122,7 @@ function showImportUserStateDialog() {
 }
 
 function refreshUiFromUserState() {
-    closeDetail();
+    DetailPanel.closeDetail();
     applyViewMode();
     applyPickerState();
     applyFilterButtonState();
@@ -129,6 +136,16 @@ function refreshUiFromUserState() {
     } else {
         renderMap();
     }
+}
+
+function toggleCaught(entity) {
+    const key = entityKey(entity);
+    if (state.selection.caughtEntityKeys.has(key)) {
+        state.selection.caughtEntityKeys.delete(key);
+    } else {
+        state.selection.caughtEntityKeys.add(key);
+    }
+    saveAndRender(true);
 }
 
 function label(entity) {
@@ -180,64 +197,9 @@ function shouldHideMarkerByRotation(entity, markerIndex, mapId = state.currentMa
         markerIndex !== activeMonsterIndex;
 }
 
-function getLabelWithCategory(value) {
-    const map = {
-        fish: "물고기",
-        creature: "생명체",
-        item: "아이템",
-        monster: "몬스터",
-    };
-    return map[value] || "알수없음";
-}
-
-function availabilityTimeLabel(values) {
-    if (!values || values.length === 0) return "종일";
-    const map = {"day": "낮", "night": "밤", "both": "종일"};
-    const labels = values.map((v) => map[v]).filter(Boolean);
-    return labels.length ? labels.join(", ") : "종일";
-}
-
-function shadowSizeLabel(values) {
-    if (!values || values.length === 0) return "없음";
-    const map = {0: "작음", 1: "보통", 2: "중형", 3: "대형"};
-    const labels = values.map((v) => map[v]).filter(Boolean);
-    return labels.length ? labels.join(", ") : "없음";
-}
-
-function shadowSpeedLabel(values) {
-    if (!values || values.length === 0) return "없음";
-    const map = {0: "정지", 1: "보통", 2: "빠름"};
-    const labels = values.map((v) => map[v]).filter(Boolean);
-    return labels.length ? labels.join(", ") : "없음";
-}
-
 function isSeasonAvailable(entity) {
     if (!Array.isArray(entity.seasons) || entity.seasons.length !== 12) return true;
     return Boolean(entity.seasons[new Date().getMonth()]);
-}
-
-function seasonBar(entity) {
-    if (!Array.isArray(entity.seasons) || entity.seasons.length !== 12) return "";
-    if (entity.seasons.every((v) => v === true)) {
-        entity.seasons = [true, true, true, true, true, true, true, true, true, true, true, true];
-    }
-    const currentMonth = new Date().getMonth();
-    const blocks = entity.seasons
-    .map((ok, idx) => {
-        const active = ok ? "on" : "off";
-        const now = idx === currentMonth ? "now" : "";
-        return `<span class="mcell ${active} ${now}">${idx + 1}</span>`;
-    })
-    .join("");
-    return `<div class="season-wrap"><div class="season-grid">${blocks}</div><div class="season-now">현재 달: ${currentMonth + 1}월</div></div>`;
-}
-
-function minigameMeta(entity) {
-    const d = entity.difficulty;
-    if (d === null || d === undefined || d === 0) return {label: "없음", cls: "none"};
-    if (d === 1) return {label: "고정", cls: "fixed"};
-    if (d === 2) return {label: "움직임", cls: "moving"};
-    return {label: "회전", cls: "rotate"};
 }
 
 function hitFishTimeFilter(entity) {
@@ -418,97 +380,6 @@ function createMapIfNeeded() {
     installTwoFingerDoubleTapZoomOut();
 }
 
-function buildDetailHtml(entity, spotIndex = null) {
-    const mini = minigameMeta(entity);
-    const miniHtml = mini
-        ? `<p><strong>미니게임:</strong> <span class="minigame-pill minigame-${mini.cls}">${mini.label}</span></p>`
-        : "";
-    const latinHtml = `<div class="detail-wide-row"><strong>학명:</strong> ${entity.latin || "-"}</div>`;
-    const seasonHtml = seasonBar(entity);
-    const noteHtml = entity.notes && entity.notes.trim() !== ""
-        ? `<div class="detail-note"><strong>메모:</strong> ${entity.notes}</div>`
-        : "";
-    const spotImageBasePath = resolveSpotImagePath(entity, spotIndex);
-    const spotHtml = spotImageBasePath ? buildSpotImagesHtml(spotImageBasePath) : "";
-
-    const caught = isCaught(entity);
-    return `
-      <div class="fish-popup detail-theme">
-        <div class="detail-title-row">
-          <div class="detail-name-row">
-            <div class="detail-title-display-name">
-              <h3>${label(entity)}</h3>          
-            </div>
-            <div class="detail-title-origin-name">
-              ${entity.name}
-            </div>
-          </div>
-          <div class="detail-title-actions">
-            <button class="caught-toggle ${caught ? "on" : ""}" data-action="toggle-caught" data-id="${entity.id}" data-category="${entity.category}" type="button">${caught ? "잡음 ✓" : "미획득"}</button>
-            <button class="detail-close-inline" type="button" aria-label="닫기"> 닫기 </button>
-          </div>
-        </div>
-              
-        <div class="detail-layout">
-          <div class="detail-info">
-            <p><strong>분류:</strong> ${getLabelWithCategory(entity.category)}</p>
-            <p><strong>활성 시간:</strong> ${availabilityTimeLabel([entity.timeBand])}</p>
-            <p><strong>희귀도:</strong> <span class="rarity-pill rarity-${entity.rarity}">${entity.rarity}</span></p>
-            <p><strong>그림자 크기:</strong> ${shadowSizeLabel(entity.shadowSizes)}</p>
-            <p><strong>그림자 속도:</strong> ${shadowSpeedLabel(entity.shadowSpeeds)}</p>
-            ${miniHtml}
-          </div>        
-          <div class="detail-visual">
-              <img class="detail-entity-image" src="${ImageRepository.getFigure(state.currentMapId, entity)}" alt="${label(entity)}" onerror="this.style.display='none';">
-          </div>
-        </div>
-        <div class="detail-bottom">
-          ${latinHtml}
-          ${seasonHtml}
-          ${noteHtml}
-          ${spotHtml}
-        </div>
-      </div>`;
-}
-
-function buildSpotImagesHtml(basePath) {
-    return `
-        <div class="entity-spot" data-base-path="${basePath}" data-max-variant="6" style="display:none;"></div>
-    `;
-}
-
-function resolveSpotImagePath(entity, spotIndex = null) {
-    if (entity.category === "monster") {
-        return spotIndex === null ? null : ImageRepository.getMonsterSpot(state.currentMapId, spotIndex);
-    }
-    if (!["fish", "creature", "item"].includes(entity.category)) return null;
-    return ImageRepository.getEntitySpot(state.currentMapId, entity);
-}
-
-function initializeSpotImages(root = document) {
-    root.querySelectorAll(".entity-spot[data-base-path]").forEach((container) => {
-        loadNextSpotImage(container, 0);
-    });
-}
-
-function loadNextSpotImage(container, variant) {
-    const basePath = container.dataset.basePath;
-    const maxVariant = Number(container.dataset.maxVariant || 0);
-    if (!basePath || variant > maxVariant) return;
-
-    const image = document.createElement("img");
-    image.onload = () => {
-        container.style.display = "flex";
-        loadNextSpotImage(container, variant + 1);
-    };
-    image.onerror = () => {
-        image.remove();
-        if (container.children.length === 0) container.style.display = "none";
-    };
-    image.src = variant === 0 ? `${basePath}.png` : `${basePath}-${variant}.png`;
-    container.appendChild(image);
-}
-
 async function loadMapEntities(mapId) {
     if (state.cache.mapEntities.has(mapId)) return state.cache.mapEntities.get(mapId);
     const basePath = mapsById[mapId]?.dataPath || `./assets/maps/${mapId}`;
@@ -552,26 +423,6 @@ function passesCurrentFilters(entity) {
     if (mode === "caught" && !isCaught(entity)) return false;
     return !(mode === "uncaught" && isCaught(entity));
 }
-
-function openDetail(html) {
-    detailBody.innerHTML = html;
-    initializeSpotImages(detailBody);
-    detailSheet.classList.add("open");
-    detailSheet.setAttribute("aria-hidden", "false");
-}
-
-function openEntityDetail(entity, spotIndex = null) {
-    state.currentDetailEntity = entity;
-    openDetail(buildDetailHtml(entity, spotIndex));
-}
-
-function closeDetail() {
-    detailSheet.classList.remove("open");
-    detailSheet.setAttribute("aria-hidden", "true");
-    state.currentDetailEntity = null;
-}
-
-
 
 function fitCurrentMapBounds() {
     if (!state.mapInstance) return;
@@ -626,7 +477,7 @@ function renderMap() {
 }
 
 function selectMap(mapId) {
-    closeDetail();
+    DetailPanel.closeDetail();
     if (!state.isTipsMode && state.currentMapId === mapId) {
         applyPickerState();
         return;
@@ -640,7 +491,7 @@ function selectMap(mapId) {
 }
 
 function selectTipsPage() {
-    closeDetail();
+    DetailPanel.closeDetail();
     state.isTipsMode = true;
     applyViewMode();
     applyPickerState();
@@ -690,6 +541,7 @@ document.addEventListener("DOMContentLoaded", () => {
     installPreventPageDoubleTapZoom();
     applyFilterButtonState();
     EntityPanel.init();
+    DetailPanel.init();
     updateAlwaysShowBossButton();
     updateTodaySpotToggleButton();
     updateRealtimeTimeToggleButton();
@@ -742,8 +594,6 @@ document.addEventListener("DOMContentLoaded", () => {
         MarkerManager.scheduleRender(false);
     });
 
-
-
     const isDay = isRealtimeDayTime();
     realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
     realtimeTimeToggleBtn?.addEventListener("click", () => {
@@ -760,8 +610,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (state.isMapFullscreen) {
             exitMapFullscreen();
         }
-        if (detailSheet.classList.contains("open")) {
-            closeDetail();
+        if (DetailPanel.isPanelOpen()) {
+            DetailPanel.closeDetail();
         }
     });
 
@@ -771,33 +621,10 @@ document.addEventListener("DOMContentLoaded", () => {
             event.preventDefault();
             // 휠을 위/아래로 굴릴 때 가로(왼쪽/오른쪽)로 스크롤되도록 설정합니다.
             // event.deltaY 값을 scrollLeft에 더해줌으로써 부드럽게 이동합니다.
-            mapPicker.scrollLeft += event.deltaY;
+            const horizontalDelta = event.deltaY;
+            mapPicker.scrollLeft += horizontalDelta;
         }
     }, {passive: false}); // preventDefault()를 사용하기 위해 passive를 false로 설정합니다.
-
-    detailClose.addEventListener("click", closeDetail);
-    detailBackdrop.addEventListener("click", closeDetail);
-    detailSheet.addEventListener("click", (event) => {
-        if (!detailBody.contains(event.target)) closeDetail();
-    });
-    detailBody.addEventListener("click", (event) => {
-        event.stopPropagation();
-        if (event.target.classList.contains("detail-close-inline")) closeDetail();
-        const toggle = event.target.closest("[data-action='toggle-caught']");
-        if (!toggle) return;
-        const id = toggle.dataset.id;
-        const category = toggle.dataset.category;
-        const entity = state.currentDetailEntity;
-        if (!entity) return;
-        if (entity.id !== id || entity.category !== category) return;
-        const key = entityKey(entity);
-        if (state.selection.caughtEntityKeys.has(key)) state.selection.caughtEntityKeys.delete(key);
-        else state.selection.caughtEntityKeys.add(key);
-        PersistedState.save();
-
-        openEntityDetail(entity);
-        MarkerManager.scheduleRender();
-    });
 
     if (state.isTipsMode) selectTipsPage();
     else {
