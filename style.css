@@ -539,6 +539,7 @@ main {
 }
 
 .entity-thumb-wrap {
+    position: relative;
     background: transparent;
     border: none;
 }
@@ -873,11 +874,11 @@ body.map-fullscreen {
 }
 
 .rarity-common {
-    background: #ffffff;
+    background: #000;
 }
 
 .rarity-rare {
-    background: #ffd400;
+    background: #f49810;
 }
 
 .rarity-epic {
