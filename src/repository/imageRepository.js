@@ -1,5 +1,4 @@
 const ImageRepository = {
-
     getPortrait(mapId, entity) {
         return `./assets/maps/${mapId}/portraits/${entity.category}/${entity.id}.png`;
     },
@@ -13,5 +12,4 @@ const ImageRepository = {
         return `./assets/maps/${mapId}/portraits/monster/spot/spot${index + 1}`;
     }
 };
-
 export default ImageRepository;

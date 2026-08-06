@@ -244,7 +244,6 @@ class EntityPanel {
         rowUi.row.className = `entity-row rarity-${rarityKey} ${this.deps.entityManager.isEntityActive(entity) ? "" : "off"} ${this.deps.entityManager.isCaught(entity) ? "caught" : ""}`;
         // rowUi.thumbWrap.className = `entity-thumb-wrap rarity-${rarityKey}`;
         rowUi.thumb.className = `entity-thumb rarity-${rarityKey}`;
-
         const count = Array.isArray(entity.locations) ? entity.locations.length : 0;
         rowUi.countEl.textContent = String(count);
         rowUi.countVEl.className = `caught-v count-v ${this.deps.entityManager.isCaught(entity) ? "on" : "off"}`;
@@ -256,7 +255,7 @@ class EntityPanel {
             rowUi.thumb.src = imagePath;
         }
         rowUi.thumb.alt = this.deps.entityManager.label(entity);
-        const dimmed = this.deps.shouldDimByRealtimeTime(entity);
+        const dimmed = this.deps.entityManager.isNotActiveByRealtime(entity);
         rowUi.thumb.style.display = "";
         rowUi.thumb.classList.toggle("time-dim", dimmed);
         rowUi.timeIconBadge.classList.toggle("time-dim", dimmed);

@@ -4,16 +4,13 @@ import {mapsById} from "../../content/mapIndex.js";
 import ImageRepository from "../repository/imageRepository.js";
 
 class MarkerManager {
-
     constructor() {
-
     }
 
     setDependencies(deps) {
         this.deps = deps;
     }
 
-    // scheduleRender(refreshPanel = true)
     scheduleRender(refreshPanel = true) {
         if (refreshPanel) state.scheduledRefreshPanel = true;
         if (state.renderScheduled) return;
@@ -31,11 +28,8 @@ class MarkerManager {
         const mapInfo = mapsById[state.currentMapId];
         // const entities = await loadMapEntities(state.currentMapId);
         const cache = await this.deps.entityManager.loadMapEntities(state.currentMapId);
-
         if (requestId !== state.renderRequestId || mapInfo.id !== state.currentMapId) return;
-
         const filtered = cache.all.filter((entity) => this.deps.entityManager.passesCurrentFilters(entity));
-
         state.lastFilteredEntities = filtered;
         let activeStateChanged = false;
         if (state.resetActiveOnNextRender || !state.selection.initializedActiveMapIds.has(state.currentMapId)) {
@@ -45,7 +39,6 @@ class MarkerManager {
         }
         if (refreshPanel) this.deps.renderEntityPanel();
         if (activeStateChanged) PersistedState.save();
-
         const nextActiveKeys = new Set();
         filtered.forEach((entity) => {
             if (!this.deps.entityManager.isEntityActive(entity)) {
@@ -57,17 +50,14 @@ class MarkerManager {
             this.updateMarkerBundleIcons(bundle, entity);
             if (this.syncMarkerBundleLayers(bundle, entity)) nextActiveKeys.add(bundle.key);
         });
-
         state.selection.activeMarkerKeys.forEach((key) => {
             if (nextActiveKeys.has(key)) return;
             const [mapId] = key.split(":");
             const byMap = state.cache.markerBundle.get(mapId);
-
             const bundle = byMap?.get(key);
             if (!bundle) return;
             bundle.markers.forEach((marker) => state.markerLayer.removeLayer(marker));
         });
-
         state.selection.activeMarkerKeys.clear();
         nextActiveKeys.forEach((key) => state.selection.activeMarkerKeys.add(key));
     }
@@ -81,7 +71,6 @@ class MarkerManager {
         }
         let bundle = byMap.get(key);
         if (bundle) return bundle;
-
         const locs = Array.isArray(entity.locations) ? entity.locations : [];
         const markers = locs.map((l, idx) => {
             const marker = L.marker([l.y, l.x], {icon: this.markerIcon(entity, idx === 0, idx, l.hint_by_bubble)});
@@ -143,8 +132,7 @@ class MarkerManager {
         if (categoryKey === "monster") {
             isPrimary = false;
         }
-        const timeDimClass = this.deps.shouldDimByRealtimeTime(entity) ? "time-dim" : "";
-
+        const timeDimClass = this.deps.entityManager.isNotActiveByRealtime(entity) ? "time-dim" : "";
         return L.divIcon({
             className: "photo-marker-wrap",
             html: `
@@ -164,9 +152,8 @@ class MarkerManager {
 
     markerVisualSignature(entity, isPrimary) {
         const activeMonsterIndex = this.deps.getMonsterRotationActiveIndex(entity);
-        return `${entity.rarity}|${entity.category}|${isPrimary ? "1" : "0"}|${this.deps.entityManager.isCaught(entity) ? "1" : "0"}|${state.monsterRotationRevealed ? "1" : "0"}|${activeMonsterIndex ?? "x"}|${this.deps.shouldDimByRealtimeTime(entity) ? "D" : "N"}`;
+        return `${entity.rarity}|${entity.category}|${isPrimary ? "1" : "0"}|${this.deps.entityManager.isCaught(entity) ? "1" : "0"}|${state.monsterRotationRevealed ? "1" : "0"}|${activeMonsterIndex ?? "x"}|${this.deps.entityManager.isNotActiveByRealtime(entity) ? "D" : "N"}`;
     }
-
 }
 
 export default new MarkerManager();

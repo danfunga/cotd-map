@@ -111,6 +111,19 @@ class EntityManager {
         if (entity.timeBand === "both") return state.filters.time.has("both");
         return false;
     }
+
+    isRealtimeDayTime() {
+        const h = new Date().getHours();
+        return h >= 4 && h < 20;
+    }
+
+    isNotActiveByRealtime(entity) {
+        if (!state.realtimeTimeFilterEnabled) return false;
+        if (entity.timeBand === "both") return false;
+        const isDay = this.isRealtimeDayTime();
+        return (isDay && entity.timeBand === "night") ||
+            (!isDay && entity.timeBand === "day");
+    }
 }
 
 const entityManager = new EntityManager();

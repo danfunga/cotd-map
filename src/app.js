@@ -4,12 +4,12 @@ import {mapOrder, mapsById} from "../content/mapIndex.js";
 import {state} from "./state/state.js";
 import PersistedState from "./state/persistedState.js";
 // constants
-import {MONSTER_ROTATION_CONFIG, MONSTER_ROTATION_MAP_IDS} from "./constants/index.js";
+import {MONSTER_ROTATION_CONFIG, MONSTER_ROTATION_MAP_IDS} from "./constants/constantInclude.js";
 // repository
 // ui
 import {showToast} from "./ui/toast.js";
 //map
-import MarkerManager from "./map/markerManager.js";
+import MarkerManager from "./manager/markerManager.js";
 import EntityManager from "./manager/entityManager.js";
 import EntityPanel from "./ui/entityPanel.js";
 import DetailPanel from "./ui/detailPanel.js";
@@ -17,7 +17,6 @@ import DetailPanel from "./ui/detailPanel.js";
 MarkerManager.setDependencies({
     renderEntityPanel: (...args) => EntityPanel.render(...args),
     entityManager: EntityManager,
-    shouldDimByRealtimeTime,
     shouldHideMarkerByRotation,
     getMonsterRotationActiveIndex,
     openEntityDetail: (...args) => {
@@ -26,7 +25,6 @@ MarkerManager.setDependencies({
 });
 EntityPanel.setDependencies({
     entityManager: EntityManager,
-    shouldDimByRealtimeTime,
     openEntityDetail: (...args) => {
         DetailPanel.openEntityDetail(...args)
     },
@@ -224,7 +222,7 @@ function updateAlwaysShowBossButton() {
 }
 
 function updateRealtimeTimeToggleButton() {
-    const isDay = isRealtimeDayTime();
+    const isDay = EntityManager.isRealtimeDayTime();
     realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
     if (!realtimeTimeToggleBtn) return;
     realtimeTimeToggleBtn.classList.toggle("on", state.realtimeTimeFilterEnabled);
@@ -368,19 +366,6 @@ function selectTipsPage() {
     PersistedState.save();
 }
 
-function isRealtimeDayTime() {
-    const h = new Date().getHours();
-    return h >= 4 && h < 20;
-}
-
-function shouldDimByRealtimeTime(entity) {
-    if (!state.realtimeTimeFilterEnabled) return false;
-    if (entity.timeBand === "both") return false;
-    const isDay = isRealtimeDayTime();
-    return (isDay && entity.timeBand === "night") ||
-        (!isDay && entity.timeBand === "day");
-}
-
 function installPreventPageDoubleTapZoom() {
     let lastTouchEnd = 0;
     document.addEventListener("touchend", (event) => {
@@ -456,7 +441,7 @@ document.addEventListener("DOMContentLoaded", () => {
         updateTodaySpotToggleButton();
         MarkerManager.scheduleRender(false);
     });
-    const isDay = isRealtimeDayTime();
+    const isDay = EntityManager.isRealtimeDayTime();
     realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
     realtimeTimeToggleBtn?.addEventListener("click", () => {
         state.realtimeTimeFilterEnabled = !state.realtimeTimeFilterEnabled;
