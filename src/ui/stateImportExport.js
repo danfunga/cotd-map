@@ -35,7 +35,7 @@ class StateImportExport {
     importUserStateFile(jsonText) {
         try {
             PersistedState.import(jsonText);
-            this.deps.refreshUiFromUserState();
+            this.deps.refreshUI();
             alert("가져오기가 완료되었습니다.");
         } catch (error) {
             alert(error instanceof Error ? error.message : "가져오기에 실패했습니다.");

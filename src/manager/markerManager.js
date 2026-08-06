@@ -111,7 +111,7 @@ class MarkerManager {
     syncMarkerBundleLayers(bundle, entity) {
         let hasVisibleMarker = false;
         bundle.markers.forEach((marker, idx) => {
-            const shouldShow = !this.deps.shouldHideMarkerByRotation(entity, idx);
+            const shouldShow = !this.deps.entityManager.shouldHideMarkerByRotation(entity, idx);
             if (shouldShow) {
                 hasVisibleMarker = true;
                 if (!state.markerLayer.hasLayer(marker)) state.markerLayer.addLayer(marker);
@@ -151,7 +151,7 @@ class MarkerManager {
     }
 
     markerVisualSignature(entity, isPrimary) {
-        const activeMonsterIndex = this.deps.getMonsterRotationActiveIndex(entity);
+        const activeMonsterIndex = this.deps.entityManager.getMonsterRotationActiveIndex(entity);
         return `${entity.rarity}|${entity.category}|${isPrimary ? "1" : "0"}|${this.deps.entityManager.isCaught(entity) ? "1" : "0"}|${state.monsterRotationRevealed ? "1" : "0"}|${activeMonsterIndex ?? "x"}|${this.deps.entityManager.isNotActiveByRealtime(entity) ? "D" : "N"}`;
     }
 }

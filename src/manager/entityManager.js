@@ -1,5 +1,8 @@
 import {createEmptyCategorizedEntityMap, state} from "../state/state.js";
 import {mapsById} from "../../content/mapIndex.js";
+import {MONSTER_ROTATION_CONFIG, MONSTER_ROTATION_MAP_IDS} from "../constants/constantInclude.js";
+
+import {getCurrentMonth, isRealtimeDayTime} from "../util/timeUtil.js"
 
 class EntityManager {
     constructor() {
@@ -102,7 +105,7 @@ class EntityManager {
 
     isSeasonAvailable(entity) {
         if (!Array.isArray(entity.seasons) || entity.seasons.length !== 12) return true;
-        return Boolean(entity.seasons[new Date().getMonth()]);
+        return Boolean(entity.seasons[getCurrentMonth()]);
     }
 
     hitFishTimeFilter(entity) {
@@ -112,17 +115,57 @@ class EntityManager {
         return false;
     }
 
-    isRealtimeDayTime() {
-        const h = new Date().getHours();
-        return h >= 4 && h < 20;
-    }
-
     isNotActiveByRealtime(entity) {
         if (!state.realtimeTimeFilterEnabled) return false;
         if (entity.timeBand === "both") return false;
-        const isDay = this.isRealtimeDayTime();
+        const isDay = isRealtimeDayTime();
         return (isDay && entity.timeBand === "night") ||
             (!isDay && entity.timeBand === "day");
+    }
+    
+    shouldHideMarkerByRotation(entity, markerIndex, mapId = state.currentMapId) {
+        const categoryKey = entity.category || "fish";
+        const activeMonsterIndex = this.getMonsterRotationActiveIndex(entity, mapId);
+        return categoryKey === "monster" &&
+            this.isMonsterRotationMap(mapId) &&
+            state.monsterRotationRevealed &&
+            activeMonsterIndex !== null &&
+            markerIndex !== activeMonsterIndex;
+    }
+
+    isMonsterRotationMap(mapId = state.currentMapId) {
+        return MONSTER_ROTATION_MAP_IDS.has(mapId);
+    }
+
+    monsterGameDayMidnightLocal() {
+        const now = new Date();
+        const shifted = new Date(now.getTime() - 4 * 60 * 60 * 1000);
+        return new Date(shifted.getFullYear(), shifted.getMonth(), shifted.getDate());
+    }
+
+    getMonsterRotationActiveIndex(entity, mapId = state.currentMapId) {
+        if (!entity || entity.category !== "monster" || !this.isMonsterRotationMap(mapId)) return null;
+        const cfg = MONSTER_ROTATION_CONFIG[mapId];
+        if (!cfg || !Array.isArray(cfg.rotation) || cfg.rotation.length === 0) return null;
+        const locs = Array.isArray(entity.locations) ? entity.locations : [];
+        if (locs.length <= 1) return null;
+        const start = this.parseYmdLocal(cfg.startDate);
+        if (!start) return null;
+        const today = this.monsterGameDayMidnightLocal();
+        const dayOffset = Math.floor((today.getTime() - start.getTime()) / 86400000);
+        if (dayOffset < 0) return null;
+        const raw = Number(cfg.rotation[dayOffset % cfg.rotation.length]);
+        if (!Number.isFinite(raw)) return null;
+        if (raw >= 1 && raw <= locs.length) return raw - 1;
+        if (raw >= 0 && raw < locs.length) return Math.floor(raw);
+        return null;
+    }
+
+    parseYmdLocal(ymd) {
+        if (!ymd || typeof ymd !== "string") return null;
+        const [y, m, d] = ymd.trim().split("-").map((v) => Number(v));
+        if (!Number.isFinite(y) || !Number.isFinite(m) || !Number.isFinite(d)) return null;
+        return new Date(y, m - 1, d);
     }
 }
 

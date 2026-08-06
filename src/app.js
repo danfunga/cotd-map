@@ -4,7 +4,7 @@ import {mapOrder, mapsById} from "../content/mapIndex.js";
 import {state} from "./state/state.js";
 import PersistedState from "./state/persistedState.js";
 // constants
-import {MONSTER_ROTATION_CONFIG, MONSTER_ROTATION_MAP_IDS} from "./constants/constantInclude.js";
+
 // repository
 // ui
 import {showToast} from "./ui/toast.js";
@@ -14,12 +14,11 @@ import EntityManager from "./manager/entityManager.js";
 import EntityPanel from "./ui/entityPanel.js";
 import DetailPanel from "./ui/detailPanel.js";
 import StateImportExport from "./ui/stateImportExport.js";
+import MapToolbar from "./ui/mapToolbar.js";
 
 MarkerManager.setDependencies({
     renderEntityPanel: (...args) => EntityPanel.render(...args),
     entityManager: EntityManager,
-    shouldHideMarkerByRotation,
-    getMonsterRotationActiveIndex,
     openEntityDetail: (...args) => {
         DetailPanel.openEntityDetail(...args)
     },
@@ -38,14 +37,16 @@ EntityManager.setDependencies({
     saveAndRender
 });
 StateImportExport.setDependencies({
-    refreshUiFromUserState: refreshUI
+    refreshUI
+});
+MapToolbar.setDependencies({
+    toggleMapFullscreen,
+    scheduleRender: (arg) => {
+        MarkerManager.scheduleRender(arg);
+    }
 });
 const mapPicker = document.getElementById("mapPicker");
 const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
-const alwaysShowBossBtn = document.getElementById("alwaysShowBossBtn");
-const todaySpotToggleBtn = document.getElementById("todaySpotToggleBtn");
-const realtimeTimeToggleBtn = document.getElementById("realtimeTimeToggleBtn");
-const fullscreenToggleBtn = document.getElementById("fullscreenToggleBtn");
 const controlsSection = document.getElementById("controls");
 const mapLayout = document.getElementById("mapLayout");
 const tipsLayout = document.getElementById("tipsLayout");
@@ -58,60 +59,13 @@ function refreshUI() {
     applyPickerState();
     applyFilterButtonState();
     EntityPanel.syncCaughtFilterAllButton();
-    updateAlwaysShowBossButton();
-    updateTodaySpotToggleButton();
-    updateRealtimeTimeToggleButton();
+    MapToolbar.updateAllButtons();
     state.selection.activeMarkerKeys.clear();
     if (state.isTipsMode) {
         selectTipsPage();
     } else {
         renderMap();
     }
-}
-
-function isMonsterRotationMap(mapId = state.currentMapId) {
-    return MONSTER_ROTATION_MAP_IDS.has(mapId);
-}
-
-function parseYmdLocal(ymd) {
-    if (!ymd || typeof ymd !== "string") return null;
-    const [y, m, d] = ymd.trim().split("-").map((v) => Number(v));
-    if (!Number.isFinite(y) || !Number.isFinite(m) || !Number.isFinite(d)) return null;
-    return new Date(y, m - 1, d);
-}
-
-function monsterGameDayMidnightLocal() {
-    const now = new Date();
-    const shifted = new Date(now.getTime() - 4 * 60 * 60 * 1000);
-    return new Date(shifted.getFullYear(), shifted.getMonth(), shifted.getDate());
-}
-
-function getMonsterRotationActiveIndex(entity, mapId = state.currentMapId) {
-    if (!entity || entity.category !== "monster" || !isMonsterRotationMap(mapId)) return null;
-    const cfg = MONSTER_ROTATION_CONFIG[mapId];
-    if (!cfg || !Array.isArray(cfg.rotation) || cfg.rotation.length === 0) return null;
-    const locs = Array.isArray(entity.locations) ? entity.locations : [];
-    if (locs.length <= 1) return null;
-    const start = parseYmdLocal(cfg.startDate);
-    if (!start) return null;
-    const today = monsterGameDayMidnightLocal();
-    const dayOffset = Math.floor((today.getTime() - start.getTime()) / 86400000);
-    if (dayOffset < 0) return null;
-    const raw = Number(cfg.rotation[dayOffset % cfg.rotation.length]);
-    if (!Number.isFinite(raw)) return null;
-    if (raw >= 1 && raw <= locs.length) return raw - 1;
-    if (raw >= 0 && raw < locs.length) return Math.floor(raw);
-    return null;
-}
-
-function shouldHideMarkerByRotation(entity, markerIndex, mapId = state.currentMapId) {
-    const categoryKey = entity.category || "fish";
-    const activeMonsterIndex = getMonsterRotationActiveIndex(entity, mapId);
-    return categoryKey === "monster" &&
-        isMonsterRotationMap(mapId) &&
-        state.monsterRotationRevealed &&
-        activeMonsterIndex !== null &&
-        markerIndex !== activeMonsterIndex;
 }
 
 function buildPicker() {
@@ -149,20 +103,7 @@ function applyViewMode() {
     mapLayout.hidden = state.isTipsMode;
     tipsLayout.hidden = !state.isTipsMode;
     if (state.isTipsMode && state.isMapFullscreen) exitMapFullscreen();
-    updateTodaySpotToggleButton();
-}
-
-function syncMapFullscreenState(active) {
-    state.isMapFullscreen = active;
-    document.body.classList.toggle("map-fullscreen", active);
-    mapLayout.classList.toggle("map-layout-fullscreen", active);
-    controlsSection.classList.toggle("filter-fullscreen", active);
-    fullscreenToggleBtn.classList.toggle("on", active);
-    fullscreenToggleBtn?.setAttribute("aria-pressed", active ? "true" : "false");
-    requestAnimationFrame(() => {
-        state.mapInstance?.invalidateSize();
-    });
-    PersistedState.save();
+    MapToolbar.updateTodaySpotToggleButton();
 }
 
 function enterMapFullscreen() {
@@ -193,26 +134,6 @@ window.addEventListener("orientationchange", () => {
         fitCurrentMapBounds();
     }, 300);
 });
-
-function updateTodaySpotToggleButton() {
-    if (!todaySpotToggleBtn) return;
-    todaySpotToggleBtn.classList.toggle("on", state.monsterRotationRevealed);
-    todaySpotToggleBtn.setAttribute("aria-pressed", state.monsterRotationRevealed ? "true" : "false");
-}
-
-function updateAlwaysShowBossButton() {
-    if (!alwaysShowBossBtn) return;
-    alwaysShowBossBtn.classList.toggle("on", state.alwaysShowBoss);
-    alwaysShowBossBtn.setAttribute("aria-pressed", state.alwaysShowBoss ? "true" : "false");
-}
-
-function updateRealtimeTimeToggleButton() {
-    const isDay = EntityManager.isRealtimeDayTime();
-    realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
-    if (!realtimeTimeToggleBtn) return;
-    realtimeTimeToggleBtn.classList.toggle("on", state.realtimeTimeFilterEnabled);
-    realtimeTimeToggleBtn.setAttribute("aria-pressed", state.realtimeTimeFilterEnabled ? "true" : "false");
-}
 
 function applyFilterButtonState() {
     filterButtons.forEach((btn) => {
@@ -301,7 +222,7 @@ function renderMap() {
     if (mapInfo.imageWidth && mapInfo.imageHeight) {
         mapLayout.style.setProperty("--active-map-aspect", mapInfo.imageWidth / mapInfo.imageHeight);
     }
-    updateTodaySpotToggleButton();
+    MapToolbar.updateTodaySpotToggleButton();
     state.mapInstance.eachLayer((layer) => {
         if (layer instanceof L.ImageOverlay) state.mapInstance.removeLayer(layer);
     });
@@ -366,6 +287,18 @@ function installPreventPageDoubleTapZoom() {
     }, {passive: false});
 }
 
+function syncMapFullscreenState(active) {
+    state.isMapFullscreen = active;
+    document.body.classList.toggle("map-fullscreen", active);
+    mapLayout.classList.toggle("map-layout-fullscreen", active);
+    controlsSection.classList.toggle("filter-fullscreen", active);
+    MapToolbar.updateFullscreenToggleButton();
+    requestAnimationFrame(() => {
+        state.mapInstance?.invalidateSize();
+    });
+    PersistedState.save();
+}
+
 function saveAndRender(refreshPanel = true) {
     PersistedState.save();
     MarkerManager.scheduleRender(refreshPanel);
@@ -375,6 +308,7 @@ document.addEventListener("DOMContentLoaded", () => {
     PersistedState.load();
     EntityManager.init();
     StateImportExport.init();
+    MapToolbar.init();
     buildPicker();
     applyViewMode();
     applyPickerState();
@@ -383,9 +317,6 @@ document.addEventListener("DOMContentLoaded", () => {
     applyFilterButtonState();
     EntityPanel.init();
     DetailPanel.init();
-    updateAlwaysShowBossButton();
-    updateTodaySpotToggleButton();
-    updateRealtimeTimeToggleButton();
     filterButtons.forEach((btn) => {
         const img = document.createElement("img");
         img.className = "filter-icon";
@@ -406,27 +337,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
     /*Tool Bar*/
-    alwaysShowBossBtn?.addEventListener("click", () => {
-        state.alwaysShowBoss = !state.alwaysShowBoss;
-        PersistedState.save();
-        updateAlwaysShowBossButton();
-        MarkerManager.scheduleRender(false);
-    });
-    todaySpotToggleBtn?.addEventListener("click", () => {
-        state.monsterRotationRevealed = !state.monsterRotationRevealed;
-        PersistedState.save();
-        updateTodaySpotToggleButton();
-        MarkerManager.scheduleRender(false);
-    });
-    const isDay = EntityManager.isRealtimeDayTime();
-    realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
-    realtimeTimeToggleBtn?.addEventListener("click", () => {
-        state.realtimeTimeFilterEnabled = !state.realtimeTimeFilterEnabled;
-        updateRealtimeTimeToggleButton();
-        PersistedState.save();
-        MarkerManager.scheduleRender(true);
-    });
-    fullscreenToggleBtn?.addEventListener("click", toggleMapFullscreen);
     /*Tool Bar*/
     document.addEventListener("keydown", (event) => {
         if (event.key !== "Escape") return;
