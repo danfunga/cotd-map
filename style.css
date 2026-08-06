@@ -1528,7 +1528,7 @@ dialog#importStateDialog::backdrop {
     border: 1px solid #2aa8d8;
     border-radius: 8px;
     font-family: Consolas, Monaco, monospace;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
