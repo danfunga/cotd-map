@@ -209,7 +209,7 @@ class EntityPanel {
         rowUi.row.addEventListener("click", () => {
             this.handleSingleRowToggle(entity, rowUi);
         });
-        rowUi.thumb.addEventListener("click", (event) => {
+        rowUi.thumbWrap.addEventListener("click", (event) => {
             event.stopPropagation();
             this.deps.openEntityDetail(entity);
         });

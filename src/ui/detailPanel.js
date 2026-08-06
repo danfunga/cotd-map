@@ -3,10 +3,6 @@ import ImageRepository from "../repository/imageRepository.js";
 
 class DetailPanel {
     constructor() {
-        this.detailSheet = document.getElementById("detailSheet");
-        this.detailBody = document.getElementById("detailBody");
-        this.detailClose = document.getElementById("detailClose");
-        this.detailBackdrop = document.getElementById("detailBackdrop");
     }
 
     setDependencies(deps) {
@@ -14,6 +10,10 @@ class DetailPanel {
     }
 
     init() {
+        this.detailSheet = document.getElementById("detailSheet");
+        this.detailBody = document.getElementById("detailBody");
+        this.detailClose = document.getElementById("detailClose");
+        this.detailBackdrop = document.getElementById("detailBackdrop");
         this.registerEvents();
     }
 
@@ -21,7 +21,8 @@ class DetailPanel {
         this.detailClose.addEventListener("click", () => {
             this.closeDetail();
         });
-        this.detailBackdrop.addEventListener("click", () => {
+        this.detailBackdrop.addEventListener("click", (event) => {
+            event.stopPropagation();
             this.closeDetail();
         });
         this.detailSheet.addEventListener("click", (event) => {

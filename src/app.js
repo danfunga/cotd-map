@@ -4,17 +4,19 @@ import {mapOrder, mapsById} from "../content/mapIndex.js";
 import {state} from "./state/state.js";
 import PersistedState from "./state/persistedState.js";
 // constants
-
 // repository
 // ui
 import {showToast} from "./ui/toast.js";
 //map
 import MarkerManager from "./manager/markerManager.js";
 import EntityManager from "./manager/entityManager.js";
+import FullscreenManager from "./manager/fullscreenManager.js";
 import EntityPanel from "./ui/entityPanel.js";
 import DetailPanel from "./ui/detailPanel.js";
 import StateImportExport from "./ui/stateImportExport.js";
 import MapToolbar from "./ui/mapToolbar.js";
+import MapPicker from "./ui/mapPicker.js";
+import FilterPanel from "./ui/filterPanel.js";
 
 MarkerManager.setDependencies({
     renderEntityPanel: (...args) => EntityPanel.render(...args),
@@ -40,24 +42,40 @@ StateImportExport.setDependencies({
     refreshUI
 });
 MapToolbar.setDependencies({
-    toggleMapFullscreen,
+    toggleMapFullscreen: FullscreenManager.toggleMapFullscreen.bind(FullscreenManager),
     scheduleRender: (arg) => {
         MarkerManager.scheduleRender(arg);
     }
 });
-const mapPicker = document.getElementById("mapPicker");
-const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
-const controlsSection = document.getElementById("controls");
+MapPicker.setDependencies({
+    applyViewMode,
+    renderMap,
+    selectTipsPage
+});
+FilterPanel.setDependencies({
+    saveAndRender
+});
+FullscreenManager.setDependencies({
+    fitCurrentMapBounds,
+    onFullscreenChanged: () => {
+        MapPicker.updateState();
+        FilterPanel.updateState();
+        MapToolbar.updateFullscreenToggleButton();
+        requestAnimationFrame(() => {
+            state.mapInstance?.invalidateSize();
+        });
+        PersistedState.save();
+    }
+});
 const mapLayout = document.getElementById("mapLayout");
 const tipsLayout = document.getElementById("tipsLayout");
-const TIPS_PAGE_ID = "__tips__";
 state.currentMapId = mapOrder[0];
 
 function refreshUI() {
     DetailPanel.closeDetail();
     applyViewMode();
-    applyPickerState();
-    applyFilterButtonState();
+    MapPicker.updateState();
+    // FilterPanel.updateState();
     EntityPanel.syncCaughtFilterAllButton();
     MapToolbar.updateAllButtons();
     state.selection.activeMarkerKeys.clear();
@@ -68,62 +86,18 @@ function refreshUI() {
     }
 }
 
-function buildPicker() {
-    mapPicker.innerHTML = "";
-    mapOrder.forEach((mapId) => {
-        const mapInfo = mapsById[mapId];
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = "map-chip";
-        button.dataset.mapId = mapInfo.id;
-        button.innerHTML = `<img src="${mapInfo.thumbnailPath}" alt="${mapInfo.name}"><span>${mapInfo.name}</span>`;
-        button.addEventListener("click", () => selectMap(mapInfo.id));
-        mapPicker.appendChild(button);
-    });
-    const tipsButton = document.createElement("button");
-    tipsButton.type = "button";
-    tipsButton.className = "map-chip tips-chip";
-    tipsButton.dataset.mapId = TIPS_PAGE_ID;
-    tipsButton.innerHTML = "<span>Tips</span>";
-    tipsButton.addEventListener("click", () => selectTipsPage());
-    mapPicker.appendChild(tipsButton);
-}
-
-function applyPickerState() {
-    const chips = mapPicker.querySelectorAll(".map-chip");
-    chips.forEach((chip) => {
-        const active = state.isTipsMode ? chip.dataset.mapId === TIPS_PAGE_ID : chip.dataset.mapId === state.currentMapId;
-        chip.classList.toggle("active", active);
-    });
-}
-
 function applyViewMode() {
     document.body.classList.toggle("tips-mode", state.isTipsMode);
-    controlsSection.hidden = state.isTipsMode;
     mapLayout.hidden = state.isTipsMode;
     tipsLayout.hidden = !state.isTipsMode;
-    if (state.isTipsMode && state.isMapFullscreen) exitMapFullscreen();
+    FilterPanel.updateState();
     MapToolbar.updateTodaySpotToggleButton();
 }
 
-function enterMapFullscreen() {
-    if (state.isTipsMode) return;
-    syncMapFullscreenState(true);
-    fitCurrentMapBounds();
-}
-
-function exitMapFullscreen() {
-    syncMapFullscreenState(false);
-    fitCurrentMapBounds();
-}
-
-function toggleMapFullscreen() {
-    if (state.isMapFullscreen) exitMapFullscreen();
-    else enterMapFullscreen();
-}
-
 function handleViewportChange() {
-    if (state.isMapFullscreen) syncMapFullscreenState(true);
+    if (state.isMapFullscreen) {
+        FullscreenManager.applyFullscreenState();
+    }
     fitCurrentMapBounds();
 }
 
@@ -134,15 +108,6 @@ window.addEventListener("orientationchange", () => {
         fitCurrentMapBounds();
     }, 300);
 });
-
-function applyFilterButtonState() {
-    filterButtons.forEach((btn) => {
-        const group = btn.dataset.group;
-        const value = btn.dataset.value;
-        btn.classList.toggle("active", state.filters[group].has(value));
-    });
-}
-
 // 모바일에서 한 손가락 더블탭으로 확대, 두 손가락 더블탭으로 축소 기능을 구현합니다.
 // iOS Safari의 경우 페이지 전체의 핀치/더블탭 줌이 방해될 수 있어,
 //  map 영역 외에서는 300ms 이내의 터치가 발생하면 기본 동작을 막도록 했습니다.
@@ -250,28 +215,6 @@ function renderMap() {
     MarkerManager.scheduleRender();
 }
 
-function selectMap(mapId) {
-    DetailPanel.closeDetail();
-    if (!state.isTipsMode && state.currentMapId === mapId) {
-        applyPickerState();
-        return;
-    }
-    state.isTipsMode = false;
-    state.currentMapId = mapId;
-    applyViewMode();
-    applyPickerState();
-    PersistedState.save();
-    renderMap();
-}
-
-function selectTipsPage() {
-    DetailPanel.closeDetail();
-    state.isTipsMode = true;
-    applyViewMode();
-    applyPickerState();
-    PersistedState.save();
-}
-
 function installPreventPageDoubleTapZoom() {
     let lastTouchEnd = 0;
     document.addEventListener("touchend", (event) => {
@@ -287,83 +230,48 @@ function installPreventPageDoubleTapZoom() {
     }, {passive: false});
 }
 
-function syncMapFullscreenState(active) {
-    state.isMapFullscreen = active;
-    document.body.classList.toggle("map-fullscreen", active);
-    mapLayout.classList.toggle("map-layout-fullscreen", active);
-    controlsSection.classList.toggle("filter-fullscreen", active);
-    MapToolbar.updateFullscreenToggleButton();
-    requestAnimationFrame(() => {
-        state.mapInstance?.invalidateSize();
-    });
-    PersistedState.save();
-}
-
 function saveAndRender(refreshPanel = true) {
     PersistedState.save();
     MarkerManager.scheduleRender(refreshPanel);
 }
 
+function selectTipsPage() {
+    state.isTipsMode = true;
+    DetailPanel.closeDetail();
+    FullscreenManager.applyFullscreenState();
+    applyViewMode();
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     PersistedState.load();
+    MapPicker.init();
     EntityManager.init();
     StateImportExport.init();
     MapToolbar.init();
-    buildPicker();
+    FilterPanel.init();
+    FullscreenManager.init();
     applyViewMode();
-    applyPickerState();
     createMapIfNeeded();
     installPreventPageDoubleTapZoom();
-    applyFilterButtonState();
     EntityPanel.init();
     DetailPanel.init();
-    filterButtons.forEach((btn) => {
-        const img = document.createElement("img");
-        img.className = "filter-icon";
-        img.src = `./assets/icons/filter/${btn.dataset.value}.svg`;
-        const label = document.createElement("span");
-        label.className = "filter-label";
-        label.textContent = btn.textContent;
-        btn.replaceChildren(img, label);
-        btn.addEventListener("click", () => {
-            const group = btn.dataset.group;
-            const value = btn.dataset.value;
-            const set = state.filters[group];
-            if (set.has(value)) set.delete(value);
-            else set.add(value);
-            applyFilterButtonState();
-            // state.resetActiveOnNextRender = true;
-            saveAndRender();
-        });
-    });
-    /*Tool Bar*/
-    /*Tool Bar*/
+
     document.addEventListener("keydown", (event) => {
         if (event.key !== "Escape") return;
         if (state.isMapFullscreen) {
-            exitMapFullscreen();
+            FullscreenManager.exitMapFullscreen();
         }
         if (DetailPanel.isPanelOpen()) {
             DetailPanel.closeDetail();
         }
     });
-    mapPicker?.addEventListener('wheel', (event) => {
-        if (Math.abs(event.deltaY) > Math.abs(event.deltaX)) {
-            // 기본 세로 스크롤 동작을 막습니다.
-            event.preventDefault();
-            // 휠을 위/아래로 굴릴 때 가로(왼쪽/오른쪽)로 스크롤되도록 설정합니다.
-            // event.deltaY 값을 scrollLeft에 더해줌으로써 부드럽게 이동합니다.
-            const horizontalDelta = event.deltaY;
-            mapPicker.scrollLeft += horizontalDelta;
-        }
-    }, {passive: false}); // preventDefault()를 사용하기 위해 passive를 false로 설정합니다.
-    if (state.isTipsMode) selectTipsPage();
-    else {
+    if (state.isTipsMode) {
+        selectTipsPage();
+    } else {
         renderMap();
         if (state.isMapFullscreen) {
             requestAnimationFrame(() => {
-                syncMapFullscreenState(true);
-                fitCurrentMapBounds();
+                FullscreenManager.applyFullscreenState();
             });
         }
     }
