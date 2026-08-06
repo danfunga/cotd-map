@@ -13,6 +13,7 @@ import MarkerManager from "./manager/markerManager.js";
 import EntityManager from "./manager/entityManager.js";
 import EntityPanel from "./ui/entityPanel.js";
 import DetailPanel from "./ui/detailPanel.js";
+import StateImportExport from "./ui/stateImportExport.js";
 
 MarkerManager.setDependencies({
     renderEntityPanel: (...args) => EntityPanel.render(...args),
@@ -36,12 +37,11 @@ DetailPanel.setDependencies({
 EntityManager.setDependencies({
     saveAndRender
 });
+StateImportExport.setDependencies({
+    refreshUiFromUserState: refreshUI
+});
 const mapPicker = document.getElementById("mapPicker");
 const filterButtons = document.querySelectorAll(".filter-btn[data-group]");
-const exportStateBtn = document.getElementById("exportStateBtn");
-const importStateBtn = document.getElementById("importStateBtn");
-const importedStateDialog = document.getElementById("importStateDialog");
-const importedTextContents = document.getElementById("importStateText");
 const alwaysShowBossBtn = document.getElementById("alwaysShowBossBtn");
 const todaySpotToggleBtn = document.getElementById("todaySpotToggleBtn");
 const realtimeTimeToggleBtn = document.getElementById("realtimeTimeToggleBtn");
@@ -52,22 +52,7 @@ const tipsLayout = document.getElementById("tipsLayout");
 const TIPS_PAGE_ID = "__tips__";
 state.currentMapId = mapOrder[0];
 
-function importUserStateFile(jsonText) {
-    try {
-        PersistedState.import(jsonText);
-        refreshUiFromUserState();
-        alert("가져오기가 완료되었습니다.");
-    } catch (error) {
-        alert(error instanceof Error ? error.message : "가져오기에 실패했습니다.");
-    }
-}
-
-function showImportUserStateDialog() {
-    importedTextContents.value = "";
-    importedStateDialog.showModal();
-}
-
-function refreshUiFromUserState() {
+function refreshUI() {
     DetailPanel.closeDetail();
     applyViewMode();
     applyPickerState();
@@ -389,6 +374,7 @@ function saveAndRender(refreshPanel = true) {
 document.addEventListener("DOMContentLoaded", () => {
     PersistedState.load();
     EntityManager.init();
+    StateImportExport.init();
     buildPicker();
     applyViewMode();
     applyPickerState();
@@ -418,15 +404,6 @@ document.addEventListener("DOMContentLoaded", () => {
             // state.resetActiveOnNextRender = true;
             saveAndRender();
         });
-    });
-    exportStateBtn?.addEventListener("click", PersistedState.export);
-    importStateBtn?.addEventListener("click", () => showImportUserStateDialog());
-    document.getElementById("btnImportCancel").addEventListener("click", () => {
-        importedStateDialog.close();
-    });
-    document.getElementById("btnImportOk").addEventListener("click", () => {
-        importUserStateFile(importedTextContents.value);
-        importedStateDialog.close();
     });
     /*Tool Bar*/
     alwaysShowBossBtn?.addEventListener("click", () => {
