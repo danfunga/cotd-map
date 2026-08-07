@@ -1,15 +1,11 @@
-// data
 // state
-import {state} from "./state/state.js";
 import PersistedState from "./state/persistedState.js";
-// constants
-// repository
-// ui
 //map
 import MarkerManager from "./manager/markerManager.js";
 import EntityManager from "./manager/entityManager.js";
 import MapManager from "./manager/MapManager.js";
 import FullscreenManager from "./manager/fullscreenManager.js";
+// ui
 import EntityPanel from "./ui/entityPanel.js";
 import DetailPanel from "./ui/detailPanel.js";
 import StateImportExport from "./ui/stateImportExport.js";
@@ -18,17 +14,13 @@ import MapPicker from "./ui/mapPicker.js";
 import FilterPanel from "./ui/filterPanel.js";
 
 MarkerManager.setDependencies({
-    renderEntityPanel: (...args) => EntityPanel.render(...args),
+    renderEntityPanel: EntityPanel.render.bind(EntityPanel),
     entityManager: EntityManager,
-    openEntityDetail: (...args) => {
-        DetailPanel.openEntityDetail(...args)
-    },
+    openEntityDetail: DetailPanel.openEntityDetail.bind(DetailPanel)
 });
 EntityPanel.setDependencies({
     entityManager: EntityManager,
-    openEntityDetail: (...args) => {
-        DetailPanel.openEntityDetail(...args)
-    },
+    openEntityDetail: DetailPanel.openEntityDetail.bind(DetailPanel),
     saveAndRender
 });
 DetailPanel.setDependencies({
@@ -42,12 +34,10 @@ StateImportExport.setDependencies({
 });
 MapToolbar.setDependencies({
     toggleMapFullscreen: FullscreenManager.toggleMapFullscreen.bind(FullscreenManager),
-    scheduleRender: (arg) => {
-        MarkerManager.scheduleRender(arg);
-    }
+    scheduleRender: MarkerManager.scheduleRender.bind(MarkerManager)
 });
+
 MapPicker.setDependencies({
-    applyViewMode,
     renderMap: MapManager.renderMap.bind(MapManager)
 });
 FilterPanel.setDependencies({
@@ -58,44 +48,16 @@ FullscreenManager.setDependencies({
     onFullscreenChanged: () => {
         FilterPanel.updateState();
         MapToolbar.updateFullscreenToggleButton();
-        requestAnimationFrame(() => {
-            state.mapInstance?.invalidateSize();
-        });
-        PersistedState.save();
     }
 });
-const mapLayout = document.getElementById("mapLayout");
-const tipsLayout = document.getElementById("tipsLayout");
+MapManager.setDependencies({
+    filterStateUpdate: FilterPanel.updateState.bind(FilterPanel)
+});
 
 function refreshUI() {
-    DetailPanel.closeDetail();
-    applyViewMode();
     EntityPanel.syncCaughtFilterAllButton();
-    MapToolbar.updateAllButtons();
-    state.selection.activeMarkerKeys.clear();
+    MarkerManager.clearSelection();
     MapManager.renderMap();
-}
-
-function applyViewMode() {
-    document.body.classList.toggle("tips-mode", state.isTipsMode);
-    mapLayout.hidden = state.isTipsMode;
-    tipsLayout.hidden = !state.isTipsMode;
-    FilterPanel.updateState();
-}
-
-function installPreventPageDoubleTapZoom() {
-    let lastTouchEnd = 0;
-    document.addEventListener("touchend", (event) => {
-        // map 영역은 제외
-        if (state.mapInstance?.getContainer()?.contains(event.target)) {
-            return;
-        }
-        const now = Date.now();
-        if (now - lastTouchEnd < 300) {
-            event.preventDefault();
-        }
-        lastTouchEnd = now;
-    }, {passive: false});
 }
 
 function saveAndRender(refreshPanel = true) {
@@ -110,10 +72,9 @@ document.addEventListener("DOMContentLoaded", () => {
     StateImportExport.init();
     MapToolbar.init();
     FilterPanel.init();
-    MapManager.init();
+    // detail ESC가 먼저 실행 되도록.
+    DetailPanel.init();
     FullscreenManager.init();
     EntityPanel.init();
-    DetailPanel.init();
-    applyViewMode();
-    installPreventPageDoubleTapZoom();
+    MapManager.init();
 });

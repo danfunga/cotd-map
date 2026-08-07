@@ -42,7 +42,6 @@ class MapPicker {
             button.className = "map-chip";
             button.dataset.mapId = mapInfo.id;
             button.innerHTML = `<img src="${mapInfo.thumbnailPath}" alt="${mapInfo.name}"><span>${mapInfo.name}</span>`;
-            // button.addEventListener("click", (event) => this.selectButton(event.currentTarget));
             this.container.appendChild(button);
         });
         const tipsButton = document.createElement("button");
@@ -50,11 +49,6 @@ class MapPicker {
         tipsButton.className = "map-chip tips-chip";
         tipsButton.dataset.mapId = TIPS_PAGE_ID;
         tipsButton.innerHTML = "<span>Tips</span>";
-        // tipsButton.addEventListener("click", (event) => this.selectButton(event.currentTarget));
-        // tipsButton.addEventListener("click", () => {
-        //     this.updateState();
-        //     this.deps.selectTipsPage()
-        // });
         this.container.appendChild(tipsButton);
     }
 
@@ -80,18 +74,16 @@ class MapPicker {
             this.selectMap(mapId);
         }
         PersistedState.save();
+        this.deps.renderMap();
     }
 
     selectTips() {
         state.isTipsMode = true;
-        this.deps.applyViewMode();
     }
 
     selectMap(mapId) {
         state.isTipsMode = false;
         state.currentMapId = mapId;
-        this.deps.applyViewMode();
-        this.deps.renderMap();
     }
 }
 

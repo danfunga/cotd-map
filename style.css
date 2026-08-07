@@ -763,6 +763,9 @@ body.map-fullscreen {
     right: -5px;
     z-index: 5;
     font-size: 17px;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
 }
 
 .entity-available-time-badge.time-dim {

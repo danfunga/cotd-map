@@ -6,9 +6,14 @@ import MarkerManager from "./markerManager.js";
 class MapManager {
     init() {
         this.mapLayout = document.getElementById("mapLayout");
+        this.tipsLayout = document.getElementById("tipsLayout");
         this.createMapIfNeeded();
         this.registerEvents();
         this.renderMap();
+    }
+
+    setDependencies(deps) {
+        this.deps = deps;
     }
 
     registerEvents() {
@@ -20,6 +25,10 @@ class MapManager {
                 state.mapInstance?.invalidateSize();
                 this.fitCurrentMapBounds();
             }, 300);
+        });
+        // state.mapInstance.off("click");
+        state.mapInstance.on("click",  (e) => {
+            void this.handleMapClick(e);
         });
     }
 
@@ -40,6 +49,7 @@ class MapManager {
         state.markerLayer = L.layerGroup().addTo(state.mapInstance);
         this.installSingleFingerDoubleTapZoomIn();
         this.installTwoFingerDoubleTapZoomOut();
+        this.installPreventPageDoubleTapZoom();
     }
 
     // 모바일에서 한 손가락 더블탭으로 확대, 두 손가락 더블탭으로 축소 기능을 구현합니다.
@@ -90,6 +100,7 @@ class MapManager {
     fitCurrentMapBounds() {
         if (!state.mapInstance) return;
         const mapInfo = mapsById[state.currentMapId];
+        if (!mapInfo) return;
         const bounds = [[0, 0], [mapInfo.imageHeight, mapInfo.imageWidth]];
         state.mapInstance.invalidateSize();
         requestAnimationFrame(() => {
@@ -100,9 +111,42 @@ class MapManager {
         });
     }
 
+    async handleMapClick(event) {
+        if (!event.originalEvent.altKey) return;
+        const point = {
+            x: Math.round(event.latlng.lng),
+            y: Math.round(event.latlng.lat),
+        };
+        const text = `"x": ${point.x}, "y": ${point.y}, "hint_by_bubble" : true`;
+        await navigator.clipboard.writeText(text);
+        showToast("Copy to clipboard: " + text);
+    }
+
+    installPreventPageDoubleTapZoom() {
+        let lastTouchEnd = 0;
+        document.addEventListener("touchend", (event) => {
+            // map 영역은 제외
+            if (state.mapInstance?.getContainer()?.contains(event.target)) {
+                return;
+            }
+            const now = Date.now();
+            if (now - lastTouchEnd < 300) {
+                event.preventDefault();
+            }
+            lastTouchEnd = now;
+        }, {passive: false});
+    }
+
     renderMap() {
-        if (state.isTipsMode) return;
+        document.body.classList.toggle("tips-mode", state.isTipsMode);
+        this.mapLayout.hidden = state.isTipsMode;
+        this.tipsLayout.hidden = !state.isTipsMode;
+        this.deps.filterStateUpdate();
+        if (state.isTipsMode) {
+            return;
+        }
         const mapInfo = mapsById[state.currentMapId];
+        if (!mapInfo) return;
         const bounds = [[0, 0], [mapInfo.imageHeight, mapInfo.imageWidth]];
         if (mapInfo.imageWidth && mapInfo.imageHeight) {
             this.mapLayout.style.setProperty("--active-map-aspect", mapInfo.imageWidth / mapInfo.imageHeight);
@@ -112,25 +156,6 @@ class MapManager {
         });
         L.imageOverlay(mapInfo.imagePath, bounds).addTo(state.mapInstance);
         this.fitCurrentMapBounds();
-        // 여기서 부터 클릭 부분==================
-        state.mapInstance.off("click");
-        state.mapInstance.on("click", async (e) => {
-            // ALT + 클릭만 동작
-            if (!e.originalEvent.altKey) return;
-            const point = {
-                x: Math.round(e.latlng.lng),
-                y: Math.round(e.latlng.lat),
-            };
-            // 보기 쉽게 문자열 생성
-            const text = `"x": ${point.x}, "y": ${point.y}, "hint_by_bubble" : true`;
-            await navigator.clipboard.writeText(text);
-            showToast("Copy to clipboard: " + text);
-            console.log(text);
-        });
-        // 클릭 끝 ==================
-        requestAnimationFrame(() => {
-            state.mapInstance.invalidateSize();
-        });
         MarkerManager.scheduleRender();
     }
 }

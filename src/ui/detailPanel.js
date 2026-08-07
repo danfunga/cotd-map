@@ -26,6 +26,7 @@ class DetailPanel {
             this.closeDetail();
         });
         this.detailSheet.addEventListener("click", (event) => {
+            event.stopPropagation();
             if (!this.detailBody.contains(event.target)) this.closeDetail();
         });
         this.detailBody.addEventListener("click", (event) => {
@@ -42,6 +43,7 @@ class DetailPanel {
             if (event.key !== "Escape" || !this.isPanelOpen()) return;
             this.closeDetail();
             event.preventDefault();
+            event.stopImmediatePropagation();
         });
     }
 
@@ -161,9 +163,6 @@ class DetailPanel {
 
     seasonBar(entity) {
         if (!Array.isArray(entity.seasons) || entity.seasons.length !== 12) return "";
-        if (entity.seasons.every((v) => v === true)) {
-            entity.seasons = [true, true, true, true, true, true, true, true, true, true, true, true];
-        }
         const currentMonth = new Date().getMonth();
         const blocks = entity.seasons
         .map((ok, idx) => {

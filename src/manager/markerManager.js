@@ -149,6 +149,9 @@ class MarkerManager {
             popupAnchor: [0, -16]
         });
     }
+    clearSelection(){
+        state.selection.activeMarkerKeys.clear();
+    }
 
     markerVisualSignature(entity, isPrimary) {
         const activeMonsterIndex = this.deps.entityManager.getMonsterRotationActiveIndex(entity);

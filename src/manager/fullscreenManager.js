@@ -1,4 +1,5 @@
 import {state} from "../state/state.js";
+import PersistedState from "../state/persistedState.js";
 
 class FullscreenManager {
     setDependencies(deps) {
@@ -18,8 +19,9 @@ class FullscreenManager {
     registerEvents() {
         document.addEventListener("keydown", (event) => {
             if (event.key !== "Escape" || !state.isMapFullscreen) return;
-            this.exitMapFullscreen();
+            this.setMapFullscreen(false);
             event.preventDefault();
+            event.stopImmediatePropagation();
         });
     }
 
@@ -33,16 +35,9 @@ class FullscreenManager {
     setMapFullscreen(active) {
         if (state.isTipsMode && active) return;
         state.isMapFullscreen = active;
+        PersistedState.save();
         this.applyFullscreenState();
         this.deps.fitCurrentMapBounds();
-    }
-
-    enterMapFullscreen() {
-        this.setMapFullscreen(true);
-    }
-
-    exitMapFullscreen() {
-        this.setMapFullscreen(false);
     }
 
     toggleMapFullscreen() {
