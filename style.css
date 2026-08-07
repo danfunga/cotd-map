@@ -308,10 +308,7 @@ main {
     width: 100%;
     border: 1px solid #0d729c;
     border-right: none;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+    border-radius: 12px 0 0 12px;
     overflow: hidden;
     background: linear-gradient(180deg, #01283a, #001a28);
     touch-action: none;
@@ -320,7 +317,7 @@ main {
 #entityPanel {
     background: rgba(3, 44, 61, 0.9);
     border: 1px solid rgba(71, 188, 245, 0.35);
-    border-radius: 12px;
+    border-radius: 0 12px 12px 0;
     padding: 8px;
     overflow: hidden;
     display: flex;
@@ -329,11 +326,8 @@ main {
     height: var(--map-h);
     min-height: calc(var(--map-h));
     max-height: var(--map-h);
-    /*max-height: calc(var(--map-h) - 100px);*/
     justify-self: end;
     margin-left: 0;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
     box-sizing: border-box;
 }
 
@@ -499,7 +493,7 @@ main {
 }
 
 .entity-row {
-    border: 1px solid #0d729c;
+    border: 2px solid #0d729c;
     background: #01344a !important;
     color: #d8f2ff;
     border-radius: 8px;
@@ -516,7 +510,8 @@ main {
 }
 
 .entity-row.off {
-    opacity: 0.45;
+    opacity: 0.5;
+    border: 1px solid;
     text-decoration: line-through;
 }
 
