@@ -38,6 +38,11 @@ class DetailPanel {
             if (!toggle) return;
             this.handleToggleCaught(toggle);
         });
+        document.addEventListener("keydown", (event) => {
+            if (event.key !== "Escape" || !this.isPanelOpen()) return;
+            this.closeDetail();
+            event.preventDefault();
+        });
     }
 
     /**

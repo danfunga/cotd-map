@@ -12,6 +12,7 @@ class MapPicker {
     init() {
         this.container = document.getElementById("mapPicker");
         this.buildPicker();
+        this.mapChips = this.container.querySelectorAll(".map-chip");
         this.updateState();
         this.registerEvents();
     }
@@ -27,6 +28,9 @@ class MapPicker {
                 this.container.scrollLeft += horizontalDelta;
             }
         }, {passive: false}); // preventDefault()를 사용하기 위해 passive를 false로 설정합니다.
+        this.mapChips.forEach((chip) => {
+            chip.addEventListener("click", (event) => this.selectButton(event.currentTarget));
+        });
     }
 
     buildPicker() {
@@ -38,7 +42,7 @@ class MapPicker {
             button.className = "map-chip";
             button.dataset.mapId = mapInfo.id;
             button.innerHTML = `<img src="${mapInfo.thumbnailPath}" alt="${mapInfo.name}"><span>${mapInfo.name}</span>`;
-            button.addEventListener("click", () => this.selectMap(mapInfo.id));
+            // button.addEventListener("click", (event) => this.selectButton(event.currentTarget));
             this.container.appendChild(button);
         });
         const tipsButton = document.createElement("button");
@@ -46,28 +50,47 @@ class MapPicker {
         tipsButton.className = "map-chip tips-chip";
         tipsButton.dataset.mapId = TIPS_PAGE_ID;
         tipsButton.innerHTML = "<span>Tips</span>";
-        tipsButton.addEventListener("click", () => this.deps.selectTipsPage());
+        // tipsButton.addEventListener("click", (event) => this.selectButton(event.currentTarget));
+        // tipsButton.addEventListener("click", () => {
+        //     this.updateState();
+        //     this.deps.selectTipsPage()
+        // });
         this.container.appendChild(tipsButton);
     }
 
     updateState() {
-        const chips = this.container.querySelectorAll(".map-chip");
-        chips.forEach((chip) => {
+        this.mapChips.forEach((chip) => {
             const active = state.isTipsMode ? chip.dataset.mapId === TIPS_PAGE_ID : chip.dataset.mapId === state.currentMapId;
             chip.classList.toggle("active", active);
         });
     }
 
-    selectMap(mapId) {
-        if (!state.isTipsMode && state.currentMapId === mapId) {
-            this.updateState();
-            return;
+    setActiveButton(button) {
+        this.mapChips.forEach((chip) => {
+            chip.classList.toggle("active", chip === button);
+        });
+    }
+
+    selectButton(button) {
+        this.setActiveButton(button);
+        const mapId = button.dataset.mapId;
+        if (mapId === TIPS_PAGE_ID) {
+            this.selectTips();
+        } else {
+            this.selectMap(mapId);
         }
+        PersistedState.save();
+    }
+
+    selectTips() {
+        state.isTipsMode = true;
+        this.deps.applyViewMode();
+    }
+
+    selectMap(mapId) {
         state.isTipsMode = false;
         state.currentMapId = mapId;
         this.deps.applyViewMode();
-        this.updateState();
-        PersistedState.save();
         this.deps.renderMap();
     }
 }

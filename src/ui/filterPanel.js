@@ -10,7 +10,6 @@ class FilterPanel {
         this.controlsSection = document.getElementById("controls");
         this.buildButtons();
         this.registerEvents();
-        this.updateState();
     }
 
     registerEvents() {

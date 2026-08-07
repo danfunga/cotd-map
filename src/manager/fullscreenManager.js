@@ -7,6 +7,20 @@ class FullscreenManager {
 
     init() {
         this.mapLayout = document.getElementById("mapLayout");
+        this.registerEvents();
+        if (state.isMapFullscreen) {
+            requestAnimationFrame(() => {
+                this.applyFullscreenState();
+            });
+        }
+    }
+
+    registerEvents() {
+        document.addEventListener("keydown", (event) => {
+            if (event.key !== "Escape" || !state.isMapFullscreen) return;
+            this.exitMapFullscreen();
+            event.preventDefault();
+        });
     }
 
     applyFullscreenState() {
@@ -34,24 +48,6 @@ class FullscreenManager {
     toggleMapFullscreen() {
         this.setMapFullscreen(!state.isMapFullscreen);
     }
-    //
-    // toggleMapFullscreen() {
-    //     if (state.isMapFullscreen) this.exitMapFullscreen();
-    //     else this.enterMapFullscreen();
-    // }
-    //
-    // enterMapFullscreen() {
-    //     if (state.isTipsMode) return;
-    //     state.isMapFullscreen = true;
-    //     this.syncMapFullscreenState();
-    //     this.deps.fitCurrentMapBounds();
-    // }
-    //
-    // exitMapFullscreen() {
-    //     state.isMapFullscreen = false;
-    //     this.syncMapFullscreenState();
-    //     this.deps.fitCurrentMapBounds();
-    // }
 }
 
 const fullscreenManager = new FullscreenManager();
