@@ -57,6 +57,8 @@ class MapPicker {
             const active = state.isTipsMode ? chip.dataset.mapId === TIPS_PAGE_ID : chip.dataset.mapId === state.currentMapId;
             chip.classList.toggle("active", active);
         });
+        const activeChip = [...this.mapChips].find((chip) => chip.classList.contains("active"));
+        activeChip?.scrollIntoView({behavior: "auto", inline: "center", block: "nearest"});
     }
 
     setActiveButton(button) {
