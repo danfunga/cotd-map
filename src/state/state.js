@@ -1,4 +1,5 @@
 import {FILTER_DEFAULTS} from "../constants/filterDefaults.js";
+import {mapOrder} from "../../content/mapIndex.js";
 
 export const createEmptyCategorizedEntityMap = () => ({
     fish: [],
@@ -8,7 +9,7 @@ export const createEmptyCategorizedEntityMap = () => ({
 });
 
 export const state = {
-    currentMapId: null,
+    currentMapId: mapOrder[0],
     isTipsMode: false,
     isMapFullscreen: false,
     currentDetailEntity: null,

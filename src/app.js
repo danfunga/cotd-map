@@ -1,5 +1,4 @@
 // data
-import {mapOrder} from "../content/mapIndex.js";
 // state
 import {state} from "./state/state.js";
 import PersistedState from "./state/persistedState.js";
@@ -67,7 +66,6 @@ FullscreenManager.setDependencies({
 });
 const mapLayout = document.getElementById("mapLayout");
 const tipsLayout = document.getElementById("tipsLayout");
-state.currentMapId = mapOrder[0];
 
 function refreshUI() {
     DetailPanel.closeDetail();
