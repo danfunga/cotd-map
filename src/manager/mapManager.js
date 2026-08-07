@@ -26,8 +26,7 @@ class MapManager {
                 this.fitCurrentMapBounds();
             }, 300);
         });
-        // state.mapInstance.off("click");
-        state.mapInstance.on("click",  (e) => {
+        state.mapInstance.on("click", (e) => {
             void this.handleMapClick(e);
         });
     }

@@ -3,7 +3,7 @@ import PersistedState from "./state/persistedState.js";
 //map
 import MarkerManager from "./manager/markerManager.js";
 import EntityManager from "./manager/entityManager.js";
-import MapManager from "./manager/MapManager.js";
+import MapManager from "./manager/mapManager.js";
 import FullscreenManager from "./manager/fullscreenManager.js";
 // ui
 import EntityPanel from "./ui/entityPanel.js";
