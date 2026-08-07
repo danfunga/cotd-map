@@ -1,7 +1,6 @@
 import {createEmptyCategorizedEntityMap, state} from "../state/state.js";
 import {mapsById} from "../../content/mapIndex.js";
 import {MONSTER_ROTATION_CONFIG, MONSTER_ROTATION_MAP_IDS} from "../constants/constantInclude.js";
-
 import {getCurrentMonth, isRealtimeDayTime} from "../util/timeUtil.js"
 
 class EntityManager {
@@ -10,9 +9,6 @@ class EntityManager {
 
     setDependencies(deps) {
         this.deps = deps;
-    }
-
-    init() {
     }
 
     getGroupCaughtMode(category) {
@@ -122,7 +118,7 @@ class EntityManager {
         return (isDay && entity.timeBand === "night") ||
             (!isDay && entity.timeBand === "day");
     }
-    
+
     shouldHideMarkerByRotation(entity, markerIndex, mapId = state.currentMapId) {
         const categoryKey = entity.category || "fish";
         const activeMonsterIndex = this.getMonsterRotationActiveIndex(entity, mapId);

@@ -149,7 +149,8 @@ class MarkerManager {
             popupAnchor: [0, -16]
         });
     }
-    clearSelection(){
+
+    clearSelection() {
         state.selection.activeMarkerKeys.clear();
     }
 

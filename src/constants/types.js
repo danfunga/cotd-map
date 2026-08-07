@@ -14,6 +14,4 @@
  * @property {number=} difficulty
  * @property {Array} locations
  */
-
-
 /** @typedef {import("leaflet")} Leaflet */

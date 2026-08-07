@@ -3,7 +3,6 @@ import {FILTER_DEFAULTS} from "../constants/filterDefaults.js";
 import {mapOrder} from '../../content/mapIndex.js';
 
 const STORAGE_KEY = "cotd-map:user-state:v1";
-
 const PersistedState = {
     save,
     load,
@@ -11,7 +10,6 @@ const PersistedState = {
     export: exportState,
     import: importState
 };
-
 export default PersistedState;
 
 function write(payload) {
@@ -66,7 +64,6 @@ function validateData(data) {
 
 function apply(data) {
     clearUserStateMemory();
-
     applyState(data);
     applyFilters(data);
     applyCaughtFilterMode(data);
@@ -76,7 +73,6 @@ function apply(data) {
 
 function applyState(data) {
     state.currentMapId = mapOrder.includes(data.mapId) ? data.mapId : mapOrder[0];
-
     state.isTipsMode = Boolean(data.isTipsMode);
     state.isMapFullscreen = Boolean(data.isMapFullscreen);
     state.monsterRotationRevealed = Boolean(data.monsterRotationRevealed);
@@ -90,7 +86,6 @@ function applyFilters(data) {
             data.filters && Array.isArray(data.filters[group])
                 ? data.filters[group]
                 : [...FILTER_DEFAULTS[group]];
-
         state.filters[group] = new Set(values);
     }
 }
@@ -98,7 +93,6 @@ function applyFilters(data) {
 function applyCaughtFilterMode(data) {
     for (const category of ["fish", "creature", "item"]) {
         const mode = data.caughtFilterMode?.[category];
-
         state.caughtFilterMode[category] =
             mode === "all" ||
             mode === "caught" ||
@@ -165,14 +159,12 @@ function buildPayload() {
         monsterRotationRevealed: state.monsterRotationRevealed,
         alwaysShowBoss: state.alwaysShowBoss,
         realtimeTimeFilterEnabled: state.realtimeTimeFilterEnabled,
-
         filters: {
             category: [...state.filters.category],
             time: [...state.filters.time],
             rarity: [...state.filters.rarity],
             availability: [...state.filters.availability]
         },
-
         caughtEntitiesByMap: serializeCaughtEntitiesByMap(),
         caughtFilterMode: {...state.caughtFilterMode},
         activeEntitiesByMap: serializeActiveEntitiesByMap()
