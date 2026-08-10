@@ -141,6 +141,7 @@ class MapManager {
         this.mapLayout.hidden = state.isTipsMode;
         this.tipsLayout.hidden = !state.isTipsMode;
         this.deps.filterStateUpdate();
+        this.deps.updateRealTimeInfo();
         if (state.isTipsMode) {
             return;
         }

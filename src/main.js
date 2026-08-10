@@ -51,12 +51,12 @@ FullscreenManager.setDependencies({
     }
 });
 MapManager.setDependencies({
-    filterStateUpdate: FilterPanel.updateState.bind(FilterPanel)
+    filterStateUpdate: FilterPanel.updateState.bind(FilterPanel),
+    updateRealTimeInfo: MapToolbar.updateRealtimeTimeToggleButton.bind(MapToolbar)
 });
 
 function refreshUI() {
     EntityPanel.syncCaughtFilterAllButton();
-    MapToolbar.updateRealtimeTimeToggleButton();
     MarkerManager.clearSelection();
     MapManager.renderMap();
 }
