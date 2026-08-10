@@ -34,7 +34,8 @@ StateImportExport.setDependencies({
 });
 MapToolbar.setDependencies({
     toggleMapFullscreen: FullscreenManager.toggleMapFullscreen.bind(FullscreenManager),
-    scheduleRender: MarkerManager.scheduleRender.bind(MarkerManager)
+    scheduleRender: MarkerManager.scheduleRender.bind(MarkerManager),
+    saveAndRender,
 });
 MapPicker.setDependencies({
     renderMap: MapManager.renderMap.bind(MapManager)
@@ -55,6 +56,7 @@ MapManager.setDependencies({
 
 function refreshUI() {
     EntityPanel.syncCaughtFilterAllButton();
+    MapToolbar.updateRealtimeTimeToggleButton();
     MarkerManager.clearSelection();
     MapManager.renderMap();
 }

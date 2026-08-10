@@ -1,5 +1,4 @@
 import {state} from "../state/state.js";
-import PersistedState from "../state/persistedState.js";
 import {isRealtimeDayTime} from "../util/timeUtil.js"
 
 class MapToolbar {
@@ -8,32 +7,30 @@ class MapToolbar {
     }
 
     init() {
-        this.alwaysShowBossBtn = document.getElementById("alwaysShowBossBtn");
-        this.todaySpotToggleBtn = document.getElementById("todaySpotToggleBtn");
+        this.showMonsterToggleButton = document.getElementById("showMonsterButton");
+        this.monsterTodaySpotToggleButton = document.getElementById("monsterTodaySpotButton");
         this.realtimeTimeToggleBtn = document.getElementById("realtimeTimeToggleBtn");
         this.fullscreenToggleBtn = document.getElementById("fullscreenToggleBtn");
+        this.lastRealtimeIsDay = isRealtimeDayTime();
         this.registerEvents();
         this.updateAllButtons();
     }
 
     registerEvents() {
-        this.alwaysShowBossBtn?.addEventListener("click", () => {
+        this.showMonsterToggleButton?.addEventListener("click", () => {
             state.alwaysShowBoss = !state.alwaysShowBoss;
-            PersistedState.save();
             this.updateAlwaysShowBossButton();
-            this.deps.scheduleRender(false);
+            this.deps.saveAndRender(false);
         });
-        this.todaySpotToggleBtn?.addEventListener("click", () => {
+        this.monsterTodaySpotToggleButton?.addEventListener("click", () => {
             state.monsterRotationRevealed = !state.monsterRotationRevealed;
-            PersistedState.save();
             this.updateTodaySpotToggleButton();
-            this.deps.scheduleRender(false);
+            this.deps.saveAndRender(false);
         });
         this.realtimeTimeToggleBtn?.addEventListener("click", () => {
             state.realtimeTimeFilterEnabled = !state.realtimeTimeFilterEnabled;
-            this.updateRealtimeTimeToggleButton();
-            PersistedState.save();
-            this.deps.scheduleRender(true);
+            this.updateRealtimeTimeToggleButton(false);
+            this.deps.saveAndRender(true);
         });
         this.fullscreenToggleBtn?.addEventListener("click", () => {
             this.deps.toggleMapFullscreen();
@@ -47,23 +44,28 @@ class MapToolbar {
     }
 
     updateTodaySpotToggleButton() {
-        if (!this.todaySpotToggleBtn) return;
-        this.todaySpotToggleBtn.classList.toggle("on", state.monsterRotationRevealed);
-        this.todaySpotToggleBtn.setAttribute("aria-pressed", state.monsterRotationRevealed ? "true" : "false");
+        if (!this.monsterTodaySpotToggleButton) return;
+        this.monsterTodaySpotToggleButton.classList.toggle("on", state.monsterRotationRevealed);
+        this.monsterTodaySpotToggleButton.setAttribute("aria-pressed", state.monsterRotationRevealed ? "true" : "false");
     }
 
     updateAlwaysShowBossButton() {
-        if (!this.alwaysShowBossBtn) return;
-        this.alwaysShowBossBtn.classList.toggle("on", state.alwaysShowBoss);
-        this.alwaysShowBossBtn.setAttribute("aria-pressed", state.alwaysShowBoss ? "true" : "false");
+        if (!this.showMonsterToggleButton) return;
+        this.showMonsterToggleButton.classList.toggle("on", state.alwaysShowBoss);
+        this.showMonsterToggleButton.setAttribute("aria-pressed", state.alwaysShowBoss ? "true" : "false");
     }
 
-    updateRealtimeTimeToggleButton() {
+    updateRealtimeTimeToggleButton(renderOnTimeChange = true) {
         if (!this.realtimeTimeToggleBtn) return;
         const isDay = isRealtimeDayTime();
-        this.realtimeTimeToggleBtn.textContent = isDay ? " 실시간 ☀️️" : "실시간 🌙"
+        const isTimeChanged = this.lastRealtimeIsDay !== isDay;
+        this.lastRealtimeIsDay = isDay;
+        this.realtimeTimeToggleBtn.textContent = isDay ? "실시간 ☀️️" : "실시간 🌙";
         this.realtimeTimeToggleBtn.classList.toggle("on", state.realtimeTimeFilterEnabled);
         this.realtimeTimeToggleBtn.setAttribute("aria-pressed", state.realtimeTimeFilterEnabled ? "true" : "false");
+        if (renderOnTimeChange && isTimeChanged && state.realtimeTimeFilterEnabled) {
+            this.deps.scheduleRender(true);
+        }
     }
 
     updateFullscreenToggleButton() {
