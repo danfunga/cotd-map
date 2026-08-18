@@ -2,6 +2,7 @@ import {state} from "../state/state.js";
 import {mapsById} from "../../content/mapIndex.js";
 import {showToast} from "../ui/toast.js";
 import MarkerManager from "./markerManager.js";
+import {isRealtimeDayTime} from "../util/timeUtil.js";
 
 class MapManager {
     init() {
@@ -116,7 +117,8 @@ class MapManager {
             x: Math.round(event.latlng.lng),
             y: Math.round(event.latlng.lat),
         };
-        const text = `"x": ${point.x}, "y": ${point.y}, "hint_by_bubble" : true`;
+        const dayString = isRealtimeDayTime()?"day":"night";
+        const text = `"x": ${point.x}, "y": ${point.y}, "time": "${ dayString}", "hint_by_bubble" : true`;
         await navigator.clipboard.writeText(text);
         showToast("Copy to clipboard: " + text);
     }

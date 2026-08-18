@@ -1086,11 +1086,11 @@
       {
         "x": 1121,
         "y": 804,
+        "time": "night",
         "hint_by_bubble": true
       }
     ],
     "notes": "개복치속는 진정한 거인으로, 남동쪽의 개방된 물에서 즐깁니다.<br/><font color=\"yellow\"><p>거품을 찾아 다니는게 빨랐다.</p></font>",
-
     "difficulty": 2,
     "seasons": [
       false,

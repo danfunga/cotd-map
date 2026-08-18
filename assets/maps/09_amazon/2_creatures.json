@@ -379,15 +379,11 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 1218,
-        "y": 823
-      },
-      {
-        "x": 2316,
-        "y": 1164
+        "x": 1543,
+        "y": 936
       }
     ],
-    "notes": "",
+    "notes": "<font color=\"yellow\">왼쪽, 오른쪽에서 다 잡음. 돌고래랑 똑같이 좁은 고정 방식.</font>",
     "difficulty": 1,
     "seasons": [
       true,
@@ -422,7 +418,7 @@
         "y": 1287.5137674427388
       }
     ],
-    "notes": "매너티와 같은 곳에서 잡힌다",
+    "notes": "<font color=\"yellow\">던지고 당기다 보니 잡힌다. 왼쪽 오른쪽 다 잡히더라.</font>",
     "difficulty": 1,
     "seasons": [
       true,

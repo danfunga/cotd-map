@@ -803,9 +803,15 @@
       {
         "x": 572,
         "y": 387
+      },
+      {
+        "x": 202,
+        "y": 416,
+        "time": "day",
+        "hint_by_bubble": true
       }
     ],
-    "notes": "첫 사진 왼쪽이 부처 머리",
+    "notes": "<font color=\"yellow\">칸이 넓고 느리다.</font>",
     "difficulty": 2,
     "seasons": [
       true,
@@ -879,15 +885,13 @@
         "y": 84
       },
       {
-        "x": 274,
-        "y": 166
-      },
-      {
-        "x": 950,
-        "y": 146
+        "x": 296,
+        "y": 568,
+        "time": "day",
+        "hint_by_bubble": true
       }
     ],
-    "notes": "",
+    "notes": "<font color=\"yellow\">칸이 좁고 움직임이 빠르다.</font>",
     "difficulty": 2,
     "seasons": [
       false,

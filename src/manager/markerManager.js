@@ -73,7 +73,7 @@ class MarkerManager {
         if (bundle) return bundle;
         const locs = Array.isArray(entity.locations) ? entity.locations : [];
         const markers = locs.map((l, idx) => {
-            const marker = L.marker([l.y, l.x], {icon: this.markerIcon(entity, idx === 0, idx, l.hint_by_bubble)});
+            const marker = L.marker([l.y, l.x], {icon: this.markerIcon(entity, idx === 0, idx, l.hint_by_bubble, l.time)});
             marker.on("click", () => this.deps.openEntityDetail(entity, idx));
             marker.on("add", () => {
                 const element = marker.getElement();
@@ -103,7 +103,7 @@ class MarkerManager {
         bundle.markers.forEach((marker, idx) => {
             const nextSig = this.markerVisualSignature(entity, idx === 0);
             if (bundle.iconSignatures[idx] === nextSig) return;
-            marker.setIcon(this.markerIcon(entity, idx === 0, idx, Boolean(locs[idx]?.hint_by_bubble)));
+            marker.setIcon(this.markerIcon(entity, idx === 0, idx, Boolean(locs[idx]?.hint_by_bubble)), locs[idx]?.time);
             bundle.iconSignatures[idx] = nextSig;
         });
     }
@@ -122,7 +122,7 @@ class MarkerManager {
         return hasVisibleMarker;
     }
 
-    markerIcon(entity, isPrimary = false, markerIndex = 0, hintByBubble = false) {
+    markerIcon(entity, isPrimary = false, markerIndex = 0, hintByBubble = false, time="day") {
         const rarityKey = entity.rarity;
         const categoryKey = entity.category || "fish";
         const caught = this.deps.entityManager.isCaught(entity);
@@ -142,7 +142,8 @@ class MarkerManager {
         alt="${this.deps.entityManager.label(entity)}"
       >
       ${markerNumber ? `<span class="marker-number ${timeDimClass}">${markerNumber}</span>` : ""}
-      ${caught ? `<span class="caught-v marker-v ${timeDimClass}">✓</span>` : ""}
+      ${hintByBubble ? `<span class="marker-v ${bubbleHintClass} ${time} ${timeDimClass}">🫧</span>` : ""}
+      ${!hintByBubble&&caught ? `<span class="caught-v marker-v ${timeDimClass}">✓</span>` : ""}
     `,
             iconSize: [30, 30],
             iconAnchor: [15, 15],
