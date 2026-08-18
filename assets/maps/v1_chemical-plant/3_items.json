@@ -101,7 +101,7 @@
         "y": 960
       }
     ],
-    "notes": "",
+    "notes": "높은 방사선 지역을 찾아봐. 오락실 동쪽지역을 조사할 것을 제안해. (잘 안나왔음.)",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -404,11 +404,10 @@
     "timeBand": "both",
     "locations": [
       {
-        "x": 516,
-        "y": 1068
+        "x": 405, "y": 1084
       }
     ],
-    "notes": "",
+    "notes": "서쪽 크레인 근처 북쪽 지역에서 찾아봐",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
@@ -888,7 +887,7 @@
         "y": 924
       }
     ],
-    "notes": "",
+    "notes": "버려진 오락실 반대편에",
     "difficulty": null,
     "seasons": [],
     "minigame": null,
