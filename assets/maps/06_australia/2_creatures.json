@@ -413,19 +413,15 @@
     "timeBand": "night",
     "locations": [
       {
-        "x": 901,
-        "y": 385
-      },
-      {
-        "x": 771,
-        "y": 468
-      },
-      {
         "x": 885,
         "y": 575
+      },
+      {
+        "x": 901,
+        "y": 385
       }
     ],
-    "notes": "",
+    "notes": "<font color=\"yellow\">섬 위쪽으로 날라오긴 했다. CAW, CAR 다 권하더라.</font>",
     "difficulty": 0,
     "seasons": [
       true,
