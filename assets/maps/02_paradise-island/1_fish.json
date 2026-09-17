@@ -351,7 +351,7 @@
     "latin": "Bolbometopon muricatum",
     "category": "fish",
     "rarity": "rare",
-    "timeBand": "day",
+    "timeBand": "both",
     "locations": [
       {
         "x": 790,

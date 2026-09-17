@@ -629,7 +629,7 @@
     "latin": "Hemitripterus bolini",
     "category": "fish",
     "rarity": "common",
-    "timeBand": "night",
+    "timeBand": "both",
     "locations": [
       {
         "x": 1309,

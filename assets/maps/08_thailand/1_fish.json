@@ -336,7 +336,7 @@
     "latin": "Bagarius yarrelli",
     "category": "fish",
     "rarity": "common",
-    "timeBand": "night",
+    "timeBand": "both",
     "locations": [
       {
         "x": 211,

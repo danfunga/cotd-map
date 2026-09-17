@@ -125,7 +125,7 @@
     "latin": "Dosidicus gigas",
     "category": "creature",
     "rarity": "common",
-    "timeBand": "night",
+    "timeBand": "both",
     "locations": [
       {
         "x": 1803,

@@ -847,7 +847,7 @@
     "latin": "Electrophorus electricus",
     "category": "fish",
     "rarity": "rare",
-    "timeBand": "night",
+    "timeBand": "both",
     "locations": [
       {
         "x": 1022,
